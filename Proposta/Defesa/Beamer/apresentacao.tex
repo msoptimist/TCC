@@ -71,9 +71,9 @@
 %\usetheme{JuanLesPins}
 %\usetheme{Luebeck}
 %\usetheme{Madrid}
-\usetheme{Malmoe}
+%\usetheme{Malmoe}
 %\usetheme{Marburg}
-%\usetheme{Montpellier}
+\usetheme{Montpellier}
 %\usetheme{PaloAlto}
 %\usetheme{Pittsburgh}
 %\usetheme{Rochester}
@@ -89,8 +89,8 @@
 %\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
-%\usecolortheme{crane}
-\usecolortheme{dolphin}
+\usecolortheme{crane}
+%\usecolortheme{dolphin}
 %\usecolortheme{dove}
 %\usecolortheme{fly}
 %\usecolortheme{lily}
@@ -142,30 +142,20 @@
 %   TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-%cores
 %--------------------------------------
-\newcommand{\azul}[1]{\textcolor{blue}{#1}}
+\title[Defesa de Proposta de TCC]{Aplicação do Processo de Descoberta de Conhecimento em Bases de Dados de Domínios Públicos} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\newcommand{\vermelho}[1]{\textcolor{red}{#1}}
-
-\newcommand{\verde}[1]{\textcolor{green}{#1}}
-
-\newcommand{\preto}[1]{\textcolor{black}{#1}}
-
-%--------------------------------------
-\title[Apresentação]{Apresentação} % The short title appears at the bottom of every slide, the full title is only on the title page
-
-\author[Yudi]{
-Yudi Matsuzake\\
+\author[Gabriel]{
+Gabriel Levis Zawalski\\
 } % Your name
 
 \institute[UTFPR] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
 Universidade Tecnológica Federal do Paraná\\ % Your institution for the title page
 \medskip
-\textit{matsuzake@alunos.utfpr.edu.br} \\ % Your email address
+\textit{gabrielzawalski@gmail.com} \\ % Your email address
 \medskip
-\url{https://github.com/yudi-matsuzake/} 
+\url{https://github.com/glzawalski/} 
 }
 \date{\today} % Date, can be changed to a custom date
 
@@ -179,32 +169,21 @@ Universidade Tecnológica Federal do Paraná\\ % Your institution for the title 
 \titlepage % Print the title page as the first slide
 \end{frame}
 
-\newcommand{\sumario}{
-\begin{frame}[allowframebreaks]{Outline}
-\frametitle{Sumário} % Table of contents slide, comment this block out to remove it
-\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
-\end{frame}
-}
-
-\sumario
-
 %----------------------------------------------------------------------------------------
 %   PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
-\input{secoes/secao0.tex}
+\input{secoes/sumario.tex}
+\input{secoes/introducao.tex}
+\input{secoes/objetivos.tex}
+\input{secoes/justificativa.tex}
+\input{secoes/metodologia.tex}
+\input{secoes/cronograma.tex}
+\input{secoes/referencias.tex}
 
 %------------------------------------------------
 
-\section{Referências}
-
-\begin{frame}[allowframebreaks]{Outline}
-\frametitle{Referências}
-\bibliography{referencias}
-\end{frame}
-
-%------------------------------------------------
-
+\section*{}
 \begin{frame}
 \centerline{Dúvidas?}
 \titlepage
