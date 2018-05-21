@@ -15,7 +15,7 @@
 %   PACKAGES AND THEMES
 %----------------------------------------------------------------------------------------
 
-\documentclass{beamer}
+\documentclass[xcolor=table]{beamer}
 
 \mode<presentation> {
 
@@ -44,6 +44,7 @@
 
 % --verticalmente centralizado----
 \usepackage{array,booktabs}% http://ctan.org/pkg/{array,booktabs}
+\usepackage{multirow}
 % ---------------
 
 
@@ -121,6 +122,7 @@
 }
 
 \usepackage{graphicx} % Allows including images
+\graphicspath{ {./imagens/} }
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
 % letras riscadas em cima
@@ -146,7 +148,7 @@
 \title[Defesa de Proposta de TCC]{Aplicação do Processo de Descoberta de Conhecimento em Bases de Dados de Domínios Públicos} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author[Gabriel]{
-Gabriel Levis Zawalski\\
+Gabriel Levis Zawalski\\ \footnotesize Orientadora: Profª Helyane Bronoski Borges \\ \footnotesize Coorientadora: Thissiany Beatriz Almeida
 } % Your name
 
 \institute[UTFPR] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -185,7 +187,6 @@ Universidade Tecnológica Federal do Paraná\\ % Your institution for the title 
 
 \section*{}
 \begin{frame}
-\centerline{Dúvidas?}
 \titlepage
 \end{frame}
 
