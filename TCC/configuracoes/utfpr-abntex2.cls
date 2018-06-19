@@ -315,11 +315,14 @@
 \renewcommand{\folhaderostocontent}
 {%
     \setcounter{page}{2}
+
+    \vspace*{109pt}
+
     \begin{center}
         \large\MakeUppercase{\imprimirautor}\\
     \end{center}
 
-    \vspace*{96pt}
+    \vspace*{121pt}
 
     \begin{center}
         \ABNTEXchapterfont\large\MakeUppercase{\imprimirtitulo}

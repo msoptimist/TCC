@@ -2,18 +2,58 @@
 
 \chapter{INTRODUÇÃO}
 \label{chap:introducao}
-Introdução do trabalho
+
+Com a crescente presença de serviços digitais na vida cotidiana da população, como uso de redes sociais, serviços de streaming, lojas e compras online uma quantidade enorme de dados está sendo armazenada a todo momento em todos os lugares do mundo. Acumular dados não é suficiente por si só, tão importante quanto é extrair informações destes. Porém, a maioria dos métodos tradicionais de análise ainda requerem interpretação manual, sendo muitas vezes ineficientes, demorados, custosos além de propensos à subjetividade do analista.
+
+(Fayyad 1996) diz que neste cenário há uma grande necessidade de novas teorias e ferramentas computacionais a fim de auxiliar na extração de conhecimento dos grandes e cada vez maiores volumes de dados.
+
+O processo de Descoberta de Conhecimento em Bases de Dados (Knowledge Discovery in Databases - KDD), termo cunhado por (Shapiro 1989) na realização do primeiro workshop a respeito do tema, foi uma resposta aos problemas causados por esse grande acumulo de dados.
+
+O KDD é um processo iterativo não trivial dividido em 9 etapas dependentes de interações do usuário. A Figura 1 apresenta a sequência das etapas do processo de KDD de forma simplificada. O processo tem por objetivo identificar informações válidas, novas, potencialmente úteis e compreensíveis em um grupo de dados, segundo (Fayyad 1996). Essas informações extraídas também precisam ser, até certo grau de certeza, válidas para um novo conjunto de dados. O processo de KDD envolve desde a compreensão dos dados armazenados na base, sua seleção e pré-processamento, passando por etapas de transformação e aplicação de técnicas de mineração de dados, terminando nas etapas de identificação dos padrões gerados que se enquadram nos requisitos de conhecimento do processo.
+
+Entre as etapas do processo de KDD, a mineração de dados é uma das que possui grande ênfase tanto nas áreas acadêmicas quanto nas áreas práticas devido as grandes quantidades de métodos e resultados disponíveis e testados. O processo de mineração de dados envolve a descoberta de padrões a partir de dados e a adaptação de modelos para melhor acomodar os dados existentes, se utilizando de técnicas de muitas áreas diversas, como aprendizagem de máquina, reconhecimento de padrões e estatística. Dentro dos diversos métodos de mineração de dados, sendo os mais comuns os de classificação, clusterização e regressão, existem uma extensa gama de algoritmos, porém todos com funcionamentos e fundamentos parecidos. (Fayyad 1996) diz que os métodos de mineração de dados podem ser compostos de três algoritmos diferentes: modelo de representação, modelo de avaliação, e busca.
+	
+Como foi citado anteriormente, somente ter acesso a determinados dados não garante a completa compreensão do problema, porém, com a aplicação de processos como o KDD, pode-se tirar conclusões úteis a respeito dos dados tratados. Este trabalho tem como objetivo utilizar o processo do KDD na base de dados descrita acima, a fim de encontrar uma modelagem de previsão de sucesso da postagem com uma taxa de erro aceitável, fazendo uso de diferentes técnicas de mineração e análise de dados.
 
 \section{DESCRIÇÃO DO PROBLEMA E MOTIVAÇÃO}
 \label{sec:descricaomotivacao}
-Motivação do trabalho
+
+O grande aumento do volume de dados acumulados por diversos tipos de aplicações pode gerar um grande problema, uma vez que nem sempre somente tê-los significa ter algum conhecimento a respeito do problema em questão. Erros podem ser cometidos sem uma devida análise rigorosa e metódica a fim de se extrair informações relevantes, levando a conclusões erradas e na base de achismos. Aplicar o processo de KDD se torna cada vez mais interessante nesse cenário superpopuloso de dados uma vez que estabelece um processo que pode ser seguido e replicado em diversos tipos de situações diferentes. A base de dados utilizada no trabalho foi escolhida por possuir dados de uma situação real, além de serem relativamente recentes e com poucos trabalhos explorando os diversos tratamentos que os dados podem receber, permitindo assim uma grande gama de abordagens diferentes possíveis.
 
 \section{OBJETIVOS}
 \label{sec:objetivos}
-Objetivos gerais e específicos do trabalho
+Esta Seção apresenta o obejtivos geral e os objetivos específicos deste trabalho. Na Subseção \ref{subsec:objGerais} se encontra o objetivo geral e na Subseção \ref{subsec:objEspecificos} se encontram os objetivos específicos.
+
+\subsection{Objetivos gerais}
+\label{subsec:objGerais}
+O objetivo geral deste trabalho é aplicar o processo de KDD numa base de dados de domínio público a fim de criar um modelo de previsão de sucesso de postagem.
+
+\subsection{Objetivos específicos}
+\label{subsec:objEspecificos}
+Como objetivos específicos têm-se:
+\begin{itemize}
+	\item Compreender o funcionamento do processo de KDD;
+	\item Analisar as etapas do KDD, identificado técnicas que podem ser aplicadas;
+	\item Aplicar o processo de KDD na base de dados;
+	\item Realizar experimentos e analisar os resultados obtidos através de comparação estatística com outros trabalhos da área.
+\end{itemize}
 
 \section{ORGANIZAÇÃO DO TRABALHO}
 \label{sec:organizacaoTrabalho}
+Este trabalho encontra-se dividido nos seguintes sete capítulos:
 
-Normalmente ao final da introdução é apresentada, em um ou dois parágrafos curtos, a organização do restante do trabalho acadêmico.
-Deve-se dizer o quê será apresentado em cada um dos demais capítulos.
+\begin{itemize}
+	\item Capítulo \ref{chap:introducao}: Capítulo introdutório de contextualização do trabalho, apresentando em linhas gerais a situação atual, a motivação que levou a idealização deste trabalho e os objetivos a serem alcançados.
+
+	\item Capítulo \ref{chap:descobertaConhecimento}: Este capítulo aborda os conceitos necessários para compreender o processo de KDD. Contém uma descrição das etapas que o constituem como um todo e entra mais a fundo em conceitos importantes da parte de mineração de dados.
+
+	\item Capítulo \ref{chap:redesSociais}: O capítulo apresenta conceitos e definições a respeito de redes sociais, classificando-as e descrevendo sua relevância fora e dentro da área acadêmica. Também contém uma explicação a respeito de termos da rede social Facebook, sendo esta o local onde os dados utilizados neste trabalho foram retirados.
+
+	\item Capítulo \ref{chap:revisaoSistematica}: Neste capítulo encontra-se uma explicação a respeito do método de revisão metodológica, ressaltando os pontos importantes do processo e a aplicação deste em bases de artigos acadêmicos, permitindo a identificação de trabalhos correlatos que serviram de referência para a elaboração deste.
+
+	\item Capítulo \ref{chap:metodologia}: O capítulo descreve a base de dados utilizada para a realização dos experimentos deste trabalho, bem como as técnicas e métodos a serem aplicados na mesma, seguindo o processo definido no capítulo \ref{chap:descobertaConhecimento}.
+
+	\item Capítulo \ref{chap:resultados}: Este capítulo contém a descrição e análise dos resultados obtidos após a aplicação dos métodos e técnicas descritos no capítulo \ref{chap:metodologia} sobre a base de dados deste trabalho.
+
+	\item Capítulo \ref{chap:conclusao}: O capítulo contém possibilidades de continuações deste trabalho, bem como as considerações finais a respeito dos resultados obtidos e do cumprimento dos objetivos propostos.
+\end{itemize}
