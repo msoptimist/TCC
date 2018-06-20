@@ -1,0 +1,33 @@
+% BASE DE DADOS UTILIZADA NO TRABALHO---------------------------------------------------------------------
+
+% CORRIGIR TABELA NÃO SEPARANDO EM DUAS PÁGINAS
+% LONGTABLE NÃO FUNCIONA
+
+\begin{quadro}[!htb]
+	\centering
+	\caption{Descrição dos atributos da base de dados utilizada no trabalho.\label{qua:descBaseDados}}
+	\small
+	\begin{longtable}{|p{7cm}|p{7cm}|}
+        		\hline
+		\textbf{Atributo} & \textbf{Descrição} \\ \hline
+		\textit{Page total likes} & Quantidade de likes totais da página quando feita a postagem. \\ \hline
+		\textit{Type} & Tipo de postagem, entre Fotos, \textit{Link}, Status e Vídeo. \\ \hline
+		\textit{Category} & Categoria de tipo de propaganda utilizada internamente pela empresa, adicionado de forma manual na base de dados. \\ \hline
+		\textit{Post Month} & Mês em que a postagem foi feita, retirado da data da postagem. \\ \hline
+		\textit{Post Weekday} & Dia da semana em que a postagem foi feita, retirado da data da postagem. \\ \hline
+		\textit{Post Hour} & Hora do dia em que a postagem foi feita, retirado da data da postagem. \\ \hline
+		\textit{Paid} & Se o post usou os serviços de anúncios pagos do \textit{Facebook}. \\ \hline
+		\textit{Lifetime Post Total Reach} & Quantidade de usuários únicos que a postagem alcançou, independente da forma com que a postagem chegou até o usuário. \\ \hline
+		\textit{Lifetime Post Total Impressions} & Quantidade total de vezes que uma postagem foi vista. Esse número pode ser maior que o \textit{Total Reach} pois um mesmo usuário pode ver a postagem diversas vezes. \\ \hline
+		\textit{Lifetime Engaged Users} & Quantidade de usuários que clicaram na postagem de forma que geram ou não \textit{Stories}. \textit{Stories} são tipos de interações que fazem com que a postagem seja propagada para outros usuários, como, por exemplo, Compartilhar. Dessa forma essa estatística conta a quantidade total de usuários que clicaram na postagem de uma forma qualquer. (RETIRAR EXPLICAÇÃO DE STORIES DAQUI) \\ \hline
+		\textit{Lifetime Post Consumers} & Quantidade de usuários que clicaram na postagem de forma que não geram \textit{Stories}. Essa estatística é diferente da \textit{Lifetime Engaged Users} pois só conta os usuários que clicaram na postagem de forma a não espalhar a postagem, dessa forma contando somente clique dentro do conteúdo em si, como tocar o vídeo ou ampliar a foto, por exemplo. \\ \hline
+		\textit{Lifetime Post Comsumptions} & Quantidade total de cliques que não geram \textit{Stories}. Essa estatística conta a quantidade de clique feitos pelos \textit{Post Consumers}, tentando aproximar a quantidade de vezes que a postagem foi consumida, seja quantidade de vezes que o vídeo foi visto ou quantos clicaram no link compartilhado. \\ \hline
+		\textit{Lifetime Post Impressions by people who have liked your Page} & Quantidade total de vezes que uma postagem foi vista por usuários que deram \textit{like} na página. \\ \hline
+		\textit{Lifetime Post reach by people who like your Page} & Quantidade de usuários únicos que a postagem alcançou, independente da forma com que a postagem chegou até o usuário, porém somente conta usuários que deram \textit{like} na página. \\ \hline
+		\textit{Lifetime People who have liked your Page and engaged with your post} & Quantidade de usuários que deram \textit{like} na página e interagiram com a postagem de alguma forma que gera ou não \textit{Stories}. \\ \hline
+		\textit{Comment} & Quantidade de comentários da postagem. \\ \hline
+		\textit{Like} & Quantidade de \textit{likes} da postagem. \\ \hline
+		\textit{Share} & Quantidade de compartilhamentos da postagem. \\ \hline
+		\textit{Total Interactions} & Quantidade total de interações com a postagem, ou seja, a soma do total de comentários, \textit{likes} e compartilhamentos. \\ \hline
+    \end{longtable}
+\end{quadro}

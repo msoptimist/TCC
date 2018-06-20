@@ -1,24 +1,103 @@
 %DESCOBERTA DE CONHECIMENTO----------------------------------------------------
 
-\chapter{DESCOBERTA DE CONHECIMENTO}
+% REFERÊNCIAS DESTE CAPÍTULO
+%
+%	KDD UNIFYING FRAMEWORK
+%	DATA MINING A KNOWLEDGE DISCOVERY APPROACH
+
+\chapter{DESCOBERTA DE CONHECIMENTO EM BASES DE DADOS}
 \label{chap:descobertaConhecimento}
-Capítulo sobre o processo de descoberta do conhecimento e suas etapas
+Este capítulo aborda o processo de Descoberta de Conhecimento em Bases de dados, abreviado pela sua silga em inglês KDD. A Seção \ref{sec:conceitosKDD} apresenta o histórico e informações básicas a respeito do processo como um todo, oferecendo uma visão geral de suas partes principais e de sua importância. A Seção \ref{sec:etapasKDD} contém uma explicação mais detalhada dos principais agrupamentos de etapas do processo, cada uma explicada nas Seções secundárias \ref{subsec:preprocKDD}, \ref{subsec:mineKDD} e \ref{subsec:posprocKDD}. Dentro da Seção secundária \ref{subsec:mineKDD} uma Seção terciária \ref{subsubsec:tarefasMineKDD} entra em mais detalhes a respeito das tarefas associadas à mineração de dados.
 
 \section{CONCEITOS FUNDAMENTAIS DO KDD}
 \label{sec:conceitosKDD}
-Conceitos gerais e relevância do estudo do kdd
+
+(BASEAR SEÇÃO EM Data Mining A Knowledge Discovery Approach)
+
+KDD é um processo não-trivial de identificação de padrões validos, novos, potencialmente uteis e compreensíveis de dados. (citar KDD unifying framework)
+
+KDD é um processo consistente de diversas etapas.
+
+Os dados passam por tratamentos e técnicas de extração de informação a fim de encontrar informações.
+
+Estas informações precisam atender a requisitos, como serem novas, potencialmente úteis e válidas para vários casos.
+
+O KDD é importante para criar um padrão de análise de dados que pode ser seguido.
+
+Garante que os dados possam ser reutilizados e testes replicados de maneira consistente.
+
+Em suma, extrai uma abstração de alto nível dos dados.
 
 \section{ETAPAS DO KDD}
 \label{sec:etapasKDD}
-As etapas do kdd
+O processo de KDD envolve vários passos incluindo etapas com input de decisões, ou seja, ele é interativo e iterativo.
+
+O processo de KDD para extração de conhecimento em ambito acadêmico foi definido por Fayyad (citar Data Mining A Knowledge Discovery Approach) e é dividido em 9 etapas.
+
+\begin{enumerate}
+	\item Entendimento do domínio da aplicação
+	\item Seleção de dados
+	\item Limpeza dos dados
+	\item Redução de dados e projeção
+	\item Escolha da tarefa de mineração
+	\item Escolha do algoritmo de mineração
+	\item Mineração
+	\item Interpretação dos padrões minerados
+	\item Consolidação do conhecimento extraído
+\end{enumerate}
+
+O processo pode conter loops entre quaisquer pontos do processo, porém o fluxo básico é ilustrado na Figura (Figura do processo).
+
+A maioria dos trabalhos focam-se exlusivamente no passo sete (CITAR FAYYAD NISSO), porém todos os passos são importantes.
+
+Para as delimitações deste trabalho, dividiremos os 9 passos do processo em 3 grupos, sendo o primeiro chamado pré-processamento englobando os passos 1 ao 4, o segundo de mineração de dados engolbando os passos 5 ao 7 e o ultimo grupo denominado de pós-processamento engolbando os restantes passos 8 e 9.
 
 \subsection{Pré-processamento}
 \label{subsec:preprocKDD}
 
+O pré-processamento engloba dos passos 1 ao 4 do processo completo do KDD.
+
+(Data Mining A Knowledge Discovery Approach)
+1. Developing and understanding the application domain. This step includes learning the relevant prior knowledge and the goals of the end user of the discovered knowledge.
+2. Creating a target data set. Here the data miner selects a subset of variables (attributes) and data points (examples) that will be used to perform discovery tasks. This step usually includes querying the existing data to select the desired subset.
+3. Data cleaning and preprocessing. This step consists of removing outliers, dealing with noise and missing values in the data, and accounting for time sequence information and known changes.
+4. Data reduction and projection. This step consists of finding useful attributes by applying dimension reduction and transformation methods, and finding invariant representation of the data.
+
+(KDD unifying framework)
+1. Developing an understanding of the application domain and the relevant prior knowledge, and identifying the goal of the KDD process from the customer’s viewpoint.
+2. Creating a target data set: selecting a data set, or focusing on a subset of variables or data samples, on which discovery is to be performed.
+3. Data cleaning and preprocessing: basic operations such as the removal of noise if appropriate, collecting the necessary information to model or account for noise, deciding on strategies for handling missing data fields, accounting for time sequence information and known changes.
+4. Data reduction and projection: finding usefid features to represent tile data depending on tile goal of tile task. Using dimensionality reduction or transformation methods to reduce tile effective number of variables under consideration or to find invariant representations for the data.
+
 \subsection{Mineração de dados}
 \label{subsec:mineKDD}
 
+Engloba as etapas de 5 a 7 do KDD e área de grande enfoque de pesquisa científica.
+
+(Data Mining A Knowledge Discovery Approach)
+5. Choosing the data mining task. Here the data miner matches the goals defined in Step 1 with a particular DM method, such as classification, regression, clustering, etc.
+6. Choosing the data mining algorithm. The data miner selects methods to search for patterns in the data and decides which models and parameters of the methods used may be appropriate.
+7. Data mining. This step generates patterns in a particular representational form, such as classification rules, decision trees, regression models, trends, etc.
+
+(KDD unifying framework)
+5. Matching tile goals of tile KDD process (step 1) to particular data mining method: e.g., summarization, classification, regression, clustering, etc. Methods are described in Section 5.1, and in more detail in (Fayyad, Piatetsky-Shapiro, : Smyth 1996).
+6. Choosing the data mining algorithm(s): selecting method(s) to be used for searching for patterns the data. This includes deciding which models and parameters may be appropriate (e.g. models for categorical data are different than models on vectors over the reals) and matching a particular data mining method with the overall criteria of the KDD process (e.g., the end-user may be more interested in understanding the model than its predictive capabilities- see Section 5.2).
+7. Data mining: searching for patterns of interest in a particular representational form or a set of such representations: classification rules or trees, regression, clustering, and so forth. The user can significantly aid the data mining method by correctly performing the preceding steps.
+
+O item 5 faz a escolha entre as tarefas de mineração a seguir.
+
+Dentro de cada tarefa de mineração existe uma grande quantidade de algoritmos diferentes que realizam a tarefa em específico em condições diferentes e com resultados diferentes.
+
 \subsubsection{Tarefas da mineração de dados}
+\label{subsubsec:tarefasMineKDD}
+
+As tarefas da mineração de dados são divididas em 3 grandes grupos: Agrupamento, Classificação e Regressão
+
+Agrupamento é utilizar de padrões entre os dados para criar conjuntos de elementos parecidos
+
+Classificação é utilizado para identificar novos elementos como pertencentes a grupos já definidos
+
+Regressão consiste em inferir valores de classificação discretos em um intervalo de valores a fim de classificar os dados em uma escala graduada
 
 %\subsubsubsection{Agrupamento}
 %\subsubsubsection{Classificação}
@@ -26,3 +105,13 @@ As etapas do kdd
 
 \subsection{Pós-processamento}
 \label{subsec:posprocKDD}
+
+Engolba as etapas restantes do KDD. Envolve a avaliação das informações extraídas dos dados.
+
+(Data Mining A Knowledge Discovery Approach)
+8. Interpreting mined patterns. Here the analyst performs visualization of the extracted patterns and models, and visualization of the data based on the extracted models.
+9. Consolidating discovered knowledge. The final step consists of incorporating the discovered knowledge into the performance system, and documenting and reporting it to the interested parties. This step may also include checking and resolving potential conflicts with previously believed knowledge
+
+(KDD unifying framework)
+8. Interpreting mined patterns, possibly return to any of steps 1-7 for further iteration. This step can also involve visualization of the extracted patterns/models, or visualization of the data given the extracted models.
+9. Consolidating discovered knowledge: incorporating this knowledge into another system for filrther action, or simply documenting it and reporting it to interested parties. This also includes checking for and resolving potential conflicts with l)reviously believed (or extracted) knowedge.
