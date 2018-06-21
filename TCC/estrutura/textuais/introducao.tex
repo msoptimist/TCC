@@ -9,47 +9,39 @@
 \chapter{INTRODUÇÃO}
 \label{chap:introducao}
 
-Segundo o \textit{site} <https://www.internetworldstats.com/stats.htm>, 54\% da população mundial está conectada na \textit{internet}, somando um total de mais de 4 bilhões de pessoas \textit{online} no mundo todo. Desse total, segundo pesquisas da (DOSSIER STATISTA) 2.62 bilhões se conectam através de redes sociais e a previsão é de 3.02 até o fim de 2021.
+Desde o seu surgimento, a \textit{Internet} têm movimentado o mundo de uma forma que seus idealizadores na década de 60 jamais poderiam imaginar. Segundo dados estimados pelo \textit{site} \citeonline{IWS}, 54,4\% dos 7,6 bilhões de pessoas no planeta estão conectados a rede mundial de computadores, somando assim um total de mais de 4,1 bilhões de usuários \textit{online}. Desse total, 2,62 bilhões fazem uso de algum tipo de rede social e a previsão é que esse número aumente para 3,02 bilhões até o fim de 2021, segundo pesquisas da Statista \citeonline{DSTATISTA}.
 
-Com a crescente presença de serviços digitais na vida cotidiana da população, como o uso de redes sociais, serviços de \textit{streaming}, lojas e compras \textit{online} há uma quantidade enorme de dados está sendo armazenada a todo momento em todos os lugares do mundo (CITAR DOSSIER STATISTA PARA NUMERO DE USUÁRIOS). Acumular dados não é suficiente por si só, tão importante quanto é extrair informações destes. Porém, analisar os dados de maneira manual requer interpretação por parte do analista, sendo muitas vezes ineficientes, demorados, custosos além de propensos à subjetividade do analista. (REFERENCIAR ESSA PARTE)
+Dentro desse universo de redes sociais, o \textit{Facebook} possui a maior base de usuários ativos. Em abril de 2017, segundo o relatório do segundo quadrimestre \textit{GLOBAL DIGITAL STATSHOT} (REFERENCIAR RELATÓRIOA DEPOIS), publicado através da parceita entre a \textit{We Are Social} e o \textit{Hootsuite}, o \textit{Facebook} atingiu a marca de 1,9 bilhão de usuários ativos mensais e no primeiro quadrimestre de 2018 esse número já passava de 2,2 bilhões segunda pesquisas da Statista \citeonline{DSTATISTA}
 
-(REFERENCIA FAYYAD) diz que neste cenário há uma grande necessidade de novas teorias e ferramentas computacionais a fim de auxiliar na extração de conhecimento dos grandes e cada vez maiores volumes de dados. (FINALIZAR PENSAMENTO)
+Somente esses números são suficientes para colocar o \textit{Facebook} como principal rede social utilizada, em muitro superando o segundo colocado, o \textit{YouTube} com 1,5 bilhão de usuários ativos mensais. 
 
-O processo de Descoberta de Conhecimento em Bases de Dados (\textit{Knowledge Discovery in Databases} - KDD), termo cunhado por (REFERENCIA FAYYAD) na realização do primeiro \textit{workshop} a respeito do tema, foi uma resposta aos problemas causados por esse grande acumulo de dados. (REFERENCIAR KDD)
-
-O KDD é um processo iterativo não trivial dividido em 9 etapas dependentes de interações do usuário. O processo tem por objetivo identificar informações válidas, novas, potencialmente úteis e compreensíveis em um grupo de dados, segundo (REFERENCIA FAYYAD). Essas informações extraídas também precisam ser, até certo grau de certeza, válidas para um novo conjunto de dados.
-
-O processo de KDD envolve desde a compreensão dos dados armazenados na base, sua seleção e pré-processamento, passando por etapas de transformação e aplicação de técnicas de mineração de dados, terminando nas etapas de identificação dos padrões gerados que se enquadram nos requisitos de conhecimento do processo.
-
-Entre as etapas do processo de KDD, a mineração de dados é uma das que possui grande ênfase tanto nas áreas acadêmicas quanto nas áreas práticas devido as grandes quantidades de métodos e resultados disponíveis e testados. O processo de mineração de dados envolve a descoberta de padrões a partir de dados e a adaptação de modelos para melhor acomodar os dados existentes, utilizando-se de técnicas de muitas áreas diversas, como aprendizagem de máquina, reconhecimento de padrões e estatística. (REFERENCIAR ESSA PARTE)
-
-Dentro dos diversos métodos de mineração de dados, sendo os mais comuns os de classificação, clusterização e regressão, existem uma extensa gama de algoritmos, porém todos com funcionamentos e fundamentos parecidos. (REFERENCIA FAYYAD) diz que os métodos de mineração de dados podem ser compostos de três algoritmos diferentes: modelo de representação, modelo de avaliação, e busca.
-	
-Como foi citado anteriormente, somente ter acesso a determinados dados não garante a completa compreensão do problema, porém, com a aplicação de processos como o KDD, pode-se tirar conclusões úteis a respeito dos dados tratados. Este trabalho tem como objetivo utilizar o processo do KDD numa base de dados retirada de uma rede social, a fim de encontrar um modelo de previsão para as métricas de avaliação estabelecidas pelo \textit{Facebook}.
+Além do crescimento do uso da \textit{Internet} como meio de consumo, os avanços das tecnologias móveis e redes sociais estão possibilitando a geração de quantidades de dados cada vez maiores. Um estudo da IBM \textit{Marketing Cloud} (REFERNCIAR IBM DEPOIS) descreve que são criados, aproximadamente, 2,5 quintilhões de \textit{bytes} de dados todos os dias e que 90\% de todo o montante de dados presente no mundo hoje foi criado a partir de 2016.
 
 \section{DESCRIÇÃO DO PROBLEMA E MOTIVAÇÃO}
 \label{sec:descricaomotivacao}
 
-O grande aumento do volume de dados acumulados por diversos tipos de aplicações pode gerar um grande problema, uma vez que nem sempre somente tê-los significa ter algum conhecimento a respeito do problema em questão. Erros podem ser cometidos sem uma devida análise rigorosa e metódica a fim de se extrair informações relevantes, levando a conclusões erradas e na base de achismos.
+Tecnologias atuais possibilitam o armazenamento e acesso a essa grande quantidade de dados há um custo muito baixo. Porém, o principal problema associado a um mundo centrado em informações é utilizar os dados brutos coletados (REFERENCIAR SURVEY KDD).
 
-Aplicar o processo de KDD se torna cada vez mais interessante nesse cenário superpopuloso de dados uma vez que estabelece um processo que pode ser seguido e replicado em diversos tipos de situações diferentes. A base de dados utilizada no trabalho foi escolhida por possuir dados de uma situação real, além de serem relativamente recentes e com poucos trabalhos explorando os diversos tratamentos que os dados podem receber, permitindo assim uma grande gama de abordagens diferentes possíveis.
+Neste cenário que nos encontramos, cada vez mais se mostra necessário o uso de ferramentas computacionais para auxiliar na extração de conhecimentos desses volumes de dados, uma vez que somente acumular dados não necessariamente se traduz em informações úteis e aplicáveis (REFERENCIAR FAYYAD FROM DATA MINING TO KDD).
 
 \section{OBJETIVOS}
 \label{sec:objetivos}
-Esta Seção apresenta o obejtivos geral e os objetivos específicos deste trabalho. Na Subseção \ref{subsec:objGerais} se encontra o objetivo geral e na Subseção \ref{subsec:objEspecificos} se encontram os objetivos específicos.
+Esta Seção apresenta o obejtivo geral e os objetivos específicos deste trabalho. Na Subseção \ref{subsec:objGerais} encontra-se o objetivo geral e na Subseção \ref{subsec:objEspecificos} encontram-se os objetivos específicos.
 
 \subsection{Objetivos gerais}
 \label{subsec:objGerais}
-O objetivo geral deste trabalho é aplicar o processo de KDD numa base de dados de domínio público a fim de criar um modelo de previsão de sucesso de postagem.
+O objetivo geral deste trabalho é aplicar o KDD numa base de dados retirada do \textit{Facebook} com o intuito de extrair informações a respeito da relação entre os metadados das postagens e as métricas de avaliação geradas pelos algoritmos da rede social em questão.
 
 \subsection{Objetivos específicos}
 \label{subsec:objEspecificos}
-Como objetivos específicos têm-se:
+Como objetivos específicos deste trabalho têm-se:
 \begin{itemize}
-	\item Compreender o funcionamento do processo de KDD;
-	\item Analisar as etapas do KDD, identificado técnicas que podem ser aplicadas;
-	\item Aplicar o processo de KDD na base de dados;
-	\item Realizar experimentos e analisar os resultados obtidos por meio de comparação estatística com outros trabalhos da área.
+	\item compreender o funcionamento do processo de KDD;
+	\item analisar as etapas do KDD, identificado técnicas que podem ser aplicadas;
+	\item compreender o funcionamento das métricas geradas pelo \textit{Facebook}
+	\item aplicar o processo de KDD na base de dados de postagens;
+	\item realizar experimentos;
+	\item analisar os resultados obtidos por meio de comparação estatística com outros trabalhos da área.
 \end{itemize}
 
 \section{ORGANIZAÇÃO DO TRABALHO}
