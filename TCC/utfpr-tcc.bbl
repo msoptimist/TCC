@@ -5,4 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Cios et al. 2007]{DMKDPAPPROACH}
+\abntrefinfo{Cios et al.}{CIOS et al.}{2007}
+{CIOS, K.~J. et al. \textbf{Data Mining, A Knowledge Discovery Approach}.
+  [S.l.]: Springerl, 2007.}
+
+\bibitem[Dossier]{DSTATISTA}
+\abntrefinfo{Dossier}{DOSSIER}{}
+{DOSSIER, S. \textbf{Social media \& user-generated content - Number of global
+  social network users 2010 - 2018}.
+Dispon{\'\i}vel em:
+  \url{https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/}.}
+
+\bibitem[Group]{IWS}
+\abntrefinfo{Group}{GROUP}{}
+{GROUP, M.~M. \textbf{Internet World Stats}.
+Dispon{\'\i}vel em: \url{https://www.internetworldstats.com/stats.htm}.}
+
 \end{thebibliography}
