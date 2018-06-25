@@ -9,65 +9,98 @@
 
 \chapter{REDES SOCIAIS}
 \label{chap:redesSociais}
-Desde seu surgimento, \textit{sites} de redes sociais, como \textit{Facebook} e \textit{Twitter}, vêm atraindo milhões de usários ao redor do mundo. Segundo estatísticas do site Dossier Statista (REFERENCIAR DOSSIER STATISTA), em 2017 haviam 2.46 bilhões de usários de redes sociais ao redor do mundo e é estimado que em 2019 esse número suba para 2.77 bilhões.
 
-Tentar definir em termos precisos o que seria uma rede social se prova difícil devido a grande variedade de serviços independentes e integrados de serviços de comunicação. Simplesmente definir como serviços que permitem aproximar pessoas de forma digital se torna uma definição muito ampla.
+Este capítulo aborda os conceitos fundamentais a respeito de redes sociais e em particular às características do \textit{Facebook} necessárias para o desenvolvimento deste trabalho. Na Seção \ref{sec:conceitosRedesSociais} se encontra um panorama de características em comum a maioria das redes sociais atuais, seguido um histórico breve do surgimento desses tipos de \textit{sites} nos últimos anos dentro da Seção \ref{sec:historicoRedesSociais}. A Seção \ref{sec:tiposRedesSociais} contém explicações a respeito de alguns tipos diferentes de mídias e os diversos usos para as plataformas de redes sociais. %Na Seção \ref{sec:impactosRedesSociais} encontramos listados alguns benefícios e problemas causados pela adoção de redes sociais no cotidiano da sociedade, bem como sua importância nos estudos acadêmicos. 
+Na última Seção \ref{sec:facebookRedesSociais} encontramos as definições providas pelo \textit{Facebook} para os dados retirados e utilizados na base de dados deste trabalho.
 
 \section{CONCEITOS FUNDAMENTAIS}
 \label{sec:conceitosRedesSociais}
- Revisões de literatura permitiram extrair 4 características principais recorrentes nos serviços de \textit{networking} social.
 
-(REFERENCIAR SOCIAL MEDIA DEFINITION PEGAR ARTIGO NO SCIENCE DIRECT: https://www.sciencedirect.com/science/article/abs/pii/S0308596115001172)
+Desde seu surgimento, \textit{sites} de redes sociais, como \textit{Facebook} e \textit{Twitter}, vêm atraindo milhões de usários ao redor do mundo. Segundo estatísticas do site Dossier Statista \citeonline{DSTATISTA}, em 2017 haviam 2.46 bilhões de usários de redes sociais ao redor do mundo e é estimado que em 2019 esse número suba para 2.77 bilhões.
 
-\begin{enumerate}
-	\item social networking services are interactive Web 2.0 Internet-based applications,
-	\item user-generated content (UGC), such as user-submitted digital photos, text posts, "tagging", online comments, and diary-style "web logs" (blogs), is the lifeblood of the SNS organism,
-	\item users create service-specific profiles for the site or app that are designed and maintained by the SNS organization, and
-	\item social networking services facilitate the development of social networks online by connecting a user's profile with those of other individuals or groups.
-\end{enumerate}
-
-Breve histórico de algumas redes sociais famosas.
-
-Tipos de redes sociais brevemente explicados.
+Definir um conceito de redes sociais exibe dois problemas distintos: a velocidade com que a tecnologia se expande, dificultando a nossa habilidade de definir com clareza limites claros para o conceitos; e, se as redes sociais servem para facilitar a comunicação de pessoas, deveriamos considerar telefone, \textit{e-mail} e \textit{fax} como redes sociais também? Para tentar endereçar estes problemas, \citeonline{socialMediaDefinitions} resume as deinições de redes sociais da literatura em 4 pontos comuns:
 
 \begin{enumerate}
-	\item \textit{Networking}
-	\item \textit{Blogging}
-	\item \textit{Microblogging}
-	\item \textit{Photo Sharing}
-	\item \textit{Video Sharing}
+	\item serviços de rede sociais são aplicação interativas da \textit{Web} 2.0;
+	\item conteúdo gerado pelos usuários é vital para a longevidade das redes sociais;
+	\item indiviuos ou grupos podem criar perfis específicos para um \textit{site} ou \textit{app} mantido pela rede social;
+	\item desenvolvem e facilitam o desenvolvimento de novas conexões entre perfis de um usuário com os de outros indivídos ou grupos.
 \end{enumerate}
 
-Usos diferentes de redes sociais
+(EXPLICAÇÃO MAIS DETALHADA DOS PONTOS)
+
+\section{HISTÓRICO DAS REDES SOCIAIS}
+\label{sec:historicoRedesSociais}
+
+Baseado nessas definições, podemos considerar o \textit{site} \textit{SixDegress.com}, lançado em 1997 como a primeira rede social lançada. No começo, o serviço apenas permitia criar um perfil e assinalar seus amigos, porém no ano seguinte ao lançamento foi adicionado a função de navegar pelas listas de seus amigos. Muitos desses recursos já existiam em outros tipos de serviços, como perfis em \textit{sites} de relacionamento e listas de amigos em serviçso de comunicação \textit{IRC}, porém nenhum deles integrou essas funcionalidades para compor o conceito estabelecido de rede social \citeonline{snsHistory}.
+
+Mesmo com o sucesso inicial, atingindo milhões de usuários, o \textit{site} \textit{SixDegress.com} teve seus servidores fechados em 2000. Seu fundador acredita que o serviço estava muito a frente de seu tempo, uma vez que, mesmo com a grande quantidade de pessoas entrando no mundo digital, muitos ainda não tinham uma extensa rede de amigos \textit{online} e menos ainda estavam interessados em conhecer estranhos através da plataforma. Apesar de seu sucesso não ter sido duradouro, \textit{SixDegress.com} serviu de inspiração para um grande número de novos \textit{sites} entre 1997 e 2001 \citeonline{snsHistory}.
+
+Em 2001 fora lançado o \textit{site} de \textit{business network} \textit{Ryze.com} e no ano seguinte um complemento focado em relacionamentos \textit{Friendster}, que viria a ser conhecido "uma das maiores decepções na história da \textit{Internet}" \citeonline{snsHistory}.
+
+%VER CITAÇÃO ORIGINAL PARA COLOCAR NO TRABALHO FINAL
+
+\textit{Friendster} passou por dificuldades técnicas durante seu primeiro ano de crescimento, atingindo trezentos mil usuários nesse período somente através de \textit{marketing} de referência. Os servidores e centros de dados do \textit{site} não estavam devidamente preparados para lidar com o rápido crescimento, causando quedas de servidores constante. 
+
+Outras decisões de negócios, como restringir de atividades de usuários muito ativos, permitir a descoberta de desconhecidos somente até quatro graus de distância, o que gerou a criação de perfis conhecidos como \textit{Fakesters}, utilizados para coletar a maior quantidade de amigos possíveis a fim de circular a restrição de quatro graus de separação \citeonline{snsHistory}.
+
+A decisão do \textit{Friendster} de excluir as contas de perfis \textit{fakes} indicava um rompimento entre os interesses do usuários e os desenvolvedores da plataforma e após rumores de que o serviço adotaria um modelo de inscrição paga, seus usuários começaram a encorajar o uso de redes sociais alternativas que surgiam na mesma época tentando capitalizar nos usuários que se decepcionavam com as decisões do \textit{Friendster} \citeonline{snsHistory}.
+
+A partir do ano de 2003, um grande número de serviços de redes sociais surgiram, ao ponto de analistas cunharem o termo \textit{YASNS}: \textit{"Yeat Another Social Networking Service"}. %VER CITAÇÃO ORIGINAL PARA COLOCAR NO TRABALHO FINAL
+Apesar do grande sucesso de várias dessas plataformas em diversos países, como a "invasão Brasileira" do \textit{Orkut}, %VER CITAÇÃO ORIGINAL PARA COLOCAR NO TRABALHO FINAL, ADICIONAR MAIS EXEMPLOS CITADOS MAIS ABAIXO NO TEXTO SNSHISTORY
+poucas pessoas prestavam atenção em serviços de sucesso fora do mercado interno dos Estados Unidos da América. Uma dessas redes que capitalizou em cima da queda do \textit{Friendster} foi o \textit{MySpace}. 
+
+Um dos grupos de usuários que foram acolhidos pelo \textit{MySpace}, bandas de músicas independentes, tiveram grande impacto para a popularização do serviço além dos antigos usuários da concorrência, fazendo com que o \textit{site} ganhasse tração para crescer organicamente. O \textit{MySpace} também se diferenciava de outras plataformas por regularmente adicionar funcionalidades requisitados por seus usuários %VER CITAÇÃO ORIGINAL PARA COLOCAR NO TRABALHO FINAL
+, também "permitia" a personalização de perfis uma vez que o \textit{site} não restringia a adição de código \textit{HTML} dentro das páginas dos perfis \citeonline{snsHistory}.
+
+Ao invés de restringir a presença de menores dentro do \textit{site}, \textit{MySpace} remodelou suas políticas de usuários e adolescentes começara a utilizar o serviço em massa. Nesse período, os usuários do serviço se dividiam em três grandes grupos: musicos e artistas; adolescentes; e os antigos usuários do \textit{Friendster}, estes já mais velhos. O único elo entre os 2 últimos grupos sendo os gostos por artistas em comum \citeonline{snsHistory}.
+
+Em julho de 2005, após ganhar atenção em massa devido a compra do \textit{site} por 580 milhões de dólares pela \textit{News Corporation}, vários problemas de segurança começaram a surgir dentro do \textit{MySpace}. %VER CITAÇÃO ORIGINAL PARA COLOCAR NO TRABALHO FINAL
+Séries de alegações de interações sexuais entre adultos e menores começaram a surgir e aos poucos o pânico causado, apesar de pesquisas demonstrarem haver um exagero, foi responsável pela tomada de ações legais contra o serviço \citeonline{snsHistory}.
+
+Em paralelo a esses serviços abertos, diversas redes sociais menores e focados em demográficos específicos começaram a ser lançadas, dentre estas, focada em somente alunos da Universidade de Harvard, foi criado e lançado em 2004 o \textit{Facebook}. Aos poucos, o serviço foi aceitando novos usuários de outros círculos além de Harvard.
+
+Em 2005, ano seguinte ao seu lançamento, o \textit{Facebook} começou a aceitar estudantes de ensino médio e corporações, cada uma delas ainda precisando de um endereço de \textit{e-mail} correto para acessar as redes privadas dentro do serviço. Eventualmente o serviço se tornou aberto a todos, permitindo que todo mundo pudesse criar uma conta dentro do \textit{site}. Duas características distintas do \textit{Facebook} das outras redes sociais são a inabilidade de seus usários de tornar todas as informações do seu perfil públicas para todos os usuários e a facilidade com que desenvolvedores externos podem criar aplicações com as informaçõs disponíveis dos perfis \citeonline{snsHistory}.
+
+\section{TIPOS E USOS DE REDES SOCIAIS}
+\label{sec:tiposRedesSociais}
+
+Apesar de não existir uma separação clara entre todos os serviços de redes sociais, é possível distinguir os serviços entre três categorias ou tipos em relação as suas funcionalidades centrais:
 
 \begin{enumerate}
-	\item \textit{Real time}
-	\item \textit{Location based}
-	\item Mercados de nicho
-	\item Ciência
-	\item Educação
-	\begin{enumerate}
-		\item Profissional
-		\item Currículo
-		\item Aprendizado
-	\end{enumerate}
-	\item Procuro de emprego
-	\item Serviços de \textit{hosting}
-	\item Trocas
+	\item \textit{\textit{networking}}, são serviços focados no gerenciamento de círculos sociais e nas interações entre seu perfil e estes vários circulos, e.g. \textit{Facebook}, \textit{LinkedIn};
+	\item \textit{\textit{blogging}}, onde as relações se dão ao redor da discussão de determinado conteúdo, e.g. \textit{Blogger}, \textit{Twitter}, \textit{Reddit}.
+	\item \textit{\textit{media sharing}}, consistem de \textit{sites} onde o enfoque é na distribuição de conteúdo gerado pelos usuários em diversos formatos, e.g. \textit{YouTube}, \textit{Vimeo}, \textit{Instagram}.
+\end{enumerate} 
+
+É importante notar que essas classificações não significam que o serviço não possa possuir funcionalidade dos outros tipos. Várias funcionalidades podem ser encontradas em diversas redes sociais, como divulgação de vídeos dentro do \textit{Facebook} ou \textit{Twitter}, porém mesmo com essa possibilidades, a divulgação de vídeos não é o enfoque principal de nenhum desses dois seviços citados.
+
+Ainda dentro de cada uma dessas classificações, encontramos diversos mercados diferentes para as funcionalidades de cada rede social, tanto de nicho quanto mais abrangentes. Podemos tomar como alguns exemplos:
+
+\begin{enumerate}
+	\item \textit{\textit{real time}}, focado na atualização de conteúdo no menor espaço de tempo possível entre o acontecimento real e digital, e.g. \textit{Twitter}, \textit{Snapchat}, \textit{Periscope};
+	\item \textit{\textit{location based}}, que se utiliza das tecnologias de localização por GPS na geração de conteúdo, e.g. \textit{Swarm}.
 \end{enumerate}
 
-\section{IMPACTOS E RELEVÂNCIA}
-\label{sec:classRedesSociais}
-Alguns benefícios
-
-Alguns problemas
-
-Relevância dos estudos na área
+%\section{IMPACTOS E RELEVÂNCIA}
+%\label{sec:impactosRedesSociais}
+%Alguns benefícios
+%
+%Alguns problemas
+%
+%Relevância dos estudos na área
 
 \section{\textit{FACEBOOK}}
 \label{sec:facebookRedesSociais}
-Breve histórico \textit{Facebook}.
 
-\textit{Facebook} utilizado em negócios para empresas.
+Com o grande número de usuáriosna plataforma, não é de surpreender que o \textit{Facebook} receba atenção de empresas como meio de comunicação e de marketing. A forma mais comum como negócios podem se utilizar da plataforma em seu benefício é através de páginas próprias, onde uma pessoa responsável pode controlar a publicação de conteúdo, espalhar esse conteúdo pela rede e permitir com que demais usuários possam interagir com essas publicações.
 
-Explicação das métricas de avaliação de desempenho de postagem pelo \textit{Facebook}. Se encontram no quadro da metodologia
+Dentro de áreas específicas dessas páginas, restritas a administradores,podemos encontrar uma grande quantidade de estatísticas a respeito de todas as postagens da página. A base de dados utilizada para este trabalho contém estatísticas retiradas das postagens da página de uma empresa renomada de cosméticos durante o ano de 2014 \citeonline{predictingSocialMedia}.
+
+A base de dados contém 500 instâncias das 790 originais devido a questões de confidencialidade da empresa. Todas as instâncias contam com 19 atributos e, para a realização da modelagem das relações entre os atributos, foram separados em atributos de entrada do modelo e atributos de saída a serem modelados.
+
+Os atributos de entrada estão descritos no Quadro \ref{qua:descBaseFacebookEntrada} enquanto os atributos de saída estão descritos no Quadro \ref{qua:descBaseFacebookSaida}.
+
+\input{dados/quadros/base-facebook-entrada}
+
+\input{dados/quadros/base-facebook-saida}

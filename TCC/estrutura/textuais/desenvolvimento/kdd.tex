@@ -12,40 +12,41 @@ Este capítulo aborda o processo de Descoberta de Conhecimento em Bases de dados
 \section{CONCEITOS FUNDAMENTAIS DO KDD}
 \label{sec:conceitosKDD}
 
-Antes de qualquer tentativa de realizar esta extração de informações, se faz necessário estabelecer um método a ser seguido. O principal objetivo de estabeler uma padrão é de ajudar a compreender o processo de descoberta de conhecimento, oferecendo um roteiro a ser seguido no decorrer do projeto e, em consequência, reduzir custos de tempo e recursos (REFERENCIAR SURVEY KDD).
+Antes de qualquer tentativa de realizar esta extração de informações, se faz necessário estabelecer um método a ser seguido. O principal objetivo de estabeler uma padrão é de ajudar a compreender o processo de descoberta de conhecimento, oferecendo um roteiro a ser seguido no decorrer do projeto e, em consequência, reduzir custos de tempo e recursos \citeonline{surveyKDD}.
 
 Desde 1990, diversas abrodagens para a criação de modelos a esse processo foram desenvolvidas, primeiramente por academicos e posteriormente pela indústria, porém, a fim de formalizar esses modelos concorrentes de KDP, se faz necessários colocar todos dentro de um \textit{framework} comum \citeonline{DMKDPAPPROACH}.
 
 De forma geral, os diversos modelos propostos consistem de um conjunto de passos de processamento executados de forma sequencial e dependente dos resultados gerados pelo passo anterior como entrada. Esses passos englobam uma grande variedade de tarefas, abrangendo desde a análise e preparação dos dados brutos até a compreensão e aplicação dos resultados gerados ao final do processo \citeonline{DMKDPAPPROACH}. 
 
-É importante ressaltar a natureza iterativa dos modelos de KDP, podendo conter diversos laços de \textit{feedback} e repetição entre quaisquer dois passos do processo (REFERENCIAR SURVEY KDD). Por fim, o KDP é considerado não-trivial por conter um certo grau de inferência durante algumas de suas etapas, significando que algumas delas podem não ser diretas como de valores pré-definidos (REFERENCIAR KDD UNIFYING FRAMEWORK).
+É importante ressaltar a natureza iterativa dos modelos de KDP, podendo conter diversos laços de \textit{feedback} e repetição entre quaisquer dois passos do processo \citeonline{surveyKDD}. Por fim, o KDP é considerado não-trivial por conter um certo grau de inferência durante algumas de suas etapas, significando que algumas delas podem não ser diretas como de valores pré-definidos \citeonline{KDDUnifyingFramework}.
 
-O objetivo final do KDP é identificar padrões dos dados em que o processo foi aplicado. Por padrões entende-se por ajustar um modelo aplicável aos dados brutos, encontrar estruturas que os dados seguem ou até mesmo uma descrição abstrata de alto nível dos conjuntos de dados (REFERENCIAR FROM DATAMINING TO KDD).
+O objetivo final do KDP é identificar padrões dos dados em que o processo foi aplicado. Por padrões entende-se por ajustar um modelo aplicável aos dados brutos, encontrar estruturas que os dados seguem ou até mesmo uma descrição abstrata de alto nível dos conjuntos de dados \citeonline{dataMiningToKDD}.
 
-Estes padrões produzidos ao final da aplicação do KDP precisam atingir certos critérios mínimos. Precisam ser, até certo grau de certeza, válidos para o conjunto de dados de onde o padrão foi inferido, além de novos, tanto no escopo do sistema quanto, preferencialmente, para o usuário. Os padrões precisam ser potencialmente úteis, oferecendo algum benefício para a tarefa a qual foi necessário extrair conhecimento. E por fim, precisam ser compreensíveis em alguma linguagem, tanto imediatamente quanto após alguma etapa de pós-processamento (REFERENCIAR FROM DATAMINING TO KDD).
+Estes padrões produzidos ao final da aplicação do KDP precisam atingir certos critérios mínimos. Precisam ser, até certo grau de certeza, válidos para o conjunto de dados de onde o padrão foi inferido, além de novos, tanto no escopo do sistema quanto, preferencialmente, para o usuário. Os padrões precisam ser potencialmente úteis, oferecendo algum benefício para a tarefa a qual foi necessário extrair conhecimento. E por fim, precisam ser compreensíveis em alguma linguagem, tanto imediatamente quanto após alguma etapa de pós-processamento \citeonline{dataMiningToKDD}.
 
 Seguir um processo estabelecido como o KDP, além de redução de custos como já citado no começo do Capítulo, garante que os dados possam ser verificados, reutilizados e replicados de maneira consistente.
 
 \section{ETAPAS DO KDD}
 \label{sec:etapasKDD}
 
-Os fundamentos básicos para o KDP foram propostos por Fayyad no lançamento do livro \textit{Advances in Knowledge Discovery in Databases 1996} (REFERENCIAR ISTO ???). A pesquisa do livro apresentava dois tipos de modelos: o \textit{human-centric}, que se concentra no papel ativo do analista durante o processo; e o \textit{data-centric}, que foca na natureza iterativa e interativa da tarefa de análise de dados (REFERENCIAR SURVEY KDD).
+Os fundamentos básicos para o KDP foram propostos por Fayyad no lançamento do livro \textit{Advances in Knowledge Discovery in Databases 1996}. %VER CITAÇÃO ORIGINAL PARA COLOCAR NO TRABALHO FINAL
+A pesquisa do livro apresentava dois tipos de modelos: o \textit{human-centric}, que se concentra no papel ativo do analista durante o processo; e o \textit{data-centric}, que foca na natureza iterativa e interativa da tarefa de análise de dados \citeonline{surveyKDD}.
 
-O modelo \textit{human-centric} consiste em uma série de tarefas com interações complexas ao decorrer do tempo do processo entre um humano e uma base de dados, possivelmente auxiliados por uma variedade de ferramentas. Sua estrutura é dividida em três tarefas principais: seleção de modelo e execução (pré-processamento); análise de dados (mineração de dados); e geração da saída (pós-processamento). Cada uma dessas etapas foi dividida em outras subetapas totalizando nove passos ao todo (REFERENCIAR SURVEY KDD).
+O modelo \textit{human-centric} consiste em uma série de tarefas com interações complexas ao decorrer do tempo do processo entre um humano e uma base de dados, possivelmente auxiliados por uma variedade de ferramentas. Sua estrutura é dividida em três tarefas principais: seleção de modelo e execução (pré-processamento); análise de dados (mineração de dados); e geração da saída (pós-processamento). Cada uma dessas etapas foi dividida em outras subetapas totalizando nove passos ao todo \citeonline{surveyKDD}.
 
-Um grande número trabalhos acadêmicos se focam exclusivamente no passo de mineração de dados do KDP, porém todos os passos do processo são importantes.Os passos adicionais de descoberta de conhecimento, como preparação e limpeza dos dados e interpretação apropiada dos resultados	são essenciais para garantir que o conhecimento derivado da aplicação está correto. Aplicação de métodos de mineração de dados de maneira não criteriosa é uma atividade que facilmente pode levar a descoberta de padrões sem sentido e muitas vezes não válidos (REFERENCIAR FROM DATA MINING TO KDD).
+Um grande número trabalhos acadêmicos se focam exclusivamente no passo de mineração de dados do KDP, porém todos os passos do processo são importantes.Os passos adicionais de descoberta de conhecimento, como preparação e limpeza dos dados e interpretação apropiada dos resultados	são essenciais para garantir que o conhecimento derivado da aplicação está correto. Aplicação de métodos de mineração de dados de maneira não criteriosa é uma atividade que facilmente pode levar a descoberta de padrões sem sentido e muitas vezes não válidos \citeonline{dataMiningToKDD}.
 
 \subsection{Pré-processamento}
 \label{subsec:preprocKDD}
 
-O principal objetivo desta tarefa é a garantir que os dados estejam prontos para o processo de mineração. É um dos principais componentes do KDP, sendo todo o sucesso das etapas subsequentes dependetes da identificação e iteração correta desta tarefa (REFERENCIAR 3 STEPS KDD) Suas subetapas podem ser compreendidas no Quadro \ref{qua:etapasPreProcKDD}.
+O principal objetivo desta tarefa é a garantir que os dados estejam prontos para o processo de mineração. É um dos principais componentes do KDP, sendo todo o sucesso das etapas subsequentes dependetes da identificação e iteração correta desta tarefa \citeonline{3stepsKDD} Suas subetapas podem ser compreendidas no Quadro \ref{qua:etapasPreProcKDD}.
 
 \input{dados/quadros/etapas-pre-proc-kdd}
 
 \subsection{Mineração de dados}
 \label{subsec:mineKDD}
 
-É a única etapa do processo de KDD que se preocupa na aplicação de técnicas computacionais. Têm o papel de encontrar padrões no conjunto de dados previamente preparado e transformado para permitir com que o processo ocorra sem grande problemas. Caso a tarefa de pré-processamento não tenha sido realizada com sucesso, em consequência tanto esta tarefa como o processo todo também não terão êxito (REFERENCIAR 3 STEPS KDD). Podemos ver a descrição de suas subetapas no Quadro \ref{qua:etapasMineKDD}.
+É a única etapa do processo de KDD que se preocupa na aplicação de técnicas computacionais. Têm o papel de encontrar padrões no conjunto de dados previamente preparado e transformado para permitir com que o processo ocorra sem grande problemas. Caso a tarefa de pré-processamento não tenha sido realizada com sucesso, em consequência tanto esta tarefa como o processo todo também não terão êxito \citeonline{3stepsKDD}. Podemos ver a descrição de suas subetapas no Quadro \ref{qua:etapasMineKDD}.
 
 \input{dados/quadros/etapas-mine-kdd}
 

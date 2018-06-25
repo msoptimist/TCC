@@ -5,10 +5,29 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Bagga e Singh 2011]{3stepsKDD}
+\abntrefinfo{Bagga e Singh}{BAGGA; SINGH}{2011}
+{BAGGA, S.; SINGH, G.~N. Three phase iterative model of kdd.
+\textbf{International Journal of Information Technology and Knowledge
+  Management}, v.~4, n.~2, p. 695--697, 2011.}
+
+\bibitem[Boyd e Ellison 2008]{snsHistory}
+\abntrefinfo{Boyd e Ellison}{BOYD; ELLISON}{2008}
+{BOYD, D.~D.; ELLISON, N.~B. Social network sites: Definition, history and
+  scholarship.
+\textbf{Journal of Computer-Mediated Communication}, v.~13, p. 210--230, 2008.}
+
 \bibitem[Cios et al. 2007]{DMKDPAPPROACH}
 \abntrefinfo{Cios et al.}{CIOS et al.}{2007}
 {CIOS, K.~J. et al. \textbf{Data Mining, A Knowledge Discovery Approach}.
   [S.l.]: Springerl, 2007.}
+
+\bibitem[Cloud]{IBMmarketing}
+\abntrefinfo{Cloud}{CLOUD}{}
+{CLOUD, I.~M. \textbf{10 Key Marketing Trends for 2017 and Ideas for Exceeding
+  Customer Expectations}.
+Dispon{\'\i}vel em:
+  \url{https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN}.}
 
 \bibitem[Dossier]{DSTATISTA}
 \abntrefinfo{Dossier}{DOSSIER}{}
@@ -17,9 +36,47 @@
 Dispon{\'\i}vel em:
   \url{https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/}.}
 
+\bibitem[Fayyad, Piatetsky-Shapiro e Smyth 1996]{dataMiningToKDD}
+\abntrefinfo{Fayyad, Piatetsky-Shapiro e Smyth}{FAYYAD; PIATETSKY-SHAPIRO;
+  SMYTH}{1996a}
+{FAYYAD, U.; PIATETSKY-SHAPIRO, G.; SMYTH, P. From data mining to knowledge
+  discovery in databases.
+\textbf{AI Magazine}, v.~17, n.~3, 1996.}
+
+\bibitem[Fayyad, Piatetsky-Shapiro e Smyth 1996]{KDDUnifyingFramework}
+\abntrefinfo{Fayyad, Piatetsky-Shapiro e Smyth}{FAYYAD; PIATETSKY-SHAPIRO;
+  SMYTH}{1996b}
+{FAYYAD, U.; PIATETSKY-SHAPIRO, G.; SMYTH, P. Knowledge discovery and data
+  mining: Towards a unyfing framework.
+\textbf{KDD-96 Proceedings}, 1996.}
+
 \bibitem[Group]{IWS}
 \abntrefinfo{Group}{GROUP}{}
 {GROUP, M.~M. \textbf{Internet World Stats}.
 Dispon{\'\i}vel em: \url{https://www.internetworldstats.com/stats.htm}.}
+
+\bibitem[Kurgand e Musilek 2006]{surveyKDD}
+\abntrefinfo{Kurgand e Musilek}{KURGAND; MUSILEK}{2006}
+{KURGAND, L.~A.; MUSILEK, P. A survey of knowledge discovery and data mining
+  process models.
+\textbf{The Knowledge Engineering Review}, v.~21, n.~1, p. 1--24, 2006.}
+
+\bibitem[Moro, Rita e Vala 2016]{predictingSocialMedia}
+\abntrefinfo{Moro, Rita e Vala}{MORO; RITA; VALA}{2016}
+{MORO, S.; RITA, P.; VALA, B. Predicting social media performance metrics and
+  evaluation of the impact on brand building: A data mining approach.
+\textbf{Journal of Business Research}, v.~69, 2016.}
+
+\bibitem[Obar e Wildman 2015]{socialMediaDefinitions}
+\abntrefinfo{Obar e Wildman}{OBAR; WILDMAN}{2015}
+{OBAR, J.~A.; WILDMAN, S. Social media definition and the governance challenge:
+  An introduction to the special issue.
+\textbf{Telecommunications Policy}, v.~39, 2015.}
+
+\bibitem[Social e Hootsuite]{GDS}
+\abntrefinfo{Social e Hootsuite}{SOCIAL; HOOTSUITE}{}
+{SOCIAL, W.~A.; HOOTSUITE. \textbf{Global Digital Statshot}.
+Dispon{\'\i}vel em:
+  \url{https://wearesocial.com/special-reports/digital-in-2017-global-overview}.}
 
 \end{thebibliography}

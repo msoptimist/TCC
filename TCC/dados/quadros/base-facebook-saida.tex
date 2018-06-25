@@ -1,0 +1,25 @@
+% BASE DE DADOS UTILIZADA NO TRABALHO---------------------------------------------------------------------
+
+\begin{quadro}[H]
+	\centering
+	\caption{Descrição dos atributos de saída a serem modelados no trabalho.\label{qua:descBaseFacebookSaida}}
+	\small
+	\begin{minipage}{\paperwidth}
+	\begin{tabular}{|p{7cm}|p{7cm}|}
+        		\hline
+		\textit{Lifetime Post Total Reach} & Quantidade de usuários únicos que a postagem alcançou, independente da forma com que a postagem chegou até o usuário. \\ \hline
+		\textit{Lifetime Post Total Impressions} & Quantidade total de vezes que uma postagem foi vista \footnote{Esse número pode ser maior que o \textit{Total Reach} pois um mesmo usuário pode ver a postagem diversas vezes.}. \\ \hline
+		\textit{Lifetime Engaged Users} & Quantidade de usuários que clicaram na postagem de forma que geram ou não \textit{Stories} \footnote{\textit{Stories} são tipos de interações que fazem com que a postagem seja propagada para outros usuários.}. \\ \hline
+		\textit{Lifetime Post Consumers} & Quantidade de usuários que clicaram na postagem de forma que não geram \textit{Stories} \footnote{Diferente da \textit{Lifetime Engaged Users} pois conta os cliques dentro do conteúdo em si.}. \\ \hline
+		\textit{Lifetime Post Comsumptions} & Quantidade total de cliques que não geram \textit{Stories} \footnote{Conta a quantidade de clique feitos pelos \textit{Post Consumers}, aproximando quantas vezes que a postagem foi consumida.}. \\ \hline
+		\textit{Lifetime Post Impressions by people who have liked your Page} & Quantidade total de vezes que uma postagem foi vista por usuários que deram \textit{like} na página. \\ \hline
+		\textit{Lifetime Post reach by people who like your Page} & Parecido com \textit{Lifetime Post Total Reach}, porém somente conta usuários que deram \textit{like} na página. \\ \hline
+		\textit{Lifetime People who have liked your Page and engaged with your post} & Quantidade de usuários que deram \textit{like} na página e interagiram com a postagem de alguma forma que gera ou não \textit{Stories}. \\ \hline
+		\textit{Comment} & Quantidade de comentários da postagem. \\ \hline
+		\textit{Like} & Quantidade de \textit{likes} da postagem. \\ \hline
+		\textit{Share} & Quantidade de compartilhamentos da postagem. \\ \hline
+		\textit{Total Interactions} & Quantidade total de interações com a postagem, ou seja, a soma do total de comentários, \textit{likes} e compartilhamentos. \\ \hline
+    	\end{tabular}
+	\fonte{\cite{predictingSocialMedia}}
+    	\end{minipage}
+\end{quadro}
