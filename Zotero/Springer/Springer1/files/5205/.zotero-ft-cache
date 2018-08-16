@@ -1,0 +1,192 @@
+
+close
+close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+October 2008 , Volume 17, Issue 2 , pp 317–342 | Cite as
+Classification trees and decision-analytic feedforward control: a case study from the video game industry
+
+    Authors
+    Authors and affiliations
+
+    Michael Brydon Email author
+    Andrew Gemino
+
+    Michael Brydon
+        1
+    Email author
+    Andrew Gemino
+        1
+
+    1. Faculty of Business Administration Simon Fraser University Burnaby Canada
+
+Article
+First Online: 31 January 2008
+Received: 21 November 2006
+Accepted: 11 December 2007
+
+    340 Downloads
+    5 Citations
+
+Abstract
+
+The objective of this paper is to use a challenging real-world problem to illustrate how a probabilistic predictive model can provide the foundation for decision-analytic feedforward control. Commercial data mining software and sales data from a market research firm are used to create a predictive model of market success in the video game industry. A procedure is then described for transforming the classification trees into a decision-analytic model that can be solved to produce a value-maximizing game development policy. The video game example shows how the compact predictive models created by data mining algorithms can help to make decision-analytic feedforward control feasible, even for large, complex problems. However, the example also highlights the bounds placed on the practicality of the approach due to combinatorial explosions in the number of contingencies that have to be modeled. We show, for example, how the “option value” of sequels creates complexity that is effectively impossible to address using conventional decision analysis tools.
+Keywords
+Data mining  Probability estimation trees  Decision tree analysis  Video game development  Real options 
+
+Responsible editor: Gary Weiss.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Apte C, Li B, Pednault E, Smyth P (2002) Business applications of data mining. Commun ACM 45(8): 49–53 CrossRef Google Scholar
+    Barry E, Kemerer C, Slaughter S (2006) Environmental volatility development decision and software volatility: a longitudinal analysis. Manage Sci 52(3): 448–464 CrossRef Google Scholar
+    Boutilier C, Dean T, Hanks S (1999) Decision-theoretic planning: structural assumptions and computational leverage. J Artif Intell Res 11: 1–94 MATH MathSciNet Google Scholar
+    Breiman L, Friedman J, Olshen R, Stone C (1984) Classification and regression trees. Wadsworth International Group, Belmont MATH Google Scholar
+    Brooks RA (1991) Intelligence without reason. In: Proceedings of the 12th international joint conference on artificial intelligence, pp 569–595 Google Scholar
+    Brydon M (2006) Evaluating strategic options using decision-theoretic planning. Inform Technol Manage 7(1): 35–49 CrossRef MathSciNet Google Scholar
+    Charne J (2006) Understanding and negotiating termination issues in video game development contracts. Comput Internet Lawyer 23(9): 27–33 Google Scholar
+    Clemen R (1996) Making hard decisions: an introduction to decision analysis. Duxbury Press, North Scituate Google Scholar
+    Copeland T, Tufano P (2004) A real-world way to manage real options. Harv Bus Rev 82(3): 90–99 Google Scholar
+    Davenport T, Harris J, De Long D, Jacobson A (2001) Data to knowledge to results: building an analytic capability. Calif Manage Rev 43(2): 117–138 Google Scholar
+    Gaume N (2006) Nicolas Gaume’s views on the video games sector. Eur Manage J 24(4): 299–309 CrossRef Google Scholar
+    Haughton D, Deichmann J, Eshghi A, Sayek S, Teebagy N, Topi H (2003) A review of software packages for data mining. Am Stat 57(4): 290 CrossRef Google Scholar
+    Holloway C (1979) Decision making under uncertainty: models and choices. Prentice-Hall, Englewood Cliffs Google Scholar
+    Keeney R, Raiffa H (1976) Decisions with multiple objectives: preferences and value tradeoffs. Wiley, London Google Scholar
+    Khatri N, Ng HA (2000) The role of intuition in strategic decision making. Hum Relat 53(1): 57–86 Google Scholar
+    Kolodny L (2006) Global video game market set to explode. BusinessWeek. http://www.businessweekcom/innovate/content/jun2006/id20060623_163211htm . Accessed 23 June 2006
+    Lander DM, Pinches GE (1998) Challenges to the practical implementation of modeling and valuing real options. Q Rev Econ Financ 38(4): 537 CrossRef Google Scholar
+    Luehrman TA (1998) Strategy as a portfolio of real options. Harv Bus Rev 76(5): 89–99 Google Scholar
+    McCarthy I, Tsinopoulos C, Allen P, Rose-Anderssen C (2006) New product development as a complex adaptive system of decisions. J Prod Innovat Manag 23(5): 437–456 CrossRef Google Scholar
+    Melville P, Provost F, Saar-Tsechansky M, Mooney R (2005) Economical active feature-value acquisition through expected utility estimation. In: Proceedings of the 1st international workshop on utility-based data mining (UBDM ’05), pp 10–16 Google Scholar
+    Pednault E, Abe N, Zadrozny B, Wang H, Fan W, Apte C (2002) Sequential cost-sensitive decision making with reinforcement learning. In: Proceedings of the 8th ACM SIGKDD international conference on knowledge discovery and data mining Google Scholar
+    Pham A, Friedman J (2007) Microsoft’s ’Halo 3’ expected to ring up giant sales. Los Angeles Times, September 24. http://www.latimes.com/entertainment/news/newmedia/la-fi-halo24sep24,0,701643.story?coll=la-home-entertainment . Accessed 10 Oct 2007
+    Provost F, Domingos P (2003) Tree induction for probability-based ranking. Mach Learn 52(3): 199–215 MATH CrossRef Google Scholar
+    Pyle D (1999) Data preparation for data mining. Morgan Kaufmann Publishers, Los Altos Google Scholar
+    Raiffa H (1968) Decision analysis: introductory lectures on choices under uncertainty. Addison-Wesley, Reading MATH Google Scholar
+    Rahul A (2006) Crossing the analytics chasm. Bus Intell J 11:1. http://www.tdwiorg/Publications/BIJournal/displayaspx?ID=7892 . Accessed 11 Sep 2006
+    Reimer J (2005) Cross-platform game development and the next generation of consoles ars technica. http://arstechnicacom/articles/paedia/hardware/crossplatformars . Accessed 18 Nov 2006
+    Russell S, Norvig P (1995) Artificial intelligence: a modern approach. Prentice Hall, Englewood Cliffs MATH Google Scholar
+    Schocken S, Jones C (1993) Reframing decision problems: a graph-grammar approach. Inform Syst Res 4(1): 55–87 Google Scholar
+    Simon HA (1977) The new science of management decision. Prentice Hall, Englewood Cliffs Google Scholar
+    Smith JE, McCardle KF (1999) Options in the real world: lessons learned in evaluating oil and gas investments. Oper Res 47(1): 1–15 MATH Google Scholar
+    Trigeorgis L (1996) Real options: managerial flexibility and strategy in resource allocation. MIT Press, Cambridge Google Scholar
+    Walfisz M, Zackariasson P, Wilson T (2006) Real-time strategy: evolutionary game development. Bus Horizons 49(6): 487–498 CrossRef Google Scholar
+    Zadrozny B, Elkan C (2001) Obtaining calibrated probability estimates from decision trees and naive bayesian classifiers. In: Proceedings of the 18th international conference on machine learning, pp 609–616 Google Scholar
+    Zhang K, Fan W, Buckles B, Yuan X, Xu Z (2006) Discovering unrevealed properties of probability estimation trees: on algorithm selection and performance explanation. In: Proceedings of the sixth international conference on data mining (ICDM ’06), pp 741–752 Google Scholar
+
+Copyright information
+© Springer Science+Business Media, LLC 2008
+About this article
+
+Cite this article as:
+    Brydon, M. & Gemino, A. Data Min Knowl Disc (2008) 17: 317. https://doi.org/10.1007/s10618-007-0086-6
+
+    DOI https://doi.org/10.1007/s10618-007-0086-6
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Classification trees and decision-analytic feedforward control: a case study from the video game industry
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer International Publishing AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 168.181.51.234
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

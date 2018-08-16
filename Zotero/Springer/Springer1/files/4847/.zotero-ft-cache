@@ -1,0 +1,234 @@
+
+close
+close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+June 2009 , Volume 18, Issue 3 , pp 419–445 | Cite as
+A link mining algorithm for earnings forecast and trading
+
+    Authors
+    Authors and affiliations
+
+    Germán Creamer Email author
+    Sal Stolfo
+
+    Germán Creamer
+        1
+        2
+    Email author
+    Sal Stolfo
+        1
+
+    1. Department of Computer Science Columbia University New York USA
+    2. Centrum Catolica, Pontificia Universidad Católica del Peru Lima Peru
+
+Article
+First Online: 18 December 2008
+Received: 07 March 2007
+Accepted: 17 November 2008
+
+    351 Downloads
+    10 Citations
+
+Abstract
+
+The objective of this paper is to present and discuss a link mining algorithm called CorpInterlock and its application to the financial domain. This algorithm selects the largest strongly connected component of a social network and ranks its vertices using several indicators of distance and centrality. These indicators are merged with other relevant indicators in order to forecast new variables using a boosting algorithm. We applied the algorithm CorpInterlock to integrate the metrics of an extended corporate interlock (social network of directors and financial analysts) with corporate fundamental variables and analysts’ predictions (consensus). CorpInterlock used these metrics to forecast the trend of the cumulative abnormal return and earnings surprise of S&P 500 companies. The rationality behind this approach is that the corporate interlock has a direct effect on future earnings and returns because these variables affect directors and managers’ compensation. The financial analysts engage in what the agency theory calls the “earnings game”: Managers want to meet the financial forecasts of the analysts and analysts want to increase their compensation or business of the company that they follow. Following the CorpInterlock algorithm, we calculated a group of well-known social network metrics and integrated with economic variables using Logitboost. We used the results of the CorpInterlock algorithm to evaluate several trading strategies. We observed an improvement of the Sharpe ratio (risk-adjustment return) when we used “long only” trading strategies with the extended corporate interlock instead of the basic corporate interlock before the regulation Fair Disclosure (FD) was adopted (1998–2001). There was no major difference among the trading strategies after 2001. Additionally, the CorpInterlock algorithm implemented with Logitboost showed a significantly lower test error than when the CorpInterlock algorithm was implemented with logistic regression. We conclude that the CorpInterlock algorithm showed to be an effective forecasting algorithm and supported profitable trading strategies.
+Keywords
+Link mining  Social network  Machine learning  Computational finance  Trading strategies  Data mining applications 
+
+Responsible editor: Eamonn Keogh.
+
+A preliminary version of this paper was presented at the Link Analysis: Dynamics and Statics of Large Networks Workshop on the International Conference on Knowledge Discovery and Data Mining (KDD) 2006.
+
+An erratum to this article can be found at http://dx.doi.org/10.1007/s10618-010-0166-x
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Abarbanell J (1991) Do analysts earnings forecasts incorporate information in prior stock price changes? J Account Econ 14: 147–165 CrossRef Google Scholar
+    Abarnabell J, Bernard V (1992) Tests of analysts’ overreaction/underreaction to earnings information as an explanation for anomalous stock price behavior. J Finance 47: 1181–1207 CrossRef Google Scholar
+    Asquith P, Mikhail MB, Au AS (2005) Information content of equity analyst reports. J Financ Econ 75: 245–282 CrossRef Google Scholar
+    Barabasi A (2002) Linked: the new science of networks. Perseus, Cambridge, MA Google Scholar
+    Barber B, Lehavy R, McNichols M, Trueman B (2001) Can investors profit from the prophets? Security analysts recommendations and stock returns. J Finance 56: 531–563 CrossRef Google Scholar
+    Beckers S, Steliaros M, Thomson A (2004) Bias in European analysts’ earnings forecasts. Financ Anal J 60: 74–85 CrossRef Google Scholar
+    Bernard VL, Thomas JK (1990) Evidence that stock prices do not fully reflect the implications of current earnings for future earnings. J Account Econ 13 Google Scholar
+    Borgatti SP, Everett M (2006) A graph-theoretic perspective on centrality. Soc Netw 28: 466–484 CrossRef Google Scholar
+    Breiman L (2001) Random forests. Mach Learn 45: 5–32 MATH CrossRef Google Scholar
+    Breusch TS, Pagan A (1979) A simple test for heteroscedasticity and random coefficient variation. Econometrica 47: 1287–1294 MATH CrossRef MathSciNet Google Scholar
+    Brown LD (2000) I/B/E/S Research Bibliography, 6th edn. I/B/E/S International Incorporated. http://www2.gsu.edu/~wwwacc/Faculty/lbrown/Bibliography.pdf
+    Brown LD (2001) How important is past analyst forecast accuracy?. Financ Anal J 57: 44–49 CrossRef Google Scholar
+    Brown LD, Han JCY, Keon EF Jr, Quinn WH (1996) Predicting analysts’ earnings surprise. J Invest 5: 17–23 CrossRef Google Scholar
+    Cessie SL, Houwelingen JCV (1992) Ridge estimators in logistic regression. Appl Stat 41: 191–201 MATH CrossRef Google Scholar
+    Clement M, Tse S (2005) Financial analyst characteristics and herding behavior in forecasting. J Finance 40: 307–341 CrossRef Google Scholar
+    Cohen L, Frazzini A, Malloy C (2008) Sell side school ties. Working paper, Harvard Business School Google Scholar
+    Collins M, Schapire RE, Singer Y (2004) Logistic regression, adaboost and Bregman distances. Mach Learn 48: 253–285 CrossRef Google Scholar
+    Creamer G, Freund Y (2004) Predicting performance and quantifying corporate governance risk for latin american adrs and banks. In: I Proceedings of the financial engineering and applications conference, MIT-Cambridge Google Scholar
+    Creamer G, Freund Y (2005) Using adaboost for an equity investment/board balanced scorecard. In: Machine learning in finance workshop in NIPS 2005, Whistler, B.C Google Scholar
+    Creamer G, Freund Y (2007) A boosting approach for automated trading. J Trading (Summer 2007):84–95 Google Scholar
+    Creamer G, Stolfo S (2006) A link mining algorithm for earnings forecast using boosting. In: Proceedings of the link analysis: dynamics and statics of large networks workshop on international conference on knowledge discovery and data mining (KDD), Philadelphia, PA Google Scholar
+    Davis CE, Hyde JE, Bangdiwala S, Nelson J (1986) Modern statistical methods in chronic disease epidemiology, chapter An example of dependencies among variables in a conditional logistic regression. Wiley, New York Google Scholar
+    Davis G (1991) Agents without principles? The spread of the poison pill through the intercorporate network. Adm Sci Q 36: 586–613 CrossRef Google Scholar
+    Davis G, Yoo M, Baker W (2003) The small world of the american corporate elite, 1982–2001. Strateg Organ 1: 301–326 CrossRef Google Scholar
+    de Nooy W, Mrvar A, Batagelj V (2005) Exploratory social network analysis with Pajek. Cambridge University Press, New York Google Scholar
+    Dhar V, Chou D (2001) A comparison of nonlinear methods for predicting earnings surprises and returns. IEEE Trans Neural Netw 12: 907–921 CrossRef Google Scholar
+    Domingos P, Richardson M (2001) Mining the network value of customers. In: KDD ’01: proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining, ACM, New York, NY, USA, pp 57–66 Google Scholar
+    Elton JE, Gruber MJ, Grossman S (1986) Discrete expectational data and portfolio performance. J Finance 41: 699–714 CrossRef Google Scholar
+    Fawcett T, Provost F (1999) Activity monitoring: noticing interesting changes in behavior. In: Proceedings of the fifth ACM SIGKDD international conference on knowledge discovery and data mining (KDD-99), pp 53–62 Google Scholar
+    Finger CA, Landsman WR (1999) What do analysts’ stock recommendations really mean?, Working paper, University of Illinois and U.N.C., Chapel Hill Google Scholar
+    Freeman L (1979) Centrality in networks: I. conceptual clarification. Soc Netw 1: 215–239 CrossRef Google Scholar
+    Freund Y, Mason L (1999) The alternating decision tree learning algorithm. In: Machine learning: proceedings of the sixteenth international conference, pp 124–133 Google Scholar
+    Freund Y, Schapire RE (1997) A decision-theoretic generalization of on-line learning and an application to boosting. J Comp Sys Sci 55: 119–139 MATH CrossRef MathSciNet Google Scholar
+    Friedman J, Hastie T, Tibshirani R (2000) Additive logistic regression: a statistical view of boosting. Ann Stat 38: 337–374 CrossRef MathSciNet Google Scholar
+    Getoor L, Diehl CP (2005) Link mining: a survey. SIGKDD Explorations 7: 3–12 CrossRef Google Scholar
+    Goldberg HG, Kirkland JD, Lee D, Shyr P, Thakker D (2003) The NASD securities observation, news analysis and regulation system (sonar). In: IAAI 2003, Acapulco, Mexico Google Scholar
+    Greene W (2007) Econometric analysis, 6th edn. Prentice Hall, Upper Saddle River, NJ Google Scholar
+    Hill S, Provost F, Volinsky C (2006) Network-based marketing: identifying likely adopters via consumer networks. Stat Sci 21: 256–276 MATH CrossRef MathSciNet Google Scholar
+    Hong HG, Kubik JD (2003) Analyzing the analysts: career concerns and biased earnings forecasts. J Finance 58: 313–351 CrossRef Google Scholar
+    Ivkovic Z, Jegadeesh N (2004) The timing and value of forecast and recommendation revisions. J Financ Econ 73: 433–463 CrossRef Google Scholar
+    Jegadeesh N, Kim J, Krische SD, Lee CMC (2004) Analyzing the analysts: when do recommendations add value?. J Finance 59: 1083–1124 CrossRef Google Scholar
+    Kirkland JD, Senator TE, Hayden JJ, Dybala TG, Goldberg H, Shyr P (1999) The nasd regulation advanced detection system (ads). AI Mag 20: 55–67 Google Scholar
+    Krische SD, Lee CMC (2000) The information content of analyst stock recommendations. Working paper, Cornell University Google Scholar
+    Larcker DF, Richardson SA, Seary AJ, Tuna I (2005) Back door links between directors and executive compensation. Working paper Google Scholar
+    Lee CI, Rosenthal L, Gleason KC (2004) Effect of regulation FD on asymmetric information. Financ Anal J 60: 79–89 CrossRef Google Scholar
+    Leskovec J, Adamic LA, Huberman BA (2006) The dynamics of viral marketing. In: EC ’06: proceedings of the 7th ACM conference on electronic commerce, pp 228–237, ACM, New York, NY, USA Google Scholar
+    Mendenhall RR (1991) Evidence on the possible underweighting of earnings information. J Account Res 29: 170–179 CrossRef Google Scholar
+    Mikhail MB, Walther B, Willis R (2002) Do security analysts exhibit persistent differences in stock picking ability?. J Financ Econ 74: 67–91 CrossRef Google Scholar
+    Milgram S (1967) The small world problem. Psychol Today 2: 60–67 Google Scholar
+    Mills C (1956) The power elite. Oxford Press, New York Google Scholar
+    Mintz B, Schwartz M (1985) The power structure of American business. University of Chicago Press, Chicago Google Scholar
+    Mizruchi M (1992) The structure of corporate political action: interfirm relations and their consequences. Harvard University Press, Cambridge, MA Google Scholar
+    Moreno J (1932) Application of the group method to classification. National committee on prisons and prison labor, New York Google Scholar
+    Newman M, Strogatz S, Watts D (2001) Random graphs with arbitrary degree distributions and their applications. Phys Rev E 64 Google Scholar
+    Newman MEJ, Watts DJ, Strogatz SH (2002) Random graph models of social networks. Proc Natl Acad Sci USA 99(Suppl 1):2566–2572. doi:   10.1073/pnas.012582999 Google Scholar
+    Ou JA, Penman SH (1989) Accounting measurement, price-earnings ratios, and the information content of security prices. J Account Res 27 Google Scholar
+    Peters D (1993a) Are earnings surprises predictable?. J Invest 2: 47–51 CrossRef Google Scholar
+    Peters D (1993b) The influences of size on earnings surprise predictability. J Invest 2: 54–59 CrossRef Google Scholar
+    Peterson D, Peterson P (1995) Abnormal returns and analysts earnings forecast revisions associated with the publication of ’stock highlights’ by value line investment survey. J Financ Res 18: 465–477 Google Scholar
+    Rao H, Davis G, Ward A (2000) Embeddedness, social identity and mobility: why firms leave the NASDAQ and join the New York Stock Exchange. Adm Sci 45: 268–292 CrossRef Google Scholar
+    Richardson M, Domingos P (2006) Markov logic networks. Mach Learn 62: 107–136 CrossRef Google Scholar
+    Senator TE (2005) Link mining applications: progress and challenges. SIGKDD Explor 7: 76–83 CrossRef Google Scholar
+    Sparrow M (1991) The application of network analysis to criminal intelligence: an assessment of the prospects. Soc Netw 13: 251–274 CrossRef Google Scholar
+    Stickel SE (1995) The anatomy of the performance of buy and sell recommendations. Financ Anal J 51: 25–39 CrossRef Google Scholar
+    Stober T (1992) Summary financial statements measures and analysts’ forecasts of earnings. J Account Econ 15: 347–372 CrossRef Google Scholar
+    Stolfo S, Creamer G, Hershkop S (2006) A temporal based forensic discovery of electronic communication. In: Proceedings of the national conference on digital government research, San Diego, California Google Scholar
+    Thaler R (2005) Advances in behavioral finance II. Princeton University Press, Princeton, NJ Google Scholar
+    Watts D (1999) Networks, dynamics, and the small-world phenomenon. Am J Sociol 105: 493–527 CrossRef Google Scholar
+    Watts D, Strogatz S (1998) Collective dynamics of small world networks. Nature 393: 440–442 CrossRef Google Scholar
+    Witten IH, Frank E (2005) Data mining: practical machine learning tools and techniques, 2nd edn. Morgan Kaufmann, San Francisco MATH Google Scholar
+    Womack K (1996) Do brokerage analysts’ recommendations have investment value?. J Finance 51: 137–167 CrossRef Google Scholar
+
+Copyright information
+© Springer Science+Business Media, LLC 2008
+About this article
+
+Cite this article as:
+    Creamer, G. & Stolfo, S. Data Min Knowl Disc (2009) 18: 419. https://doi.org/10.1007/s10618-008-0124-z
+
+    DOI https://doi.org/10.1007/s10618-008-0124-z
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+A link mining algorithm for earnings forecast and trading
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer International Publishing AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 168.181.51.234
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

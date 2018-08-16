@@ -1,0 +1,192 @@
+
+close
+close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+January 2013 , Volume 26, Issue 1 , pp 27–56 | Cite as
+A preconditioned conjugate gradient algorithm for GeneRank with application to microarray data mining
+
+    Authors
+    Authors and affiliations
+
+    Gang Wu
+    Wei Xu Email author
+    Ying Zhang
+    Yimin Wei
+
+    Gang Wu
+        1
+    Wei Xu
+        2
+    Email author
+    Ying Zhang
+        3
+    Yimin Wei
+        4
+
+    1. School of Mathematical Sciences Xuzhou Normal University Xuzhou People’s Republic of China
+    2. Department of Mathematics Tongji University Shanghai People’s Republic of China
+    3. Xuzhou Medical College Xuzhou People’s Republic of China
+    4. Shanghai Key Laboratory of Contemporary Applied Mathematics, School of Mathematical Sciences Fudan University Shanghai People’s Republic of China
+
+Article
+First Online: 13 November 2011
+Received: 14 February 2011
+Accepted: 27 October 2011
+
+    1 Shares
+    617 Downloads
+    7 Citations
+
+Abstract
+
+The problem of identifying key genes is of fundamental importance in biology and medicine. The GeneRank model explores connectivity data to produce a prioritization of the genes in a microarray experiment that is less susceptible to variation caused by experimental noise than the one based on expression levels alone. The GeneRank algorithm amounts to solving an unsymmetric linear system. However, when the matrix in question is very large, the GeneRank algorithm is inefficient and even can be infeasible. On the other hand, the adjacency matrix is symmetric in the GeneRank model, while the original GeneRank algorithm fails to exploit the symmetric structure of the problem in question. In this paper, we discover that the GeneRank problem can be rewritten as a symmetric positive definite linear system, and propose a preconditioned conjugate gradient algorithm to solve it. Numerical experiments support our theoretical results, and show superiority of the novel algorithm.
+Keywords
+Gene network  Microarray  GeneRank  Preconditioned conjugate gradient method (PCG)  Krylov subspace method 
+
+Responsible editor: Pierre Baldi.
+
+Dedicated to Prof. Zhi-hao Cao on the occasion of his 75th birthday.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Aerts S et al (2006) Gene prioritization through genomic data fusion. Nat Biotechnol 24: 537–544 CrossRef Google Scholar
+    Agarwal S, Sengupta S (2009) Ranking genes by relevance to a disease. Proc LSS Comput Syst Bioinform Conf 8: 37–46 Google Scholar
+    Bai Z, Demmel J, Dongarra J, Ruhe A, van der Vorst H (2000) Templates for the solution of algebraic eigenvalue problems: a practical guide. SIAM, Philadelphia MATH CrossRef Google Scholar
+    Benzi M (2002) Preconditioning techniques for large linear systems: a survey. J Comput Phys 182: 418–477 MathSciNet MATH CrossRef Google Scholar
+    Cipra B (2000) The best of the 20th Century: editors name top 10 algorithms. SIAM News 33(4) Google Scholar
+    Demmel JW (1997) Applied numerical linear algebra. SIAM, Philadelphia MATH CrossRef Google Scholar
+    Franke L et al (2006) Reconstruction of a functional human gene network, with an application for prioritizing positional candidate genes. Am J Hum Genet 78: 1011–1025 CrossRef Google Scholar
+    Freschi V (2007) Protein function prediction from interaction networks using a random walk ranking algorithm. IEEE international conference on bioinformatics and bioengineering, pp 42–48 Google Scholar
+    Golub GH, Van Loan CF (1996) Matrix computations, 3rd edn. The Johns Hopkins University Press, Baltimore, London MATH Google Scholar
+    Hai D, Lee W, Thuy H (2008) A PageRanking based method for identifying chracteristic genes of a disease. IEEE Int Conf Netw Sens Control 6–8: 1496–1499 CrossRef Google Scholar
+    Hestenes M, Stiefel E (1952) Methods of conjugate gradients for linear systems. J Res Natl Bur Stand 49: 409–436 MathSciNet MATH CrossRef Google Scholar
+    Jia Z (1997) Refined iterative algorithms based on Arnoldi’s process for large unsymmetric eigenproblems. Linear Algebra Appl 259: 1–23 MathSciNet MATH CrossRef Google Scholar
+    Ma X, Lee H, Wang L, Sun F (2007) CGI: a new approach for prioritizing genes by combining gene expression and protein–protein interaction data. Bioinformatics 23(2): 215–221 CrossRef Google Scholar
+    Morrison J, Breitling R, Higham D, Gilbert D (2005) GeneRank: using search engine for the analysis of microarray experiments. BMC Bioinform 6: 233–246 CrossRef Google Scholar
+    Page L, Brin S, Motwami R, Winograd T (1998) The PageRank citation ranking: bring order to the web, Technical report. Computer Science Department, Stanford University, Palo Alto Google Scholar
+    Saad Y (2003) Iterative methods for sparse linear systems, 2nd edn. SIAM, Philadelphia MATH CrossRef Google Scholar
+    Sharan R, Ulitsky I, Shamir R (2007) Network-based prediction of protein function. Mol Syst Biol 3: 1–13 CrossRef Google Scholar
+    Taylor A, Higham D (2008) CONTEST: a controllable test matrix toolbox for MATLAB. ACM Trans Math Softw 35, Article 26 Google Scholar
+    The MATHWORKS, Inc. (2004) MATLAB 7. September Google Scholar
+    Wu G, Zhang Y, Wei Y (2010) Krylov subspace algorithms for computing GeneRank for the analysis of microarray data mining. J Comput Biol 17: 631–646 MathSciNet CrossRef Google Scholar
+    Wu G, Zhang Y, Wei Y (under review) Accelerating the Arnoldi-type algorithm for computing Google’s PageRank Google Scholar
+    Xenarios I, Salwinski L, Duan X, Higney P, Kim S (2002) DIP, the Database of Interacting Proteins: a research tool for studying cellular networks of protein interactions. Nucleic Acids Res 30: 303–305 CrossRef Google Scholar
+    Yue B, Liang H, Bai F (2007) Understanding the GeneRank model. IEEE 1st Int Conf Bioinform Biomed Eng 6–8: 248–251 Google Scholar
+
+Copyright information
+© The Author(s) 2011
+About this article
+
+Cite this article as:
+    Wu, G., Xu, W., Zhang, Y. et al. Data Min Knowl Disc (2013) 26: 27. https://doi.org/10.1007/s10618-011-0245-7
+
+    DOI https://doi.org/10.1007/s10618-011-0245-7
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+A preconditioned conjugate gradient algorithm for GeneRank with application to microarray data mining
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer International Publishing AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 168.181.51.234
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

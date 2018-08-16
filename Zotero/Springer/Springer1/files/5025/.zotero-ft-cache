@@ -1,0 +1,892 @@
+
+Loading [MathJax]/jax/output/HTML-CSS/jax.js
+close
+close
+close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Social Network Analysis and Mining
+Download PDF
+
+Social Network Analysis and Mining
+
+December 2016 , 6:41 | Cite as
+Behavioral analysis and classification of spammers distributing pornographic content in social media
+
+    Authors
+    Authors and affiliations
+
+    Monika Singh Email author
+    Divya Bansal
+    Sanjeev Sofat
+
+    Monika Singh
+        1
+    Email author
+    Divya Bansal
+        1
+    Sanjeev Sofat
+        1
+
+    1. Department of Computer Science and Engineering PEC University of Technology Chandigarh India
+
+Original Article
+First Online: 24 June 2016
+Received: 09 November 2015
+Revised: 15 April 2016
+Accepted: 12 June 2016
+
+    471 Downloads
+    2 Citations
+
+Abstract
+
+Social spam is a huge and complicated problem plaguing social networking sites in several ways. This includes posts, reviews or blogs containing product promotions and contests, adult content and general spam. It has been found that social media websites such as Twitter is also acting as a distributor of pornographic content, although it is considered against their own stated policy. In this paper, we have reviewed the case of Twitter and found that spammers contributing to pornographic content follow legitimate Twitter users and send URLs that link users to pornographic sites. Behavioral analysis of such type of spammers has been conducted using graph-based as well as content-based information fetched using simple text operators to study their characteristics. In the present study, about 74,000 tweets containing pornographic adult content posted by around 18,000 users have been collected and analyzed. The analysis shows that the users posting pornographic content fulfill the characteristics of spammers as stated by the rules and guidelines of Twitter. It has been observed that the illegitimate use of social media for spreading social spam has been spreading at a fast pace, with the network companies turning a blind eye toward this growing problem. Clearly, there is an immense requirement to build an effective solution to remove objectionable and slanderous content as stated above from social networking websites to promote and protect public decency and the welfare of children and adults. It is also essential so as to enhance public experience of genuine users using social media and protect them from harm to their public identity on the World Wide Web. Further in this paper, classification of pornographic spammers and genuine users has also been performed using machine learning technique. Experimental results show that Random Forest classifier is able to predict pornographic spammers with a reasonably high accuracy of 91.96 %. To the best of our knowledge, this is the first attempt to analyze and categorize the behavior of pornographic users in Twitter as spammers. So far, the work has been done for identifying spammers but they are not specifically targeting pornographic spammers.
+Keywords
+Twitter  Spammers  Pornographic content  NodeXL  Graph-based features  Content-based features 
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+1 Introduction
+
+Social networking sites (Definition of Social networking sites) provide a medium to share information like opinions, photos, videos, news articles etc. among users. They have attracted millions of users using their services to link, reply, follow, like, comment and message each other by forming certain electronic connections. These structural connections can be extracted and analyzed by researchers in order to study behavioral characteristics of involved people, their community structures, size and position of users in the network. However, users of these social networks apart from genuine legitimate users also include cyber-criminals, who exploit the networks by spreading spam. Twitter, the most popular microblogging open platform, is growing at a phenomenal rate serving 310 million monthly active users till 2015 (Statistics of Social Networking Sites 2015 ). Success of Twitter has driven online marketers (Will porn spam keep Twitter marketers away?) in creating profiles for their business and in thinking about ways to draw network traffic toward their websites and make extra revenue from the popular micro-blogging networks. By default, this also made it a target for online spammers and scammers. Twitter has an overflow of content from one of the Internet’s biggest industries: the adult pornographic industry (Porn on Twitter). It is not surprising that the adult industry—including pornography, and sexually explicit spam is generating its own traffic through Twitter. According to the statistics drawn up in May 2015 (Shocking truth behind Twitter’s 10 million porn accounts 2015 ), there are at least 10 million estimated accounts on Twitter devoted to tweeting pornographic materials.
+The motto “Nothing is free in this world” is applicable on pornographic spam as well. Spammers create online advertisements to lure online users into their sites under the guise of free pornographic material, only to charge them with enormous payments with majority of the content (Paid Porn Content). The spread of this issue is so enormous that Twitter is now being considered as a spam machine for many aggrieved users. According to Claire Celsi (Types of Twitter spam), spam on Twitter can be categorized as follows:
+
+    1.
+
+    “Get more Twitter followers” spam These are the agencies that help users gather and follow hundreds of other Twitter users per day with the purpose to generate revenue out of this practice.
+     
+    2.
+
+    Porn spam These constitute of accounts propagating pornographic content to others to allure them to paid pornographic content.
+     
+    3.
+
+    Duplicate accounts These accounts are made up in a row with exhilarating names to send malicious tweets.
+     
+    4.
+
+    Duplicate schedulers These are the people who schedule and repeat tweets over and over again with the purpose of being noticed and disseminating malicious content.
+     
+    5.
+
+    Trend topic followers These are the people who tweet about breaking news all day with the ‘#’ trend followed by some gibberish spam content with the primary purpose of increasing number of followers.
+     
+    6.
+
+    Stat addicts These people spend time just aimlessly in increasing their followers’ count aiming to increase their popularity.
+     
+
+If we seek information related to the generation of porn spam on Twitter, then several complaints from aggrieved people can be found who consider quitting Twitter due to the uncontrolled spread of pornographic spam (Letter to Twitter to stop porn spam). In spite of all this statistics, the porn industry is operational and flourishing in the website.
+As per a recent survey (Survey regarding Spam on Twitter 2015 ), 9.3 % of Twitter posts comprise of spam which include 5.8 % advertisement related content, 2.2 % adult content and 1.3 % general spam (non adult spam) as shown in Fig.  1 .
+Open image in new window
+Fig. 1
+
+Distribution of spam content on Twitter
+
+24 % of the total spam found on Twitter is related to pornography. A deep and extended analysis has been executed over such users with the aim to understand behavioral characteristics of those posting such malicious content and how they fit into the spammer’s category. It also brings the need to develop methods capable of automatically detecting such category of spammers. It is imperative to prevent adult content from intruding into the bulk content of Twitter as users of all age groups use such social networking sites and unrestricted access will certainly have much severe social implications.
+1.1 Implications of pornographic spam
+
+Small-scale actions such as clicking on unauthorized updates on web browsers can result in pornographic spam. For instance, if a user has to update the flash player to watch video content on the web page, the action inadvertently downloads malicious software on his computer. Such a malware may be instantly activated or it may be activated by a bot network at a later predetermined time or by trigger of certain keywords (Twitter target of adult spam). To prevent such malicious activities, Twitter provides its users with the option to block spammers’ accounts or to send a direct message to “@spam” followed by user names of spammers to investigate into the profiles. Unfortunately, in spite of the efforts and policies of Twitter, pornographic spammers have been evading through such measures and operating.
+1.2 Motivation behind the present work
+
+While using Twitter or performing analysis of user profiles, it has been observed that the pornographic content in the form of profile images or tweets containing sexually explicit images or videos is immensely prevalent on Twitter in spite of their policies classifying such content as spam. Adult content is different from other spam messages as the content of these messages is very specific and revolves around sexual-related words which may also involve names of sex symbols around the planet. Recently on March 11, 2015, Twitter had modified its abuse policy (Update in Twitter rules to ban revenge porn 2015 ) to specifically prohibit the posting of intimate photos or videos that were taken or distributed without the user’s consent. But even after the issuance of these policies and guidelines, pornographic content continues to be a flourishing part of Twitter. This work is an attempt to analyze the behavior and thus classify the users sending pornographic messages in Twitter.
+This study has the following main research contributions:
+
+    1.
+
+    Behavioral analysis of users distributing pornographic or adult content on the basis of graph and content-based features has been presented. Profile and behavioral features of these users have been analyzed.
+     
+    2.
+
+    NodeXL has been used to collect and analyze the network of such users.
+     
+    3.
+
+    The characteristics of pornographic spammers have been identified.
+     
+    4.
+
+    Approximately 2000 URLs used by pornographic spammers to disseminate adult content in Twitter have been identified.
+     
+    5.
+
+    Classification of pornographic spammers has been conducted using machine learning algorithms.
+     
+
+The paper has been sectioned as follows. In Sect.  2 , background of NodeXL and data collection process for analysis purpose has been discussed. In Sect.  3 , various user-based and content-based features used for analysis have been described. Section  4 describes the inferences drawn from the analysis of pornographic users. Section  5 details the spam detection mechanism with evaluation results. Section  6 discusses Twitter’s perspective toward pornography. Section  7 surveys related work, while Sect.  8 concludes the paper. Section  9 describes the future work.
+2 Data collection
+
+This section describes the procedure so adopted for collection of dataset used for analysis of pornographic users. For the present study, NodeXL has been used to collect and analyze data from Twitter.
+2.1 NodeXL and data collection
+
+NodeXL (NodeXL), a free and open add-in for Microsoft Excel 2007/2010/2013, is a network analysis application that helps in exploring the social network data from social media such as Twitter, Flickr, Youtube, Facebook etc. This tool provides the automation of various steps involved in extracting and analyzing social network data, starting from the data collection to final network visualization results. It also assists in providing useful graph metrics and properties in Excel spreadsheet.
+
+NodeXL’s Twitter search network import feature has been used to extract data of pornographic users in Twitter by searching for tweets containing six different phrases related to pornography i.e., ‘porn’, ‘nude’, ‘boobs’, ‘anal/ass’, ‘adult sex’ and ‘lesbian’ . NodeXL’s Twitter search network data collector works by the following method: it starts crawling data by performing a query containing the mentioned keywords against the Twitter search service through Twitter’s API; Twitter provides NodeXL with the most recent tweets of the day when query was made depending upon the volume of tweets related to the search term (New Post: Collecting Twitter search results—how far back?); Twitter puts restrictions on the data access and it does not deliver more than 18,000 latest tweets via the REST API in any query (REST API rate limits 2015 ) or last 7 days data whichever comes first; different results are returned against same query when performed multiple times as Twitter may have different activity or server load that makes Twitter to return different sets and volumes of tweets. This configuration has been used for all six phrases as mentioned above to collect Twitter data related to the adult industry.
+
+While collecting the data, NodeXL pauses automatically several times, whenever it reaches Twitter rate limit (REST API rate limits 2015 ) and the user has to wait for several minutes/hours before one can start downloading the data again for a single search term. When data for a particular keyword were returned, NodeXL was again initiated to crawl the data for next keyword in the same manner. This entire process of data collection and refining took 12 days from April 27, 2015 to May 08, 2015.
+
+Thus collected data contain pornography-related tweets posted by different users for the above said period. Process of data retrieval is described below.
+2.1.1 List of edges
+The resulting data is displayed in a NodeXL worksheet labeled “Edges” in the excel workbook where each edge represents a connection between two people who tweeted about the requested phrase. NodeXL (Hansen et al. 2009 ) provides four different types of Twitter edges from the collected data: follows, replies, mentions and tweets as described below:
+
+    A “follows” edge is created if one tweeter follows another who also tweeted in the sample dataset.
+
+    A “mentions” edge is created when one tweeter creates a tweet that contains the name of another user proceeding “@” character.
+
+    A “reply” edge is a special form of “mention” that occurs when the user’s name is at the very start of a tweet.
+
+    A “tweet” is a message that does not contain a reply or mention. Information about mentions, reply and tweets has been collected using six particular words as mentioned earlier.
+
+2.1.2 List of Vertices
+
+Each Twitter user is considered to be a vertex in the network. In an edge list, one user can appear multiple times for each relationship, whereas “Vertices” presents a unique list in which all of the users in the network appear only once. Each vertex has certain attributes and network metrics provided by NodeXL (Hansen et al. 2009 ). We have selected following features for the analyzing the behavior of pornographic users— number of followers of a user, number of followings of a user, number of tweets posted by the user till date, self description of user, date of creation of account, tweet text containing searched term, list of URLs occurring in the tweets, domains in tweets, hashtags used, and posting date of tweets.
+2.2 Summary of collected data using NodeXL’s Twitter search network
+As described in Sect.  2.1 , NodeXL’s Twitter search network has been used to collect information as shown in Table  1 about users posting pornographic material using six keywords related to adult content.
+Table 1
+
+Data collected using six keywords related to adult content
+
+Keyword used
+	
+
+Edges/tweets shared
+	
+
+Vertices
+
+Nude
+	
+
+18,781
+	
+
+2152
+
+Pornography
+	
+
+17,970
+	
+
+5247
+
+Adult sex
+	
+
+13,345
+	
+
+1460
+
+Boobs
+	
+
+10,423
+	
+
+5849
+
+Lesbian
+	
+
+9831
+	
+
+2586
+
+Anal/ass
+	
+
+3490
+	
+
+1090
+
+Total
+	
+
+73,840
+	
+
+18,384
+2.3 Methodology for data processing
+The resulting dataset of tweets was processed using NodeXL with the purpose of analyzing and visualizing the data collected. A series of operations have been performed using the “Automate” feature and have been briefly described as below:
+
+    1.
+
+    Count and merge duplicate edges
+
+    Duplicate edges have been merged together on the basis of exactly similar values of vertex 1, vertex 2 and tweet. This has been done to create a comprehensive picture of all connections between two users.
+     
+    2.
+
+    Graph metrics
+
+    Different measures of the graph have been calculated for each vertex and for the network as a whole in order to measure the influence (trust) of users in the network as mentioned below:
+
+    Overall graph metrics
+        (a)
+
+        Vertex in-degree: number of edges (tweets/replies/mentions) entering the node/vertex in the requested network (Kumar et al. 2014 ).
+         
+        (b)
+
+        Vertex out-degree: number of edges (tweets/replies/mentions) leaving the node/vertex in the requested network (Kumar et al. 2014 ).
+         
+        (c)
+
+        Vertex betweenness and closeness centralities: indicate the control of the user on the flow of information in the network (Kumar et al. 2014 ).
+         
+        (d)
+
+        Vertex eigenvector centrality: indicates the influence (trust) of the user (Kumar et al. 2014 ).
+         
+        (e)
+
+        Vertex PageRank: indicates the relevance and importance of the node in the network (Hansen et al. 2009 ).
+         
+        (f)
+
+        Vertex clustering coefficient: indicates the closeness of each user’s connections with one another (Kumar et al. 2014 ).
+
+        Twitter search network top items from the requested network are returned like top 10 tweeters, domains, URLs, hashtags, replied-to users, mentioned people.
+
+        All these above-mentioned graph metrics have been calculated so that the importance and influence of any node from a different perspective can be calculated which in turn helps in evaluation of reliability or trust or strength of a node in the social network.
+         
+     
+    3.
+
+    Autofill columns
+    This feature provides the settings for better visualization of graph. In our generated graph, vertex label has been set to the name of the user, size of each vertex has been set to be proportional to the number of followers of the user and each edge has been labeled by the relationship type between two users as shown in Fig.  2 .
+    Open image in new window
+    Fig. 2
+
+    Graphical Representation of users in ‘Adult sex’ category as created with NodeXL representing a network of Twitter users with edges for each “replies-to”, “mentions” relationship, and a self-loop edge for each tweet that is not a “replies-to” or “mentions”
+     
+    4.
+
+    Sub - graph images
+
+    Small thumbnail sub-graph images of the connections around each node have been created and inserted into the “Vertices” worksheet which presents a local neighborhood of each person.
+     
+    5.
+
+    Graph visualization
+
+    The network has been visualized graphically. Graphs have been constructed of a size of 4096 × 3072 pixels to keep a balance between size and details in the image.
+     
+
+3 Features selected for behavioral analysis of pornographic users
+Twitter has laid down a number of restrictions to prevent spam. Based upon the characteristics of collected data, following Twitter’s rules and policies (Twitter Rules) can be mapped for categorizing users.
+
+    1.
+
+    Follow and/or unfollow large amounts of users in a short time period;
+     
+    2.
+
+    Updates consisting mainly of links;
+     
+    3.
+
+    Posting duplicate content over multiple accounts;
+     
+    4.
+
+    Posting multiple unrelated updates to a topic using #;
+     
+    5.
+
+    Randomly or aggressively following/favoriting/retweeting tweets.
+     
+
+On the basis of the above-mentioned rules and policies, following two categories of features have been selected to analyze the behavior of pornographic users.
+3.1 Graph-based features
+
+These features are based on the demographics of the user. Following features have been used under this category:
+3.1.1 No. of followers/no. of followings
+
+This feature returns a ratio of the number of followers to the number of followings of the user. Previous research (Verma et al. 2014 ) and Twitter rules (Twitter Rules) suggest that this ratio should be 1 for a genuine user and very less for a spammer. While looking at the calculated values of this feature for the collected dataset, nothing could be concluded as the values were not in any specific range. So, in order to normalize the values of this feature, ‘Reputation’ feature has been calculated as discussed next.
+3.1.2 Reputation
+This feature produces normalized values that are easy to visualize and help in deriving behavior of users. ‘Reputation’ is calculated as given by Eq. ( 1 ):
+\hbox{Reputation} = \frac{{\hbox{Followers count}}}{{\hbox{Followers count} + \hbox{Followings count}}}
+(1)
+As per the existing research (Chu et al. 2012 ), ‘Reputation’ of those celebrities/organizations is 1 who have large followers and few followings and 0 for those spammers who have few followers and large followings. The metric ‘Reputation’ has been calculated for the users whose data have been collected and plots have been analyzed for all six categories as shown in Fig.  3 .
+Open image in new window
+Fig. 3
+
+Reputation of users in six different categories of pornographic users
+
+(a) Nude category
+	
+
+(b) Porn category
+
+(c) Adult sex category
+	
+
+(d) Boobs category
+
+(e) Lesbian category
+	
+
+(f) Anal/ass category
+
+It has been observed from the plots of Fig.  3 that ‘Reputation’ is almost linearly distributed in the entire range of values from 0 to 1 which means that such users have huge followers like celebrities and almost equal number of followers and followings like genuine users. In certain cases, they have large number of followings than followers like other spammers. It has thus been concluded from the plots that behavior of pornographic spammers is independent of the ‘Number of followers’, ‘Number of followings’ and ‘Reputation’.
+3.1.3 Reputation of top tweeters
+Since ‘Reputation’ metric as discussed above, has not been able to predict the behavior of users under analysis. So ‘Reputation’ of suspected spammers, i.e., the users sending one message repeatedly in the network in six different categories has been calculated. The relationship between ‘Reputation’ and top three suspected spammers in all six categories has been shown in Fig.  4 .
+Open image in new window
+Fig. 4
+
+Reputation of top three suspected spammers in six different categories of pornographic users
+
+The above graph shows that the ‘Reputation’ of the users who are sending same tweet repeatedly in all the six categories is not close to 0 which is one of the criteria to classify spam users based upon the ‘Reputation’ (Chu et al. 2012 ). It can be seen from Fig.  4 that the user sending same tweet 2605 times has ‘Reputation’ of 0.91 which is generally considered to be the value of ‘Reputation’ for celebrities and so is true for other top tweeters also.
+3.1.4 Characterization of ‘screen names’
+An analysis of the screen names of pornographic users has been done using RapidMiner tool (RapidMiner tool). RapidMiner tool has been used to tokenize the screen names and then filter the tokens containing filthy words like ‘Sex’, ‘porn’, ‘xxx’, ‘hot’, ‘ass’, ‘big’, ‘anal’, ‘girl’, ‘boobs’, ‘teen’, ‘adult’, ‘girls’, ‘fuck’, ‘hardcore’, ‘fucking’, ‘nude’, ‘naked’ etc. This filtering process returned around 1500 such lewd names. It is clear from the screen names that such like users generally use attractive and lascivious names to attract other users. Figure  5 shows the count of screen names containing pornographic words.
+Open image in new window
+Fig. 5
+
+Count of screen names containing pornographic words
+3.1.5 Characterization of ‘bio’/‘description’
+Out of the crawled pornographic users, only 76 % users have posted their description. ‘Description’ field of crawled users has been tokenized using RapidMiner tool (RapidMiner Tool) to analyze the usage of words in ‘Description’ field by such like users. A graph has been plotted for the highest frequency of words in their description as shown in Fig.  6 .
+Open image in new window
+Fig. 6
+
+Frequency of words in ‘Description’ field of pornographic users
+
+Figure  6 asserts that most of these users make it clear that they will post pornographic content by using filthy words in their ‘Description’.
+
+Graph-based features cannot be used solely for classifying spammers. Thus, the content-based features have been analyzed and used. Use of content-based features for analyzing the behavior of users has been explained in Sect.  3.2 .
+3.2 Content-based features
+
+These features are based on the content of the tweet posted by the users. Simple text operators have been used to fetch and analyze certain components of tweets like URLs, @mentions(replies) and hashtags(#) . Following features have been used in this category:
+3.2.1 Users sending duplicate tweet repeatedly
+Although it is possible to send spam messages on Twitter without URLs, but previous studies show that the majority of spam and other malicious messages on Twitter have embedded URLs (Chu et al. 2012 ). It is pertinent to mention here that from the collected 73,840 tweets around 88.4 % of the tweets contain URLs as shown in Fig.  7 . After removing duplicate URLs, a total of 1843 pornographic domains/URLs have been obtained.
+Open image in new window
+Fig. 7
+
+Number of tweets with URLs in six different pornographic categories of tweets
+
+An analysis of occurrence of the same tweet post has been done. It was found that most of the tweets contain either the same URL with different tweet text or the same tweet text with a difference in last ten characters of URL string which finally points to the same landing page. Similarity of tweet text has been calculated by replacing URL links found in the tweets with http://t.co/ .
+For each keyword search, count for the number of times a user is sending the same tweet in the network has been calculated. It may be recalled that as per Twitter’s policy (Twitter Rules), those who tend to send the same text a number of times to attract user attention is called a spammer. Graphs have been plotted (shown in Fig.  8 ) which clearly show total number of users sending same tweet repeatedly along with the highest number of times a tweet is being sent repeatedly by a user in each category.
+Open image in new window
+Fig. 8
+
+Number of users sending duplicate tweets in six categories of pornographic users with the highest duplicate tweet count in each category
+
+The above-plotted graph in Fig.  8 clearly shows that the Twitter pornographic users in all the categories violate Twitter’s own policies by sending one tweet a number of times. For example, in Fig.  8 , for ‘Nude’ category, there are 2024 users sending duplicate tweets with 2605 being the highest number of times a duplicate tweet is sent.
+3.2.2 Retweet count
+It is also observed that the same tweet is being sent by different users in all networks. ‘Retweet Count’ feature is used in analyzing this behavior of Twitter pornographic users. This feature is important as it shows the frequency of a tweet in the network. Graph has been plotted for ‘Retweet count’ in all the six categories as shown in Fig.  9 .
+Open image in new window
+Fig. 9
+
+No. of Retweets in all six categories of pornographic users along with the highest number of times a Retweet is being sent in each category
+Plots have also been constructed to show that the same tweet is being sent by a number of users in each category. Figure  9 shows the distribution of highest retweet count among different number of users. Only one such plot for ‘Porn’ category has been shown in Fig.  10 . It has been concluded from the plots of Figs.  9 and 10 that same tweets have been posted by a number of users which predict that these tweets may be a part of a spam campaign, with certain users involved who keep on sending the same message repeatedly to promote the spam campaign (Chu et al. 2012 ).
+Open image in new window
+Fig. 10
+
+Distribution of a Retweet under ‘Porn’ category posted 518 times by different users
+3.2.3 Date of posting of retweets
+The preceding feature predicts the presence of spam campaigns involving a certain number of accounts. Behavior of pornographic users across the feature ‘Date of Posting of Retweets’ has also been analyzed to further support our claims. It was observed that campaigns are undertaken on predetermined dates. In order to analyze the relation between same tweet posting dates and users; a graph has been drawn as shown in Fig.  11 that denotes the relationship between the date of posting of same tweet by different people in all six categories vs tweet count.
+Open image in new window
+Fig. 11
+
+Posting date of highest duplicate tweet count in all six categories of pornographic users
+
+Above plot of Fig.  11 clearly support the results that same tweets are sent on same date by different people which strengthen our previous stated claims that these tweets are a part of a campaign initiated on fixed dates to distribute the spam message repeatedly to large public and use different accounts to post the same kind of content.
+3.2.4 Characterization of tweets containing no URLs
+As mentioned in Sect.  3.2.1 that around 88.4 % of tweets contain links of pornographic sites. It is significant to analyze the remaining fraction of tweets posted by pornographic users to see how they are different from the tweets which contain URLs of pornographic sites. After removing duplicates and non English tweets from the remaining 11.6 % tweets, a total of 5371 tweets have been obtained. RapidMiner’s regex filters has been used to filter the tweets containing pornographic keywords like ‘porn’, ‘sex’, ‘adult’, ‘ass’, ‘anal’, ‘boobs’, ‘xxx’, ‘tits’ etc. And it has been found that all the extracted tweets contain pornographic words. Figure  12 shows the number of tweets containing pornographic keywords.
+Open image in new window
+Fig. 12
+
+Tweets without URLs containing pornographic keywords
+4 Inferences drawn from behavioral analysis of pornographic users
+Data of around 74k tweets containing adult content from 18k users has been collected using NodeXL as stated in previous sections. The rules and policies laid down by Twitter regarding the behavior of spammers correlating with the data collected have been selected for designing the feature set used for behavioral analysis. Two categories of features—user based and content based (total of 09 features) have been used for analysis purpose mapping Twitter policies. Based upon above, following inferences can be drawn:
+
+    (a)
+
+    Analysis of user-based features, i.e., ‘Ratio of number of followers to the number of followings’, and ‘Reputation’ show that Twitter pornographic users are covering the entire range of values for reputation varying between 0 and 1 which means that user-based features cannot accurately predict the category of users sending pornographic content.
+     
+    (b)
+
+    Content-based features categorize pornographic users as spammers as they violate the rules of Twitter regarding content of a post. The feature ‘Retweet Count’ has been used to predict the behavior of users as spammers under investigation.
+     
+    (c)
+
+    It has also been observed that many users are sending the same tweet in the network and all duplicate tweets had been posted on the same day. This analysis can be used to predict the occurrence of spam campaigns with particular kind of users involved and operating on particular dates.
+     
+    (d)
+
+    Demographics like ‘user names’ and ‘bio’ of pornographic users make it clear that such users will post pornographic content.
+     
+
+5 Detection mechanisms for pornographic spammers
+
+It has been inferred from the behavioral analysis that pornographic users also fall under the category of spammers. Therefore, in this section, the problem of identifying pornographic spammers has been addressed. Machine learning approach has been used for classifying users into two categories: genuine or pornographic spammers. Detailed classification scheme that has been used for identifying pornographic spammers in Twitter has been discussed. The data collection methodology has been first described followed by the features used for classification and a set of metrics used to evaluate the efficiency of the classification scheme. The results so obtained using the classification algorithms have been described toward the end of this section.
+5.1 Data collection
+
+In order to collect data of genuine and pornographic spammers in Twitter, a crawler had been designed using Python and Tweepy library (Tweepy Library for Python) that uses Twitter’s REST API (Twitter REST API) to gather information about a user profile like Twitter ID, screen name, description, user name, location, tweet count, followers count, followings count, account creation date, latest 200 tweets, source ( via ) of each tweet, number of replies (or @mentions), hashtag count (#), tweets containing URLs, tweets containing spam URLs, common accounts, and tweets sent to common accounts. Since Twitter API responses are rate limited (REST API rate limits 2015 ) per-user and per-access token basis. To avoid limiting rate, 60 API keys had been generated using OAuth policy of Twitter (Twitter REST API). Approach used to collect data of genuine and pornographic spammers has been described below:
+5.1.1 Genuine users
+
+To collect data of known genuine users, procedure described in Algorithm 1 has been designed. This algorithm has been designed by starting the crawler with a manually verified genuine seed user. Genuine seed user’s identity is validated for his genuineness by examining profile picture, name, biography, followers list, followings list and tweets manually. This algorithm is based on the assumption that a genuine user follows a genuine user only (the probability that a genuine user follows a spam user is very less likely). Hence, there will be no spam user in his list of known users. The only exception to our assumption can be in the case of fake profiles of celebrities who may not follow any users but may have genuine followers.
+Algorithm 1 Crawling technique for collecting data of known genuine users
+Open image in new window
+
+Using the technique described in Algorithm 1, data of 8522 known genuine users with their 17,04,400 tweets has been collected.
+5.1.2 Pornographic spammers
+
+Data of pornographic users returned by NodeXL as shown in Table  1 has been crawled using the designed crawler. After removing redundancy, data of 10,300 pornographic users with their 20,60,000 tweets has been collected.
+5.2 Feature selection
+
+This section describes the classification features that have been used to fetch pornographic spammers who have been evading the scrutiny of the Twitter administrators. Features have been selected on the basis of Twitter policy (Twitter Rules) to tag spammers. Features mentioned below have been selected for categorization of pornographic spammers and genuine users.
+5.2.1 Age of Account
+Age of an account is calculated as:
+\hbox{Age of account} = \hbox{Present date} - \hbox{Account creation date}
+(2)
+
+Reason for Usage Spammers generally create new accounts to replace suspended ones. So spam accounts are newly created as compared to long time existing genuine accounts.
+5.2.2 Tweets with URLs
+This feature is calculated as:
+\hbox{Tweets with URLs} = \frac{{\hbox{Tweets containing URLs}}}{{\hbox{Tweets analyzed}}}
+(3)
+
+Reason for Usage In order to disseminate more content on Twitter, spammers tend to post URLs that link to malicious sites. This feature is robust as it also targets the operating mode of spammers.
+5.2.3 Tweets with malicious URLs
+
+Reason for Usage Spammers generally use URLs in their tweets due to the 140 word limit prescribed by Twitter. Currently, Twitter relies on Google’s SafeBrowsing API to block malicious links (Grier et al. 2010 ). Popular blacklist services URIBL (URIBL List), A419Artists Against 419 (AA419 List), SURBL (SURBL List), AB (AB List), SC (SC List), PH (PH List), MW (MW List), JP (jwSpamSpy + Prolocation sites) (JP List), WS (WS List), and domains used by pornographic users (1843 domains) with adult content (as shown in Fig.  5 ) have been used as blacklisted URLs. A total of 3,35,996 blacklisted domains/URLs have been used to tag spam URLs in tweets.
+This feature is calculated as:
+\hbox{Tweets with malicious URLs} = \frac{{\hbox{Tweets with Spam URLs}}}{{\hbox{Tweets with URLs}}}
+(4)
+5.2.4 Following frequency
+This feature is calculated as:
+\hbox{Following frequency} = \frac{{\hbox{No. of followings}}}{{\hbox{Age of account}}}
+(5)
+
+Reason for Usage Spammers tend to follow more people in a short span of time in order to get noticed. So this feature is robust as it also targets the method used by spammers to disseminate more and more spam in a short span of their lifetime.
+5.2.5 Trending topics posting frequency
+This feature is calculated as:
+\hbox{Trending topics posting frequency} = \frac{{\hbox{Duplicate hashtags}}}{{\hbox{Hashtag count}}}
+(6)
+
+Reason for Usage Spammers generally use trending hashtags and append them to spam tweets so as to increase the probability of being searched. Spammers have more value of this feature as compared to genuine users.
+5.2.6 Tweeting activity
+Tweeting activity is calculated as:
+\hbox{Tweeting activity} = \frac{{\hbox{Tweet count}}}{{\hbox{Age of account}}}
+(7)
+
+Reason for Usage Spammers tend to send more tweets in bulk in short time period to achieve their objective before they get caught and suspended. This feature is also robust as it targets the general trend followed by spammers. Spammers have more value for this feature as compared to genuine users.
+5.2.7 Proportion of common accounts
+This feature is calculated as:
+\hbox{Proportion of common accounts} = \frac{{\hbox{Number of common accounts}}}{{\hbox{Followers count}}}
+(8)
+
+Reason for Usage Spammers keep following many accounts to get noticed but rarely any genuine account reciprocates the relationship. To evade this feature, spammers will need to get more accounts as their followers which is difficult to achieve. Generally spammers have less number of common accounts as compared to genuine users.
+5.2.8 Reputation
+Reputation is calculated as:
+\hbox{Reputation} = \frac{{\hbox{Followers count}}}{{\hbox{Followers count} + \hbox{Followings count}}}
+(9)
+
+Reason for Usage A celebrity usually has many followers and few followings and the value of his ‘Reputation’ is close to 1; a genuine user generally follows known users that follow him back and has almost equal number of followers and followings so the value of ‘Reputation’ is slightly less than 1, whereas a spammer with few followers and a large followings has the value of ‘Reputation’ close to 0.
+5.2.9 Tweets sent to known people
+This feature is calculated as below:
+\hbox{Proportion of tweets to known people} = \frac{{\hbox{Number of tweets sent to common accounts}}}{{\hbox{Tweets analyzed}}}
+(10)
+
+Reason for Usage Spammers often use “@mention” to distribute spam to random users even without knowing that person. This feature is difficult to evade as it targets the approach used by spammers for distributing spam. Spammers will need to create social relationship to evade this feature.
+5.3 Evaluation metrics
+The effectiveness of classification algorithms can be measured by some commonly used information retrieval metrics like accuracy, precision, and recall as presented by the confusion matrix (shown in Table  2 ).
+Table 2
+
+Confusion matrix
+  	
+
+Predicted
+
+Genuine
+	
+
+Spammer
+
+True label
+	
+
+Genuine
+	
+
+TP
+	
+
+FN
+
+Spammer
+	
+
+FP
+	
+
+TN
+The confusion matrix as shown in Table  2 represents the relation between TP (True Positive), TN (True Negative), FP (False Positive) and FN (False Negative). Precision ( P ) as given by Eq. ( 11 ) is the rate of predicting positives in a class that are truly positive. Recall ( R ) as given by Eq. ( 12 ) is the rate of actual positives that are predicted as positive. Accuracy ( A ) as given by Eq. ( 13 ) is the rate of predicting results correctly by the classifier.
+P = \frac{{\hbox{TP}}}{{\hbox{TP} + \hbox{FP}}}
+(11)
+R = \frac{{\hbox{TP}}}{{\hbox{TP} + \hbox{FN}}}
+(12)
+A = \frac{{\hbox{TP} + \hbox{TN}}}{{\hbox{TP} + \hbox{TN} + \hbox{FP} + \hbox{FN}}}
+(13)
+5.4 Machine learning classification
+Five classification algorithms implemented in Weka software package (Weka—Data Mining Open Source Program) have been used for classification, and experiments have been performed using tenfold cross validation in order to reduce bias. Results of five classification algorithms with their default settings in Weka have been shown in Table  3 . Figure  13 shows a comparison of five classifiers on the basis of evaluation metrics.
+Table 3
+
+Evaluation metrics for five Classifiers using user and content-based features
+
+Classification algorithm
+	
+
+Accuracy
+	
+
+Precision
+	
+
+Recall
+	
+
+TPR (G)
+	
+
+TPR (S)
+	
+
+FPR (S)
+
+Bayes Net (Bayes Net)
+	
+
+84.5
+	
+
+84.9
+	
+
+84.5
+	
+
+88.1
+	
+
+81.5
+	
+
+11.9
+
+Logistic (Logistic Regression)
+	
+
+82.3
+	
+
+83.3
+	
+
+82.3
+	
+
+88.9
+	
+
+76.9
+	
+
+11.1
+
+J48 (J48 Classifier)
+	
+
+89.2
+	
+
+89.3
+	
+
+89.2
+	
+
+88.5
+	
+
+89.8
+	
+
+11.5
+
+Random Forest (Random Forest)
+	
+
+91.9
+	
+
+91.9
+	
+
+91.9
+	
+
+91.3
+	
+
+92.3
+	
+
+8.7
+
+AdaBoostM1 (AdaBoostM1 Classifier)
+	
+
+83.8
+	
+
+83.8
+	
+
+83.8
+	
+
+81.3
+	
+
+85.9
+	
+
+18.7
+Open image in new window
+Fig. 13
+
+Comparison of five classifiers based on evaluation metrics
+
+From Fig.  13 , it is clear that Random Forest classifier is able to identify spammers with an accuracy of 91.9 % using the selected features for classification. It is thus clear from the results that it is possible to classify pornographic spammers with a reasonable accuracy with right choice of feature selection.
+5.4.1 Tuning Random Forest
+
+Random Forest (Segal 2003 ) is an excellent classification method to produce better results with the right choice of input parameters. Random forests average multiple decision trees, trained on different data of the same training set, with the goal of overcoming over-fitting problem of individual decision trees (Breiman 2001 ). Predictive ability of Random Forest has been observed by varying two nifty parameters: (a) depth of tree (b) number of trees. Generally, deeper trees reduce bias and more number of trees reduce variance (Segal 2003 ). Tenfold cross validation further reduces bias. Out-of-bag error (OOB) has been used to assess the performance of the classifier as it gives an unbiased approximation of true prediction error (or misclassification error) by considering subset of the data not used for training each individual tree. Thus in Random Forests, a separate test set to validate results is not required.
+By varying the value of ‘Number of Trees’ in a Random Forest (RF) from 100 to 1000, optimal values of ‘Depth of tree’ and ‘Number of Trees’ is searched till out-of-bag error (OOB) stabilizes and reaches minimum. Graphs have been plotted between ‘OOB’ and ‘Depth of tree’ for different ‘Number of trees’ in a RF as shown in Fig.  14 and between ‘Accuracy’ and ‘Depth of tree’ as shown in Fig.  15 for same range of RF.
+Open image in new window
+Fig. 14
+
+Out-of-bag (OOB) error versus depth of trees for ten Random Forests
+Open image in new window
+Fig. 15
+
+Accuracy versus depth of the tree for ten Random Forests
+
+Plots of Figs.  14 and 15 confirm that more and deeper trees formulate more accurate and generalized ensemble model. There is an obvious point of flattening of the curve past around 30–40 ‘Depth of tree’ in all RF. At 700 RF, value of OOB is minimum and after that it increases till 1000 RF as seen in Fig.  14 . Maximum accuracy of 91.96 % is achieved with 500 RF for depth of tree at 20 as shown in Fig.  15 . It is clear that fine tuning beyond achieved minimum misclassification error of 0.0795 and highest accuracy of 96.68 % by incurring extra running time and memory by increasing the number of trees and depth is not worthwhile.
+6 Twitter’s perspective toward pornographic content
+
+Twitter has addressed pornographic spamming issue by making modifications in its rules and policies (Update in Twitter rules to ban revenge porn 2015 ) from time to time so as to limit adult content. Twitter is an open platform that millions of companies and users exploit for their business and marketing; therefore, more attention needs to be given to eliminate pornographic spammers as it blots the good name of the site.
+
+In order to analyze the effectiveness of the technique currently used by Twitter to eliminate pornographic users, the spammers’ data collected for the present study have been crawled again after a period of 3 months and 9 days. It has been observed that 10,181 such spammers still exist and Twitter suspended only 0.01 % of such users in 100 days. This problem will increase unless Twitter builds an effective spam firewall to remove this objectionable adult content to an acceptable estimate.
+7 Related work
+
+Present work falls into following two categories.
+7.1 Pornographic/adult content detection
+
+A number of techniques have been introduced to detect adult content on the web, based on the information like images, links posted and text content. Hepple et al. ( 2004 ) combined text categorization and natural language processing techniques to detect web pages with vulgar language. Such text based classification is not an effective solution in case of Twitter as it is a multi-linguist social network where a large number of training set including different language tweets need to be prepared. For detecting pornographic images, skin color-based detection and visual word model had been proposed by Kakumanu et al. ( 2007 ) and Lopes et al. ( 2009 ). Image-based methods involve a high computation cost; hence, this is not an effective solution in case of social networks. Hammami et al. ( 2006 ) proposed a technique for detecting adult content on Internet using text, image and URLs.
+7.2 Spammer detection in Twitter
+
+Presence of spam in the form of malware, phishing attacks, pornographic content, and promotional advertisements are huge concerns for major information dissemination networks like Twitter. Various techniques to filter out different types of spam on Twitter have been extensively proposed in recent years by researchers as briefly explained in this section.
+
+Grier et al. ( 2010 ) identified spam spread on Twitter via URLs by using popular blacklists service providers. It had been analyzed that accounts used to spread spam were compromised accounts rather than sole spammers. Yang et al. ( 2013 ) proposed ten new features—three graph-based, three neighbor-based, three automation-based and one timing-based for the detection of spammers in Twitter. The approach had been validated on different ratios of spammers and normal users. Approach has been further compared with four existing techniques (Wang 2010 ) (Lee et al. 2010 ) (Benevenuto et al. 2010 ) (Stringhini et al. 2010 ) using Random Forest, Bayes Net, Decision Tree and Decorate classifiers. In all the cases, this approach had given good results in terms of false positive rate, detection rate, and F-measure. This approach used local clustering and betweenness centrality features which are expensive to extract and calculating their values for large graphs is challenging. Ahmed and Abulaish ( 2013 ) presented a statistical approach to identify spam profiles in Twitter and Facebook. 14 common features to Twitter and Facebook have been identified for detection. Naïve Bayes, Jrip, and J48 had been used to evaluate the results on individual datasets and combined datasets from both OSNs. Approach had been tested on 320 Facebook users and 305 Twitter users giving 96.4 % accuracy with Naïve Bayes algorithm in Facebook, 98.7 % accuracy in Twitter with Jrip and 95.7 % accuracy on combined data with J48 algorithm. Flores and Kuzmanovic ( 2013 ) used web search to measure the online presence of users on the basis of user name and display name in Twitter and the one with insufficient web presence had been tagged as suspicious. This approach had been tested on Twitter dataset with around 74 % accounts detected as fraudulent. Gianvecchio et al. ( 2012 ) focused on classification of human, bot, and cyborg accounts on Twitter. Legitimate bots generate a large amount of benign tweets delivering news and updating feeds, while malicious bots spread spam or malicious content. Between humans and bots, emergence of cyborg referred to either bot-assisted human or human-assisted bot is a substantial advancement. The classification of human, bot, and cyborg in terms of tweeting behavior, tweet content, and account properties had been conducted.
+
+Chu et al. ( 2012 ) detected spam campaigns that manipulate multiple accounts to spread spam on Twitter. More specifically, an automatic classification system based on machine learning had been proposed. Both content- and behavior-based features had been used to distinguish spam campaigns from legitimate ones, and built an automatic classification framework. Li et al. ( 2013 ) proposed social recommender systems for detecting Noisy but Non-Malicious Users (NNMUs), which refers to those genuine users who may provide some untruthful data due to their imperfect behaviors. NNMUs are more difficult to identify since their profiles are neither similar nor correlated with one another. Fire et al. ( 2012 ) detected fake and spam profiles and the ones which follow a specific gender on Academia.edu, AnyBeat and Google+. The network was divided into communities then features had been extracted for training the classifier for detection. Since the database of fake profiles is difficult to obtain, so a code had been written to inject fake profiles in networks. Then these simulated fake profiles had been used for training purpose. Detection rate of the system was good in all the networks detecting fake and spam profiles. Fire et al. ( 2014 ) identified fake users in social networks and Social Privacy Protector software for Facebook had been developed. This software contains three protection layers, which improve user privacy by implementing different methods. By analyzing the dataset obtained by the software in combination with machine learning techniques, classifiers had been used which were able to predict which Facebook profiles with high probabilities of being fake and therefore, threaten the user’s well-being.
+
+Since traditional adult content detection techniques are not very effective for detecting adult accounts on Twitter due to the large diversity in Twitter content so recently a significant work by Cheng et al. ( 2015 ) formulated the adult account detection as a graph-based classification problem. An iterative social-based classifier (ISC), a graph-based classification technique has been proposed that can work well in the presence of noisy links. Xing et al. ( 2011 ) presented ‘SafeVchat’ for flasher detection using an array of image detection algorithms. Results of the individual detectors had been combined to classify misbehaving users based on Dempster-Shafer Theory. Motion-based skin detection method had been introduced giving better precision and recall. The proposed method had been evaluated on the real-world data of ‘Chatroulette.com’. Benevenuto et al. ( 2009 ) classified YouTube users as spammers, promoters, and legitimate users. Video spammers are the ones involved in sending advertisements to increase sales, disseminating pornography as an advertisement or compromising the system reputation. Supervised machine learning algorithms had been used to detect promoters and spammers. Results showed that method was more effective in identifying promoters rather than spammers. Abozinadah et al. ( 2015 ) did pioneer work of detecting abusive accounts using vulgarity, profanity words, insulting words, harassment, child pornography and exploitation in Arabic tweets by machine learning classifiers. Naive Bayes classifier with 10 tweets and 100 features had shown the best performance with 90 % accuracy rate. Lee et al. ( 2010 ) identified different types of spammers—duplicate spammers, pornographic spammers, promoters, phishers, friend infiltrators in Myspace and Twitter using honey-pot-based approach. On the basis of profile-based features, classifiers had been used for identifying legitimate users, spammers and promoters with high precision and low false positive rate. Edwards and Guy ( 2015 ) defined and identified five subcategories of spammers in Twitter—advertising agents, profiles pleading to follow celebrities, explicit (post tweets linking to pornographic sites), bot and profiles advertising to increase followers using Random Forest classifier. User-based and content-based features had been used for classification.
+8 Conclusion
+
+This paper presented a behavioral analysis of Twitter users tweeting pornographic content. The basic aim of this study was to differentiate between spammers and genuine users based on certain behavioral characteristics mapped to Twitter’s policies. NodeXL was used to collect approximately 74,000 tweets from around 18,000 Twitter users. Behavioral evaluation of users was conducted based out of nine graph and content-based features from Twitter’s stated spam policy. The characteristic similarities are highly evident among such users and Twitter’s stated spammer policy. A number of classifiers such as Bayes Net, Logistic Regression, J48, Random Forest and AdaboostM1 were evaluated for a detection technique among which Random Forest Classifier provided the highest accuracy of 91.96 % in spam detection. In conclusion, we ascertain the failure of policies laid down by Twitter, while categorizing pornographic users as spammers and also proposed an approach to solve the problem of detecting pornographic spammers with reasonably high accuracy.
+9 Future work
+
+For future work, a more comprehensive analysis using text mining or natural language processing techniques could be beneficial for increasing the accuracy of detection. Another interesting direction is to use image processing techniques along with the features suggested in this study to fetch pornographic spammers. Besides, with all analysis and conclusions at hand, we are already in process of developing a ‘Real-time malicious user detector’ application that can translate all the implications discussed in this study into a real-world application for social network users.
+Notes
+Acknowledgments
+
+We would like to acknowledge the contribution of Mr. Agnit Mukhopadhyay, Undergraduate Student (Aerospace Engineering Department), PEC University of Technology, India, for his critical review of the manuscript.
+References
+
+    AA419 List. http://wiki.aa419.org/index.php/Main_Page . Last Accessed on June 2015
+    AB List. http://spamvertised.abusebutler.com/ . Last Accessed on June 2015
+    Abozinadah EA, Mbaziira AV, Jones JH Jr (2015) Detection of abusive accounts with Arabic tweets. Int J Knowl Eng 1(2):113–119. doi:   10.7763/IJKE.2015.V1.19 CrossRef Google Scholar
+    AdaBoostM1 Classifier. https://en.wikipedia.org/wiki/AdaBoost . Last Accessed on June 2015
+    Ahmed F, Abulaish M (2013) A generic statistical approach for spam detection in online social networks. Comput Commun J. doi:   10.1016/j.comcom.2013.04.004 Google Scholar
+    Bayes Net Classifier. https://en.wikipedia.org/wiki/Bayesian_network . Last Accessed on June 2015
+    Benevenuto F, Rodrigues T, Almeida V, Almeida J, Goncalves M (2009). Detecting spammers and content promoters in online video social networks. In: Proceedings of the 32nd international ACM SIGIR conference on research and development in information retrieval (New York, NY, USA, 2009), SIGIR ‘09. ACM, pp 620–627. doi:   10.1145/1571941.1572047
+    Benevenuto F, Magno G, Rodrigues T, Almeida V (2010). Detecting spammers on Twitter. In: Proceedings of seventh annual collaboration, electronic messaging, anti abuse and spam conference (CEAS 2010), Washington, US, 2010. doi:10.1.1.297.5340 Google Scholar
+    Breiman L (2001) Random forests. Mach Learn 45(1):5–32. doi:   10.1023/A:1010933404324 MathSciNet CrossRef MATH Google Scholar
+    Cheng H, Xing X, Liu X, Lv Q (2015) ISC: an iterative social based classifier for adult account detection on Twitter. IEEE Trans Knowl Data Eng 27(4):1045–1056. doi:   10.1109/TKDE.2014.2357012 CrossRef Google Scholar
+    Chu Z, Widjaja I, Wang H (2012). Detecting social spam campaigns on twitter. In: Applied cryptography and network security, lecture notes in computer science, vol 7341. Springer, pp 455–472. doi:   10.1007/978-3-642-31284-7_27
+    Definition of Social networking sites. http://www.techopedia.com/definition/4956/social-networking-site-sns . Last Accessed on May 2015
+    Edwards G, Guy A (2015). Connections between Twitter Spammer Categories. In: 5th Workshop on making sense of microposts @WWW2015. May 18th, 2015, Florence, Italy, pp 22–25 Google Scholar
+    Fire M, Katz G, Elovici Y (2012). Strangers intrusion detection—detecting spammers and fake profiles in social networks based on topology anomalies. Technical report Google Scholar
+    Fire M, Kagan D, Elyashar A, Elovici Y (2014) Friend or Foe? Fake profile identification in online social networks. Soc Netw Anal Min J. doi:   10.1007/s13278-014-0194-4 Google Scholar
+    Flores M, Kuzmanovic A (2013). Searching for spam: detecting fraudulent accounts via web search. In: Lecture notes in computer science (LNCS), vol 7799. Springer, Berlin, pp 208–217. doi:   10.1007/978-3-642-36516-4_21
+    Gianvecchio S, Haining W, Jajodia S (2012) Detecting automation of Twitter accounts: Are you a human, bot, or cyborg? IEEE Trans Depend Secure Comput 9(6):811–824. doi:   10.1109/TDSC.2012.75 CrossRef Google Scholar
+    Grier C, Thomas K, Paxson V, Zhang M (2010) @spam: the underground on 140 characters or less. In: Proceedings of the 17th ACM conference on computer and communications security, October 04–08, 2010, Chicago, Illinois, USA. doi:   10.1145/1866307.1866311
+    Hammami M, Chahir Y, Chen L (2006) Webguard: a web filtering engine combining textual, structural, and visual content-based analysis. IEEE Trans Knowl Data Eng 18(2):272–284. doi:   10.1109/TKDE.2006.34 CrossRef Google Scholar
+    Hansen D, Shneiderman B, Smith M (2009) Analyzing social media networks: learning by doing with NodeXL Google Scholar
+    Hepple M, Ireson N, Allegrini P, Marchi S, Montemagni S, Maria J, Hidalgo G (2004) NLP-enhanced content filtering within the POESIA project. In: Proceedings of the 4th international conference on language resources and evaluation (LREC) Google Scholar
+    J48 Classifier. http://www.d.umn.edu/~padhy005/Chapter5.html . Last Accessed on June 2015
+    JP List. http://www.joewein.de/sw/blacklist.htm . Last Accessed on June 2015
+    Kakumanu P, Makrogiannis S, Bourbakis N (2007) A survey of skin-color modeling and detection methods. Pattern Recogn 40(3):1106–1122. doi:   10.1016/j.patcog.2006.06.010 CrossRef MATH Google Scholar
+    Kumar S, Morstatter F, Liu H (2014) Twitter data analytics. Springer, New York. doi:   10.1007/978-1-4614-9372-3 CrossRef Google Scholar
+    Lee K, Caverlee J, Webb S (2010) Uncovering social spammers: social honeypots + machine learning. In: Proceedings of the 33rd international ACM SIGIR conference on research and development in information retrieval, July 19–23, 2010, Geneva, Switzerland. doi:   10.1145/1835449.1835522
+    Letter to Twitter to stop porn spam. http://michellerafter.com/2009/07/08/an-open-letter-to-twitter-stop-the-porn-spam/ . Last Accessed on May 2015
+    Li B, Chen L, Zhu X, Zhang C (2013) Noisy but non-malicious user detection in social recommender systems. World Wide Web 16(5):677–699. doi:   10.1007/s11280-012-0161-9 CrossRef Google Scholar
+    Logistic Regression Classifier. http://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch12.pdf . Last Accessed on June 2015
+    Lopes APB, de Avila SEF, Peixoto ANA, Oliveira RS, de Araújo A (2009) A bag-of-features approach based on hue-sift descriptor for nude detection. In Proceedings of the 17th European signal processing conference, Glasgow, Scotland, pp 1552–1556 Google Scholar
+    MW List. http://www.malwaredomainlist.com/ . Last Accessed on June 2015
+    New Post Collecting Twitter search results—how far back? http://nodexl1.rssing.com/chan-8304019/all_p41.html . Last Accessed on May 2015
+    NodeXL. http://nodexl.codeplex.com/ . Last Accessed on April 2015
+    Paid Porn Content. https://securelist.com/threats/adult-content-spam/ . Last Accessed on May 2015
+    PH List. http://www.phishtank.com/ . Last Accessed on June 2015
+    Porn on Twitter. http://www.businessinsider.in/Twitter-has-a-porn-problem-and-advertisers-are-starting-to-worry-about-it/articleshow/47176471.cms . Last Accessed on May 2015
+    Random Forest Classifier. https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm . Last Accessed on June 2015
+    Rapidminer tool. https://rapidminer.com/ . Last Accessed on April 2016
+    REST API rate limits (2015) https://dev.twitter.com/rest/public/rate-limits#main-content . Last Accessed on April 2015
+    SC List. https://www.spamcop.net/ . Last Accessed on June 2015
+    Segal MR (2003) Machine learning benchmarks and random forest regression. Technical report, center for bioinformatics and molecular biostatistics. April 14, 2003. pp 1–14 Google Scholar
+    Shocking Truth Behind Twitter’s 10 Million Porn Accounts (2015) http://www.fightthenewdrug.org/the-shocking-truth-behind-twitters-10-million-porn-accounts/ . Last Accessed on May 2015
+    Statistics of Social Networking Sites (2015) http://www.ebizmba.com/articles/social-networking-websites . Last Accessed on May 2015
+    Stringhini G, Kruegel C, Vigna G (2010). Detecting spammers on social networks. In Proceedings of the 26th annual computer security applications conference (ACSAC’10), University of California, Santa Barbara, Austin, Texas USA, ACM, pp 1–9, 2010. doi:   10.1145/1920261.1920263
+    SURBL List. http://www.surbl.org/ . Last Accessed on June 2015
+    Survey regarding Spam on Twitter (2015) http://marketingland.com/report-nearly-10-of-twitter-is-spam-brands-have-it-the-worst-124429 . Last Accessed on June 2015
+    Tweepy Library for Python. https://pypi.python.org/pypi/tweepy . Last Accessed on Aug 2015
+    Twitter target of adult spam. http://netguide.co.nz/story/myspace-twitter-targets-for-adult-spam/ . Last Accessed on June 2015
+    Twitter REST API. https://dev.twitter.com/rest/public . Last Accessed on April 2015
+    Twitter Rules. https://support.twitter.com/articles/18311-the-twitter-rules . Last Accessed on June 2015
+    Types of Twitter spam. http://www.publicrelationsprincess.com/2010/03/top-ten-types-of-twitter-spam.html . Last Accessed on May 2015
+    Update in Twitter rules to ban revenge porn (2015) http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/11/twitter-updates-its-rules-to-specifically-ban-revenge-porn/ . Last Accessed on May 2015
+    URIBL List. http://uribl.com/ . Last Accessed on June 2015
+    Verma M, Bansal D, Sofat S (2014) Techniques to detect spammers in twitter—a survey. IJCA 85(10):27–32. doi:   10.5120/14877-3279 CrossRef Google Scholar
+    Wang HA (2010). Don’t follow me: spam detection in twitter. In: Proceedings of the 2010 international conference on security and cryptography (SECRYPT), IEEE, pp 1–10. doi:   10.5220/0002996201420151
+    Weka—data mining open source program. http://www.cs.waikato.ac.nz/ml/weka/ . Last Accessed on June 2015
+    Will porn spam keep Twitter marketers away? http://www.wedowebcontent.com/?s=will+porn+spam+keep+twitter+marketers+away . Last Accessed on May 2015
+    WS List. http://spamassassin.apache.org/ . Last Accessed on June 2015
+    Xing X, Liang Yu-Li, Cheng H, Dang J, Huang S, Han R, Liu X, Lv Q, Mishra S (2011) SafeVchat: detecting obscene content and misbehaving users in online video chat services. In: Proceedings of the 20th international conference on World Wide Web, March 28–April 01, 2011, Hyderabad, India. doi:   10.1145/1963405.1963501
+    Yang C, Chandler HR, Gu G (2013) Empirical evaluation and new design for fighting evolving twitter spammers. IEEE Trans Inf Forensics Secur 8(8):2013. doi:   10.1109/TIFS.2013.2267732 CrossRef Google Scholar
+
+Copyright information
+© Springer-Verlag Wien 2016
+About this article
+CrossMark
+
+Cite this article as:
+    Singh, M., Bansal, D. & Sofat, S. Soc. Netw. Anal. Min. (2016) 6: 41. https://doi.org/10.1007/s13278-016-0350-0
+
+    DOI https://doi.org/10.1007/s13278-016-0350-0
+    Publisher Name Springer Vienna
+    Print ISSN 1869-5450
+    Online ISSN 1869-5469
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Behavioral analysis and classification of spammers distributing pornographic content in social media
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    1 Introduction
+    2 Data collection
+    3 Features selected for behavioral analysis of pornographic users
+    4 Inferences drawn from behavioral analysis of pornographic users
+    5 Detection mechanisms for pornographic spammers
+    6 Twitter’s perspective toward pornographic content
+    7 Related work
+    8 Conclusion
+    9 Future work
+    Notes
+    References
+    Copyright information
+    About this article
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer International Publishing AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 168.181.51.234
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

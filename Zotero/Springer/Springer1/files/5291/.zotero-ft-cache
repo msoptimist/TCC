@@ -1,0 +1,5042 @@
+
+close
+close
+close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Social Network Analysis and Mining
+Download PDF
+
+Social Network Analysis and Mining
+
+December 2015 , 5:51 | Cite as
+An empirical study of notifications’ importance for online social network users
+
+    Authors
+    Authors and affiliations
+
+    Sarah Bouraga Email author
+    Ivan Jureta
+    Stéphane Faulkner
+
+    Sarah Bouraga
+        1
+        2
+    Email author
+    Ivan Jureta
+        1
+        2
+        3
+    Stéphane Faulkner
+        1
+        2
+
+    1. Department of Business Administration University of Namur Namur Belgium
+    2. PReCISE Research Center University of Namur Namur Belgium
+    3. Fonds de la Recherche Scientifique – FNRS Brussels Belgium
+
+Original Article
+First Online: 15 September 2015
+Received: 08 January 2015
+Revised: 10 July 2015
+Accepted: 05 September 2015
+
+    223 Downloads
+    1 Citations
+
+Abstract
+
+Over the last decade, online social networks (OSNs) have been growing quickly to become some of the largest systems in use. Their users are sharing more and more content, and in turn have access to vast amounts of information from and about each other. This increases the risk of information overload for every user. We define a set of event types, which can generate notifications to users on an OSN. We survey one set of users to obtain their evaluation of the relative importance of event types. We survey another set of users, to identify the factors, which influence the perception of the relative importance of event types. Both results are relevant for the design of algorithms for the recommendation of content to OSN users.
+Keywords
+Event Type  Close Friend  Online Social Network  Normative Belief  Control Belief 
+These keywords were added by machine and not by the authors. This process is experimental and the keywords may be updated as the learning algorithm improves.
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+1 Introduction
+1.1 Context
+
+An Online Social Network (OSN hereafter) refers to (Ellison et al. 2007 ):
+
+    Web-based services that allow individuals to (1) construct a public or semi-public profile within a bounded system, (2) articulate a list of other users with whom they share a connection, and (3) view and traverse their list of connections and those made by others within the system. The nature and nomenclature of these connections may vary from site to site.
+
+OSNs have become popular since the launch of the first OSN, called SixDegrees.com, in 1997. The most popular social networks, such as Facebook, Twitter, or LinkedIn count hundreds of millions of members. OSNs allow these users to interact with one another. After creating an account, providing the system with some mandatory information, and forming relationships with other members; the user can then communicate and share content with these other members.
+
+OSNs are also receiving increasing attention in research. The privacy and trust issues have been explored (Dwyer et al. 2007 ; Guha et al. 2008 ; Strater and Lipford 2008 ; Golbeck 2009 ; Madejski et al. 2011 ). Topological characteristics of social networks (Heer and Boyd 2005 ; Ahn et al. 2007 ; Mislove et al. 2007 ; Kumar et al. 2010 ; Kwak et al. 2010 ) and user activity (Guo et al. 2009 ; Benevenuto et al. 2009 ; Schneider et al. 2009 ) are other examples of topics of interest.
+1.2 Problem
+
+On any given day, there can be a large number of events, which are potentially relevant to any individual user of a social network. Events can be, for example, a photo posted by a “friend,” the notification that today is a friend’s birthday, and so on.
+
+Consider an example. The average number of friends a Facebook user has is about 190. Although this varies considerably by age, that variation does not matter for the argument here. Suppose that each friend of the average user X has two daily activities on the OSN, that is, does something that the OSN sees as worthy of notifying others about. It follows that there are 380 potential notifications to be sent to X . If X accepts to receive notifications during 16 h of a day, then X should receive, on average, one notification every 2.5 min. If the OSN sees all these notifications as equally relevant to X , then clearly, X would be overloaded with notifications.
+
+Inevitably, then, the OSN will have to prioritize and simply not send at all some of the notifications. In other words, the OSN needs an algorithm, which recommends, out of all possible events, only some of them to the user, and thereby reduces the risk of information overload.
+
+Aside from the technological challenges of creating and running such an algorithm, what are the rules it should apply, when choosing which events to notify the user of, and which to ignore? This leads to two research questions in this paper:
+RQ1
+
+What is the relative importance of event types to users?
+RQ2
+
+Which factors influence users’ perception of importance of event types?
+
+In addressing these questions, our aim is to suggest rules for making recommendations of content to users on OSNs. The practical concern is to help the engineering of new content recommendation algorithms for OSNs. OSNs are already solving these issues, each in its own way. To the best of our knowledge, the specifics of their recommendation rules are not public.
+1.3 Research methodology
+
+We define a set of typical event types on an OSN such as Facebook. For example, an event type is “posting a short text on a personal profile,” another is “sharing of a photo,” and so on. We designed a questionnaire, where the individual is asked to evaluate the relevance of every event type. We distributed the paper questionnaire to 450 Bachelor students at the University of Namur.
+
+Similarly, we identify factors that can influence the user’s perceived relevance of event types. We designed a questionnaire, where the respondent is asked to evaluate the relevance of every factor. This paper questionnaire was distributed to 150 Bachelor students at the University of Namur.
+1.4 Contributions
+We make two contributions:
+
+    1.
+
+    The collected data from the first questionnaire allow us to suggest lists of core and non-core event types. An event type goes into the core list if users consider it important, and want to see a notification when its instances occur. The results show that the core event types are as follows: the Name, Birthday, Relationship status, Profile picture, Foreign languages, Sports, Youth movement, Music and movie, Unidirectional relationship, Short text, Comment on a media, Tag friends on a media, Share a photo, Share a video, Receive a message, Create a group, Join a group.
+     
+    2.
+
+    We identify factors that can have an influence on the user’s perception of content relevance. We propose categories for these factors. The collected data about factors allow us to propose a list of relevant and non-relevant factors influencing users’ perceived relevance of event types. The results show that the relevant factors are as follows: Alert, Commonalities, Closeness of the friend, and Quality of the friend tagged.
+     
+
+We expect that the results reported here will entail practical implications for product designers, system engineers, requirements engineer, and anyone involved in the design of OSNs or similar systems. If we know which types of content are more relevant to users, in addition to the factors influencing this perceived relevance; then this can be used to inform OSN design decisions, including decisions on how content recommendations should be generated.
+1.5 Organization
+
+The rest of the paper is organized as follows. Section  2 defines and lists event types and factors. Section  3 focuses on RQ1, by presenting (i) the motivation for considering RQ1, (ii) our research methodology for addressing RQ1, (iii) the results. Section  4 does the same, for RQ2. Section  5 discusses the relationship between the results obtained for RQ1 and RQ2. Section  6 discusses the limitations of this work, while Sect.  7 discusses future work. Section  8 introduces the related work, and Sect.  9 summarizes the contributions and concludes the paper.
+2 Hypotheses development: event types and factors
+
+The goal of this study is to examine the relevance users of OSN give to the event types other users are responsible for. If we know what event types are considered as the most important by users, then we will be able to distinguish between core and optional event type. We also aim at identifying factors that can influence this perceived relevance of event types.
+
+We examine content about various types of activities enabled by an OSN, and more specifically, the content that a user X can see about, or shared by a Y : updates about the information present in user Y profile; updates about the links user Y creates with other users; updates about the elements posted by Y ; about her privacy settings; about the recommendations she gets; and finally about the connection Y made between her accounts on various OSNs.
+
+More specifically, we look at the relative importance to users, to be able to see various types of information their contacts share online: their identity, their hobbies, their skills, their political/religious views, etc.; the reciprocated or unreciprocated relationships their contacts establish with other OSN members; the texts, comments they post, the posts they like, repost, the messages they send and receive; the recommendations they get about other users, public figures, and content; the way they manage the privacy settings of their posts; and the connection they make between OSN accounts.
+
+Further, we examine the relevance of factor that can influence the perceived importance of event types. More specifically, we identify a list of factors and classify them in various categories. Then, we confront this list to users and suggest a distinction between relevant and irrelevant factors.
+2.1 Event types
+The Tables  1 , 2 , 3 , 4 , 5 , 6 , and 7 below show event types that can generate a notification; along with the corresponding hypotheses.
+Table 1
+
+Hypotheses regarding event types of the profile category
+
+Hypotheses
+	
+
+Profile events: it is important for a user to be notified when her friend adds or changes her […]
+  	
+
+Identity
+
+H 1
+	
+
+Name
+
+H 2
+	
+
+Birthday
+
+H 3
+	
+
+Mother tongue
+
+H 4
+	
+
+Ethnicity
+
+H 5
+	
+
+Relationship status
+
+H 6
+	
+
+Phone number
+
+H 7
+	
+
+Profile picture
+
+H 8
+	
+
+Website
+  	
+
+Education
+
+H 9
+	
+
+School(s)
+
+H 10
+	
+
+Job(s)
+
+H 11
+	
+
+Industry(ies) she wants to work in
+  	
+
+Identification of her
+
+H 12
+	
+
+Parents
+
+H 13
+	
+
+Siblings
+
+H 14
+	
+
+Uncles and aunts
+
+H 15
+	
+
+Cousins
+  	
+
+Beliefs
+
+H 16
+	
+
+Religious
+
+H 17
+	
+
+Political
+  	
+
+Capabilities
+
+H 18
+	
+
+Foreign languages she can speak
+
+H 19
+	
+
+Qualifications
+
+H 20
+	
+
+Areas of expertise
+
+H 21
+	
+
+Résumé
+  	
+
+Hobbies
+
+H 22
+	
+
+Sports she plays/played
+
+H 23
+	
+
+Youth movement she is/was a part of
+
+H 24
+	
+
+Musical and/or cinematographic tastes
+
+H 25
+	
+
+Favorite quote
+
+H 26
+	
+
+About me text
+Table 2
+
+Hypotheses regarding event types of the link category
+
+Hypotheses
+	
+
+Relationship events: it is important for a user to be notified when her friend adds or changes the […]
+
+H 27
+	
+
+Public figures and/or the organizations she likes; or the other OSN users she follows
+
+H 28
+	
+
+Friend requests she accepts; or the contact she adds
+Table 3
+
+Hypotheses regarding event types of the content category
+
+Hypotheses
+	
+
+Content events: It is important for a user to be notified when her friend adds or changes a […]
+  	
+
+Text
+
+H 29
+	
+
+Short
+
+H 30
+	
+
+Long
+  	
+
+Comment on
+
+H 31
+	
+
+A profile information of one of her friends
+
+H 32
+	
+
+A status of one of her friends
+
+H 33
+	
+
+A photo or video of one of her friends
+
+H 34
+	
+
+A relationship status of one of her friends
+  	
+
+“Like” on
+
+H 35
+	
+
+A status of one of her friends
+
+H 36
+	
+
+A photo or video of one of her friends
+  	
+
+“Share” on
+
+H 37
+	
+
+A status of one of her friends
+
+H 38
+	
+
+A photo or video of one of her friends
+  	
+
+Tag of
+
+H 39
+	
+
+Her on a status
+
+H 40
+	
+
+Her on a photo or video
+
+H 41
+	
+
+A photo or video with specific terms
+  	
+
+Media
+
+H 42
+	
+
+Photo
+
+H 43
+	
+
+Video
+  	
+
+Public message she
+
+H 44
+	
+
+Receives from one of her friends
+
+H 45
+	
+
+Sends to one of her friends
+  	
+
+Group she
+
+H 46
+	
+
+Creates
+
+H 47
+	
+
+Joins
+Table 4
+
+Hypotheses regarding event types of the recommendation category
+
+Hypotheses
+	
+
+Recommendation events: it is important for a user to be notified when her friend receives a recommendation about […]
+
+H 48
+	
+
+The friends she should add
+
+H 49
+	
+
+The public figures, the organizations she should like/follow
+
+H 50
+	
+
+The content she should like
+Table 5
+
+Hypotheses regarding event types of the privacy category
+
+Hypotheses
+	
+
+Privacy events: it is important for a user to be notified when her friend adds or changes the […]
+
+H 51
+	
+
+Group(s) who has access to a semi-public post
+
+H 52
+	
+
+Posts which are accessible to the public
+Table 6
+
+Hypotheses regarding event types of the connection category
+
+Hypotheses
+	
+
+Connection events: it is important for a user to be notified when her friend connects her various OSN accounts to […]
+
+H 53
+	
+
+Sign in on an OSN using another OSN account
+
+H 54
+	
+
+Share a post simultaneously on various OSNs
+Table 7
+
+Hypotheses regarding event types of the general categories
+
+Hypotheses
+	
+
+Categories: as a general rule, it is important for a user to be notified when her friend adds or changes […]
+
+H 55
+	
+
+Her profile information
+
+H 56
+	
+
+The links she establishes
+
+H 57
+	
+
+The content she shares
+
+H 58
+	
+
+The recommendations she gets
+
+H 59
+	
+
+The way she manages who can see what from her posts and her information
+
+H 60
+	
+
+The connections she makes between OSNs
+2.2 Factors influencing the relevance of event types
+2.2.1 The relationship between attitude and behavior
+
+There is considerable literature on the relationship between human behavior and attitude. We are interested in this relationship, because we seek to explain what are the factors influencing the attitude, and subsequently the behavior, of OSN users toward the shared event types. Indeed, if users perceive some event type as being relevant (their attitude), then they will want to see/read it (their behavior). Hence, we are interested in the factors influencing the OSN users’ attitude toward OSN event types.
+
+Many definitions of attitude were proposed in the literature, but there is a consensus that “a person’s attitude represents his evaluation of the entity in question” (Ajzen and Fishbein 1977 ).
+
+Wicker ( 1969 ) examined the relationship between attitudes and action, and proposed a list of factors, postulated to influence the relationship. The author classified these factors in two categories: (i) personal factors, and (ii) situational factors. In the first category, he identified the following factors: other attitudes held by the individual; competing motives; verbal, intellectual, and social skills; and activity levels. In the second category, he listed the following factors: the actual or considered presence of certain people; normative prescriptions of behavior; alternative behaviors available; specificity of attitude objects responded to; extraneous, unforeseen events; and expected and/or actual consequences of various acts.
+
+Ajzen ( 1991 ) proposed the Theory of Planned Behavior . This theory posits that the behavior of an individual can be explained by his intention. And in turn, the latter is predicted from attitude toward the behavior (that is, “the degree to which a person has a favorable or unfavorable evaluation or appraisal of the behavior in question”), the subjective norm (that is, “the perceived social pressure to perform or not to perform the behavior”), and the perceived behavioral control (that is, “the perceived ease or difficulty of performing the behavior”). These three concepts also influence one another. Put another way, the subjective norm, and the perceived behavioral control, both have an influence on the attitude. The theory posits “behavior is a function of salient information, or beliefs, relevant to the behavior.” Ajzen identifies three types of salient beliefs: (i) behavioral beliefs, (ii) normative beliefs, and (iii) control beliefs. They are assumed to influence attitude toward the behavior, the subjective norms, and the behavior control, respectively. The behavioral belief is a belief about a particular outcome produced by the behavior; and more specifically, “the outcome’s subjective value contributes to the attitude in direct proportion to the strength of the belief.” The normative beliefs are “concerned with the likelihood that important referent individuals or groups approve or disapprove of performing a given behavior.” Finally, the control beliefs are concerned with the presence or absence of factors influencing the facility of performing the behavior.
+2.2.2 Factors influencing OSN users’ attitude
+
+On the basis of the literature review in Sect.  8 , and from the literature on attitude and behavior in Sect.  2.2.1 , we identified a list of factors that can influence this perceived relevance of event types. We classified these factors into 8 categories: Socio-Demographics, Personal Use, Characteristics of the Friend, Characteristics of the Content, Layout of the Content, Presentation of the Content, Salient Beliefs, and Personality Traits Factors.
+
+For each factor, we will provide a brief definition, the specific types of content that can be influenced by the factor, and an example. Note that all examples are hypothetical , and no research has been carried out yet to support them.
+2.2.2.1 The “socio-demographics” factors
+Various authors, such as Kuss and Griffiths ( 2011 ) and Nadkarni and Hofmann ( 2012 ), found out that the use of OSN differs, depending on the socio-demographic characteristics of the user. We can assume that these socio-demographic factors also have an influence on the perceived relevance of event types.
+
+    1.
+
+    Age of the user:
+
+    The OSN usage patterns were proven to vary as a function of age (Kuss and Griffiths 2011 ). The age of the user, or its category of age, is expected to have an influence on the type of content she perceives as being relevant. There is no research supporting this claim, but we believe that the examples of the types of content that could be influenced by this factor are: the occupation (the schools, the jobs, the industries, the user’s friend has attended, has had, has worked in respectively), and the friend’s résumé.
+
+    Example 1 A teenager will unlikely be interested in seeing one of his friends’ résumé. However, this information will probably be interesting to an adult.
+     
+    2.
+
+    Professional status:
+
+    There is no research supporting this claim, but whether the user is a student, a professional, or unemployed could have an influence on the perceived relevance of shared content. We expect this factor to have an influence on the perceived relevance of, mostly, event types related to the occupation: the school(s) the friend attend/attended, the job(s) he has/has had, the industry(ies) he works in/wants to work in.
+
+    Example 2 Unemployed users may perceive job ads as more relevant than currently employed users.
+     
+    3.
+
+    Gender of the user:
+
+    The OSN usage patterns were proven to differ between men and women (Kuss and Griffiths 2011 ). Whether the user is a man or a woman is expected to have an influence on the perceived relevance of content. We believe that the all event types can be influenced by this factor.
+
+    Example 3 Females use OSNs for entertainment, while males use OSNs for the purpose of social compensation (Kuss and Griffiths 2011 ). Thus, a girl will more likely be interested in a movie page recommendation about a romantic comedy; and a boy will more likely be interested in his friends’ profile information.
+     
+    4.
+
+    Education history:
+
+    There is no research supporting this claim, but the schools and universities that the user attended might have an influence on the content she wants to see on the OSN. We believe that the event types that can be influenced by the education history is mainly the occupation.
+
+    Example 4 A user with a Master Degree will likely be interested in seeing the schools and/or university(ies) one of his friends attended. However, this information will probably not be as interesting to someone who did not go to university.
+     
+    5.
+
+    Ethnicity:
+
+    The social group the user belongs to is expected to influence the perceived importance of content. We believe that all event types could potentially be influenced by the ethnicity of the user, given the great differences between cultures, religions, etc.
+
+    Example 5 Fuligni et al. ( 1999 ) conducted a survey on the “ Attitudes toward Family obligations among American Adolescents with Asian, Latin American, and European Backgrounds .” They discovered that ethnic differences exist in the teenagers’ attitudes, and that adolescents coming from Asian and Latin American families show a great importance of family support and respect (Fuligni et al. 1999 ). From this observation, we can say that it would be more important for the latter ethnic group to read about their friends’ families than for youths with a European background.
+     
+
+2.2.2.2 “Personal use” factors
+
+    1.
+
+    Experience of OSN use:
+
+    There is no research supporting this claim, but depending on how long the user has been a member of an OSN, we can expect that she may be more or less sensitive to certain types of content. We believe that all event types that can potentially be influenced by how long the individual has been using the OSN.
+
+    Example 6 We can hypothesize that a new member of Facebook is likely to be more responsive to a friend suggestion, than a user who has been using the OSN for more than 2 years and already has a strong friend base. On the other hand, an individual who has been using a OSN for a long time might be more responsive to recommendations about content. The novelty fades, and the user may not be interested in all the frills offered by the OSN. Hence, suggestions about specific content she may like could be of interest to her.
+     
+    2.
+
+    Original reason to use:
+
+    There is no research supporting this claim, but the original reason why people became members of an OSN is expected to have an influence on the types of content they perceive as relevant. We believe that the all event types can be influenced by this factor.
+
+    Example 7 If an individual became a user of an OSN for professional reasons, he will perceive the types of content related to the occupation as more relevant, than the family or beliefs for instance. Conversely, if someone became a member of an OSN to keep in touch with friends, then he will more likely be interested in the hobbies these friends have, or their favorite artists, etc.
+     
+    3.
+
+    Frequency of use:
+
+    There is no research supporting this claim, but depending on how often the user logs into an OSN, she may be more or less sensitive to certain types of content. We believe that the Recommendation is an example of event type that can be perceived differently depending on the frequency of use.
+
+    Example 8 A user who logs into Facebook only once a week will likely need content recommendations. Indeed, she will not be able to catch up on everything that has been posted by her friends, she will be overloaded with information. Thus, she will consider as valuable recommendations about what to check. Conversely, a user who logs into Facebook several times a day will not need a content recommendation, she will be able to see every post shared by her friends.
+     
+    4.
+
+    Number of used OSNs:
+
+    There is no research supporting this claim, but the number of OSNs a user is a member of can have an influence on the perceived importance of content types. If the same content types can be found on several OSNs, they will lose their “competitive” advantage and will not be as valuable to the users. We believe that all event types can potentially be influenced by this factor; but a specific type of content that can be influenced by this factor is the connection content.
+
+    Example 9 If a user is a member of several OSNs, for instance Facebook and Twitter, she will likely be more interested in knowing that her friend posted some content on these two OSNs; than a user who is only a member of Facebook.
+     
+
+2.2.2.3 “Characteristics of the friend” factors
+
+    1.
+
+    Gender:
+
+    There is no research supporting this claim, but, whether the friend who posted on the social network is a man or a woman is expected to have an influence on the perceived relevance of content. We believe that all event types can be influenced by this factor.
+
+    Example 10 We can assume that a male user will more likely be interested in a post shared by another male user.
+     
+    2.
+
+    The experience of OSN use:
+
+    There is no research supporting this claim, but depending on how long the user’s friend has been a member of an OSN, she may be more or less sensitive to certain types of content posted by her friend. We believe that all event types can potentially be influenced by how long the individual has been using the OSN.
+
+    Example 11 Assume that a user has a new friend who has just joined Facebook. The user will likely be more interested in the status her friend posts; than in the status shared by another friend who has been on Facebook for years. In the former case, the friend is a newcomer and the user can thus discover her profile and her posts. In the latter case, the user knows her friend and is more used to her profile, and posts her friend shares.
+     
+    3.
+
+    The frequency of use:
+
+    There is no research supporting this claim, but depending on how often the friend shares posts on an OSN, the user may be more or less sensitive to certain types of content posted by her friend. We believe that all event types can be influenced by this factor.
+
+    Example 12 A user might be more interested in a post shared by a friend who does not share posts frequently; than in a post shared by a friend who often shares posts. In the former case, the post is rare and could be considered more valuable.
+     
+    4.
+
+    Number of used OSNs:
+
+    There is no research supporting this claim, but the number of OSNs the user’s friend is a member of can have an influence on the user perceived importance of certain types of content posted by her friend. We believe that all event types can be influenced by this factor.
+
+    Example 13 Assume that a user has a friend who is active on several OSNs. The friend’s posts will likely be perceived as more relevant than post coming from friends who are active on only one OSN. In the former case, the post shared simultaneously on several OSNs is more unusual and thus more valuable than a classic post.
+     
+
+2.2.2.4 “Characteristics of the content” factors
+
+    1.
+
+    Source of content:
+
+    There is no research supporting this claim, but depending on which friend is the originator of the content, and more specifically, depending on the strength of their ties, the user will perceive the content differently. If the tie between the user and the originator of the content is strong, then we can expect that the user will perceive the content as more relevant than if it is shared by a weak tie. We believe that this factor can potentially affect all types of content.
+
+    Example 14 A user will perceive a photo album posted by her best friend as more important, than a photo album posted by an acquaintance.
+     
+    2.
+
+    Original source of content:
+
+    Content can be commented, liked, reblogged, etc. Some content originated by a “non-friend” can thus appear on the page of the user, if the user’s friends commented on, or were tagged in the content; and depending on the privacy settings of this given content. There is no research supporting this claim, but the nature of the originator could influence the perceived relevance of the content: is he an acquaintance or a stranger? Is he popular or unpopular? etc. We believe that all event types can be influenced by this factor.
+
+    Example 15 On Facebook, profile pictures can be viewed by friends of friends. If a user’s friend comments on a profile picture of X , and if the picture is viewable by friends of friends, then even if the user and X are not friends, the user will see the profile picture on her newsfeed because her friend commented on it. She will perceive this content as being important if the picture belongs to someone popular, for instance; and will not perceive the content as relevant if the picture belongs to someone she has never heard of.
+     
+    3.
+
+    Quality of friends involved:
+
+    When sharing content, a user can tag friends on the post. There is no research supporting this claim, but when a friend tags mutual friends on the post, we can expect that the nature of the friendship (the “quality of the friendship”) between the user and the tagged friends will influence the perceived relevance of the content: the stronger the tie between the user and the friends who are tagged, the more important the content becomes. We believe that this factor can influence the event types where contacts can be tagged, typically: media (both photos and videos), status, messages, relationships status, family, and comments.
+
+    Example 16 A user will likely be interested in a status where her best friend is tagged; but will not perceive as relevant a status where an acquaintance appears.
+     
+    4.
+
+    Number of friends involved:
+
+    Similarly, when a friend tags mutual friends on the post, we can expect that number of friends who are tagged will influence the perceived relevance of the content: the more friends are tagged, the more important the content becomes. There is no research supporting this claim, but we assume that this factor could influence the event types where contacts can be tagged, typically: media (both photos and videos), status, messages, relationships status, family, and comments.
+
+    Example 17 A user will likely be interested in a photo album where 10 of her friends are tagged; but in comparison will perceive as less relevant a photo album where only 2 friends appear.
+     
+    5.
+
+    Commonalities:
+
+    There is no research supporting this claim, but we can expect that if the shared content is about something the user and her friend have in common, the perceived relevance of the content will increase. We hypothesize that this factor can influence the following types of content: the occupation, the beliefs, the hobbies, the relationships, the comments, the like/repost, the groups, the recommendation, and the connection.
+
+    Example 18 If a user sees that one of her friends added the school she attended, she will likely perceive the content as more relevant if her friend attended the same school, as opposed to another school. Or, a user will be more interested in a comment from her friend on a status she also commented, than in a comment on a status she did not comment.
+     
+    6.
+
+    The activity on the post:
+
+    There is no research supporting this claim, but we believe that the more activity on a post, that is the more comments, the more likes, reposts on a content, the more important it is perceived. We believe that all event types can be influenced by this factor.
+
+    Example 19 If a status on Facebook has more than 30 comments, it will likely be perceived by the user as more important than a status that only has 3 comments.
+     
+    7.
+
+    Alert:
+
+    Users can receive alerts on OSNs. There is no research supporting this claim, but we can expect that the user will perceive a content that resulted in an alert as more important than a content that did not yield any alert. We hypothesize that this factor can potentially influence all types of content.
+
+    Example 20 On Facebook, a user used to receive alerts when a photo she liked was commented by a friend. Then, this type of content was perceived as more important. Today, users do not receive those specific types of alerts, which makes the related type of content look less relevant.
+     
+
+2.2.2.5 Layout of the content factors
+
+    1.
+
+    Presence of icons:
+
+    There is no research supporting this claim, but we can expect that the presence of icons illustrating the type of content can have a positive influence on the perceived relevance of the content. We believe that all event types can be influenced by this factor.
+
+    Example 21 On Facebook, a Like is represented by a “thumb up.” When a user logs into the OSN, if she sees this icon, she will perceive the related content as more important. The content will be more easily noticed, and will not blend in the newsfeed.
+     
+    2.
+
+    Order of presentation:
+
+    For the OSN that do not present the content shared by the users solely on a chronological order, the order in which the user discovers the various contents shared by her friend can have an influence on her perceived relevance of this content. There is no research supporting this claim, but we believe that the user will perceive as more important the first items she sees when she logs into the OSN, and conversely, her perceived relevance of the content will decrease as she scrolls down her screen. We assume that all types of content can potentially be influenced by this factor.
+
+    Example 22 On Facebook, the posts shared by friends are not exclusively presented chronologically. Hence, the contents the user sees first, are perceived as more important than the ones she sees when she has finished to scroll down her screen.
+     
+    3.
+
+    Starred content:
+
+    There is no research supporting this claim, but if the OSN highlighted or allowed the user to highlight some content, the latter would be perceived as more important than a regular content. We believe that all event types can be influenced by this factor.
+
+    Example 23 When a user sees an highlighted post on Facebook, she likely perceives it as being more important than a regular post.
+     
+    4.
+
+    Preview:
+
+    There is no research supporting this claim, but we believe that the use of previews can influence positively the perceived relevance of content. The preview would be similar to a teaser. It would spark the interest of the user (as opposed to show directly the whole content, or only the link to it), and therefore, she would perceive the content as more relevant. We believe that this factor can influence the following types of content: photo albums, long texts, uni- and bi-directional links.
+
+    Example 24 A user will likely perceive a photo album as more relevant, if some photos of the album are shown directly; as opposed to only the title of the album, or every single photo in it. Similarly, if a friend liked 5 pages on Facebook, the user will perceive this content as more important if she sees, for instance, explicitly two pages, and only the title of the other three.
+     
+    5.
+
+    Show friends involved:
+
+    There is no research supporting this claim, but we believe that if several friends are involved in a given content, and if the user can directly see the name of all the friends involved in this content, then her perceived relevance of this content will increase. We assume that the various types of content than can potentially be influenced by this factor are: the status, and the media.
+
+    Example 25 Let us assume that a user sees a status on Facebook, and five friends are tagged on this status. Two different situations are possible: (i) the user can see the name of the five friends directly, even if she has to hover over the link (Facebook will say “ with X and four others ,” and the user can discover the name of the four other friends by hovering over the latter statement); (ii) the user can see the name of one friend, and only the information that 4 other friends are involved, but without knowing exactly who they are. We can expect that the former situation will help make the content more important than the latter situation.
+     
+
+2.2.2.6 Presentation of the content factors
+
+    1.
+
+    Presence of a legend:
+
+    There is no research supporting this claim, but if a user sees some content accompanied by a legend, “hashtags,” or a descriptive text, then she will perceive this post as more relevant than another one. We hypothesize that this factor can influence the following types of content: media, groups, status, relationships, occupation, beliefs, skills, hobbies, and privacy settings.
+
+    Example 26 Between a photo album with a descriptive text, and another photo album without any information about the context in which the photos were taken; the user will likely perceive the former album as more important than the latter.
+     
+    2.
+
+    Presence of tagged people:
+
+    There is no research supporting this claim, but if a user sees some content where people are tagged, then she will perceive this post as more relevant than another one. We assume that this factor can influence mainly two types of content: media, and texts (status, tweet, etc.).
+
+    Example 27 Between a status with a few tagged friends, and another status wherein not any friends are tagged; the former, giving more information, will likely be perceived as more relevant by the user than the other one.
+     
+    3.
+
+    Presence of location:
+
+    Similarly, if a user sees some content where the location is mentioned, then she will perceive this post as more relevant than another one. There is no research supporting this claim, but we expect that this factor can influence mainly two types of content: media, and texts (status, tweet, etc.).
+
+    Example 28 Between a photo album mentioning the location where the photos were taken, and another album where not any additional information is provided; the user will likely perceive the former as more relevant than the other one.
+     
+    4.
+
+    Presence of emoticons:
+
+    There is no research supporting this claim, but we believe that if the user sees content with some emoticons, then the content will be perceived as more important. The tool will highlight the content; and the latter will be more easily noticed, than another content without emoticons. We hypothesize that this factor can influence the following types of content: texts (status on Facebook, tweet on Twitter, etc.), comments, and messages.
+
+    Example 29 If a user sees a status on Facebook with emoticons, she will perceive the status as more important than the same status without any emoticons. The latter allow to emphasize the magnitude, the importance of the status. The status will have more impact than the same exact text without an emoticon.
+     
+
+2.2.2.7 Salient beliefs factors
+Ajzen’s theory posits that “behavior is a function of salient information, or beliefs, relevant to the behavior.” The author identifies three types of salient beliefs: (i) behavioral beliefs, (ii) normative beliefs, and (iii) control beliefs. They are assumed to influence attitude toward the behavior, the subjective norms, and the behavior control, respectively (Ajzen 1991 ).
+
+    1.
+
+    Behavioral beliefs:
+
+    They “are assumed to influence attitudes toward the behavior” (Ajzen 1991 ). If seeing a specific type of content is perceived as valuable, then the user will have a positive attitude toward this given type of content. We assume that all types of content can potentially be influenced by this factor.
+
+    Example 30 Suppose that a user has a friend who works in an industry the user wants to work in. Then it is likely that the user will consider seeing the résumé of this friend valuable. Hence, this type of content will be perceived as important by the user.
+     
+    2.
+
+    Normative beliefs:
+
+    They “constitute the underlying determinants of subjective norms” (Ajzen 1991 ). If important referents approve a particular type of content, then the user will have a positive attitude toward this given type of content. We assume that all types of content can potentially be influenced by this factor.
+
+    Example 31 For a teenager, his friends constitute an important referent group. If one of his friends share a photo album, then this friend wants the user to see it. Hence, it is likely that this specific type of content will be perceived as important by the user.
+     
+    3.
+
+    Control beliefs:
+
+    They “provide the basis for perceptions of behavior control” (Ajzen 1991 ). If it is easy for the user to have access to a particular type of content, then she will have a positive attitude toward that given type of content. We assume that all types of content can potentially be influenced by this factor.
+
+    Example 32 Let us assume that a user has a friend who shared a photo album. If this album is easy to access to, then the user will perceive that content as being important. On the other hand, if the album is not easily accessible (for instance, the user has to leave the current page to browse the album and cannot easily come back to that page afterwards), then she will likely perceive the content type as being less important.
+     
+
+2.2.2.8 Personality traits factors
+The personality traits of the user have an influence on her use of OSN, as stated by Kuss and Griffiths ( 2011 ) and Nadkarni and Hofmann ( 2012 ). Similarly to the socio-demographic factors, we can assume that these personality traits also have an influence on the perceived relevance of content types. The Big - Five Factors is a model categorizing all personality measures into five dimensions, namely extraversion, agreeableness, conscientiousness, emotional stability, and openness to experience (Judge et al. 1999 ; Goldberg 1993 ; Costa et al. 2001 ). We will consider these five dimensions as our factors that can influence perceived importance of content types.
+
+    1.
+
+    Extraversion:
+
+    This factor “contrasts such traits as talkativeness, assertiveness, and activity level with such traits as silence, passivity, and reserve” (Goldberg 1993 ). “Extraversion is thought to consist of sociability” (Judge et al. 1999 ). We assume that all types of content can potentially be influenced by this factor.
+
+    Example 33 If a user is extravert, then she will likely want to see content types related to status, comments, like/reposts, media, etc.; and the links her friends create with other users. And an introvert user will be more sensitive to content recommendations, or any other “less social” event types.
+     
+    2.
+
+    Agreeableness:
+
+    This factor “contrasts such traits as kindness, trust, and warmth with such traits as hostility, selfishness, and distrust” (Goldberg 1993 ). “Agreeable persons are cooperative (trusting of others and caring) as well as liable (good-natured, cheerful, and gentle)” (Judge et al. 1999 ). We assume that all types of content can potentially be influenced by this factor.
+
+    Example 34 If a user is agreeable, selfless, then she will likely want to see her friends share content types, such as: status, comments, like/reposts, media, etc. On the other hand, a selfish user will not be interested in what her friends share on the OSN.
+     
+    3.
+
+    Conscientiousness:
+
+    This factor “contrasts such traits as organization, thoroughness, and reliability with such traits as carelessness, negligence, and unreliability” (Goldberg 1993 ). It “is related to an individual’s degree of self-control, as well as need for achievement, order, and persistence” (Judge et al. 1999 ). We assume that a conscientious user will be more responsive to content types such as: recommendations, and connection.
+
+    Example 35 A conscientious user, being sensitive to organization, will perceive as important to see if one of her friends connects their various OSN accounts to post some content simultaneously on Facebook and Twitter for instance.
+     
+    4.
+
+    Neuroticism:
+
+    This factor “includes such traits as nervousness, moodiness, and tempera- mentality” (Goldberg 1993 ). “Neuroticism leads to at least two related tendencies; one dealing with anxiety (instability and stress proneness), the other addressing one’s well being (personal insecurity and depression)” (Judge et al. 1999 ). We assume that all types of content can potentially be influenced by this factor.
+
+    Example 36 If a user is emotionally stable, she will more likely be interested in photo albums posted by friends, who want to share their happy memories. Conversely, a neurotic user will unlikely be interested in the relationship status of her friend.
+     
+    5.
+
+    Openness to experience:
+
+    This factor “contrasts such traits as imagination, curiosity, and creativity with such traits as shallowness and imperceptiveness” (Goldberg 1993 ). “Openness to experience is characterized by intellectance (philosophical and intellectual) and unconventionality (imaginative, autonomous, and nonconforming)” (Judge et al. 1999 ). We assume that all types of content can potentially be influenced by this factor.
+
+    Example 37 If a user is open to experience, then she will likely want to see content types related to status, comments, like/reposts, media; the links her friends create with other users; etc.
+     
+
+From all these factors, we can derive the corresponding hypotheses summarized in Table  8 .
+Table 8
+
+Hypotheses regarding factors influencing perceived relevance of event types
+
+Hypotheses
+	
+
+Factors: the […] will have an influence on whether the event type is more or less important for me.
+  	
+
+Socio-demographics and personal use factors
+
+H 61
+	
+
+My gender
+
+H 62
+	
+
+My experience with the OSN
+
+H 63
+	
+
+My frequency of use
+
+H 64
+	
+
+Number of OSNs I use
+  	
+
+Characteristics of the friend factors
+
+H 65
+	
+
+Gender of the friend
+
+H 66
+	
+
+Friend’s experience with the OSN
+
+H 67
+	
+
+Friend’s frequency of use
+
+H 68
+	
+
+Number of OSNs used by the friend
+  	
+
+Characteristics of the content factors
+
+H 69
+	
+
+Closeness of the friend generating some event type
+
+H 70
+	
+
+Popularity of the friend
+
+H 71
+	
+
+Quality of the friends tagged on some content type
+
+H 72
+	
+
+Quantity of the friends tagged on some content type
+
+H 73
+	
+
+Commonalities on some content types
+
+H 74
+	
+
+Number of “Likes” or comments on some content
+
+H 75
+	
+
+Reception of alerts
+  	
+
+Layout of the content factors
+
+H 76
+	
+
+Presence of icons
+
+H 77
+	
+
+Order of presentation
+
+H 78
+	
+
+Fact that the content is “starred”
+
+H 79
+	
+
+Fact that the content can be previewed
+
+H 80
+	
+
+Fact that the friends tagged on some content can be directly accessible
+  	
+
+Presentation of the content factors
+
+H 81
+	
+
+Presence of a legend
+
+H 82
+	
+
+Presence of tagged people
+
+H 83
+	
+
+Presence of the location
+
+H 84
+	
+
+Use of emoticons
+3 What is the relative importance of event types to users?
+3.1 Motivation
+
+In prior work, we identified the types of content shared, and/or created by a OSN user. The problem, which we are interested in, is how to identify types of notifications, which are more relevant to a user than others. The specific research question is this:
+
+    If User X is friend of user Y, then which are the typical event types that Y can generate on an OSN, and of which X expects to be notified?
+
+OSNs already are solving this problem, each in its own way. To the best of our knowledge, the specifics of these content-filtering methods are not public.
+3.2 Research methodology
+3.2.1 Data collection
+
+To test the importance given by users to a set of event types, we conducted a survey in October 2014. Survey respondents were bachelor Students in the University of Namur. We met the students during their classes, soliciting their participation in a survey of content of OSNs. During the brief talk, we outlined the goal of the study, and then we distributed the paper questionnaires. No incentive for participation was offered, except a summary of the results.
+
+Because the number of items to evaluate was significant, we designed three different surveys for the evaluation of the event types. All surveys evaluated the importance that users give to the categories of content. The specificity of each survey was the following: the first survey evaluated the importance users give to each items of the profile category; the second survey evaluated the perceived importance of each items belonging to the content category; the third survey evaluated the importance users give to all the items of the relationship category, the recommendation category, the privacy category, and the connection category.
+3.2.2 Sample
+Following a single round of data collection, we gathered a total of 427 usable responses out of the 450 surveys we distributed about the event types, the response rate was thus about 94.89 percent. Table  9 shows the distribution of experience for female and male in the sample. We can see that 177 females and 244 males responded to the survey. We can also observe that the majority of the respondents (90.87 %) have been using an online social network for more than 2 years.
+Table 9
+
+Experience of use by gender
+  	
+
+Female
+	
+
+Male
+	
+
+Unanswered
+	
+
+Total
+
+Do not use a OSN
+	
+
+7
+	
+
+4
+	
+
+0
+	
+
+11
+
+Less than a year
+	
+
+1
+	
+
+8
+	
+
+0
+	
+
+9
+
+Between 1 and 2 years
+	
+
+10
+	
+
+6
+	
+
+0
+	
+
+16
+
+More than 2 years
+	
+
+159
+	
+
+226
+	
+
+3
+	
+
+388
+
+Unanswered
+	
+
+n/a
+	
+
+n/a
+	
+
+3
+	
+
+3
+
+Total
+	
+
+177
+	
+
+244
+	
+
+6
+	
+
+427
+Tables  10 and 11 show the distribution of respondents according to the type of survey. We can observe that 138 students (58 females, and 76 males; 99 first year students, 28 second year students, and 11 third year students) responded to the first survey; 148 students (54 females, and 92 males; 114 first year students, 34 second year students, and 0 third year student) responded to the second survey; and 141 students (65 females, and 76 males; 18 first year students, 50 second year students, and 73 third year students) responded to the third survey.
+Table 10
+
+Respondents of type of survey by gender
+  	
+
+Female
+	
+
+Male
+	
+
+Unanswered
+	
+
+Total
+
+Survey 1
+	
+
+58
+	
+
+76
+	
+
+4
+	
+
+138
+
+Survey 2
+	
+
+54
+	
+
+92
+	
+
+2
+	
+
+148
+
+Survey 3
+	
+
+65
+	
+
+76
+	
+
+0
+	
+
+141
+
+Total
+	
+
+177
+	
+
+244
+	
+
+6
+	
+
+427
+Table 11
+
+Respondents of type of survey by academic year
+  	
+
+Year 1
+	
+
+Year 2
+	
+
+Year 3
+	
+
+Total
+
+Survey 1
+	
+
+99
+	
+
+28
+	
+
+11
+	
+
+138
+
+Survey 2
+	
+
+114
+	
+
+34
+	
+
+0
+	
+
+148
+
+Survey 3
+	
+
+18
+	
+
+50
+	
+
+73
+	
+
+141
+
+Total
+	
+
+231
+	
+
+112
+	
+
+84
+	
+
+427
+3.2.3 Measures
+
+To measure the relative relevance, for users, of event types generated by other users, we used a 5-point Likert-type scale. The respondents indicated their level of agreement to a set of statements (ranging from strongly disagree to strongly agree).
+3.3 Data analysis and results
+
+To test the hypotheses stated in Sect.  3.1 , we conducted a Chi-Square test. We simplified our survey data by reducing the five answers from the Likert Scale to three categories: agree, neutral, disagree. The Null Hypothesis (H 0 ) was that the expected probabilities were equal to 1/3, that is, the probability P that we users agree P ( Agree ) = 1/3, P ( Neutral ) = 1/3, P ( Disagree ) = 1/3. The Alternative Hypothesis is that one of these probabilities is different.
+
+We will start by the Profile category. The Chi-Square for H 1 is equal to 28.0444, and the degree of freedom (df) is equal to 2. The p value is equal to 8.133e−07; we reject the null hypothesis, and we can claim that the results we obtained are significant. It means that users want to see a change in one of their friends’ Name.
+The rest of the results are presented in Tables  12 , 13 , 14 , and 15 , along with the decision to reject or not the null hypothesis.
+Table 12
+
+Results of the significance test: profile category
+
+Event type
+	
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Name
+	
+
+74
+	
+
+30
+	
+
+31
+	
+
+28.0444
+	
+
+8.133e−07
+	
+
+Reject
+
+Birthday
+	
+
+67
+	
+
+35
+	
+
+32
+	
+
+16.8507
+	
+
+0.0002192
+	
+
+Reject
+
+Mother language
+	
+
+37
+	
+
+47
+	
+
+50
+	
+
+2.0746
+	
+
+0.3544
+	
+
+Do not reject
+
+Ethnicity
+	
+
+24
+	
+
+52
+	
+
+57
+	
+
+14.2707
+	
+
+0.0007965
+	
+
+Reject
+
+Relationship status
+	
+
+62
+	
+
+48
+	
+
+24
+	
+
+16.5373
+	
+
+0.0002564
+	
+
+Reject
+
+Phone number
+	
+
+29
+	
+
+39
+	
+
+65
+	
+
+15.5789
+	
+
+0.0004141
+	
+
+Reject
+
+Profile picture
+	
+
+112
+	
+
+15
+	
+
+5
+	
+
+158.7727
+	
+
+<2.2e−16
+	
+
+Reject
+
+Website
+	
+
+28
+	
+
+59
+	
+
+42
+	
+
+11.2093
+	
+
+0.003681
+	
+
+Reject
+
+School(s)
+	
+
+64
+	
+
+48
+	
+
+22
+	
+
+20.1194
+	
+
+4.277e−05
+	
+
+Reject
+
+Job(s)
+	
+
+45
+	
+
+61
+	
+
+28
+	
+
+12.194
+	
+
+0.00225
+	
+
+Reject
+
+Industry(ies)
+	
+
+40
+	
+
+56
+	
+
+38
+	
+
+4.3582
+	
+
+0.1131
+	
+
+Do not reject
+
+Parents
+	
+
+18
+	
+
+54
+	
+
+63
+	
+
+25.2
+	
+
+3.372e−06
+	
+
+Reject
+
+Siblings
+	
+
+44
+	
+
+52
+	
+
+39
+	
+
+1.9111
+	
+
+0.3846
+	
+
+Do not reject
+
+Uncles and aunts
+	
+
+7
+	
+
+58
+	
+
+70
+	
+
+49.7333
+	
+
+1.587e−11
+	
+
+Reject
+
+Cousins
+	
+
+21
+	
+
+62
+	
+
+53
+	
+
+20.4853
+	
+
+3.562e−05
+	
+
+Reject
+
+Religious beliefs
+	
+
+10
+	
+
+54
+	
+
+72
+	
+
+44.8824
+	
+
+1.794e−10
+	
+
+Reject
+
+Political beliefs
+	
+
+19
+	
+
+43
+	
+
+74
+	
+
+33.5441
+	
+
+5.2e−08
+	
+
+Reject
+
+Foreign languages
+	
+
+59
+	
+
+43
+	
+
+33
+	
+
+7.6444
+	
+
+0.02188
+	
+
+Reject
+
+Qualifications
+	
+
+55
+	
+
+45
+	
+
+36
+	
+
+3.9853
+	
+
+0.1363
+	
+
+Do not reject
+
+Areas of expertise
+	
+
+41
+	
+
+57
+	
+
+36
+	
+
+5.3881
+	
+
+0.06761
+	
+
+Do not reject
+
+Résumé
+	
+
+21
+	
+
+53
+	
+
+60
+	
+
+19.3582
+	
+
+6.258e−05
+	
+
+Reject
+
+Sports
+	
+
+92
+	
+
+32
+	
+
+11
+	
+
+78.5333
+	
+
+<2.2e−16
+	
+
+Reject
+
+Youth movement
+	
+
+76
+	
+
+38
+	
+
+22
+	
+
+33.9412
+	
+
+4.264e−08
+	
+
+Reject
+
+Music and movies
+	
+
+90
+	
+
+29
+	
+
+17
+	
+
+67.6029
+	
+
+2.09e−15
+	
+
+Reject
+
+Favorite quote
+	
+
+50
+	
+
+50
+	
+
+34
+	
+
+3.8209
+	
+
+0.148
+	
+
+Do not reject
+
+About me
+	
+
+38
+	
+
+55
+	
+
+43
+	
+
+3.3676
+	
+
+0.1857
+	
+
+Do not reject
+Table 13
+
+Results of the significance test: content category
+
+Event type
+	
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 (α = 5 %)
+
+Short text
+	
+
+96
+	
+
+36
+	
+
+15
+	
+
+72.1224
+	
+
+<2.2e−16
+	
+
+Reject
+
+Long text
+	
+
+33
+	
+
+52
+	
+
+62
+	
+
+8.8571
+	
+
+0.01193
+	
+
+Reject
+
+Comment on profile information
+	
+
+24
+	
+
+65
+	
+
+58
+	
+
+19.6327
+	
+
+5.455e−05
+	
+
+Reject
+
+Comment on status
+	
+
+55
+	
+
+58
+	
+
+33
+	
+
+7.6575
+	
+
+0.02174
+	
+
+Reject
+
+Comment on media
+	
+
+80
+	
+
+44
+	
+
+23
+	
+
+33.9184
+	
+
+4.312e−08
+	
+
+Reject
+
+Comment on relationship status
+	
+
+44
+	
+
+48
+	
+
+55
+	
+
+1.2653
+	
+
+0.5312
+	
+
+Do not reject
+
+Like status
+	
+
+39
+	
+
+55
+	
+
+53
+	
+
+3.102
+	
+
+0.212
+	
+
+Do not reject
+
+Like media
+	
+
+55
+	
+
+51
+	
+
+41
+	
+
+2.1224
+	
+
+0.346
+	
+
+Do not reject
+
+Share status
+	
+
+46
+	
+
+55
+	
+
+46
+	
+
+1.102
+	
+
+0.5764
+	
+
+Do not reject
+
+Share media
+	
+
+68
+	
+
+43
+	
+
+36
+	
+
+11.551
+	
+
+0.003103
+	
+
+Reject
+
+Tag friends on status
+	
+
+57
+	
+
+61
+	
+
+28
+	
+
+13.3288
+	
+
+0.001276
+	
+
+Reject
+
+Tag friends on media
+	
+
+73
+	
+
+51
+	
+
+23
+	
+
+25.6327
+	
+
+2.716e−06
+	
+
+Reject
+
+Tag media
+	
+
+48
+	
+
+51
+	
+
+23
+	
+
+0.1781
+	
+
+0.9148
+	
+
+Do not reject
+
+Photo
+	
+
+122
+	
+
+18
+	
+
+8
+	
+
+163.9592
+	
+
+<2.2e−16
+	
+
+Reject
+
+Video
+	
+
+120
+	
+
+18
+	
+
+8
+	
+
+157.863
+	
+
+<2.2e−16
+	
+
+Reject
+
+Receive message
+	
+
+61
+	
+
+52
+	
+
+34
+	
+
+7.7143
+	
+
+0.02113
+	
+
+Reject
+
+Send message
+	
+
+49
+	
+
+55
+	
+
+43
+	
+
+1.4694
+	
+
+0.4797
+	
+
+Do not reject
+
+Create group
+	
+
+71
+	
+
+46
+	
+
+30
+	
+
+17.4286
+	
+
+0.0001642
+	
+
+Reject
+
+Join group
+	
+
+60
+	
+
+52
+	
+
+35
+	
+
+6.6531
+	
+
+0.03592
+	
+
+Reject
+From Table  12 and Figs.  1 , 2 , and 3 , we can see that the results we obtained are significant for the name, the birthday, the ethnicity, the relationship status, the phone number, the profile picture, the website, the school(s), the job(s), the parents, the uncles and aunts, the cousins, the religious beliefs, the political beliefs, the foreign languages, the résumé, the sports, the youth movements, and the music and movies. The results are not significant for the other profile category items, that is, the mother language, the industry(ies), the siblings, the qualifications, the areas of expertise, the favorite quote, and the about me section.
+Open image in new window
+Fig. 1
+
+Barplot for the profile event types—part 1
+Open image in new window
+Fig. 2
+
+Barplot for the profile event types — part 2
+Open image in new window
+Fig. 3
+
+Barplot for the profile event types — part 3
+
+It means that H 1 , H2, H 5 , H 7 , H 9 , H 18 , H 22 , H 23 , and H 24 are validated. It also means that the following hypotheses are invalidated: H 4 , H 6 , H 8 , H 10 , H 12 , H 14 , H 15 , H 16 , H 17 , and H 21 . However, we cannot validate nor invalidate the other hypotheses: H 3 , H 11 , H 13 , H 19 , H 20 , H 25 , and H 26 .
+
+Users are neutral about the website, the job(s), and the cousins; and they do not perceive as important the following items: the ethnicity, the phone number, the parents, the uncles and aunts, the religious beliefs, the political beliefs, and the résumé. We cannot firmly state how they feel about the other items.
+From Table  13 and Figs.  4 , 5 , and 6 , we can see that the results we obtained are significant for the short text, the long text, the comment on a profile information, the comment on a status, the comment on a media, the share a media, the friends tagged on a status, the friends tagged on a media, the posting of a photo, of a video, the reception of a message, the creation of a group, and the joining of a group. The results are not significant for the other content category items, that is, the comment on a relationship status, the like of a status, the like of a media, the share a status, the tagging of a media, and the sending of a message.
+Open image in new window
+Fig. 4
+
+Barplot for the content event types — part 1
+Open image in new window
+Fig. 5
+
+Barplot for the content event types — part 2
+Open image in new window
+Fig. 6
+
+Barplot for the content event types — part 3
+
+It means that H 29 , H 33 , H 38 , H 40 , H 42 , H 43 , H 44 , H 46 and H 47 , are validated. It also means that the following hypotheses are invalidated: H 30 , H 31 , H 32 , and H 39 . However, we cannot validate nor invalidate the other hypotheses: H 34 , H 35 , H 36 , H 37 , H 41 , and H 45 .
+From Table  14 and Figs.  7 , 8 , 9 , and 10 , we can see that the results we obtained are significant for the unidirectional relationship, the bidirectional relationship, the friend recommendation, the public figure recommendation, and the sign in with another OSN. The results are not significant for the other items from the privacy, the recommendation, and the connection categories, that is, the content recommendation, the semi-public and the public contents, and the share simultaneously on various OSNs.
+Table 14
+
+Results of the significance test: links, privacy, recommendation, and connection categories
+
+Event type
+	
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 (α = 5 %)
+
+Unidirectional relationship
+	
+
+64
+	
+
+28
+	
+
+45
+	
+
+14.2044
+	
+
+0.0008233
+	
+
+Reject
+
+Bidirectional relationship
+	
+
+49
+	
+
+32
+	
+
+57
+	
+
+7.087
+	
+
+0.02891
+	
+
+Reject
+
+Semi-public
+	
+
+54
+	
+
+34
+	
+
+52
+	
+
+5.2
+	
+
+0.07427
+	
+
+Do not reject
+
+Public
+	
+
+50
+	
+
+48
+	
+
+41
+	
+
+0.964
+	
+
+0.6175
+	
+
+Do not reject
+
+Friend recommendation
+	
+
+22
+	
+
+44
+	
+
+73
+	
+
+28.2446
+	
+
+7.358e−07
+	
+
+Reject
+
+Public figure recommendation
+	
+
+31
+	
+
+39
+	
+
+69
+	
+
+17.3237
+	
+
+0.0001731
+	
+
+Reject
+
+Content recommendation
+	
+
+53
+	
+
+35
+	
+
+51
+	
+
+4.2014
+	
+
+0.1224
+	
+
+Do not reject
+
+Connection: Sign in
+	
+
+15
+	
+
+32
+	
+
+90
+	
+
+67.7226
+	
+
+1.969e−15
+	
+
+Reject
+
+Connection Share
+	
+
+46
+	
+
+41
+	
+
+51
+	
+
+1.087
+	
+
+0.5807
+	
+
+Do not reject
+Open image in new window
+Fig. 7
+
+Barplot for the links event types
+Open image in new window
+Fig. 8
+
+Barplot for the privacy event types
+Open image in new window
+Fig. 9
+
+Barplot for the recommendation event types
+Open image in new window
+Fig. 10
+
+Barplot for the connection event types
+
+It means that H 27 is validated. It also means that the following hypotheses are invalidated: H 28 , H 48 , H 49 , and H 53 . However, we cannot validate nor invalidate the other hypotheses: H 50 , H 51 , H 52 , and H 54 .
+
+Users do not perceive as important the following items: the bidirectional relationship, the friend recommendation, the public figure recommendation, and the sign in connection. We cannot firmly state how they feel about the other items.
+From Table  15 and Fig.  11 , we can see that all the results we obtained are significant, that is for the profile, the links, the content, the recommendation, the privacy, and the connection categories.
+Table 15
+
+Results of the significance test: categories of content
+
+Categories
+	
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Profile
+	
+
+224
+	
+
+95
+	
+
+61
+	
+
+116.7526
+	
+
+<2.2e−16
+	
+
+Reject
+
+Links
+	
+
+186
+	
+
+99
+	
+
+96
+	
+
+41.1496
+	
+
+1.16e−09
+	
+
+Reject
+
+Content
+	
+
+333
+	
+
+47
+	
+
+23
+	
+
+442.8586
+	
+
+<2.2e−16
+	
+
+Reject
+
+Recommendation
+	
+
+69
+	
+
+85
+	
+
+223
+	
+
+114.1008
+	
+
+<2.2e−16
+	
+
+Reject
+
+Privacy
+	
+
+99
+	
+
+104
+	
+
+178
+	
+
+30.8189
+	
+
+2.031e−07
+	
+
+Reject
+
+Connection
+	
+
+80
+	
+
+96
+	
+
+206
+	
+
+73.9058
+	
+
+<2.2e−16
+	
+
+Reject
+Open image in new window
+Fig. 11
+
+Barplot for the event types categories
+
+It means that H 55 , H 56 , and H 57 are validated. It also means that the other hypotheses regarding the categories are invalidated: H 58 , H 59 , and H 60 .
+Table  16 reports the results of the independence test. We examined if differences existed in the results given the user is a female or a male. From the results, we can see that the groups are independent; that is being a female or a male does not influence the way a user reacts to OSN content.
+Table 16
+
+Results of the Chi-squared test of independence
+
+Categories
+	
+
+Female
+	
+
+Male
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+	
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+
+Profile
+	
+
+99
+	
+
+35
+	
+
+23
+	
+
+121
+	
+
+58
+	
+
+28
+	
+
+2.0026
+	
+
+0.3674
+	
+
+Do not reject
+
+Links
+	
+
+85
+	
+
+39
+	
+
+37
+	
+
+95
+	
+
+60
+	
+
+59
+	
+
+2.6133
+	
+
+0.2707
+	
+
+Do not reject
+
+Content
+	
+
+141
+	
+
+17
+	
+
+10
+	
+
+187
+	
+
+29
+	
+
+13
+	
+
+0.6147
+	
+
+0.7354
+	
+
+Do not reject
+
+Recommendation
+	
+
+25
+	
+
+30
+	
+
+98
+	
+
+42
+	
+
+53
+	
+
+123
+	
+
+2.1942
+	
+
+0.3338
+	
+
+Do not reject
+
+Privacy
+	
+
+41
+	
+
+36
+	
+
+81
+	
+
+58
+	
+
+64
+	
+
+95
+	
+
+2.6559
+	
+
+0.265
+	
+
+Do not reject
+
+Connection
+	
+
+35
+	
+
+39
+	
+
+83
+	
+
+41
+	
+
+56
+	
+
+122
+	
+
+0.7318
+	
+
+0.6936
+	
+
+Do not reject
+4 Which factors influence users’ perception of importance of event types?
+4.1 Motivation
+
+We are interested in which factors influence users’ evaluation of event types, and among them, in which factors can be influenced by the OSN, and how; so that we can make recommendation systems that can influence (strengthen or weaken) such factors.
+4.2 Research methodology
+4.2.1 Data collection
+
+To test the importance given by users to a set of factors, we conducted a survey in October 2014. Survey respondents were bachelor Students in the University of Namur. We met the students during their classes, soliciting their participation in a survey of content of online social networks. During the brief talk, we outlined the goal of the study, and then we distributed the paper questionnaires. No incentive for participation was offered, except a summary of the results.
+4.2.2 Sample
+Following a single round of data collection, we gathered 142 usable responses out of the 150 surveys we distributed about the factors; the response rate was thus about 94.67 percent. Tables  17 and 18 show the distribution of female and male in the sample; and the distribution of first year students and third year students, respectively.
+Table 17
+
+Respondents by gender
+  	
+
+Female
+	
+
+Male
+	
+
+Unanswered
+	
+
+Total
+
+Total
+	
+
+52
+	
+
+89
+	
+
+1
+	
+
+142
+Table 18
+
+Respondents by academic year
+  	
+
+Year 1
+	
+
+Year 2
+	
+
+Year 3
+	
+
+Total
+
+Total
+	
+
+63
+	
+
+0
+	
+
+79
+	
+
+142
+4.2.3 Measures
+To measure the relative importance of factors for users, we presented a user with a common situation on an OSN, and we asked them to indicate whether or not the evaluated factor had an influence on the perceived importance of the situation. Let us consider an example. Imagine one of your friend posts a status:
+
+    The more likes or comments the status has, the more important the status is.
+
+    The importance of the status does not depend on the number of likes or comments it has.
+
+4.3 Data analysis and results
+From Table  19 and Fig.  12 , we can see that the results we obtained are significant for all the factors, that is, the gender of the contact, the experience of the contact, the frequency of publication, and the number of OSNs used.
+Table 19
+
+Results of the significance test: contact characteristics factors—part 1
+
+Factor
+	
+
+Relevant
+	
+
+Irrelevant
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Gender of contact
+	
+
+Female
+	
+
+Male
+	  	  	  	 
+
+15
+	
+
+1
+	
+
+126
+	
+
+198.1831
+	
+
+<2.2e−16
+	
+
+Reject
+
+Experience of contact
+	
+
+New user
+	
+
+Old user
+	  	  	  	 
+
+11
+	
+
+5
+	
+
+126
+	
+
+196.493
+	
+
+<2.2e−16
+	
+
+Reject
+
+Frequency of publication
+	
+
+Often
+	
+
+Rarely
+	  	
+
+46.766
+	
+
+6.997e−11
+	
+
+Reject
+
+9
+	
+
+62
+	
+
+70
+	  	  	 
+
+Number of OSNs used
+	
+
+Many
+	
+
+One
+	  	
+
+238.1972
+	
+
+<2.2e−16
+	
+
+Reject
+
+2
+	
+
+6
+	
+
+134
+	  	  	 
+Open image in new window
+Fig. 12
+
+Barplot for the contact characteristics factors
+
+It means that H 65 , H 66 , H 67 , and H 68 are invalidated.
+
+From the significant results, we can thus conclude that the mentioned factors are not relevant to explain the perceived relevance of content by users.
+From Table  20 and Fig.  12 , we can see that the results we obtained are significant for both factors, that is, the closeness of the contact, and the popularity of the contact.
+Table 20
+
+Results of the significance test: contact characteristics factors—part 2
+
+Factor
+	
+
+Relevant
+	
+
+Irrelevant
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Closeness of friend
+	
+
+125
+	
+
+15
+	
+
+86.4286
+	
+
+<2.2e−16
+	
+
+Reject
+
+Popularity of friend
+	
+
+27
+	
+
+113
+	
+
+52.8286
+	
+
+3.64e−13
+	
+
+Reject
+
+It means that H 69 is validated, while H 70 is invalidated.
+
+From the significant results, we can thus conclude that the mentioned factors are not relevant to explain the perceived relevance of content by users.
+Table  21 reports the results of the independence test. We examined if differences existed in the results given the user is a female or a male. From the results, we can see that the groups are independent; that is being a female or a male does not influence the way a user reacts to OSN content.
+Table 21
+
+Results of the Chi-squared test of independence: contact characteristics factors—part 2
+
+Factor
+	
+
+Female
+	
+
+Male
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Relevant
+	
+
+Irrelevant
+	
+
+Relevant
+	
+
+Irrelevant
+
+Gender of contact
+	
+
+Female
+	
+
+Male
+	  	
+
+Female
+	
+
+Male
+	  	  	  	 
+
+2
+	
+
+0
+	
+
+50
+	
+
+13
+	
+
+1
+	
+
+75
+	
+
+4.6797
+	
+
+0.09634
+	
+
+Do not reject
+
+Experience of contact
+	
+
+New
+	
+
+Old
+	  	
+
+New
+	
+
+Old
+	  	  	  	 
+
+3
+	
+
+1
+	
+
+48
+	
+
+8
+	
+
+4
+	
+
+77
+	
+
+1.1722
+	
+
+0.5565
+	
+
+Do not reject
+
+Frequency of publication
+	
+
+Often
+	
+
+Rarely
+	  	
+
+Often
+	
+
+Rarely
+	  	  	  	 
+
+2
+	
+
+26
+	
+
+24
+	
+
+7
+	
+
+35
+	
+
+46
+	
+
+1.8876
+	
+
+0.3891
+	
+
+Do not reject
+
+Number of OSNs used
+	
+
+Many
+	
+
+One
+	  	
+
+Many
+	
+
+One
+	  	  	  	 
+
+0
+	
+
+3
+	
+
+39
+	
+
+2
+	
+
+3
+	
+
+84
+	
+
+1.6123
+	
+
+0.4466
+	
+
+Do not reject
+Similarly, Table  22 reports the results of the independence test between the factors of closeness and popularity and the gender. From the results, we can see that the groups are independent for the popularity of the friend. However, if the factor is considered irrelevant, then it is likely that it is considered so by a female; in other words, being a female increases the probability of considering the factor “Closeness of friend” as irrelevant.
+Table 22
+
+Results of the Chi-squared test of independence: contact characteristics factors—part 2
+
+Factor
+	
+
+Female
+	
+
+Male
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Relevant
+	
+
+Irrelevant
+	
+
+Relevant
+	
+
+Irrelevant
+
+Closeness of friend
+	
+
+45
+	
+
+7
+	
+
+79
+	
+
+0
+	
+
+8.7311
+	
+
+0.003128
+	
+
+Reject
+
+Popularity of friend
+	
+
+12
+	
+
+40
+	
+
+15
+	
+
+72
+	
+
+0.3844
+	
+
+0.5353
+	
+
+Do not reject
+From Table  23 and Figs.  13 and 14 , we can see that the results we obtained are significant for all factors, except for the preview, that is, the quality of friends involved, the number of friends involved, the commonalities, the activity on the post (number of Likes), the alert, the presence of icons, the order of presentation, the starred content, the preview, the ability to show friends, the presence of a legend, the presence of tagged people, the presence of the location, and the use of emoticons.
+Table 23
+
+Results of the significance test: content characteristics factors
+
+Factor
+	
+
+Relevant
+	
+
+Irrelevant
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Quality of friends
+	
+
+100
+	
+
+40
+	
+
+25.7143
+	
+
+3.959e−07
+	
+
+Reject
+
+Number of friends
+	
+
+34
+	
+
+105
+	
+
+36.2662
+	
+
+1.721e−09
+	
+
+Reject
+
+Commonalities
+	
+
+110
+	
+
+31
+	
+
+44.2624
+	
+
+2.872e−11
+	
+
+Reject
+
+Number of likes
+	
+
+38
+	
+
+103
+	
+
+29.9645
+	
+
+4.4e−08
+	
+
+Reject
+
+Alerts
+	
+
+117
+	
+
+9
+	
+
+92.5714
+	
+
+<2.2e−16
+	
+
+Reject
+
+Icons
+	
+
+16
+	
+
+122
+	
+
+81.4203
+	
+
+<2.2e−16
+	
+
+Reject
+
+Order of presentation
+	
+
+33
+	
+
+103
+	
+
+36.0294
+	
+
+1.944e−09
+	
+
+Reject
+
+Starred content
+	
+
+24
+	
+
+117
+	
+
+61.3404
+	
+
+4.801e−15
+	
+
+Reject
+
+Preview
+	
+
+75
+	
+
+62
+	
+
+1.2336
+	
+
+0.2667
+	
+
+Do not reject
+
+Show friends
+	
+
+28
+	
+
+110
+	
+
+48.7246
+	
+
+2.945e−12
+	
+
+Reject
+
+Legend reject
+	
+
+40
+	
+
+94
+	
+
+21.7612
+	
+
+3.088e−06
+	
+
+Reject
+
+Tagged people
+	
+
+50
+	
+
+90
+	
+
+11.4286
+	
+
+0.0007232
+	
+
+Reject
+
+Location
+	
+
+30
+	
+
+105
+	
+
+41.6667
+	
+
+1.082e−1
+	
+
+Reject
+
+Emoticons
+	
+
+11
+	
+
+129
+	
+
+99.4571
+	
+
+<2.2e−16
+	
+
+Reject
+Open image in new window
+Fig. 13
+
+Barplot for the content characteristics factors—part 1
+Open image in new window
+Fig. 14
+
+Barplot for the content characteristics factors—part 2
+
+It means that H 71 , H 73 , and H 75 are validated. It also means that the following hypotheses are invalidated: H 72 , H 74 , H 76 , H 77 , H 78 , H 80 , H 81 , H 82 , H 83 , and H84.
+
+From the significant results, we can thus conclude that only the three following factors are relevant to explain the perceived importance of content by users: the quality of friends involved, the commonalities, and the reception of alerts.
+Table  24 reports the results of the independence test. We examined if differences existed in the results given the user is a female or a male. From the results, we can see that the groups are independent; that is being a female or a male does not influence the way a user reacts to OSN content.
+Table 24
+
+Results of the Chi-squared test of independence: content characteristics factors
+
+Factor
+	
+
+Female
+	
+
+Male
+	
+
+Chi square
+	
+
+P value
+	
+
+Decision H 0 ( α  = 5 %)
+
+Relevant
+	
+
+Irrelevant
+	
+
+Relevant
+	
+
+Irrelevant
+
+Quality of friends
+	
+
+35
+	
+
+17
+	
+
+64
+	
+
+23
+	
+
+0.3537
+	
+
+0.552
+	
+
+Do not reject
+
+Number of friends
+	
+
+10
+	
+
+42
+	
+
+23
+	
+
+63
+	
+
+0.6349
+	
+
+0.4256
+	
+
+Do not reject
+
+Commonalities
+	
+
+42
+	
+
+10
+	
+
+67
+	
+
+21
+	
+
+0.1826
+	
+
+0.6692
+	
+
+Do not reject
+
+Number of likes
+	
+
+15
+	
+
+37
+	
+
+23
+	
+
+65
+	
+
+0.023
+	
+
+0.87948
+	
+
+Do not reject
+
+Alerts
+	
+
+47
+	
+
+2
+	
+
+69
+	
+
+7
+	
+
+0.5309
+	
+
+0.4662
+	
+
+Do not reject
+
+Icons
+	
+
+3
+	
+
+47
+	
+
+13
+	
+
+74
+	
+
+1.671
+	
+
+0.1961
+	
+
+Do not reject
+
+Order of presentation
+	
+
+11
+	
+
+39
+	
+
+22
+	
+
+63
+	
+
+0.0897
+	
+
+0.7645
+	
+
+Do not reject
+
+Starred content
+	
+
+9
+	
+
+43
+	
+
+15
+	
+
+73
+	
+
+0
+	
+
+1
+	
+
+Do not reject
+
+Preview
+	
+
+29
+	
+
+22
+	
+
+45
+	
+
+40
+	
+
+0.0711
+	
+
+0.7897
+	
+
+Do not reject
+
+Show friends
+	
+
+10
+	
+
+42
+	
+
+17
+	
+
+68
+	
+
+0
+	
+
+1
+	
+
+Do not reject
+
+Legend
+	
+
+12
+	
+
+38
+	
+
+27
+	
+
+56
+	
+
+0.7226
+	
+
+0.3953
+	
+
+Do not reject
+
+Tagged people
+	
+
+16
+	
+
+36
+	
+
+33
+	
+
+54
+	
+
+0.4513
+	
+
+0.5017
+	
+
+Do not reject
+
+Location
+	
+
+11
+	
+
+40
+	
+
+19
+	
+
+64
+	
+
+0
+	
+
+1
+	
+
+Do not reject
+
+Emoticons
+	
+
+4
+	
+
+48
+	
+
+7
+	
+
+80
+	
+
+0
+	
+
+1
+	
+
+Do not reject
+5 Discussion: relationship between the results obtained for RQ1 and RQ2
+
+From Sect.  3 , we can categorize the event types as core, non-core, and optional. The event types listed as core are the ones the respondents agree were important. The non-core event types are the ones, the respondents disagree were important. The event types listed as optional were the ones the respondents were neutral about.
+
+Event types from the profile information are well distributed. We can see that users are not sensitive to information regarding the private life, such as family, religion, and political beliefs. They are not interested to see the ethnicity, the phone number, nor the résumé of their friends either. However, information regarding the identity of their friends (name, birthday, profile picture, relationship status), as well as their hobbies and interests (sports, youth movement, music, movies) are of interest to the users. They are more indecisive when it comes to the professional aspect of their friends. They are interested in the school(s) they attend(ed), the foreign languages they can speak, but they are neutral about the job(s) they have/had.
+
+The items of the relationship category are surprising. Respondents are interested in the unidirectional relationships that their friends establish; however, and that is an unexpected result, they consider the bidirectional relationships as unimportant.
+
+Users consider all media-related event types as important: comment on media, tag friends on media, share photo, and share video. Only the event type “Tag media with specific terms” did not yield significant results. It can be explained by the fact that this event type usually occurs within knowledge-oriented OSNs such as Tumblr, YouTube, Pinterest, Flickr; and as mentioned above, respondents here almost exclusively use Facebook. They are, however, sensible to information related to groups; to short texts; and to the reception of public messages. They are not interested in long texts shared by their friends. They are neutral not only about activities on a status: comments and the tagging of friends; but also on a comment on profile information. The other event types did not return significant results.
+
+Users and public figures recommendations are not event types users want to see. It can be explained by the fact that recommendations are supposed to be customized, and thus users may not be interested in suggestions meant to, and fitting another individual profile. However, the results regarding the content recommendations were not significant.
+
+Only one item of the connection category gave a significant result, namely the Sign in event type. Respondents concur that this is not an important event type. It can be explained by the fact that the respondents barely used any OSNs other than Facebook. It is thus not surprising that they are not interested in the connection other users establish between OSNs.
+
+The items belonging to the privacy category did not yield any significant results.
+Table  25 summarizes the classification of event types.
+Table 25
+
+Core, neutral, and optional event types
+
+Categories
+	
+
+Core
+	
+
+Neutral
+	
+
+Optional
+
+Profile
+	
+
+Name, birthday, relationship status, profile picture, foreign languages, schools, sports, youth movement, music and movie
+	
+
+Website, job(s), cousins
+	
+
+Ethnicity, phone number, parents, uncles and aunts, religious beliefs, political beliefs, résumé
+
+Relationships
+	
+
+Unidirectional
+	  	
+
+Bidirectional
+
+Content
+	
+
+Short text, comment on media, tag friends on media, share photo, share video, receive message, create group, join group
+	
+
+Comment on profile information, comment on status, tag friends on status
+	
+
+Long text
+
+Recommendations
+	  	  	
+
+Users, public figure
+
+Connection
+	  	  	
+
+Sign in
+
+As far as the categories are concerned, the results are not surprising. The profile, the link, and the content categories are considered core, as expected. We should note, though, that the Link category is considered core by users; even if they listed the bidirectional relationship as non-core. While the recommendations, the privacy, and the connection categories are considered non-core. The recommendation listed as non-core can be explained by the fact that the suggestions are personalized, and, as mentioned above, users are not interested in recommendations fitting another individual profile. The connection considered as non-core can be explain by the fact that in our samples, there are very few students who use another OSN than Facebook. If they are not interested by other OSNs, it is expected that they are not interested in the possible connection between OSNs.
+This discussion is summarized in Table  26 .
+Table 26
+
+Core, neutral, and optional event type categories
+
+Categories
+	
+
+Core
+	
+
+Neutral
+	
+
+Optional
+
+Profile
+	
+
+X
+	  	 
+
+Link
+	
+
+X
+	  	 
+
+Content
+	
+
+X
+	  	 
+
+Recommendations
+	  	  	
+
+X
+
+Privacy
+	  	  	
+
+X
+
+Connection
+	  	  	
+
+X
+
+In Sect.  2.2 , we have identified factors that can potentially influence the perceived relevance of content types by users. In other words, we have identified factors that could help categorized content types as (i) relevant, important; and (ii) irrelevant, unimportant, for the user. We have classified these factors in 8 categories: Socio-Demographics, Personal Use, Characteristics of the Friend, Characteristics of the Content, Layout of the Content, Presentation of the Content, Salient Beliefs, and Personality Traits Factors. We will now discuss each category of factors.
+
+The socio-demographic factors are mostly data that the OSN have at disposal. These factors cannot be influenced by the OSN, however, the system can use the information in order to classify the types of content as relevant or irrelevant. For instance, the OSN knows if the user is a 12-year-old girl, or a 30-year-old male. In the former case, the OSN will likely consider the page of a teen movie star as relevant content. In the latter case, the system will consider news about politics as more relevant.
+
+Similarly, the personal use factors can also be considered as information the OSN has at disposal. The OSN can manage the content classification using the information about personal use, but the system cannot influence these factors. The OSN will classify content differently for someone who uses the OSN several times a day, as opposed to once a week. For the user who logs in everyday, the OSN will have much more relevant content types, while the system will be more exclusive for the user who uses the OSN only once a week.
+
+The characteristics of the friend who shares posts on an OSN are also data available to the OSN.
+
+The characteristics of the content factors can also be considered as data, information that the OSN has and can use to categorize the content type. The OSN cannot influence these factors (except for the alerts) and make a content type more or less relevant to the user. However, the system can use the information to classify the content in the right category for the given user.
+
+The presentation of the content factors can, to some extent, be influenced by the OSN. Indeed, the latter can suggest the user to add information, and in doing so, increase the perceived relevance of the given content. However, the OSN cannot fully control these factors because it is the responsibility of the user to add, for instance, a legend (a descriptive text); the OSN can only suggest its use.
+
+The only category of factors that the OSN can fully control and influence is the layout of the content. The OSN can manage the way the contents are presented to the user, and thus influence their perceived relevance. For instance, the OSN will decide on the order in which the contents are displayed to the user; and this order is expected to influence the perceived importance of the contents.
+
+The factors regarding the personality of the user, and her salient beliefs cannot be controlled nor used as information by the OSN. However, we felt it was important to mention them because they clearly play a role in the perceived relevance of those users.
+
+As far as the results of the data analysis are concerned, we can list the closeness of friends, the quality of friends tagged, the commonalities, and the alerts as influencing the user’s perceived relevance of event type.
+
+The closeness of friend was expected to be an important factor influencing the user’s perceived relevance. Students can have an important number of friends on Facebook, and they have to prioritize themselves the various posts offered to them, it is expected that they will give the priority to event types generated by their closest friends. We can also state that a difference exists between genders. Male respondents are unanimous regarding the importance of this factor; while female students are more nuanced.
+
+Similarly, the quality of the friends tagged in an event type is also a relevant factor. This is not a surprise that users are more interested in event types where their closest friends are tagged, than where their acquaintances are involved.
+
+The presence of commonalities in the event type plays also a significant role in the perceived importance of the event type. Users will find posts more important if they are about something users are already interested in. We can also assume that this result is related to the closeness of friend factor. Close friends have usually many things in common: schools, hobbies, sports, musical or movie tastes, etc. We can assume that event types generated by close friends will be about things the user and the friend have in common.
+
+The final factor that yielded significant positive result is the reception of alerts. Again, this is a result we could have expected. Receiving a message about some event type makes the latter seem more important.
+
+The frequency of publication factor can be a little more nuanced. For the majority of the respondents (70), the frequency of publication will not influence the perceived relevance; however 62 respondents do consider that event types from friends who post rarely will be considered as more important.
+
+The other factors were clearly considered as irrelevant by the respondents. We believe that for some factors the results are counter intuitive, such as: the number of likes, the order of presentation, and the starred content. We expected the activity on an event type to play a positive role in the perceived importance of the event type. Indeed, the more “Likes” and comments on a status, for instance, the more “buzz” is created around this status. We thus expected this status to be considered as more relevant than another one. The order of presentation could have played an important role, too. We expected that the first thing a user sees when she logs in would be considered as more important than the event type she discovers when scrolling down her screen. Also, an “highlighted” event type will not have a positive impact on the user. It is surprising, because it defeats the purpose of this specific feature.
+
+We can see that the factors playing a positive role in the user’s perceived relevance of event types, are not factors that can be directly controlled by the OSN; except for the reception of alerts. Rather, they are factors related to the social life of the user: the closeness of the friend, the quality of the friends involved, and the presence of commonalities.
+
+Finally, we should note that we could not test hypotheses H 62 to H 64 . Almost all respondents in our sample have the same profile: they have almost all been using only Facebook for more than 2 years, and use it everyday. Hence, we cannot test if the factors regarding the experience of use, the number of OSNs used, and the frequency of use play a role in the perceived relevance of event types. The hypothesis H 61 was tested with the independence test for the categories of content. The results were presented in Table  18 , and we could conclude that no differences existed between the groups.
+This discussion is summarized in Table  27
+Table 27
+
+Classification of factors as relevant/irrelevant, and influenceable/non-influenceable: summary
+
+Factors
+	
+
+Relevant
+	
+
+Irrelevant
+	
+
+Undetermined
+
+Influenceable
+	
+
+Alerts
+	
+
+Icons, order of presentation, starred content, show friends
+	
+
+Preview
+
+Exploitable
+	
+
+Commonalities
+	
+
+Gender of contact, experience of contact, frequency of publication, popularity of friend, number of friends, number of likes, legend, tagged people, location, emoticons
+	 
+
+Non-influenceable
+	
+
+Closeness of friend, quality of friend
+	
+
+Number of OSNs used
+	 
+5.1 Discussing the relationship between RQ1 and RQ2
+
+We identified event types and categorized them as core, neutral, and optional. Similarly, we identified factors that can influence the perceived relevance of event types, and we classified them as relevant, irrelevant; and as influenceable, exploitable, and non-influenceable by the OSN. We can now analyze the relations between the classifications of both notions, and therefrom we can derive some rules that the RS could follow in order to propose the most relevant event types to OSN users.
+First, we can state a first rule, related to the core event types:
+
+    If a friend of the user generates an event type belonging to the list of core event types, then the OSN should send a notification to the user
+
+Second, we can state a second set of rules related to the relevant factors:
+
+    If a close friend of the user generates an event type, then the OSN should propose this event type to the user
+
+    If a close friend of the user is tagged in an event type by another user, then the OSN should propose this event type to the user
+
+    If a friend of the user generates an event type presenting commonalities between them, then the OSN should propose this event type to the user
+
+Then, we can state a third set of rules that put in relation the core event types and the relevant factors:
+
+    If a friend of the user generates an event type belonging to the list of core event types, and that this event type is about something the user and the friend have in common, then the OSN should systematically propose this event type to the user
+
+    If a close friend of the user generates an event type belonging to the list of core event types, then the OSN should systematically propose this event type to the user
+
+    If a close friend of the user is tagged in an event type belonging to the list of core event types, then the OSN should systematically propose this event type to the user
+
+The last two rules are valid if we make the hypothesis that the OSN can detect or infer the closeness of two users, for instance by analyzing the activity between two users.
+Finally, if we assume that the relevant factors can influence the perceived relevance of event types users are neutral about, we could state the following rules:
+
+    If a close friend of the user generates an event type belonging to the neutral category, then the OSN should propose this event type to the user:
+
+        If a close friend of the user generates an event type about her website, her job(s), or her cousin(s); then the OSN should propose this event type to the user
+
+        If a close friend of the user comments on a profile information, then the OSN should propose this event type to the user
+
+        If a close friend of the user comments on a status, then the OSN should propose this event type to the user
+
+        If a close friend of the user tags one of her friend on a status, then the OSN should propose this event type to the user
+
+    If a friend of the user tags friends on a status, and that the tagged friends are close to the user; then the OSN should propose this event type to the user
+
+    If a friend of the user generates an event type belonging to the neutral category, and that the event type is about something the friend and the user have in common; then the OSN should propose this event type to the user
+
+These results are some examples of sets of rules a RS can apply in order propose the most relevant content to OSN users. We should note that in these preliminary rules, we only took into account the event types users consider as core or feel neutral about. Similarly, we only took into account the relevant factors. We believe that we can increase the number of rules by taking into account the other results, that is, by combining optional event types and relevant factors for instance. Future work will thus consist in deriving more rules, in a more systematic and more formal way.
+
+Let us consider an example of application, if we take only the categories of event types. In that case, we would decide to notify the users with the event types that belong to a “Core Category.”
+
+We rank-order the rules based on the proportion of respondents that categorized the Category as important for the core categories; and as not important for the optional categories.
+From the results shown in 28 we can see that 224 out of 380 students consider the Profile category as important, it means that a proportion of 0.5895 students want to be notified with an update regarding the Profile category. We apply the same methodology to the other categories. The category with the highest proportion will be attributed the rank of 1. In doing so, we ensure that the most discriminant cues (for Table  28 , the most discriminant category) are taken into account first.
+Table 28
+
+Rank ordering of the rules for the categories of event types
+
+Categories
+	
+
+Agree
+	
+
+Neutral
+	
+
+Disagree
+	
+
+Proportion
+	
+
+Rank
+
+Profile
+	
+
+224
+	
+
+95
+	
+
+61
+	
+
+0.589473684
+	
+
+3
+
+Link
+	
+
+186
+	
+
+99
+	
+
+96
+	
+
+0.488188976
+	
+
+5
+
+Content
+	
+
+333
+	
+
+47
+	
+
+23
+	
+
+0.82630273
+	
+
+1
+
+Recommendations
+	
+
+69
+	
+
+85
+	
+
+223
+	
+
+0.591511936
+	
+
+2
+
+Privacy
+	
+
+99
+	
+
+104
+	
+
+178
+	
+
+0.467191601
+	
+
+6
+
+Connection
+	
+
+80
+	
+
+96
+	
+
+206
+	
+
+0.539267016
+	
+
+4
+
+From Table  28 , we can observe that the Content category is the one where users agree the most. Indeed, 333 students out of the 403 in the sample agree that the Content category is relevant. Conversely, the Privacy category is the one where users are most divided.
+The resulting rules and their respective ranks are reported in Table  29 . From these rules, we derive the algorithm in Fig.  15 .
+Table 29
+
+Rules regarding the categories of event types
+
+Rules
+	
+
+If a friend of the user generates an event type belonging to the […] category
+	
+
+Then, the OSN should:
+	
+
+Else
+
+R1
+	
+
+Content
+	
+
+Notify the event type to the user
+	
+
+Go to R2
+
+R2
+	
+
+Recommendation
+	
+
+Not notify the event type to the user
+	
+
+Go to R3
+
+R3
+	
+
+Profile
+	
+
+Notify the event type to the user
+	
+
+Go to R4
+
+R4
+	
+
+Connection
+	
+
+Not notify the event type to the user
+	
+
+Go to R5
+
+R5
+	
+
+Link
+	
+
+Notify the event type to the user
+	
+
+Go to R6
+
+R6
+	
+
+Privacy
+	
+
+Not notify the event type to the user
+	
+
+/
+Open image in new window
+Fig. 15
+
+Algorithm for event type recommendation
+6 Limitations
+
+This work suffers from several limitations.
+
+Firstly, our sample was only composed of students. This selection bias leads to one significant limitation of our study, namely the situational/contextual factors; which constitutes a threat to the external validity of our study.
+
+Because of the specific conditions under which our study was conducted, that is, only students were part of the sample, the results we obtained may not be generalizable. We are aware that, for instance, cultural differences may exist in the perceived relevance of factors. Also, students, and more generally twenty-year-old, have different tastes and expect something different from the system than forty-year-old professionals. This is confirmed by the fact, for instance, that barely any respondent is using LinkedIn. We could also note that the number of respondents could be larger in order to have more robust results.
+
+We believe, however, that this is the only threat to validity, both internal and external. Our study does not suffer from threats to internal validity (more specifically, the mortality, the history, the maturation, the statistical regression, the testing, the design contamination, the compensatory rivalry, the resentful demoralization, and the instrumentation threats), nor from other external validity threats (more specifically, pretest/posttest, the Hawthorne, and the experimenter effects).
+
+Another limitation of our study is concerned with the factors we identified. Section  2.2 is only a non-exhaustive list of factors that can influence users’ perceived relevance of event types. Other factors may exist that we have not identified or thought of. We do not argue that this is a comprehensive, and definite list of factors.
+
+Also, we were not able to evaluate every single factors identified in Sect.  2.2 ; such as the education history, the age, the ethnicity, and the personality traits factors; for mainly two reasons. Firstly, our sample was only composed of students of the University of Namur, that is, users with a similar education history, and age. We thus could not evaluate the potential differences induced by these factors. Secondly, from an ethical and a practical points of view, we could not measure the differences in perceived relevance induced by ethnic differences or differences in personality. Yet, these factors could play a significant role in the perceived importance of event types.
+
+Finally, the sets of rules we derived from the data analysis results are only preliminary. A RS could not implement these rules as-is. And as mentioned above, we are planning to derive more rules, using the same process and the same format as in Table  29 .
+7 Future work
+
+In this Section, we will go through the aspects we would like to address in our future work.
+
+Future work will consist in deriving more rules from the results we obtained. These rules will take into account both the event types and the factors, and will be expressed using the same process and the same format as in Table  29 . We will also seek to broaden the scope of the studies (in terms of number of respondents and variety of profiles), and we will seek to propose a more refined scale than core-neutral-optional.
+
+Today, many OSNs send out regular notifications by email, summarizing event types that were shared by users. For instance, Tumblr sends “weekly dashboard recap” to its users; or Pinterest sometimes sends “You’ve got 20 new Pins waiting for you” emails to its users. This email summary could have an influence, and could even be included in the factors that can potentially influence the perceived relevance of event types. However, Facebook does not offer this feature, and the respondents of our sample almost exclusively use this OSN. Hence, we believe that our results are still valid as is. Nevertheless the email summary, as mentioned above, could and should be taken into account for future studies.
+
+We will also seek to broaden the scope of the studies in terms of number of respondents and variety of profiles. As mentioned above, the questionnaires being conducted only on students constitute a serious limitations of the study. Thus, in future work, we will try to reach a larger variety of profiles in order to have more comprehensive results. In addition, we will try to reach a larger number of respondents, in order to have a greater statistical power.
+
+Finally, we aim to design new surveys in order perform more sophisticated statistical tests. Firstly, drawing on the technology acceptance model (TAM) (Davis 1989 ), we would try to predict the OSN usage. This study would require to use the Structural Equation Modeling (SEM) technique. Secondly, we aim to develop a more refined scale than core-neutral-optional. Thirdly, we think it would be very interesting to explore the development of a “event type relevance metric.” However, we believe that the data we have at disposal at the moment are not sufficient and are not adequate, and that more data would be needed.
+8 Literature review
+
+Various studies have examined the factors influencing the satisfaction of IS use; or the factors influencing the acceptance, or continuance of a new technology (Venkatesh and Morris 2000 ; Bhattacherjee 2001 ). These studies developed and validated instruments to measure these concepts in specific contexts, such as internet banking (Tan and Teo 2000 ), web-based IS (Xiao and Dasgupta 2002 ), e-learning (Sun et al. 2008 ), e-commerce (Gefen and Straub 2000 ) and analyzed the identified IS success factors (Li 1997 ; Delone 2003 ).
+
+As far as the related work about OSN is concerned, many contributions focus on the privacy and trust issues (Dwyer et al. 2007 ; Guha et al. 2008 ; Strater and Lipford 2008 ; Golbeck 2009 ; Madejski et al. 2011 ), the topological characteristics of social networks induced by the links between the members (Heer and Boyd 2005 ; Ahn et al. 2007 ; Mislove et al. 2007 ; Kumar et al. 2010 ; Kwak et al. 2010 ), the activities carried out by users on OSN (Guo et al. 2009 ; Benevenuto et al. 2009 ; Schneider et al. 2009 ), the user profile (Rezaee et al. 2012 ; Singh and Tomar 2009 ; Aiello et al. 2010 ; Mislove et al. 2010 ; Lampe et al. 2007 ; Strufe 2010 ; Utz 2010 ; Utz and Beukeboom 2011 ; Nosko et al. 2010 ; Emanuel et al. 2013 ; Silfverberg et al. 2011 ), and about the reasons why people become members of an OSN.
+
+Many studies have been carried out about the acceptance of OSN (Hsu and Lu 2004 ; Gangadharbatla 2008 ; Hsu and Lin 2008 ), and the reasons why people use OSNs (Cheung et al. 2011 ; Lin and Lu 2011 ). Examples include DiMicco et al. ( 2008 ), who identified three categories of motivations for using a professional OSN: caring, climbing, and campaigning. Lindqvist et al. ( 2011 ) explored the reasons why, and how people use Location-Based Services (LBS), such as Foursquare. They interviewed early adopters of LBS, and classified the rationale behind their use of check-in services in various categories: personal tracking, intimate sharing at a distance, discovery of new people, running into friends, gaming aspect, seeing where friends have been. They also identified three categories of places—(i) routine vs non-routine places, (ii) potentially private places, and (iii) at large events—where users are most, (i) and (iii), and least, (ii), likely to check-in. Pempek et al. ( 2009 ) explored the reasons why students use Facebook. They identified the following reasons for using this OSN: communicating with friends, looking at or posting photos, entertainment, finding out about or planning events, sending or receiving messages, making or reading wall posts, getting to know people better, getting contact information, and presenting oneself to others through the content in one’s profile. They also surveyed students about the aspects of social networks they find interesting. Their responses include: the ability to reconnect with people, the ability to learn new information, networking ability, self presentation, lack of care about privacy, and the popularity of Facebook.
+
+There is little research of OSNs from the perspective of requirements engineering. In a previous work, we proposed RE patterns for the modeling of OSN features (Bouraga et al. 2014 ); and we also conducted an empirical study of features importance of OSNs. We believe now that it is relevant to have insight into the types of content users want to see in priority, given that the design of new systems in general, and OSNs in particular, involves deciding what to show to users. Knowing which types of content are more important to which target user group should help inform such decisions, so that we would try to show the most important contents to user when they connect to the OSN; and depending on the time they spend on the OSN, leave less important content for later in the period of time the user is logged in.
+
+At a more abstract level, knowing which types of content are the most important can help requirements elicitation when designing future OSNs. We may choose to focus elicitation on requirements related to these types of content, so as to ensure that the future system covers the requirements which, given the importance of these contents, are among the most important ones for users.
+
+Various authors have explored the factors that can influence the privacy preferences of OSN users. Various authors have discussed the correlation between the privacy preferences and the relationships between users. The underlying concept is that the “characteristics of a relationship between entities can be used to make decisions about access to information and resources” (Banks and Wu 2010 ). Banks and Wu ( 2010 ) discovered a “small, positive correlation between a measure of interaction intensity and data sharing within Facebook.” Krasnova et al. ( 2010 ) explored the factors that can influence the information disclosure on OSN. Various authors have explored how the privacy preferences can vary (Olson et al. 2005 ; Anthony et al. 2007 ; Banks and Wu 2010 ), and some authors studied this topic in the specific context of location-based services (Olson et al. 2005 ; Anthony et al. 2007 ; Consolvo et al. 2005 ). Anthony et al. ( 2007 ) examined how the privacy preferences of users of location-based services depend on the place they are in. More specifically, how the location aspect of the place as well as the social context of the place affect their willingness to share their location information.
+
+Studies have also been carried out about the links between the psychological traits of users and their use of OSNs. Examples include Zhong et al. ( 2011 ), or Kuss and Griffiths ( 2011 ), who conducted a review of the psychological literature about OSN and addiction. They found out that OSN usage differs depending on the gender and the personality traits; that the motivations for using an OSN varies with the culture, the gender, and the age groups. Nadkarni and Hofmann ( 2012 ) also state that cultural and sociodemographic differences in the use of Facebook exist. They also listed the personality traits that were linked with a high Facebook use.
+
+Finally, several authors have carried out studies about mobile phones notifications. Sahami Shirazi et al. ( 2014 ) analyzed the kinds of mobile notifications that users like and dislike. In their study, a notification was considered as a piece of information users receive about a “variety of events, such as the arrival of message, a new comment on one of their social network posts, or the availability of an application update.” Similarly, Mashhadi et al. ( 2014 ) explored the perceived importance of mobile phones notifications. Pielot et al. ( 2014 ) studied how users deal with a notification, and discovered that users check the notification within a few minutes of arrival, “regardless of whether the phone was in silent mode or not.”
+
+Our research here is similar but still distinguishes itself from these studies. We are trying to identify a series of factors (and not only personality traits or sociodemographic differences) that can influence users’ perceived relevance, or perceived importance of event types; and we are not interested in identifying the factors influencing their overall attitude toward the use of OSN; nor are we interested in explaining solely the privacy preferences. Finally, we adopt a different approach to the term “notification.” The studies mentioned above focused on notifications mobile phone users receive to alert them of something new (such as a new message for instance). Here, what we call “notification” is the fact that the OSN proposes the event type to the user; and not only the “alert” that, for instance, Facebook users receive when one of their friends like a photo they posted.
+9 Conclusion
+
+In this paper, we make two contributions. First, we explore the user’s perceived relevance of various event types on an OSN, and we categorize them as core, non-core and optional event types. Second, we identified the factors that can influence this perceived importance; and third we evaluate their relevance.
+
+From the data we collected, we can conclude that users are sensitive to the Profile, the Links, and the Content categories; while they do not consider as important the other categories, that is, the Recommendation, the Privacy, and the Connection categories. We also classified individual event types as core, neutral, and optional; and the results are summarized in Table  26 .
+
+Then, we draw not only on OSN literature, but also on psychological literature to identify a list of factors that can potentially influence the users’ perceived relevance of event types. We then collected data to evaluate the relevance of these factors. The results show that only four factors have a significant positive influence: the closeness of friend, the quality of the tagged friends, the presence of commonalities, and the reception of alerts.
+
+We discussed the results obtained for RQ1, and RQ2, and the relations between them, as well as the limitations of our analysis and conclusions.
+
+Future work will consist in deriving more rules from the results we obtained. These rules will take into account both the event types and the factors, and will be expressed in a more formal way than what we proposed here. We will also seek to broaden the scope of the studies (in terms of number of respondents and variety of profiles), and we will seek to propose a more refined scale than core-neutral-optional.
+Appendix 1: Survey on the content of online social networks: part 1
+General information
+
+    1.
+    You are a:
+
+        Female
+
+        Male
+     
+    2.
+    For how long have you been using an OSN?
+
+        I don’t use an OSN
+
+        Less than a year
+
+        Between 1 and 2 years
+
+        More than 2 years
+     
+    3.
+    How often do you use the following social networks? (everyday—several times a week—once a week—once a month—never)
+
+        Facebook
+
+        Flickr
+
+        LinkedIn
+
+        MySpace
+
+        Pinterest
+
+        Tumblr
+
+        Twitter
+
+        YouTube
+     
+
+Content of online social networks
+
+    1.
+    When I log into a social network, I want to see updates and/or new information about, and/or created by, my friends about: (strongly agree—agree—undecided—disagree—strongly disagree)
+
+        Their name
+
+        Their birthday
+
+        Their mother language
+
+        Their ethnicity
+
+        Their relationship status
+
+        Their phone number
+
+        Their profile picture
+
+        Their website
+
+        The school they attend/attended
+
+        The job they have/have had
+
+        The industry(ies) they work/want to work in
+
+        The identification of their parents
+
+        The identification of their brothers and sisters
+
+        The identification of their aunts and uncles
+
+        The identification of their cousins
+
+        Their religious belief
+
+        Their political belief
+
+        The foreign languages they speak
+
+        Their qualifications—their expertise areas
+
+        Their résumé
+
+        The sports, or the instruments they play
+
+        The youth movements they’re part of
+
+        The evens they attended
+
+        Their musical and movie tastes
+
+        Their favorite quote
+
+        A little text about them
+     
+    2.
+    As a general rule, it is important to me to see information about, and/or created by, my friends about: (strongly agree—agree—undecided—disagree—strongly disagree)
+
+        Information about their profile
+
+        The links they create on the social network
+
+        The content they share
+
+        The way they manage who can see what on their profile and their activity
+
+        The recommendations they receive
+
+        If they connect their account to another social network account
+     
+
+Appendix 2: Survey on the content of online social networks—part 2
+General information
+
+Refer to questions 1–3 from “survey on the content of online social networks—part 1”
+Content of online social networks
+
+    1.
+    When I log into a social network, I want to see updates and/or new information about, and/or created by, my friends about: (strongly agree—agree—undecided—disagree—strongly disagree)
+
+        A short text, such as a status on Facebook
+
+        A long text, such as a note on Facebook
+
+        A comment on one of their friends’ profile information
+
+        A comment on a status
+
+        A comment on a photo or video
+
+        A comment on a relationship status
+
+        A “Like” on a status
+
+        A “Like” on a photo or video
+
+        A “Share” on a status
+
+        A “Share” on a photo or video
+
+        The “Tag” of one of their friends on a status
+
+        The “Tag” of one of their friends on a photo or video
+
+        The “Tag” of a photo or video with specific terms
+
+        The public messages they receive from their contacts
+
+        The public messages they send to their contacts
+
+        A group they create
+
+        A group they join
+     
+    2.
+    As a general rule, it is important to me to see information about, and/or created by, my friends about: (strongly agree—agree—undecided—disagree—strongly disagree)
+
+        Information about their profile
+
+        The links they create on the social network
+
+        The content they share
+
+        The way they manage who can see what on their profile and their activity
+
+        The recommendations they receive
+
+        If they connect their account to another social network account
+     
+
+Appendix 3: Survey on the content of online social networks—part 3
+General information
+
+Refer to questions 1–3 from “survey on the content of online social networks—part 1”
+Content of online social networks
+
+    1.
+    When I log into a social network, I want to see updates and/or new information about, and/or created by, my friends about: (strongly agree—agree—undecided—disagree—strongly disagree)
+
+        The public figures, the organizations they like, or other OSN users they follow
+
+        The friend requests they accept, or the contacts they add
+
+        The connections they make between OSNs, so that they can sign into a social network using another social network’s account
+
+        The various OSNs on which they share status, photos, etc. simultaneously
+
+        The precise group of users who has access to their profile elements, or their activity
+
+        Precisely which elements on their profile, or which activities are visible to all members of the OSN
+
+        The suggestions they receive about contacts to add on the OSN
+
+        The suggestions they receive about public figures to like or follow
+
+        The suggestions they receive about content they could like
+     
+    2.
+    As a general rule, it is important to me to see information about, and/or created by, my friends about: (strongly agree—agree—undecided—disagree—strongly disagree)
+
+        Information about their profile
+
+        The links they create on the social network
+
+        The content they share
+
+        The way they manage who can see what on their profile and their activity
+
+        The recommendations they receive
+
+        If they connect their account to another social network account
+     
+
+Appendix 4: Survey on the factors influencing the perceived importance of event types
+General information
+
+    You are:
+
+        Female
+
+        Male
+
+Characteristics of the contact
+Your friend X publishes a status:
+
+    If X is a girl, then the status is more important to me
+
+    If X is a boy, then the status is more important to me
+
+    The importance of the status does not depend on the gender of X
+
+Your friend X publishes a status:
+
+    If X is a new member of the social network, then the status is more important to me
+
+    If X has been using the social network for years, then the status is more important to me
+
+    The importance of the status does not depend on the experience of X on the social network
+
+Your friend X publishes a status:
+
+    If X is shares posts a lot, then the status is more important to me
+
+    If X is shares posts rarely, then the status is more important to me
+
+    The importance of the status does not depend on how often X shares posts
+
+Your friend X publishes a status:
+
+    If X is a member of various social networks, then the status is more important to me
+
+    If X is a member of only one social network, then the status is more important to me
+
+    The importance of the status does not depend on the number of social net- works X uses
+
+Your friend X publishes a status:
+
+    The closer friend X is, the more the status is important to me
+
+    The importance of the status does not depend on my relationship with X
+
+A user Y posts a status. This user Y is not one of your friends on the online social network:
+
+    The more friends Y has, the more Y’s status is important to me
+
+    The importance of the status does not depend on the number of users Y is friends with
+
+Characteristics of the content
+Your friend X publishes a status:
+
+    If people are tagged on the status, then the status is more important to me
+
+    The importance of the status does not depend on the presence of tagged people
+
+Your friend X publishes a status and tags people on it:
+
+    If the tagged people are my friends, then the status is more important to me
+
+    The importance of the status does not depend on the tagged people
+
+Your friend X publishes a status and tags people on it:
+
+    The more people are tagged on the status, the more the status is important to me
+
+    The importance of the status does not depend on the number of tagged people
+
+Your friend X publishes a status and tags 10 people on it:
+
+    If I directly have access to the name of the 10 tagged people, then the status is more important to me
+
+    The importance of the status does not depend on the fact that I have direct access to the name of the tagged people
+
+Your friend X publishes a status:
+
+    If the object of the status is about something X and I have in common (the same college, the same sport, the same hobby, etc.), then the status is more important to me
+
+    The importance of the status does not depend on the fact that the object of the status is about something X and I have in common
+
+Your friend X publishes a status:
+
+    The more “Likes” or comments the status has, the more the status is important to me
+
+    The importance of the status does not depend on the number of “Likes” or comments on it
+
+Your friend X publishes a status:
+
+    If the status is highlighted, then the status is more important to me
+
+    The importance of the status does not depend on the fact that it is highlighted
+
+Your friend X publishes a status:
+
+    If emoticons are used, then the status is more important to me
+
+    The importance of the status does not depend on the use of emoticons
+
+Your friend X publishes a status, and you “Like” this status:
+
+    If I receive an alert for each other “Like” on the status, then the status is more important to me
+
+    The importance of the status does not depend on the receiving of alerts
+
+Your friend X “Likes” a status:
+
+    If the “Like” is associated with an icon (for instance, the thumb up on Facebook), then the status is more important to me
+
+    The importance of the “Like” does not depend on the presence of an icon
+
+Your friends publish several posts:
+
+    The first posts appearing on the top of the screen are more important
+
+    The importance of the posts do not depend on the order of their appearance on the newsfeed
+
+Your friend X publishes a photo:
+
+    If the photo is accompanied by a descriptive text, then the photo is more important to me
+
+    The importance of the photo does not depend on the presence of a descriptive text
+
+Your friend X publishes a photo:
+
+    If the photo is accompanied by its localization, then the photo is more important to me
+
+    The importance of the photo does not depend on the presence of its localization
+
+Your friend X publishes a photo album:
+
+    If I can see a preview of the photos, then the album is more important to me
+
+    The importance of the album does not depend on the presence of a preview
+
+References
+
+    Ahn Y-Y, Han S, Kwak H, Moon S, Jeong H (2007) Analysis of topological characteristics of huge online social networking services. In: Proceedings of the 16th international conference on world wide web, pp 835–844 Google Scholar
+    Aiello LM, Barrat A, Cattuto C, Ruffo G, Schifanella R (2010) Link creation and profile alignment in the anobii social network. In: 2010 IEEE second international conference on Social computing (socialcom), pp 249–256 Google Scholar
+    Ajzen I (1991) The theory of planned behavior. Organ Behav Hum Decis Process 50(2):179–211 CrossRef Google Scholar
+    Ajzen I, Fishbein M (1977) Attitude-behavior relations: A theoretical analysis and review of empirical research. Psychol Bull 84(5):888 CrossRef Google Scholar
+    Anthony D, Henderson T, Kotz D (2007) Privacy in location-aware computing environments. IEEE Pervasive Comput 6(4):64–72 CrossRef Google Scholar
+    Banks LD, Wu SF (2010) Toward a behavioral approach to privacy for online social networks. In: Social informatics, pp 19–34. Springer Google Scholar
+    Benevenuto F, Rodrigues T, Cha M, Almeida V (2009). Characterizing user behavior in online social networks. In: Proceedings of the 9th ACM Sigcomm conference on internet measurement conference, pp 49–62 Google Scholar
+    Bhattacherjee A (2001) Understanding information systems continuance: an expectation-confirmation model. MIS Q 25(3):351–370 CrossRef Google Scholar
+    Bouraga S, Jureta I, Faulkner S (2014) Requirements engineering patterns for the modeling of online social networks features. In: 2014 IEEE 4th international workshop on requirements patterns (repa), pp 33–38 Google Scholar
+    Cheung CM, Chiu P-Y, Lee MK (2011) Online social networks: why do students use facebook? Comput Hum Behav 27(4):1337–1343 CrossRef Google Scholar
+    Consolvo S, Smith IE, Matthews T, LaMarca A, Tabert J, Powledge P (2005) Location disclosure to social relations: why, when, & what people want to share. In: Proceedings of the sigchi conference on human factors in computing systems, pp 81–90 Google Scholar
+    Costa P Jr, Terracciano A, McCrae RR (2001) Gender differences in personality traits across cultures: robust and surprising findings. J Pers Soc Psychol 81(2):322 CrossRef Google Scholar
+    Davis FD (1989) Perceived usefulness, perceived ease of use, and user acceptance of information technology. MIS Q 13:319–340 CrossRef Google Scholar
+    Delone WH (2003) The Delone and Mclean model of information systems success: a ten-year update. J Manag Inf Syst 19(4):9–30 Google Scholar
+    DiMicco J, Millen DR, Geyer W, Dugan C, Brownholtz B, Muller M (2008) Motivations for social networking at work. In: Proceedings of the 2008 ACM conference on computer supported cooperative work, pp 711–720 Google Scholar
+    Dwyer C, Hiltz SR, Passerini K (2007) Trust and privacy concern within social networking sites: a comparison of facebook and myspace. In: Amcis, pp 339 Google Scholar
+    Ellison NB et al (2007) Social network sites: definition, history, and scholarship. J Comput Mediat Commun 13(1):210–230 MathSciNet CrossRef Google Scholar
+    Emanuel L, Bevan C, Hodges D (2013) What does your profile really say about you? privacy warning systems and self-disclosure in online social network spaces. In: Chi’13 extended abstracts on human factors in computing systems, pp 799–804 Google Scholar
+    Fuligni AJ, Tseng V, Lam M (1999) Attitudes toward family obligations among american adolescents with asian, Latin American, and European backgrounds. Child Dev 70(4):1030–1044 CrossRef Google Scholar
+    Gangadharbatla H (2008) Facebook me: collective self-esteem, need to belong, and internet self-efficacy as predictors of the igenerations attitudes toward social networking sites. J Interact Advertis 8(2):5–15 CrossRef Google Scholar
+    Gefen D, Straub DW (2000) The relative importance of perceived ease of use in is adoption: a study of e-commerce adoption. J AIS 1:8 Google Scholar
+    Golbeck J (2009) Trust and nuanced profile similarity in online social networks. ACM Trans Web (TWEB) 3(4):12 Google Scholar
+    Goldberg LR (1993) The structure of phenotypic personality traits. Am Psychol 48(1):26 CrossRef Google Scholar
+    Guha S, Tang K, Francis P (2008). Noyb: privacy in online social networks. In: Proceedings of the first workshop on online social networks, pp 49–54 Google Scholar
+    Guo L, Tan E, Chen S, Zhang X, Zhao YE (2009) Analyzing patterns of user content generation in online social networks. In Proceedings of the 15th ACM SIGKDD international conference on knowledge discovery and data mining, pp 369–378 Google Scholar
+    Heer J, Boyd D (2005) Vizster: Visualizing online social networks. In: IEEE symposium on information visualization, 2005. INFOVIS 2005, pp 32–39 Google Scholar
+    Hsu C-L, Lin JC-C (2008) Acceptance of blog usage: the roles of technology acceptance, social influence and knowledge sharing motivation. Inf Manag 45(1): 65–74 Google Scholar
+    Hsu C-L, Lu H-P (2004) Why do people play on-line games? An extended tam with social influences and flow experience. Inf Manag 41(7):853–868 CrossRef Google Scholar
+    Judge TA, Higgins CA, Thoresen CJ, Barrick MR (1999) The big five personality traits, general mental ability, and career success across the life span. Pers Psychol 52(3):621–652 CrossRef Google Scholar
+    Krasnova H, Spiekermann S, Koroleva K, Hildebrand T (2010) Online social networks: why we disclose. J Inf Technol 25(2):109–125 CrossRef Google Scholar
+    Kumar R, Novak J, Tomkins A (2010) Structure and evolution of online social networks. In: Link mining: models, algorithms, and applications, pp 337–357. Springer Google Scholar
+    Kuss DJ, Griffiths MD (2011) Online social networking and addiction: a review of the psychological literature. Int J Environ Res Public Health 8(9):3528–3552 CrossRef Google Scholar
+    Kwak H, Lee C, Park H, Moon S (2010) What is twitter, a social network or a news media? In: Proceedings of the 19th international conference on world wide web, pp 591–600 Google Scholar
+    Lampe CA, Ellison N, Steinfield C (2007) A familiar face (book): profile elements as signals in an online social network. In: Proceedings of the SIGCHI conference on human factors in computing systems, pp 435–444 Google Scholar
+    Li EY (1997) Perceived importance of information system success factors: a meta analysis of group differences. Inf Manag 32(1):15–28 CrossRef Google Scholar
+    Lin K-Y, Lu H-P (2011) Why people use social networking sites: an empirical study integrating network externalities and motivation theory. Comput Hum Behav 27(3):1152–1161 CrossRef Google Scholar
+    Lindqvist J, Cranshaw J, Wiese J, Hong J, Zimmerman J (2011) I’m the mayor of my house: examining why people use foursquare-a social-driven location sharing application. In: Proceedings of the SIGCHI conference on human factors in computing systems, pp 2409–2418 Google Scholar
+    Madejski M, Johnson ML, Bellovin SM (2011) The failure of online social network privacy settings Google Scholar
+    Mashhadi A, Mathur A, Kawsar F (2014) The myth of subtle notifications. In: Proceedings of the 2014 ACM international joint conference on pervasive and ubiquitous computing: adjunct publication, ACM (2014), pp 111–114 Google Scholar
+    Mislove A, Marcon M, Gummadi KP, Druschel P, Bhattacharjee B (2007) Measurement and analysis of online social networks. In: Proceedings of the 7th ACM SIGCOMM conference on internet measurement, pp 29–42 Google Scholar
+    Mislove A, Viswanath B, Gummadi KP, Druschel P (2010) You are who you know: inferring user profiles in online social networks. In: Proceedings of the third ACM international conference on web search and data mining, pp 251–260 Google Scholar
+    Nadkarni A, Hofmann SG (2012) Why do people use facebook? Personal Individ Differ 52(3):243–249 CrossRef Google Scholar
+    Nosko A, Wood E, Molema S (2010) All about me: disclosure in online social networking profiles: the case of facebook. Comput Hum Behav 26(3):406–418 CrossRef Google Scholar
+    Olson JS, Grudin J, Horvitz E (2005) A study of preferences for sharing and privacy. In: Chi’05 extended abstracts on human factors in computing systems, pp 1985–1988 Google Scholar
+    Pempek TA, Yermolayeva YA, Calvert SL (2009) College students’ social networking experiences on facebook. J Appl Dev Psychol 30(3):227–238 CrossRef Google Scholar
+    Pielot M, Church K, de Oliveira R (2014) An in situ study of mobile phone notifications. In: Proceedings of the 16th international conference on human-computer interaction with mobile devices & services. ACM, pp 233–242 Google Scholar
+    Rezaee S, Lavesson N, Johnson H (2012) E-mail prioritization using online social network profile distance. IJCSA 9(1):70–87 Google Scholar
+    Sahami Shirazi A, Henze N, Dingler T, Pielot M, Weber D, Schmidt A (2014) Large-scale assessment of mobile notifications. In: Proceedings of the SIGCHI conference on human factors in computing systems. ACM, pp 3055–3064 Google Scholar
+    Schneider F, Feldmann A, Krishnamurthy B, Willinger W (2009) Understanding online social network usage from a network perspective. In: Proceedings of the 9th ACM SIGCOMM conference on internet measurement conference, pp 35–48 Google Scholar
+    Silfverberg S, Liikkanen LA, Lampinen A (2011) I’ll press play, but i won’t listen: profile work in a music-focused social network service. In: Proceedings of the ACM 2011 conference on computer supported cooperative work, pp 207–216 Google Scholar
+    Singh RR, Tomar DS (2009) Approaches for user profile investigation in orkut social network. arXiv preprint arXiv:0912.1008
+    Strater K, Lipford HR (2008) Strategies and struggles with privacy in an online social networking community. In Proceedings of the 22nd British HCI group annual conference on people and computers: culture, creativity, interaction-volume 1, pp 111–119 Google Scholar
+    Strufe T (2010) Profile popularity in a business-oriented online social network. In: Proceedings of the 3rd workshop on social network systems, pp 2 Google Scholar
+    Sun P-C, Tsai RJ, Finger G, Chen Y-Y, Yeh D (2008) What drives a successful e-learning? An empirical investigation of the critical factors influencing learner satisfaction. Comput Educ 50(4):1183–1202 CrossRef Google Scholar
+    Tan M, Teo TS (2000) Factors influencing the adoption of internet banking. J AIS 1(1es):5 Google Scholar
+    Utz S (2010) Show me your friends and i will tell you what type of person you are: how one’s profile, number of friends, and type of friends influence impression formation on social network sites. J Comput Mediat Commun 15(2):314–335 CrossRef Google Scholar
+    Utz S, Beukeboom CJ (2011) The role of social network sites in romantic relationships: effects on jealousy and relationship happiness. J Comput Mediat Commun 16(4):511–527 CrossRef Google Scholar
+    Venkatesh V, Morris MG (2000) Why don’t men ever stop to ask for directions? Gender, social influence, and their role in technology acceptance and usage behavior. MIS Q 24:115–139 CrossRef Google Scholar
+    Wicker AW (1969) Attitudes versus actions: The relationship of verbal and overt behavioral responses to attitude objects. J Soc Issues 25(4):41–78 CrossRef Google Scholar
+    Xiao L, Dasgupta S (2002) Measurement of user satisfaction with web-based information systems: an empirical study. In: Eighth Americas conference on information systems, pp 1149–1155 Google Scholar
+    Zhong B, Hardin M, Sun T (2011) Less effortful thinking leads to more social networking? The associations between the use of social network sites and personality traits. Comput Hum Behav 27(3):1265–1271 CrossRef Google Scholar
+
+Copyright information
+© Springer-Verlag Wien 2015
+About this article
+CrossMark
+
+Cite this article as:
+    Bouraga, S., Jureta, I. & Faulkner, S. Soc. Netw. Anal. Min. (2015) 5: 51. https://doi.org/10.1007/s13278-015-0293-x
+
+    DOI https://doi.org/10.1007/s13278-015-0293-x
+    Publisher Name Springer Vienna
+    Print ISSN 1869-5450
+    Online ISSN 1869-5469
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+An empirical study of notifications’ importance for online social network users
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    1 Introduction
+    2 Hypotheses development: event types and factors
+    3 What is the relative importance of event types to users?
+    4 Which factors influence users’ perception of importance of event types?
+    5 Discussion: relationship between the results obtained for RQ1 and RQ2
+    6 Limitations
+    7 Future work
+    8 Literature review
+    9 Conclusion
+    Appendix 1: Survey on the content of online social networks: part 1
+    Appendix 2: Survey on the content of online social networks—part 2
+    Appendix 3: Survey on the content of online social networks—part 3
+    Appendix 4: Survey on the factors influencing the perceived importance of event types
+    References
+    Copyright information
+    About this article
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer International Publishing AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 168.181.51.234
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

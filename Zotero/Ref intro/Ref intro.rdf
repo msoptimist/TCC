@@ -1,0 +1,178 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://doi.org/10.1007/s12525-017-0248-3">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1422-8890"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buettner</foaf:surname>
+                        <foaf:givenname>Ricardo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s12525-017-0248-3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>371-385</bib:pages>
+        <dc:date>Novembro 1, 2017</dc:date>
+        <dcterms:abstract>While career-oriented social networking markets (CSNM) such as LinkedIn or XING are increasingly appreciated by a large number of internet users, our understanding of CSNM benefits and factors influencing the intention to use CSNM for a job search is very limited. For theoretical work on CSNM I extend Venkatesh’s et al. UTAUT2 model by presenting a new concept considering a user’s ties based on Granovetter’s social network theory. The evaluation of the extended model, which asks users of CSNM about their job search behavior and their search success, shows a predictive quality increase from 19.0 percent to 80.5 percent. Post hoc analyses reveal a substantial negative relationship between the number of a user’s ties and its job search success, which supports the experience of practitioners but contradicts scholarly findings. A level of about 150 contacts is most effective in terms of getting job offers, which confirms Dunbar’s number. The results are useful for scholars and practitioners.</dcterms:abstract>
+        <dc:title>Getting a job via career-oriented social networking markets</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1422-8890">
+        <prism:volume>27</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Electronic Markets</dc:title>
+        <dc:identifier>ISSN 1422-8890</dc:identifier>
+        <dcterms:alternative>Electronic Markets</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s12525-017-0248-3</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://www.sciencedirect.com/science/article/pii/S0308596115001172">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0308-5961"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Obar</foaf:surname>
+                        <foaf:givenname>Jonathan A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wildman</foaf:surname>
+                        <foaf:givenname>Steve</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/S0308596115001172</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>745-750</bib:pages>
+        <dc:date>Outubro 1, 2015</dc:date>
+        <dc:title>Social media definition and the governance challenge: An introduction to the special issue</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0308-5961">
+        <prism:volume>39</prism:volume>
+        <prism:number>9</prism:number>
+        <dc:title>SPECIAL ISSUE ON THE GOVERNANCE OF SOCIAL MEDIA</dc:title>
+        <dc:identifier>ISSN 0308-5961</dc:identifier>
+        <dcterms:alternative>Telecommunications Policy</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.telpol.2015.07.014</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://www.sciencedirect.com/science/article/pii/S0040162516301196">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0040-1625"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Panagiotopoulos</foaf:surname>
+                        <foaf:givenname>Panos</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barnett</foaf:surname>
+                        <foaf:givenname>Julie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bigdeli</foaf:surname>
+                        <foaf:givenname>Alinaghi Ziaee</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sams</foaf:surname>
+                        <foaf:givenname>Steven</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Crisis and emergency risk communication model</dc:subject>
+        <dc:subject>Emergency management</dc:subject>
+        <dc:subject>Social amplification of risk</dc:subject>
+        <dc:subject>Social media</dc:subject>
+        <dc:subject>Technological impact</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/S0040162516301196</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>86-96</bib:pages>
+        <dc:date>Outubro 1, 2016</dc:date>
+        <dcterms:abstract>One of the main challenges of emergency management lies in communicating risks to the public. On some occasions, risk communicators might seek to increase awareness over emerging risks, while on others the aim might be to avoid escalation of public reactions. Social media accounts offer an opportunity to rapidly distribute critical information and in doing so to mitigate the impact of emergencies by influencing public reactions. This article draws on theories of risk and emergency communication in order to consider the impact of Twitter as a tool for communicating risks to the public. We analyse 10,020 Twitter messages posted by the official accounts of UK local government authorities (councils) in the context of two major emergencies: the heavy snow of December 2010 and the riots of August 2011. Twitter was used in a variety of ways to communicate and manage associated risks including messages to provide official updates, encourage protective behaviour, increase awareness and guide public attention to mitigating actions. We discuss the importance of social media as means of increasing confidence in emergency management institutions.</dcterms:abstract>
+        <dc:title>Social media in emergency management: Twitter as a tool for communicating risks to the public</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0040-1625">
+        <prism:volume>111</prism:volume>
+        <dc:title>Technological Forecasting and Social Change</dc:title>
+        <dc:identifier>ISSN 0040-1625</dc:identifier>
+        <dcterms:alternative>Technological Forecasting and Social Change</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.techfore.2016.06.010</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://www.sciencedirect.com/science/article/pii/S0007681311000243">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0007-6813"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hanna</foaf:surname>
+                        <foaf:givenname>Richard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rohm</foaf:surname>
+                        <foaf:givenname>Andrew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crittenden</foaf:surname>
+                        <foaf:givenname>Victoria L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Social media</dc:subject>
+        <dc:subject>Consumer engagement and interaction</dc:subject>
+        <dc:subject>Marketing communications</dc:subject>
+        <dc:subject>Marketing metrics</dc:subject>
+        <dc:subject>Online ecosystems</dc:subject>
+        <dc:subject>Traditional media</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/S0007681311000243</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>265-273</bib:pages>
+        <dc:date>Maio 1, 2011</dc:date>
+        <dcterms:abstract>Consumers are adopting increasingly active roles in co-creating marketing content with companies and their respective brands. In turn, companies and organizations are looking to online social marketing programs and campaigns in an effort to reach consumers where they ‘live’ online. However, the challenge facing many companies is that although they recognize the need to be active in social media, they do not truly understand how to do it effectively, what performance indicators they should be measuring, and how they should measure them. Further, as companies develop social media strategies, platforms such as YouTube, Facebook, and Twitter are too often treated as stand-alone elements rather than part of an integrated system. This article offers a systematic way of understanding and conceptualizing online social media, as an ecosystem of related elements involving both digital and traditional media. We highlight a best-practice case study of an organization's successful efforts to leverage social media in reaching an important audience of young consumers. Then, we conclude with several insights and lessons related to the strategic integration of social media into a firm's marketing communications strategy.</dcterms:abstract>
+        <dc:title>We’re all connected: The power of the social media ecosystem</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0007-6813">
+        <prism:volume>54</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>SPECIAL ISSUE: SOCIAL MEDIA</dc:title>
+        <dc:identifier>ISSN 0007-6813</dc:identifier>
+        <dcterms:alternative>Business Horizons</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/j.bushor.2011.01.007</dc:identifier>
+    </bib:Journal>
+</rdf:RDF>

@@ -1,0 +1,1311 @@
+
+close
+close
+close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Social Network Analysis and Mining
+Download PDF
+
+Social Network Analysis and Mining
+
+September 2013 , Volume 3, Issue 3 , pp 635–649 | Cite as
+An emotional polarity analysis of consumers’ airline service tweets
+
+    Authors
+    Authors and affiliations
+
+    Mohamed M. Mostafa Email author
+
+    Mohamed M. Mostafa
+        1
+    Email author
+
+    1. Gulf University for Science and Technology Kuwait Kuwait
+
+Original Article
+First Online: 04 April 2013
+Received: 19 December 2012
+Revised: 03 March 2013
+Accepted: 22 March 2013
+
+    1 Shares
+    602 Downloads
+    2 Citations
+
+Abstract
+
+Blogs and social networks have recently become a valuable resource for mining sentiments in fields as diverse as customer relationship management, public opinion tracking and text filtering. In fact, the knowledge obtained from social networks such as Twitter and Facebook has been shown to be extremely valuable to marketing research companies, public opinion organizations and other text mining entities. However, Web texts have been classified as noisy as they still pose considerable problems both at the lexical and the syntactic levels. In this research, we used a random sample of 2,105 tweets for sixteen commercial airlines to evaluate consumers’ sentiment towards airline service provided. We used an expert pre-defined lexicon to conduct the analysis. The lexicon includes around 6,800 seed adjectives with known orientation. Our results indicate a generally negative consumer sentiment towards commercial airline services, which suggests that most airline services are sub-optimal. Using both a qualitative and quantitative methodology to analyze airline service tweets, this study adds breadth and depth to the debate over airline service quality.
+Keywords
+Consumer behavior  Airline services  Emotional polarity analysis  Sentiment analysis  Text mining  Twitter 
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+1 Introduction
+Opinions expressed in social networks play a major role in influencing public opinion’s behavior across areas as diverse as buying products, capturing the “pulse” of stock markets and voting for the president (Bai 2011 ; Eirinaki et al. 2012 ). An opinion may be regarded as a statement in which the opinion holder makes a specific claim about a topic using a certain sentiment (Kim and Hovy 2004 ). Web-generated opinions in blogs and social networks have recently become a valuable resource for mining user sentiments for the purpose of customer relationship management, public opinion tracking and text filtering (Zhang et al. 2009 ). Online opinions have been recently analyzed using emotional polarity analysis (EPA). This is basically a natural language processing (NLP) application that uses computational linguistics and text mining to identify text sentiment, typically as positive, neutral or negative. This technique is also known in the text mining literature as sentiment analysis, opinion mining, review mining, or appraisal extraction (Zagal et al. 2012 ). Thus, EPA can be regarded as an automated knowledge discovery technique that aims to find hidden patterns in a large number of reviews, blogs or tweets. To calculate a sentiment score, the sentiment obtained is then compared to a lexicon or a dictionary to determine the strength of the sentiment. For example, the lexical resource SentiWord, which includes around 200,000 entries, uses a semi-supervised method to assign each word with positive, negative and objective scores. For instance, as Fig.  1 illustrates, the word “bad” might have in one of its senses a sentiment score of negative 0.375, positive 0.125 and objective 0.5.
+Open image in new window
+Fig. 1
+
+Quantifying sentiment scores
+
+In fact, the knowledge obtained from social networks such as Twitter and Facebook has been shown to be extremely valuable to marketing research companies, public opinion organizations and other text mining entities. This is because millions of opinions expressed in a certain topic are highly unlikely to be biased. The affective nature of such opinions makes them easily understandable by the majority of readers, which increasingly make them the basis for making decisions regarding marketing research, business intelligence, stock market prediction and image monitoring (Montoyo et al. Forthcoming). However, almost all online text-based communications ignore the rules of spelling and grammar. In fact, Web texts have been classified as noisy as they still pose considerable problems both at the lexical and the syntactic levels (Boiy and Moens 2009 ). At the lexical level, jargon, contractions of existing words/abbreviations, the use of emoticons and the creation of new words are the norm. At the syntactic level, we can hardly speak of real sentences. This writing style is evident in most forms of computer-mediated communication forums such as social network sites, bulletin boards and chat rooms (e.g., Derks et al. 2008 ). Although language purists might argue that such tendency represents poor language use, Thelwall et al. ( 2010 ) claim that such use is prompted by technological advancements along with social factors. This complicating factor pertaining to informal Web texts’ sentiment detection has been dealt with through several techniques, including word sense disambiguation (Pederson 2001 ), accurate detection of negation (Dave et al. 2003 ), and inferring semantic orientation from association (Turney and Littman 2003 ). Dealing successfully with this problem has led to a plethora of online sentiment analyses in texts written in languages as diverse as English (e.g., Jansen et al. 2009 ), Chinese (e.g., Xu et al. 2008 ), Arabic (Ahmed and Almas 2005 ), and multi-languages (Abbasi et al. 2008 ).
+
+Although several studies have recently investigated EPA (e.g., Leong et al. 2012 ; Cai et al. 2010 ), no previous studies have focused solely on investigating consumers’ sentiments towards airline industry. In this study, we aim to fill this void. We believe that by investigating polarity in airline reviews/tweets, the study adds depth to the knowledge base on text mining. Using both a qualitative and quantitative methodology to analyze airline service online comments, this study also adds breadth to the debate over airline service quality. Finally, by focusing solely on online texts, rather than on traditional offline data, this study enriches the knowledge base of this under-represented area. More specifically, this study aims to answer the following research questions:
+
+RQ1 Can social networks’ opinion mining techniques be used successfully to detect hidden patterns in consumers’ sentiments towards airline services? and
+
+RQ2 Can airlines effectively use the blogosphere to redesign their marketing and advertising campaigns?
+
+This paper is organized as follows. Next section provides a brief literature review on the major areas of EPA/sentiment analysis applications. Sect. 3 deals with the method used to conduct the analysis. In this section, issues related to research design and sampling and data analysis techniques are presented. In Sect. 4 , the results of EPA/sentiment analysis are presented. Finally, Sect. 5 presents research implications and limitations. This section also explores avenues for future research.
+2 Literature review
+
+EPA or sentiment analysis techniques have been recently utilized in applications such as extracting suggestions from consumers’ product reviews (e.g., Vishwanath and Aishwarya 2011 ), classifying consumers’ positive and negative product reviews (e.g., Turney 2002 ), tracking sentiment trends in online discussion boards (e.g., Tong 2001 ), detecting Internet hot spots (e.g., Li and Wu 2010 ), tracking political opinions (e.g., Thomas et al. 2006 ), determining consumers’ dissatisfaction with online advertising campaigns (e.g., Qiu et al. 2010 ), predicting stock market movements (e.g., Wong et al. 2008 ) and differentiating between informative and emotional social media content (e.g., Denecke and Nejdi 2009 ). An extensive literature review suggests that most emotional polarity applications might be classified into four distinct categories: product reviews, movie reviews, political orientation extraction and stock market predictions.
+2.1 Product reviews
+
+Blair-Goldensohn et al. ( 2008 ) used Google Maps data as input to analyze consumer sentiments towards hotels, department stores and restaurants. Using polarity values (positive/negative), the system developed was able to summarize sentiment regarding different aspects of the service provided such as value for money and ambience. In the same vein, Yi et al. ( 2003 ) developed a sentiment analyzer to evaluate consumers’ opinions regarding digital camera features. The system used online text reviews to extract consumers’ sentiments regarding important features of digital cameras such as resolution and picture quality. Liu et al. ( 2007 ) used probabilistic Latent Sentiment Analysis (PLSA) to predict future product sales by examining bloggers’ sentiment. Chen and Qi ( 2011 ) also investigated the impact of user-generated content in social networking environment on online consumers’ decision-making when they search relatively new products.
+
+Feldman et al. ( 2007 ) developed a polarity system to analyze consumers’ comparison comments posted on discussion boards. The system used online information such as “300 C Touring looks so much better than the Magnum” to analyze consumers’ sentiments regarding several product aspects such as style, noise, quality and price. Hu and Liu ( 2004 ) used machine learning methods to extract and summarize consumers’ sentiments related to several electronic products, including mp3 players, digital cameras and mobile/cellular phones. The system developed classified each review into positive or negative opinion and predicted future buying behavior. In a similar study, Miyoshi and Nakagami ( 2007 ) analyzed consumer sentiments regarding electronic products using adjective-noun pairs in a sentence. In a study investigating the impact of review dynamics on utility value of a product, Kannan et al. (Forthcoming) found that consumers’ opinions regarding a specific product can vary greatly based on factors such as the product launch time and competitors’ offers.
+
+In a recent study, Zhang et al. ( 2012 ) developed an expert system, called Weakness Finder, to analyze consumers’ sentiments in Chinese language online texts. The system extracts attitudes towards product features such as quality and price based on a morpheme-based analysis. The system was trained to utilize explicit and implicit sentiments to determine each sentiment’s polarity regarding products’ weaknesses. This study extended previous work by Ding et al. ( 2008 ) and by liu ( 2010 ) because it took into consideration several linguistic aspects such as the adverbs of degree and the negation. Pekar and Ou ( 2008 ) used sentiment analysis technique to evaluate 268 reviews of major hotels based on customers’ reviews posted on the website “epinions.com”. The authors used attributes such as food, room service, facilities and price to automatically analyze sentiments expressed towards those features. Finally, Na et al. ( 2005 ) used support vector machines to classify 1,800 product reviews into either recommended/positive sentiment or not recommended/negative sentiment. The authors used error analysis to improve initially obtained classification accuracy. Major sources of error in classification were due to negation, superficial words and comments on parts of the products.
+2.2 Movie reviews
+
+Na et al. ( 2010 ) used a sample of 520 online movie reviews to conduct sentiment analysis. The authors compared textual characteristics of consumers’ reviews across four different genres to investigate sentiments expressed towards movies such as “Slumdog Millionaire”, “American Gangster” and “Burn after Reading.” Genres analyzed included discussion board threads, user reviews, critic reviews and bloggers’ postings. This study focused on linguistic aspects of comments such as vocabulary, sentence length and part-of-speech distribution. The authors found that comments on discussion boards and user reviews contain more verbs and adverbs compared to the heavy usage of nouns and prepositions found in bloggers and critic postings. The study also identified the most frequent positive and negative terms used across different genres along with the distribution patterns of such terms.
+
+Zhuang et al. ( 2006 ) used machine learning methods to summarize online texts movie reviews sentiments. The authors aim was to find feature opinion pairs in consumers’ reviews by detecting feature classes such as “sound effects” and the stated opinion such as “excellent.” In a similar research design, Pang et al. ( 2002 ) used support vector machines (SVM) to classify online sentiment classification of movie reviews. The authors used both single words (unigrams) and pairs of adjacent words (bigrams) to conduct the analysis. Compared with other machine learning classification methods, the SVM technique achieved the highest accuracy (83 % correct classification). Based on the Page Rank algorithm, Wijaya and Bressan ( 2008 ) used online user reviews to evaluate movies. The authors’ reported results compared favorably with the rankings reported by the box office.
+
+Thet et al. ( 2008a ) used machine learning and information extraction techniques such as pronoun resolution and co-referencing to analyze sentiment orientation of movie review online texts. The authors correctly segmented customers’ reviews into relevant sections pertaining to different aspects of the movie such as the cast, the director and the overall rating. In a second study, Thet et al. ( 2008b ) proposed an automatic method for determining movie reviews’ sentiment orientation and strength. The authors used a computational linguistics approach taking into consideration the grammatical dependency structure of each clause analyzed.
+2.3 Political orientation
+
+Larsson and Moe ( 2011 ) investigated Twitters’ emotional polarity during the 2010 Swedish election using around 100,000 tweets dealing with the election. The authors suggested a novel approach to classify high-end tweets messages among microbloggers into several categories such as senders, receivers and sender-receivers. Similarly, Tumasjan et al. ( 2011 ) investigated 100,000 tweets message referring either to a politician or to a political party in Germany to predict election outcome. Williams and Gulati ( 2008 ) also found that electoral success may be predicted accurately by the total number of Facebook supporters. The authors also found that tweets sentiment analysis can be used to accurately predict election outcome. Cheong and Lee ( 2011 ) investigated Twitter’s role in civilian response during the Jakarta and Mumbai recent terrorist attacks. The authors found that Twitter can be used as both a potential facilitator and a powerful deterrent to terrorism.
+
+In their seminal study on informal political texts, Malouf and Mullen ( 2008 ) argued that EPA is a useful technique that might be used to analyze possible ideological biases, political opinions and political judgments’ favorability. The authors used this technique to investigate political orientation among the users of a specific US web site dedicated to political discussions. This study is important because it is probably the first to investigate sentiment analysis in informal online political discussions—an area that is fast “becoming an important feature of the intellectual landscape of the Internet” (p. 179). Golbeck et al. ( 2010 ) also used sentiment analysis to classify 6,000 political tweets by US Congress’ members. The authors found that the major reason behind tweeting was to disseminate useful information, followed by tweets related to personal daily activities. The authors labeled the latter as a “vehicle for self-promotion” (p. 1620). Similarly, Ekdale et al. ( 2010 ) empirically analyzed political bloggers’ behavior in the US. The authors found that the main reason for blogging was prompted by extrinsic motivations such as influencing public opinion or using the blogosphere as a plausible alternative to traditional media. Ammann ( 2010 ) also investigated the use of Twitter by Senate candidates in the US during the 2010 mid-term elections. The authors found that the usage significantly varies according to the state size, the candidate’s disposable resources and the competitiveness of the congressional race. In a study investigating microblogging participation within political environment, Gil De Zuniga et al. ( 2009 ) found that the major reasons for blogging are basically extrinsic motivations.
+
+Heavy tweets used by Egyptian protesters from January 25 to February 11, 2011, which led ultimately to the forced resignation of ex-dictator Hosni Mubarak were extensively investigated (e.g., Papacharissi and Oliveira 2012 ; Lim 2012 ). These studies found that Twitter was used by protesters as an alternative to the blocked access to the Internet. The continuous stream of events provided by Twitter users was also found to be an accurate predictor of the crisis outcome. Park et al. ( 2011 ) analyzed 2000 comments posted on ten Korean politicians’ visitor boards. The authors started by classifying the comments as positive, negative, or irrelevant. The authors found that positive comments represent the majority of all comments with a 51.3 %. Negative comments represented 20.8 % while irrelevant comments represented 27.9 %. In terms of gender, the authors founded that female comments were associated with more positive comments compared to male users (75.5 vs. 67.3 %). Zappavigna ( 2011 ) used a large corpus of tweets (45,000) posted immediately after Obama’s US presidential elections victory in 2008. Using computational linguistics techniques, the author showed that the hashtag has “extended its meaning potential to operate as a linguistic marker referencing the target of evaluation in a tweet” (p. 788). Other studies investigating political sentiment analysis include studies by Efron ( 2004 ); Thomas et al. ( 2006 ); Park et al. ( 2004 ) and Sobkowicz et al. (Forthcoming).
+2.4 Stock market prediction
+
+Using automated natural language processing and machine learning techniques, Das and Chen ( 2001 ) classified sentiments expressed on Yahoo! Finance’s discussion board. The authors reported 62 % accuracy in classifying posts into positive sentiment, negative sentiment or neutral/irrelevant sentiment. In a similar study, Gu et al. ( 2006 ) used comments posted on Yahoo! Finance’s discussion board to predict different stocks’ future returns. Each post was classified into five possible categories: (2) for “strong buy”; (1) for “buy”; (0) for “hold”; (−1) for “sell”; and (−2) for “strong sell.” In this study, the authors also used a weighting scheme to assign weights for each sentiment obtained based on the reputation and previous accuracy of the poster. Using a simulated environment to mimic real trading, the authors reported around 4 % increase in returns over 1 month based on sentiment analysis.
+
+Bollen et al. ( 2011 ) found that the aggregation of millions of tweets posted daily on Twitter can be used to predict stock market over time. The authors used measures such as daily Twitter posts over around 10 months to predict the Dow Jones Industrial average closing values. To cross-validate the results, the authors also used the resulting time series of Twitter moods to detect the general public’s response towards the outcome of the US presidential campaign. Other studies investigated the relationship between investors’ sentiments and other factors such as stock returns following a major earthquake (Shan and Gong 2012 ), air disasters involving US versus foreign airlines (Kaplanski and Levy 2010 ) and local sports events (Chang et al. 2012 ).
+3 Method
+3.1 Twitter sampling
+Twitter is a microblogging service that was launched formally on July 13, 2006. Unlike other social media, Twitter is considered a microblog because its central activity revolves around posting short updates or tweets using the Web or mobile/cell phones. The maximum size of the blog is 140 characters—roughly the size of a newspaper headline. According to Semiocast, there are now around 500 million active twitters. Figure  2 shows top ranked countries according to active tweets in 2012 (Semiocast.com 2012 ). Tweets are available publicly as a default, and are also directly broadcasted to the user’s followers (Bliss et al. 2012 ).
+Open image in new window
+Fig. 2
+
+Top 20 countries in Twitter accounts as of January 1, 2012 ( source : Semiocast.com)
+A recent analysis of Twitter activities found that more than 80 % of the users either update their followers on what they actually doing or disseminate information regarding their daily experiences (Thelwall et al. 2011 ). Since Twitter is the most large, popular and well-known microblog Web site, it was selected to conduct the analysis reported in this study. The data used represent a random set of Twitter posts from July 5, 2012, to August 4th, 2012. The data comprised 2,105 tweets for sixteen airlines selected randomly from an IATA list representing 100 major commercial airliners. Our sample size is comparable in size to Qiu et al. ( 2010 ) sample, which included 3,783 opinion sentences. Table  1 shows the random sample of tweets for each airline included in the study. Following Thelwall et al. ( 2011 ), only tweets in English was chosen to remove complications that might arise with analyzing multilingual tweets.
+Table 1
+
+Airliners included in the study and their average sentiment scores
+
+ID
+	
+
+Airline name
+	
+
+No. of tweets
+	
+
+Mean sentiment score
+
+1
+	
+
+Qatar Airways
+	
+
+825
+	
+
+0.1778
+
+2
+	
+
+Lufthansa
+	
+
+239
+	
+
+0.2343
+
+3
+	
+
+KLM
+	
+
+222
+	
+
+0.0717
+
+4
+	
+
+Air France
+	
+
+176
+	
+
+0.0909
+
+5
+	
+
+Alaska Air
+	
+
+111
+	
+
+−0.0180
+
+6
+	
+
+Air India
+	
+
+108
+	
+
+−0.0128
+
+7
+	
+
+Jet Airways
+	
+
+63
+	
+
+−0.0769
+
+8
+	
+
+Flybe
+	
+
+58
+	
+
+−0.4828
+
+9
+	
+
+Egypt Air
+	
+
+57
+	
+
+−0.1853
+
+10
+	
+
+Turkish Airlines
+	
+
+55
+	
+
+0.0823
+
+11
+	
+
+British Airways
+	
+
+51
+	
+
+0.3182
+
+12
+	
+
+American Airlines
+	
+
+41
+	
+
+−0.3947
+
+13
+	
+
+Air New Zealand
+	
+
+36
+	
+
+0.1429
+
+14
+	
+
+Alitalia
+	
+
+25
+	
+
+−0.0385
+
+15
+	
+
+Fly Dubai
+	
+
+21
+	
+
+0.0135
+
+16
+	
+
+Kuwait Airways
+	
+
+17
+	
+
+−0.3427
+  	  	
+
+2,105
+	
+
+−0.0263
+Table  2 shows a sample of tweets for Air India with a manual classification of customers’ sentiments. As can be seen from the table, tweets represent a very noisy environment in which messages posted to virtual audience includes abbreviated words, the @ and the hashtag (#) characters, and heteroglossia—referring to other voices in the tweets to convey interpersonal and ideational meanings (Bakhtin 1981 ). Huang et al. ( 2010 ) found that the hashtag was invented by Twitter users early in 2008 to help followers find a specific tweet or post. As opposed to the hashtag, the @ character has been introduced to address a tweet to another follower, which allows Twitter to function effectively as a collaboration and conversation system (Honeycutt and Herring 2009 ).
+Table 2
+
+Sample of tweets for Air India
+
+Tweet
+	
+
+Manual evaluation
+
+[1] “#AirIndia is so fab.\nMaybe I under rated it all these years. Maybe it’s gonna b my fav Indian airline now.\nMaybe my life is about to change”
+	
+
+Positive
+
+[2] “Irrespective of what people say, I still like #AirIndia, far better than snooty staff on most of these so called low cost carriers”
+	
+
+Positive
+
+[3] “Horrible experience with #Airindia—bag misplaced on AI101, no updates for 2 days. Is anyone there? Hello?Anyone with similar experience?”
+	
+
+Negative
+
+[4] “Don’t fly AI then! RT @Terrell_Raupp @ikaveri Air india gives the worst flight experience to its customer http://t.co/NM0abRNc #AirIndia”
+	
+
+Negative
+
+[5] “sat on the tarmac for the last hour. thanks #AirIndia. grow a spine and push back to the babu sitting in air traffic control:-/”
+	
+
+Negative
+
+[6] “#AirIndia is regressing to the babudom days of yore. The #airline does not respect its staff & in turn the staff does not respect customers”
+	
+
+Negative
+
+[7] “RT @vageee: #IndianHockey is like #AirIndia, all we can do is think about its past glory days”
+	
+
+Negative
+
+[8] “It takes half an hour to get a ticket from #airindia counter. They are definitely nt living in jet age”
+	
+
+Negative
+
+[9] “Flew #AirIndia after a while. Took off and landed on time, good in-flight service, bags were on the carousel in 5 min. Impressed!”
+	
+
+Positive
+
+[10] “#AirIndia Express Flight Schedule Changes Effective Wednesday http://t.co/Z7JbwsZD ”
+	
+
+Neutral
+
+[11] “@JourneyMart #Travel #AirIndia 4 days, 3 flights, all on AI, all ON TIME. Superb service although no tender touches ! Gr8 seat pitch. WOW”
+	
+
+Positive
+
+[12] “#AirIndia busses are not so fab. \nMaybe I’m being annoying now. Maybe”
+	
+
+Negative
+
+[13] “@rhc259 have an awesome flight with #airindia chicks… :p”
+	
+
+Positive
+
+[14] “#AirIndia flying on a wing and a prayer :)\ntooo gud.\n http://t.co/ZMAPbTyM ”
+	
+
+Negative
+
+[15] “Actual #AirIndia cockpit announcement—In the unlikely event of unexpected air turbulence which we are expecting, please keep seat belt on”
+	
+
+Negative
+
+[16] “#AirIndia STAFF PENALISED FOR ASKING STUDENT FOR BRIBE http://t.co/ww19wApF ”
+	
+
+Neutral
+
+[17] “@flyinsider. Did’nt I tell U to throw out all the specimens in #airindia and keep only the working ones”
+	
+
+Negative
+
+[18] “# AirIndia Thanks @ AirIndia for your fast customer support! Turns out it was a misunderstanding on my part! My fault but you helped me, thanks!”
+	
+
+Positive
+
+[19] “You misplace my Item and do not Take responsibility # AirIndia #SHAME”
+	
+
+Negative
+
+[20] “# AirIndia Woke up to an overdraft on my account. @ AirIndia billed me TWICE! @ AirIndia wont answer the phone and website doesnt work. Not amused”
+	
+
+Negative
+3.2 Lexicon
+
+Categorizing words for sentiment analysis is a major step in applying the technique. Broadly speaking, there are two widely used methods for sentiment orientation identification: the lexicon-based approach and the corpus-based method (Miao et al. 2010 ). Since corpus-based approaches require generally a large data to guarantee good performance. Another limitation is that such approaches find it difficult to deal with ambiguous terms (Missen et al. Forthcoming). In fact, since the corpus-based method has rarely been used to analyze sentiment orientation, we will focus here on the lexicon-based method. Both methods require a pre-defined dictionary or corpus of subjective words. The sentiment is determined by comparing tweets against the expert-defined entry in the dictionary, which makes it easy to determine the polarity of a specific sentence. Thus, it is crucial to have an accurate classifier to be used to construct indicators of sentiment. Previous research has typically incorporated lexicons such as the manually coded General Inquirer (Stone et al. 1966 ), which includes over 11,000 hand-coded word stems in 182 categories, the LIWC dictionary (Pennebaker et al. 2003 ), the SentiWordNet (Baccianella et al. 2010 ), the Q-WordNet (Agerri and Garcia-Serrano 2010 ) or the lexicon of subjectivity clues (Wiebe et al. 2004 ). Automatically-coded lexicons have recently been developed, including the sentiment-based lexicon (Taboada et al. 2011 ).
+
+In this study, we used the Hu and Liu ( 2004 ) lexicon to conduct the analysis because this dictionary has been used successfully in a similar application (Miner et al. 2012 ). This lexicon includes around 6,800 seed adjectives with known orientation (2,006 positive words and 4,783 negative words). The lexicon has recently been updated by adding words based on a thorough search in the WordNet. The lexicon size is similar to the recently used Opinion Finder lexicon, which included 2,718 positive words and 4,912 negative words (Bollen et al. 2011 ). Our lexicon is also comparable to the dictionary used by Hu et al. ( 2012 ), which includes 1,635 positive words and 2,005 negative words. Modifications on this approach include the handling of negation (Das and Chen 2001 ) and the weight of enhancer/intensifier words such as the use of the “really” or “absolutely” (Turney 2002 ).
+4 Results
+4.1 Exploratory data analysis and visualizations
+To conduct the qualitative part of this study, we used QDA Miner 4.0 software package (Provalis Research 2011 ) for coding textual data posted on Twitter. This software was selected because of its extensive exploratory tools that can be used to identify hidden patterns in textual data. In order to analyze the sentiment of airline services, we started by generating relative frequency word counts. Table  3 shows the percentage of words in a random set of tweets.
+Table 3
+
+Word frequencies of a sample of tweets after removing stopping and unique words
+  	
+
+Freq
+	
+
+% Shown
+	
+
+% Processed
+	
+
+% Total
+
+GLOBAL
+	
+
+41
+	
+
+4.90
+	
+
+0.80
+	
+
+0.60
+
+CENTER
+	
+
+38
+	
+
+4.50
+	
+
+0.80
+	
+
+0.50
+
+DEVELOPMENT
+	
+
+37
+	
+
+4.40
+	
+
+0.70
+	
+
+0.50
+
+FLIGHT
+	
+
+35
+	
+
+4.20
+	
+
+0.70
+	
+
+0.50
+
+EGYPT
+	
+
+34
+	
+
+4.10
+	
+
+0.70
+	
+
+0.50
+
+FELLOW
+	
+
+28
+	
+
+3.30
+	
+
+0.60
+	
+
+0.40
+
+FLIGHTS
+	
+
+27
+	
+
+3.20
+	
+
+0.50
+	
+
+0.40
+
+PRICE
+	
+
+21
+	
+
+2.50
+	
+
+0.40
+	
+
+0.30
+
+QATAR
+	
+
+20
+	
+
+2.40
+	
+
+0.40
+	
+
+0.30
+
+AIRLINES
+	
+
+19
+	
+
+2.30
+	
+
+0.40
+	
+
+0.30
+
+DAY
+	
+
+19
+	
+
+2.30
+	
+
+0.40
+	
+
+0.30
+
+BOARD
+	
+
+18
+	
+
+2.20
+	
+
+0.40
+	
+
+0.20
+
+BOOK
+	
+
+18
+	
+
+2.20
+	
+
+0.40
+	
+
+0.20
+
+BUILDING
+	
+
+18
+	
+
+2.20
+	
+
+0.40
+	
+
+0.20
+
+HOUSE
+	
+
+18
+	
+
+2.20
+	
+
+0.40
+	
+
+0.20
+
+SYRIA
+	
+
+18
+	
+
+2.20
+	
+
+0.40
+	
+
+0.20
+
+DOUBLED
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+FIGHTING
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+FLEE
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+FRIENDS
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+HALL
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+MONOPOLY
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+RESIDENT
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+TICKETS
+	
+
+17
+	
+
+2.00
+	
+
+0.30
+	
+
+0.20
+
+AVIATION
+	
+
+15
+	
+
+1.80
+	
+
+0.30
+	
+
+0.20
+
+DOHA
+	
+
+15
+	
+
+1.80
+	
+
+0.30
+	
+
+0.20
+
+DUBAI
+	
+
+15
+	
+
+1.80
+	
+
+0.30
+	
+
+0.20
+
+FLYEGYPTAIR
+	
+
+15
+	
+
+1.80
+	
+
+0.30
+	
+
+0.20
+
+CGD
+	
+
+14
+	
+
+1.70
+	
+
+0.30
+	
+
+0.20
+
+INDIA
+	
+
+14
+	
+
+1.70
+	
+
+0.30
+	
+
+0.20
+
+TURKISH
+	
+
+14
+	
+
+1.70
+	
+
+0.30
+	
+
+0.20
+
+AIRLINE
+	
+
+12
+	
+
+1.40
+	
+
+0.20
+	
+
+0.20
+
+BA
+	
+
+12
+	
+
+1.40
+	
+
+0.20
+	
+
+0.20
+
+DREAMLINER
+	
+
+12
+	
+
+1.40
+	
+
+0.20
+	
+
+0.20
+
+FLYING
+	
+
+12
+	
+
+1.40
+	
+
+0.20
+	
+
+0.20
+
+TIME
+	
+
+12
+	
+
+1.40
+	
+
+0.20
+	
+
+0.20
+
+VISITING
+	
+
+12
+	
+
+1.40
+	
+
+0.20
+	
+
+0.20
+
+BEEF
+	
+
+11
+	
+
+1.30
+	
+
+0.20
+	
+
+0.10
+
+CHICKEN
+	
+
+11
+	
+
+1.30
+	
+
+0.20
+	
+
+0.10
+
+MUSCAT
+	
+
+11
+	
+
+1.30
+	
+
+0.20
+	
+
+0.10
+
+QUESTION
+	
+
+11
+	
+
+1.30
+	
+
+0.20
+	
+
+0.10
+
+REPRESENTS
+	
+
+11
+	
+
+1.30
+	
+
+0.20
+	
+
+0.10
+
+SICK
+	
+
+11
+	
+
+1.30
+	
+
+0.20
+	
+
+0.10
+
+AIRPORT
+	
+
+10
+	
+
+1.20
+	
+
+0.20
+	
+
+0.10
+
+FLY
+	
+
+10
+	
+
+1.20
+	
+
+0.20
+	
+
+0.10
+
+SERVICE
+	
+
+10
+	
+
+1.20
+	
+
+0.20
+	
+
+0.10
+From Table  3 , we can see that words such as “global”, “flight” and “price” have the highest frequency. However, references were also made in the tweets to countries such as Syria, probably because of the ongoing uprising in that country. Analyzing frequency of appearance or simply the incremental count of appearance of particular words or phrases might provide insights into a particular topic. In fact, O’Leary ( 2011 ) argues that despite the simplicity of such approach, it can be used to predict characteristics of the topic analyzed. Figure  3 shows a proximity plot constructed based on Egypt Air tweets. This figure shows visually, on a single axis, the distance from a particular object to all other objects. This graph was constructed to extract huge amount of data based on a distance matrix. From this graph, we see that most tweets were concerned with things like “price”, “tickets” and “monopoly.” However, Tweeters seem to be also concerned with fighting in neighboring Syria.
+Open image in new window
+Fig. 3
+
+Proximity plot based on Egypt Air tweets
+Figure  4 shows a 3-D concept map constructed based on all tweet cases using multidimensional scaling (MDS) technique. In this graph, the closer the cases, the higher the tendency of co-occurrence and vice versa. The lines on the map represent levels of association among words. From the graph, we can reconstruct the most influential tweets. For example, for Egypt Air, we can see the following pattern: closeness to home as represented by words such as “Egypt”, “Dubai” and “Resident”, personification as represented by names of people tweeting, and relevance and significance as represented by words such as “Dreamliner”, “Service”, and “Flight.” This result is in line with a recent study using centering resonance analysis, a computational discourse analysis technique, on a random sample of 9,000 Egyptian tweets (Papacharissi and Oliveira 2012 ).
+Open image in new window
+Fig. 4
+
+A 3-D map with link strengths and base lines shown
+4.2 Overall sentiment scores
+We used the twitteR, the plyr, stringr and the ggplot2 libraries in the R software package version 3.0 to conduct the quantitative sentiment score. Figure  5 shows the distribution of sentiment scores obtained for Air India, Lufthansa, Air Alaska and Qatar Airways (similar graphs were constructed for remaining airlines). From the graph, we immediately recognize some asymmetry. For example, the bars at +1 are much larger for Lufthansa compared to the +1 bars for Air India. It is also evident that the bars at −1 are much larger for Air India compared to the −1 bars for Lufthansa. This makes it clear that the overall sentiment score for Lufthansa is generally better than the sentiment score for Air India.
+Open image in new window
+Fig. 5
+
+Sentiment scores (clockwise) for Air India, Lufthansa, Qatar Airways and Air Alaska. X -axis represents the score distribution, Y -axis represents count/frequency
+The visualization of the sentiment distribution in Fig.  5 further underlines the fact that most tweets fall either on the neutral point (0) or within the band of circa −1/+1, which is an indication that tweets in general are not very affective. Although this result is in line with Lindgren ( 2012 ), we can focus only on positive or negative sentiments. Following Miner et al. ( 2012 ), we ignored the middle and constructed sentiment scores for a random sample of only positive and negative sentiments. Figure  6 shows only the results for three airlines. From Fig.  6 , we clearly see that most tweet comments were negative for both Egypt Air and Kuwait Airways. However, most of the tweets were positive for Fly Dubai.
+Open image in new window
+Fig. 6
+
+Sentiment analysis for a random tweets sample—after eliminating neutral tweets—for Egypt Air ( top ), Kuwait Airways ( middle ) and Fly Dubai ( bottom )
+Finally, we used the StreamGraph software package (Clark 2008 ) to visualize the trend of tweets across a period of time for all airlines. Figure  7 shows tweets trend for three airlines: Egypt Air, British Airways and Qatar Airways. This graph is useful since it represents multiple time series data stacked one on top of the other (Havre et al. 2002 ). Since the total frequency of all features represents the height of the curve, each time series data should be read off the figure not as the cumulative height but rather as starting with zero. As can be seen the graph is characterized by a number of spikes, indicating an increase in tweets’ frequency at those particular times. Interestingly, we see spikes on the top part of the figure representing Egypt Air that corresponds to an attack on a military post in Sinai and another spike following president’s Morsi decision to shake-up the military establishment following the attack.
+Open image in new window
+Fig. 7
+
+Twitter stream graph (1,000 tweets each) for Egypt Air ( top ), British Airways ( middle ) and Qatar Airways ( bottom )
+5 Implications, limitations and future research
+
+In this study, we analyzed sentiment polarity of more than 2,000 social media tweets expressing attitudes towards sixteen commercial airlines. Social media users represent 67 % of around a billion Internet active users (Eirinaki et al. 2012 ). Although a single tweet is limited to 140 characters in length, the millions of tweets posted on Twitter almost on a daily basis might provide an unbiased representation of consumers’ sentiment towards services and brands. Capturing consumers’ opinions and gaining knowledge about consumer preferences has long been a major concern for marketing researchers. However, traditional marketing methods such as focus groups and face-to-face interviewing are both costly and time consuming. In contrast, tweets and blogs are readily available for free. Such consumer generated media are also free of bias that might be introduced by the interviewer in case of personal interviews. Moreover, consumers opinion-based expressed qualitatively may easily be benchmarked against objective measures such as sales data, revenues, or stock price. In fact, recent studies have found that memory for social networks’ posts are strikingly stronger than memory for human faces or sentences from books (e.g., Mikes et al. Forthcoming). Thus, companies can utilize such online textual content in an effort to gain insight into consumers’ opinions regarding available products and services. Ignoring consumer generated sentiments might put companies in a competitive disadvantage and could also create significant brand image problems. The speed of social media might also render companies’ advertising and publicity using traditional media useless.
+
+Based on the fact that around 20 % of microblogs mention a brand name (Jansen et al. 2009 ), we argue that managing brand perception on Twitter and other social media should form part of the company’s overall proactive marketing strategy. Maintaining a constant presence on such media channels should also be an important part of the company’s branding and advertising campaigns. Companies can use the blogosphere in a smart way to disseminate information needed by its customers and to monitor Twitters and bloggers’ discussions regarding its brand. By doing this, companies can track tweets and intervene immediately to communicate with dissatisfied customers. On the other hand, advertising campaigns might make use of positive tweets, which can form a part of the company’s viral marketing efforts. Thus, companies may use consumers’ tweets as a feedback about services and products by encouraging electronic word of mouth (e-WOM). This can be done online without investing huge amounts on traditional advertising and marketing campaigns. On the other hand, companies should not ignore negative tweets because such tweets might be used to detect what is not going right with a product or a service. Ultimately, tweets can be used effectively to identify consumers’ preferences, to detect dissatisfaction related to a product defect, and to correct unintended errors. Since tweets can enable companies to be more efficient and functional in dealing with customers, they should incorporate sentiment analysis into their text retrieval technologies and into their search engines. This is because sentiment analysis can be extremely useful in areas such as analyzing consumer trends, handling customers’ feedback and targeting advertising campaigns.
+
+One of the most important implications of this study is that consumer sentiment measures facilitate the publication of ‘league tables’ or rankings of entire airliners based on their customers’ sentiments. In fact, eight airliners in our sample had negative overall sentiment scores (Alaska Air, Air India, Jet Airways, Flybe, Egypt Air, American Airlines, Kuwait Airways and Alitalia). In fact, some authors believe that such rankings nurture public interests in the performance of companies, promote accountability and stimulate a search for improvement (Hibbard et al. 2003 ). Finally, it is hoped that managers of airliners with negative sentiments have the possibility to analyze organizational practices of the peer groups and that they are able to improve their future efficiency by adapting these practices for their companies. Thus, systematic benchmarking through sentiment analyses can be regarded as one method managers and marketers can use to ensure the efficiency of their companies. In contrast with piecemeal examination of single performance indicators, global efficiency techniques such as sentiment analysis used in this study can offer company managers a rounded assessment of their companies’ performance. Unlike targets that are based on individual performance measures, sentiment analyses measures can offer local managers the freedom to set their own priorities and to seek out improvements along dimensions of performance where they believe that gains are most readily secured. Sentiment analyses results can also be used by airliners’ managers to support other objectives, such as allocating finance or identifying the priorities for inspection and improvement of performance.
+
+However, it should be noted that while we conducted sentiment analysis to objectively classify consumers’ opinions, our analysis does not reveal the underlying reason behind forming such opinions. Future research using sentiment topic recognition (STR) should be conducted to determine the most representative topics discussed behind each sentiment. Through this analysis, it should be possible to gain overall knowledge regarding the underlying causes of positive or negative sentiments. It should also be noted that while the lexicon-based approach used in this study can detect basic sentiments, such approach may sometimes fall short of recognizing the subtle forms of linguistic expression used in situations such as sarcasm, irony or provocation. For instance, Boiy and Moens ( 2009 ) provide an excellent example by showing that the part of the sentence that follows “même si/even if” in a French sentence expresses the least affective feeling [“même si le film a eu beaucoup de success, je le trouvais vraiment nul!”/even though the movie had a lot of success, I really found it nothing!]. Future research should attempt to find a way to deal with this problem. A huge corpus that includes large training data sets representing such idiomatic usage may be worth trying. Finally, opinions expressed by consumers might in fact be a manipulation of online vendors’ opinions posing as real consumers. This manipulation might distort sentiments of real consumers. Future research should also attempt to detect genuine sentiments from opinions that merely reflect the position of vendors interested in selling more products or services.
+
+Despite these limitations, we believe that this study contributes to the existing literature in text mining and consumer behavior. First, we used a number of well-known airlines, which ensures that our findings are practical, influential and generalizable. Second, we approached our analysis using the most widely used microblogging site Twitter by employing a mixed methods approach based on both qualitative and quantitative methods. This ensures our results robustness. Finally, by focusing only on consumer tweets, we contribute to the growing body of literature on e-WOM (e.g., Jansen et al. 2009 ). Therefore, we believe that our research is timely and worthwhile.
+References
+
+    Abbasi H, Chen H, Salem A (2008) Sentiment analysis in multiple languages: feature selection for opinion classification in Web forums. ACM Trans Inform Syst 26:1–34 Google Scholar
+    Agerri R, Garcia-Serrano A (2010) Q-WordNet: extracting polarity from WordNet senses. Paper Presented at the 7th Conference on International Language Resources and Evaluation. Malta ( www.irec-conf.org )
+    Ahmed K, Almas Y (2005) Visualising sentiments in financial texts? In: Proceedings of the 9th international Conference on information visualization, pp 363–368 Google Scholar
+    Ammann S (2010) A political campaign message in 140 characters or less: the use of Twitter by US Senate candidates in 2010. http://aladinrc.wrlc.org
+    Baccianella S, Esuli A, Sebastiani F (2010) SentiWordNet 3.0: an enhanced lexical resource for sentiment analysis and opinion mining. In: Proceedings of the 7th conference on International language resources and evaluation ( www.irec-conf.org )
+    Bai X (2011) Predicting consumer sentiments from online text. Decis Support Syst 50:732–742 CrossRef Google Scholar
+    Bakhtin M (1981) The dialogic imagination. University of Texas Press, Austin Google Scholar
+    Blair-Goldensohn S, Hannan K, McDonald R, Neylon T, Reis G, Reynar J (2008) Building a sentiment summarizer for local service reviews. Paper presented at the WWW 2008 Workshop on NLP Challenges in the Information Explosion Era (NLPIX 2008), Beijing, April, 22 Google Scholar
+    Bliss C, Klouman I, Harris K, Danforth C, Dodds P (2012) Twitter reciprocal networks exhibit assortativity with respect to happiness. J Comput Sci 3:388–397 CrossRef Google Scholar
+    Boiy E, Moens M (2009) A machine learning approach to sentiment analysis in multilingual Web texts. Inf Retrieval 12:526–558 CrossRef Google Scholar
+    Bollen J, Mao H, Zeng X (2011) Twitter mood predicts the stock market. J Comput Sci 2:1–8 CrossRef Google Scholar
+    Cai K, Spangler S, Chen Y, Zhang L (2010) Leveraging sentiment analysis fro topic detection. Web Intell Agent Syst 8:291–302 Google Scholar
+    Chang S, Chen S, Chou R, Lin Y (2012) Local sports sentiment and returns of locally headquartered stocks: a firm-level analysis. J Emp Finance 19:309–318 CrossRef Google Scholar
+    Chen L, Qi L (2011) Social opinion mining for supporting buyers’ complex decision making: exploratory user study and algorithm comparison. Soc Netw Anal Min 1:301–320 CrossRef Google Scholar
+    Cheong M, Lee V (2011) A microblogging-based approach to terrorism informatics: exploration and chronicling civilian sentiment and response to terrorism events via Twitter. Inform Syst Frontiers 13:45–59 CrossRef Google Scholar
+    Clark J (2008) Twitter topic stream ( www.neoformix.com )
+    Das S, Chen M (2001) Yahoo! for Amazon: sentiment parsing from small talk on the com. European Finance Assoc Meet, Barcelona Google Scholar
+    Dave K, Lawrence S, Pennock D (2003) Mining the peanut gallery: opinion extraction and semantic classification of product reviews. In: Proceedings of the 12th International conference on the World Wide Web (WWW-03), ACM Press, New York, pp 519–528 Google Scholar
+    Denecke K, Nejdi W (2009) How valuable is medical social media data? Content analysis of the medical web. Inf Sci 179:1870–1880 CrossRef Google Scholar
+    Derks D, Fischer A, Bos A (2008) The role of emotion in computer-mediated communication: a review. Comput Hum Behav 24:766–785 CrossRef Google Scholar
+    Ding X, Liu B, Yu P (2008) A holistic lexicon-based approach to opinion mining. In: Proceedings of the international conference on web search and web data mining. CAN, pp 231–240 Google Scholar
+    Efron M (2004) Cultural orientation: classifying subjective documents by co-citation analysis. AAAI Fall Symposium on Style and Meaning in Language, Art, and Music Google Scholar
+    Eirinaki M, Pisal S, Singh J (2012) Feature-based opinion mining and ranking. J Comput Syst Sci 78:1175–1184 MathSciNet CrossRef Google Scholar
+    Ekdale B, Namkoong K, Perlmutter D (2010) Why blog? (then and now): exploring the motivation for blogging by popular American political bloggers. New Media Society 12:217–234 CrossRef Google Scholar
+    Feldman R, Fresko M, Netzer P, Ungar L (2007) Extracting product comparisons from discussion boards. In: Proceedings of the 7th IEEE international conference on data mining (ICDM’ 2007). Los Alamitos, CA, pp 469–474 Google Scholar
+    Gil De Zuniga H, Puig-I-Abril E, Rojas H (2009) Weblogs, traditional sources online and political participation: an assessment of how the internet is changing the political environment. New Media Society 11:553–574 CrossRef Google Scholar
+    Golbeck J, Grimes J, Rogers A (2010) Twitter use by the US Congress. J Am Soc Inform Sci Technol 61:1612–1621 Google Scholar
+    Gu B, Konana P, Liu A, Rajagopalan B, Ghosh J (2006) Predictive value of stock message board sentiments. McCombs Research Paper Series No. IROM-11-06 Google Scholar
+    Havre S, Hetzler E, Whitney P, Nowell L (2002) ThemeRiver: visualizing thematic changes in large document collections. IEEE Trans Visual Comput Graphics 8:9–20 CrossRef Google Scholar
+    Hibbard J, Stockard J, Tusler M (2003) Does publicizing hospital performance stimulate quality improvement efforts? Health Aff 22:84–94 CrossRef Google Scholar
+    Honeycutt C, Herring S (2009) Beyond microblogging: conversation and collaboration via Twitter. In: Proceedings of the 42nd Hawaii International conference on system sciences (HICSS 09), pp 1–10 Google Scholar
+    Hu M, Liu B (2004) Mining and summarizing customer reviews. In: Proceedings of the 10th international conference on knowledge discovery and data mining (ACM SIGKDD 2004), pp 168–177 Google Scholar
+    Hu N, Bose I, Koh N, Liu L (2012) Manipulation of online reviews: an analysis of ratings, readability, and sentiments. Decis Support Syst 52:674–684 CrossRef Google Scholar
+    Huang J, Thornton K, Efthimiadis E (2010) Conversational tagging in Twitter. In: Proceedings of the 21st ACM conference on Hypertext and Hypermedia, ACM Press, New York, pp 173–178 Google Scholar
+    Jansen B, Zhang M, Sobel K, Chowdury A (2009) Twitter power: tweets as electronic word of mouth. J Am Soc Inform Sci Technol 60:2169–2188 CrossRef Google Scholar
+    Kannan K, Goyal M, Jacob G (Forthcoming) Modeling the impact of review dynamics on utility value of a product. Social Network Analysis and Mining Google Scholar
+    Kaplanski G, Levy H (2010) Sentiment and stock prices: the case of disasters. J Financ Econ 95:174–201 CrossRef Google Scholar
+    Kim S, Hovy E (2004) Determining the sentiment of opinions. In: Proceedings of the international conference on computational Linguistics (COLING 2004), East Stroudsburg, PA, p 1367 Google Scholar
+    Larsson A, Moe H (2011) Studying political microblogging: twitter users in the 2010 Swedish election campaign. New Media and Society 14:727–747 Google Scholar
+    Leong C, Lee Y, Mak W (2012) Mining sentiments in SMS texts for teaching evaluation. Expert Syst Appl 39:2584–2589 CrossRef Google Scholar
+    Li N, Wu D (2010) Using text mining and sentiment analysis for online forums hotspot detection and forecast. Decis Support Syst 48:354–368 CrossRef Google Scholar
+    Lim M (2012) Clicks, cabs, and coffee houses: social media and oppositional movements in Egypt, 2004–2011. J Commun 62:231–248 CrossRef Google Scholar
+    Lindgren S (2012) “It took me about half an hour, but I did it!” Media circuits and affinity spaces around how-to videos on YouTube. European J Commun 27:152–170 CrossRef Google Scholar
+    Liu B (2010) Sentiment analysis and subjectivity. Handbook of Natural Language Processing Google Scholar
+    Liu Y, Huang X, An A, Yu X (2007) ARSA: a sentiment-aware model for predicting sales performance using blogs. In: Proceedings of the 30th annual international ACM SIGIR conference on research and development in information retrieval, New York, NY, pp 607–614 Google Scholar
+    Malouf R, Mullen T (2008) Taking sides: user classification for informal online political discourse. Internet Res 18:177–190 CrossRef Google Scholar
+    Miao Q, Li Q, Zeng D (2010) Fine-grained opinion mining by integrating multiple review sources. J Am Soc Inform Sci Technol 61:2288–2299 CrossRef Google Scholar
+    Mikes L, Darby R, Hwe V, Bajic D, Warker J, Harris C, Christenfeld N (Forthcoming) Major memory for microblogs. Memory and Cognition Google Scholar
+    Miner G, Delen D, Elder J, Fast A, Hill T, Nisbet B (2012) Practical text mining and statistical analysis for non-structured text data applications. Academic Press, Amsterdam Google Scholar
+    Missen M, Boughanem M, Cabanac G (Forthcoming) Opinion mining: reviewed from word to document level. Social Network Analysis and Mining Google Scholar
+    Miyoshi T, Nakagami Y (2007) Sentiment classification of customer reviews on electronic products. In: Proceedings of the international conference on systems, man and cybernetics, pp 2028–2033 Google Scholar
+    Montoyo A, Martiniz-Barco P, Balahur A (Forthcoming) Subjectivity and sentiment analysis: an overview of the current state of the area and envisaged developments. Decision Support Systems Google Scholar
+    Na J, Khoo C, Wu P (2005) Use of negation phrases in automatic sentiment classification of product reviews. Libr Collect Acquis Tech Serv 29:180–191 CrossRef Google Scholar
+    Na J, Thet T, Khoo C (2010) Comparing sentiment expression in movie reviews from four online genres. Online Inform Rev 34:317–338 CrossRef Google Scholar
+    O’Leary D (2011) Blog mining-review and extensions: “from each according to his opinion”. Decis Support Syst 51:821–830 CrossRef Google Scholar
+    Pang B, Lee L, Vaithyanathan S (2002) Thups up? Sentiment classification using machine learning techniques. In: Proceedings of the 2002 conference on engineering methods in natural language processing. Morristown, NJ, pp 79–86 Google Scholar
+    Papacharissi Z, Oliveira M (2012) Affective news and networked publics: the rhythms of news storytelling on #Egypt. J Commun 62:266–282 CrossRef Google Scholar
+    Park H, Kim C, Barnett G (2004) Socio-communicational structure among political actors on the Web. New Media and Society 6:403–423 CrossRef Google Scholar
+    Park S, Lim Y, Sams S, Nam S, Park H (2011) Networked politics on cyworld: the text and sentiment of Korean political profiles. Social Sci Comput Rev 29:288–299 CrossRef Google Scholar
+    Pederson T (2001) A decision tree of bigrams is an accurate predictor of word sense. In: Proceedings of the Second Annual Meeting of the North American Chapter of the Association for Computational Linguistics, pp 79–86 Google Scholar
+    Pekar V, Ou S (2008) Discovery of subjective evaluations of product features in hotel reviews. J Vacat Mark 14:145–155 CrossRef Google Scholar
+    Pennebaker J, Mehl M, Niederhoffer K (2003) Psychological aspects of natural language use: our words, our selves. Ann Rev Psychol 54:547–577 CrossRef Google Scholar
+    Provalis Research (2011) QDA Miner version 4.0 User Manual. Montreal, QC, Canada Google Scholar
+    Qiu G, He X, Zhang F, Shi Y, Bu J, Chen C (2010) DASA: dissatisfaction-oriented advertising based on sentiment analysis. Expert Syst Appl 37:6182–6191 CrossRef Google Scholar
+    Semiocast.com (2012) Geolocation analysis of Twitter accounts (accessed on August 5, 2012) Google Scholar
+    Shan L, Gong S (2012) Investor sentiment and stock returns: wenchuan earthquake. Finance Res Lett 9:36–47 CrossRef Google Scholar
+    Sobkowicz P, Kaschesky M, Bouchard G (Forthcoming) Opinion mining in social media: modeling, simulation, and forecasting political opinions in the web. Government Information Quarterly Google Scholar
+    Stone P, Dunphy D, Smith M, Ogilvie D (1966) The general inquirer: a computer approach to content analysis. The MIT Press, Cambridge Google Scholar
+    Taboada M, Brooke J, Tofiloski M, Voll K, Stede M (2011) Lexicon-based methods for sentiment analysis. Computational Linguistics 37:267–307 CrossRef Google Scholar
+    Thelwall M, Buckley K, Paltoglou G, Cai D, Kappas A (2010) Sentiment strength detection in short informal text. J Am Soc Inform Sci Technol 61:2544–2558 CrossRef Google Scholar
+    Thelwall M, Buckley K, Paltoglou G (2011) Sentiment in Twitter events. J Am Soc Inform Sci Technol 62:406–418 CrossRef Google Scholar
+    Thet T, Na J, Khoo C (2008a) Sentiment classification of movie reviews using multiple perspectives. In: Proceedings of the International Conference on Asian Digital Libraries (ICADL). Springer Verlag, Berlin, pp 184–193 Google Scholar
+    Thet T, Na J, Khoo C (2008b) Aspects-based sentiment analysis of movie reviews on discussion boards. J Inform Sci 36:823–848 CrossRef Google Scholar
+    Thomas M, Pang B, Lee L (2006) Get out the vote: determining support or opposition from congressional floor-debate transcripts. In: Proceedings of the 2006 Conference on Empirical Methods in Natural Language Processing (EMNLP) Google Scholar
+    Tong R (2001) An operational system for detecting and tracking opinions in online discussions. Working Notes of the Workshop on Operational Text Classification, New Orleans, pp 1–6 Google Scholar
+    Tumasjan A, Sprenger T, Sandner P, Welpe I (2011) Election forecasts with Twitter: how 140 characters reflect the political landscape. Soc Sc Comput Rev 29:402–418 CrossRef Google Scholar
+    Turney P (2002) Thumbs up or thumbs down? Semantic orientation applied to unsupervised classification of reviews. In: Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL 02), Philadelphia, PA, pp 417–424 Google Scholar
+    Turney P, Littman M (2003) Measuring praise and criticism: inference of semantic orientation from association. ACM Trans Inform Syst 21:315–346 CrossRef Google Scholar
+    Vishwanath J, Aishwarya S (2011) User suggestions extraction from customer reviews. Intern J Comput Sci Eng 3:1203–1206 Google Scholar
+    Wiebe J, Wilson TT, Bruce R, Bell M, Martin M (2004) Learning subjective language. Comput Linguist 30:277–308 CrossRef Google Scholar
+    Wijaya P, Bressan S (2008) A random walk on the red carpet: rating movies with user reviews and Page Rank. In: Proceedings of the 17th ACM Conference on Information and Knowledge Management, ACM Press, New York, pp 951–960 Google Scholar
+    Williams C, Gulati G (2008) What is a social network worth? Facebook and vote share in the 2008 presidential primaries. The Annual Meeting of the American Political Science Association. APSA, Boston, pp 1–17 Google Scholar
+    Wong K, Xia Y, Xu R, Wu M, Li W (2008) Pattern-based opinion mining for stock market trend prediction. Intern J Comput process Lang 21:347–361 CrossRef Google Scholar
+    Xu D, Liao S, Li Q (2008) Combining empirical experimentation and modeling techniques: a design research approach for personalized mobile advertising applications. Decis Support Syst 44:710–724 CrossRef Google Scholar
+    Yi J, Nasukawa T, Bunescu R, Niblack W (2003) Sentiment analyzer: extracting sentiments about a given topic using natural language-processing techniques. In: Proceedings of the 3rd IEEE International Conference on Data Mining (ICDM’ 2003). Los Alamitos, CA, pp 427–434 Google Scholar
+    Zagal J, Tomuro N, Shepitsen A (2012) Natural language processing in game studies research: an overview. Simulation and Gaming 43:356–373 CrossRef Google Scholar
+    Zappavigna M (2011) Ambient affiliation: a linguistic perspective on Twitter. New Media and Society 13:788–806 CrossRef Google Scholar
+    Zhang C, Zeng D, Li J, Wang F, Zuo W (2009) Sentiment analysis of Chinese documents: from sentence to document level. J Am Soc Inform Sci Technol 60:2474–2487 CrossRef Google Scholar
+    Zhang W, Xu H, Wan W (2012) Weakness finder: find product weakness from Chinese reviews by using aspects based sentiment analysis. Expert Syst Appl 39:10283–10291 CrossRef Google Scholar
+    Zhuang L, Jing F, Zhu X (2006) Movie review mining and summarization. In: Proceedings of the 15th ACM Conference on Information and Knowledge Management. New York, NY, pp 43–50 Google Scholar
+
+Copyright information
+© Springer-Verlag Wien 2013
+About this article
+
+Cite this article as:
+    Mostafa, M.M. Soc. Netw. Anal. Min. (2013) 3: 635. https://doi.org/10.1007/s13278-013-0111-2
+
+    DOI https://doi.org/10.1007/s13278-013-0111-2
+    Publisher Name Springer Vienna
+    Print ISSN 1869-5450
+    Online ISSN 1869-5469
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+An emotional polarity analysis of consumers’ airline service tweets
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    1 Introduction
+    2 Literature review
+    3 Method
+    4 Results
+    5 Implications, limitations and future research
+    References
+    Copyright information
+    About this article
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer International Publishing AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 168.181.51.234
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies
