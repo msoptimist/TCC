@@ -1,0 +1,32 @@
+% METODOLOGIA------------------------------------------------------------------
+
+\chapter{METODOLOGIA}
+\label{chap:metodologia}
+Metodologia, ferramenta e base utilizada na pesquisa.
+
+SVM:
+
+Inventado originalmente por Vladimir Vapnik e Alexey Chervonenkis em 1963 com modificações para permitir classificações não-lineares em 1992 por Vapnik, os SVM são modelos de aprendizagem supervisionada utilizados nas tarefas de classificação e regressão.
+Na SVM, os dados são representados por pontos num espaço n-dimensional, sendo n o número de atributos dos seus dados. SVM são classificadores binários lineares pois tenta buscar um hiperplano que separe linearmente os dados em dois grupos distintos. Podem existir diversos hiperplanos de separação, porém a melhor escolha é o plano que possui maior margem, ou seja, o plano que contém a maior separação entre os dados mais próximos, dessa forma diminuindo o erro de generalização do classificador. Novos elementos que forem classificados serão julgados de acordo com qual lado do hiperplano eles se encontram.
+Casos que não podem ser linearmente separados podem ser modificados através das funções de kernel: funções que convertem os dados em espaços de maiores dimensões onde a análise pode ser feita e os dados separados linearmente por um hiperplano. Este hiperplano encontrado pode não ser uma reta nos planos originais dos dados.
+São algoritmos que funcionam bem em espaços de muitas dimensões, até mesmo maior do que o número de exemplos da base de dados, porém não são eficientes quando os dados possuem muito ruído.
+Em problemas de regressão as técnicas principais do SVM ainda podem ser usadas. Um hiperplano pode ser encontrado que divide o conjunto de dados em 2, porém a margem de separação passa a ser uma margem de erro aceitável, sendo que os dados que caiam dentro dessa margem de erro podem ser calculados seus valores a partir do hiperplano de separação e os dados que caem fora das margens são descartados como pontos fora da curva.
+
+Dados:
+
+A base de dados contava originalmente com 790 instâncias, porém apenas 500 foram disponibilizadas de forma pública devido a confidencialidades da página do Facebook em questão. Todas as instâncias contam com 19 atributos, após a criação de um modelo de previsão de performance da postagem, 7 desses atributos foram considerados como entrada e os outros 12 como medidas de performance.
+Os 7 atributos de entrada são: a quantidade de likes totais da página no momento da postagem em questão, o tipo de postagem (foto, vídeo, link ou status), a categoria (atributo interno da empresa adicionado manualmente), mês, dia da semana e hora da postagem, cada um em um atributo separado e se o post foi pago para ter mais publicidade. Os outros 12 atributos de performance são: quantas pessoas o post atingiu, quantas vezes a postagem foi vista, quantos usuários interagiram com a postagem ao todo, quantidade de pessoas que interagiram com a postagem sem “compartilhar com outras pessoas” através de histórias, quando vezes o conteúdo da postagem foi clicado sem “compartilhar com outras pessoas” através de histórias, quantas vezes a postagem foi vista por pessoas que curtem a página em questão, quantas pessoas que curtem a página viram a postagem, quantas pessoas que curtem a página e interagiram com a postagem, quantidade de comentários, curtidas, compartilhamentos e o total desses últimos 3 atributos. Todos esses atributos, com exceção da categoria que foi adicionada manualmente por um funcionário da empresa, foram retirados das estatísticas da página da empresa de cosméticos diretamente do Facebook.
+Após o processo de mineração utilizando SVM, foi gerado um modelo para cada um dos 12 atributos de performance utilizando os 7 atributos de entrada. Os resultados dos modelos foram comparados com os valores reais retirados dos dados através de diferença absoluta e percentual, além da média de erro absoluto percentual para cada um dos 12 atributos. Para facilitar a análise dos atributos de saída, estes foram divididos em visualização e interação, sendo que os de interação tiveram como melhor resultado 27\% de erro e o melhor de visualização com 37\% de erro. Especulasse que os erros maiores com relação a previsão de visualização se devem a maiores fatores fora do controle dos dados e dos modelos, como a aleatoriedade do algoritmo de feed do Facebook.
+
+
+\section{PRÉ-PROCESSAMENTO}
+\label{sec:metodologiaPreProc}
+Tudo que foi aplicado na base de dados.
+
+\section{MINERAÇÃO DE DADOS}
+\label{sec:metodologiaMine}
+Tudo que foi aplicado para mineração, svm e regressão.
+
+\section{PÓS-PROCESSAMENTO}
+\label{sec:metodologiaPosProc}
+Tudo que foi feito após o proc de datamining.

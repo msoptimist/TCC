@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.5)  25 JUN 2018 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.5)  16 AUG 2018 21:10
 entering extended mode
 **./utfpr-tcc.tex
 (utfpr-tcc.tex
@@ -1257,22 +1257,11 @@ Package color Info: Redefining color blue on input line 18.
 
 
 Writing index file utfpr-tcc.idx 
-)
-\@input{estrutura/pre-textuais/capa.aux}
-\openout2 = `estrutura/pre-textuais/capa.aux'.
-
-(estrutura/pre-textuais/capa.tex)
-\@input{estrutura/pre-textuais/folha-rosto.aux}
-\openout2 = `estrutura/pre-textuais/folha-rosto.aux'.
-
-(estrutura/pre-textuais/folha-rosto.tex) (utfpr-tcc.aux
-(estrutura/pre-textuais/listas/listas-ilustracoes/lista-quadros.aux)
-(estrutura/pre-textuais/listas/lista-tabelas.aux)
-(estrutura/pre-textuais/listas/lista-siglas.aux)
-(estrutura/pre-textuais/sumario.aux) (estrutura/textuais/introducao.aux)
+) (utfpr-tcc.aux (estrutura/textuais/introducao.aux)
 (estrutura/textuais/desenvolvimento/kdd.aux)
 (estrutura/textuais/desenvolvimento/redes-sociais.aux)
 (estrutura/textuais/desenvolvimento/revisao-de-literatura.aux)
+(estrutura/textuais/desenvolvimento/metodologia.aux)
 (estrutura/pos-textuais/referencias.aux))
 \openout1 = `utfpr-tcc.aux'.
 
@@ -1365,25 +1354,70 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 34.
- [1
+\openout2 = `estrutura/textuais/introducao.aux'.
+
+ (estrutura/textuais/introducao.tex
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 12.
+
+
+Package hyperref Warning: Suppressing empty link on input line 12.
+
+
+Package hyperref Warning: Suppressing empty link on input line 12.
+
+
+Package hyperref Warning: Suppressing empty link on input line 14.
+
+
+Package hyperref Warning: Suppressing empty link on input line 14.
+
+
+Package hyperref Warning: Suppressing empty link on input line 20.
+
+[1{C:/Users/Gabriel Zawalski/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
-\providecommand \oddpage@label [2]{}
 
 
 
 
+]
+LaTeX Font Info:    Try loading font information for OMS+aess on input line 43.
+
+LaTeX Font Info:    No file OMSaess.fd. on input line 43.
+
+
+LaTeX Font Warning: Font shape `OMS/aess/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 43.
+
+
+LaTeX Warning: Reference `chap:resultados' on page 2 undefined on input line 66
+.
+
+
+LaTeX Warning: Reference `chap:conclusao' on page 2 undefined on input line 68.
+
+
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 69.
+[2]) [3]
+\openout2 = `estrutura/textuais/desenvolvimento/kdd.aux'.
+
+ (estrutura/textuais/desenvolvimento/kdd.tex [4
 
 
 
-{C:/Users/Gabriel Zawalski/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
+(dados/quadros/etapas-pre-proc-kdd.tex
 ("C:\Users\Gabriel Zawalski\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microty
 pe\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 ("C:\Users\Gabriel Zawalski\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfont
 s\umsa.fd"
@@ -1393,7 +1427,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 pe\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 ("C:\Users\Gabriel Zawalski\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfont
 s\umsb.fd"
@@ -1403,149 +1437,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pe\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 37.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 4.
 
 ("C:\Users\Gabriel Zawalski\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ul
 asy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Overfull \hbox (6.35365pt too wide) in paragraph at lines 37--37
-[]|\T1/aess/m/n/10.95 (-20) Coorientadora:| 
- []
-
-
-Overfull \hbox (1.04799pt too wide) in paragraph at lines 37--37
-[][]  
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.37 \imprimirfolhaderosto{}
-                                                                 		   % Coma...
-[2
-
-
-
-]
-\openout2 = `estrutura/pre-textuais/listas/listas-ilustracoes/lista-quadros.aux
-'.
-
- (estrutura/pre-textuais/listas/listas-ilustracoes/lista-quadros.tex
-(utfpr-tcc.loq)pdfTeX warning (ext4): destination with the same identifier (nam
-e{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \cleardoublepage
-                     [3
-
-
-])
-\openout2 = `estrutura/pre-textuais/listas/lista-tabelas.aux'.
-
- (estrutura/pre-textuais/listas/lista-tabelas.tex
-(utfpr-tcc.lot)pdfTeX warning (ext4): destination with the same identifier (nam
-e{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 \cleardoublepage
-                     [4
-
-
-
-])
-\openout2 = `estrutura/pre-textuais/listas/lista-siglas.aux'.
-
- (estrutura/pre-textuais/listas/lista-siglas.tex
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 4.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 \end{siglas}
-                 [5
-
-
-
-
-])
-\openout2 = `estrutura/pre-textuais/sumario.aux'.
-
- (estrutura/pre-textuais/sumario.tex (utfpr-tcc.toc)pdfTeX warning (ext4): dest
-ination with the same identifier (name{page.}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.7 \cleardoublepage
-                     [6
-
-
-
-])
-\openout2 = `estrutura/textuais/introducao.aux'.
-
- (estrutura/textuais/introducao.tex
-
-Package hyperref Warning: Suppressing empty link on input line 12.
-
-
-Package hyperref Warning: Suppressing empty link on input line 12.
-
-
-Package hyperref Warning: Suppressing empty link on input line 14.
-
-
-Package hyperref Warning: Suppressing empty link on input line 14.
-
-
-Package hyperref Warning: Suppressing empty link on input line 18.
-
-[1
-
-
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+aess on input line 39.
-
-LaTeX Font Info:    No file OMSaess.fd. on input line 39.
-
-
-LaTeX Font Warning: Font shape `OMS/aess/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 39.
-
-
-LaTeX Warning: Reference `chap:metodologia' on page 2 undefined on input line 6
-0.
-
-
-LaTeX Warning: Reference `chap:resultados' on page 2 undefined on input line 62
-.
-
-
-LaTeX Warning: Reference `chap:metodologia' on page 2 undefined on input line 6
-2.
-
-
-LaTeX Warning: Reference `chap:conclusao' on page 2 undefined on input line 64.
-
-
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 65.
-[2]) [3]
-\openout2 = `estrutura/textuais/desenvolvimento/kdd.aux'.
-
- (estrutura/textuais/desenvolvimento/kdd.tex [4
-
-
-
-]
-(dados/quadros/etapas-pre-proc-kdd.tex) [5] (dados/quadros/etapas-mine-kdd.tex)
-[6pdfTeX warning (ext4): destination with the same identifier (name{quadro.2.1}
-) has been already used, duplicate ignored
+)) [5] (dados/quadros/etapas-mine-kdd.tex) [6pdfTeX warning (ext4): destination
+ with the same identifier (name{quadro.2.1}) has been already used, duplicate i
+gnored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1562,7 +1461,7 @@ ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 ...de{estrutura/textuais/desenvolvimento/kdd}
+l.62 ...de{estrutura/textuais/desenvolvimento/kdd}
                                                   			% Descoberta do Conheci...
 ]
 \openout2 = `estrutura/textuais/desenvolvimento/redes-sociais.aux'.
@@ -1594,14 +1493,14 @@ Overfull \hbox (142.50787pt too wide) in paragraph at lines 7--25
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.57 ...ra/textuais/desenvolvimento/redes-sociais}
+l.63 ...ra/textuais/desenvolvimento/redes-sociais}
                                                   			% Redes Sociais] [12pdfTeX
  warning (ext4): destination with the same identifier (name{quadro.3.5}) has be
 en already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.57 ...ra/textuais/desenvolvimento/redes-sociais}
+l.63 ...ra/textuais/desenvolvimento/redes-sociais}
                                                   			% Redes Sociais]
 \openout2 = `estrutura/textuais/desenvolvimento/revisao-de-literatura.aux'.
 
@@ -1616,52 +1515,48 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 ...ais/desenvolvimento/revisao-de-literatura}
+l.64 ...ais/desenvolvimento/revisao-de-literatura}
                                                            % Revisão de Lit...
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 ...ais/desenvolvimento/revisao-de-literatura}
+l.64 ...ais/desenvolvimento/revisao-de-literatura}
                                                            % Revisão de Lit...
 ]
+\openout2 = `estrutura/textuais/desenvolvimento/metodologia.aux'.
+
+ (estrutura/textuais/desenvolvimento/metodologia.tex [14
+
+
+
+]) [15]
 \openout2 = `estrutura/pos-textuais/referencias.aux'.
 
- (estrutura/pos-textuais/referencias.tex (utfpr-tcc.bbl (utfpr-tcc.brf)
+
+(estrutura/pos-textuais/referencias.tex (utfpr-tcc.bbl (utfpr-tcc.brf)
 \tf@brf=\write5
 \openout5 = `utfpr-tcc.brf'.
 
 
 bibitemlist
-)) [14
+)) [16
 
 
 
 ] 
 AED: lastpage setting LastPage
-\tf@loq=\write6
-\openout6 = `utfpr-tcc.loq'.
-
-\tf@lot=\write7
-\openout7 = `utfpr-tcc.lot'.
-
-\tf@toc=\write8
-\openout8 = `utfpr-tcc.toc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
-(utfpr-tcc.aux
-(estrutura/pre-textuais/listas/listas-ilustracoes/lista-quadros.aux)
-(estrutura/pre-textuais/listas/lista-tabelas.aux)
-(estrutura/pre-textuais/listas/lista-siglas.aux)
-(estrutura/pre-textuais/sumario.aux) (estrutura/textuais/introducao.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+(utfpr-tcc.aux (estrutura/textuais/introducao.aux)
 (estrutura/textuais/desenvolvimento/kdd.aux)
 (estrutura/textuais/desenvolvimento/redes-sociais.aux)
 (estrutura/textuais/desenvolvimento/revisao-de-literatura.aux)
+(estrutura/textuais/desenvolvimento/metodologia.aux)
 (estrutura/pos-textuais/referencias.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `utfpr-tcc.brf' has not changed.
 (rerunfilecheck)             Checksum: 51D7B2931C3A928368224191E358537D;1745.
 
@@ -1674,16 +1569,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 16055 strings out of 493305
- 248324 string characters out of 3125016
- 422370 words of memory out of 3000000
- 18598 multiletter control sequences out of 15000+200000
- 88630 words of font info for 509 fonts, out of 3000000 for 9000
+ 15970 strings out of 493305
+ 245574 string characters out of 3125016
+ 417613 words of memory out of 3000000
+ 18578 multiletter control sequences out of 15000+200000
+ 83211 words of font info for 495 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 44i,21n,40p,961b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,21n,40p,1367b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Gabriel Zawalski/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb><C:/Users/Gabriel Zawalski/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Gabriel Zawalski/Ap
@@ -1695,9 +1590,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/User
 s/Gabriel Zawalski/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmssi8.pfb><C:/Users/Gabriel Zawalski/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on utfpr-tcc.pdf (20 pages, 201707 bytes).
+Output written on utfpr-tcc.pdf (16 pages, 193831 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 60641 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 49873 words of extra memory for PDF output out of 51595 (max. 10000000)
 
