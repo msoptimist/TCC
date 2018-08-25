@@ -1,0 +1,288 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+May 2012 , Volume 24, Issue 3 , pp 515–554 | Cite as
+Community detection in Social Media
+Performance and application considerations
+
+    Authors
+    Authors and affiliations
+
+    Symeon Papadopoulos Email author
+    Yiannis Kompatsiaris
+    Athena Vakali
+    Ploutarchos Spyridonos
+
+    Symeon Papadopoulos
+        1
+        2
+    Email author
+    Yiannis Kompatsiaris
+        1
+    Athena Vakali
+        2
+    Ploutarchos Spyridonos
+        2
+
+    1. Informatics and Telematics Institute CERTH Thessaloniki Greece
+    2. Department of Informatics Aristotle University of Thessaloniki Thessaloniki Greece
+
+Article
+First Online: 14 June 2011
+Received: 15 January 2010
+Accepted: 20 May 2011
+
+    9 Shares
+    6.3k Downloads
+    189 Citations
+
+Abstract
+
+The proposed survey discusses the topic of community detection in the context of Social Media. Community detection constitutes a significant tool for the analysis of complex networks by enabling the study of mesoscopic structures that are often associated with organizational and functional characteristics of the underlying networks. Community detection has proven to be valuable in a series of domains, e.g. biology, social sciences, bibliometrics. However, despite the unprecedented scale, complexity and the dynamic nature of the networks derived from Social Media data, there has only been limited discussion of community detection in this context. More specifically, there is hardly any discussion on the performance characteristics of community detection methods as well as the exploitation of their results in the context of real-world web mining and information retrieval scenarios. To this end, this survey first frames the concept of community and the problem of community detection in the context of Social Media, and provides a compact classification of existing algorithms based on their methodological principles. The survey places special emphasis on the performance of existing methods in terms of computational complexity and memory requirements. It presents both a theoretical and an experimental comparative discussion of several popular methods. In addition, it discusses the possibility for incremental application of the methods and proposes five strategies for scaling community detection to real-world networks of huge scales. Finally, the survey deals with the interpretation and exploitation of community detection results in the context of intelligent web applications and services.
+Keywords
+Community detection  Large-scale networks  Social Media 
+
+Responsible editor: Myra Spiliopoulou, Bamshad Mobasher, Olfa Nasraoui, Osmar Zaiane.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Agichtein E, Castillo C, Donato D, Gionis A, Mishne G (2008) Finding high-quality content in social media. In: Proceedings of WSDM ’08: the international conference on Web Search and Web Data Mining, Palo Alto, CA, USA, 11–12 Feb 2008. ACM, New York, pp 183–194 Google Scholar
+    Andersen R, Chung FRK, Lang K (2006) Local graph partitioning using PageRank vectors. In: FOCS’06: Proceedings of the 47th annual IEEE symposium on foundations of computer science, pp 475–486 Google Scholar
+    Arenas A, Díaz-Guilera A, Pérez-Vicente CJ (2006) Synchronization reveals topological scales in complex networks. Phys Rev Lett 96(11): 114102 CrossRef Google Scholar
+    Arenas A, Duch J, Fernaández A, Gómez S (2007) Size reduction of complex networks preserving modularity. New J Phys 9: 176 CrossRef Google Scholar
+    Asur S, Parthasarathy S, Ucar D (2007) An event-based framework for characterizing the evolutionary behavior of interaction graphs. In: Proceedings of the 13th ACM SIGKDD international conference on knowledge discovery and data mining, San Jose, CA, USA, 12–15 Aug 2007. KDD ’07. ACM, New York, pp 913–921 Google Scholar
+    Au Yeung CM, Gibbins N, Shadbolt N (2009) Contextualising tags in collaborative tagging systems. In: Proceedings of ACM conference on hypertext and hypermedia, pp 251–260 Google Scholar
+    Baeza-Yates R (2007) Graphs from search engine queries. Theory and Practice of Computer Science (SOFSEM), LNCS 4362. Springer, Harrachov, pp 1–8 Google Scholar
+    Bagrow JP (2008) Evaluating local community methods in networks. J Stat Mech 5:P05001 Google Scholar
+    Barber MJ (2007) Modularity and community detection in bipartite networks. Phys Rev E 76: 066102 MathSciNet CrossRef Google Scholar
+    Batagelj V, Zaversnik M (2003) An O(m) algorithm for cores decomposition of networks. Eprint arXiv:cs/0310049 Google Scholar
+    Begelman G, Keller P, Smadja F (2006) Automated tag clustering: improving search and exploration in the tag space. http://www.pui.ch/phred/automated_tag_clustering
+    Blondel VD, Guillaume J-L, Lambiotte R, Lefebvre E (2008) Fast unfolding of communities in large networks. Eprint arXiv:0803.0476 Google Scholar
+    Borgatti S, Everett M, Shirey P (1990) LS sets, lambda sets, and other cohesive subsets. Soc Netw 12: 337–358 MathSciNet CrossRef Google Scholar
+    Breiger R, Boorman S, Arabie P (1975) An algorithm for clustering relational data with applications to social network analysis and comparison with multidimensional scaling. J Mathl Psychol 12: 328–383 CrossRef Google Scholar
+    Bron C, Kerbosch J (1973) Algorithm 457: finding all cliques of an undirected graph. Commun ACM 16(9): 575–577 MATH CrossRef Google Scholar
+    Cattuto C, Benz D, Hotho A, Stumme G (2008a) Semantic grounding of tag relatedness in social bookmarking systems. In: Proceedings of ISWC 2008, Karlsruhe, Germany Google Scholar
+    Cattuto C, Baldassarri A, Servedio VDP, Loreto V (2008b) Emergent community structure in social tagging systems. Adv Complex Syst (ACS) 11(4): 597–608 MATH CrossRef Google Scholar
+    Chakrabarti D (2004) Autopart: parameter-free graph partitioning and outlier detection. Lecture notes in computer science 3202. Springer, pp 112–124 Google Scholar
+    Chakrabarti D, Kumar R, Tomkins A (2006) Evolutionary clustering. In: Proceedings of the 12th ACM SIGKDD international conference on knowledge discovery and data mining, Philadelphia, PA, USA, 20–23 Aug 2006. KDD ’06. ACM, New York, pp 554–560 Google Scholar
+    Chen J, Zaiane OR, Goebel R (2009a) Local community identification in social networks. In: International conference on advances in social networks analysis and mining (ASONAM), Athens, Greece Google Scholar
+    Chen J, Zaiane OR, Goebel R (2009b) A visual data mining approach to find overlapping communities in networks. In: International conference on advances in social networks analysis and mining (ASONAM), Athens, Greece Google Scholar
+    Chi Y, Zhu S, Hino K, Gong Y, Zhang Y (2009) iOLAP: a framework for analyzing the internet, social networks, and other networked data. Trans Multimed 11(3): 372–382 CrossRef Google Scholar
+    Clauset A (2005) Finding local community structure in networks. Phys Rev E 72 026132 Google Scholar
+    Clauset A, Newman MEJ, Moore C (2004) Finding community structure in very large networks. Phys Rev E 70:066111 Google Scholar
+    Danon L, Diaz-Guilera A, Duch J, Arenas A (2005) Comparing community structure identification. J Stat Mech P09008. http://iopscience.iop.org/1742-5468/2005/09/P09008/
+    Dean J, Ghemawat S (2004) Mapreduce: simplified data processing on large clusters. In: Proceedings of OSDI, 04, pp 137–150 Google Scholar
+    Dhillon IS, Guan Y, Kulis B (2007) Weighted graph cuts without eigenvectors: a multilevel approach. IEEE Trans Pattern Anal Mach Intell 29(11): 1944–1957 CrossRef Google Scholar
+    Djidjev HN (2008) A scalable multilevel algorithm for graph clustering and community structure detection. Lecture notes in computer science, vol 4936. Springer-Verlag, Berlin, pp 117–128 Google Scholar
+    Donetti L, Munoz MA (2004) Detecting network communities: a new systematic and efficient algorithm. J Stat Mech P10012. doi:   10.1088/1742-5468/2004/10/P10012
+    Duch J, Arenas A (2005) Community detection in complex networks using extremal optimization. Phys Rev E 72:027104 Google Scholar
+    Falkowski T, Barth A, Spiliopoulou M (2007) DENGRAPH: a density-based community detection algorithm. In: Proceedings of web intelligence 2007, pp 112–115 Google Scholar
+    Fenn D, Porter M, McDonald M, Williams S, Johnson N, Jones N (2009) Dynamic communities in multichannel data: an application to the foreign exchange market during the 2007–2008 credit crisis. Eprint arXiv:0811.3988 Google Scholar
+    Flake GW, Lawrence S, Giles CL (2000) Efficient identification of Web communities. In: Proceedings of KDD ’00, ACM, pp 150–160 Google Scholar
+    Fortunato S (2009) Community detection in graphs. Eprint arXiv:0906.0612 Google Scholar
+    Fortunato S (2010) Community detection in graphs. Phys Rep 486: 75–174 MathSciNet CrossRef Google Scholar
+    Fortunato S, Castellano C (2007) Community structure in graphs. Eprint arXiv:0712.2716 Google Scholar
+    Fortunato S, Latora V, Marchiori M (2004) Method to find community structures based on information centrality. Phys Rev E 70: 056104 CrossRef Google Scholar
+    Franke M, Geyer-Schulz A (2009) An update algorithm for restricted random walk clustering for dynamic data sets. Adv Data Anal Classif 3(1): 63–92 MathSciNet MATH CrossRef Google Scholar
+    Gallo G, Grigoriadis MD, Tarjan RE (1989) A fast parametric maximum flow algorithm and applications. SIAM J Comput 18(1): 30–55 MathSciNet MATH CrossRef Google Scholar
+    Gemmell J, Shepitsen A, Mobasher B, Burke R (2008) Personalizing navigation in folksonomies using hierarchical tag clustering. In: Proceedings of DaWaK 2008, LNCS 5182, pp 196–205 Google Scholar
+    Gibson D, Kumar R, Tomkins A (2005) Discovering large dense subgraphs in massive graphs. In: Proceedings of the 31st international conference on very large data bases, Trondheim, Norway, Aug 30–Sept 2, 2005. Very Large Data Bases. VLDB Endowment, pp 721–732 Google Scholar
+    Girvan M, Newman MEJ (2002) Community structure in social and biological networks. Proc Natl Acad Sci USA 99(12): 7821–7826 MathSciNet MATH CrossRef Google Scholar
+    Gjoka M, Kurant M, Butts CT, Markopoulou A (2009) A walk in facebook: uniform sampling of users in online social networks. Eprint arXiv:0906.0060 Google Scholar
+    Gregory S (2009) Finding overlapping communities in networks by label propagation. Eprint arXiv: 0910.5516 Google Scholar
+    Hastings MB (2006) Community detection as an inference problem. Phys Rev E 74: 035102 CrossRef Google Scholar
+    Hübler C, Kriegel H, Borgwardt K, Ghahramani Z (2008) Metropolis algorithms for representative subgraph sampling. In: Proceedings of the 2008 eighth IEEE international conference on data mining, Dec 15–19, 2008. ICDM. IEEE Computer Society, Washington, DC, pp 283–292 Google Scholar
+    Hui P, Yoneki E, Chan SY, Crowcroft J (2007) Distributed community detection in delay tolerant networks. In: Proceedings of 2nd ACM/IEEE international workshop on mobility in the evolving internet architecture, MobiArch ’07. ACM, pp 1–8 Google Scholar
+    Ino H, Kudo M, Nakamura A (2005) Partitioning of Web graphs by community topology. In: Proceedings of the 14th international conference on World Wide Web, Chiba, Japan 10–14 May 2005. WWW ’05. ACM, New York, pp 661–669 Google Scholar
+    Java A, Joshi A, Finin T (2008a) Detecting communities via simultaneous clustering of graphs and folksonomies. In: Proceedings of WebKDD 2008, KDD workshop on web mining and web usage analysis, Las Vegas, NV Google Scholar
+    Java A, Joshi A, Finin T (2008b) Approximating the community structure of the long tail. In: Proceedings of the international conference on weblogs and social media Google Scholar
+    Kannan R, Vempala S, Vetta A (2004) On clusterings: good, bad and spectral. J ACM 51(3): 497–515 MathSciNet MATH CrossRef Google Scholar
+    Karypis G, Kumar V (1998) A fast and high quality multilevel scheme for partitioning irregular graphs. SIAM J Sci Comput 20(1): 359–392 MathSciNet CrossRef Google Scholar
+    Kim M, Han J (2009) A particle-and-density based evolutionary clustering method for dynamic networks. Proc VLDB Endow 2(1): 622–633 Google Scholar
+    Kovács IA, Palotai R, Szalay MS, Csermely P (2010) Community landscapes: an integrative approach to determine overlapping network module hierarchy, identify key nodes and predict network dynamics. PLoS ONE 5(9): e12528 CrossRef Google Scholar
+    Kumar R, Raghavan P, Rajagopalan S, Tomkins A (1999) Trawling the Web for emerging cyber-communities. Comput Netw 31(11–16): 1481–1493 CrossRef Google Scholar
+    Kumar SR, Raghavan P, Rajagopalan S, Sivakumar D, Tomkins A, Upfal E (2000) The web as a graph. In: ACM symposium on principles of database systems, Dallas, Texas Google Scholar
+    Lancichinetti A, Fortunato S (2009) Community detection algorithms: a comparative analysis. Phys Rev E 80: 056117 CrossRef Google Scholar
+    Lancichinetti A, Fortunato S, Radicchi F (2008) Benchmark graphs for testing community detection algorithms. Phys Rev E 78: 046110 CrossRef Google Scholar
+    Leskovec J, Faloutsos C (2006) Sampling from large graphs. In: Proceedings of the 12th ACM SIGKDD international conference on knowledge discovery and data mining, Philadelphia, PA, USA, 20–23 Aug 2006. KDD ’06. ACM, New York, pp 631–636 Google Scholar
+    Leskovec J, Lang K, Dasgupta A, Mahoney M (2008) Community structure in large networks: natural cluster sizes and the absence of large well-defined clusters. Eprint arXiv:0810.1355 Google Scholar
+    Leung IXY, Hui P, Lio P, Crowcroft J (2009) Towards real-time community detection in large networks. Phys Rev E 79: 066107 CrossRef Google Scholar
+    Li X, Wu C, Zach C, Lazebnik S, Frahm J (2008) Modeling and recognition of landmark image collections using iconic scene graphs. Lecture notes in computer science, vol 5302. Springer-Verlag, Berlin, pp 427–440 Google Scholar
+    Lin Y, Sundaram H, Chi Y, Tatemura J, Tseng BL (2007) Blog community discovery and evolution based on mutual awareness expansion. In: Proceedings of the IEEE/WIC/ACM international conference on web intelligence. IEEE Computer Society, Washington, DC, pp 48–56 Google Scholar
+    Lin Y, Chi Y, Zhu S, Sundaram H, Tseng BL (2008) Facetnet: a framework for analyzing communities and their evolutions in dynamic networks. In: Proceeding of the 17th international conference on World Wide Web, Beijing, China, 21–25 April 2008. WWW ’08. ACM, New York, pp 685–694 Google Scholar
+    Lin Y, Sun J, Castro P, Konuru R, Sundaram H, Kelliher A (2009) MetaFac: community discovery via relational hypergraph factorization. In: Proceedings of KDD ’09. ACM, pp 527–536 Google Scholar
+    Lorrain F, White H (1971) Structural equivalence of individuals in social networks. J Math Sociol 1: 49–80 CrossRef Google Scholar
+    Luo F, Wang JZ, Promislow E (2006) Exploring local community structures in large networks. In: Proceedings of web intelligence 2006. IEEE Computer Society, pp 233–239 Google Scholar
+    Maiya AS, Berger-Wolf TY (2010) Sampling community structure. In: Proceedings of the 19th international conference on World Wide Web, Raleigh, North Carolina, USA, 26–30 April 2010. WWW ’10. ACM, New York, pp 701–710 Google Scholar
+    Massen CP, Doye JPK (2005) Identifying “communities” within energy landscapes. Phys Rev E 71:046101 Google Scholar
+    Mika P (2005) Ontologies are us: a unified model of social networks and semantics. In: Proceedings of ISWC 2005. Springer, Berlin, pp 522–536 Google Scholar
+    Moëllic P, Haugeard J, Pitel G (2008) Image clustering based on a shared nearest neighbors approach for tagged collections. In: Proceedings of CIVR ’08, Niagara Falls, Canada, 7–9 July. ACM, New York, pp 269–278 Google Scholar
+    Newman MEJ (2004a) Fast algorithm for detecting community structure in networks. Phys Rev E 69: 066133 CrossRef Google Scholar
+    Newman MEJ (2004b) Analysis of weighted networks. Phys Rev E 70: 056131 CrossRef Google Scholar
+    Newman MEJ (2006) Finding community structure in networks using the eigenvectors of matrices. Phys Rev E 74:036104 Google Scholar
+    Newman MEJ, Girvan M (2004) Finding and evaluating community structure in networks. Phys Rev E 69: 026113 CrossRef Google Scholar
+    Palla G, Derenyi I, Farkas I, Vicsek T (2005) Uncovering the overlapping community structure of complex networks in nature and society. Nature 435(7043): 814–818 CrossRef Google Scholar
+    Palla G, Barabasi A-L, Vicsek T (2007) Quantifying social group evolution. Nature 446: 664–667 CrossRef Google Scholar
+    Papadopoulos S, Skusa A, Vakali A, Kompatsiaris Y, Wagner N (2009a) Bridge bounding: a local approach for efficient community discovery in complex networks. Eprint arXiv: 0902.0871 Google Scholar
+    Papadopoulos S, Kompatsiaris Y, Vakali A (2009b) Leveraging collective intelligence through community detection in tag networks. In: Proceedings of CKCaR’09 workshop on collective knowledge capturing and representation, Redondo Beach, California, USA Google Scholar
+    Papadopoulos S, Kompatsiaris Y, Vakali A (2010a) A graph-based clustering scheme for identifying related tags in folksonomies. In: Proceedings of DaWaK’10, Bilbao, Spain. Springer-Verlag, pp 65–76 Google Scholar
+    Papadopoulos S, Vakali A, Kompatsiaris Y (2010b) Community detection in collaborative tagging systems. In: Pardede E (ed) Book community-built database: research and development. Springer, New York Google Scholar
+    Papadopoulos S, Zigkolis C, Kompatsiaris Y, Vakali A (2010c) Cluster-based landmark and event detection on tagged photo collections. IEEE Multimed Mag 18(1): 52–63 CrossRef Google Scholar
+    Pons P, Latapy M (2005) Computing communities in large networks using random walks. Computer and Information Sciences—ISCIS 2005 Google Scholar
+    Porter MA, Onnela JP, Mucha PJ (2009) Communities in networks. Not Am Math Soc 56(9): 1082–1097 MathSciNet MATH Google Scholar
+    Quack T, Leibe B, Van Gool L (2008) World-scale mining of objects and events from community photo collections. In: Proceedings of the 2008 international conference on content-based image and video retrieval, Niagara Falls, Canada, 07–09 July 2008. CIVR ’08. ACM, New York, pp 47–56 Google Scholar
+    Radicchi F, Castellano C, Cecconi F, Loreto V, Parisi D (2004) Defining and identifying communities in networks. Proc Natl Acad Sci USA 101: 2658–2663 CrossRef Google Scholar
+    Raghavan UN, Albert R, Kumara S (2007) Near linear time algorithm to detect community structures in large-scale networks. Phys Rev E 76: 036106 CrossRef Google Scholar
+    Reichardt J, Bornholdt S (2006) Statistical mechanics of community detection. Phys Rev E 74: 016110 MathSciNet CrossRef Google Scholar
+    Ribeiro-Neto B, Cristo M, Golgher PB, Silva de Moura E (2005) Impedance coupling in content-targeted advertising. In: Proceedings of the 28th annual international ACM SIGIR conference, Salvador, Brazil, 15–19 Aug. SIGIR ’05. ACM, New York, pp 496–503 Google Scholar
+    Rosvall M, Bergstrom CT (2008) Maps of random walks on complex networks reveal community structure. Proc Natl Acad Sci USA 105: 1118–1123 CrossRef Google Scholar
+    Sayyadi H, Hurst M, Maykov A (2009) Event detection and tracking in social streams. In: Proceedings of international AAAI conference on weblogs and social media. AAAI Press Google Scholar
+    Schaeffer SE (2007) Graph clustering. Comput Sci Rev 1(1): 27–64 MathSciNet CrossRef Google Scholar
+    Schlitter N, Falkowski T (2009) Mining the dynamics of music preferences from a social networking site. In: Proceedings of the international conference on advances in social network analysis and mining, Athens, Greece Google Scholar
+    Schmitz C, Hotho A, Jäschke R, Stumme G (2006) Mining association rules in folksonomies. In: Proceedings of the 10th IFCS conference on data science and classification, pp 261–270 Google Scholar
+    Scott J (2000) Social network analysis: a handbook. Sage Publications Ltd, London Google Scholar
+    Scripps J, Tan P, Esfahanian A (2007) Node roles and community structure in networks. In: Proceedings of the 9th WebKDD and 1st SNA-KDD 2007 workshop on web mining and social network analysis, San Jose, CA, 12–12 Aug 2007. WebKDD/SNA-KDD ’07. ACM, New York, pp 26–35 Google Scholar
+    Shi J, Malik J (2000) Normalized cuts and image segmentation. IEEE Trans Pattern Anal Mach Intell 22(8): 888–905 CrossRef Google Scholar
+    Šíma J, Schaeffer SE (2006) On the NP-completeness of some graph cluster measures. In: Proceedings of SOFSEM 2006: theory and practice of computer science, pp 530–537 Google Scholar
+    Simpson E (2008) Clustering tags in enterprise and web folksonomies. Technical report HPL-2008-18 Google Scholar
+    Specia L, Motta E (2007) Integrating folksonomies with the semantic web. Lecture notes in computer science, vol 4519. Springer-Verlag, Berlin, pp 624–639 Google Scholar
+    Sun J, Faloutsos C, Papadimitriou S, Yu PS (2007) GraphScope: parameter-free mining of large time-evolving graphs. In: Proceedings of KDD ’07. ACM, pp 687–696 Google Scholar
+    Tang L, Liu H (2010) Graph mining applications to social network analysis. In: Aggarwal C, Wang H (eds) Managing and mining graph data. Springer, New York Google Scholar
+    Tsatsou D, Papadopoulos S, Kompatsiaris I, Davis PC (2010) Distributed technologies for personalized advertisement delivery. In: Hua X–S, Mei T, Hanjalic A (eds) Online multimedia advertising: techniques and technologies. IGI Global, pp 233–261. http://www.igi-global.com/bookstore/chapter.aspx?titleid=51963
+    Tyler JR, Wilkinson DM, Huberman BA (2003) Email as spectroscopy: automated discovery of community structure within organizations. In: Huysman M, Wenger E, Wulf V (eds) Communities and technologies. Kluwer B.V., Deventer, pp 81–96 Google Scholar
+    Van Dongen S (2000) Graph clustering by flow simulation. Ph.D. Thesis, Dutch National Research Institute for Mathematics and Computer Science, Utrecht, Netherlands Google Scholar
+    Von Luxburg U (2006) A tutorial on spectral clustering. Technical report 149. Max Planck Institute for Biological Cybernetics, August 2006 Google Scholar
+    Vragović I, Louis E (2006) Network community structure and loop coefficient method. Phys Rev E 74: 016105 CrossRef Google Scholar
+    Wang Y, Wu B, Du N (2008) Community evolution of social network: feature, algorithm and model. Eprint arXiv: 0804.4356 Google Scholar
+    Wasserman S, Faust K (1994) Social network analysis: methods and applications. Cambridge University Press, Cambridge Google Scholar
+    Xu X, Yuruk N, Feng Z, Schweiger TA (2007) SCAN: a structural clustering algorithm for networks. In: Proceedings of KDD ’07. ACM, pp 824–833 Google Scholar
+    Yang B, Liu D-Y (2006) Force-based incremental algorithm for mining community structure in dynamic network. J Comput Sci Technol 21(3): 393–400 MATH CrossRef Google Scholar
+    Yang S, Wang B, Zhao H, Wu B (2009) Efficient dense structure mining using MapReduce. In: Proceedings of international conference on data mining workshops, pp 332–337 Google Scholar
+    Ye S, Lang J, Wu F (2010) Crawling online social graphs. In: Proceedings of 12th international Asia-Pacific web conference, APWeb 2010 Google Scholar
+    Zakharov P (2006) Thermodynamic approach for community discovering within the complex networks: LiveJournal study. Eprint arXiv:physics/0602063 Google Scholar
+    Zhang Y, Wang J, Wang Y, Zhou L (2009) Parallel community detection on large networks with propinquity dynamics. In: Proceedings of KDD ’09. ACM, pp 997–1006 Google Scholar
+    Zhao Q, Mitra P, Chen B (2007) Temporal and information flow based event detection from social text streams. In: Proceedings of the 22nd national conference on artificial intelligence, Vancouver, BC, Canada, July 2007. AAAI Press, pp 1501–1506 Google Scholar
+
+Copyright information
+© The Author(s) 2011
+About this article
+
+Cite this article as:
+    Papadopoulos, S., Kompatsiaris, Y., Vakali, A. et al. Data Min Knowl Disc (2012) 24: 515. https://doi.org/10.1007/s10618-011-0224-z
+
+    DOI https://doi.org/10.1007/s10618-011-0224-z
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Community detection in Social Media
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

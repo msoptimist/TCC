@@ -1,0 +1,3052 @@
+TY  - CONF
+TI  - Research trends in CISTI's unveiled through text mining
+T2  - 2017 12th Iberian Conference on Information Systems and Technologies (CISTI)
+SP  - 1
+EP  - 5
+AU  - S. Moro
+AU  - B. Alturas
+AU  - J. Esmerado
+AU  - C. J. Costa
+PY  - 2017
+KW  - data mining
+KW  - publishing
+KW  - research and development
+KW  - social networking (online)
+KW  - text analysis
+KW  - research trends
+KW  - CISTI
+KW  - text mining
+KW  - Iberian conference on information systems and technologies
+KW  - Information Systems and Technologies domain
+KW  - IST innovations
+KW  - conference article publishing
+KW  - published literature analysis
+KW  - topic modeling
+KW  - data-driven empirical research
+KW  - education
+KW  - learning
+KW  - Internet
+KW  - social media
+KW  - Market research
+KW  - Text mining
+KW  - Knowledge engineering
+KW  - Data models
+KW  - Information systems
+KW  - Analytical models
+KW  - Dictionaries
+KW  - CISTI
+KW  - text mining
+KW  - literature analysis
+KW  - research trends
+KW  - topic modeling
+DO  - 10.23919/CISTI.2017.7975765
+JO  - 2017 12th Iberian Conference on Information Systems and Technologies (CISTI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 12th Iberian Conference on Information Systems and Technologies (CISTI)
+Y1  - 21-24 June 2017
+AB  - CISTI (Iberian Conference on Information Systems and Technologies) is a technical and scientific annual event dating back to 2006, whose purpose is to present and discuss knowledge, new perspectives, experiences and innovations in the Information Systems and Technologies domain (IST). The dynamics associated with IST together with the growing interest of the global community in CISTI have resulted in many topics and articles published in each conference, justifying a comprehensive analysis of the literature published. In this study, we present such analysis encompassing the last four editions, between 2013 and 2016, and a total of 677 articles. To accomplish such challenge more efficiently, we adopted text mining. We assessed through topic modeling how the unveiled research trends are aligned with the main conference themes. Data-driven empirical research has proven it is still a hot subject for researchers. Likewise, education and learning are also playing a significant role in CISTI's contributions. Notwithstanding, Internet and social media are highly relevant topics for the conference, although not figuring as major themes. On the other side, health is receiving less attention. Thus, this study can lead to recommendations for future CISTI's themes, in addition to providing an overview of current research trends.
+ER  - 
+
+TY  - CONF
+TI  - Online news topic detection and tracking via localized feature selection
+T2  - The 2013 International Joint Conference on Neural Networks (IJCNN)
+SP  - 1
+EP  - 8
+AU  - O. Amayri
+AU  - N. Bouguila
+PY  - 2013
+KW  - data mining
+KW  - Internet
+KW  - social networking (online)
+KW  - online news topic detection
+KW  - localized feature selection tracking
+KW  - Internet
+KW  - social media
+KW  - topic detection and tracking
+KW  - TDT
+KW  - data mining techniques
+KW  - unified statistical framework
+KW  - feature word selection
+KW  - topic clustering
+KW  - Computational modeling
+KW  - Vectors
+KW  - Zinc
+KW  - Tin
+KW  - Data models
+KW  - Computational efficiency
+KW  - Media
+DO  - 10.1109/IJCNN.2013.6707027
+JO  - The 2013 International Joint Conference on Neural Networks (IJCNN)
+IS  - 
+SN  - 2161-4407
+VO  - 
+VL  - 
+JA  - The 2013 International Joint Conference on Neural Networks (IJCNN)
+Y1  - 4-9 Aug. 2013
+AB  - The detection of topic trends has increasingly attracted interest over the past decades, fueled in particular by the revolution of internet and the emergence of social media. However, manual topic detection and tracking (TDT) is not efficient, this has become possible thanks to the development of modern data mining techniques and their flexibility to model potential issues. A critical challenge in this context is the representation choices of news stories along with adequate detection of new topics. To this end, we propose a unified statistical framework that allows simultaneous topic clustering and feature (word) selection in online settings based on spherical mixtures. Through empirical experiments, the proposed framework demonstrates the ability to learn new topics incrementally and improve detection quality within a reasonable time framework on diverse high-dimensional datasets.
+ER  - 
+
+TY  - CONF
+TI  - Analysing Cloud Services Reviews Using Opining Mining
+T2  - 2017 IEEE 31st International Conference on Advanced Information Networking and Applications (AINA)
+SP  - 1124
+EP  - 1129
+AU  - A. M. Alkalbani
+AU  - L. Gadhvi
+AU  - B. Patel
+AU  - F. K. Hussain
+AU  - A. M. Ghamry
+AU  - O. K. Hussain
+PY  - 2017
+KW  - Bayes methods
+KW  - cloud computing
+KW  - data mining
+KW  - Internet
+KW  - learning (artificial intelligence)
+KW  - sentiment analysis
+KW  - social networking (online)
+KW  - trees (mathematics)
+KW  - cloud service review analysis
+KW  - opining mining
+KW  - Web platform
+KW  - social media
+KW  - cloud consumers
+KW  - cloud services
+KW  - sentiment analysis
+KW  - data mining tools
+KW  - KNIME
+KW  - RapidMiner
+KW  - supervised machine learning algorithms
+KW  - user review sentiment prediction
+KW  - k-nearest neighbour
+KW  - Nave Bayes
+KW  - k-NN
+KW  - random tree
+KW  - Sentiment analysis
+KW  - Data mining
+KW  - Dictionaries
+KW  - Machine learning algorithms
+KW  - Cloud computing
+KW  - Predictive models
+KW  - Business
+KW  - Cloud services
+KW  - Sentiment Analysis; KNIME; RapidMiner; Customer Reviews; Software as a Service
+DO  - 10.1109/AINA.2017.173
+JO  - 2017 IEEE 31st International Conference on Advanced Information Networking and Applications (AINA)
+IS  - 
+SN  - 1550-445X
+VO  - 
+VL  - 
+JA  - 2017 IEEE 31st International Conference on Advanced Information Networking and Applications (AINA)
+Y1  - 27-29 March 2017
+AB  - There is increasing interest in sharing the experience of products and services on the web platform, and social media has opened a way for product and service providers to understand their consumers needs and expectations. This paper explores reviews by cloud consumers that reflect consumers experiences with cloud services. The reviews of around 6,000 cloud service users were analysed using sentiment analysis to identify the attitude of each review, and to determine whether the opinion expressed was positive, negative, or neutral. The analysis used two data mining tools, KNIME and RapidMiner, and the results were compared. We developed four prediction models in this study to predict the sentiment of users reviews. The proposed model is based on four supervised machine learning algorithms: K-Nearest Neighbour (k-NN), Nave Bayes, Random Tree, and Random Forest. The results show that the Random Forest predictions achieve 97.06% accuracy, which makes this model a better prediction model than the other three.
+ER  - 
+
+TY  - CONF
+TI  - An unsupervised fuzzy clustering method for twitter sentiment analysis
+T2  - 2016 International Conference on Computation System and Information Technology for Sustainable Solutions (CSITSS)
+SP  - 80
+EP  - 85
+AU  - H. Suresh
+AU  - Gladston Raj S.
+PY  - 2016
+KW  - data mining
+KW  - expectation-maximisation algorithm
+KW  - fuzzy set theory
+KW  - marketing data processing
+KW  - pattern clustering
+KW  - sentiment analysis
+KW  - social networking (online)
+KW  - unsupervised learning
+KW  - unsupervised fuzzy clustering method
+KW  - social media sites
+KW  - exploratory data mining
+KW  - machine learning
+KW  - Twitter feeds
+KW  - partitioning clustering
+KW  - K means clustering
+KW  - expectation-maximization algorithms
+KW  - high quality Twitter sentiment analysis
+KW  - Adaptation models
+KW  - Analytical models
+KW  - Support vector machine classification
+KW  - Uniform resource locators
+KW  - Tagging
+KW  - Twitter
+KW  - Sentiment Analysis (SA)
+KW  - partitioning clustering techniques
+KW  - Expectation Maximization (EM)
+KW  - Simple K-Means
+DO  - 10.1109/CSITSS.2016.7779444
+JO  - 2016 International Conference on Computation System and Information Technology for Sustainable Solutions (CSITSS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 International Conference on Computation System and Information Technology for Sustainable Solutions (CSITSS)
+Y1  - 6-8 Oct. 2016
+AB  - Cluster based techniques on sentiment analysis is a novel approach for analyzing sentiments expressed in social media sites. It is a main task of exploratory data mining, and a common technique used in machine learning. In contrast to supervised learning technique, the cluster based techniques produce essentially accurate experimental results without manual processing, linguistic knowledge or training time. This paper presents a novel fuzzy clustering model to analyze twitter feeds regarding the sentiments of a particular brand using the real dataset collected over a period of one year. Then a comparative analysis is made with the existing partitioning clustering techniques namely K Means and Expectation Maximization algorithms based on metrics namely accuracy, precision, recall and execution time. According to the experimental analysis, the proposed approach is tested to be practicable in performing high quality twitter sentiment analysis results.
+ER  - 
+
+TY  - JOUR
+TI  - Interactive evolutionary computation: fusion of the capabilities of EC optimization and human evaluation
+T2  - Proceedings of the IEEE
+SP  - 1275
+EP  - 1296
+AU  - H. Takagi
+PY  - 2001
+KW  - evolutionary computation
+KW  - user interfaces
+KW  - computer graphics
+KW  - human factors
+KW  - data mining
+KW  - robots
+KW  - interactive systems
+KW  - interactive evolutionary computation
+KW  - human factors
+KW  - user interface
+KW  - computer graphics
+KW  - computational intelligence
+KW  - graphic arts
+KW  - animation
+KW  - data mining
+KW  - robotics
+KW  - Evolutionary computation
+KW  - IEC
+KW  - Humans
+KW  - Application software
+KW  - Computer graphics
+KW  - Food industry
+KW  - Art
+KW  - Facial animation
+KW  - Computer industry
+KW  - Electrical equipment industry
+DO  - 10.1109/5.949485
+JO  - Proceedings of the IEEE
+IS  - 9
+SN  - 0018-9219
+VO  - 89
+VL  - 89
+JA  - Proceedings of the IEEE
+Y1  - Sept. 2001
+AB  - We survey the research on interactive evolutionary computation (IEC). The IEC is an EC that optimizes systems based on subjective human evaluation. The definition and features of the IEC are first described and then followed by an overview of the IEC research. The overview primarily consists of application research and interface research. In this survey the IEC application fields include graphic arts and animation, 3D computer graphics lighting, music, editorial design, industrial design, facial image generation, speed processing and synthesis, hearing aid fitting, virtual reality, media database retrieval, data mining, image processing, control and robotics, food industry, geophysics, education, entertainment, social system, and so on. The interface research to reduce human fatigue is also included. Finally, we discuss the IEC from the point of the future research direction of computational intelligence. This paper features a survey of about 250 IEC research papers.
+ER  - 
+
+TY  - CONF
+TI  - Detecting Opioid Users from Twitter and Understanding Their Perceptions Toward MAT
+T2  - 2017 IEEE International Conference on Data Mining Workshops (ICDMW)
+SP  - 502
+EP  - 509
+AU  - Y. Zhang
+AU  - Y. Fan
+AU  - Y. Ye
+AU  - X. Li
+AU  - W. Zheng
+PY  - 2017
+KW  - graph theory
+KW  - information networks
+KW  - knowledge based systems
+KW  - medical computing
+KW  - social networking (online)
+KW  - Twitter
+KW  - MAT
+KW  - heroin
+KW  - morphine
+KW  - United States
+KW  - behavioral processes
+KW  - opioid addiction
+KW  - intelligent system
+KW  - structured heterogeneous information network
+KW  - meta-graph
+KW  - opioid user detection
+KW  - epidemics
+KW  - iOPU
+KW  - Medication Assisted Treatment
+KW  - Twitter
+KW  - Feature extraction
+KW  - Semantics
+KW  - Drugs
+KW  - Data mining
+KW  - Tools
+KW  - Opioid User Detection
+KW  - Social Media
+KW  - Heterogeneous Information Network
+KW  - Meta-graph
+DO  - 10.1109/ICDMW.2017.71
+JO  - 2017 IEEE International Conference on Data Mining Workshops (ICDMW)
+IS  - 
+SN  - 2375-9259
+VO  - 
+VL  - 
+JA  - 2017 IEEE International Conference on Data Mining Workshops (ICDMW)
+Y1  - 18-21 Nov. 2017
+AB  - Opioid (e.g., heroin and morphine) addiction has become one of the largest and deadliest epidemics in the United States. To combat such deadly epidemic, there is an urgent need for novel tools and methodologies to gain new insights into the behavioral processes of opioid addiction and treatment. In this paper, we design and develop an intelligent system named iOPU to automate the detection of opioid users from Twitter. In iOPU, to model the users and posted tweets as well as their rich relationships, we first introduce a structured heterogeneous information network (HIN) for representation. Then we use meta-graph based approach to characterize the semantic relatedness over users. Afterwards, we integrate content-based similarity (i.e., similarity of users' posted tweets) and relatedness depicted by each meta-graph to formulate a similarity measure over users. Further we build a classifier combining different similarities based on different meta-graphs to make predictions. Comprehensive experiments on real sample collections from Twitter are conducted to validate the effectiveness of our developed system iOPU in opioid user detection by comparisons with other baseline methods. The results also demonstrate that knowledge from daily-life social media data mining could promote the practice of Medication Assisted Treatment (MAT) in opioid addiction.
+ER  - 
+
+TY  - CONF
+TI  - The Use of POS Sequence for Analyzing Sentence Pattern in Twitter Sentiment Analysis
+T2  - 2015 IEEE 29th International Conference on Advanced Information Networking and Applications Workshops
+SP  - 547
+EP  - 551
+AU  - F. Koto
+AU  - M. Adriani
+PY  - 2015
+KW  - information analysis
+KW  - social networking (online)
+KW  - POS sequence
+KW  - sentence pattern analysis
+KW  - Twitter sentiment analysis
+KW  - social media
+KW  - tweet pattern
+KW  - tweet word combination
+KW  - subjectivity
+KW  - polarity
+KW  - information gain
+KW  - 2-tag sequence
+KW  - 3-tag sequence
+KW  - 5-tag sequence
+KW  - part of speech sequence
+KW  - Sentiment analysis
+KW  - Twitter
+KW  - Accuracy
+KW  - Feature extraction
+KW  - Media
+KW  - Conferences
+KW  - social media
+KW  - twitter
+KW  - sentiment analysis
+KW  - POS sequence
+KW  - subjectivity
+KW  - polarity
+DO  - 10.1109/WAINA.2015.58
+JO  - 2015 IEEE 29th International Conference on Advanced Information Networking and Applications Workshops
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE 29th International Conference on Advanced Information Networking and Applications Workshops
+Y1  - 24-27 March 2015
+AB  - As one of the largest Social Media in providing public data every day, Twitter has attracted the attention of researcher to investigate, in order to mine public opinion, which is known as Sentiment Analysis. Consequently, many techniques and studies related to Sentiment Analysis over Twitter have been proposed in recent years. However, there is no study that discuss about sentence pattern of positive/negative sentence and neither subjective/objective sentence. In this paper we propose POS sequence as feature to investigate pattern or word combination of tweets in two domains of Sentiment Analysis: subjectivity and polarity. Specifically we utilize Information Gain to extract POS sequence in three forms: sequence of 2-tags, 3-tags, and 5-tags. The results reveal that there are some tendencies of sentence pattern which distinguish between positive, negative, subjective and objective tweets. Our approach also shows that feature of POS sequence can improve Sentiment Analysis accuracy.
+ER  - 
+
+TY  - CONF
+TI  - Word Network Topic Model Based on Word2Vector
+T2  - 2018 IEEE Fourth International Conference on Big Data Computing Service and Applications (BigDataService)
+SP  - 241
+EP  - 247
+AU  - M. Jiang
+AU  - R. Liu
+AU  - F. Wang
+PY  - 2018
+KW  - data mining
+KW  - document handling
+KW  - electronic commerce
+KW  - Internet
+KW  - learning (artificial intelligence)
+KW  - natural language processing
+KW  - social networking (online)
+KW  - text analysis
+KW  - word processing
+KW  - Word Network Topic Model
+KW  - Word2vector
+KW  - short texts
+KW  - Internet information
+KW  - common topic models
+KW  - short text topic models
+KW  - word space
+KW  - dense word
+KW  - word co-occurrence matrix
+KW  - Word2Vec model
+KW  - word co-occurrence
+KW  - LDA
+KW  - WNTM
+KW  - Training
+KW  - Correlation
+KW  - Data models
+KW  - Social network services
+KW  - Internet
+KW  - Data mining
+KW  - Standards
+KW  - component
+KW  - topic model
+KW  - WNTM
+KW  - Word2vector
+DO  - 10.1109/BigDataService.2018.00043
+JO  - 2018 IEEE Fourth International Conference on Big Data Computing Service and Applications (BigDataService)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 IEEE Fourth International Conference on Big Data Computing Service and Applications (BigDataService)
+Y1  - 26-29 March 2018
+AB  - With the rapid development of social media and e-commerce on the Internet, many short texts such as instant messages, tweets and product comments have become an important form of Internet information. Compared with regular texts, short texts suffer severe data sparsity and informal format. Because of that, mining latent semantics such as topics in short texts is a critical challenge. There are many limitations directly applying common topic models like Latent Dirichlet Allocation (LDA) to short texts. In result of that, many short text topic models were put forward. The Word Network Topic Model (WNTM) is the typical one among them, which transfers sparse document to word space into dense word to word space and then learn topics from it. However, WNTM has its own limitation. The word co-occurrence matrix of the original document is used to construct the word network. This method is simple and intuitive, which can't express the deep meaning between words and words. To solve this problem, we proposed W2V-WNTM, which uses Word2Vec model instead of word co-occurrence to construct word network. Experiment shows it can describe relationship between words better.
+ER  - 
+
+TY  - JOUR
+TI  - Guest Editorial: Big Media Data: Understanding, Search, and Mining
+T2  - IEEE Transactions on Big Data
+SP  - 82
+EP  - 83
+AU  - J. Wang
+AU  - G. Qi
+AU  - N. Sebe
+AU  - C. C. Aggarwal
+PY  - 2015
+KW  - Special issues and sections
+KW  - Data mining
+KW  - Machine learning
+DO  - 10.1109/TBDATA.2015.2504198
+JO  - IEEE Transactions on Big Data
+IS  - 3
+SN  - 2332-7790
+VO  - 1
+VL  - 1
+JA  - IEEE Transactions on Big Data
+Y1  - 1 Sept. 2015
+AB  - The papers in this special section focus on the topic of Big Data. There has been an explosive increase in media data, such as images, videos and social media in the Internet, mobile devices, and desktops. Accordingly, the area of big media data has been attracting a lot of research interest from both academia and industry. Big media data offers a promising possibility for in-depth media understanding, as well as exploring the very big scale media data to bridge the well-known semantic gap between high-level semantics and low-level features. It provides richer information, ranging from social relations to context information associated to rich media data of diverse modalities. It also provides us the opportunity to mine reliable and helpful knowledge from big media data for a wide variety of applications.
+ER  - 
+
+TY  - CONF
+TI  - Message from the ICSC-SMM'15 program chairs
+T2  - Proceedings of the 2015 IEEE 9th International Conference on Semantic Computing (IEEE ICSC 2015)
+SP  - xxiii
+EP  - xxiii
+AU  - Chao Chen
+AU  - Dianting Liu
+AU  - Tao Meng
+AU  - Lin Lin
+AU  - Mei-Ling Shyu
+PY  - 2015
+DO  - 10.1109/ICOSC.2015.7050766
+JO  - Proceedings of the 2015 IEEE 9th International Conference on Semantic Computing (IEEE ICSC 2015)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - Proceedings of the 2015 IEEE 9th International Conference on Semantic Computing (IEEE ICSC 2015)
+Y1  - 7-9 Feb. 2015
+AB  - ICSC-SMM'15 is the fourth International Workshop on Semantic Multimedia. The aim of the workshop is to promote the state-of-the-art research regarding semantic multimedia. The ICSC-SMM' 15 workshop provides a forum for researchers, engineers, and scientists in affiliated disciplines to present their latest research progress, exchange brilliant ideas/thoughts, and explore new research directions. We continue seeking high quality research contributions and encouraging significant work that addresses the major challenges in the semantic multimedia domain. Topics of interest include but are not limited to practical areas that span a variety of aspects of semantic multimedia including: • Multimedia big data • Multimedia search and recommendation • Multimedia social networks • Multimedia data mining and retrieval • Media transport and delivery • Semantic multimedia metadata ontology and management • Multimedia content analysis and processing • Social media and presence • Semantics-enabled networking and middleware for multimedia applications • Multimedia security, content protection and forensics • Multi-modal integration, human-machine interaction and applications • Semantic-based QoS control and scheduling • Semantic-based Internet data streaming and delivery • Multimedia-enriched semantic web • Multimedia event detection and understanding • Semantic multimedia demonstrations and applications • Multimedia information fusion for semantics mining • Multimedia near duplication detection • Multimedia mobile applications • Semantic multimedia web interfaces and applications • Semantic web annotations and recommendations • Other related areas
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2012 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining
+SP  - i
+EP  - i
+PY  - 2012
+KW  - criminal law
+KW  - data mining
+KW  - data models
+KW  - data privacy
+KW  - database management systems
+KW  - decision support systems
+KW  - recommender systems
+KW  - security of data
+KW  - semantic Web
+KW  - social networking (online)
+KW  - software agents
+KW  - statistics
+KW  - trusted computing
+KW  - social network analysis
+KW  - mining
+KW  - data model
+KW  - social media
+KW  - communities discovery
+KW  - large scale social network
+KW  - online social network
+KW  - privacy
+KW  - security
+KW  - civil liberty issue
+KW  - mathematical network model
+KW  - statistical network model
+KW  - recommendation
+KW  - criminal network
+KW  - trust
+KW  - agent-based modeling
+KW  - multiactor model
+KW  - decision support
+KW  - data management
+KW  - social semantic Web
+KW  - social knowledge discovery
+KW  - social knowledge utilization
+DO  - 10.1109/ASONAM.2012.1
+JO  - 2012 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2012 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining
+Y1  - 26-29 Aug. 2012
+AB  - The following topics are dealt with: social network analysis; mining; data model; social media; communities discovery; large scale social network; online social network; privacy; security; civil liberty issue; mathematical network model; statistical network model; recommendation; criminal network; trust; agent-based modeling; multi-actor model; decision support; data management; social semantic Web; and social knowledge discovery and utilization.
+ER  - 
+
+TY  - CONF
+TI  - ICDE 2013 Conference [cover]
+T2  - 2013 IEEE 29th International Conference on Data Engineering (ICDE)
+SP  - 1
+EP  - 1
+PY  - 2013
+KW  - data mining
+KW  - database management systems
+KW  - distributed processing
+KW  - indexing
+KW  - query processing
+KW  - security of data
+KW  - social networking (online)
+KW  - storage management
+KW  - trees (mathematics)
+KW  - XML
+KW  - data engineering
+KW  - memory database
+KW  - MapReduce algorithm
+KW  - top-k query
+KW  - spatial data uncertainty
+KW  - data extraction
+KW  - trajectory database
+KW  - social network
+KW  - indexing structure
+KW  - memory query processing
+KW  - data mining
+KW  - moving object
+KW  - data cleaning
+KW  - social media
+KW  - data trust
+KW  - cloud data
+KW  - similarity ranking
+KW  - spatial database
+KW  - trees
+KW  - XML
+KW  - security
+KW  - privacy
+KW  - randomized algorithm
+KW  - distributed data processing
+KW  - similarity search
+KW  - shortest query
+KW  - direct query
+KW  - skyline query
+KW  - snapshot query
+KW  - graph indexing
+KW  - Web data
+KW  - query optimization
+KW  - data storage
+DO  - 10.1109/ICDE.2013.6544792
+JO  - 2013 IEEE 29th International Conference on Data Engineering (ICDE)
+IS  - 
+SN  - 1063-6382
+VO  - 
+VL  - 
+JA  - 2013 IEEE 29th International Conference on Data Engineering (ICDE)
+Y1  - 8-12 April 2013
+AB  - The following topics are dealt with: data engineering; memory database; MapReduce algorithm; top-k query; spatial data uncertainty; data extraction; trajectory database; social network; indexing structure; memory query processing; data mining; moving object; data cleaning; social media; data trust; cloud data; similarity ranking; spatial database; trees; XML; security and privacy; randomized algorithm; distributed data processing; similarity search; shortest query; direct query; skyline query; snapshot query; graph indexing; Web data; query optimization; and data storage.
+ER  - 
+
+TY  - JOUR
+TI  - Large-Scale Geosocial Multimedia [Guest editorial]
+T2  - IEEE MultiMedia
+SP  - 7
+EP  - 9
+AU  - R. Ji
+AU  - Y. Yang
+AU  - N. Sebe
+AU  - K. Aizawa
+AU  - L. Cao
+PY  - 2014
+KW  - mobile computing
+KW  - multimedia computing
+KW  - social networking (online)
+KW  - geosocial multimedia computing
+KW  - geographical multimedia data
+KW  - social network Websites
+KW  - pervasive social media analytics
+KW  - location-aware social multimedia
+KW  - location context data
+KW  - Special issues and sections
+KW  - Social network services
+KW  - Geography
+KW  - Information services
+KW  - Multimedia communication
+KW  - Streaming media
+KW  - Media
+KW  - Videos
+KW  - Blogs
+KW  - Geographic information systems
+KW  - Geospatial analysis
+KW  - multimedia
+KW  - multimedia applications
+KW  - multimedia research
+KW  - geosocial multimedia
+KW  - large-scale data
+KW  - visual search
+KW  - multimedia search
+KW  - landmark analysis
+KW  - geolocation
+DO  - 10.1109/MMUL.2014.43
+JO  - IEEE MultiMedia
+IS  - 3
+SN  - 1070-986X
+VO  - 21
+VL  - 21
+JA  - IEEE MultiMedia
+Y1  - July-Sept. 2014
+AB  - With the advance of the Web 2.0 era came an explosive growth of geographical multimedia data shared on social network websites such as Flickr, YouTube, Facebook, and Zooomr. Location-aware media description, modeling, learning, and recommendation in pervasive social media analytics have become a key focus of the recent research in computer vision, multimedia, and signal processing societies. A new breed of multimedia applications that incorporates image/video annotation, visual search, content mining and recommendation, and so on may revolutionize the field. Combined with the popularity of location-aware social multimedia, location context data makes traditionally challenging problems more tractable. This special issue brings together active researchers to share recent progress in this exciting area. This issue highlights the latest developments in large-scale multiple evidence-based learning for geosocial multimedia computing and identifies several key challenges and potential innovations.
+ER  - 
+
+TY  - JOUR
+TI  - Introduction to the issue on signal processing for big data
+T2  - IEEE Journal of Selected Topics in Signal Processing
+SP  - 583
+EP  - 585
+AU  - G. B. Giannakis
+AU  - R. Cendrillon
+AU  - V. Cevher
+AU  - A. Swami
+AU  - Z. Tian
+PY  - 2015
+KW  - Special issues and sections
+KW  - Big data
+KW  - Signal processing algorithms
+KW  - Internet
+KW  - Wireless sensor networks
+KW  - Mobile handsets
+DO  - 10.1109/JSTSP.2015.2418393
+JO  - IEEE Journal of Selected Topics in Signal Processing
+IS  - 4
+SN  - 1932-4553
+VO  - 9
+VL  - 9
+JA  - IEEE Journal of Selected Topics in Signal Processing
+Y1  - June 2015
+AB  - With the Internet, social media, wireless mobile devices, and pervasive sensors continuously collecting massive amounts of data, we undoubtedly live in an era of “data deluge.” Learning from such huge volumes of data however, promises ground-breaking advances in science and engineering along with consequent improvements in quality of life. Indeed, mining information from big data could limit the spread of epidemics and diseases, identify trends in financial and e-markets, unveil topologies and dynamics of emergent social-computational systems, accelerate brain imaging, neuroscience and systems biology models, and also protect critical infrastructure including the power grid and the Internet's backbone network. While Big Data can be definitely perceived as a big blessing, big challenges also arise with large-scale datasets. Given these challenges, ample signal processing opportunities arise. The articles in this special section explore novel modeling approaches, algorithmic advances along with their performance analysis, as well as representative applications of Big Data analytics to address practical challenges, while revealing fundamental limits and insights on the analytical trade-offs involved.
+ER  - 
+
+TY  - JOUR
+TI  - Social Media and the Jasmine Revolution
+T2  - IEEE Intelligent Systems
+SP  - 2
+EP  - 4
+AU  - F. Wang
+PY  - 2011
+KW  - Intelligent Systems
+KW  - open society
+KW  - crowdsourcing
+KW  - cyber-enabled social movement organizations (CeSMO)
+KW  - cybermovement organizations
+KW  - Jasmine Revolution
+KW  - social media
+DO  - 10.1109/MIS.2011.34
+JO  - IEEE Intelligent Systems
+IS  - 2
+SN  - 1541-1672
+VO  - 26
+VL  - 26
+JA  - IEEE Intelligent Systems
+Y1  - March-April 2011
+AB  - A study of the impact of social media on societal stability can begin with various cybermovement organizations (CMO) as well as their formation, structure, development, and internal and external dynamics. We have witnessed several CMOs emerging from Facebook and Twitter that they have played significant roles in social change, serving as grassroots campaigns in political elections and as an organizational tool in the recent Middle East revolution. To deal with the huge amount of Web data involved, many AI methods and tools addressed by this magazine, such as social networking, data mining, machine learning, language processing, and text and content analysis, are essential for the success of such a study.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2015 IEEE International Conference on Data Mining Workshop (ICDMW)
+SP  - i
+EP  - i
+PY  - 2015
+KW  - Big Data
+KW  - data analysis
+KW  - data integration
+KW  - data mining
+KW  - data visualisation
+KW  - educational administrative data processing
+KW  - health care
+KW  - information retrieval
+KW  - invasive software
+KW  - learning (artificial intelligence)
+KW  - medical information systems
+KW  - mobile computing
+KW  - sentiment analysis
+KW  - smart cities
+KW  - social networking (online)
+KW  - visual databases
+KW  - practical transfer learning
+KW  - mobility analytics
+KW  - security informatics
+KW  - intelligence informatics
+KW  - social network information analysis
+KW  - representation learning
+KW  - semantic data
+KW  - information extraction
+KW  - natural text sentiment elicitation
+KW  - social media retrieval
+KW  - social multimedia data mining
+KW  - spatial data mining
+KW  - spatiotemporal data mining
+KW  - information analysis
+KW  - high dimensional data mining
+KW  - data market
+KW  - visual analytics
+KW  - big data analytics
+KW  - data science
+KW  - network data mining
+KW  - biomedical informatics
+KW  - smart cities
+KW  - educational assessment
+KW  - data applications
+KW  - data integration
+KW  - healthcare
+KW  - biological data mining
+KW  - Botnet behavior analysis
+KW  - social media data event analysis
+DO  - 10.1109/ICDMW.2015.1
+JO  - 2015 IEEE International Conference on Data Mining Workshop (ICDMW)
+IS  - 
+SN  - 2375-9259
+VO  - 
+VL  - 
+JA  - 2015 IEEE International Conference on Data Mining Workshop (ICDMW)
+Y1  - 14-17 Nov. 2015
+AB  - The following topics are dealt with: social media data event analysis; Botnet behavior analysis; biological data mining; healthcare; data integration; data applications; educational assessment; smart cities; biomedical informatics; network data mining; data science; big data analytics; visual analytics; data market; high dimensional data mining; information analysis; spatiotemporal data mining; spatial data mining; social multimedia data mining; social media retrieval; natural text sentiment elicitation; information extraction; semantic data; representation learning; practical transfer learning; mobility analytics; security informatics; intelligence informatics; and social network information analysis.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2015 IEEE International Conference on Smart City/SocialCom/SustainCom (SmartCity)
+SP  - i
+EP  - i
+PY  - 2015
+KW  - artificial intelligence
+KW  - Big Data
+KW  - cloud computing
+KW  - collaborative filtering
+KW  - data mining
+KW  - data privacy
+KW  - embedded systems
+KW  - information retrieval
+KW  - intelligent transportation systems
+KW  - Internet of Things
+KW  - mobile computing
+KW  - security of data
+KW  - smart cities
+KW  - social networking (online)
+KW  - social sciences computing
+KW  - sustainable development
+KW  - trusted computing
+KW  - agent-based technology
+KW  - group interaction
+KW  - mobile social computing
+KW  - handheld social computing
+KW  - collaborative filtering
+KW  - sustainable computing
+KW  - sustainable MPI
+KW  - sustainable communications
+KW  - Big Data intelligence
+KW  - Big Data computing
+KW  - service computing
+KW  - cloud computing systems
+KW  - cloud computing architectures
+KW  - artificial intelligence
+KW  - data mining
+KW  - information retrieval
+KW  - social system architectures
+KW  - social system design
+KW  - trustworthy computing
+KW  - data privacy
+KW  - data security
+KW  - cryptography
+KW  - social intelligence
+KW  - social media analytics
+KW  - social media infrastructure
+KW  - social network mining
+KW  - social network analysis
+KW  - social behavior modelling
+KW  - smart transportation
+KW  - Internet of Things
+KW  - environment monitoring
+KW  - urban monitoring
+KW  - embedded networks
+KW  - embedded computing
+KW  - network infrastructure
+KW  - urban informatics
+KW  - smart cities
+DO  - 10.1109/SmartCity.2015.1
+JO  - 2015 IEEE International Conference on Smart City/SocialCom/SustainCom (SmartCity)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE International Conference on Smart City/SocialCom/SustainCom (SmartCity)
+Y1  - 19-21 Dec. 2015
+AB  - The following topics are dealt with: smart cities; urban informatics; network infrastructure; embedded computing; embedded networks; urban monitoring; environment monitoring; Internet of Things; smart transportation; social behavior modelling; social network analysis; social network mining; social media infrastructure; social media analytics; social intelligence; cryptography; data security; data privacy; trustworthy computing; social system design; social system architectures; information retrieval; data mining; artificial intelligence; agent-based technology; group interaction; mobile social computing; handheld social computing; collaborative filtering; sustainable computing; sustainable MPI; sustainable communications; Big Data intelligence; Big Data computing; service computing; cloud computing systems; and cloud computing architectures.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2016 49th Hawaii International Conference on System Sciences (HICSS)
+SP  - i
+EP  - i
+PY  - 2016
+KW  - administrative data processing
+KW  - computer games
+KW  - data handling
+KW  - data mining
+KW  - decision making
+KW  - ecology
+KW  - emergency management
+KW  - human computer interaction
+KW  - information systems
+KW  - Internet
+KW  - operations research
+KW  - organisational aspects
+KW  - power systems
+KW  - project management
+KW  - public domain software
+KW  - security
+KW  - social networking (online)
+KW  - teaching
+KW  - ubiquitous computing
+KW  - value engineering
+KW  - gamification
+KW  - collaboration research
+KW  - social media
+KW  - e-Business transformation
+KW  - e-Health
+KW  - mobile value services
+KW  - service science
+KW  - systems sciences
+KW  - sustainability decision technologies
+KW  - Big Data analytics
+KW  - Internet of Things
+KW  - Web mining
+KW  - text mining
+KW  - data mining
+KW  - business analytics
+KW  - smart city government
+KW  - e-Society services
+KW  - ICT-enabled services
+KW  - digital service innovations
+KW  - open phenomena
+KW  - humanitarian operations research
+KW  - intelligent decision support
+KW  - supply chain management
+KW  - logistics
+KW  - interactive visual decision analytics
+KW  - multicriteria decision analysis
+KW  - service analytics
+KW  - smart service systems
+KW  - soft computing
+KW  - streaming data analytics
+KW  - systemic financial risk analytics
+KW  - collective intelligence
+KW  - network analysis
+KW  - serious games
+KW  - team collaboration
+KW  - value creation
+KW  - mobility-enhanced social collaborations
+KW  - information design
+KW  - human-computer interaction
+KW  - human-centered assistance systems
+KW  - task-centered assistance systems
+KW  - global virtual teams
+KW  - distributed group decision-making
+KW  - social networking services
+KW  - innovation
+KW  - data science
+KW  - cross-organizational IS/IT collaboration
+KW  - cross-border IS/IT collaboration
+KW  - organizational creativity
+KW  - team creativity
+KW  - crisis management
+KW  - disaster management
+KW  - communication technology
+KW  - information systems technology
+KW  - teaching technologies
+KW  - learning technologies
+KW  - collaboration systems
+KW  - digital media
+KW  - social computing
+KW  - electric energy systems
+KW  - renewable generation
+KW  - distributed generation
+KW  - power system monitoring
+KW  - power system control
+KW  - power system protection
+KW  - resilient networks
+KW  - electronic government
+KW  - Big and Linked Data
+KW  - BOLD
+KW  - cybersecurity
+KW  - information and communication technologies
+KW  - human development
+KW  - social justice
+KW  - digital government
+KW  - healthcare
+KW  - global health IT strategies
+KW  - health behavior change support systems
+KW  - IT architectures
+KW  - learning health systems
+KW  - mobile applications
+KW  - clinical decision-making
+KW  - healthy aging technologies
+KW  - user experience design
+KW  - Internet
+KW  - digital economy
+KW  - crowdfunding
+KW  - electronic marketing
+KW  - IS cross-cultural issues
+KW  - behavioral IS security
+KW  - privacy
+KW  - Web content analysis
+KW  - Web content usage
+KW  - online games
+KW  - game-like systems
+KW  - social shopping
+KW  - Internet of Everything
+KW  - cloud computing
+KW  - knowledge innovation
+KW  - entrepreneurial systems
+KW  - knowledge systems
+KW  - socio-political legitimization
+KW  - knowledge economics
+KW  - knowledge flows
+KW  - knowledge transfer
+KW  - knowledge sharing
+KW  - knowledge exchange
+KW  - knowledge management
+KW  - knowledge society
+KW  - organizational learning
+KW  - ecosystems decision support
+KW  - enterprise architecture
+KW  - human capital
+KW  - business operations
+KW  - information systems procurement
+KW  - project management
+KW  - IT management
+KW  - open source application software
+KW  - business intelligence
+KW  - organizational information technologies
+KW  - agile
+KW  - lean
+KW  - cybercrimes
+KW  - cyberwarfare
+KW  - defensive software technologies
+KW  - offensive software technologies
+KW  - digital forensics
+KW  - parallel computing
+KW  - software product lines
+KW  - wireless networks
+DO  - 10.1109/HICSS.2016.1
+JO  - 2016 49th Hawaii International Conference on System Sciences (HICSS)
+IS  - 
+SN  - 1530-1605
+VO  - 
+VL  - 
+JA  - 2016 49th Hawaii International Conference on System Sciences (HICSS)
+Y1  - 5-8 Jan. 2016
+AB  - The following topics are dealt with: collaboration systems; learning technologies; teaching technologies; information systems technology; communication technology; disaster management; crisis management; team creativity; organizational creativity; cross-border IS/IT collaboration; cross-organizational IS/IT collaboration; data science; innovation; social networking services; distributed group decision-making; global virtual teams; task-centered assistance systems; human-centered assistance systems; human-computer interaction; information design; mobility-enhanced social collaborations; value creation; team collaboration; serious games; gamification; collaboration research; social media; e-Business transformation; e-Health; mobile value services; service science; systems sciences; sustainability decision technologies; Big Data analytics; Internet of Things; Web mining; text mining; data mining; business analytics; smart city government; e-Society services; ICT-enabled services; digital service innovations; open phenomena; humanitarian operations research; intelligent decision support; supply chain management; logistics; interactive visual decision analytics; multi-criteria decision analysis; service analytics; smart service systems; soft computing; streaming data analytics; systemic financial risk analytics; collective intelligence; network analysis; digital media; social computing; electric energy systems; renewable generation; distributed generation; power system monitoring; power system control; power system protection; resilient networks; electronic government; Big and Linked Data; BOLD; cybersecurity; information and communication technologies; human development; social justice; digital government; healthcare; global health IT strategies; health behavior change support systems; IT architectures; learning health systems; mobile applications; clinical decision-making; healthy aging technologies; user experience design; Internet; digital economy; crowdfunding; electronic marketing; IS cross-cultural issues; behavioral IS security; privacy; Web content analysis; Web content usage; online games; game-like systems; social shopping; Internet of Everything; cloud computing; knowledge innovation; entrepreneurial systems; knowledge systems; socio-political legitimization; knowledge economics; knowledge flows; knowledge transfer; knowledge sharing; knowledge exchange; knowledge management; knowledge society; organizational learning; ecosystems decision support; enterprise architecture; human capital; business operations; information systems procurement; project management; IT management; open source application software; business intelligence; organizational information technologies; agile; lean; cybercrimes; cyberwarfare; defensive software technologies; offensive software technologies; digital forensics; parallel computing; software product lines; and wireless networks.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 47th Hawaii International Conference on System Sciences
+SP  - v
+EP  - xlvix
+PY  - 2014
+KW  - case-based reasoning
+KW  - computer games
+KW  - data analysis
+KW  - data mining
+KW  - decision making
+KW  - decision support systems
+KW  - electronic commerce
+KW  - emergency management
+KW  - fuzzy logic
+KW  - groupware
+KW  - human resource management
+KW  - information retrieval
+KW  - information systems
+KW  - information technology
+KW  - Internet
+KW  - logistics
+KW  - mobile computing
+KW  - neural nets
+KW  - outsourcing
+KW  - social aspects of automation
+KW  - social networking (online)
+KW  - supply chain management
+KW  - teaching
+KW  - team working
+KW  - teleworking
+KW  - text analysis
+KW  - uncertainty handling
+KW  - virtual reality
+KW  - collaboration systems
+KW  - technology track
+KW  - teaching technologies
+KW  - learning technologies
+KW  - communication
+KW  - information systems technology
+KW  - emergency management
+KW  - cross-organizational IS/IT collaboration
+KW  - cross-border IS/IT collaboration
+KW  - team creativity
+KW  - organizational creativity
+KW  - negotiation
+KW  - leadership
+KW  - social communities
+KW  - distributed group decision making
+KW  - global virtual teams
+KW  - human-computer interaction
+KW  - design utilizing behavioral method
+KW  - neurophysiological method
+KW  - design science methods
+KW  - small team collaboration
+KW  - large team collaboration
+KW  - social perspectives
+KW  - psychological perspectives
+KW  - collaboration research
+KW  - e-business transformation
+KW  - technology-mediated collaborations
+KW  - healthcare
+KW  - 3D virtual environment working
+KW  - 3D virtual environment gaming
+KW  - decision analytics
+KW  - mobile services
+KW  - service science track
+KW  - design-led innovation
+KW  - design-led management
+KW  - big data
+KW  - data mining
+KW  - text mining
+KW  - Web mining
+KW  - managerial decision support
+KW  - production processes
+KW  - sustainability
+KW  - case-based reasoning
+KW  - CARMA
+KW  - information filtering
+KW  - information retrieval
+KW  - soft computing-based approaches
+KW  - ICT-enabled services
+KW  - intelligent decision support
+KW  - logistics
+KW  - supply chain management
+KW  - mobile value services
+KW  - multicriteria decision support
+KW  - network DSS
+KW  - mobile social networks
+KW  - sensor networks
+KW  - economic models
+KW  - digital economy
+KW  - service analytics
+KW  - service management
+KW  - service engineering
+KW  - SSME
+KW  - intelligent data analysis
+KW  - decision support visualization
+KW  - decision support analytics
+KW  - operational management
+KW  - scientific discovery
+KW  - digital media track
+KW  - social media track
+KW  - content production crowdsourcing
+KW  - online knowledge repositories
+DO  - 10.1109/HICSS.2014.4
+JO  - 2014 47th Hawaii International Conference on System Sciences
+IS  - 
+SN  - 1530-1605
+VO  - 
+VL  - 
+JA  - 2014 47th Hawaii International Conference on System Sciences
+Y1  - 6-9 Jan. 2014
+AB  - The following topics are dealt with: collaboration systems; technology track; teaching technologies; learning technologies; communication; information systems technology; emergency management; cross-organizational IS/IT collaboration; cross-border IS/IT collaboration; team creativity; organizational creativity; negotiation; leadership; social communities; distributed group decision making; global virtual teams; human-computer interaction; design utilizing behavioral method; neurophysiological method; design science methods; small team collaboration; large team collaboration; social perspectives; psychological perspectives; collaboration research; social media; e-business transformation; technology-mediated collaborations; healthcare; 3D virtual environment working; 3D virtual environment gaming; decision analytics; mobile services; service science track; design-led innovation; design-led management; big data; data mining; text mining; Web mining; managerial decision support; decision making; production processes; decision support; sustainability; case-based reasoning; CARMA; information filtering; information retrieval; soft computing-based approaches; ICT-enabled services; intelligent decision support; logistics; supply chain management; mobile value services; multi-criteria decision support; network DSS; mobile social networks; sensor networks; economic models; digital economy; service analytics; service science, management, and engineering (SSME); soft computing; intelligent data analysis; decision support visualization; decision support analytics; operational management; scientific discovery; digital media track; social media track; content production crowdsourcing; and online knowledge repositories.
+ER  - 
+
+TY  - CONF
+TI  - Cover Art
+T2  - 2015 48th Hawaii International Conference on System Sciences
+SP  - C4
+EP  - C4
+PY  - 2015
+KW  - Big Data
+KW  - cloud computing
+KW  - computer aided instruction
+KW  - computer mediated communication
+KW  - data mining
+KW  - digital forensics
+KW  - electronic commerce
+KW  - emergency management
+KW  - government data processing
+KW  - health care
+KW  - human computer interaction
+KW  - Internet of Things
+KW  - knowledge management
+KW  - mobile computing
+KW  - organisational aspects
+KW  - radio networks
+KW  - serious games (computing)
+KW  - small-to-medium enterprises
+KW  - smart cities
+KW  - social networking (online)
+KW  - teaching
+KW  - collaboration system
+KW  - teaching
+KW  - learning technology
+KW  - Big Data
+KW  - computer mediated-collaboration
+KW  - communication and information systems technology
+KW  - crisis management
+KW  - disaster management
+KW  - organizations
+KW  - cross-organizational collaboration
+KW  - leadership
+KW  - social community
+KW  - social networking service
+KW  - distributed group decision-making
+KW  - global virtual team
+KW  - human-computer interaction
+KW  - IT enabled collaboration
+KW  - small and large team collaboration
+KW  - serious games
+KW  - gamification
+KW  - innovation
+KW  - e-business transformation
+KW  - technology mediated collaboration
+KW  - healthcare
+KW  - mobile services
+KW  - service science
+KW  - data mining
+KW  - text mining
+KW  - Web mining
+KW  - business analytics
+KW  - decision making
+KW  - production process
+KW  - ICT enabled services
+KW  - intelligent decision support
+KW  - logistics
+KW  - supply chain management
+KW  - mobile value services
+KW  - multicriteria decision analysis
+KW  - decision support system
+KW  - digital economy
+KW  - open data services
+KW  - smart service system
+KW  - soft computing
+KW  - intelligent data analysis
+KW  - Internet of Things
+KW  - digital media
+KW  - citizen journalism
+KW  - social media archiving
+KW  - electronic government
+KW  - E-justice
+KW  - E-law
+KW  - secure cyberspace
+KW  - smart city
+KW  - transformational government
+KW  - electric energy system
+KW  - consumer health informatics
+KW  - electronic marketing
+KW  - online games
+KW  - knowledge management
+KW  - knowledge economics
+KW  - intellectual property and security
+KW  - IT governance
+KW  - software engineering
+KW  - software project management
+KW  - digital forensics
+KW  - cloud computing
+KW  - software product line
+KW  - wireless network
+DO  - 10.1109/HICSS.2015.673
+JO  - 2015 48th Hawaii International Conference on System Sciences
+IS  - 
+SN  - 1530-1605
+VO  - 
+VL  - 
+JA  - 2015 48th Hawaii International Conference on System Sciences
+Y1  - 5-8 Jan. 2015
+AB  - The following topics are dealt with: collaboration systems and technology track; teaching and learning technology; analytics and big data in computer mediated-collaboration; communication and information systems technology for crisis and disaster management; creativity in teams and organizations; cross-organizational and cross-border IS/IT collaboration; decision, negotiation, leadership, social communities and technology; design and innovation of social networking services; distributed group decision-making; global virtual teams; human-computer interaction; IT enabled collaboration in developing countries; small and large team collaboration; serious games, gamification and innovation; social and psychological perspectives in collaboration research; social media and e-business transformation; technology mediated collaboration in healthcare; mobile services and service science track; data, text and Web mining for business analytics; decision making in production processes; ICT enabled services; intelligent decision support for logistics and supply chain management; mobile value services; multi-criteria decision analysis and support systems; digital economy; open data services; smart service systems; soft computing and intelligent data analysis minitrack; Internet of Things; digital and social media track; citizen journalism and social media archiving; electronic government; E-justice and E-law; secure cyberspace; smart cities; transformational government; electric energy system; healthcare; Consumer health informatics; electronic marketing; online games; knowledge management; knowledge economics; intellectual property and security; IT governance; software engineering; software project management; digital forensics; cloud computing; software product lines; and wireless networks.
+ER  - 
+
+TY  - CONF
+TI  - Keynote abstract: Social data media analytics for graph-based event detection
+T2  - 2016 11th International Workshop on Semantic and Social Media Adaptation and Personalization (SMAP)
+SP  - xxiii
+EP  - xxiv
+AU  - Y. Kompatsiaris
+PY  - 2016
+KW  - data analysis
+KW  - indexing
+KW  - social networking (online)
+KW  - social data media analytics
+KW  - graph-based event detection
+KW  - indexing algorithms
+KW  - summarization
+KW  - social media streams
+DO  - 10.1109/SMAP.2016.7753373
+JO  - 2016 11th International Workshop on Semantic and Social Media Adaptation and Personalization (SMAP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 11th International Workshop on Semantic and Social Media Adaptation and Personalization (SMAP)
+Y1  - 20-21 Oct. 2016
+AB  - Summary form only given. The pervasive use of Online Social Networks (OSN) for networking, communication and search in tandem with the ubiquitous availability of smartphones, which enables real-time multimedia capturing and sharing, have led to massive amounts of user-generated content and activities being amassed online, and made publicly available for analysis and mining. Each content item is associated with an abundance of metadata and related information such as location, tags, comments, favorites and mood indicators, access logs, and so on. At the same time, all this information is implicitly or explicitly interconnected based on various properties such as social links among users, groups, communities, and sharing patterns. These properties transform social media into data sources of an extremely dynamic nature that reflect topics of interests, events, and the evolution of community opinion and focus. Social media processing offers a unique opportunity to structure and extract information and to benefit multiple areas ranging from new media experiences to psychology and marketing. The objective of this talk is to provide an overview of the current research in emerging topics related to applications where social media can act as sensors of real-life phenomena and case studies that reveal valuable insights. After discussing challenges and presenting a generic conceptual architecture, there will be a focus on efficient processing and indexing algorithms that can handle massive amounts of content with application to graph-based event detection and summarization in social media streams.
+ER  - 
+
+TY  - CONF
+TI  - ASONAM 2010 and OSINT-WM 2010 Invited Keynotes
+T2  - 2010 International Conference on Advances in Social Networks Analysis and Mining
+SP  - xxvi
+EP  - xxix
+AU  - S. Wasserman
+PY  - 2010
+KW  - data analysis
+KW  - data mining
+KW  - social networking (online)
+KW  - ASONAM 2010
+KW  - OSINT-WM 2010
+KW  - data mining
+KW  - machine learning
+KW  - pattern recognition
+KW  - large scale social network data analysis
+KW  - network science
+KW  - social media
+KW  - online communities
+KW  - statistics
+KW  - social science
+KW  - behavioral science
+DO  - 10.1109/ASONAM.2010.89
+JO  - 2010 International Conference on Advances in Social Networks Analysis and Mining
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2010 International Conference on Advances in Social Networks Analysis and Mining
+Y1  - 9-11 Aug. 2010
+AB  - Data mining of network data often focuses on classification methods from machine learning, statistics, and pattern recognition perspectives. These techniques have been described by many, but many of these researchers are unaware of the rich history of classification and clustering techniques originating in social network analysis. The growth of rich social media, on-line communities, and collectively produced knowledge resources has greatly increased the need for good analytic techniques for social networks. We now have the opportunity to analyze social network data at unprecedented levels of scale and temporal resolution; this has led to a growing body of research at the intersection of the computing, statistics, and the social and behavioral sciences. This talk discusses some of the current challenges in the analysis of large-scale social network data, focusing on the inference of social processes from data. The invasion of network science by computer scientists has produced much interesting, both good and bad, research.
+ER  - 
+
+TY  - CONF
+TI  - [Front matter]
+T2  - 2013 IEEE Symposium on Computational Intelligence and Data Mining (CIDM)
+SP  - i
+EP  - vi
+PY  - 2013
+KW  - data analysis
+KW  - data mining
+KW  - data visualisation
+KW  - learning (artificial intelligence)
+KW  - multimedia computing
+KW  - pattern classification
+KW  - pattern clustering
+KW  - time series
+KW  - computational intelligence
+KW  - data mining
+KW  - machine learning
+KW  - data analysis
+KW  - data visualization
+KW  - process mining
+KW  - high dimensional data
+KW  - time series
+KW  - classification
+KW  - clustering
+KW  - multimedia data
+KW  - social media
+DO  - 10.1109/CIDM.2013.6597209
+JO  - 2013 IEEE Symposium on Computational Intelligence and Data Mining (CIDM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2013 IEEE Symposium on Computational Intelligence and Data Mining (CIDM)
+Y1  - 16-19 April 2013
+AB  - The following topics are dealt with: computational intelligence; data mining; machine learning; data analysis; data visualization; process mining; high dimensional data; time series; classification; clustering; multimedia data; and social media.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2015 IEEE International Congress on Big Data
+SP  - i
+EP  - i
+PY  - 2015
+KW  - data mining
+KW  - data privacy
+KW  - distributed processing
+KW  - health care
+KW  - image processing
+KW  - learning (artificial intelligence)
+KW  - social networking (online)
+KW  - data mining
+KW  - social network
+KW  - data privacy
+KW  - learning
+KW  - query processing
+KW  - big data processing
+KW  - big data quality
+KW  - big data platform
+KW  - big data semantics
+KW  - health care
+KW  - network management
+KW  - distributed processing
+KW  - social media
+KW  - image processing
+DO  - 10.1109/BigDataCongress.2015.1
+JO  - 2015 IEEE International Congress on Big Data
+IS  - 
+SN  - 2379-7703
+VO  - 
+VL  - 
+JA  - 2015 IEEE International Congress on Big Data
+Y1  - 27 June-2 July 2015
+AB  - The following topics are dealt with: data mining; social network; data privacy; learning; query processing; big data processing; big data quality; big data platform; big data semantics; health care; network management; distributed processing; social media; and image processing.
+ER  - 
+
+TY  - JOUR
+TI  - Computational Intelligence for Big Social Data Analysis [Guest Editorial]
+T2  - IEEE Computational Intelligence Magazine
+SP  - 8
+EP  - 9
+AU  - E. Cambria
+AU  - N. Howard
+AU  - Y. Xia
+AU  - T. Chua
+PY  - 2016
+KW  - Special issues and sections
+KW  - Big data
+KW  - Computational intelligence
+KW  - Data analysis
+KW  - Collaboration
+KW  - Media
+KW  - Social network services
+DO  - 10.1109/MCI.2016.2572481
+JO  - IEEE Computational Intelligence Magazine
+IS  - 3
+SN  - 1556-603X
+VO  - 11
+VL  - 11
+JA  - IEEE Computational Intelligence Magazine
+Y1  - Aug. 2016
+AB  - The articles in this special section focus on computational intelligence for big social data analytics. In the eras of social connectedness and social colonization, people are becoming increasingly enthusiastic about interacting, sharing, and collaborating through online collaborative media. In recent years, this collective intelligence has spread to many different areas, with particular focus on fields related to everyday life such as commerce, tourism, education, and health, causing the size of the Social Web to expand exponentially. The distillation of knowledge from such a large amount of unstructured information, however, is an extremely difficult task, as the contents of today's Web are perfectly suitable for human consumption, but remain hardly understandable to machines. Big social data analysis grows out of this need and combines multiple disciplines such as social network analysis, multimedia management, social media analytics, trend discovery, and opinion mining.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2016 12th International Conference on Semantics, Knowledge and Grids (SKG)
+SP  - i
+EP  - i
+PY  - 2016
+KW  - data handling
+KW  - image processing
+KW  - knowledge engineering
+KW  - social networking (online)
+KW  - image data analysis
+KW  - data mining
+KW  - social media
+KW  - ontology mapping approach
+KW  - Big Data processing
+KW  - knowledge discovering approach
+KW  - social recommender systems
+DO  - 10.1109/SKG.2016.001
+JO  - 2016 12th International Conference on Semantics, Knowledge and Grids (SKG)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 12th International Conference on Semantics, Knowledge and Grids (SKG)
+Y1  - 15-17 Aug. 2016
+AB  - The following topics are dealt with: social recommender systems; knowledge discovering approach; Big Data processing; ontology mapping approach; social media; data mining; and image data analysis.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2013 International Conference on Cloud and Green Computing
+SP  - v
+EP  - xiii
+PY  - 2013
+KW  - cloud computing
+KW  - computer centres
+KW  - computer games
+KW  - data mining
+KW  - data privacy
+KW  - database management systems
+KW  - ethical aspects
+KW  - green computing
+KW  - learning (artificial intelligence)
+KW  - mobile computing
+KW  - social aspects of automation
+KW  - social networking (online)
+KW  - societies
+KW  - virtual machines
+KW  - green computing
+KW  - energy-efficient mechanisms
+KW  - service management
+KW  - system management
+KW  - advanced analytics
+KW  - data mining
+KW  - real-time algorithmism
+KW  - scalable algorithmism
+KW  - security
+KW  - service availability
+KW  - cloud infrastructure management
+KW  - virtual machine management
+KW  - SCA
+KW  - mobile games
+KW  - Twitter
+KW  - SNA
+KW  - social semantic Web
+KW  - content analysis
+KW  - learning
+KW  - social media services
+KW  - data privacy
+KW  - ethics
+KW  - ecofriendly data centers
+KW  - EuroEcoDC
+KW  - workflow management in service and cloud computing
+KW  - WMSC
+KW  - Crowd Work
+KW  - human computation
+KW  - collective social awareness and relevance
+KW  - CSAR
+KW  - graph databases
+KW  - social networking
+KW  - Society 2.0
+DO  - 10.1109/CGC.2013.4
+JO  - 2013 International Conference on Cloud and Green Computing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2013 International Conference on Cloud and Green Computing
+Y1  - 30 Sept.-2 Oct. 2013
+AB  - The following topics are dealt with: green computing; energy-efficient mechanisms; service management; system management; advanced analytics; data mining; real-time algorithmism; scalable algorithmism; security; service availability; cloud infrastructure management; virtual machine management; SCA; mobile games; Twitter; SNA; social semantic Web; content analysis; learning; social media services; data privacy; ethics; ecofriendly data centers; EuroEcoDC; workflow management in service and cloud computing; WMSC; Crowd Work; human computation; collective social awareness and relevance; CSAR; graph databases; social networking; and Society 2.0.
+ER  - 
+
+TY  - CONF
+TI  - [Title page]
+T2  - 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)
+SP  - 1
+EP  - 1
+PY  - 2016
+KW  - advertising data processing
+KW  - data mining
+KW  - health care
+KW  - information retrieval
+KW  - learning (artificial intelligence)
+KW  - politics
+KW  - recommender systems
+KW  - security of data
+KW  - social networking (online)
+KW  - information retrieval
+KW  - health care
+KW  - pattern detection
+KW  - data mining
+KW  - social media analysis
+KW  - mobile media
+KW  - social advertising markets
+KW  - recommender system
+KW  - information sharing
+KW  - machine learning
+KW  - data security
+KW  - graph sampling
+KW  - political issues
+KW  - social networking
+DO  - 10.1109/ASONAM.2016.7752183
+JO  - 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)
+Y1  - 18-21 Aug. 2016
+AB  - The following topics are dealt with: social networking; political issues; graph sampling; data security; machine learning; information sharing; recommender system; social advertising markets; mobile media; social media analysis; data mining; pattern detection; health care; information retrieval.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+SP  - c1
+EP  - c1
+PY  - 2016
+KW  - competitive intelligence
+KW  - data analysis
+KW  - data mining
+KW  - data privacy
+KW  - electronic commerce
+KW  - learning (artificial intelligence)
+KW  - pattern classification
+KW  - pattern classification
+KW  - data privacy
+KW  - high-dimensional data
+KW  - social media
+KW  - temporal analytics
+KW  - data mining
+KW  - relational data
+KW  - structured data
+KW  - predictive analytics
+KW  - business intelligence
+KW  - e-commerce
+KW  - electronic commerce
+KW  - data analytics
+KW  - data science
+KW  - statistical learning
+DO  - 10.1109/DSAA.2016.96
+JO  - 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+Y1  - 17-19 Oct. 2016
+AB  - The following topics are dealt with: pattern classification; data privacy; high-dimensional data; social media; temporal analytics; data mining; relational data; structured data; predictive analytics; business intelligence; e-commerce; data analytics; data science; and statistical learning.
+ER  - 
+
+TY  - CONF
+TI  - [Copyright notice]
+T2  - 2012 IEEE 12th International Conference on Data Mining Workshops
+SP  - iv
+EP  - iv
+PY  - 2012
+KW  - biology computing
+KW  - data mining
+KW  - data privacy
+KW  - distributed processing
+KW  - health care
+KW  - information retrieval
+KW  - pattern clustering
+KW  - social networking (online)
+KW  - spatiotemporal phenomena
+KW  - biological data mining
+KW  - healthcare
+KW  - data clustering
+KW  - data privacy
+KW  - knowledge discovery
+KW  - cloud computing
+KW  - distributed computing
+KW  - information retrieval
+KW  - social media
+KW  - spatial data mining
+KW  - spatio-temporal data mining
+KW  - Web entity modeling
+DO  - 10.1109/ICDMW.2012.3
+JO  - 2012 IEEE 12th International Conference on Data Mining Workshops
+IS  - 
+SN  - 2375-9232
+VO  - 
+VL  - 
+JA  - 2012 IEEE 12th International Conference on Data Mining Workshops
+Y1  - 10-10 Dec. 2012
+AB  - The following topics are dealt with: biological data mining; healthcare; data clustering; data privacy; knowledge discovery; cloud computing; distributed computing; information retrieval; social media; spatial data mining; spatio-temporal data mining; and Web entity modeling.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2016 IEEE International Symposium on Multimedia (ISM)
+SP  - c1
+EP  - c1
+PY  - 2016
+KW  - computer aided instruction
+KW  - computer games
+KW  - data mining
+KW  - digital forensics
+KW  - encoding
+KW  - graphical user interfaces
+KW  - image retrieval
+KW  - information retrieval
+KW  - media streaming
+KW  - mobile computing
+KW  - multimedia systems
+KW  - ontologies (artificial intelligence)
+KW  - quality management
+KW  - quality of service
+KW  - semantic Web
+KW  - social networking (online)
+KW  - virtual reality
+KW  - virtual reality
+KW  - gaming
+KW  - social network
+KW  - Web interfaces
+KW  - forensics
+KW  - security
+KW  - quality management
+KW  - media coding
+KW  - deep learning
+KW  - data mining
+KW  - mobile search
+KW  - graphics
+KW  - 3D data
+KW  - ontologies
+KW  - media semantics
+KW  - QoS
+KW  - networking
+KW  - streaming
+KW  - retrieval
+KW  - multimedia
+DO  - 10.1109/ISM.2016.0001
+JO  - 2016 IEEE International Symposium on Multimedia (ISM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE International Symposium on Multimedia (ISM)
+Y1  - 11-13 Dec. 2016
+AB  - The following topics are dealt with: multimedia; retrieval; streaming; networking; QoS; media semantics; ontologies; 3D data; graphics; mobile search; data mining; deep learning; media coding; quality management; security; forensics; Web interfaces; social network; gaming; virtual reality; e-learning; and information processing.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2017 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)
+SP  - v
+EP  - xvii
+PY  - 2017
+KW  - artificial intelligence
+KW  - data handling
+KW  - Internet
+KW  - Internet of Things
+KW  - medical computing
+KW  - security of data
+KW  - social networking (online)
+KW  - telecommunication networks
+KW  - wireless sensor networks
+KW  - data privacy
+KW  - intelligent computing
+KW  - healthcare
+KW  - energy Internet
+KW  - QoE
+KW  - heterogeneous wireless networks
+KW  - multimedia computing
+KW  - datacenter
+KW  - energy efficiency
+KW  - D2D communications
+KW  - cyber crime
+KW  - critical infrastructure protection
+KW  - active learning
+KW  - smart sustainable society
+KW  - Big Data
+KW  - social media mining
+KW  - mobile social networking
+KW  - cloud computing
+KW  - real-time data processing
+KW  - model-driven applications
+KW  - engineering data-driven application
+KW  - machine learning
+KW  - ad hoc networks
+KW  - IEEE smart data
+KW  - CPSCom
+KW  - IEEE cyber-physical-and-social computing
+KW  - IEEE green computing and communications
+KW  - Internet of Things
+DO  - 10.1109/iThings-GreenCom-CPSCom-SmartData.2017.4
+JO  - 2017 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)
+Y1  - 21-23 June 2017
+AB  - The following topics are dealt with: Internet of Things IEEE green computing and communications IEEE cyber-physical-and-social computing CPSCom IEEE smart data ad hoc networks machine learning engineering data-driven application model-driven applications; real-time data processing; cloud computing; mobile social networking; social media mining; Big Data; smart sustainable society; active learning; critical infrastructure protection; cyber crime; D2D communications; energy efficiency; datacenter; multimedia computing; heterogeneous wireless networks; QoE; wireless sensor networks; data privacy; intelligent computing; healthcare; and energy Internet.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2012 45th Hawaii International Conference on System Sciences
+SP  - C1
+EP  - C1
+PY  - 2012
+KW  - bioinformatics
+KW  - cloud computing
+KW  - data mining
+KW  - digital libraries
+KW  - fuzzy logic
+KW  - government data processing
+KW  - graphical user interfaces
+KW  - group decision support systems
+KW  - groupware
+KW  - health care
+KW  - human computer interaction
+KW  - knowledge management
+KW  - learning (artificial intelligence)
+KW  - negotiation support systems
+KW  - object-oriented methods
+KW  - radiofrequency identification
+KW  - security of data
+KW  - social networking (online)
+KW  - software prototyping
+KW  - supply chain management
+KW  - teaching
+KW  - collaboration systems
+KW  - teaching
+KW  - learning technologies
+KW  - collaborative modeling
+KW  - cross-border IS/IT collaboration
+KW  - distributed group decision-making
+KW  - global virtual teams
+KW  - human-computer interaction
+KW  - negotiation support systems
+KW  - object oriented GUI
+KW  - social media
+KW  - e-business transformation
+KW  - social networks
+KW  - healthcare
+KW  - managerial decision support
+KW  - fuzzy logic
+KW  - soft computing
+KW  - supply chain management
+KW  - digital libraries
+KW  - electric energy systems
+KW  - information security
+KW  - electronic government
+KW  - e-governance
+KW  - infrastructure security
+KW  - consumer health informatics issues
+KW  - data mining
+KW  - biomedical informatics
+KW  - electronic marketing
+KW  - social networking
+KW  - Web mining
+KW  - knowledge management
+KW  - business process management
+KW  - radio frequency identification
+KW  - agile software engineering
+KW  - digital forensics
+KW  - secure cloud computing
+KW  - software product lines
+KW  - wireless networks
+KW  - HCI
+DO  - 10.1109/HICSS.2012.701
+JO  - 2012 45th Hawaii International Conference on System Sciences
+IS  - 
+SN  - 1530-1605
+VO  - 
+VL  - 
+JA  - 2012 45th Hawaii International Conference on System Sciences
+Y1  - 4-7 Jan. 2012
+AB  - The following topics are dealt with: collaboration systems; teaching; learning technologies; cognitive perspectives; collaborative modeling; cross-organizational collaboration; cross-border IS/IT collaboration; distributed group decision-making; global virtual teams; human-computer interaction; negotiation support systems; object oriented GUI; social media; e-business transformation; social networks; healthcare; managerial decision support; fuzzy logic; soft computing; intelligent decision support; supply chain management; digital libraries; information access; social informatics; electric energy systems; information security; trust; electronic government; e-policy; e-governance; infrastructure security; HCI; consumer health informatics issues; data mining; biomedical informatics; digital economy; electronic marketing; social networking; Web mining; knowledge management; business process management; end user computing; radio frequency identification; agile software engineering; digital forensics; secure cloud computing; software product lines; software testing and wireless networks.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2015 IEEE International Conference on Information Reuse and Integration
+SP  - i
+EP  - i
+PY  - 2015
+KW  - Big Data
+KW  - data integration
+KW  - data mining
+KW  - information retrieval
+KW  - Internet
+KW  - medical information systems
+KW  - multimedia computing
+KW  - ontologies (artificial intelligence)
+KW  - pattern classification
+KW  - security of data
+KW  - social networking (online)
+KW  - software reusability
+KW  - data integration
+KW  - cyber physical systems
+KW  - ontologies
+KW  - text inference
+KW  - data mining
+KW  - information privacy
+KW  - information security
+KW  - software automation
+KW  - software testing
+KW  - software reuse
+KW  - health informatics
+KW  - information integration
+KW  - information reuse
+KW  - formal method integration
+KW  - information heuristics
+KW  - information extraction
+KW  - information retrieval
+KW  - fuzzy systems
+KW  - NLP
+KW  - grid computing
+KW  - cloud computing
+KW  - sensor data management
+KW  - multimedia data management
+KW  - Web
+KW  - social networks
+KW  - social media
+KW  - semantic data management
+KW  - big data management
+DO  - 10.1109/IRI.2015.1
+JO  - 2015 IEEE International Conference on Information Reuse and Integration
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE International Conference on Information Reuse and Integration
+Y1  - 13-15 Aug. 2015
+AB  - The following topics are dealt with: big data management; semantic data management; social media; social networks; Web; multimedia data management; sensor data management; cloud computing; grid computing; NLP; fuzzy systems; information retrieval; information extraction; information heuristics; formal method integration; information reuse; information integration; health informatics; software reuse; software testing; software automation; information security; information privacy; data management; data mining; data integration; cyber physical systems; ontologies; and text inference.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2017 IEEE International Conference on Information Reuse and Integration (IRI)
+SP  - c1
+EP  - c1
+PY  - 2017
+KW  - cyber-physical systems
+KW  - data analysis
+KW  - data integration
+KW  - data mining
+KW  - decision support systems
+KW  - knowledge representation
+KW  - learning (artificial intelligence)
+KW  - pattern classification
+KW  - security of data
+KW  - social networking (online)
+KW  - information reuse
+KW  - data integration
+KW  - data security
+KW  - data mining
+KW  - cyber physical systems
+KW  - decision support systems
+KW  - knowledge representation
+KW  - social media
+KW  - machine learning
+KW  - data analytics
+KW  - classification
+DO  - 10.1109/IRI.2017.96
+JO  - 2017 IEEE International Conference on Information Reuse and Integration (IRI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 IEEE International Conference on Information Reuse and Integration (IRI)
+Y1  - 4-6 Aug. 2017
+AB  - The following topics are dealt with: information reuse; data integration; data security; data mining ; cyber physical systems; decision support systems; knowledge representation; social media; machine learning; data analytics; and classification.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2015 IEEE International Conference on Computer and Information Technology; Ubiquitous Computing and Communications; Dependable, Autonomic and Secure Computing; Pervasive Intelligence and Computing
+SP  - i
+EP  - i
+PY  - 2015
+KW  - 5G mobile communication
+KW  - ad hoc networks
+KW  - Big Data
+KW  - cloud computing
+KW  - computer graphics
+KW  - data mining
+KW  - database management systems
+KW  - fault tolerant computing
+KW  - image processing
+KW  - pattern recognition
+KW  - quality of experience
+KW  - quality of service
+KW  - security of data
+KW  - social networking (online)
+KW  - ubiquitous computing
+KW  - wireless sensor networks
+KW  - smart health
+KW  - utility computing
+KW  - cloud computing
+KW  - social media mining
+KW  - text understanding
+KW  - intelligent communication
+KW  - social networks
+KW  - cybercrimes
+KW  - sustainable high performance computing
+KW  - intelligent Big Data systems
+KW  - cyber-physical computing
+KW  - knowledge computing
+KW  - image processing
+KW  - computer graphics
+KW  - QoS
+KW  - QoE
+KW  - multimedia application
+KW  - Internet of Things
+KW  - artificial intelligence
+KW  - data mining
+KW  - pattern recognition
+KW  - information security
+KW  - database systems management
+KW  - data management
+KW  - ad hoc networks
+KW  - wireless sensor
+KW  - 5G technologies
+KW  - wireless communication
+KW  - pervasive computing
+KW  - pervasive intelligence
+KW  - dependable computing
+KW  - autonomic computing
+KW  - secure computing
+KW  - ubiquitous computing
+KW  - information technology
+KW  - computer technology
+DO  - 10.1109/CIT/IUCC/DASC/PICOM.2015.361
+JO  - 2015 IEEE International Conference on Computer and Information Technology; Ubiquitous Computing and Communications; Dependable, Autonomic and Secure Computing; Pervasive Intelligence and Computing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE International Conference on Computer and Information Technology; Ubiquitous Computing and Communications; Dependable, Autonomic and Secure Computing; Pervasive Intelligence and Computing
+Y1  - 26-28 Oct. 2015
+AB  - The following topics are dealt with: computer technology; information technology; ubiquitous computing; secure computing; autonomic computing; dependable computing; pervasive intelligence; pervasive computing; wireless communication; 5G technologies; wireless sensor; ad hoc networks; data management; database systems management; information security; pattern recognition; data mining; artificial intelligence; Internet of Things; multimedia application; QoS/QoE provision; computer graphics; image processing; smart health; utility computing; cloud computing; social media mining; text understanding; intelligent communication; social networks; cybercrimes; sustainable high performance computing; intelligent Big Data systems; cyber-physical computing; and knowledge computing.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2017 IEEE 3rd International Conference on Collaboration and Internet Computing (CIC)
+SP  - 5
+EP  - 11
+PY  - 2017
+KW  - Big Data
+KW  - cloud computing
+KW  - data mining
+KW  - groupware
+KW  - information management
+KW  - Internet of Things
+KW  - learning (artificial intelligence)
+KW  - security
+KW  - social networking (online)
+KW  - social sciences computing
+KW  - Big Data
+KW  - information management
+KW  - information sharing
+KW  - social computing
+KW  - machine learning
+KW  - social media
+KW  - mining
+KW  - blockchain
+KW  - cloud services
+KW  - trust
+KW  - Internet-of-Things
+KW  - access control
+KW  - privacy
+KW  - security
+KW  - document management
+KW  - collaboration
+DO  - 10.1109/CIC.2017.00004
+JO  - 2017 IEEE 3rd International Conference on Collaboration and Internet Computing (CIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 IEEE 3rd International Conference on Collaboration and Internet Computing (CIC)
+Y1  - 15-17 Oct. 2017
+AB  - The following topics are dealt with: collaboration; document management; security; privacy; access control; Internet-of-Things; trust; cloud services; blockchain; mining; social media; machine learning; social computing; information sharing; information management; and Big Data.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2012 IEEE 28th International Conference on Data Engineering
+SP  - i
+EP  - i
+PY  - 2012
+KW  - data integration
+KW  - data mining
+KW  - data privacy
+KW  - data visualisation
+KW  - database management systems
+KW  - distributed processing
+KW  - graph theory
+KW  - indexing
+KW  - Internet
+KW  - query processing
+KW  - scientific information systems
+KW  - security of data
+KW  - storage management
+KW  - text analysis
+KW  - XML
+KW  - data engineering
+KW  - privacy
+KW  - Web 2.0 application
+KW  - storage management
+KW  - data streams processing
+KW  - graph
+KW  - uncertain database
+KW  - probabilistic database
+KW  - data integration
+KW  - data extraction
+KW  - spatio-temporal data management
+KW  - query processing
+KW  - location aware data processing
+KW  - map-reduce based data processing
+KW  - social media
+KW  - peer to peer
+KW  - distributed processing
+KW  - XML
+KW  - RDF data management
+KW  - data quality
+KW  - top-k processing
+KW  - similarity search
+KW  - text
+KW  - strings
+KW  - data mining
+KW  - scientific data
+KW  - data analysis
+KW  - data visualization
+KW  - similarity detection
+KW  - sensor network
+KW  - trajectory
+KW  - error reduction
+KW  - data security
+KW  - indexing
+DO  - 10.1109/ICDE.2012.1
+JO  - 2012 IEEE 28th International Conference on Data Engineering
+IS  - 
+SN  - 2375-026X
+VO  - 
+VL  - 
+JA  - 2012 IEEE 28th International Conference on Data Engineering
+Y1  - 1-5 April 2012
+AB  - The following topics are dealt with: data engineering; privacy; Web 2.0 application; storage management; data streams processing; graph; uncertain database; probabilistic database; data integration; data extraction; spatio-temporal data management; query processing; location aware data processing; map-reduce based data processing; social media; peer to peer; distributed processing; XML; RDF data management; data quality; top-k processing; similarity search; text and strings; data mining; scientific data; data analysis; data visualization; similarity detection; sensor network; trajectory; error reduction; data security; and indexing.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 17th International Conference on Network-Based Information Systems
+SP  - v
+EP  - xiii
+PY  - 2014
+KW  - cloud computing
+KW  - computer networks
+KW  - data mining
+KW  - data privacy
+KW  - database management systems
+KW  - intelligent sensors
+KW  - mobile computing
+KW  - multimedia systems
+KW  - parallel processing
+KW  - protocols
+KW  - security of data
+KW  - social networking (online)
+KW  - trusted computing
+KW  - virtual reality
+KW  - Web services
+KW  - wireless mesh networks
+KW  - network-based information systems
+KW  - parallel computing
+KW  - distributed computing
+KW  - wireless mesh networks
+KW  - multimedia applications
+KW  - network protocols
+KW  - intelligent computing
+KW  - mobile computing
+KW  - wireless computing
+KW  - cloud computing
+KW  - ad-hoc networks
+KW  - sensor networks
+KW  - data security
+KW  - data privacy
+KW  - databases
+KW  - data mining
+KW  - social networks
+KW  - network-based virtual reality
+KW  - advanced distributed network applications
+KW  - advanced parallel network applications
+KW  - intelligent sensors
+KW  - trustworthy computing
+KW  - heterogeneous networking
+KW  - information networking
+KW  - wireless communications
+KW  - Web services
+KW  - social media
+KW  - data engineering
+DO  - 10.1109/NBiS.2014.9
+JO  - 2014 17th International Conference on Network-Based Information Systems
+IS  - 
+SN  - 2157-0418
+VO  - 
+VL  - 
+JA  - 2014 17th International Conference on Network-Based Information Systems
+Y1  - 10-12 Sept. 2014
+AB  - The following topics are dealt with: network-based information systems; parallel computing; distributed computing; wireless mesh networks; multimedia applications; network protocols; intelligent computing; mobile computing; wireless computing; cloud computing; ad-hoc networks; sensor networks; data security; data privacy; databases; data mining; social networks; network-based virtual reality; advanced distributed network applications; advanced parallel network applications; intelligent sensors; trustworthy computing; heterogeneous networking; information networking; wireless communications; Web services; social media; and data engineering.
+ER  - 
+
+TY  - CONF
+TI  - [Title page i]
+T2  - 2007 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology - Workshops
+SP  - i
+EP  - i
+PY  - 2007
+KW  - cooperative systems
+KW  - Internet
+KW  - Web intelligence
+KW  - intelligent agent technology
+KW  - semantic Web
+KW  - brain informatics
+KW  - Web personalization
+KW  - recommender system
+KW  - Web service composition
+KW  - biomedicine application
+KW  - social media analysis
+KW  - data privacy
+KW  - human-agent communication
+KW  - multiagent system
+KW  - peer-to-peer computing
+KW  - autonomous agent
+KW  - e-business
+KW  - data mining
+KW  - Web security
+DO  - 10.1109/WI-IATW.2007.128
+JO  - 2007 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology - Workshops
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2007 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology - Workshops
+Y1  - 5-12 Nov. 2007
+AB  - The following topics are dealt with: Web intelligence; intelligent agent technology; semantic Web; brain informatics; Web personalization; recommender system; Web service composition; biomedicine application; social media analysis; Web security; data privacy; human-agent communication; multi-agent system; peer-to-peer computing; autonomous agent; e-business; data mining.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - Proceedings of the 2014 IEEE 15th International Conference on Information Reuse and Integration (IEEE IRI 2014)
+SP  - i
+EP  - xiii
+PY  - 2014
+KW  - artificial intelligence
+KW  - Big Data
+KW  - cloud computing
+KW  - data analysis
+KW  - data integration
+KW  - data privacy
+KW  - decision support systems
+KW  - fuzzy systems
+KW  - information retrieval
+KW  - medical information systems
+KW  - multi-agent systems
+KW  - optimisation
+KW  - program testing
+KW  - security of data
+KW  - social networking (online)
+KW  - software reusability
+KW  - information security
+KW  - information privacy
+KW  - software design
+KW  - software testing
+KW  - software reuse
+KW  - social network security
+KW  - social media
+KW  - public health
+KW  - crowdsourcing
+KW  - Big Data
+KW  - cloud computing
+KW  - information reuse
+KW  - information extraction
+KW  - multiagent system
+KW  - data analysis
+KW  - data management
+KW  - data integration
+KW  - health informatics
+KW  - data mining
+KW  - knowledge discovery
+KW  - AI
+KW  - decision support systems
+KW  - formal methods integration
+KW  - fuzzy systems
+KW  - heuristic optimization
+DO  - 10.1109/IRI.2014.7051721
+JO  - Proceedings of the 2014 IEEE 15th International Conference on Information Reuse and Integration (IEEE IRI 2014)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - Proceedings of the 2014 IEEE 15th International Conference on Information Reuse and Integration (IEEE IRI 2014)
+Y1  - 13-15 Aug. 2014
+AB  - The following topics are dealt with: information security &amp;amp; privacy; software design, testing and reuse; social network security; social media, crowdsourcing, and public health; Big Data/networks &amp;amp; cloud computing; information reuse &amp;amp; extraction; multiagent system; data analysis, management &amp;amp; integration; health informatics; data mining and knowledge discovery; AI &amp;amp; decision support systems; formal methods integration; cyber physical systems; and fuzzy systems &amp;amp; heuristic optimization.
+ER  - 
+
+TY  - CONF
+TI  - Introduction to Social Media in Social Informatics Minitrack
+T2  - 2012 45th Hawaii International Conference on System Sciences
+SP  - 1758
+EP  - 1758
+AU  - T. Ohta
+AU  - I. Okada
+AU  - H. Yamamoto
+AU  - H. Suwa
+PY  - 2012
+DO  - 10.1109/HICSS.2012.366
+JO  - 2012 45th Hawaii International Conference on System Sciences
+IS  - 
+SN  - 1530-1605
+VO  - 
+VL  - 
+JA  - 2012 45th Hawaii International Conference on System Sciences
+Y1  - 4-7 Jan. 2012
+AB  - Our minitrack aims to 1) Explore the impacts of social media, such as BBS, Wiki, blog, SNS, twitter and so on, with respect to human behavior and choices in everyday life. 2) Develop the concepts and technologies, such as knowledge creation, data-mining, and so on, for effective sharing of information and knowledge among people by the social media.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2017 IEEE 25th International Requirements Engineering Conference (RE)
+SP  - v
+EP  - xii
+PY  - 2017
+KW  - data mining
+KW  - formal specification
+KW  - formal verification
+KW  - security of data
+KW  - social networking (online)
+KW  - systems analysis
+KW  - requirements engineering
+KW  - social media
+KW  - data mining
+KW  - user feedback
+KW  - security
+DO  - 10.1109/RE.2017.8
+JO  - 2017 IEEE 25th International Requirements Engineering Conference (RE)
+IS  - 
+SN  - 2332-6441
+VO  - 
+VL  - 
+JA  - 2017 IEEE 25th International Requirements Engineering Conference (RE)
+Y1  - 4-8 Sept. 2017
+AB  - The following topics are dealt with: requirements engineering; social media; data mining; user feedback; and security.
+ER  - 
+
+TY  - CONF
+TI  - [Cover art]
+T2  - 2012 IEEE Sixth International Conference on Semantic Computing
+SP  - C4
+EP  - C4
+PY  - 2012
+KW  - data mining
+KW  - inference mechanisms
+KW  - natural language processing
+KW  - semantic networks
+KW  - social sciences computing
+KW  - semantic computing
+KW  - sociolinguistics
+KW  - social media
+KW  - natural language
+KW  - reasoning
+KW  - data mining
+KW  - machine learning
+DO  - 10.1109/ICSC.2012.73
+JO  - 2012 IEEE Sixth International Conference on Semantic Computing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2012 IEEE Sixth International Conference on Semantic Computing
+Y1  - 19-21 Sept. 2012
+AB  - The following topics are dealt with: semantic computing; sociolinguistics; social media; natural language; reasoning; data mining; and machine learning;.
+ER  - 
+
+TY  - CONF
+TI  - Keynote speech V deriving values from spatial trajectories
+T2  - 2015 Conference on Technologies and Applications of Artificial Intelligence (TAAI)
+SP  - 29
+EP  - 29
+AU  - Xiaofang Zhou
+PY  - 2015
+KW  - Big Data
+KW  - data analysis
+KW  - data mining
+KW  - parallel processing
+KW  - spatial trajectory data
+KW  - GPS devices
+KW  - smartphones
+KW  - social media applications
+KW  - data quality
+KW  - big data analytics
+KW  - trajectory data management
+KW  - trajectory data mining
+KW  - high performance processing
+DO  - 10.1109/TAAI.2015.7407050
+JO  - 2015 Conference on Technologies and Applications of Artificial Intelligence (TAAI)
+IS  - 
+SN  - 2376-6824
+VO  - 
+VL  - 
+JA  - 2015 Conference on Technologies and Applications of Artificial Intelligence (TAAI)
+Y1  - 20-22 Nov. 2015
+AB  - Spatial trajectory data is widely available today. Over a sustained period of time, trajectory data has been collected from numerous GPS devices, smartphones, sensors and social media applications. How do we manage them? What values can a business derive from them, and how? Due to their very large volumes, the nature of streaming itself, highly variable levels of data quality, as well as many possible links with other types of data, making sense of spatial trajectory data is one of the crucial areas for big data analytics. In this talk, we will introduce this increasingly important research area in the context of new applications, new problems and new opportunities. We will discuss recent advances in trajectory data management and trajectory mining, from their foundations to high performance processing with modern computing infrastructures.
+ER  - 
+
+TY  - CONF
+TI  - [Title page]
+T2  - 2016 4th Saudi International Conference on Information Technology (Big Data Analysis) (KACSTIT)
+SP  - 1
+EP  - 1
+PY  - 2016
+KW  - Big Data
+KW  - data analysis
+KW  - data mining
+KW  - digital simulation
+KW  - image processing
+KW  - natural language processing
+KW  - sentiment analysis
+KW  - social networking (online)
+KW  - data-driven smart proxy model
+KW  - Dbpedia
+KW  - entity search
+KW  - interactive user interface
+KW  - Arabic social media posts
+KW  - sentiment subjective analysis
+KW  - SVM
+KW  - Arabic poetry focused crawling
+KW  - unsupervised morpheme boundary detection
+KW  - NLP
+KW  - image processing
+KW  - single image blind deblurring
+KW  - image restoration filters
+KW  - IQM
+KW  - image quality measures
+KW  - multilayer perceptron
+KW  - Big Data forecasting
+KW  - Big Data security analytics
+KW  - Big Data mining
+DO  - 10.1109/KACSTIT.2016.7756057
+JO  - 2016 4th Saudi International Conference on Information Technology (Big Data Analysis) (KACSTIT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 4th Saudi International Conference on Information Technology (Big Data Analysis) (KACSTIT)
+Y1  - 6-9 Nov. 2016
+AB  - The following topics are dealt with: Big Data mining; Big Data security analytics; Big Data forecasting; multilayer perceptron; image quality measures; IQM; image restoration filters; single image blind deblurring; image processing; NLP; unsupervised morpheme boundary detection; Arabic poetry focused crawling; SVM; sentiment subjective analysis; Arabic social media posts; interactive user interface; entity search; Dbpedia; and data-driven smart proxy model.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - The 2nd International Conference on Next Generation Information Technology
+SP  - 1
+EP  - 1
+PY  - 2011
+KW  - adaptive antenna arrays
+KW  - cellular automata
+KW  - cloud computing
+KW  - commerce
+KW  - computer based training
+KW  - conjugate gradient methods
+KW  - data mining
+KW  - decision making
+KW  - educational administrative data processing
+KW  - feature extraction
+KW  - gears
+KW  - Linux
+KW  - manufacturing data processing
+KW  - maximum likelihood estimation
+KW  - medical image processing
+KW  - microstrip antennas
+KW  - motion estimation
+KW  - multiprocessing systems
+KW  - neural nets
+KW  - ontologies (artificial intelligence)
+KW  - particle swarm optimisation
+KW  - patient rehabilitation
+KW  - personnel
+KW  - power aware computing
+KW  - process control
+KW  - quality control
+KW  - search problems
+KW  - security of data
+KW  - transforms
+KW  - video signal processing
+KW  - virtual machines
+KW  - virtual reality
+KW  - wireless sensor networks
+KW  - computer aided surgical system
+KW  - 3D medical images
+KW  - smart antenna system weight vector adaptation
+KW  - conjugate gradient method
+KW  - OSGI platform
+KW  - vehicle gateway
+KW  - vehicle network
+KW  - wireless sensor networks
+KW  - maximum likelihood
+KW  - video capture virtual reality
+KW  - motor impairment rehabilitation
+KW  - parallel full search algorithm
+KW  - motion estimation
+KW  - multicore processors
+KW  - image analysis techniques
+KW  - gene spot identification
+KW  - cDNA microarray images
+KW  - supervised feature extraction algorithm
+KW  - simplified-traditional Chinese character conversion
+KW  - customer order dependent supplier selection
+KW  - expert decision-making strategy
+KW  - TFT-LCD quality
+KW  - collaboration commerce systems
+KW  - adjustable range routing algorithm
+KW  - personal sustainability index
+KW  - power-aware memory management
+KW  - hybrid main memory
+KW  - programmable workflow composition
+KW  - metacognition effect
+KW  - Diigo social media tool
+KW  - online inquiry learning context problem-based e-learning program
+KW  - convenience store new employee training
+KW  - PLIB ontology integration
+KW  - networked manufacturing information
+KW  - three-band composite microstrip patch antenna
+KW  - virtual machine controller
+KW  - neuro-fuzzy system
+KW  - quantum clone genetic algorithm
+KW  - NFC mobile payment
+KW  - miniforklift robot
+KW  - digital watermarking
+KW  - cellular automata transform
+KW  - university ranking
+KW  - university evaluation
+KW  - cloud computing security auditing
+KW  - secure directed diffusion routing protocol
+KW  - diabetes management smart framework
+KW  - service oriented architecture
+KW  - digital intellectual property library development
+KW  - engineering design education
+KW  - magnetic gear
+KW  - China energy industrial structural adjustment
+KW  - bootup time improvement
+KW  - embedded Linux
+KW  - linguistic sharing techniques
+KW  - artificial neural networks design
+KW  - modified adaptive particle swarm optimization
+KW  - data mining approach
+KW  - manufacturing processes quality control
+KW  - complex social systems
+DO  - 
+JO  - The 2nd International Conference on Next Generation Information Technology
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - The 2nd International Conference on Next Generation Information Technology
+Y1  - 21-23 June 2011
+AB  - The following topics are dealt with: computer aided surgical system; 3D medical images; smart antenna system weight vector adaptation; conjugate gradient method; OSGI platform; vehicle gateway; vehicle network; wireless sensor networks; maximum likelihood; video capture virtual reality; motor impairment rehabilitation; parallel full search algorithm; motion estimation; multicore processors; image analysis techniques; gene spot identification; cDNA microarray images; supervised feature extraction algorithm; simplified-traditional Chinese character conversion; customer order dependent supplier selection; expert decision-making strategy; TFT-LCD quality; collaboration commerce systems; adjustable range routing algorithm; personal sustainability index; power-aware memory management; hybrid main memory; programmable workflow composition; metacognition effect; Diigo social media tool; online inquiry learning context problem-based e-learning program; convenience store new employee training; PLIB ontology integration; networked manufacturing information; three-band composite microstrip patch antenna; virtual machine controller; neuro-fuzzy system; quantum clone genetic algorithm; NFC mobile payment; miniforklift robot; digital watermarking; cellular automata transform;university ranking; university evaluation; cloud computing security auditing; secure directed diffusion routing protocol; diabetes management smart framework; service oriented architecture; digital intellectual property library development; engineering design education; magnetic gear; China energy industrial structural adjustment; bootup time improvement; embedded Linux; linguistic sharing techniques; artificial neural networks design; modified adaptive particle swarm optimization; data mining approach; manufacturing processes quality control and complex social systems.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2016 IEEE 16th International Conference on Data Mining (ICDM)
+SP  - c1
+EP  - c1
+PY  - 2016
+KW  - collaborative filtering
+KW  - crowdsourcing
+KW  - data mining
+KW  - distributed algorithms
+KW  - emotion recognition
+KW  - feature selection
+KW  - graph theory
+KW  - inference mechanisms
+KW  - investment
+KW  - learning (artificial intelligence)
+KW  - medical administrative data processing
+KW  - neural nets
+KW  - recommender systems
+KW  - security of data
+KW  - sentiment analysis
+KW  - social networking (online)
+KW  - statistical analysis
+KW  - learning
+KW  - subgraph mining
+KW  - online social networks
+KW  - regression
+KW  - Web sites
+KW  - collaborative filtering
+KW  - statistics
+KW  - Markov chains
+KW  - recommendation
+KW  - Bayesian inference
+KW  - multigraph decomposition
+KW  - time series
+KW  - feature selection
+KW  - principal component analysis
+KW  - emotion recognition
+KW  - sentiment analysis
+KW  - crowdsourcing
+KW  - neural networks
+KW  - clinical data
+KW  - social media
+KW  - investments
+KW  - optimization
+KW  - distributed algorithms
+KW  - anomaly detection
+DO  - 10.1109/ICDM.2016.0001
+JO  - 2016 IEEE 16th International Conference on Data Mining (ICDM)
+IS  - 
+SN  - 2374-8486
+VO  - 
+VL  - 
+JA  - 2016 IEEE 16th International Conference on Data Mining (ICDM)
+Y1  - 12-15 Dec. 2016
+AB  - The following topics are dealt with: learning; sub-graph mining; online social networks; regression; Web sites; collaborative filtering; statistics; Markov chains; recommendation; Bayesian inference; multi-graph decomposition; time series; feature selection; principal component analysis; emotion recognition; sentiment analysis; crowdsourcing; neural networks; clinical data; social media; investments; optimization; distributed algorithms; and anomaly detection.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 Third IEEE International Colloquium in Information Science and Technology (CIST)
+SP  - 1
+EP  - 9
+PY  - 2014
+KW  - 3G mobile communication
+KW  - business data processing
+KW  - cloud computing
+KW  - computer aided instruction
+KW  - data mining
+KW  - face recognition
+KW  - feature selection
+KW  - information retrieval
+KW  - IP networks
+KW  - job shop scheduling
+KW  - learning (artificial intelligence)
+KW  - mobile computing
+KW  - multi-agent systems
+KW  - multicast communication
+KW  - multimedia communication
+KW  - natural language processing
+KW  - object detection
+KW  - robots
+KW  - small-to-medium enterprises
+KW  - social networking (online)
+KW  - speaker recognition
+KW  - telecommunication network routing
+KW  - vehicular ad hoc networks
+KW  - wireless sensor networks
+KW  - business process
+KW  - multiagent system
+KW  - autonomous robots
+KW  - social media
+KW  - cloud computing
+KW  - e-learning
+KW  - feature selection
+KW  - data mining
+KW  - SME
+KW  - job shop scheduling
+KW  - mobile social network
+KW  - natural language processing
+KW  - machine learning
+KW  - information retreival
+KW  - face recognition
+KW  - UMTS
+KW  - text-independent speaker identification
+KW  - object detection
+KW  - mobile IPv6
+KW  - wireless sensor network
+KW  - VANET
+KW  - multimedia multicast routing
+DO  - 10.1109/CIST.2014.7016584
+JO  - 2014 Third IEEE International Colloquium in Information Science and Technology (CIST)
+IS  - 
+SN  - 2327-1884
+VO  - 
+VL  - 
+JA  - 2014 Third IEEE International Colloquium in Information Science and Technology (CIST)
+Y1  - 20-22 Oct. 2014
+AB  - The following topics are dealt with: business process; multi-agent system; autonomous robots; social media; cloud computing; e-learning; feature selection; data mining; SME; job shop scheduling; mobile social network; natural language processing; machine learning; information retreival; face recognition; UMTS; text-independent speaker identification; object detection; mobile IPv6; wireless sensor network; VANET; and multimedia multicast routing.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 Seventh International Joint Conference on Computational Sciences and Optimization
+SP  - v
+EP  - xvii
+PY  - 2014
+KW  - artificial intelligence
+KW  - competitive intelligence
+KW  - data analysis
+KW  - data mining
+KW  - decision making
+KW  - finance
+KW  - numerical analysis
+KW  - optimisation
+KW  - numerical algorithm
+KW  - numerical analysis
+KW  - computational simulation
+KW  - computational engineering
+KW  - computational intelligence
+KW  - computational finance
+KW  - game theory
+KW  - stochastic optimization
+KW  - industrial optimization
+KW  - engineering optimization
+KW  - supply chain
+KW  - operation management
+KW  - spatial computational sciences
+KW  - computational business science
+KW  - artificial intelligence
+KW  - data analysis
+KW  - data mining
+KW  - asset pricing
+KW  - financial risk management
+KW  - financial engineering
+KW  - low carbon economy
+KW  - carbon finance
+KW  - business intelligence
+KW  - case-based computing
+KW  - innovation management
+KW  - social media content quantification
+KW  - optimization-based decision making
+DO  - 10.1109/CSO.2014.4
+JO  - 2014 Seventh International Joint Conference on Computational Sciences and Optimization
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 Seventh International Joint Conference on Computational Sciences and Optimization
+Y1  - 4-6 July 2014
+AB  - The following topics are dealt with: numerical algorithm and analysis; computational simulation and analysis; computational engineering; computational intelligence and computational finance; game theory and stochastic optimization; finance and industrial optimization; managerial and engineering optimization; supply chain and operation management; spatial computational sciences and applications; computational business science; optimization methods and applications; decision making under uncertainty; artificial intelligence with business applications; data analysis and data mining; supply chain integration and BI; asset pricing and financial risk management; financial engineering and its applications; low-carbon economy and carbon finance; business intelligence with case-based computing; innovation management and numerical algorithms; social media content quantification; computational finance; and optimization-based decision making.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2016 2nd International Conference on Science in Information Technology (ICSITech)
+SP  - c1
+EP  - c1
+PY  - 2016
+KW  - Big Data
+KW  - cloud computing
+KW  - computer aided instruction
+KW  - computer animation
+KW  - computer games
+KW  - cryptography
+KW  - data mining
+KW  - enterprise resource planning
+KW  - health care
+KW  - hyperspectral imaging
+KW  - image classification
+KW  - image segmentation
+KW  - Internet of Things
+KW  - medical image processing
+KW  - mobile computing
+KW  - natural language processing
+KW  - pattern clustering
+KW  - retail data processing
+KW  - small-to-medium enterprises
+KW  - social networking (online)
+KW  - software cost estimation
+KW  - traffic engineering computing
+KW  - retinal fundus images segmentation
+KW  - traffic surveillance image
+KW  - Web user mining
+KW  - mobile Internet services
+KW  - hyperspectral image classification
+KW  - social media
+KW  - categorical data clustering
+KW  - health care system
+KW  - Big Data
+KW  - IoT platform
+KW  - software cost estimation
+KW  - advance encryption standard
+KW  - educational game
+KW  - e-learning system
+KW  - Vietnamese word segmentation
+KW  - Facebook
+KW  - cloud computing
+KW  - online game
+KW  - SMEs
+KW  - ERP
+KW  - online shopping
+KW  - computer animation
+KW  - information technology
+DO  - 10.1109/ICSITech.2016.7852579
+JO  - 2016 2nd International Conference on Science in Information Technology (ICSITech)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 2nd International Conference on Science in Information Technology (ICSITech)
+Y1  - 26-27 Oct. 2016
+AB  - The following topics are dealt with: information technology; computer animation; online shopping; ERP; SMEs; online game; cloud computing; Facebook; Vietnamese word segmentation; e-learning system; educational game; advance encryption standard; software cost estimation; IoT platform; Big Data; health care system; categorical data clustering; social media; hyperspectral image classification; mobile Internet services; Web user mining; traffic surveillance image; and retinal fundus images segmentation.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2017 Pacific Neighborhood Consortium Annual Conference and Joint Meetings (PNC)
+SP  - 1
+EP  - 3
+PY  - 2017
+KW  - computer graphics
+KW  - data mining
+KW  - Digital Divide
+KW  - educational technology
+KW  - electronic publishing
+KW  - financial data processing
+KW  - humanities
+KW  - image processing
+KW  - information retrieval
+KW  - information technology
+KW  - Linked Data
+KW  - natural sciences computing
+KW  - ontologies (artificial intelligence)
+KW  - smart cities
+KW  - social networking (online)
+KW  - virtual instrumentation
+KW  - social media usage
+KW  - Web technology
+KW  - virtual reality
+KW  - disaster relief
+KW  - SQ4R
+KW  - student team achievement division
+KW  - e-books
+KW  - humanoid avatar motion capture recording system
+KW  - virtual lab
+KW  - fire insurance maps
+KW  - user-generated storytelling
+KW  - biodiversity change computing
+KW  - ontology-based expert system
+KW  - iBeacon
+KW  - intangible heritage
+KW  - information visualization interfaces
+KW  - smartwatch navigation
+KW  - mixed-reality learning environment
+KW  - open data science
+KW  - film language analysis
+KW  - mining system
+KW  - text retrieval
+KW  - image annotation
+KW  - temporal variations analysis
+KW  - topic detection
+KW  - Linked Data
+KW  - spatial information
+KW  - research resource information
+KW  - ePortfolio
+KW  - Taiwan sustainable campus program
+KW  - information technology
+KW  - digital divide
+KW  - smart cities
+DO  - 10.23919/PNC.2017.8203513
+JO  - 2017 Pacific Neighborhood Consortium Annual Conference and Joint Meetings (PNC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 Pacific Neighborhood Consortium Annual Conference and Joint Meetings (PNC)
+Y1  - 7-9 Nov. 2017
+AB  - The following topics are dealt with: smart cities; digital divide; information technology; Taiwan sustainable campus program; ePortfolio; research resource information; spatial information; Linked Data; topic detection; temporal variations analysis; image annotation; text retrieval; mining system; film language analysis; open data science; mixed-reality learning environment; smartwatch navigation; information visualization interfaces; intangible heritage; iBeacon; ontology-based expert system; biodiversity change computing; user-generated storytelling; fire insurance maps; social media usage; Web technology; virtual reality; disaster relief; SQ4R; student team achievement division; e-books; humanoid avatar motion capture recording system; and virtual lab.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 Brazilian Conference on Intelligent Systems
+SP  - v
+EP  - xi
+PY  - 2014
+KW  - complex networks
+KW  - data mining
+KW  - fuzzy systems
+KW  - inference mechanisms
+KW  - information retrieval
+KW  - knowledge representation
+KW  - learning (artificial intelligence)
+KW  - multi-agent systems
+KW  - natural language processing
+KW  - neural nets
+KW  - optimisation
+KW  - pattern classification
+KW  - planning
+KW  - recommender systems
+KW  - regression analysis
+KW  - scheduling
+KW  - social networking (online)
+KW  - complex network
+KW  - dynamic model
+KW  - adaptive method
+KW  - concept drift
+KW  - multiobjective optimization
+KW  - fuzzy systems
+KW  - pattern recognition
+KW  - information retrieval
+KW  - reasoning
+KW  - knowledge representation
+KW  - classification
+KW  - regression
+KW  - scheduling
+KW  - planning
+KW  - agents
+KW  - neural networks
+KW  - recommender systems
+KW  - social media analysis
+KW  - natural language processing
+KW  - data mining
+KW  - machine learning
+DO  - 10.1109/BRACIS.2014.4
+JO  - 2014 Brazilian Conference on Intelligent Systems
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 Brazilian Conference on Intelligent Systems
+Y1  - 18-22 Oct. 2014
+AB  - The following topics are dealt with: machine learning; data mining; natural language processing; social media analysis; recommender systems; neural networks; agents; planning; scheduling; regression; classification; knowledge representation; reasoning; information retrieval; pattern recognition; fuzzy systems; multiobjective optimization; concept drift; adaptive method; dynamic model and complex network.
+ER  - 
+
+TY  - CONF
+TI  - Product opinion mining using sentiment analysis on smartphone reviews
+T2  - 2017 6th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)
+SP  - 377
+EP  - 383
+AU  - S. Chawla
+AU  - G. Dubey
+AU  - A. Rana
+PY  - 2017
+KW  - Bayes methods
+KW  - data mining
+KW  - sentiment analysis
+KW  - smart phones
+KW  - product opinion mining
+KW  - sentiment analysis
+KW  - smartphone reviews
+KW  - social web sites
+KW  - robustful trust worthy systems
+KW  - ware houses
+KW  - urban language
+KW  - sentimental analysis
+KW  - smart phone opinions
+KW  - Positive Behavior
+KW  - Negative Behavior
+KW  - Neutral Behavior
+KW  - Bayesian Interface system
+KW  - positive opinions
+KW  - negative opinions
+KW  - Text Mining &#x2014; Opinion
+KW  - mining-sentiment analysis-text analysis-Sentiment Mining
+DO  - 10.1109/ICRITO.2017.8342455
+JO  - 2017 6th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 6th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)
+Y1  - 20-22 Sept. 2017
+AB  - An unexpected increase in the application of social web sites has led to the need in development of a very robustful and trust worthy systems and varied machinery forms in order to analyze such large forms of data and their ware houses which is being collected from various industries. We are always eager and excited to know what people think what they feel and perceive about various aspects of living and non-living beings. In need to understand and analyze various traits of behavior and the varying personality there is a need of opinion mining. It is a collection of all the extracted information from all the available resources and possible instances which could be in the form of hidden emotions, paragraphs and could be text, urban language and various un-identified representations. It is not only related topics like sensex, politics, finance and other meaningful words, but represents many things in the wide area of application. Almost all the sites have provided the option to display and present various medias and their views on various real life events. They can share various aspects of philosophy too and many more. They can represent various opinions on various streams of life which has really become crucial in our daily life to analyze the pattern in which things are exponentially growing. This research paper provides you with sentimental analysis of various smart phone opinions on smart phones dividing them Positive, Negative and Neutral Behavior. This is basically being obtained by studying the various posts being posted by varied number of users considering their areas of interest categorizing the smart phones. Analysis of plenty of words coupled in a sentence represent various sentiments of users and the various experiences and impact that product has given them. This analysis compiles a structural modeling approach and Bayesian Interface system to identify the polarity of the opinion which subsequently classifies positive and negative opinions.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 Joint 7th International Conference on Soft Computing and Intelligent Systems (SCIS) and 15th International Symposium on Advanced Intelligent Systems (ISIS)
+SP  - 1
+EP  - 26
+PY  - 2014
+KW  - artificial intelligence
+KW  - autonomous underwater vehicles
+KW  - battery management systems
+KW  - brain-computer interfaces
+KW  - combinatorial mathematics
+KW  - control engineering education
+KW  - data mining
+KW  - fuzzy set theory
+KW  - image registration
+KW  - mobile radio
+KW  - mobile robots
+KW  - neural nets
+KW  - power engineering computing
+KW  - SLAM (robots)
+KW  - social networking (online)
+KW  - surgery
+KW  - traffic engineering computing
+KW  - trajectory control
+KW  - video signal processing
+KW  - wireless sensor networks
+KW  - SMP-based shaving
+KW  - large-scale battery energy storage system
+KW  - mass social media
+KW  - personal riding robot
+KW  - combinatorial fuzzy problem
+KW  - video summarization
+KW  - bidirectional neural network
+KW  - educational-support robot
+KW  - trajectory following control
+KW  - mobile phone
+KW  - chess game artificial intelligence
+KW  - traffic demand
+KW  - 3D FastSLAM algorithm
+KW  - autonomous underwater vehicle
+KW  - mobile robot
+KW  - brain-computer interface
+KW  - neurosurgical operation
+KW  - WSN
+KW  - image registration
+KW  - text data mining
+DO  - 10.1109/SCIS-ISIS.2014.7044505
+JO  - 2014 Joint 7th International Conference on Soft Computing and Intelligent Systems (SCIS) and 15th International Symposium on Advanced Intelligent Systems (ISIS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 Joint 7th International Conference on Soft Computing and Intelligent Systems (SCIS) and 15th International Symposium on Advanced Intelligent Systems (ISIS)
+Y1  - 3-6 Dec. 2014
+AB  - The following topics are dealt with: SMP-based shaving using a large-scale battery energy storage system; mass social media; personal riding robot; combinatorial fuzzy problems; video summarization; bidirectional neural networks; educational-support robot; trajectory following control; mobile phone; chess game artificial intelligence; estimation of traffic demand; 3D FastSLAM algorithm; autonomous underwater vehicle; mobile robot; brain-computer interface; neurosurgical operation; WSN; image registration; and text data mining.
+ER  - 
+
+TY  - CONF
+TI  - [Front cover]
+T2  - 2009 IEEE International Conference on Acoustics, Speech and Signal Processing
+SP  - c1
+EP  - c1
+PY  - 2009
+KW  - active noise control
+KW  - adaptive filters
+KW  - audio coding
+KW  - bioinformatics
+KW  - blind source separation
+KW  - channel estimation
+KW  - cognitive radio
+KW  - cooperative systems
+KW  - data encapsulation
+KW  - feature extraction
+KW  - fingerprint identification
+KW  - game theory
+KW  - image coding
+KW  - image resolution
+KW  - image restoration
+KW  - image retrieval
+KW  - information theory
+KW  - interactive systems
+KW  - language translation
+KW  - learning (artificial intelligence)
+KW  - medical image processing
+KW  - medical signal processing
+KW  - microphone arrays
+KW  - MIMO systems
+KW  - Monte Carlo methods
+KW  - motion estimation
+KW  - multimedia databases
+KW  - neurophysiology
+KW  - OFDM modulation
+KW  - optimisation
+KW  - resource allocation
+KW  - robots
+KW  - signal reconstruction
+KW  - speaker recognition
+KW  - speech enhancement
+KW  - speech recognition
+KW  - stereo image processing
+KW  - video coding
+KW  - watermarking
+KW  - audio coding
+KW  - signal enhancement
+KW  - source separation
+KW  - microphone signal processing
+KW  - loudspeaker array signal processing
+KW  - acoustic echo control
+KW  - active noise control
+KW  - sound perception
+KW  - audio analysis
+KW  - audiosynthesis
+KW  - multichannel biomedical signal processing
+KW  - bioinformatics
+KW  - scalable video coding
+KW  - multiview video coding
+KW  - image filtering
+KW  - stereoscopic processing
+KW  - 3-D processing
+KW  - video segmentation
+KW  - video tracking
+KW  - feature extraction
+KW  - image superresolution
+KW  - biometrics
+KW  - motion estimation
+KW  - stereo processing
+KW  - image coding
+KW  - remote sensing imagery
+KW  - image retrieval
+KW  - image quality assessment
+KW  - image modeling
+KW  - video modeling
+KW  - image restoration
+KW  - intelligent vehicle applications
+KW  - security methods
+KW  - data hiding
+KW  - authentication
+KW  - watermarking
+KW  - fingerprinting
+KW  - signal decomposition
+KW  - learning methods
+KW  - MLSP applications
+KW  - statistical modelling
+KW  - signal extraction
+KW  - dimensionality reduction
+KW  - multimedia synchronization
+KW  - multimedia indexing
+KW  - multimedia retrieval
+KW  - multimodal systems
+KW  - multimedia database
+KW  - video transmission
+KW  - video coding systems
+KW  - beamforming
+KW  - space-time adaptive processing
+KW  - sensor networks
+KW  - sensor array processing
+KW  - multiantenna processing
+KW  - wireless communications
+KW  - signal processing education
+KW  - cognitive radio
+KW  - dynamic spectrum management
+KW  - resource allocation
+KW  - optimisation
+KW  - game theory
+KW  - precoding
+KW  - distributed estimation
+KW  - consensus averaging
+KW  - information theory
+KW  - networking
+KW  - MIMO detection
+KW  - decoding
+KW  - OFDM
+KW  - relay systems
+KW  - cooperative systems
+KW  - channel estimation
+KW  - channel equalisation
+KW  - space-time coding
+KW  - vector precoding
+KW  - cooperative processing
+KW  - adaptive networks
+KW  - compressed sensing
+KW  - Monte Carlo methods
+KW  - sampling theory
+KW  - nonstationary signal analysis
+KW  - adaptive filters
+KW  - digital filtering
+KW  - multirate filtering
+KW  - signal reconstruction
+KW  - multimedia social networks
+KW  - signal processing
+KW  - neural spike trains
+KW  - multimedia surveillance
+KW  - video search
+KW  - event analysis
+KW  - voice transformation
+KW  - interference channels
+KW  - spectrum sharing
+KW  - robot audition
+KW  - consensus gossiping
+KW  - handling reverberant speech
+KW  - discriminative training
+KW  - robust speech recognition
+KW  - voice conversion
+KW  - voice search
+KW  - spoken term detection
+KW  - speaker verification
+KW  - speaker diarization
+KW  - clustering
+KW  - speaker recognition
+KW  - large vocabulary ASR
+KW  - language identification
+KW  - dialect identification
+KW  - speech adaptation
+KW  - speech enhancement
+KW  - speech production
+KW  - speech perception
+KW  - speech analysis
+KW  - spoken language understanding
+KW  - language modeling
+KW  - machine learning
+KW  - machine translation
+KW  - dialog system
+KW  - language acquisition
+KW  - language annotation
+KW  - speech retrieval
+KW  - speech mining
+DO  - 10.1109/ICASSP.2009.4959497
+JO  - 2009 IEEE International Conference on Acoustics, Speech and Signal Processing
+IS  - 
+SN  - 1520-6149
+VO  - 
+VL  - 
+JA  - 2009 IEEE International Conference on Acoustics, Speech and Signal Processing
+Y1  - 19-24 April 2009
+AB  - The following topics were dealt with: audio coding; signal enhancement; source separation; microphone and loudspeaker array signal processing; acoustic echo control; active noise control; sound perception; audio analysis and synthesis; multichannel biomedical signal processing; biomedical image processing; bioinformatics; scalable and multiview video coding; image filtering; stereoscopic and 3-D processing; video segmentation and tracking; feature extraction; image superresolution; biometrics; motion estimation; stereo processing; image coding; remote sensing imagery; image retrieval; image quality assessment; image modeling; video modeling; image restoration; intelligent vehicle applications; security methods for physical devices and media; data hiding methods in speech and audio; authentication; watermarking; fingerprinting; signal decomposition; learning methods; MLSP applications; statistical modelling techniques; signal extraction; dimensionality reduction; multimedia synchronization; multimedia indexing and retrieval; multimodal systems and applications; multimedia database; video transmission and coding systems; beamforming and space-time adaptive processing; sensor networks; sensor array processing; multi-antenna processing for wireless communications; signal processing education; cognitive radio and dynamic spectrum management; resource allocation; optimisation; game theory; precoding; sensor networks; distributed estimation; consensus averaging; information theory and networking; MIMO detection and decoding; OFDM; relay and cooperative systems; channel estimation and equalisation; space-time coding; vector precoding; diversity, blind estimation and performance analysis; cooperative processing over adaptive networks; compressed sensing; Monte Carlo methods for detection and estimation; sampling theory; nonstationary signal analysis; adaptive filters; digital and multirate filtering; signal reconstruction; multimedia social networks; signal processing for neural spike trains; multimedia surveillance; video search and event analysis; voice transformation; interference channels; spectrum sharing; robot audition; consensus gossiping; handling reverberant speech; discriminative training for ASR; robust speech recognition; voice conversion; voice search; spoken term detection; speaker verification; speaker diarization and clustering; speaker recognition; large vocabulary ASR; language and dialect identification; speech adaptation; speech enhancement; speech production, perception and analysis; spoken language understanding; language modeling and machine learning for speech processing; machine translation; dialog system; language acquisition and annotation; speech retrieval; and speech mining.
+ER  - 
+
+

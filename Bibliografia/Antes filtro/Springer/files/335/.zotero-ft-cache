@@ -1,0 +1,206 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+November 2012 , Volume 25, Issue 3 , pp 577–602 | Cite as
+Mining blackhole and volcano patterns in directed graphs: a general approach
+
+    Authors
+    Authors and affiliations
+
+    Zhongmou Li
+    Hui Xiong Email author
+    Yanchi Liu
+
+    Zhongmou Li
+        1
+    Hui Xiong
+        1
+    Email author
+    Yanchi Liu
+        2
+
+    1. Department of Management Science and Information Systems Rutgers University Newark USA
+    2. University of Science and Technology Beijing Beijing China
+
+Article
+First Online: 10 February 2012
+Received: 02 May 2011
+Accepted: 20 January 2012
+
+    678 Downloads
+    11 Citations
+
+Abstract
+
+Given a directed graph, the problem of blackhole mining is to identify groups of nodes, called blackhole patterns, in a way such that the average in-weight of this group is significantly larger than the average out-weight of the same group. The problem of finding volcano patterns is a dual problem of mining blackhole patterns. Therefore, we focus on discovering the blackhole patterns. Indeed, in this article, we develop a generalized blackhole mining framework. Specifically, we first design two pruning schemes for reducing the computational cost by reducing both the number of candidate patterns and the average computation cost for each candidate pattern. The first pruning scheme is to exploit the concept of combination dominance to reduce the exponential growth search space. Based on this pruning approach, we develop the gBlackhole algorithm. Instead, the second pruning scheme is an approximate approach, named approxBlackhole, which can strike a balance between the efficiency and the completeness of blackhole mining. Finally, experimental results on real-world data show that the performance of approxBlackhole can be several orders of magnitude faster than gBlackhole, and both of them have huge computational advantages over the brute-force approach. Also, we show that the blackhole mining algorithm can be used to capture some suspicious financial fraud patterns.
+Keywords
+Blackhole pattern  Volcano pattern  Financial fraud detection  Graph mining  Network structure analysis 
+
+Responsible editor: Fei Wang, Hanghang Tong, Phillip Yu, Charu Aggarwal.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Adamic L, Brunetti C, Harris J, Kirilenko A (2010) Trading networks. SSRN eLibrary. http://ssrn.com/paper=1361184
+    Akoglu L, McGlohon M, Faloutsos C (2010) Oddball: Spotting anomalies in weighted graphs. In: Proceedings of the 14th pacific-Asia conference on knowledge discovery and data mining (PAKDD’10), Hyderabad, pp 410–421 Google Scholar
+    Barnett V, Lewis T (1994) Outliers in statistical data. Wiley, New York MATH Google Scholar
+    Breunig MM, Kriegel H-P, Ng RT, Sander J (2000) Lof: Identifying density-based local outliers. In: Proceedings of the 2000 ACM SIGMOD international conference on management of data (ACM SIGMOD’00), Providence, pp 93–104 Google Scholar
+    Chakrabarti D (2004) Autopart: Parameter-free graph partitioning and outlier detection. In: Proceedings of the 8th European conference on principles and practice of knowledge discovery in databases (PKDD’04), Pisa, pp 112–124 Google Scholar
+    Chaudhary A, Szalay AS, Moore AW (2002) Very fast outlier detection in large multidimensional data sets. In: Proceedings of ACM SIGMOD workshop on research issues in data mining and knowledge discovery, Dalas Google Scholar
+    Cook DJ, Holder LB (1994) Substructure discovery using minimum description length and background knowledge. J Artif Intel Res (JAIR) 1: 231–255 Google Scholar
+    Cormen TH, Leiserson CE, Rivest RL, Stein C (2009) Introduction to algorithms. The MIT Press, Cambridge MATH Google Scholar
+    Diestel R (2006) Graph theory (Graduate texts in mathematics). Springer, Heidelberg Google Scholar
+    Gehrke J, Ginsparg P, Kleinberg JM (2003) Overview of the 2003 KDD Cup. In: ACM SIGKDD Explorations 5(2):149–151 Google Scholar
+    Ghosh R, Lerman K (2008) Community detection using a measure of global influence. In: The 2nd SNA-KDD workshop on social network mining and analysis (SNA-KDD’08), Las Vegas Google Scholar
+    Girvan M, Newman MEJ (2002) Community structure in social and biological networks. Proc Natl Acad Sci 99(12):7821–7826 Google Scholar
+    Hawkins D (1980) Identification of outliers. Chapman and Hall, Dordrecht MATH Google Scholar
+    Hopcroft J, Khan O, Kulis B, Selman B (2003) Natural communities in large linked networks. In: Proceedings of the 9th ACM SIGKDD international conference on knowledge discovery and data mining (ACM SIGKDD’03), Washington Google Scholar
+    Huan J, Wang W, Prins J (2003) Efficient Mining of Frequent Subgraphs in the Presence of Isomorphism. In: Proceedings of the 3rd IEEE international conference on data mining (IEEE ICDM’03), Melbourne Google Scholar
+    Jiang X, Xiong H, Wang C, Tan AH (2009) Mining globally distributed frequent subgraphs in a single labeled graph. Data Knowl Eng 68: 1034–1058 CrossRef Google Scholar
+    Johnson RA, Wichern DW (1998) Applied multivariate statistical analysis. Prentice Hall, New York Google Scholar
+    Knuth D (2011) The art of computer programming, Vol 4A: combinatorial algorithms. Addison-Wesley, Boston Google Scholar
+    Kuramochi M, Karypis G (2005) Finding frequent patterns in a large sparse graph. Data Mining Knowl Discov 11(3): 243–271 MathSciNet CrossRef Google Scholar
+    Lazarevic A, Kumar V (2005) Feature bagging for outlier detection. In: Proceedings of the 11th ACM SIGKDD international conference on knowledge discovery and data mining (ACM SIGKDD’05), Chicago, pp 157–166 Google Scholar
+    Leskovec J, Faloutsos C (2006) Sampling from Large Graphs. In: Proceedings of the 12th ACM SIGKDD international conference on knowledge discovery and data mining (ACM SIGKDD’06), Philadelphia, pp 631–636 Google Scholar
+    Leskovec J, Huttenlocher D, Kleinberg J (2010a) Predicting Positive and Negative Links in Online Social Networks. In: Proceedings of the 19th international world wide web conference (WWW’10), Raleigh Google Scholar
+    Leskovec J, Huttenlocher D, Kleinberg J (2010b) Signed Networks in Social Media. In: Proceedings of the 28th ACM conference on human factors in computing systems (CHI’10), Atlanta Google Scholar
+    Leskovec J, Kleinberg J, Faloutsos C (2005) Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations. In: Proceedings of the 11th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (ACM SIGKDD’05), Chicago Google Scholar
+    Leskovec J, Lang K, Dasgupta A, Mahoney M (2008) Community structure in large networks: natural cluster sizes and the absence of large well-defined clusters. In: arXiv.org:0810.1355 Google Scholar
+    Li Z, Xiong H, Liu Y, Zhou A (2010) Detecting Blackhole and Volcano Patterns in Directed Networks. In: Proceedings of the 10th IEEE International Conference on Data Mining (IEEE ICDM’10), Australia, pp 294–303 Google Scholar
+    Mehlhorn K, Naher S (1999) The LEDA platform of combinatorial and geometric computing. Cambridge University Press, Cambridge Google Scholar
+    Moonesinghe HDK, Tan P-N (2008) Outrank: a graph-based outlier detection framework using random walk. Int J Artif Intel Tools 17(1):19–36 Google Scholar
+    Newman MEJ (2004) Detecting community structure in networks. Eur Phys J B 38: 321–330 CrossRef Google Scholar
+    Newman MEJ, Girvan M (2004) Finding and evaluating community structure in networks. Phys Rev E 69: 026113 CrossRef Google Scholar
+    Noble CC, Cook DJ (2003) Graph-based anomaly detection. In: Proceedings of the 9th ACM SIGKDD international conference on knowledge discovery and data mining (ACM SIGKDD’03), Washington, pp 631–636 Google Scholar
+    Papadimitriou S, Kitagawa H, Gibbons PB, Faloutsos C (2003) Loci: Fast outlier detection using the local correlation integral. In: Proceedings of the 19th international conference on data engineering (ICDE’03), Bangalore, pp 315–326 Google Scholar
+    Pathak N, DeLong C, Banerjee A, Erickson K (2008) Social topic models for community extraction. In: The 2nd SNA-KDD Workshop on Social Network Mining and Analysis (SNA-KDD’08), Las Vegas Google Scholar
+    Steyvers M, Smyth P, Rosen-Zvi M, Griffiths T (2004) Probabilistic author-topic models for information discovery. In: Proceedings of the 10th ACM SIGKDD international conference on knowledge discovery and data mining (ACM SIGKDD’04), Magdeburg Google Scholar
+    Sun J, Qu H, Chakrabarti D, Faloutsos C (2005) Neighborhood formation and anomaly detection in bipartite graph. In: Proceedings of the 5th IEEE international conference on data mining (IEEE ICDM’05), Houston, pp 418–425 Google Scholar
+    Tan P-N, Steinbach M, Kumar V (2005) Introduction to data mining. Addison Wesley, Boston Google Scholar
+    Wang C, Wang W, Pei J, Zhu Y, Shi B (2004) Scalable mining of large disk-based graph databases. In: Proceedings of the 10th ACM SIGKDD international conference on knowledge discovery and data mining (ACM SIGKDD’04), Magdeburg Google Scholar
+    Wang J, Hsu W, Lee M, Sheng C (2006) A partition-based approach to graph mining. In: Proceedings of the 22nd international conference on data engineering (ICDE’06), Atlanta, p 74 Google Scholar
+    Yan X, Han J (2002) gSpan: graph-based substructure pattern mining. In: Proceedings of the 2nd IEEE international conference on data mining (IEEE ICDM’02), Maebashi Google Scholar
+    Zhou D, Manavoglu E, Li J, Giles CL, Zha H (2006) Probabilistic models for discovering e-communities. In: Proceedings of the 15th international world wide web conference (WWW’06), Edinburgh Google Scholar
+
+Copyright information
+© The Author(s) 2012
+About this article
+
+Cite this article as:
+    Li, Z., Xiong, H. & Liu, Y. Data Min Knowl Disc (2012) 25: 577. https://doi.org/10.1007/s10618-012-0255-0
+
+    DOI https://doi.org/10.1007/s10618-012-0255-0
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Mining blackhole and volcano patterns in directed graphs: a general approach
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

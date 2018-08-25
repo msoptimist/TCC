@@ -1,0 +1,276 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+May 2012 , Volume 24, Issue 3 , pp 697–737 | Cite as
+More than modelling and hiding: towards a comprehensive view of Web mining and privacy
+
+    Authors
+    Authors and affiliations
+
+    Bettina Berendt Email author
+
+    Bettina Berendt
+        1
+    Email author
+
+    1. Department of Computer Science K.U. Leuven Leuven Belgium
+
+Article
+First Online: 15 February 2012
+Received: 11 January 2010
+Accepted: 20 January 2012
+
+    1 Shares
+    1.2k Downloads
+    8 Citations
+
+Abstract
+
+Over the last decade, privacy has been widely recognised as one of the major problems of data collections in general and the Web in particular. This concerns specifically data arising from Web usage (such as querying or transacting) and social networking (characterised by rich self-profiling including relational information) and the inferences drawn from them. The data mining community has been very conscious of these issues and has addressed in particular the inference problems through various methods for “privacy-preserving data mining” and “privacy-preserving data publishing”. However, it appears that these approaches by themselves cannot effectively solve the privacy problems posed by mining. We argue that this is due to the underlying notions of privacy and of data mining, both of which are too narrow. Drawing on notions of privacy not only as hiding, but as control and negotiation, as well as on data mining not only as modelling, but as the whole cycle of knowledge discovery, we offer an alternative view. This is intended to be a comprehensive view of the privacy challenges as well as solution approaches along all phases of the knowledge discovery cycle. The paper thus combines a survey with an outline of an agenda for a comprehensive, interdisciplinary view of Web mining and privacy.
+Keywords
+Web mining  Privacy  Knowledge discovery cycle  Web usage (mining)  Social network analysis 
+
+Responsible editor: Myra Spiliopoulou, Bamshad Mobasher, Olfa Nasraoui, Osmar Zaiane.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Acquisti A, Gross R (2006) Imagined communities: awareness, information sharing, and privacy on the Facebook. In: Danezis G, Golle P (eds) Privacy enhancing technologies. LNCS, vol 4258. Springer, New York, pp 36–58 CrossRef Google Scholar
+    Acquisti A, Gross R (2009) Predicting social security numbers from public data. Proc Nat Acad Sci 106(27): 10975–10980 CrossRef Google Scholar
+    Acquisti A, Balsa E, Berendt B, Clarke D, De Wolf R, Diaz C, Gao B, Gürses SF, Kuczerawy A, Pierson J, Piessens F, Sayaf R, Schellens T, Stutzman F, Van Alsenoy B, Vanderhoven E (2011) SPION deliverable 2.1 State of the art. COSIC Internal Technical Report, K.U. Leuven, Belgium. http://www.cosic.esat.kuleuven.be/publications/article-2077.pdf
+    Agrawal R, Srikant R (2000) Privacy-preserving data mining. In: SIGMOD conference. ACM, Dallas, pp 439–450 Google Scholar
+    Aggarwal CC, Yu PS (2008a) A general survey of privacy-preserving data mining models and algorithms. In: Aggarwal CC, Yu PS (eds) Privacy-preserving data mining: models and algorithms. Springer, New York, pp 11–51 Google Scholar
+    Aggarwal, CC, Yu, PS (eds) (2008b) Privacy-preserving data mining: models and algorithms. Springer, New York Google Scholar
+    Agrawal R, Kiernan J, Srikant R, Xu Y (2002) Hippocratic databases. In: VLDB. Morgan Kaufmann, San Francisco, pp 143–154 Google Scholar
+    Agre PE, Rotenberg M (2001) Technology and privacy: the new landscape. MIT Press, Cambridge Google Scholar
+    Aïmeur E, Brassard G, Fernandez JM, Onana FSM (2008) Alambic: a privacy-preserving recommender system for electronic commerce. Int J Inf Secur 7(5): 307–334 CrossRef Google Scholar
+    Anderson R (2008) Security engineering, 2nd edn. Wiley, Chichester Google Scholar
+    Article 29 Data Protection Working Party (2009) Opinion 5/2009 on online social networking. http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2009/wp163_en.pdf
+    Ärzteblatt (2011) Initiative für psychische Gesundheit im Leistungssport (Initiative for mental health in professional sports). http://www.aerzteblatt.de/nachrichten/46692/Initiative-f_r-psychische-Gesundheit-im-Leistungssport.htm
+    Azevedo A, Santos MF (2008) KDD, SEMMA and CRISP-DM: a parallel overview. In: IADIS European conference data mining. IADIS, pp 182–185 Google Scholar
+    Backstrom L, Dwork C, Kleinberg JM (2007) Wherefore art thou r3579x?: anonymized social networks, hidden patterns, and structural steganography. In: Williamson CL, Zurko ME, Patel-Schneider PF, Shenoy PJ (eds) WWW. ACM, Ithaca, pp 181–190 CrossRef Google Scholar
+    Baeza-Yates R, Jones R, Poblete B, Spiliopoulou M (2010) Issues with privacy preservation in query log mining. In: Ferrari E, Bonchi F (eds) Privacy-aware knowledge discovery: novel applications and new techniques. Chapman & Hall/CRC Press, Boca Raton Google Scholar
+    Barbaro M, Zeller T (2006) A face is exposed for AOL searcher no. 4417749. New York Times, New York Google Scholar
+    BBC News (2008) Timeline: child benefits records loss. http://news.bbc.co.uk/2/hi/7104368.stm
+    Berendt B, Günther O, Spiekermann S (2005) Privacy in e-commerce: stated preferences vs. actual behavior. Commun ACM 48(4): 101–106 CrossRef Google Scholar
+    Berendt B, Preibusch S, Teltzrow M (2008) A privacy-protecting business-analytics service for online transactions. Int J Electron Commer 12(3): 115–150 CrossRef Google Scholar
+    Berkovsky S, Borisov N, Eytani Y, Kuflik T, Ricci F (2007) Examining users’ attitude towards privacy preserving collaborative filtering. In: Baker R, Beck J, Berendt B, Menasalvas E, Kröner A, Weibelzahl S (eds) Proceedings of the workshop on data mining for user modelling at UM 2007. http://vasarely.wiwi.hu-berlin.de/DM.UM07/Proceedings/DM.UM07-proceedings.pdf
+    Bertino E, Lin D, Jiang W (2008) A survey of quantification of privacy preserving data mining algorithms. In: Aggarwal CC, Yu PS (eds) Privacy-preserving data mining: models and algorithms. Springer, New York, pp 181–200 Google Scholar
+    Binder J, Howes A, Sutcliffe AG (2009) The problem of conflicting social spheres: effects of network structure on experienced tension in social network sites. In: CHI, ACM, pp 965–974 Google Scholar
+    Bone RG (1998) A new look at trade secret law: doctrine in search of justification. Calif Law Rev 86(2): 241–313 CrossRef Google Scholar
+    Bonneau J, Preibusch S (2009) The privacy jungle: on the market for data protection in social networks. In: WEIS 2009, http://preibusch.de/publications/social_networks/privacy_jungle_dataset.htm
+    Borra E (2007) Repurposing the Wikiscanner. https://wiki.digitalmethods.net/Dmi/WikiScanner Google Scholar
+    boyd D, Ellison N (2007) Social network sites: definition, history and scholarship. J Comput Mediat Commun 13(1), http://jcmc.indiana.edu/vol13/issue1/boyd.ellison.html
+    Boyens C, Fischmann M (2003) Profiting from untrusted parties in web-based applications. In: EC-Web. LNCS, Springer, vol 2738, pp 216–226 Google Scholar
+    Bundesverfassungsgericht (1983) BVerfGE 65, 1—Volkszählung. Urteil des Ersten Senats vom 15. Dezember 1983 auf die mündliche Verhandlung vom 18. und 19. Oktober 1983—1 BvR 209, 269, 362, 420, 440, 484/83 in den Verfahren über die Verfassungsbeschwerden. http://www.telemedicus.info/urteile/Datenschutzrecht/88-BVerfG-Az-1-BvR-209,-269,-362,-420,-440,-48483-Volkszaehlungsurteil.html
+    Burton TM (2002) Florida probes Lilly’s mailings of Prozac samples to patients. Wall Street Journal, 8 July 2002. http://www.mindfully.org/Industry/Eli-Lilly-Privacy-InfringementWSJ26jul02.htm
+    Calders T, Verwer S (2010) Three naive Bayes approaches for discrimination-free classification. Data Min Knowl Discov 21(2): 277–292 MathSciNet CrossRef Google Scholar
+    Camenisch J, Kohlweiss M, Rial A, Sheedy C (2009) Blind and anonymous identity-based encryption and authorised private searches on public key encrypted data. In: Public key cryptography. LNCS, vol 5443. Springer, New York, pp 196–214 Google Scholar
+    Canny JF (2002) Collaborative filtering with privacy via factor analysis. In: SIGIR. ACM, pp 238–245 Google Scholar
+    Carminati B, Ferrari E, Perego A (2009) Enforcing access control in web-based social networks. ACM Trans Inf Syst Secur 13(1) Google Scholar
+    Carminati B, Ferrari E, Kantarcioglu M, Thuraisingham B (2010) Privacy issues in web-based social networks. In: Ferrari E, Bonchi F (2010) Privacy-aware knowledge discovery: novel applications and new techniques. Chapman & Hall/CRC Press, Boca Raton Google Scholar
+    Chor B, Kushilevitz E, Goldreich O, Sudan M (1998) Private information retrieval. J ACM 45(6): 965–981 MathSciNet MATH CrossRef Google Scholar
+    Ciriani V, di Vimercati SDC, Foresti S, Samarati P (2008) k-anonymous data mining: a survey. In: Aggarwal CC, Yu PS (eds) Privacy-preserving data mining: models and algorithms. Springer, New York, pp 103–134 Google Scholar
+    Clifton C, Kantarcioglu M, Vaidya J (2004) Defining privacy for data mining. In: Kargupta H (eds) Data mining: next generation challenges and future directions. AAAI/MIT Press, Menlo Park Google Scholar
+    Court of Justice (2003) Judgment of the court of 6 November 2003. Criminal proceedings against Bodil Lindqvist. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:62001J0101:EN:HTML
+    CRISP-DM (2000) CRISP-DM 1.0 Step-by-step data mining guide. http://www.spss.ch/upload/1107356429_CrispDM1.0.pdf
+    Dalenius T (1977) Towards a methodology for statistical disclosure control. Stat Tidskrift 15: 429–444 Google Scholar
+    Danezis G, Diaz C (2008) A survey of anonymous communication channels. Tech. Rep. MSR-TR-2008-35, Microsoft Research Google Scholar
+    Danezis G, Díaz C, Faust S, Käsper E, Troncoso C, Preneel B (2007) Efficient negative databases from cryptographic hash functions. In: ISC. LNCS, vol 4779, Springer, New York, pp 423–436 Google Scholar
+    Daten-speicherung.de (2010) Fälle von Datenmissbrauch und -irrtümern (Cases of data abuse and errors). http://daten-speicherung.de/wiki/index.php?title=F%C3%A4lle_von_Datenmissbrauch_und_-irrt%C3%BCmern&oldid=3712
+    Department of Homeland Security (2007) Statement by Homeland Security Chief Privacy Officer Hugo Teufel III on the privacy act system of records notice for the automated targeting system. http://www.dhs.gov/xnews/releases/pr_1186178812301.shtm
+    Díaz C (2005) Anonymity and privacy in electronic services. PhD thesis. Department of Electrical Engineering, K.U. Leuven Google Scholar
+    Domingo-Ferrer J (2007) A three-dimensional conceptual framework for database privacy. In: Secure data management. LNCS, vol 4721. Springer, New York, pp 193–202 Google Scholar
+    Domingo-Ferrer J, Torra V (2008) A critique of k-anonymity and some of its enhancements. In: ARES 2008. IEEE Computer Society, pp 990–993 Google Scholar
+    Domscheit-Berg D (2011) Inside wikileaks: my time with Julian Assange at the worlds most dangerous website. Random House, New York Google Scholar
+    Donohue J, Levitt S (2001) The impact of legalized abortion on crime. Q J Econ 116(2): 379–420 CrossRef Google Scholar
+    Dörr D (2000) Big Brother und die Menschenwürde: Die Menschenwürde und die Programmfreiheit am Beispiel eines neuen Sendeformats [[Big Brother and Human Dignity: Human dignity and media freedom; the case of a new television format]]. Peter Lang, Frankfurt am Main Google Scholar
+    Dwork C (2006) Differential privacy. In: Bugliesi M, Preneel B, Sassone V, Wegener I (eds) ICALP (2), LNCS. vol 4052. Springer, New York, pp 1–12 Google Scholar
+    Dwork C (2008) Differential privacy: a survey of results. In: TAMC. LNCS, vol 4978. Springer, New York, pp 1–19 Google Scholar
+    Electronic Privacy Information Center (2000) In the Matter of DoubleClick, Inc. Complaint and request for injunction, request for investigation and for other relief. http://epic.org/privacy/internet/ftc/DCLK_complaint.pdf
+    Electronic Privacy Information Center (2007) In the Matter of Google, Inc. and DoubleClick, Inc. Complaint and request for injunction, request for investigation and for other relief. http://epic.org/privacy/ftc/google/epic_complaint.pdf
+    Electronic Privacy Information Center (2010a) Automated targeting system. http://epic.org/privacy/travel/ats/
+    Electronic Privacy Information Center (2010b) Netflix cancels contest over privacy concerns. http://epic.org/2010/03/netflix-cancels-contest-over-p.html
+    Electronic Privacy Information Center (2011a) Facebook privacy. http://epic.org/privacy/facebook/
+    Electronic Privacy Information Center (2011b) In re Facebook. http://epic.org/privacy/inrefacebook/
+    Electronic Privacy Information Center (2011c) Privacy? Proposed Google/DoubleClick deal. http://epic.org/privacy/ftc/google/
+    Electronic Privacy Information Center (n.d.) EPIC online guide to practical privacy tools. http://epic.org/privacy/tools.html
+    ereleases (2001) Florida ban on dwarf tossing must Be upheld, announces LPA, Inc. http://www.ereleases.com/pr/florida-ban-on-dwarf-tossing-must-be-upheld-announces-lpa-inc-865
+    EU (1995) Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML
+    EU (2002) Directive 2002/58/EC of the European Parliament and of the Council concerning the processing of personal data and the protection of privacy in the electronic communications sector. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:EN:HTML
+    EU (2006) Directive 2006/24/ec of the European Parliament and of the Council of 15 march 2006 on the retention of data generated or processed in connection with the provision of publicly available electronic communications services or of public communications networks and amending directive 2002/58/ec. http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32006L0024:EN:HTML
+    European Court of Human Rights (2011) European Court of Human Rights: violation of freedom of expression in case Heinisch v. Germany. ECHR 115 (2011). http://human-rights-convention.org/2011/07/22/european-court-of-human-rights-violation-of-freedom-of-expression-in-case-heinisch-v-germany/
+    Eysenbach G, Till JE (2001) Ethical issues in qualitative research on internet communities. Br Med J 323: 1103–1105 CrossRef Google Scholar
+    Fayyad UM (1996) Data mining and knowledge discovery: making sense out of data. IEEE Expert 11(5): 20–25 CrossRef Google Scholar
+    Feiler L (2008) The data retention directive. http://www.rechtsprobleme.at/doks/feiler-DataRetentionDirective.pdf
+    Fleischer P (2008) Are IP addresses “personal data”? http://peterfleischer.blogspot.com/2007/02/are-ip-addresses-personal-data.html
+    Frankowski D, Cosley D, Sen S, Terveen LG, Riedl J (2006) You are what you say: privacy risks of public mentions. In: SIGIR. ACM, pp 565–572 Google Scholar
+    FTC (2000) Privacy online: fair information practices in the electronic marketplace: a Federal trade commission report to congress. http://www.ftc.gov/reports/privacy2000/privacy2000.pdf
+    Fung BCM, Wang K, Chen R, Yu PS (2010) Privacy-preserving data publishing: a survey on recent developments. ACM Comput Surv 42(4) Google Scholar
+    Gao B, Berendt B (2011) Visual data mining for higher-level patterns: discrimination-aware data mining and beyond. In: Proceedings of the 20th machine learning conference of Belgium and The Netherlands. http://www.benelearn2011.org/
+    German Working Group on Data Retention (AK Vorrat) (n.d.) Pros and cons of data retention. http://www.vorratsdatenspeicherung.de/content/view/83/87/lang,en/
+    Goldberg I (2007) Privacy-enhancing technologies for the internet III: ten years later. In: Digital privacy: theory, technologies, and practices, Auerbach, pp 3–18, http://www.cypherpunks.ca/~iang/pubs/pet3.pdf
+    Gostin LO (2004) International infectious disease law. Revision of the World Health Organization’s international health regulations. J Am Med Assoc 291(21): 2623–2627 CrossRef Google Scholar
+    Guarda P, Zannone N (2009) Towards the development of privacy-aware systems. Inf Softw Technol 51(2): 337–350 CrossRef Google Scholar
+    Guardian (2002) Anthony Hopkins remembers alcoholism, fondly. http://www.guardian.co.uk/film/2002/mar/01/news1
+    Gürses S (2010) Multilateral privacy requirements analysis in online social network services. PhD thesis, Department of Computer Science, K.U. Leuven Google Scholar
+    Gürses S, Berendt B (2010) PETs in the surveillance society: a critical review of the potentials and limitations of the privacy as confidentiality paradigm. In: Gutwirth S, Poullet Y, De Hert P (eds) Data protection in a profiled world. Springer, Dordrecht, pp 301–321 CrossRef Google Scholar
+    Gürses S, Berendt B (2010b) The social web and privacy: practices, reciprocity and conflict detection in social networks. In: Ferrari E, Bonchi F (eds) Privacy-aware knowledge discovery: novel applications and new techniques. Chapman & Hall/CRC Press, Boca Raton Google Scholar
+    Gürses S, Berendt B, Santen T (2006) Multilateral security requirements analysis for preserving privacy in ubiquitous environments. In: Proceedings of the workshop on ubiquitous knowledge discovery for users at ECML/PKDD 2006, Berlin, pp 51–64. http://vasarely.wiwi.hu-berlin.de/UKDU06/Proceedings/UKDU06-proceedings.pdf
+    Gürses S, Rizk R, Günther O (2008) Privacy design in online social networks: learning from privacy breaches and community feedback. In: ICIS. ACM Google Scholar
+    Hajian S, Domingo-Ferrer J, Martínez-Ballesté A (2011) Discrimination prevention in data mining for intrusion and crime detection. In: IEEE SSCI 2011 Google Scholar
+    Hancock JT, Birnholtz JP, Bazarova NN, Guillory J, Perlin J, Amos B (2009) Butler lies: awareness, deception and design. In: CHI. ACM, pp 517–526 Google Scholar
+    Hansen M (2008) Linkage control—integrating the essence of privacy protection into identity management. In: Proceedings of eChallenges. pp 1585–1592 Google Scholar
+    Hay M, Miklau G, Jensen D (2010) Private analysis of network data. In: Ferrari E, Bonchi F (eds) Privacy-aware knowledge discovery: novel applications and new techniques. Chapman & Hall/CRC Press, Boca Raton Google Scholar
+    Hildebrandt M (2006) Privacy and identity. In: Claes E, Duff A, Gutwirth S (eds) Privacy and the criminal law. Intersentia, Antwerp, pp 43–58 Google Scholar
+    Hildebrandt M (2008) Profiling and the identity of the European citizen. In: Hildebrandt M, Gutwirth S (eds) Profiling the European citizen: cross-disciplinary perspectives. Springer, New York Google Scholar
+    Hornick MF, Marcade E, Venkayala S (2007) Java data mining: strategy, standard, and practice. Morgan Kaufman, San Francisco Google Scholar
+    Hu J, Zeng HJ, Li H, Niu C, Chen Z (2007) Demographic prediction based on user’s browsing behavior. In: WWW. ACM, pp 151–160 Google Scholar
+    Infektionsschutzgesetz (2001) Gesetz zur Verhütung und Bekämpfung von Infektionskrankheiten beim Menschen (Law for the avoidance and fighting of infectious human diseases). http://www.gesetze-im-internet.de/bundesrecht/ifsg/gesamt.pdf
+    King SA, Moreggi D (1998) Internet therapy and self help groups—the pros and cons. In: Gackenbach J (eds) Psychology and the Internet. Academic Press, San Diego Google Scholar
+    Kohavi R, Provost F (1998) Glossary of terms. http://ai.stanford.edu/~ronnyk/glossary.html
+    Korolova A, Kenthapadi K, Mishra N, Ntoulas A (2009) Releasing search queries and clicks privately. In: WWW. pp 171–180 Google Scholar
+    Lederer S, Hong JI, Dey AK, Landay JA (2004) Personal privacy through understanding and personal privacy through understanding and action: five pitfalls for designers. Pers Ubiq Comput 8(6): 440–454 CrossRef Google Scholar
+    Li N, Li T, Venkatasubramanian S (2007) t-closeness: privacy beyond k-anonymity and l-diversity. In: ICDE. IEEE, pp 106–115 Google Scholar
+    Lindamood J, Heatherly R, Kantarcioglu M, Thuraisingham BM (2009) Inferring private information using social network data. In: WWW. ACM, pp 1145–1146 Google Scholar
+    Lindell Y, Pinkas B (2000) Privacy preserving data mining. In: CRYPTO. LNCS, vol 1880. Springer, New York, pp 36–54 Google Scholar
+    Lipford HR, Besmer A, Watson J (2008) Understanding privacy settings in Facebook with an audience view. In: UPSEC’08: proceedings of the 1st conference on usability, psychology, and security. USENIX Association, pp 1–8 Google Scholar
+    Liu H, Mihalcea R (2007) Of men, women, and computers: data-driven gender modeling for improved user interfaces. In: ICWSM, pp 121–128 Google Scholar
+    Liu H, Maes P, Davenport G (2006) Unraveling the taste fabric of social networks. Int J Semant Web Inf Syst 2(1): 42–71 CrossRef Google Scholar
+    Machanavajjhala A, Gehrke J, Kifer D, Venkitasubramaniam M (2006) l-diversity: privacy beyond k-anonymity. In: ICDE. IEEE Computer Society, p 24 Google Scholar
+    Nakashima E (2011) Bradley manning, WikiLeaks’ alleged source, faces 22 new charges. 2 March 2011. http://www.washingtonpost.com/wp-dyn/content/article/2011/03/02/AR2011030206272.html
+    Narayanan A, Shmatikov V (2009) De-anonymizing social networks. In: Proceedings of 30th IEEE symposium on security and privacy 2009 Google Scholar
+    Nguyen DH, Mynatt E (2002) Privacy mirrors: understanding and shaping socio-technical ubiquitous computing. Technical Report GIT-GVU-02-16, Georgia Institute of Technology, USA http://smartech.gatech.edu/handle/1853/3268
+    OECD (1980) Guidelines on the protection of privacy and transborder flows of personal data. http://www.oecd.org/document/18/0,2340,en_2649_34255_1815186_1_1_1_1,00.html
+    Owad T (2006) Data mining 101: finding subversives with amazon wishlists. http://www.applefritter.com/bannedbooks
+    Palen L, Dourish P (2003) Unpacking “privacy” for a networked world. In: CHI. ACM, pp 129—136 Google Scholar
+    Pedreschi D, Ruggieri S, Turini F (2008) Discrimination-aware data mining. In: KDD. ACM, pp 560–568 Google Scholar
+    Pedreschi D, Ruggieri S, Turini F (2009) Measuring discrimination in socially-sensitive decision records. In: SDM. pp 581–592 Google Scholar
+    Pfitzmann A, Hansen M (2006–2010) Anonymity, unlinkability, unobservability, pseudonymity, and identity management—a consolidated proposal for terminology. http://dud.inf.tu-dresden.de/Anon_Terminology.shtml
+    Phillips D (2004) Privacy policy and PETs: the influence of policy regimes on the development and social implications of privacy enhancing technologies. New Media Soc 6(6): 691–706 CrossRef Google Scholar
+    Pilkington E (2006) Millions assigned terror risk score on trips to the US. The Guardian, 2 December 2006 http://www.guardian.co.uk/usa/story/0,,1962299,00.html
+    Poblete B, Spiliopoulou M, Baeza-Yates RA (2007) Website privacy preservation for query log publishing. In: Bonchi F, Ferrari E, Malin B, Saygin Y (eds) PinKDD, LNCS. vol 4890. Springer, New York, pp 80–96 Google Scholar
+    Poblete B, Spiliopoulou M, Baeza-Yates RA (2010) Privacy-preserving query log mining for business confidentiality protection. TWEB 4(3): 10–11026 CrossRef Google Scholar
+    Preibusch S (2006) Implementing privacy negotiations in e-commerce. In: APWeb. LNCS, vol 3841. Springer, New York, pp 604–615 Google Scholar
+    Preibusch S, Hoser B, Gürses S, Berendt B (2007) Ubiquitous social networks—opportunities and challenges for privacy-aware user modelling. In: Baker R, Beck J, Berendt B, Menasalvas E, Kröner A, Weibelzahl S (Eds) Proceedings of the workshop on data mining for user modelling at UM 2007. http://vasarely.wiwi.hu-berlin.de/DM.UM07/Proceedings/DM.UM07-proceedings.pdf
+    Privacy International (2004) Complaint: Google Inc—Gmail email service. http://www.privacyinternational.org/issues/internet/gmail-complaint.pdf
+    Privacy International (2007) A race to the bottom: privacy ranking of internet service companies. http://www.privacyinternational.org/article.shtml?cmd
+    Reuters (2006) AOL chief technology officer resigns: sources. http://www.kdnuggets.com/news/2006/n16/36i.html
+    Richardson M, Domingos P (2002) Mining knowledge-sharing sites for viral marketing. In: KDD. ACM, pp 61–70 Google Scholar
+    Rowe M, Ciravegna F (2010) Disambiguating identity web references using web 2.0 data and semantics. J Web Semant 8(2) Google Scholar
+    Sagar R (2007) On combating the abuse of state secrecy. J Polit Philos 15: 404–427. doi:   10.1111/j.1467-9760.2007.00283.x CrossRef Google Scholar
+    Sagar R (2011) Das missbrauchte Staatsgeheimnis. Wikileaks und die Demokratie (The abused state secret. Wikileaks and democracy). In: Wikileaks und die Folgen. (Wikileaks and the consequences), Suhrkamp, Berlin, pp 201–223 Google Scholar
+    Shearer C (2000) The CRISP-DM model: the new blueprint for data mining. J Data Wareh 5(4): 13–22 Google Scholar
+    Sinus Sociovision (n.d.) Sinus-Milieus. http://www.sociovision.de/loesungen/sinus-milieus.html
+    Smarr J (2001) Technical and privacy challenges for integrating FOAF into existing applications. http://www.w3.org/2001/sw/Europe/events/foaf-galway/papers/fp/technical_and_privacy_challenges/
+    Smith-Spark L (2006) How to blog—and keep your job. BBC News. http://news.bbc.co.uk/2/hi/europe/5195714.stm
+    Sweeney L (2002) k-anonymity: a model for protecting privacy. Int J Uncertain Fuzziness Knowl Based Syst 10(5): 557–570 MathSciNet MATH CrossRef Google Scholar
+    Teltzrow M, Kobsa A (2003) Impacts of user privacy preferences on personalized systems—a comparative study. In: CHI-2003 workshop “designing personalized user experiences for eCommerce: theory, methods, and research. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.10.8180
+    Verykios VS, Bertino E, Fovino IN, Provenza LP, Saygin Y, Theodoridis Y (2004) State-of-the-art in privacy preserving data mining. SIGMOD Rec 33(1): 50–57 CrossRef Google Scholar
+    W3C (2006a) Platform for privacy preferences (P3P) project. http://www.w3.org/P3P
+    W3C (2006b) Workshop on languages for privacy policy negotiation and semantics-driven enforcement. http://www.w3.org/2006/07/privacy-ws/
+    Wardlow, DL (eds) (1996) Gays, lesbians, and consumer behavior. Theory, practice, and research issues in marketing. Haworth Press, New York Google Scholar
+    Warren S, Brandeis L (1890) The right to privacy. Harward Law Rev 4: 193–220 CrossRef Google Scholar
+    Westin AF (1970) Privacy and freedom. Atheneum, New York Google Scholar
+    Wu X, Ying X, Liu K, Chen L (2010) A survey of privacy-preservation of graphs and social networks. In: Aggarwal CC, Wang H (eds) Managing and mining graph data. Kluwer, Boston, pp 421–454 CrossRef Google Scholar
+    Xiao X, Tao Y (2006) Personalized privacy preservation. In: SIGMOD conference. ACM, pp 229–240 Google Scholar
+    Zhao Y, Du M, Le J, Luo Y (2009) A survey on privacy preserving approaches in data publishing. In: DBTA. IEEE Computer Society, pp 128–131 Google Scholar
+    Zhou B, Pei J, Luk W (2008) A brief survey on anonymization techniques for privacy preserving publishing of social network data. SIGKDD Explor 10(2): 12–22 CrossRef Google Scholar
+
+Copyright information
+© The Author(s) 2012
+About this article
+
+Cite this article as:
+    Berendt, B. Data Min Knowl Disc (2012) 24: 697. https://doi.org/10.1007/s10618-012-0254-1
+
+    DOI https://doi.org/10.1007/s10618-012-0254-1
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+More than modelling and hiding: towards a comprehensive view of Web mining and privacy
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45

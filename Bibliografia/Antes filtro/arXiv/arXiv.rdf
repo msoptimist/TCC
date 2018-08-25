@@ -1,0 +1,864 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/IJSDS.2018010102">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1947-8569,%201947-8577"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karami</foaf:surname>
+                        <foaf:givenname>Amir</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bennett</foaf:surname>
+                        <foaf:givenname>London S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Xiaoyun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/IJSDS.2018010102</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>18-28</bib:pages>
+        <dc:date>01/2018</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Mining Public Opinion about Economic Issues: Twitter and the U.S. Presidential Election</dc:title>
+        <z:shortTitle>Mining Public Opinion about Economic Issues</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1947-8569,%201947-8577">
+        <prism:volume>9</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>International Journal of Strategic Decision Sciences</dc:title>
+        <dc:identifier>ISSN 1947-8569, 1947-8577</dc:identifier>
+        <dc:identifier>DOI 10.4018/IJSDS.2018010102</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://www.itm-conferences.org/10.1051/itmconf/20171301030">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2271-2097"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Makinist</foaf:surname>
+                        <foaf:givenname>Semiha</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hallaç</foaf:surname>
+                        <foaf:givenname>İbrahim Rıza</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ay Karakuş</foaf:surname>
+                        <foaf:givenname>Betül</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aydın</foaf:surname>
+                        <foaf:givenname>Galip</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Atangana</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bulut</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hammouch</foaf:surname>
+                        <foaf:givenname>Z.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baskonus</foaf:surname>
+                        <foaf:givenname>H.M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mekkaoui</foaf:surname>
+                        <foaf:givenname>T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muhammad Belgacem</foaf:surname>
+                        <foaf:givenname>F. Bin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.itm-conferences.org/10.1051/itmconf/20171301030</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>01030</bib:pages>
+        <dc:date>2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <dc:title>Preparation of Improved Turkish DataSet for Sentiment Analysis in Social Media</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2271-2097">
+        <prism:volume>13</prism:volume>
+        <dc:title>ITM Web of Conferences</dc:title>
+        <dc:identifier>ISSN 2271-2097</dc:identifier>
+        <dc:identifier>DOI 10.1051/itmconf/20171301030</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://www.aircconline.com/ijcses/V6N5/6515ijcses02.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09763252,%2009762760"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iqbal</foaf:surname>
+                        <foaf:givenname>Saqib</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zulqurnain</foaf:surname>
+                        <foaf:givenname>Ali</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wani</foaf:surname>
+                        <foaf:givenname>Yaqoob</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hussain</foaf:surname>
+                        <foaf:givenname>Khalid</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.aircconline.com/ijcses/V6N5/6515ijcses02.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>21-27</bib:pages>
+        <dc:date>2015-10-30</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <dc:title>The Survey of Sentiment and Opinion Mining for Behavior Analysis of Social Media</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09763252,%2009762760">
+        <prism:volume>6</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:title>International Journal of Computer Science &amp; Engineering Survey</dc:title>
+        <dc:identifier>ISSN 09763252, 09762760</dc:identifier>
+        <dc:identifier>DOI 10.5121/ijcses.2015.6502</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://dx.plos.org/10.1371/journal.pone.0194317">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1932-6203"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mozetič</foaf:surname>
+                        <foaf:givenname>Igor</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Torgo</foaf:surname>
+                        <foaf:givenname>Luis</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cerqueira</foaf:surname>
+                        <foaf:givenname>Vitor</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smailović</foaf:surname>
+                        <foaf:givenname>Jasmina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Emmert-Streib</foaf:surname>
+                        <foaf:givenname>Frank</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dx.plos.org/10.1371/journal.pone.0194317</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>e0194317</bib:pages>
+        <dc:date>2018-3-13</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>How to evaluate sentiment classifiers for Twitter time-ordered data?</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1932-6203">
+        <prism:volume>13</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>PLOS ONE</dc:title>
+        <dc:identifier>ISSN 1932-6203</dc:identifier>
+        <dc:identifier>DOI 10.1371/journal.pone.0194317</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="urn:isbn:978-1-4799-2653-4%20978-1-4799-2652-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4799-2653-4 978-1-4799-2652-7</dc:identifier>
+                <dc:identifier>DOI 10.1109/WAINA.2014.151</dc:identifier>
+                <dc:title>2014 28th International Conference on Advanced Information Networking and Applications Workshops</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>BC, Canada</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ko</foaf:surname>
+                        <foaf:givenname>Eun Hee</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klabjan</foaf:surname>
+                        <foaf:givenname>Diego</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6844713/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>657-663</bib:pages>
+        <dc:date>5/2014</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 28th International Conference on Advanced Information Networking and Applications Workshops (WAINA)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dc:title>Semantic Properties of Customer Sentiment in Tweets</dc:title>
+    </rdf:Description>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s13278-016-0356-7">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1869-5450,%201869-5469"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spasojevic</foaf:surname>
+                        <foaf:givenname>Nemanja</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bhattacharyya</foaf:surname>
+                        <foaf:givenname>Prantik</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rao</foaf:surname>
+                        <foaf:givenname>Adithya</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s13278-016-0356-7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>12/2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Mining half a billion topical experts across multiple social networks</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1869-5450,%201869-5469">
+        <prism:volume>6</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Social Network Analysis and Mining</dc:title>
+        <dc:identifier>ISSN 1869-5450, 1869-5469</dc:identifier>
+        <dc:identifier>DOI 10.1007/s13278-016-0356-7</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://dl.acm.org/citation.cfm?doid=3186333.3161603">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03600300"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zubiaga</foaf:surname>
+                        <foaf:givenname>Arkaitz</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aker</foaf:surname>
+                        <foaf:givenname>Ahmet</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bontcheva</foaf:surname>
+                        <foaf:givenname>Kalina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liakata</foaf:surname>
+                        <foaf:givenname>Maria</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Procter</foaf:surname>
+                        <foaf:givenname>Rob</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dl.acm.org/citation.cfm?doid=3186333.3161603</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-36</bib:pages>
+        <dc:date>2018-02-20</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Detection and Resolution of Rumours in Social Media: A Survey</dc:title>
+        <z:shortTitle>Detection and Resolution of Rumours in Social Media</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03600300">
+        <prism:volume>51</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>ACM Computing Surveys</dc:title>
+        <dc:identifier>ISSN 03600300</dc:identifier>
+        <dc:identifier>DOI 10.1145/3161603</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0306457317308713">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03064573"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agarwal</foaf:surname>
+                        <foaf:givenname>Basant</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ramampiaro</foaf:surname>
+                        <foaf:givenname>Heri</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langseth</foaf:surname>
+                        <foaf:givenname>Helge</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ruocco</foaf:surname>
+                        <foaf:givenname>Massimiliano</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0306457317308713</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>922-937</bib:pages>
+        <dc:date>11/2018</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>A deep network model for paraphrase detection in short text messages</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03064573">
+        <prism:volume>54</prism:volume>
+        <prism:number>6</prism:number>
+        <dc:title>Information Processing &amp; Management</dc:title>
+        <dc:identifier>ISSN 03064573</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.ipm.2018.06.005</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="urn:isbn:978-1-4799-5538-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4799-5538-1</dc:identifier>
+                <dc:identifier>DOI 10.1109/UKCI.2014.6930158</dc:identifier>
+                <dc:title>2014 14th UK Workshop on Computational Intelligence (UKCI)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bradford, UK</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Isah</foaf:surname>
+                        <foaf:givenname>Haruna</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trundle</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Neagu</foaf:surname>
+                        <foaf:givenname>Daniel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6930158/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-7</bib:pages>
+        <dc:date>9/2014</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 14th UK Workshop on Computational Intelligence (UKCI)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dc:title>Social media analysis for product safety using text mining and sentiment analysis</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-2598-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4503-2598-1</dc:identifier>
+                <dc:identifier>DOI 10.1145/2661829.2662005</dc:identifier>
+                <dc:title>Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management - CIKM '14</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Shanghai, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ACM Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lim</foaf:surname>
+                        <foaf:givenname>Kar Wai</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buntine</foaf:surname>
+                        <foaf:givenname>Wray</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dl.acm.org/citation.cfm?doid=2661829.2662005</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1319-1328</bib:pages>
+        <dc:date>2014</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>the 23rd ACM International Conference</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dc:title>Twitter Opinion Topic Model: Extracting Product Opinions from Tweets by Leveraging Hashtags and Sentiment Lexicon</dc:title>
+        <z:shortTitle>Twitter Opinion Topic Model</z:shortTitle>
+    </rdf:Description>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S0143622816300194">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:01436228"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luo</foaf:surname>
+                        <foaf:givenname>Feixiong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenname>Guofeng</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mulligan</foaf:surname>
+                        <foaf:givenname>Kevin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Xiang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S0143622816300194</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>11-25</bib:pages>
+        <dc:date>05/2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Explore spatiotemporal and demographic characteristics of human mobility via Twitter: A case study of Chicago</dc:title>
+        <z:shortTitle>Explore spatiotemporal and demographic characteristics of human mobility via Twitter</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:01436228">
+        <prism:volume>70</prism:volume>
+        <dc:title>Applied Geography</dc:title>
+        <dc:identifier>ISSN 01436228</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.apgeog.2016.03.001</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="urn:isbn:978-1-4673-9286-0">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4673-9286-0</dc:identifier>
+                <dc:identifier>DOI 10.1109/HPEC.2015.7322473</dc:identifier>
+                <dc:title>2015 IEEE High Performance Extreme Computing Conference (HPEC)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Waltham, MA, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moran</foaf:surname>
+                        <foaf:givenname>Andrew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gadepally</foaf:surname>
+                        <foaf:givenname>Vijay</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hubbell</foaf:surname>
+                        <foaf:givenname>Matthew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kepner</foaf:surname>
+                        <foaf:givenname>Jeremy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7322473/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-6</bib:pages>
+        <dc:date>9/2015</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2015 IEEE High Performance Extreme Computing Conference (HPEC)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dc:title>Improving Big Data visual analytics with interactive virtual reality</dc:title>
+    </rdf:Description>
+    <bib:Article rdf:about="http://research.ijcaonline.org/volume118/number11/pxc3903435.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09758887"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>S.Ibrahim</foaf:surname>
+                        <foaf:givenname>Hossam</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>M. Abdou</foaf:surname>
+                        <foaf:givenname>Sherif</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gheith</foaf:surname>
+                        <foaf:givenname>Mervat</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://research.ijcaonline.org/volume118/number11/pxc3903435.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>26-31</bib:pages>
+        <dc:date>2015-05-20</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <dc:title>Idioms-Proverbs Lexicon for Modern Standard Arabic and Colloquial Sentiment Analysis</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09758887">
+        <prism:volume>118</prism:volume>
+        <prism:number>11</prism:number>
+        <dc:title>International Journal of Computer Applications</dc:title>
+        <dc:identifier>ISSN 09758887</dc:identifier>
+        <dc:identifier>DOI 10.5120/20790-3435</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://www.emeraldinsight.com/doi/10.1108/IntR-07-2014-0185">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1066-2243"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perez-Garcia</foaf:surname>
+                        <foaf:givenname>Lorena</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Jan Broekaert</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Note</foaf:surname>
+                        <foaf:givenname>Nicole</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.emeraldinsight.com/doi/10.1108/IntR-07-2014-0185</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1269-1290</bib:pages>
+        <dc:date>2016-10-03</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>The temporal evolution of the normalized web distance: Is a “Wirikuta empowerment” of the Huichol measurable on the internet?</dc:title>
+        <z:shortTitle>The temporal evolution of the normalized web distance</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1066-2243">
+        <prism:volume>26</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:title>Internet Research</dc:title>
+        <dc:identifier>ISSN 1066-2243</dc:identifier>
+        <dc:identifier>DOI 10.1108/IntR-07-2014-0185</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s13278-014-0230-4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>4</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Social Network Analysis and Mining</dc:title>
+                <dc:identifier>ISSN 1869-5450, 1869-5469</dc:identifier>
+                <dc:identifier>DOI 10.1007/s13278-014-0230-4</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tagarelli</foaf:surname>
+                        <foaf:givenname>Andrea</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Interdonato</foaf:surname>
+                        <foaf:givenname>Roberto</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s13278-014-0230-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>12/2014</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Lurking in social networks: topology-based analysis and ranking methods</dc:title>
+        <z:shortTitle>Lurking in social networks</z:shortTitle>
+    </bib:Article>
+    <bib:Article rdf:about="http://dx.plos.org/10.1371/journal.pone.0094093">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>9</prism:volume>
+                <prism:number>5</prism:number>
+                <dc:title>PLoS ONE</dc:title>
+                <dc:identifier>ISSN 1932-6203</dc:identifier>
+                <dc:identifier>DOI 10.1371/journal.pone.0094093</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenname>Yu-Ru</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keegan</foaf:surname>
+                        <foaf:givenname>Brian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Margolin</foaf:surname>
+                        <foaf:givenname>Drew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lazer</foaf:surname>
+                        <foaf:givenname>David</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holme</foaf:surname>
+                        <foaf:givenname>Petter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dx.plos.org/10.1371/journal.pone.0094093</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>e94093</bib:pages>
+        <dc:date>2014-5-22</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:25:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Rising Tides or Rising Stars?: Dynamics of Shared Attention on Twitter during Media Events</dc:title>
+        <z:shortTitle>Rising Tides or Rising Stars?</z:shortTitle>
+    </bib:Article>
+</rdf:RDF>

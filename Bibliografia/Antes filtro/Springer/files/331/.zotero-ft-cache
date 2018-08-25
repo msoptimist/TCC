@@ -1,0 +1,171 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+August 2007 , Volume 15, Issue 1 , pp 29–54 | Cite as
+Exploratory mining in cube space
+
+    Authors
+    Authors and affiliations
+
+    Raghu Ramakrishnan Email author
+    Bee-Chung Chen
+
+    Raghu Ramakrishnan
+        1
+    Email author
+    Bee-Chung Chen
+        1
+
+    1. Department of Computer Science University of Wisconsion Mdison USA
+
+Open Access
+Article
+First Online: 02 May 2007
+Received: 07 June 2006
+Accepted: 04 January 2007
+
+    584 Downloads
+    10 Citations
+
+Abstract
+
+Data Mining has evolved as a new discipline at the intersection of several existing areas, including Database Systems, Machine Learning, Optimization, and Statistics. An important question is whether the field has matured to the point where it has originated substantial new problems and techniques that distinguish it from its parent disciplines. In this paper, we discuss a class of new problems and techniques that show great promise for exploratory mining, while synthesizing and generalizing ideas from the parent disciplines. While the class of problems we discuss is broad, there is a common underlying objective—to look beyond a single data-mining step (e.g., data summarization or model construction) and address the combined process of data selection and transformation, parameter and algorithm selection, and model construction. The fundamental difficulty lies in the large space of alternative choices at each step, and good solutions must provide a natural framework for managing this complexity. We regard this as a grand challenge for Data Mining, and see the ideas discussed here as promising initial steps towards a rigorous exploratory framework that supports the entire process.
+Keywords
+Data mining  Exploratory analysis  OLAP  Cube  Feature space  Multidimensional data model 
+
+Communicated by Geoffrey Webb.
+
+Bee-Chung Chen is supported by a Microsoft Research graduate fellowship.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Agrawal R, Imielinski T, Swami A (1993) Mining association rules between sets of items in large databases. ACM SIGMOD Record 22(2):207–216 CrossRef Google Scholar
+    Barbará D, Wu X (2001) Loglinear-based quasi cubes. J Intell Inf Syst 16(3):255–276 MATH CrossRef Google Scholar
+    Breiman L (2001) Random forests. Mach Learn 45(1):5–32 MATH CrossRef Google Scholar
+    Burdick D, Deshpande PM, Jayram TS, Ramakrishnan R, Vaithyanathan S (2005) OLAP over uncertain and imprecise data. In: Proceedings of the 31st international conference on very large data bases (VLDB 05), pp 970–981 Google Scholar
+    Burdick D, Deshpande PM, Jayram TS, Ramakrishnan R, Vaithyanathan S (2006) Efficient allocation algorithms for olap over imprecise data. In: Proceedings of the 32nd international conference on very large data bases (VLDB 06), pp 391–402 Google Scholar
+    Chen Y, Dong G, Han J, Wah BW, Wang J (2002) Multi-dimensional regression analysis of time-series data streams. In: Proceedings of the 28th international conference on very large data bases (VLDB 02), pp 323–334 Google Scholar
+    Chen B-C, Chen L, Lin Y, Ramakrishnan R (2005a) Prediction cubes. In: Proceedings of the 31st international conference on very large data bases (VLDB 05), pp 982–993 Google Scholar
+    Chen Y, Dong G, Han J, Pei J, Wah BW, Wang J (2005b) Stream cube: an architecture for multi-dimensional analysis of data streams. Distribut Parallel Databases 18(2):173–197 CrossRef Google Scholar
+    Chen B-C, Ramakrishnan R, Shavlik JW, Tamma P (2006a) Bellwether analysis: predicting global aggregates from local regions. In: Proceedings of the 32nd international conference on very large data bases (VLDB 06), pp 655–666 Google Scholar
+    Chen L, Ramakrishnan R, Barford P, Chen B-C, Yegneswaran V (2006b) Composite subset measures. In: Proceedings of the 32nd international conference on very large data bases (VLDB 06), pp 403–414 Google Scholar
+    Danna A, Gandy O (2002) All the glitters is not gold: digging beneath the surface of data mining. J Bus Ethics 40:373–386 CrossRef Google Scholar
+    Dobra A, Fienberg SE (2001) Bounds for cell entries in contingency tables induced by fixed marginal totals with applications to disclosure limitation. Stat J U N 18:363–371 Google Scholar
+    Dong G, Han J, Lam J, Pei J, Wang K (2001) Mining multi-dimensional constrained gradients in data cubes. In: Proceedings of the 27th international conference on very large data bases (VLDB 01), pp 321–330 Google Scholar
+    Fagin R, Guha R, Kumar R, Novak J, Sivakumar D, Tomkins A (2005a) Multi-structural databases. In: Proceedings of the 24th ACM SIGACT-SIGMOD-SIGART symposium on principles of database systems (PODS 05), pp 184–195 Google Scholar
+    Fagin R, Kolaitis PG, Kumar R, Novak J, Sivakumar D, Tomkins A (2005b) Efficient implementation of large-scale multi-structural databases. In: Proceedings of the 31th international conference on very large data bases (VLDB 05), pp 958–969 Google Scholar
+    Gray J, Chaudhuri S, Bosworth A, Layman A, Reichart D, Venkatrao M (1997) Data cube: a relational aggregate operator generalizing group-by, cross-tab, and sub-tables. J Data Min Knowl Discov 1:29–53 CrossRef Google Scholar
+    Han J (1998) Towards on-line analytical mining in large databases. ACM SIGMOD Record 27(1):97–107 CrossRef Google Scholar
+    Harinarayan V, Rajaraman A, Ullman JD (1996) Implementing data cubes efficiently. ACM SIGMOD Record 25(2):205–216 Google Scholar
+    Imielinski T, Khachiyan L, Abdulghani A (2002) Cubegrades: generalizing association rules. J Data Min Knowl Disov 6:219–257 CrossRef Google Scholar
+    Kifer D, Gehrke J (2006) Injecting utility into anonymized datasets. In: Proceedings of ACM SIGMOD international conference on management of data (SIGMOD 06), pp 217–228 Google Scholar
+    LeFevre K, DeWitt D, Ramakrishnan R (2006) Workload-aware anonymization. In: Proceeding of the international conference on knowledge discovery and data mining (KDD 06), pp. 277–286 Google Scholar
+    Machanavajjhala A, Gehrke J, Kifer D, Venkitasubramaniam M (2006) l-Diversity: privacy beyond k -anonymity. In: Proceedings of the 22nd international conference on data engineering (ICDE 06), pp 24. Google Scholar
+    Margaritis D, Faloutsos C, Thrun S (2001) NetCube: a scalable tool for fast data mining and compression. In: Proceedings of the 27th international conference on very large data bases (VLDB 01), pp 311–320 Google Scholar
+    Mitchell TM (1997) Machine learning. McGraw-Hill, New York MATH Google Scholar
+    Parsons L, Haque E, Liu H (2004) Subspace clustering for high dimensional data: a review. ACM SIGKDD Explor Newsl 6(1):90–105 CrossRef Google Scholar
+    Samarati P, Sweeney L (1998) Protecting privacy when disclosing information: k-anonymity and its enforcement through generalization and suppression. Technical Report SRI-CSL-98–04, SRI Computer Science Laboratory Google Scholar
+    Sarawagi S (1999) Explaining differences in multidimensional aggregates. In: Proceedings of the 25th international conference on very large data bases (VLDB 99), pp 42–53 Google Scholar
+    Sarawagi S (2001) User-cognizant multidimensional analysis. VLDB J 10(2–3):224–239 MATH Google Scholar
+    Sarawagi S, Agrawal R, Megiddo N (1998) Discovery-driven exploration of OLAP data cubes. In: Proceedings of the 6th international conference on extending database technology (EDBT 98), 168–182 Google Scholar
+    Sathe G, Sarawagi S (2001) Intelligent rollups in multidimensional OLAP data. In: Proceedings of the 27th international conference on very large data bases (VLDB 01), pp 531–540 Google Scholar
+    Witten IH, Frank E (2000) Data mining: practical machine learning tools with java implementations. Morgan Kaufmann, San Francisco Google Scholar
+
+Copyright information
+© Springer Science+Business Media, LLC 2007
+About this article
+
+Cite this article as:
+    Ramakrishnan, R. & Chen, BC. Data Min Knowl Disc (2007) 15: 29. https://doi.org/10.1007/s10618-007-0063-0
+
+    DOI https://doi.org/10.1007/s10618-007-0063-0
+    Publisher Name Kluwer Academic Publishers-Plenum Publishers
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+
+This article is published under an open access license. Please check the 'Copyright Information' section for details of this license and what re-use is permitted. If your intended use exceeds what is permitted by the license or if you are unable to locate the licence and re-use information, please contact the Rights and Permissions team .
+Personalised recommendations
+Exploratory mining in cube space
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45

@@ -1,0 +1,227 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+October 2007 , Volume 15, Issue 2 , pp 145–180 | Cite as
+Mining process models with non-free-choice constructs
+
+    Authors
+    Authors and affiliations
+
+    Lijie Wen Email author
+    Wil M. P. van der Aalst
+    Jianmin Wang
+    Jiaguang Sun
+
+    Lijie Wen
+        1
+    Email author
+    Wil M. P. van der Aalst
+        2
+    Jianmin Wang
+        1
+    Jiaguang Sun
+        1
+
+    1. School of Software Tsinghua University Beijing China
+    2. Eindhoven University of Technology Eindhoven The Netherlands
+
+Article
+First Online: 02 March 2007
+Received: 18 February 2006
+Accepted: 22 January 2007
+
+    622 Downloads
+    93 Citations
+
+Abstract
+
+Process mining aims at extracting information from event logs to capture the business process as it is being executed. Process mining is particularly useful in situations where events are recorded but there is no system enforcing people to work in a particular way. Consider for example a hospital where the diagnosis and treatment activities are recorded in the hospital information system, but where health-care professionals determine the “careflow.” Many process mining approaches have been proposed in recent years. However, in spite of many researchers’ persistent efforts, there are still several challenging problems to be solved. In this paper, we focus on mining non-free-choice constructs, i.e., situations where there is a mixture of choice and synchronization. Although most real-life processes exhibit non-free-choice behavior, existing algorithms are unable to adequately deal with such constructs. Using a Petri-net-based representation, we will show that there are two kinds of causal dependencies between tasks, i.e., explicit and implicit ones. We propose an algorithm that is able to deal with both kinds of dependencies. The algorithm has been implemented in the ProM framework and experimental results shows that the algorithm indeed significantly improves existing process mining techniques.
+Keywords
+Process mining  Implicit dependency  Event log  Non-free-choice constructs 
+
+Responsible editor: Eamonn Keogh.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    van der Aalst WMP (1998) The application of petri nets to workflow management. J Circuits Syst Comp 8(1):21–66 CrossRef Google Scholar
+    van der Aalst WMP (2004a) Business alignment: using process mining as a tool for delta analysis. In: Grundspenkis J, Kirikova M (eds) Proceedings of the 5th workshop on business process modeling, development and support (BPMDS’04), volume 2 of Caise’04 workshops. Riga Technical University, Latvia, pp 138–145 Google Scholar
+    van der Aalst WMP (2004b) Business Process management demystified: a tutorial on models, systems and standards for workflow management. In Desel J, Reisig W, Rozenberg G (eds) Lectures on concurrency and Petri nets, vol 3098 of Lecture Notes in Computer Science. Springer-Verlag, Berlin, pp 1–65 Google Scholar
+    van der Aalst WMP, van Hee KM (2002) Workflow management: models, methods, and systems. MIT press, Cambridge, MA Google Scholar
+    van der Aalst WMP and ter Hofstede AHM (2005) YAWL: yet another workflow language. Inform Syst 30(4):245–275 CrossRef Google Scholar
+    van der Aalst WMP, de Medeiros AKA (2004) Process mining and security: detecting anomalous process executions and checking process conformance. In: Busi N, Gorrieri R, Martinelli F (eds) Second international workshop on security issues with petri nets and other computational models (WISP 2004). STAR, Servizio Tipografico Area della Ricerca, CNR Pisa, Italy, pp 69–84 Google Scholar
+    van der Aalst WMP, Song M (2004) Mining social networks: uncovering interaction patterns in business processes. In: Desel J, Pernici B, Weske M (eds) International conference on business process management (BPM 2004), vol 3080 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 244–260 Google Scholar
+    van der Aalst WMP, Weijters AJMM (2004) (eds) Process mining, special issue of computers in industry, vol 53, number 3. Elsevier Science Publishers, Amsterdam Google Scholar
+    van der Aalst WMP, van Dongen BF, Herbst J, Maruster L, Schimm G, Weijters AJMM (2003) Workflow mining: a survey of issues and approaches. Data Knowl Eng 47(2):237–267 CrossRef Google Scholar
+    van der Aalst WMP, Weijters AJMM, Maruster L (2004) Workflow mining: discovering process models from event logs. IEEE Trans Knowl Data Eng 16(9):1128–1142 CrossRef Google Scholar
+    van der Aalst WMP, Dumas M, Ouyang C, Rozinat A, Verbeek HMW (2005a) Choreography conformance checking: an approach based on BPEL and Petri nets (extended version). BPM Center Report BPM-05-25, BPMcenter.org. Google Scholar
+    van der Aalst WMP, Alves de Medeiros AK, Weijters AJMM (2005b) Genetic process mining. In: Ciardo G, Darondeau P (eds) Applications and theory of Petri nets 2005, vol 3536 of Lecture notes in computer science. Springer-Verlag, Berlin Google Scholar
+    van der Aalst WMP, Weske M, Grünbauer D (2005c) Case handling: a new paradigm for business process support. Data Knowl Eng 53(2):129–162 CrossRef Google Scholar
+    van der Aalst WMP, Alves de Medeiros AK, Weijters AJMM (2006) Process equivalence: comparing two process models based on observed behavior. In: Dustdar S, Faideiro JL, Sheth A (eds) International conference on business process management (BPM 2006), vol 4102 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 129–144 Google Scholar
+    Agrawal R, Gunopulos D, Leymann F (1998) Mining process models from workflow logs. In: Sixth international conference on extending database technology, pp 469–483 Google Scholar
+    Andrews T, Curbera F, Dholakia H, Goland Y, Klein J, Leymann F, Liu K, Roller D, Smith D, Thatte S, Trickovic I, Weerawarana S (2003) Business process execution language for web services, version 1.1. Standards proposal by BEA Systems, International Business Machines Corporation, and Microsoft Corporation Google Scholar
+    Biermann AW, Feldman JA (1972b) A survey of results in grammatical inference. In: Watanabe S (eds) Frontiers of pattern recognition. Academic Press, pp 31–54 Google Scholar
+    Biermann AW, Feldman JA (1972a) On the synthesis of finite-state machines from samples of their behavior. IEEE Trans Comput 21:592–597 MATH MathSciNet CrossRef Google Scholar
+    Cook JE, Du Z (2005) Discovering thread interactions in a concurrent system. J Syst Software 77(3):285–297 CrossRef Google Scholar
+    Cook JE, Wolf AL (1998) Discovering models of software processes from event-based data. ACM Trans Software Eng Method 7(3):215–249 CrossRef Google Scholar
+    Cook JE, Du Z, Liu C, Wolf AL (2004) Discovering models of behavior for concurrent workflows. Comput Indus 53(3):297–319 CrossRef Google Scholar
+    CPN Group, University of Aarhus, Denmark. CPN Tools Home Page. http://wiki.daimi.au.dk/cpntools/. Google Scholar
+    Datta A (1998) Automating the discovery of as-is business process models: probabilistic and algorithmic approaches. Inform Sys Res 9(3):275–301 Google Scholar
+    Desel J, Esparza J (1995) Free choice petri nets, vol 40 of Cambridge tracts in theoretical computer science. Cambridge University Press, Cambridge, UK Google Scholar
+    Desel J, Reisig W, Rozenberg G (eds) (2004) Lectures on concurrency and petri nets, vol 3098 of Lecture notes in computer science. Springer-Verlag, Berlin Google Scholar
+    van Dongen BF, van der Aalst WMP (2005) A meta model for process mining data. In: Casto J, Teniente E (eds) Proceedings of the CAiSE’05 workshops (EMOI-INTEROP Workshop), vol 2. FEUP, Porto, Portugal, pp 309–320 Google Scholar
+    van Dongen B, Alves de Medeiros AK, Verbeek HMW, Weijters AJMM, van der Aalst WMP (2005) The ProM framework: a new era in process mining tool support. In: Ciardo G, Darondeau P (eds) Application and theory of Petri nets 2005, vol 3536 of Lecture notes in computer science, Springer-Verlag, Berlin, pp 444–454 Google Scholar
+    Dumas M, van der Aalst WMP, ter Hofstede AHM (2005) Process-aware information systems: bridging people and software through process technology. Wiley & Sons Google Scholar
+    Ehrenfeucht A, Rozenberg G (1989) Partial (set) 2-structures – part 1 and part 2. Acta Inform 27(4):315–368 CrossRef MathSciNet Google Scholar
+    Greco G, Guzzo A, Pontieri L, Saccá D (2004) Mining expressive process models by clustering workflow traces. In: Proc of advances in kowledge discovery and data mining, 8th Pacific-Asia conference (PAKDD 2004), Sydney, Australia. Springer-Verlag, Berlin, pp 52–62 Google Scholar
+    Grigori D, Casati F, Dayal U, Shan MC (2001) Improving business process quality through exception understanding, prediction, and prevention. In: Apers P, Atzeni P, Ceri S, Paraboschi S, Ramamohanarao K, Snodgrass R (eds) Proceedings of 27th international conference on very large data bases (VLDB’01), Roma, Italy. Morgan Kaufmann, pp 159–168 Google Scholar
+    Grigori D, Casati F, Castellanos M, Dayal U, Sayal M, Shan MC (2004) Business process intelligence. Comput Indus 53(3):321–343 CrossRef Google Scholar
+    Harel D, Kugler H, Pnueli A (2005) Synthesis revisited: generating statechart models from scenario-based requirements. In: Formal methods in software and systems modeling, vol 3393 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 309–324 Google Scholar
+    Herbst J (2000) A machine learning approach to workflow management. In: Proceedings 11th european conference on machine learning, vol 1810 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 183–194 Google Scholar
+    IDS Scheer (2002) ARIS process performance manager (ARIS PPM): measure, analyze and optimize your business process performance (whitepaper). IDS Scheer, Saarbruecken, Gemany, http://www.ids-scheer.com Google Scholar
+    Jablonski S, Bussler C (1996) Workflow management: modeling concepts, architecture, and implementation. International Thomson Computer Press, London, UK Google Scholar
+    Keller G, Nüttgens M, Scheer AW (1992) Semantische Processmodellierung auf der Grundlage Ereignisgesteuerter Processketten (EPK). Veröffentlichungen des Instituts für Wirtschaftsinformatik, Heft 89 (in German), University of Saarland, Saarbrücken Google Scholar
+    Leymann F, Roller D (1999) Production workflow: concepts and techniques. Prentice-Hall PTR, Upper Saddle River, New Jersey, USA Google Scholar
+    Liang H, Dingel J, Diskin Z (2006) A comparative survey of scenario-based to state-based model synthesis approaches. In: Proceedings of the 2006 international workshop on scenarios and state machines: models, algorithms, and tools (SCESM06). ACM Press, New York, USA, pp 5–12 Google Scholar
+    Alves de Medeiros AK, Guenther CW (2005) Process mining: using cpn tools to create test logs for mining algorithms. In: Jensen K (ed) Proceedings of the sixth workshop on the practical use of coloured Petri nets and CPN tools (CPN 2005), vol 576 of DAIMI, Aarhus, Denmark, October 2005. University of Aarhus, pp 177–190 Google Scholar
+    de Medeiros AKA, van der Aalst WMP, Weijters AJMM (2003) Workflow mining: current status and future directions. In: Meersman R, Tari Z, Schmidt DC (eds). On the move to meaningful internet systems 2003: CoopIS, DOA, and ODBASE, vol 2888 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 389–406 Google Scholar
+    de Medeiros AKA, van Dongen BF, van der Aalst WMP, Weijters AJMM (2004) Process mining for ubiquitous mobile systems: an overview and a concrete algorithm. In: Baresi L, Dustdar S, Gall H, Matera M (eds) Ubiquitous mobile information and collaboration systems (UMICS 2004), vol 3272 of Lecture notes in computer science, Springer-Verlag, Berlin, pp 154–168 Google Scholar
+    zur Mühlen M, Rosemann M (2000) Workflow-based process monitoring and controlling - technical and organizational issues. In: Sprague R (ed) Proceedings of the 33rd Hawaii international conference on system science (HICSS-33). IEEE Computer Society Press, Los Alamitos, California, pp 1–10 Google Scholar
+    Pallas Athena (2004) Protos user manual. Pallas Athena BV, Plasmolen, The Netherlands Google Scholar
+    Parekh R, Honavar V (1996) An incremental interactive algorithm for regular grammar inference. In: International colloquium on grammatical inference: learning syntax from sentences (ICGI 1996), ol 1147 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 238–249 Google Scholar
+    Parekh R, Honavar VG (2001) Learning DFA from simple examples. Machine Learning 44(1-2): 9–35 MATH CrossRef Google Scholar
+    Rozinat A, van der Aalst WMP (2005) Conformance testing: measuring the fit and appropriateness of event logs and process models. In: Castellanos M, Weijters T (eds) First international on business process intelligence (BPI’05), Nancy, France, September 2005. Springer-Verlag, Berlin, pp 1–12 Google Scholar
+    Rozinat A, van der Aalst WMP (2006) Conformance testing: measuring the fit and appropriateness of event logs and process models. In: Bussler C et al (eds) BPM 2005 workshops, vol 3812 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 163–176 Google Scholar
+    Sarbanes P, Oxley G et al. Sarbanes-Oxley Act of 2002 Google Scholar
+    Sayal M, Casati F, Dayal U, Shan MC (2002) Business process cockpit. In: Proceedings of 28th international conference on very large data bases (VLDB’02), Hong Kong, China. Morgan Kaufmann, pp 880–883 Google Scholar
+    Scheer AW (2000) ARIS: business process modelling. Springer-Verlag, Berlin Google Scholar
+    Scott J (1992) Social network analysis. Sage, Newbury Park CA Google Scholar
+    TIBCO (2005) TIBCO staffware process monitor (SPM). http://www.tibco.com Google Scholar
+    Wasserman S, Faust K (1994) Social network analysis: methods and applications. Cambridge University Press, Cambridge Google Scholar
+    Weijters AJMM, van der Aalst WMP (2002) Workflow mining: discovering workflow models from event-based data. In: Dousson C, Höppner F, Quiniou R (eds) Proceedings of the ECAI workshop on knowledge discovery and spatial data, Lyon, France. IOS Press, pp 78–84 Google Scholar
+    Weijters AJMM, van der Aalst WMP (2003) Rediscovering workflow models from event-based data using little thumb. Integr comput-Aided Eng 10(2):151–162 Google Scholar
+    Wen L, Wang J, van der Aalst WMP, Wang Z, Sun J (2004) A novel approach for process mining based on event types. BETA Working Paper Series, WP 118, Eindhoven University of Technology, Eindhoven Google Scholar
+    Wen L, Wang J, Sun J (2006) Detecting implicit dependencies between tasks from event logs. In: Zhou X, Lin X, Lu H et al. (eds) The 8th Asia-Pacific web conference (APWeb 2006), vol 3841 of Lecture notes in computer science. Springer-Verlag, Berlin, pp 591–603 Google Scholar
+
+Copyright information
+© Springer Science+Business Media, LLC 2007
+About this article
+
+Cite this article as:
+    Wen, L., van der Aalst, W.M.P., Wang, J. et al. Data Min Knowl Disc (2007) 15: 145. https://doi.org/10.1007/s10618-007-0065-y
+
+    DOI https://doi.org/10.1007/s10618-007-0065-y
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Mining process models with non-free-choice constructs
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

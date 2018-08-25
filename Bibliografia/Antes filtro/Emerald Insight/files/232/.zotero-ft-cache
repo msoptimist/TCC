@@ -1,0 +1,557 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    Journal of Enterprise Information Management
+    Volume 29, Issue 2
+    Text mining stackoverflow
+
+
+Text mining stackoverflow: An insight into challenges and subject-related difficulties faced by computer science learners
+
+Author(s):
+    Arash Joorabchi (Department of Electronic and Computer Engineering, University of Limerick, Limerick, Ireland)
+    Michael English (Department of Computer Science & Information Systems, University of Limerick, Limerick, Ireland)
+    Abdulhussain E. Mahdi (Department of Electronic and Computer Engineering, University of Limerick, Limerick, Ireland)
+    ...Show all authors 
+
+Abstract:
+    Purpose
+    – The use of social media and in particular community Question Answering (Q & A) websites by learners has increased significantly in recent years. The vast amounts of data posted on these sites provide an opportunity to investigate the topics under discussion and those receiving most attention. The purpose of this paper is to automatically analyse the content of a popular computer programming Q & A website, StackOverflow (SO), determine the exact topics of posted Q & As, and narrow down their categories to help determine subject difficulties of learners. By doing so, the authors have been able to rank identified topics and categories according to their frequencies, and therefore, mark the most asked about subjects and, hence, identify the most difficult and challenging topics commonly faced by learners of computer programming and software development.
+
+    Design/methodology/approach
+    – In this work the authors have adopted a heuristic research approach combined with a text mining approach to investigate the topics and categories of Q & A posts on the SO website. Almost 186,000 Q & A posts were analysed and their categories refined using Wikipedia as a crowd-sourced classification system. After identifying and counting the occurrence frequency of all the topics and categories, their semantic relationships were established. This data were then presented as a rich graph which could be visualized using graph visualization software such as Gephi.
+
+    Findings
+    – Reported results and corresponding discussion has given an indication that the insight gained from the process can be further refined and potentially used by instructors, teachers, and educators to pay more attention to and focus on the commonly occurring topics/subjects when designing their course material, delivery, and teaching methods.
+
+    Research limitations/implications
+    – The proposed approach limits the scope of the analysis to a subset of Q & As which contain one or more links to Wikipedia. Therefore, developing more sophisticated text mining methods capable of analysing a larger portion of available data would improve the accuracy and generalizability of the results.
+
+    Originality/value
+    – The application of text mining and data analytics technologies in education has created a new interdisciplinary field of research between the education and information sciences, called Educational Data Mining (EDM). The work presented in this paper falls under this field of research; and it is an early attempt at investigating the practical applications of text mining technologies in the area of computer science (CS) education.
+
+Keywords:
+    Text mining , Course design and delivery , Educational data mining , Social learning , Technology supported learning 
+Publisher:
+    Emerald Group Publishing Limited 
+Acknowledgments:
+
+    This research was funded under the “Research & Practice in ICT Learning” initiative – University of Limerick.
+Copyright:
+    © Emerald Group Publishing Limited 2016
+    Published by Emerald Group Publishing Limited
+Citation:
+    Arash Joorabchi , Michael English , Abdulhussain E. Mahdi , (2016) "Text mining stackoverflow: An insight into challenges and subject-related difficulties faced by computer science learners", Journal of Enterprise Information Management , Vol. 29 Issue: 2, pp.255-275, https://doi.org/10.1108/JEIM-11-2014-0109 
+Downloads:
+    The fulltext of this document has been downloaded 760 times since 2016
+Article
+1. Introduction
+Section: Next section
+
+The ever increasing volumes of data and information shared on social media and collaborative sites have become a rich and valuable source of knowledge for a wide spectrum of users’ needs. When there is a need to learn about a new subject or to solve a specific problem, by nature people look for fast access to relevant information that would help them address that need. As such, very often they tend to consult relevant web communities, such as social media, online forums, and Community Question Answering (CQA), traditionally known as Question Answering (Q & A) sites, which gather contributions from a large array of users with different levels of expertise. Recent years, therefore, have witnessed the emergence and growing popularity of these sites among learners and educational communities, particularly students in higher education who seek to find help with their course work and material. According to Pearson’s latest annual report on the use of social media for teaching and learning ( Seaman and Tinti-Kane, 2013 ), the use of social media in higher education institutes has been on a steady rise in recent years. This includes the use of a wide range of social media websites and technologies, such as Twitter, Facebook, and Q & A sites, such as the StackExchange [1] and Quora [2] .
+
+There is currently a debate among teachers and educators with regards to the pedagogical approach of the Q & A sites to “helping” people and its productivity and contribution to real learning [3] [4] and whether students should be encouraged to avail of the type of help provided by these systems [5] . This debate seems to demonstrate mixed opinions which, from our perspective, are driven by the fact that the ultimate goal of responsible teachers and educators is to facilitate the learning of their students in an active manner, help them achieve the learning outcomes and therefore the skills which their study programmes are designed for. Notwithstanding this debate, and rather than looking at the issue of students use of these Q & A sites with caution, we believe there is an opportunity here for teachers and educators to learn about and discover various aspects of this learning behaviour that can potentially help enhance their own teaching approaches. The vast amount of data and content posted on these online mediums can potentially be mined and analysed by teachers and other stakeholders to gain a detailed insight into the needs and challenges faced by the learners, and consequently used to improve the content and delivery of the courses they teach. Motivated by this opportunity, the last few years have seen the emergence of a new field of research called educational data mining (EDM) ( Romero et al. , 2010 ). According to the international EDM society, “educational data mining is an emerging discipline, concerned with developing methods for exploring the unique types of data that come from educational settings, and using those methods to better understand students, and the settings which they learn in”.
+
+One of the subject fields that present themselves as rich candidates for conducting EDM research is computer science (CS), which includes computer programming and software development. This is due to the fact that learners and educators who work in this field possess the IT skills required to readily utilize the services offered by Q & A sites and other social media tools, making them the most likely early adopters of social media technologies for educational purposes ( Treude et al. , 2012 ; Singer et al. , 2013a ). This, in fact, is clearly reflected by the relatively large size of StackOverflow [6] (SO) for example, which is a social Q & A website focused on computer programming, compared to the other Q & A websites in the StackExchange network which cover over 100 various topics. Analysing the Q & As posted on SO could reveal interesting insight into the challenges faced by both novice and experienced programmers, including students. However, the sheer volume of content and information exchanged via SO and similar forums makes the task of their manual analysis difficult. Faced by this challenge, we believe a whole host of text mining and visualization methods, which have already been successfully applied in other application domains ( Aggarwal and Zhai, 2012 ),may also be deployed to facilitate the process of analysing the content of these educational forums.
+
+To date EDM research on CQA, and SO in particular, has mainly focused on aspects such as prediction of answers quality, crowd knowledge ranking, and user suitability ( Harper et al. , 2008 ; Megan, 2014 ; Souza et al. , 2014 ; Treude et al. , 2011 ), user profiling and expert identification ( Ginsca and Popescu, 2013 ; Bazelli et al. , 2013 ; Bian et al. , 2009 ), factors that contribute to the success of CQA ( Mamykina et al. , 2011a ; Liu and Agichtein, 2008 ), as well as other specific subject-related analyses ( Tausczik et al. , 2014 ; Saxe et al. , 2013 ; Wong et al. , 2013 ; Vasilescu et al. , 2013 ). We believe, there is an apparent lack of EDM work in the context we raised above: how can teachers and educators learn from the vast amount of data produced on CQA sites to acquire an in-depth look of the subject-related needs and challenges faced by their students, utilize that knowledge to address any gaps in their teaching, delivery and coverage of the subjects, and hence enhance the learning process of their students. This paper describes a first-level attempt to addressing above research question in relation to the fields of CS, computer programming, and software development, by proposing a novel text mining approach to investigate the potential and benefits of SO to higher education instructors and teachers. The paper describes the technical details and results of a text mining method used to discover the well-defined topics and categories which have been most frequently asked about in SO. This has been achieved by adopting Wikipedia as a controlled vocabulary for detecting topics of Q & As posted on SO efficiently, where each topic corresponds to a unique Wikipedia page and the topics are clustered into categories via the Wikipedia’s classification system. We also present our findings in terms of the insight gained in relation to the possible underlying reasons behind the high frequency of some topics and categories, and whether these topics and categories may be perceived to reflect subject-related difficulties faced by student-learners in these fields.
+
+The work presented in this paper aims to address the following two research questions:
+
+RQ1. How can text mining of CQA, and SO in particular, be utilized to provide an in-depth perception and understanding of subject-related difficulties faced by learners?
+
+RQ2. Can instructors, teachers, and educators in higher education learn from such an insight to support their students and enhance their learning experience?
+
+The rest of the paper is organized as follows: Section 2 introduces the StackExchange network and its most popular website, SO. Section 3 introduces text mining and describes how Wikipedia could be used as a controlled vocabulary for topic detection and categorization of Q & As posted on SO. Section 4 presents the methodology adopted in this research and justifies this approach while Section 5 discusses the implementation details of our proposed method for text mining the Q & As. Section 6 presents the results and discusses our findings. This is followed by Section 7 which provides a conclusion along with a summary account of planned future work.
+2. StackExchange and SO
+Section: Previous section Next section
+
+StackExchange [7] is a network of Q & A websites each covering a specific topic (e.g. mathematics, physics, biology) in broad areas such as technology, science, business etc. According to Alexa [8] it currently ranks at 170 in terms of global traffic. The network currently contains 119 topic websites and 119 meta websites. Each website covering a specific topic has an accompanying meta website dedicated to its management issues. The StackExchange platform allows all users to create, vote for, and edit questions and answers and uses popularity voting as an effective mechanism for rank and filtering. It also deploys gamification and game design elements such as using rewards in the form of badges to encourage and stimulate community participation ( Singer et al. , 2013b ).
+
+SO was the first website in the StackExchange network, which was created in 2008, and currently is the most popular website in the network. It is a free Q & A website facilitating the exchange of knowledge between both novice and experienced computer programmers. Users post and answer questions related to computer programming and may comment and rate both questions and answers. SO currently has over 3.5 million registered users. Since its inception in 2008, more than 8 million questions have been posted on the site and over 14 million answers have been provided [9] , all contributing to a large knowledge repository of computer programming and software development. Parnin and Treude (2011) investigated the documentation resources that programmers use by analysing Google search results for a popular API, jQuery, and found that SO appears on the first search results page, at least once, in case of 84 per cent of the search queries. Although one might argue that this evidence only shows the popular usage of SO for discussions on a particular technology ( Barua et al. , 2014 ) showed that SO covers a wide range of technologies. Currently an average of 7,000 questions are posted on the site daily and; as of August 2010, SO had an answer rate above 90 per cent and a median answer time of only 11 minutes ( Mamykina et al. , 2011b ). According to Nasehi et al. (2012) , as of February 2012, the median time of accepted answers being posted on the site was 24 minutes and in the first hour 70 per cent of questions received their first answer. Furthermore, SO contains a complete record of every registered user including his/her badges, points, and scores which may be utilized for various educational research purposes. Before the advent of social Q & A websites, the main mechanisms for Q & A consisted of technical forums where content is available in the form of threaded discussions. The main problem with this approach is that useful information is typically mixed with irrelevant context. Social Q & A websites such as SO, on the other hand, make use of collaborative filtering to rank best answers, which are shown up front saving users’ time and effort ( Treude et al. , 2012 ).
+3. Text mining using Wikipedia as a knowledge base
+Section: Previous section Next section
+
+Text mining is the analysis of data contained in natural language text using techniques and tools designed to discover and extract knowledge from unstructured data ( Feldman and Sanger, 2006 ). Text mining works by transposing words and phrases in unstructured data into numerical values or more structured topics which can then be linked and analysed with traditional data mining techniques. Accordingly, text mining involves three major activities: information retrieval, which gathers relevant texts; information extraction, which identifies and extracts a range of specific types of information from texts of interest; and data mining, which finds associations among the pieces of information extracted from many different texts.
+
+The data mining phase of the text mining approach can include text classification. Traditionally this has been achieved by representing the documents as bags of words and training a generic machine learning-based classifier to learn a classification model from a set of manually labelled documents. The learnt model in then used to classify unseen documents. However, such an approach to text classification ignores the important semantic relationships that may exist between keywords. This limitation can be overcome by utilizing an existing knowledge base that identifies such links between keywords and phrases. A knowledge base such as a controlled vocabulary is a way of organizing or structuring knowledge to support information retrieval. They are used in subject indexing systems such as subject headings and thesauri. Examples of such controlled vocabularies include Library of Congress Subject Headings (LCSH) and the Dewey Decimal Classification (DDC) system. In recent years, Wikipedia as a controlled vocabulary has received a lot of attention from researchers working in the field of information retrieval and knowledge management ( Medelyan et al. , 2009 ). As one of the most comprehensive external knowledge sources currently available, Wikipedia has been successfully used in a wide range of applications, such as named entity recognition ( Bunescu and Pasca, 2006 ), text classification ( Wang and Domeniconi, 2008 ), text clustering ( Hu et al. , 2009 ), event detection ( Ciglan and Nørvåg, 2010 ), topic indexing ( Medelyan et al. , 2008 ), and semantic relatedness measurement ( Milne and Witten, 2008 ). In this work Wikipedia is used as a controlled vocabulary to support the classification of SO Q & A posts into topics and higher level categories.
+
+Wikipedia is the world’s largest free online encyclopedia. The English Wikipedia alone currently contains more than 4 million articles ( Wikipedia, 2014b ). Wikipedia articles are written, edited, and kept up-to-date and accurate (to a large degree) by a vast community of volunteer contributors, editors, and administrators who are collectively called Wikipedians. An investigation conducted by Nature ( Giles, 2005 ) suggested that Wikipedia comes close to Encyclopaedia Britannica in terms of the accuracy of its science entries, although this suggestion was later disputed by Britannica (2006) . However, regardless of occasional controversies around the accuracy of its articles, Wikipedia is serving a significant role in fulfilling public information needs. For example, results of a nationwide survey conducted in the USA in 2007 showed that Wikipedia attracted six times more traffic than the next closest website in the “educational and reference” category and preceded websites such as Google Scholar and Google Books with a large margin ( Rainie and Tancer, 2007 ).
+4. Methodology
+Section: Previous section Next section
+
+As indicated in the introduction, to the best of our knowledge, the work reported here represents a new direction in the field of EDM using a novel text mining-based method to analyse Q & A websites and discover new phenomena. Hence, we have adopted a heuristic research approach combined with a new text mining approach, which utilizes Wikipedia as a knowledge base, as a research methodology to answering the research questions posed earlier. The heuristic approach is an exploratory approach to research, that is quite different from other approaches in that it is not concerned with finding theories or testing hypotheses by following some pre-established formula, but is concerned directly with discovery of knowledge or some desired result by exploration, experimental work, intelligent analysis, and logic reasoning ( Moustakas, 1990 ; Abbass, 2001 ).
+
+The text mining approach has been adopted as an alternative to a labour-intensive manual approach such as content analysis ( Krippendorff, 2012 ) due to the size of the data set being analysed which limits the extent to which a manual analysis approach could be adopted. The three phases of the text mining approach are now described with an overview provided in Figure 1 and further technical detail described in the Section 5.
+
+Information retrieval (data collection): The data for this study has been extracted for the SO website. SO currently has over 3.5 million registered users. Since its inception in 2008, more than 8 million questions have been posted on the site and over 14 million answers have been provided (see footnote 9) . Approximately 7,000 questions are posted on a daily basis. Thus within the software development field, SO is the largest community question and answer forum and therefore is a rich data source for the study proposed in this wok. In addition, the StackExchange network, of which the SO website is part, has adopted an open data policy whereby all of its websites’ data such as posts, users, votes, and comments are made freely available to the public. An anonymized dump of all the user-contributed StackExchange data are published periodically [10] . Therefore all of the SO data related to questions, answers, and users is freely available for download and analysis.
+
+Given that Wikipedia is being used as a controlled vocabulary, only the questions and answers that contain links to Wikipedia pages are analysed in this study. This phase of the text mining approach involves the identification of all the Q & A posts on SO that may contain a link to a valid Wikipedia webpage. Many of the questions and answers posted on SO contain links to Wikipedia. This phase of the analysis returned a total of 188,548 matches including a combination of questions and answers.
+
+Information extraction (data cleaning): This phase of the mining process involved extracting the actual URLs of the Wikipedia pages and validating them. There were two levels of validation involved. The first phase removed links which contained invalid characters and the second phase ensured that the syntactically correct links pointed to an actual Wikipedia URL at the time of analysis.
+
+Data mining (visualization and frequency analysis): Each valid Wikipedia URL identified in the previous phase points to an article within the Wikipedia where the topic can have one or more parent categories. A software application was built to extract the corresponding articles/topics for the URLs, their appearance frequency in the analysed Q & As, and their parent categories to facilitate the visualization and analysis presented in Section 6.
+4.1. Wikipedia as a knowledge base
+
+The SO Q & A posts that contain links to Wikipedia form the data set for analysis in this study. While this limits our analysis to a subset of SO Q & A posts, we believe that the benefits offered by using Wikipedia as a controlled vocabulary outweigh the limitations of focusing on a subset of the Q & A posts. As a controlled vocabulary, Wikipedia offers a number of advantages over similar controlled vocabularies such as library classification systems:
+
+    Extensive coverage and comprehensiveness: the English Wikipedia currently contains over 4 million articles covering subjects in all aspects of human knowledge.
+
+    Up-to-dateness: due to the crowd-sourced nature of Wikipedia and its large pool of editors, Wikipedia articles are generally well-maintained and kept quite up-to-date. For example, a study examining the potential of combining Twitter and Wikipedia data for event detection showed that in case of major events Wikipedia lags Twitter only by about three hours ( Osborne et al. , 2012 ).
+
+    Rich description: Wikipedia articles provide rich descriptive content for the represented concepts describing their various aspects in details.
+
+    Multilingual: as of July 2014 Wikipedia exists in more than 287 languages. Wikipedia has more than 1 million articles in each of the 12 most populated languages and more than one hundred thousand articles in each of the 52 less populated languages ( Wikipedia, 2014a ).
+
+According to part 1 of the international standard for thesauri (ISO 25964-1) [11] , a compliant thesaurus should capture and encode three main types of relationship between concepts: equivalence relations between synonyms and near-synonyms, e.g. car and automobile; hierarchical relations between broader and narrower concepts, e.g. vehicle and car; associative relations between concepts that are closely related in a non-hierarchical fashion, e.g. Formula 1 and car. Adapted as a controlled vocabulary, Wikipedia meets all these requirements: each Wikipedia article has a descriptor which is the preferred and most commonly used term for the represented concept, and each article is assigned a set of non-descriptors which are the less commonly used synonyms and alternative lexical forms for the concept (i.e. equivalence relations); similar to the notion of “Related Terms” in traditional controlled vocabularies, related articles in Wikipedia are connected via hyperlinks (i.e. associative relations); each Wikipedia article is classified according to the Wikipedia’s own community-built classification scheme into one or more broader categories, which resembles the notion of “Broader Terms/Narrower Terms” in traditional controlled vocabularies (i.e. hierarchical relations).
+
+While the accuracy of some Wikipedia articles has been disputed as discussed in Section 3, and the editorial quality of some articles is poor, this does not seem to effect the quality of the controlled vocabularies derived from Wikipedia. For example ( Milne et al. , 2006 ), investigated the application of Wikipedia as a thesaurus in the domain of agriculture and compared it with a manually created professional thesaurus in this domain, Agrovoc, as the gold standard. They found that Wikipedia contains a substantial proportion of concepts and semantic relations encoded in Agrovoc and has impressive coverage of contemporary documents in the domain. In a similar study ( Vivaldi and Rodríguez, 2010 ) derived three domain-specific thesauri for astronomy, chemistry, and medicine in two languages (English, Spanish) from Wikipedia, and reported promising results in terms of the coverage and accuracy of the constructed thesauri. These and a number of similar studies have shown that Wikipedia is an effective source of knowledge for constructing various types of controlled vocabularies, including thesauri, taxonomies, and ontologies ( Ponzetto and Strube, 2007 ; Fogarolli, 2011 ; Milne et al. , 2007 ). Traditional controlled vocabularies such as LCSH and DDC have been created to support the indexing and classification of books and are only updated periodically. Alternatively, Wikipedia as a crowd-sourced classification system is updated in real-time and thus is likely to include new and emerging topics and categories associated with the computer programming and software development domains.
+
+The above listed advantages of Wikipedia over other controlled vocabularies and more importantly the existing links between SO posts and Wikipedia articles make Wikipedia our controlled vocabulary of choice for identifying the topics and categories of the SO Q & As in our proposed method.
+5. Implementation of text mining process
+Section: Previous section Next section
+
+This section discusses the technical details involved in implementing the text mining process and subsequent analysis. This involves the following four main steps:
+
+    develop a text mining method, which utilizes Wikipedia as a controlled vocabulary for determining the topics and categories of SO Q & A posts;
+
+    apply developed text mining method to the most recent version of SO dump to categorize and cluster Q & A posts, producing an interactive visual representation of resulting topics and categories;
+
+    using the output from above to closely inspect resulting topics and categories of the contents of Q & A posts in SO in terms of their frequencies, rankings, and associations; and
+
+    analyse the findings from (3) to gain insight into possible reasons behind the high frequency of some topics and categories, and whether these topics and categories reflect subject-related difficulties faced by student-learners in these fields, in order to infer how best our text mining method of SO can be used to inform instructor and teachers in designing the coverage, delivery, and teaching approach of their CS courses.
+
+The rest of this section details the first two steps outlined above. The “Results & Discussion” section, on the other hand, incorporates description of steps (3) and (4). The text mining method we have developed and applied in this work to SO posts, to determine and categorize their topics, involves the following four processes: uploading the SO posts into a database; querying the database and retrieving the posts which contain a link to Wikipedia; finding the parent categories of cited Wikipedia articles; and building the graph of cited articles and their parent categories.
+5.1. Uploading the data into a database
+
+Each site in the StackExchange network of which SO is part, is formatted as a separate archive consisting of zipped XML data files for Posts, Users, Tags, Votes, Comments, Badges, PostHistory, and PostLinks (for complete schema information, see the readme file [12] ). In order to easily access and analyse the SO posts, we created an XML database using the eXist-db ( Meier, 2014 ), which is an open-source native XML database engine, to store the SO data in. We then downloaded the most recent version of the SO dump and uploaded the Posts.xml file which contains all the posted questions and answers up-to-date into the database. This enables us to search and retrieve posts of interest by querying the database using the XPath and XQuery languages.
+5.2. Querying the database
+
+Each single post inside the Posts.xml file has multiple attributes including: a unique identifier, a PostTypeId (“1” for questions and “2” for answers), Title, and Body. We utilize these attributes to retrieve those posts which their content/body is of interest to us. In order to examine and analyse the SO posts in terms of their topics and categories, we have used Wikipedia as a crowd-sourced classification system. We used the following XPath query to retrieve all the Q & A posts which included a link to the Wikipedia articles:
+
+for $x in doc(“/db/SO/Posts.xml”)/posts/row[contains(@Body,“ http://en.wikipedia.org/wiki ”)]
+
+return $x
+
+This query returned a total of 188,548 matches, of which 20,924 were questions, 165,080 were answers, and 2,544 were of miscellaneous type, e.g., moderator nomination. After removing miscellaneous posts and those with invalid Wikipedia URLs (i.e. those containing restricted characters [13] ), the remaining total of 186,004 Q & A posts contained 28,648 unique URLs linking to the Wikipedia articles with a total appearance frequency of 230,887. Finally after confirming the validity of all the discovered unique links by retrieving their corresponding pages on the Wikipedia website, a total of 21,366 were verified as valid links to existing articles on Wikipedia.
+5.3. Finding the parent categories
+
+We have deployed an open-source toolkit called Wikipedia-Miner ( Milne, 2009 ) to discover the parent categories of the Wikipedia articles which were linked to in the SO posts. Wikipedia-Miner effectively unlocks Wikipedia as a general-purpose knowledge source for natural language processing (NLP) applications by providing rich semantic information on topics and their lexical representations beyond that offered by domain-specific thesauri. Utilizing the Java programing language and the Wikipedia-miner environment, we first converted the Wikipedia URLs identified in the Q & A posts into article objects using the getArticleByTitle function of the Wikipedia-miner API. We then used the getParentCategories function to retrieve the parent categories of each article.
+5.4. Data mining: visualization and frequency analysis
+
+Finally, we used the collected information to build a directed graph representing articles and categories as nodes and their parent-child relationships as edges. The graph was encoded and stored as an xml file in GraphML [14] format which may be easily imported into popular open-source network analysis and visualization software packages such as the Gephi platform ( Bastian et al. , 2009 ) used in this work. Gephi is an interactive visualization platform to explore and understand graphs. It enables users to interact with the representation, manipulate the structures, shapes, and colours to reveal hidden properties and discover patterns in graphs. Utilizing Gephi enables us to visually analyse the graph of Wikipedia article citations in SO posts and examine their usage patterns to find the topics and subjects which are most asked about.
+6. Results and discussion
+Section: Previous section Next section
+
+In this section we discuss our findings that resulted from the analysis of the graph of topics and categories, which was created by mining the content of Q & As in SO. The Gephi project file containing the graph of Wikipedia articles cited in SO posts and their frequency and relationship details is available online [15] and may be readily used for further studies. Figure 2 shows a zoomed-out overview of the graph. This graph contains all the 21,366 unique Wikipedia articles mentioned in SO, as well astheir 20,587 direct parent categories.
+
+Since May 2004, Wikipedia authors have been categorizing Wikipedia articles according to a community-built classification system (a.k.a. folksonomy) which has been growing rapidly. Including the parent categories of articles in the graph allows us to cluster-related articles together and draw more accurate conclusions regarding the dominant subjects being discussed. The nodes in the graph are colour coded to differentiate their type, i.e., red for articles and green for categories. Also, the node sizes are set to reflect the appearance frequency of the articles and categories that they represent. The resulting graph has a total of 41,923 nodes and 71,160 edges. Wikipedia articles and categories are classified according to a hierarchical classification system with (currently) 16 levels of depth reflecting speciality/generality. In the rest of this section we discuss the articles and categories at various levels of the hierarchy which have been most frequently mentioned in SO posts. Table I lists the top 50 most prominent articles along with their depth and frequency. As evident from these results most high-frequency articles belong to levels 4-8 of the Wikipedia classification system, where the topics are neither too generic nor too detailed. The most frequently mentioned article, “Same origin policy” discusses an important security concept for a number of browser-side programming languages, such as javascript. Figure 3 shows a zoom-in view of this paper along with its parent category and sibling nodes in the graph and their corresponding frequencies in the Q & A posts.
+
+The list in Table I contains a substantial number of articles covering various aspects of software engineering such as “Singleton pattern”, “Model-view-controller”, “Dependency injection”, and “Strategy pattern”. Specifically, articles related to the object-oriented programming paradigm and to software design and development have an overwhelming presence. These include: “Factory method pattern”, “Observer pattern”, “Single responsibility principle”, “Visitor pattern”, “Decorator pattern”, “Command pattern”, “Resource Acquisition Is Initialization”, “Liskov substitution principle”, and “Object-relational mapping”. The remaining articles fall into a number of minor groups covering various aspects of CS including:
+
+    databases: articles covering relational databases and their query languages including: “SQL injection”, “Database normalization”, “Entity-attribute-value model”, and “Join (SQL)”;
+
+    web technologies: articles covering a wide range of Web technologies including: “JSONP”, “JSON”, “Representational state transfer”, “Ajax (programming)”, “Cross-site scripting”, “GET (HTTP)”, “UTF-8”, “Data URI scheme”, “Cross-origin resource sharing”, “Unobtrusive JavaScript”, and “Hypertext Transfer Protocol”; and
+
+    data structures and algorithms: articles covering various data structures and related algorithms including: “Trie”, “Levenshtein distance”, “Hash table”, “Fisher-Yates shuffle”, and “Dijkstra’s algorithm”.
+
+In the next step of the analysis, we aggregated the weights (i.e. appearance frequencies) of all the articles which shared the same parent category(ies) and assigned these total weights to the corresponding parent categories. This process in practice acts as a clustering technique where all related articles are detected and their weights are combined to provide us with a different vantage point on the data and the popular categories is SO. Table II provides a list of the top 50 categories with highest frequencies in SO posts. As shown in Table II the most frequent category is “Software design patterns” which encompasses all the high-frequency articles in Table I covering various design pattern concepts in software engineering. Categories covering sample codes in Java, pseudocode, C++, and C have the second highest frequencies. This highlights the fact that questions related to the Java programming language are the most common in SO followed by those related to C++. The category “Object-Oriented Programming” is ranked 6th which confirms the popularity of Q & As addressing OOP concepts in SO. Search, graph, and sorting algorithms are ranked 9th, 16th, and 26th, respectively. These algorithms and their variations are covered in most undergraduate CS courses, and therefore we suspect most of these questions are posted by CS students and novice programmers. The remaining top categories cover a wide range of topics in CS from programming principles to formal languages.
+
+The data presented in Tables I and II may be used to prioritize the topics covered in undergraduate and graduate CS courses and guide the redesign and update of the courses and their materials. Although this data provides an up-to-date and accurate view of topics of interest frequently asked about and discussed in SO, conducting further detailed manual analysis of these topics could shed more light on the reasons behind their high frequency. For example, the data presented in Table I has indicated that questions related to the topic of “regular expressions” have a high frequency in SO. However, it does not give us any further clues as to what aspect of regular expressions those Q & As cover, and therefore, still some level of manual analysis is required. To demonstrate this, we have conducted further analysis on a random subset of 50 Q & As discussing the topic of regular expressions. Looking at the Q & As citing this particular article in Wikipedia, it turns out that the majority of questions posted in this regard (39/50) evolve around the formulation of regular expressions to match specific patterns of interest. For example, the title of some of these questions read:
+
+    how to validate if student number is a 11-digit number;
+
+    regular expression to match only alphabetic characters;
+
+    please explain this e-mail validation regular expression; and
+
+    remove everything except what is in quotes java.
+
+The remaining questions regarding the topic of regular expressions relate to its other aspects such as deployment in various environments and programming languages. Examples of these questions include:
+
+    what does this split line in Scala mean?
+
+    JavaScript – How to get at specific value in a string?
+
+    standard regex vs python regex discrepancy; and
+
+    validations in textbox in vb.net.
+
+Based on above observation, we divided the regular expressions related Q & As into three major groups “formulation”, “usage”, and “miscellaneous”. Table III shows the title of analysed Q & As along with their grouping information. An excel file containing the data presented in Table III with active hyperlinks to the original Q & As is available online [15] .
+
+A similar type of analysis may be applied to the other high-frequency Wikipedia articles and categories of interest listed in Tables I and II to discover more detailed information in respect to the type of questions posted in each topic.
+7. Conclusion
+Section: Previous section Next section
+
+In this work we proposed a text mining method for discovering the most frequent topics and categories commonly discussed in Q & A websites. We applied the proposed approach to the largest Q & A website in the field of CS, StackOverflow.com , and presented the obtained results in terms of the most popular Wikipedia articles and categories mentioned in SO posts. This then enabled us to highlight the most frequently asked about topics and subjects in computer programming and, hence, identify difficulties faced by learners in this field.
+7.1. Implications to theory and practice
+
+Utilizing these findings, we inferred the following: the proposed text mining approach has the potential for informing instructors and teachers in higher education of the important and challenging subjects in the courses they deliver, so that they could focus more on these topics/subjects in the coverage, delivery, and teaching/training approaches of their course material. The application of data mining and data analytics technologies in education has created a new interdisciplinary field of research spanning the education and information sciences, called EDM. The work presented in this paper is an early attempt at investigating the practical application of EDM in the area of CS education. Thus, in our opinion, the contribution of this work is twofold by:
+
+    demonstrating a novel application of text mining to SO and its ability in providing an in-depth analysis of subject-related difficulties and challenges in learning new topics in the field of computer programming; and
+
+    identifying potential benefits of analysing the content of SO to instructors and teachers in terms of revising the contents of their computer programming related courses and the way they are delivered, such that more attention is paid to the difficult topics identified.
+
+In practice the presented method and resulting data analysis act as an important step towards a more detailed investigation which would involve further distilling, analysis, and inference of the educational content available on Q & A websites. The proposed method may be easily applied to online forums and Q & A websites in other fields of science and engineering, such as math.stackexchange.com which is another Q & A website in the StackExchange network focusing on the field of mathematics and containing more than half a million posts.
+7.2. Limitations
+
+Having demonstrated the benefits and potential of the proposed text mining method reported in this paper, we would also like to highlight some of its limitations. The proposed method in its current form limits the scope of the analysis to a subset of Q & As which contain one or more links to Wikipedia. The results presented in this work are based on the analysis of a total of approximately 186,000 Q & As. We expect this sample size to be of sufficient magnitude for drawing generalized conclusions in terms of the topic and categories which the learners have the most difficulty with. However, developing more sophisticated text mining methods capable of analysing a larger portion of data could improve the accuracy and generalizability of the results.
+7.3. Future work
+
+As future work, we plan to enhance the depth and coverage of our analysis method by: attempting to automatically classify all the Q & A posts according to the Wikipedia classification system using a machine learning-based classification method, which would result in a significant increase in the sample size and subsequently the accuracy of the results; further refine the results of the analysis and its granularity by analysing the textual content of the Q & As in more depth and extracting the terms and phrases which are statistically significant based on their appearance frequencies; and investigating the application of the proposed method in analysing other fields of science and engineering, such as mathematics, and their respective online forums and Q & A websites.
+figure parent remove
+
+Figure 1 Overview of text mining approach
+figure parent remove
+
+Figure 2 An overview of the StackOverflow-Wikipedia graph
+figure parent remove
+
+Figure 3 A zoom-in view of the article “Same origin policy” and its parent and sibling nodes in the graph
+figure parent remove
+
+Table I Top 50 Wikipedia articles with highest appearance frequencies in SO posts
+figure parent remove
+
+Table II Top 50 Wikipedia categories with highest appearance frequencies in SO posts
+figure parent remove
+
+Table III A sample of 50 regular expressions related Q&As categorized according to their types
+References
+    1.
+    Abbass, H.A. ( 2001 ), Heuristic and Optimization for Knowledge Discovery , Idea Group Pub , Hershey, PA . OpenURL UTFPR [Google Scholar]
+
+    2.
+    Aggarwal, C.C. and Zhai, C. ( 2012 ), Mining Text Data , Springer-Verlag , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    3.
+    Barua, A. , Thomas, S. and Hassan, A. ( 2014 ), “ What are developers talking about? An analysis of topics and trends in stack overflow ”, Empirical Software Engineering , Vol. 19 No. 3, pp. 619 - 654 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    4.
+    Bastian, M. , Heymann, S. and Jacomy, M. ( 2009 ), “ Gephi: an open source software for exploring and manipulating networks ”, in Cohen, W.W. , Nicolov, N. , Glance, N. , Hurst, M. , Soboroff, I. , Java, A. and Marlow, C. (Eds), Third International AAAI Conference on Weblogs and Social Media (ICWSM09), AAAI, San Jose, CA, 17-20 May . OpenURL UTFPR [Google Scholar]
+
+    5.
+    Bazelli, B. , Hindle, A. and Stroulia, E. ( 2013 ), “ On the personality traits of stackoverflow users ”, 29th IEEE International Conference on Software Maintenance (ICSM), Eindhoven, 22-28 September , pp. 460 - 463 . OpenURL UTFPR [Google Scholar]
+
+    6.
+    Bian, J. , Liu, Y. , Zhou, D. , Agichtein, E. and Zha, H. ( 2009 ), “ Learning to recognize reliable users and content in social media with coupled mutual reinforcement ”, in Quemada, J. , León, G. , Maarek, Y. and Nejdl, W. (Eds), Proceedings of the 18th International Conference on World Wide Web, ACM, Madrid, 20-24 April , pp. 51 - 60 . OpenURL UTFPR [Google Scholar]
+
+    7.
+    Britannica ( 2006 ), “Fatally Flawed – refuting the recent study on encyclopedic accuracy by the journal nature”, Encyclopædia Britannica Inc., available at: http://corporate.britannica.com/britannica_nature_response.pdf (accessed January 2016). OpenURL UTFPR [Google Scholar]
+
+    8.
+    Bunescu, R.C. and Pasca, M. ( 2006 ), “ Using encyclopedic knowledge for named entity disambiguation ”, in Keller, F. and Proszeky, G. (Eds), 11th Conference of the European Chapter of the Association for Computational Linguistics (EACL-06), Trento, 3-7 April , pp. 9 - 16 . OpenURL UTFPR [Google Scholar]
+
+    9.
+    Ciglan, M. and Nørvåg, K. ( 2010 ), “ WikiPop: personalized event detection system based on Wikipedia page view statistics ”, in Huang, J. , Koudas, N. , Jones, G. , Wu, X. , Collins-Thompson, K. and An, A. (Eds), Proceedings of the 19th ACM International Conference on Information and Knowledge Management, ACM, Toronto, ON, 26-30 October , pp. 1931 - 1932 . OpenURL UTFPR [Google Scholar]
+
+    10.
+    Feldman, R. and Sanger, J. ( 2006 ), Text Mining Handbook: Advanced Approaches in Analyzing Unstructured Data , Cambridge University Press , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    11.
+    Fogarolli, A. ( 2011 ), “ Wikipedia as a source of ontological knowledge: state of the art and application ”, in Caballé, S. , Xhafa, F. and Abraham, A. (Eds), Intelligent Networking, Collaborative Systems and Applications , Springer , Berlin, Heidelberg , pp. 1 - 26 . OpenURL UTFPR [Google Scholar]
+
+    12.
+    Giles, J. ( 2005 ), “ Internet encyclopaedias go head to head ”, Nature , Vol. 438, pp. 900 - 901 , available at: www.nature.com/nature/journal/v438/n7070/full/438900a.html [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    13.
+    Ginsca, A.L. and Popescu, A. ( 2013 ), “ User profiling for answer quality assessment in Q & A communities ”, in Mahmud, J. , Caverlee, J. , Nichols, J. , O’Donovan, J. and Zhou, M. (Eds), Proceedings of the 2013 Workshop on Data-Driven User Behavioral Modelling and Mining from Social Media, ACM, San Francisco, CA, 27 October-1 November . OpenURL UTFPR [Google Scholar]
+
+    14.
+    Harper, F.M. , Raban, D. , Rafaeli, S. and Konstan, J.A. ( 2008 ), “ Predictors of answer quality in online Q & A sites ”, in Czerwinski, M. , Lund, A. and Tan, D. (Eds), Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, ACM, Florence, 5-10 April , pp. 865 - 874 . OpenURL UTFPR [Google Scholar]
+
+    15.
+    Hu, X. , Zhang, X. , Lu, C. , Park, E.K. and Zhou, X. ( 2009 ), “ Exploiting Wikipedia as external knowledge for document clustering ”, Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining , ACM , Paris . OpenURL UTFPR [Google Scholar]
+
+    16.
+    Krippendorff, K. ( 2012 ), Content Analysis: An Introduction to Its Methodology , SAGE Publications , Thousand Oaks, CA . OpenURL UTFPR [Google Scholar]
+
+    17.
+    Liu, Y. and Agichtein, E. ( 2008 ), “ You ' ve got answers: towards personalized models for predicting success in community question answering ”, Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics on Human Language Technologies: Short Papers , Association for Computational Linguistics , Columbus, OH . OpenURL UTFPR [Google Scholar]
+
+    18.
+    Mamykina, L. , Manoim, B. , Mittal, M. , Hripcsak, G. and Hartmann, B. ( 2011 a), “ Design lessons from the fastest Q & A site in the west ”, in Tan, D. , Fitzpatrick, G. , Gutwin, C. , Begole, B. and Kellogg, W.A. (Eds), Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, ACM, Vancouver, BC, 7-12 May , pp. 2857 - 2866 . OpenURL UTFPR [Google Scholar]
+
+    19.
+    Mamykina, L. , Manoim, B. , Mittal, M. , Hripcsak, G. and Hartmann, B. ( 2011 b), “ Design lessons from the fastest Q & A site in the west ”, in Tan, D. , Fitzpatrick, G. , Gutwin, C. , Begole, B. and Kellogg, W.A. (Eds), Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, ACM, Vancouver, BC, 7-12 May , pp. 2857 - 2866 . OpenURL UTFPR [Google Scholar]
+
+    20.
+    Medelyan, O. , Milne, D. , Legg, C. and Witten, I.H. ( 2009 ), “ Mining meaning from Wikipedia ”, International Journal of Human-Computer Studies , Vol. 67 No. 9, pp. 716 - 754 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    21.
+    Medelyan, O. , Witten, I.H. and Milne, D. ( 2008 ), “Topic Indexing With Wikipedia” , in Bunescu, R. , Gabrilovich, E. and Mihalcea, R. (Eds), First AAAI Workshop on Wikipedia and Artificial Intelligence (WIKIAI ' 08), AAAI Press, Chicago, IL, 13-14 July , pp. 19 - 24 . OpenURL UTFPR [Google Scholar]
+
+    22.
+    Megan, S. ( 2014 ), “ A bit of code ”, in Christian, F. (Ed.), How the Stack Overflow Community Creates Quality Postings , IEEE Computer Society Conference Publishing Services (CPS) , Washington, DC , pp. 1425 - 1434 . OpenURL UTFPR [Google Scholar]
+
+    23.
+    Meier, W. ( 2014 ), “eXist-DB, exist-db.org, released under the open source GPL licence”, available at: http://exist.sourceforge.net / (accessed January 2016). OpenURL UTFPR [Google Scholar]
+
+    24.
+    Milne, D. and Witten, I.H. ( 2008 ), “An effective, low-cost measure of semantic relatedness obtained from Wikipedia links”, First AAAI Workshop on Wikipedia and Artificial Intelligence (WIKIAI ' 08), Chicago, IL. OpenURL UTFPR [Google Scholar]
+
+    25.
+    Milne, D. ( 2009 ), “ An open-source toolkit for mining Wikipedia ”, New Zealand Computer Science Research Student Conference, Auckland, 6-9 April . OpenURL UTFPR [Google Scholar]
+
+    26.
+    Milne, D. , Medelyan, O. and Witten, I.H. ( 2006 ), “ Mining domain-specific thesauri from Wikipedia: a case study ”, in Nishida, T. , Shi, Z. , Visser, U. , Wu, X. , Liu, J. , Wah, B. , Cheung, W. and Cheung, Y.-M. (Eds), Proceedings of the 2006 IEEE/WIC/ACM International Conference on Web Intelligence, IEEE Computer Society, Hong Kong, 18-22 December , pp. 442 - 448 . OpenURL UTFPR [Google Scholar]
+
+    27.
+    Milne, D.N. , Witten, I.H. and Nichols, D.M. ( 2007 ), “ A knowledge-based search engine powered by Wikipedia ”, in Laender, A.H.F., Falcão, A.O., Olsen, Ø.H., Silva, M.J., Baeza-Yates, R., McGuinness, D.L. and Olstad, B. (Eds), Proceedings of the Sixteenth ACM Conference on Conference on Information and Knowledge Management, ACM, Lisbon, 6-10 November , pp. 445 - 454 . OpenURL UTFPR [Google Scholar]
+
+    28.
+    Moustakas, C. ( 1990 ), Heuristic Research: Design, Methodology, and Applications , SAGE Publications , Thousand Oaks, CA . OpenURL UTFPR [Google Scholar]
+
+    29.
+    Nasehi, S.M. , Sillito, J. , Maurer, F. and Burns, C. ( 2012 ), “ What makes a good code example?: a study of programming Q & A in stackoverflow. software maintenance (ICSM) ”, 28th IEEE International Conference, 23-28 September , pp. 25 - 34 . OpenURL UTFPR [Google Scholar]
+
+    30.
+    Osborne, M. , Petrovic, S. , Mccreadie, R. , Macdonald, C. and Ounis, I. ( 2012 ), “ Bieber no more: first story detection using Twitter and Wikipedia ”, SIGIR Workshop in Time-Aware Information Access (TAIA’12) , ACM , Portland, OR . OpenURL UTFPR [Google Scholar]
+
+    31.
+    Parnin, C. and Treude, C. ( 2011 ), “ Measuring API documentation on the web ”, in Treude, C. , Storey, M.-A. , van Deursen, A. , Begel, A. and Black, S. (Eds), Proceedings of the 2nd International Workshop on Web 2.0 for Software Engineering, ACM, Waikiki, Honolulu, HI, 21-28 May , pp. 25 - 30 . OpenURL UTFPR [Google Scholar]
+
+    32.
+    Ponzetto, S.P. and Strube, M. ( 2007 ), “ Deriving a large scale taxonomy from Wikipedia ”, in Cohn, A. (Ed.), Proceedings of the 22nd National Conference on Artificial Intelligence, Vol 2, AAAI Press, Vancouver, 22-26 July , pp. 1440 - 1445 . OpenURL UTFPR [Google Scholar]
+
+    33.
+    Rainie, L. and Tancer, B. ( 2007 ), “Wikipedia users”, Pew Internet and American Life Project, available at: www.pewinternet.org/Reports/2007/Wikipedia-users.aspx (accessed January 2016). OpenURL UTFPR [Google Scholar]
+
+    34.
+    Romero, C. , Ventura, S. , Pechenizkiy, M. and Baker, R.S.J. ( 2010 ), Handbook of Educational Data Mining , CRC Press , Boca Raton, FL . OpenURL UTFPR [Google Scholar]
+
+    35.
+    Saxe, J. , Mentis, D. and Greamo, C. ( 2013 ), “ Mining web technical discussions to identify malware capabilities ”, Distributed Computing Systems Workshops (ICDCSW), 2013 IEEE 33rd International Conference, 8-11 July , pp. 1 - 5 . OpenURL UTFPR [Google Scholar]
+
+    36.
+    Seaman, J. and Tinti-Kane, H. ( 2013 ), “Social media for teaching and learning” , Pearson Learning Solutions , Boston, MA , available at: www.pearsonlearningsolutions.com/higher-education/social-media-survey.php OpenURL UTFPR [Google Scholar]
+
+    37.
+    Singer, L. , Figueira Filho, F. and Storey, M.-A. ( 2013 a), “Software engineering at the speed of light: how developers stay current using Twitter”, Technical Report No. DCS-350-IR, University of Victoria, Victoria. OpenURL UTFPR [Google Scholar]
+
+    38.
+    Singer, L. , Filho, F.F. , Cleary, B. , Treude, C. , Storey, M.-A. and Schneider, K. ( 2013 b), “ Mutual assessment in the social programmer ecosystem: an empirical investigation of developer profile aggregators ”, in Bruckman, A. , Counts, S. , Lampe, C. and Terveen, L. (Eds), Proceedings of the 2013 Conference on Computer Supported Cooperative Work, ACM, San Antonio, TX, 23-27 February , pp. 103 - 116 . OpenURL UTFPR [Google Scholar]
+
+    39.
+    Souza, L.B.L.D. , Campos, E.C. and Maia, M.D.A. ( 2014 ), “ Ranking crowd knowledge to assist software development ”, in Roy, C.K. , Begel, A. and Moonen, L. (Eds), Proceedings of the 22nd International Conference on Program Comprehension, ACM, Hyderabad, 31 May-7 June , pp. 72 - 82 . OpenURL UTFPR [Google Scholar]
+
+    40.
+    Tausczik, Y.R. , Kittur, A. and Kraut, R.E. ( 2014 ), “ Collaborative problem solving: a study of Mathoverflow ”, in Fussell, S. , Lutters, W. , Morris, M.R. and Reddy, M. (Eds), Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing, ACM, Baltimore, MD, 15-19 February , pp. 355 - 367 . OpenURL UTFPR [Google Scholar]
+
+    41.
+    Treude, C. , Barzilay, O. and Storey, M.-A. ( 2011 ), “ How do programmers ask and answer questions on the web? (NIER track) ”, Proceedings of the 33rd International Conference on Software Engineering , ACM , Waikiki, HI . OpenURL UTFPR [Google Scholar]
+
+    42.
+    Treude, C. , Figueira Filho, F. , Cleary, B. and Storey, M.-A. ( 2012 ), “Programming in a socially networked world: the evolution of the social programmer” , in Begel, A. , Herbsleb, J.D. and Storey, M.-A. (Eds), FutureCSD ’12: Proceedings of the CSCW Workshop on the Future of Collaborative Software Development, Microsoft Research, Seattle, 12 February . OpenURL UTFPR [Google Scholar]
+
+    43.
+    Vasilescu, B. , Serebrenik, A. and Van Den Brand, M.J. ( 2013 ), “ The Babel of Software Development: Linguistic Diversity in Open Source ”, in Jatowt, A. , Lim, E.-P. , Ding, Y. , Miura, A. , Tezuka, T. , Dias, G. , Tanaka, K. , Flanagin, A. and Dai, B. (Eds), Social Informatics , Springer International Publishing , pp. 391 - 404 . OpenURL UTFPR [Google Scholar]
+
+    44.
+    Vivaldi, J. and Rodríguez, H. ( 2010 ), “ Finding domain terms using Wikipedia ”, Seventh International Conference on Language Resources and Evaluation (LREC ' 10), European Language Resources Association (ELRA), Valletta . OpenURL UTFPR [Google Scholar]
+
+    45.
+    Wang, P. and Domeniconi, C. ( 2008 ), “ Building semantic kernels for text classification using Wikipedia ”, in Li, Y. , Liu, B. and Sarawagi, S. (Eds), Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, ACM, Las Vegas, NV, 24-27 August , pp. 713 - 721 . OpenURL UTFPR [Google Scholar]
+
+    46.
+    Wikipedia ( 2014 a), “List of Wikipedias”, Wikimedia Foundation Inc., available at: http://en.wikipedia.org/wiki/List_of_Wikipedias (accessed January 2016). OpenURL UTFPR [Google Scholar]
+
+    47.
+    Wikipedia ( 2014 b), “Wikipedia:size in volumes”, Wikimedia Foundation Inc., available at: http://en.wikipedia.org/wiki/Wikipedia:Size_in_volumes (accessed January 2016). OpenURL UTFPR [Google Scholar]
+
+    48.
+    Wong, E. , Jinqiu, Y. and Lin, T. ( 2013 ), “ Autocomment: mining question and answer sites for automatic comment generation ”, Automated Software Engineering (ASE), 2013 IEEE/ACM 28th International Conference, 11-15 November , pp. 562 - 567 . OpenURL UTFPR [Google Scholar]
+
+Notes
+
+    http://stackexchange.com /
+
+    www.quora.com /
+
+    http://michael.richter.name/blogs/why-i-no-longer-contribute-to-stackoverflow
+
+    http://meta.stackexchange.com/questions/10811/how-do-i-ask-and-answer-homework-questions
+
+    http://meta.stackoverflow.com/questions/254433/should-i-send-students-to-stack-overflow
+
+    http://stackoverflow.com /
+
+    http://stackexchange.com /
+
+    www.alexa.com/siteinfo/stackexchange.com
+
+    http://stackexchange.com/sites?view=list #traffic
+
+    https://archive.org/details/stackexchange
+
+    www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=53657
+
+    https://archive.org/download/stackexchange/readme.txt
+
+    https://en.wikipedia.org/wiki/Wikipedia:Naming_conventions_(technical_restrictions )
+
+    http://graphml.graphdrawing.org /
+
+    www.skynet.ie/∼arash/zip/StackOverflow_Wikipedia_Sep2013.zip
+
+About the authors
+Section: Previous section
+
+Arash Joorabchi is currently a Postdoctoral Researcher in the Department of Electronic and Computer Engineering, University of Limerick, Ireland. He earned his 1st class Honours BSc in Computer Science from the Griffith College Dublin, Ireland in 2006 and received his PhD in 2010 from the Department of Electronic and Computer Engineering, University of Limerick, Ireland. The main focus of Arash’s research is on developing and deploying text mining/analytics algorithms and techniques to automate the process of metadata generation in digital libraries and repositories. His major areas of interest include: data mining, knowledge organization, text analytics, digital libraries, and linked data. To find out more about Arash’s work, visit www.csn.ul.ie/∼arash /. Arash Joorabchi is the corresponding author and can be contacted at: arash.joorabchi@ul.ie
+
+Michael English is a Lecturer in the Computer Science and Information Systems Department at the University of Limerick, Ireland. He received a BSc Hons in Mathematics and Statistics from the University College Cork in 1996. In 1999 he received an MSc in Computer Science from the University of Limerick and he received a PhD in Computer Science in 2007 from the same University. He has in excess of 15 years’ experience in teaching computer science and computer programming at third level. His research interests are in the areas of computer science education, specifically in teaching and learning computer programming including identifying appropriate approaches to support at-risk students and software engineering, specifically software metrics, software quality and evolution and the analysis of source code. He has published his research in a number of peer-reviewed international journals and conferences.
+
+Abdulhussain E. Mahdi is a Senior Lecturer at the Department of Electronic and Computer Engineering, University of Limerick (UL), Ireland. He is Director of the Regional Peer-Supported Learning Centre – UL and Joint Director of the ICT Learning Centre – UL. He is a Chartered Engineer (CEng), Member of the Institution of Engineering and Technology – UK (IET), and Member of the Engineering Council – UK. Dr Mahdi is a Graduate in Electrical Engineering from the University of Basrah (BSc 1st class Hons 1978) and earned his PhD in Electronic Engineering at the University of Wales – Bangor, UK in 1990. He is also a SEDA Accredited Teacher of Higher Education (University of Plymouth, UK 1998). His current research focuses on signal, speech, and NLP, data mining, machine learning and their applications in text analytics, information retrieval, management, and processing. His research interests also include peer-supported and collaborative learning, student-centred active learning, inquiry-based learning, and teaching and learning innovation and practices in ICT education. He has authored and co-authored more than 130 peer-reviewed journal articles, book chapters, and conference papers, and has edited one book. His published work has been cited more than 469 (Source: Google Scholar, September 2015) or 145 (Source: ISI-WoK, September 2015) times.
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (48)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+Journal of Enterprise Information Management
+ISSN: 1741-0398
+Online from: 2004
+Subject Area: Information & Knowledge Management
+
+Previously published as: Logistics Information Management
+
+    Current Issue
+    Available Issues
+    Earlycite
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Social Sciences
+Citation Index (SSCI)®
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    Logistics networking
+    Logistics Leadership – Logistics Organizations of the Future
+    UK Logistics – Turning Japanese?
+    The Logistics Response
+    Logistics management practices and development in Thailand
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    Designing the green supply chain
+    Multi‐criteria supplier selection using fuzzy AHP
+    Cloud computing adoption by SMEs in the north east of England : A multi‐perspective framework
+    Technology acceptance model (TAM) and social media usage: an empirical study on Facebook
+    Understanding determinants of cloud computing adoption using an integrated TAM-TOE model
+
+See more>
+Find related content
+By Keyword
+
+    Text mining
+    Course design and delivery
+    Educational data mining
+    Social learning
+    Technology supported learning
+
+By Author
+
+    Arash Joorabchi
+    Michael English
+    Abdulhussain E. Mahdi
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor

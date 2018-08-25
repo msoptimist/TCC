@@ -1,0 +1,564 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    Corporate Communications: An International Journal
+    Volume 18, Issue 2
+    CSR communication strategies for organizational legitimacy in social media
+
+
+CSR communication strategies for organizational legitimacy in social media
+
+Author(s):
+    Elanor Colleoni (Department of Intercultural Communication and Management, Copenhagen Business School, Copenhagen, Denmark)
+
+Acknowledgements:
+
+    The author would like to acknowledge the project “Responsible Business in the Blogosphere”.
+Abstract:
+    Purpose
+    – Organization legitimacy is a general reflection of the relationship between an organization and its environment. By adopting an institutional approach and defining moral legitimacy as “a positive normative evaluation of the organization and its activities”, the goal of this paper is to investigate which corporate communication strategy adopted in online social media is more effective to create convergence between corporations' corporate social responsibility (CSR) agenda and stakeholders' social expectations, and thereby, to increase corporate legitimacy.
+
+    Design/methodology/approach
+    – Using the entire Twitter social graph, a network analysis was carried out to study the structural properties of the CSR community, such as the level of reciprocity, and advanced data mining techniques, i.e. topic and sentiment analysis, were carried out to investigate the communication dynamics.
+
+    Findings
+    – Evidence was found that neither the engaging nor the information strategies lead to alignment. The assumption of the more the dialog, the more the communality seems to fail to portray the complexity of the communicational dynamics, such as the persistence of different, or simply a dialog without alignment. Empirical findings show that, even when engaging in a dialogue, communication in social media is still conceived as a marketing practice to convey messages about companies.
+
+    Originality/value
+    – This paper originally investigates organizational legitimacy in the context of social media by applying advanced data‐mining techniques that allow the analysis of large amounts of information available online.
+
+Keywords:
+    Organizational legitimacy , Communication strategies , Corporate social responsibility , Social media , Topic analysis , Sentiment analysis , Social responsibility , Communications 
+Type:
+    Research paper 
+Publisher:
+    Emerald Group Publishing Limited 
+Copyright:
+    © Emerald Group Publishing Limited 2013
+    Published by Emerald Group Publishing Limited
+Citation:
+    Elanor Colleoni , (2013) "CSR communication strategies for organizational legitimacy in social media", Corporate Communications: An International Journal , Vol. 18 Issue: 2, pp.228-248, https://doi.org/10.1108/13563281311319508 
+Downloads:
+    The fulltext of this document has been downloaded 10115 times since 2013
+Article
+Introduction
+Section: Next section
+
+Corporate legitimacy has become a pressing issue inasmuch as the stakeholders' perception of the role of business in society has been significantly redefined. New ethical expectations have risen along with a set of contingent social responsibilities that corporations are now asked to fulfill by the various groups of stakeholders in society ( Moreno and Capriotti, 2009 ).
+
+As pointed out by Scherer and Palazzo (2007) , these growing expectations are explained in part by the process of globalization, which is eroding established national institutions and procedures of governance. This particularly applies to corporations operating at a global level, where international standards of production, as well as labor regulations, often fail to constrain their behaviors and leave them the responsibility to self‐regulate their production processes. Furthermore, during the last few years several companies have been involved in social and environmental disasters and, as a result their legitimacy has been challenged ( Palazzo and Scherer, 2006 ). As a consequence, citizens are increasingly demanding that the corporations justify and legitimate not only their economic actions, but also their social and environmental actions in the general public sphere. Redefining the relationship between business and society brings about the creation of a new form of corporate legitimacy and implications for businesses to open a dialogue in society. Corporate legitimacy has been defined as “a generalized perception or assumption that the actions of an entity are desirable, proper, or appropriate within some socially constructed system of norms, values, beliefs, and definitions” ( Suchman, 1995 , p. 574). The creation of a “congruence between the social values associated with or implied by [organizational] activities and the norms of acceptable behavior in the larger social system” ( Dowling and Pfeffer, 1975 , p. 122) lies at the core of the legitimacy of business in society. Eventually, obtaining legitimacy by aligning corporate behavior with stakeholder expectations is necessary to guarantee the corporation's continued existence ( Dawkins, 2004 ).
+
+Following this argument, corporate social responsibility activities encompass all of the diverse corporate social practices implemented in order to increase the congruence between corporate behavior and the social expectations of stakeholders and, as a consequence, to increase their legitimacy within society. Several researchers have shown the relationship between a firm's engagement with CSR and its economic performance, the well‐known “doing well by doing good” argument ( Bhattacharya and Sen, 2004 ; Wood, 1991 ).
+
+However, in order to be perceived as socially responsible organizations, companies must match stakeholders' social expectations, which may not always be an easy task. Indeed, stakeholders' evaluations of CSR activities are not always positive; for instance, if those activities are perceived as having been achieved at the expense of product quality or if it is perceived that CSR efforts do not enhance corporate abilities ( Morsing et al. , 2008 ; Bhattacharya and Sen, 2004 ). As pointed out by Dawkins (2004) , the ability to establish congruence between social expectations and CSR agenda depends on the capacity to communicate with different stakeholders and on the support obtained from audiences; moreover, the difficulty is “how to make it known […] and how the company deliberately should communicate it” ( Morsing et al. , 2008 , p. 98).
+
+Stakeholder awareness has been dramatically enhanced by the advent of the internet, which enables people to share almost anywhere with almost anyone “connected” on a scale that has not been seen in the past ( Colleoni et al. , 2011 ). Furthermore, with the diffusion of social media, such as Twitter and Facebook, stakeholders are no longer passive receivers of the communication, but increasingly engage in the creation and evaluation of content ( Dellarocas, 2003 ). These features represent both great potential and a challenge for corporations; a strategic plan on what to present and how to present their CSR commitment to stakeholders is becoming a pressing issue ( Dawkins, 2004 ).
+
+Due to corporate fear of potential stakeholders' skepticism, online communication channels, regardless of their specific features, are often used as non‐interactive traditional mass media for corporate self‐presentation ( Insch, 2008 ). On the other hand, the evolution of Web 2.0 allows corporations to easily and directly engage with stakeholders in a dialogue, which can potentially bring co‐creation of meaning: It also allows the emergence of a joint setting of the corporate CSR agenda and shared social values ( Kent and Taylor, 1998 ).
+
+Although these communicational strategies have received substantial attention ( Capriotti and Moreno, 2007 ; Morsing and Schultz, 2006 ; Dawkins, 2004 ; Ryan, 2003 ; Schultz, 2000 ; Kent and Taylor, 1998 ; Botan, 1997 ; Rafaeli and Sudweeks, 1997 ), there is still a lack of systematic knowledge regarding whether and in which measure these different strategies are able to create a bridge between the stakeholders' social perceptions of corporate responsibilities and the corporate CSR agenda, and consequently, to increase corporate legitimacy. This study investigates the CSR network community on Twitter, an interactive micro‐blogging platform, and its actors, i.e. corporations, audiences and experts. It analyzes empirically which are the communication strategies adopted by the corporations and whether these strategies lead to the matching of corporate CSR agenda with stakeholders' social expectations.
+
+The key contribution of this paper lies in the empirical evaluation of which CSR communication practice is more effective in creating congruence between corporate and stakeholders' social values.
+
+This paper is organized as follows. In the first section, the relevance and peculiarity of new social media sites as communication channels for reaching stakeholders is introduced and the different communication strategies that can be adopted are discussed in detail. A theoretical framework that summarizes the different strategies and their implications is also presented. The second section is devoted to operationalizing the framework empirically in its various components. Firstly, in the third section, the resulting communication strategies empirically identified in the network are described along with the topics of discussion and their affective orientation. Secondly, the matching output of the different communication strategies, in terms of opinion similarity and dissimilarity between stakeholders and corporations are presented and theoretically interpreted as an indicator of congruence between social expectations and CSR corporate agenda. Finally, the theoretical framework is discussed in light of the results along with suggestions for further research in the field.
+Theoretical background
+Section: Previous section Next section
+
+The concept of organizational legitimacy stresses the fact that “many dynamics in the organizational environment stem not from technological or material imperatives, but rather from cultural norms, symbols, beliefs, and rituals” ( Suchman, 1995 , p. 571). Organizational legitimacy represents the conformation to these values, norms and expectations that are socially constructed within society ( Berger and Luckman, 1966 ). This conformation is built by recognizing the necessity to interact with all of the groups, inside and outside the corporate environment, that have interests in the activities of the organization ( Freeman, 1984 ). Legitimacy is vital for organization survival ( D'Aunno and Zuckerman, 1987 ). Cultural congruence empowers organizations primarily “by making them seem natural and meaningful and also more trustworthy” ( Suchman, 1995 , p. 576). Therefore, companies perceived as desirable, proper or appropriate are more likely to be institutionalized and, therefore, to be persistent ( Parsons, 1960 ). Furthermore, organizational legitimacy can be a goodwill buffer during adverse times ( Suchman, 1995 ). By contrast, organizations with frail legitimacy are more subject to the risk of being perceived as unnecessary or irrational ( Dowling and Pfeffer, 1975 ). Legitimacy is managed successfully when “organization actions are perceived as being consistent with stakeholders' expectations” ( Massey, 2001 , p. 156). Suchman (1995) has identified three types of legitimacy:
+1. 	
+
+pragmatic;
+2. 	
+
+cognitive; and
+3. 	
+
+moral.
+Pragmatic legitimacy will be conferred by the audiences through direct exchanges and based on their self‐interests and determination of practical consequences ( Suchman, 1995 ). Cognitive legitimacy is reached when an entity becomes embedded in taken‐for‐granted assumptions ( Zucker, 1987 ). Moral legitimacy reflects a positive normative evaluation of the organization and its activities (Aldrich and Fiol, 1994). In this latter case, the audience evaluates organizations not based on their immediate benefits, but on whether it is “the right thing to do” ( Suchman, 1995 , p. 579). The globalization process, along with the loss of national power, the emergence of the risk society and general economic social and environmental uncertainty ( Beck, 2000 ; Castells, 1997 ) has increased the importance of reaching moral legitimacy ( Herrmann, 2004 ). Corporations are seen as actors that must act for the general wealth of society and are increasingly treated as personified autonomous subjects. Although corporations are progressively translating their corporate values into tangibles corporate social responsibility practices, a correspondence of values between stakeholders and corporate is not guaranteed; a mechanism of communication and feedback must be established with the audience and society as a whole. This implies that an organization must develop a sense of organizational values to be communicated and thereafter be willing to revise its conception based on the influence others ( Morsing and Schultz, 2006 ). Meyer and Rowan (1977) first called attention “to the ways in which organizations seek legitimacy and support by incorporating structures and procedures that match widely accepted cultural models embodying common beliefs and knowledge systems” (Meyer and Rowan, 1977, p. 878). The definition of these accepted cultural models has been traditionally conceived as the result of an internal process of understanding and shaping of the corporate environment. In contrast, the evolution of the stakeholder theory has increasingly empathized how the link with the external environment must be conceived, not only as a flow of information, but as a communication channel through which an organization can co‐create meanings with its stakeholders ( Andriof and Waddock, 2002 ). These two different organizational communication approaches have been extensively investigated by corporate communication. Several authors have found evidence of these two antithetical communicational approaches. They have been named in different ways: the transmission and the ritual view ( Carey, 1989 ); and the monologic and the dialogic view ( Ingenhoff and Koelling, 2009 ; Ryan, 2003 ; Kent and Taylor, 1998 ; Botan, 1997 ). Based on Grunig and Hunt's public information model (1984), Morsing and Schultz (2006) have developed a model based on two dimensions, the interpretation of corporate values and the integration of stakeholder feedback, and they also identified three main communication strategies: information, response and involvement. It is the goal of the information strategy to disseminate CSR corporate information. Here, the interpretation of corporate values and the resulting CSR agenda are mainly defined internally, while the external feedback is not integrated into the corporate vision. In the response strategy, the definition of corporate values is still an internal practice, but is addressed by monitoring stakeholder reactions to CSR activities. Based on an empirical analysis of Danish companies, Morsing et al. (2008) have redefined and divided this strategy into two different strategies: the expert and the stakeholder endorsement strategies, which are used to diffuse content and get feedback while avoiding potential stakeholder criticism. In this case, “companies target […] an exclusive group of experts […] which the companies themselves regard as ‘elite readers’ of corporate messages” ( Morsing et al. , 2008 , p. 105), or they target a specific group of stakeholders and rely on them to convey the corporate CSR messages. The involvement strategy implies no boundaries for the organization that co‐creates meaning, sense and vision together with its stakeholders. This dialogical relationship affects both the definition of corporate values and its CSR practices. In Figure 1 , I present the theoretical framework, accounting for the relationship between corporate communication strategies and legitimacy where the congruence level (i.e. the match) is unknown.
+
+In this framework, legitimacy is theoretically defined as the congruence between stakeholders’ social expectations and corporate CSR agenda and empirically described as the quality of the match in terms of similarity of attention and affective orientation towards CSR related themes. Eventually, the quality of the match is the assessment of the congruence of values, which begins and ends with the two main actors and their ethical choices (i.e. CSR agenda and social expectations). Indeed, since I do not assume different a priori convergence between the communicational strategies, the degree of the match and the level of legitimacy associated must be verified after the communication process. The framework outlines three main communication strategies based in part on Morsing and Schultz's (2006) model:
+1. 	
+
+self‐centered;
+2. 	
+
+mediated; and
+3. 	
+
+dialogical.
+The self‐centered communication strategy implies that companies define their CSR agenda internally. Unlike Morsing and Schultz (2006) , who outline two distinct strategies based on internal CSR agenda definition – one that benefits from external feedback (i.e. response strategy) and one that does not (i.e. information strategy) – I assume that companies always have the opportunity to benefit from feedback and to converge stakeholders' expectations. In this case, the congruence will be the result of an internal process based on feedback about corporate legitimacy. In the mediated communication strategy, the central actors are the experts who bridge corporations and stakeholders by endorsing companies and establishing a dialogue with stakeholders in order to convey third‐part messages. In the dialogical strategy, the central actors are the stakeholders who actively interact with the corporations, and the alignment results from direct feedback ( Morsing and Schultz, 2006 ).
+
+The goal of this paper is to investigate whether these different communication strategies lead to congruence between stakeholders' social expectations and CSR agenda.
+Online communication in social media
+Section: Previous section Next section
+
+In order to investigate the corporate communication practices and their impact in terms of legitimacy, an analysis of online corporate communication in social media has been carried out. Indeed, online communication is becoming one of the most important information channels for corporations aiming to increase stakeholders' awareness about their CSR efforts. The internet has reshaped communication at different levels. Indeed, traditional broadcast media are based on a hierarchical one‐to‐many communication, with a clear distinction between producer and consumer of information and an audience that does not participate in the creation and selection of content. In contrast, The internet has enabled the emergence of a new participatory public sphere based on a many‐to‐many communication where everybody can dialogically and publicly interact and collaborate in the creation of content and the definition of the agenda ( Jenkins, 2006 ). For instance, www.amazon.com , the world's largest online retailer, has based its success on the trust generated by its customer product reviews. With the diffusion of social media such as Twitter and Facebook, attracting people and creating an active community is no longer a difficult and expensive task for companies. However, since the relationships are organized around a network of peers with no centralized entities of control in social media, corporations are thrown into a global stream of communication as one of the stakeholders. Within these media communication is referred as “viral” because ideas and opinions spread like epidemic diseases through the network via word‐of‐mouth and are perceived as highly trusted by the users because they are based on group similarities ( Colleoni et al. , 2011 ). In the analysis I investigated social media sites, particularly Twitter, where communication is horizontal (i.e. democratic) and corporations can only share their own agenda, and thus the emergence and the similarity of topics can be regarded as the result of network communication dynamics.
+Research questions
+Section: Previous section Next section
+
+I outlined the following research question based on the theoretical framework:
+
+RQ1. What are the characteristics of CSR communication in social media?
+
+Particularly, I am interested in investigating the communication strategies adopted by the corporations in an open environment. In which type of environment do they operate? Do they tend to share the public with other companies or do they have specific audiences? Have corporations have adopted an interactive approach with their stakeholders, or only with some of them?
+
+RQ2. Is there an alignment between companies CSR agenda and stakeholders' social expectations in social media? If there is alignment, do the different communication strategies lead to different alignment outcomes?
+
+With the introduction of new media, and particularly interactive social media, a dialogical conception of the relationship between an organization and its stakeholders has gained increased attention ( Andriof and Waddock, 2002 ; Palazzo and Scherer, 2006 ). The attractiveness of the relational approach is closely related to the emergence of a new informational society and the stakeholders' empowerment that this has entailed ( Castells, 1997 ). Stakeholders' perceptions of corporate behavior are built more independently from a companies' information and traditional mass media and they increasingly rely on direct communication within networks of peers. This transformation has posed the condition for the emergence of a new public sphere ( Latour and Weibel, 2005 ). Following Habermas's (1989) theory of public sphere, the general assumption is that if the corporation directly engages with stakeholders in the definition of the CSR agenda, the communication process will automatically generate the emergence of a common interpretation of reality ( Smith, 2003 ; Morsing and Schultz, 2006 ; Palazzo and Scherer, 2006 ; Basu and Palazzo, 2008 ). However, this assumption has never been systematically investigated. It can be argued that establishing a communication does not guarantee the creation of a dialogue ( Lyotard, 1984 ). For instance, the interactive communication is often more devoted to persuading others rather than building a common view ( Coupland, 2005 ); moreover, corporations might operate a selection in the topics of discussion and avoid debating controversial issues ( Schultz et al. , 2011 ).
+Methodology
+Section: Previous section Next section
+Identifying Twitter CSR community and its actors
+
+In order to investigate companies' strategies, I have investigated communication practices on Twitter. Twitter is a micro‐blogging service launched in 2006 that allows users to describe their current status via short posts (i.e. “tweets”). Using the entire Twitter social graph from June to December 2009, I selected the companies from the 100 Best Corporate Citizens 2009 list redacted by Corporate Responsibility Magazine (2009) who have a Twitter account dedicated to corporate social responsibility. I found seven CSR corporate accounts: Starbucks, Ford, Microsoft, Campbell, Smarter Planet, Xcel Energy and Green Mountain Coffee Roasters. I detected the social graphs of each CSR account (i.e. the list of followers and following) and I identified a first CSR community consisting of 16,000 users. However, I filtered this initial network in order to extract only CSR‐related content from the flow of communication and those users who have shared CSR at least once content within the network. In order to do so, I first extracted a sample of the conversations and manually coded 3,000 tweets according to the distinction CSR/non‐CSR content. I then used this sample as a training database to create an automated classifier able to detect CSR content in the whole network. Using the training database and a learning algorithm, the classification algorithm learnt how to classify CSR tweets, reaching an accuracy of 89.33 percent of correctly classified tweets (see Appendix 1). Therefore, I was confident to apply the classifier to the entire set of tweets. Once all the conversations were classified by CSR content, I could identify and select those users who had shared at least one CSR‐related tweet within the community. I ended up with a network of 9,589 users and 326,000 CSR‐related tweets, consisting of two groups, i.e. the corporations and their followers. While corporations are represented by CSR accounts, the followers are divided in two groups, i.e. audience and experts. I label the audience as people who follow one corporate account and I assume that they have a specific interest in the company they are following. In contrast, I call the CSR experts users who follow more than one company, showing a general interest in CSR.
+Corporate communication strategies
+
+In order to identify the corporate communication strategies empirically, I had to translate the conceptual artifacts into measurable Twitter communicational practices. In the following section, the three general communication strategies (i.e. self‐centered, mediated and dialogical strategies) are categorized according to two dimensions:
+1. 	
+
+the network structure, i.e. how corporations create their relational social ties; and
+2. 	
+
+the communication flow, i.e. how corporations produce and share content within their own network.
+The first dimension accounts for the different configurations of the relational ties in the CSR community, i.e. the following/followers relationships. Indeed, in contrast to Facebook, which is based on a two‐way friendship and connects people already known in real life (i.e. social graph) Twitter is in part also an interest graph, i.e. a direct network based on both one‐way following and two‐way friendships ( Ravikant and Rifkin, 2010 ). This peculiarity allows for “micro‐celebrity” and strategic personal branding practices aimed at reaching prestige within the network ( Marwick and Boyd, 2011 ). For instance, Microsoft founder Bill Gates follows only 71 people while being followed by more than three million; in contrast, US President Barack Obama follows almost one million people and is followed by ten million. In the analysis, I considered the mutual recognition of a relationship and the creation of closer ties in the network by calculating the degree of reciprocity. Reciprocity indicates the degree of cohesion, trust, and social capital that is present in a network and is measured as the tendency of node pairs to form mutual connections between each other ( Borgatti, 2005 ). According to the framework, different communication strategies are associated with different levels of reciprocity: in the case of the self‐centered strategy, the communication channel is used as a one‐directional tool; I therefore expect a low level of reciprocity. In the mediated strategy, the experts are trusted by the company as endorsers of their communication; I therefore expect the company to establish a higher degree of reciprocity with them rather than with its stakeholders. In the dialogical strategy, using public dialog, the company should act as a facilitator for the creation of a connected community; I therefore expect a high degree of reciprocity.
+
+The second dimension accounts for the different communicational practices among the actors. Besides the personal broadcasting function, Twitter allows users to interact dialogically and share content. Direct messages represent the main mechanism of interaction in Twitter and are used to both address a message to a specific user, or reply to someone's tweet always in a public context, so that “when conversations emerge, they are often experienced by broader audiences than just the interlocutors” ( Boyd et al. , 2010 :p.1). Retweeting is the basic mechanism through which users share content and it can be seen as one of the important means of opinion formation. This practice “contributes to a conversational ecology in which conversations are composed of a public interplay of voices that give rise to an emotional sense of shared conversational context” ( Boyd et al. , 2010 , p. 1). According to the theoretical model, companies adopting the self‐centered strategy will make low or no use of direct messages and retweet. The mediated strategy describes a situation where companies address directly and retweets experts' messages. The dialogical communication strategy accounts for those companies who interact profusely with their audience via direct/reply messages and who forward their audiences' content to their own public, facilitating dialogue among stakeholders. To summarize, in the self‐centered strategy, the company does not reciprocate the social connection and does not retweet or directly refer to its followers' content. In the mediated strategy, the creation of social ties and CSR communication between the company and the audience is mediated by the CSR experts. In the dialogic strategy, the company creates a mutual connection with its audience and establishes a direct dialog.
+Attention and affective orientation towards topics
+
+CSR discourse can be seen as a set of themes and their normative goals. However, the idea of what is good and what is important may differ among actors. I considered the relative attention and the affective orientation towards topics as a proxy of what is considered “important and good”. Reaching legitimacy requires the overlap of these two elements among stakeholders and companies. In order to investigate CSR discourse among groups empirically, I first extracted the different themes addressed by the actors in the network. In order to identify topics of discussion, I applied automatic topic detection using latent semantic analysis (LSA; see Appendix 2). It is important to stress that LSA does not provide an optimal number of topics. This choice must be made by the researcher according to the theoretical framework. After having identified the topics, I defined the attention and the affective orientation for each group (i.e. corporate, audience and experts) by topic. I measured the relative attention around a topic as the rate of tweets referring to a particular topic divided by the total number of tweets.
+
+I used sentiment analysis to measure the affective orientation towards a topic. Sentiment analysis refers to the process of categorization of unstructured human‐authored documents “based on their affective orientation” ( Colleoni et al. , 2011 ). Indeed, with the availability of massive data produced in social media sites and a set of new algorithms having been developed, it has become possible to deploy data mining techniques such as opinion mining and sentiment analysis in order to monitor and analyze stakeholder' opinions ( Pang and Lee, 2008 ). The affective orientation of a tweet is defined as its sentiment valence score and is measured as the average of the word's valence in the tweet normalized with the length of the message (see Appendix 3).
+Results
+Section: Previous section Next section
+RQ1. What are the characteristics of CSR communication in social media?
+
+With the purpose of exploring the characteristics of CSR communication in social media, I first studied the CSR online community. The goal was to assess whether there is a well‐connected CSR community where companies share the public, or if the overall community is less connected and companies act like hubs, connecting their specific audiences. In order to do so, I analyzed the percentage of nodes (i.e. users) shared by the companies. The investigation has shown a very low level of intersection between companies, implying the existence of several independent corporate‐based networks rather than a unique well‐connected CSR network. The highest level of shared nodes is 11.45 percent between Microsoft and Campbell, while the worst connected companies are Green Mountain Coffee Roasters and Microsoft, which do not share any users. On average, companies shared 4 percent of their audiences. This finding suggests that companies do not share a common public; rather, they tend to develop their own audiences. The same result holds for the specific audiences, which tend to create separated networks, suggesting an interest in a specific company rather than generic CSR interest.
+
+Secondly, I investigated the communication strategies adopted by the corporations by analyzing their relational ties and communication flow established with stakeholders and experts. Surprisingly, no corporations are interacting with the experts. Therefore they are not adopting a mediated strategy. Table I shows that the corporations are clearly divided into two main categories:
+1. 	
+
+self‐centered; and
+2. 	
+
+dialogical.
+The self‐centered companies do not reciprocate friendships and are embedded in a low cohesive network. They exhibit low degrees of interaction and stakeholder content diffusion within their networks. On average, only 6 percent of their tweets directly addressed users, and 15 percent diffused the audience's content. According to the theoretical model, this reflects the self‐centered strategy; companies use online communication space in a hierarchical way for self‐presentation purposes and to avoid direct engagement. An exception is represented by Ford, which shows a low level of interaction with its audience, although a high degree of reciprocity. The dialogical strategy represents those companies who have built a cohesive network and interact profusely with their stakeholders. Starbucks particularly shows the highest level of engagement with 90 percent of reciprocity and 49.17 percent of direct interactions. Since there was no evidence of the mediated strategy in the analysis I only considered the self‐centered and the dialogical strategies.
+
+RQ2. Is there an alignment between companies CSR agenda and stakeholders social expectations in social media? If there is alignment, do the different communication strategies lead to different alignment outcomes?
+
+Once the different strategies were identified, I applied topic analysis in order to investigate the discussions between stakeholders and companies and to evaluate whether they shared themes and vocabulary, and whether there are relevant differences between the two strategies. Table II shows the topics identified with the relative terms and the generic themes associated.
+
+The first two topics are related to information seeking. The most important keywords are “energy”, “power”, “wind” and “solar” associated with “check“, “project”, “share”, “see”, “save”. Topics 3 and 4 capture mainly the sustainability debate. Indeed, one topic refers to green and solar energy and the other to health and care, but both without any associations to news or business. In contrast, in topic 5, the most important words are “business”, “make”, “market”, “work” and “use”, indicating an interest in the market potential of green and alternative business. The last topic, with keywords like “democracy” and “support” associated with “Iran‐”, captures the large social support that Twitter users have shown to the Iranian protests in 2009, the so‐called “Twitter Revolution”. It is very interesting to notice how the focus of the CSR community is not only around environmental and health aspects, but also to political and ethical discussions within society as a whole. However, since topic analysis describes an association of words belonging to the same concept, it is interesting to examine if the vocabulary used by stakeholders and companies reflects different features of the concepts. Figure 2 represents the tag‐clouds by groups, i.e. the set of most frequent words used by companies and audiences, in the self‐centered and dialogical strategies, respectively.
+
+Figure 2 shows very similar patterns among companies, regardless of the types of communication followed. Indeed, the two companies' clouds are composed of a few important words and a plethora of small words, while the audiences' clouds are more balanced and several words are important components of the discourse. The most frequent words in the companies' clouds are their names associated with CSR keywords, such as “green”, “energy”, “social”, “power” and “work”; while the audience's tags range from “great”, “energy”, “health”, “business”, “care”, “climate”, “change” to “purchase”, “business” and “free”. In other words, while the concepts and related vocabulary do not vary strongly among groups, the main difference is that companies associate their brands to these concepts.
+
+Next, I investigated organizational legitimacy as the congruence between CSR agenda and social expectations by measuring attention and affective orientation towards topics by group and by communication strategies. Figures 3 and 4 show the different alignment outputs between companies and their audiences. The vertical axis represents the affective orientation about a topic, the horizontal axis represents the topics, and the size of the bubbles represents the level of attention towards a topic. First, I noticed that the sentiment is always positive, for both audiences and companies. This is coherent with other studies of online communities, which have shown how people tend to associate themselves with positive content (see Hansen et al. , 2011 ; Berger and Milkman, 2012 ). However, the variation among topics and groups is very limited, suggesting the need for further research into whether sentiment can be more informative if positive and negative opinions are considered separately. Figures 3 and 4 show that the information seeking process is important for the audience, but very marginal for the companies, in both strategies.
+
+Topics 3 and 4 captured most of the companies' attention and a marginal amount of the audiences. Business related discussions drive almost 25 percent of total audience discourse, and almost 20 percent of the companies' attention; similarly, the theme of democracy in Iran accounts for 22 percent of audiences' and 17 percent of the companies' conversations.
+
+Comparing the two strategies in terms of the ability to lead to alignment, it is evident that neither the information nor the dialogical strategy is able to establish a real convergence. However, the dialogical strategy shows more balance towards the companies' topics attention. This probably reflects the interactive nature of this approach that lead to conversation more orientated to the interests of both the companies and the audiences.
+Discussion
+Section: Previous section Next section
+
+The aim of this paper was to generate insights into the corporate communication field by applying new data‐mining algorithms to investigate organizational legitimacy. Legitimacy was defined as the congruence of corporate CSR agenda and stakeholders' social expectations as emerging from different communication strategies in social media. The findings are two‐fold and concern the discursive practices of the companies and the performances of the different communication strategies.
+
+First, I have analyzed the discursive practices in terms of relevance of topics and vocabulary used by the companies and their audiences. I found that the most relevant topics for the audiences are related to information seeking. Information seeking is one of the most common patterns of usage of social media sites based on peer‐to‐peer information sharing ( Java et al. , 2007 ). Stakeholders ask their peers about information and opinions on specific topics related to CSR, such as green energy and solar power. In contrast, the companies show a very “unnatural” pattern of usage. They are very keen on discussing the general CSR issues and are very marginal in the information seeking process, regardless of the communication strategy used. These findings point in the direction of what Schultz and Wehmeier (2010) call a “moralization” of corporate communications: “Corporations developed idealistic definitions of CSR within their self‐presentations and refer to ethical or civic accounts and general social or environmental ills, such as climate change” ( Schultz and Wehmeier, 2010 , p. 18). The same result holds when analyzing the vocabulary: the messages are broadcast mostly with a direct mention of the company's name associated with positive CSR content, which is reminiscent of traditional advertising strategies. Secondly, I have examined the ability of the different communication strategies to align to stakeholders' social expectations and increase corporate legitimacy. Following Habermas's assumption of deliberative public sphere, several authors seem to generally associate engagement and interaction with the creation of a dialogue and the co–creation of values and meanings, and therefore suggest that corporations must engage directly with stakeholders in order to increase legitimacy ( Kent and Taylor, 1998 ; Moreno and Capriotti, 2009 ; Fieseler et al. , 2009 ). However, as pointed out by Schultz and Wehmeier (2010) , these approaches “are based on the rationalist paradigm that argues both in a linear and causal manner” ( Schultz and Wehmeier, 2010 , p. 20). A simple information strategy can easily become a mere symbolic communication; in contrast, a more intensive claim can increase skepticism and attract critical attention ( Ashforth and Gibbs, 1990 ). Furthermore, the dialogical strategy is based “on rational argumentations in the Habermasian way, but [social reality] is often constructed by emotional and moral communications” ( Schultz and Wehmeier, 2010 , p. 21). Schultz and Wehmeier (2010) have pointed out how “such emotionalized communication is often used by protest movements and does not aim at finding consensus, but at breaking up dialogue and, therefore, the mutual negotiation of social reality” ( Schultz and Wehmeier, 2010 , p. 21). As suggested by Lyotard (1984) , the public sphere is often based on several publics, reflecting social inequalities, which organize themselves to reach public attention and dialogue is based on anarchy, individuality, disagreement and heated conversations. Investigating online conversations in social media sites, Papacharissi (2004) has found results consistent with Lyotard's definition of the public sphere. Assuming a non‐a priori communicational assumption, I found evidence that supports this latter view. The results clearly show that establishing an interactive and engaging approach is not enough to align to stakeholders' social expectations. The idea that the more the dialog, the more the communality seems to fail to portray the complexity of the communication dynamics, such as the persistence of different vocabulary within the same discourse, or simply a dialog without alignment, as suggested by Lyotard (1984) . At first glance, the lack of alignment seems to be related to corporations' communication practices, which follow traditional advertising strategies; however, further research must be carried out. Particularly, a more in‐depth analysis of the communication practices can shed light on two main issues arising from this study. Firstly, if the corporate communicational format emerging from the empirical investigation of the CSR community (i.e. tendency to share generic CSR positive content associated with the company's name) represent the general corporate online presence, or if this finding only relates to the communication of CSR content. Secondly, empirical research needs to be carried out to investigate what drives alignment. Additionally, considering positive and negative sentiments separately might lead to new insight, particularly when analyzing crisis communication, where it is very likely to have two conflicting parties developing contrasting arguments.
+
+Overall, this study has highlighted the great contribution that new data mining techniques, such as sentiment and topic analysis, can provide to the corporate communication field and to companies as well, particularly when applied to Internet communication. Indeed, these techniques allow the analysis of large amounts of data, which it would not be possible to investigate otherwise. Most importantly, sentiment analysis allows the automated track of online opinions and affect towards topics as well as companies. Likewise, latent semantic analysis allows investigation of the relevant topics as perceived by the stakeholders. Furthermore, new algorithms are emerging that increasingly exploit the informative content of online communication. For instance, anomaly detection algorithms, traditionally applied for web‐security or medical purposes, are increasingly applied to monitor the emergence of discourse “anomalies” on Twitter (see Sakaki et al. , 2010 ). These algorithms can be applied to monitor a corporation's opinion trends, predicting the emergence of potential scandals.
+
+There are several ways that companies can foster alignment with their stakeholders on Twitter. As the present research shows, companies can use publicly available social media data to understand the conversations perceived as relevant and the opinions about specific topics of their audiences and subsequently design proper campaigns. For instance, the analysis has shown how users often seek CSR‐related information, take solar panel and green habits for example; a demand that is not captured by the companies, regardless of the communication strategies adopted. It emerges clearly from this study the complexity of stakeholders' view and their high ethical expectations towards CSR, which a company should be aware of in order to reach a real alignment.
+figure parent remove
+
+Figure 1 Communication strategies for corporate legitimacy
+figure parent remove
+
+Figure 2 Self‐centred and dialogical strategy: most frequent words for companies and audience
+figure parent remove
+
+Figure 3 Dialogical strategy: attention and affective orientation's congruence by topic, audience and companies
+figure parent remove
+
+Figure 4 Self‐centred strategy: attention and affective orientations congruence by topic, audience and companies
+figure parent remove
+
+Table I Communication strategies by companies based on relational and conversational features
+figure parent remove
+
+Table II Topics and keywords detected
+figure parent remove
+
+Table AI Topic extraction and relevant words
+References
+    1.
+    Andriof, J. and Waddock, S. ( 2002 ), “ Unfolding stakeholder engagement ”, in Andriof, J. , Waddock, S. , Husted, B. and Rahman, S.S. (Eds), Unfolding Stakeholder Thinking: Theory, Responsibility and Engagement , Greenleaf Publishing , Sheffield , pp. 19 ‐ 42 . OpenURL UTFPR [Google Scholar]
+
+    2.
+    Ashforth, B. and Gibbs, B. ( 1990 ), “ The double‐edge of organizational legitimation ”, Organization Science , Vol. 1 No. 2, pp. 177 ‐ 94 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    3.
+    Basu, K. and Palazzo, G. ( 2008 ), “ Corporate social responsibility: a process model of sensemaking ”, Academy of Management Review , Vol. 33 No. 1, pp. 122 ‐ 36 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    4.
+    Beck, U. ( 2000 ), Risk Society. Towards a New Modernity , Sage Publications , Thousand Oaks, CA . OpenURL UTFPR [Google Scholar]
+
+    5.
+    Berger, J. and Milkman, K. ( 2012 ), “ What makes online content viral? ”, Journal of Marketing Research , Vol. 49 No. 2, pp. 192 ‐ 205 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    6.
+    Berger, P.L. and Luckman, L. ( 1966 ), The Social Construction of Reality: A Treatise on the Sociology of Knowledge , Anchor , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    7.
+    Bhattacharya, C.B. and Sen, S. ( 2004 ), “ Doing better by doing good: when, why, and how consumer respond to corporate social initiatives ”, California Management Review , Vol. 47 No. 1, pp. 9 ‐ 24 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    8.
+    Borgatti, S. ( 2005 ), “ Centrality and network flow ”, Social Networks , Vol. 27 No. 1, pp. 55 ‐ 71 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    9.
+    Botan, C. ( 1997 ), “ Ethics in strategic communication campaigns: the case for a new approach to public relations ”, Journal of Business Communication , Vol. 34 No. 2, pp. 188 ‐ 202 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    10.
+    Boyd, D. , Golder, S. and Lotan, G. ( 2010 ), “ Tweet, tweet, retweet: conversational aspects of retweeting on Twitter ”, Proceedings of the 43rd Hawaii International Conference on System Sciences (HICSS 43), Kauai, HI, January , IEEE Computer Society , Piscataway, NJ , pp. 1 ‐ 10 . OpenURL UTFPR [Google Scholar]
+
+    11.
+    Capriotti, P. and Moreno, A. ( 2007 ), “ Corporate citizenship and public opinions: the importance and interactivity of social responsibility issues on corporate websites ”, Public Relations Review , Vol. 33 No. 1, pp. 84 ‐ 91 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    12.
+    Carey, J.W. ( 1989 ), Communication as Culture: Essay on Media and Society , Routledge , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    13.
+    Castells, M. ( 1997 ), The Power of Identity , The Information Age: Economy, Society and Culture , Vol. II, Blackwell , Cambridge, MA . OpenURL UTFPR [Google Scholar]
+
+    14.
+    Colleoni, E. ( 2012 ), “ New forms of digital marketing ”, in Belk, R. and Liama, R. (Eds), The Routledge Companion to Digital Consumption , Routledge , New York, NY , pp. 124 ‐ 34 . OpenURL UTFPR [Google Scholar]
+
+    15.
+    Colleoni, E. , Arvidsson, A. , Hansen, L.K. and Marchesini, M. ( 2011 ), “ Measuring corporate reputation using sentiment analysis ”, paper presented at the 15th International Conference on Corporate Reputation, Brand, Identity and Competitiveness, New Orleans, LA, May 18‐20. OpenURL UTFPR [Google Scholar]
+
+    16.
+    Corporate Responsibility Magazine ( 2009 ), “ Corporate Responsibility Magazine's 100 Best Corporate Citizens List ”, available at http://thecro.com/content/corporate‐responsibility‐magazine%E2%80%99s‐%E2%80%9C100‐best‐corporate‐citizens‐list%E2%80%9D . OpenURL UTFPR [Google Scholar]
+
+    17.
+    Coupland, C. ( 2005 ), “ Corporate social responsibility as argument on the web ”, Journal of Business Ethics , Vol. 62 No. 4, pp. 355 ‐ 66 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    18.
+    D'Aunno, T. and Zuckerman, H.S. ( 1987 ), “ A life‐cycle model of organizational federations: the case of hospitals ”, Academy of Management Review , Vol. 12 No. 3, pp. 534 ‐ 45 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    19.
+    Dawkins, J. ( 2004 ), “ Corporate responsibility: the communication challenge ”, Journal of Communication Management , Vol. 9 No. 2, pp. 108 ‐ 19 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    20.
+    Dellarocas, C. ( 2003 ), “ The digitization of word of mouth: promise and challenges of online feedback mechanisms ”, Management Science , Vol. 49 No. 10, pp. 1407 ‐ 24 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    21.
+    Dowling, J. and Pfeffer, J. ( 1975 ), “ Organizational legitimacy: social values and organizational behavior ”, The Pacific Sociological Review , Vol. 18 No. 1, pp. pp122 ‐ 36 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    22.
+    Fieseler, C. , Fleck, M. and Meckel, M. ( 2009 ), “ Corporate social responsibility in the blogosphere ”, Journal of Business Ethics , Vol. 91, pp. 599 ‐ 614 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    23.
+    Freeman, E. ( 1984 ), Strategic Management: A Stakeholder Approach , Pitman , Marshfield, MA . OpenURL UTFPR [Google Scholar]
+
+    24.
+    Habermas, J. ( 1989 ), The Structural Transformation of the Public Sphere , MIT Press , Cambridge, MA , (first published 1962). OpenURL UTFPR [Google Scholar]
+
+    25.
+    Hansen, L.K. , Arvidsson, A. , Nielsen, F. , Colleoni, E. and Etter, M. ( 2011 ), “ Good friends, bad news – affect and virality in Twitter ”, Proceedings of the International Workshop on Social Computing, Network, and Services SocialComNet’2011 , Springer Communications in Computer and Information Science, Vol. 185, Springer , Berlin , pp. 34 ‐ 43 . OpenURL UTFPR [Google Scholar]
+
+    26.
+    Herrmann, K.K. ( 2004 ), “ Corporate social responsibility and sustainable development: the European Union initiative as a case study ”, Indiana Journal of Global Legal Studies , Vol. 11 No. 2, pp. 204 ‐ 32 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    27.
+    Java, A. , Song, X. , Finin, T. and Tseng, B. ( 2007 ), “ Why we Twitter: understanding microblogging usage and communities ”, WebKDD/SNA‐KDD '07: Proceedings of the 9th WebKDD and 1st SNA‐KDD 2007 Workshop on Web Mining and Social Network Analysis, New York, NY , pp. 56 ‐ 65 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    28.
+    Jenkins, H. ( 2006 ), Convergence Culture: Where Old and New Media Collide , New York University Press , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    29.
+    Kent, M.L. and Taylor, M. ( 1998 ), “ Building dialogic relationships through the world wide web ”, Public Relations Review , Vol. 24 No. 3, pp. 321 ‐ 34 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    30.
+    Ingenhoff, D. and Koelling, M.A. ( 2009 ), “ The potential of web sites as a relationship building tool for charitable fundraising NPOs ”, Public Relations Review , Vol. 35, pp. 66 ‐ 73 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    31.
+    Insch, A. ( 2008 ), “ Online communication of corporate environmental citizenship: a study of New Zealand's electricity and gas retailers ”, Journal of Marketing Communications , Vol. 14 No. 2, pp. 139 ‐ 53 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    32.
+    Latour, B. and Weibel, P. ( 2005 ), Making Things Public , MIT Press , Cambridge, MA . OpenURL UTFPR [Google Scholar]
+
+    33.
+    Lyotard, J.F. ( 1984 ), The Postmodern Condition , (trans. by Massumi, B. et al. ), University of Minnesota Press , Minneapolis, MN . OpenURL UTFPR [Google Scholar]
+
+    34.
+    Marwick, A. and Boyd, D. ( 2011 ), “ I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience ”, New Media and Society , Vol. 13 No. 1, pp. 114 ‐ 33 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    35.
+    Massey, J.E. ( 2001 ), “ Managing organizational legitimacy: communication strategies for organizations in crisis ”, The Journal of Business Communication , Vol. 38 No. 2, pp. 153 ‐ 83 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    36.
+    Mølgaard, L. and Szewczyk, M. ( 2010 ), “ Sentiment analysis using machine learning ”, unpublished results, Department of Informatics and Mathematical Modeling, Technical University of Denmark. OpenURL UTFPR [Google Scholar]
+
+    37.
+    Moreno, A. and Capriotti, P. ( 2009 ), “ Communicating CST: citizenship and sustainability on the Web ”, Journal of Communication Management , Vol. 13 No. 2, pp. 157 ‐ 75 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    38.
+    Morsing, M. and Schultz, M. ( 2006 ), “ Corporate social responsibility communication: stakeholder information, response and involvement strategies ”, Business Ethics: A European Review , Vol. 15 No. 4, pp. 323 ‐ 38 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    39.
+    Morsing, M. , Schultz, M. and Nielsen, K.U. ( 2008 ), “ The ‘Catch 22’ of communicating CSR: findings from a Danish study ”, Journal of Marketing Communications , Vol. 14 No. 2, pp. 97 ‐ 111 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    40.
+    Nielsen, F.Å. ( 2011 ), “ A new ANEW: evaluation of a word list for sentiment analysis in microblogs ”, unpublished results, Department of Informatics and Mathematical Modeling, Technical University of Denmark, Kongens Lyngby. OpenURL UTFPR [Google Scholar]
+
+    41.
+    Palazzo, G. and Scherer, G. ( 2006 ), “ Corporate legitimacy as deliberation: a communicative framework ”, Journal of Business Ethics , Vol. 66 No. 1, pp. 71 ‐ 88 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    42.
+    Pang, B. and Lee, L. ( 2008 ), “ Opinion mining and sentiment analysis ”, Foundations and Trends in Information Retrieval , Vol. 2 No. 1, pp. 1 ‐ 135 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    43.
+    Papacharissi, Z. ( 2004 ), “ Democracy online: civility, politeness, and the democratic potential of online political discussion groups ”, New Media and Society , Vol. 6 No. 2, pp. 259 ‐ 83 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    44.
+    Parsons, P. ( 1960 ), Structure and Process in Modern Societies , The Free Press , Glencoe, IL . OpenURL UTFPR [Google Scholar]
+
+    45.
+    Rafaeli, S. and Sudweeks, F. ( 1997 ), “ Networked interactivity ”, Journal of Computer‐Mediated Communication , Vol. 2 No. 4. [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    46.
+    Ravikant, N. and Rifkin, A. ( 2010 ), “ Why Twitter is massively undervalued compared to Facebook ”, available at: http://techcrunch.com/2010/10/16/why‐twitter‐is‐massively‐undervalued‐compared‐to‐facebook/ . OpenURL UTFPR [Google Scholar]
+
+    47.
+    Ryan, M. ( 2003 ), “ Public relations and the web: organizational problems, gender, and institution type ”, Public Relations Review , Vol. 29 No. 3, pp. 335 ‐ 49 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    48.
+    Sakaki, T. , Okazaki, M. and Matsuo, Y. ( 2010 ), “ Earthquake shakes Twitter users: real‐time event detection by social sensors ”, Proceedings of WWW 2010, April 26‐30, Raleigh, NC . OpenURL UTFPR [Google Scholar]
+
+    49.
+    Scherer, A. and Palazzo, G. ( 2007 ), “ Toward a political conception of corporate responsibility: business and society seen from a Habermasian perspective ”, Academy of Management Review , Vol. 32 No. 4, pp. 1096 ‐ 120 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    50.
+    Schultz, F. , Utz, S. and Goritz, A. ( 2011 ), “ Is the medium the message? Perceptions of and reactions to crisis communication via Twitter, blogs and traditional media ”, Public Relations Review , Vol. 37 No. 1, pp. 20 ‐ 7 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    51.
+    Schultz, F. and Wehmeier, S. ( 2010 ), “ Institutionalization of corporate social responsibility within corporate communications: combining institutional, sensemaking and communication perspectives ”, Corporate Communications: An International Journal , Vol. 15 No. 1, pp. 9 ‐ 29 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    52.
+    Schultz, T. ( 2000 ), “ Mass media and the concept of interactivity: an exploratory study of online forums and reader email ”, Media, Culture and Society , Vol. 22 No. 2, pp. 205 ‐ 21 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    53.
+    Smith, C. ( 2003 ), “ Corporate social responsibility: whether or how? ”, California Management Review , Vol. 45 No. 4, pp. 52 ‐ 76 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    54.
+    Suchman, M.C. ( 1995 ), “ Managing legitimacy: strategic and institutional approaches ”, Academy of Management Review , Vol. 20 No. 3, pp. 571 ‐ 610 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    55.
+    Thelwall, M. , Buckley, K. and Paltoglou, G. ( 2011 ), “ Sentiment in Twitter events ”, Journal of American Society for Information Science and Technology , Vol. 62 No. 2, pp. 406 ‐ 18 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    56.
+    Wood, D. ( 1991 ), “ Corporate social performance revisited ”, Academy of Management Review , Vol. 16 No. 4, pp. 691 ‐ 718 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    57.
+    Zucker, L. ( 1987 ), “ Institutional theories of organizations ”, Annual Review of Sociology , Vol. 13, pp. 443 ‐ 644 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+Further Reading
+    1.
+    Arvidsson, A. and Colleoni, E. ( 2012 ), “ Value in informational capitalism and on the internet. A reply to Christian Fuchs ”, The Information Society , Vol. 28 No. 3, pp. 135 ‐ 50 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    2.
+    Carroll, A.B. ( 1979 ), “ A three‐dimensional conceptual model of corporate performance ”, Academy of Management Review , Vol. 4 No. 4, pp. 497 ‐ 505 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    3.
+    Esrock, S.L. and Leichty, G.B. ( 1998 ), “ Social responsibility and corporate web pages: presentation or agenda setting? ”, Public Relations Review , Vol. 24 No. 3, pp. 305 ‐ 19 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    4.
+    Gerlitz, C. and Helmond, A. ( 2011 ), “ Hit, link and share: organizing the social and the fabric of the web in a like economy ”, paper presented at the DMI Mini‐Conference, University of Amsterdam, Amsterdam, January 24‐25. OpenURL UTFPR [Google Scholar]
+
+    5.
+    Honeycutt, C. and Herring, S.C. ( 2009 ), “ Beyond microblogging: conversation and collaboration via Twitter ”, Proceedings of the 42nd Hawaii International Conference on System Sciences (HICSS 42) , IEEE Computer Society , Washington, DC , pp. 1 ‐ 10 . OpenURL UTFPR [Google Scholar]
+
+    6.
+    Podnar, K. ( 2008 ), “ Guest editorial: communicating corporate social responsibility ”, Journal of Marketing Communications , Vol. 14 No. 2, pp. 75 ‐ 81 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    7.
+    Porter, M. ( 2006 ), “ Mapping social opportunities ”, Harvard Business Review , Vol. 84 No. 12, pp. 86 ‐ 7 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    8.
+    Powell, W. and DiMaggio, P. ( 1991 ), The New Institutionalism in Organizational Analysis , University of Chicago Press , Chicago, IL . OpenURL UTFPR [Google Scholar]
+
+    9.
+    Scott, R.W. ( 1987 ), Organizations: Rational, Natural, and Open Systems , Prentice Hall , Englewood Cliffs, NJ . OpenURL UTFPR [Google Scholar]
+
+    10.
+    Weick, K. ( 1995 ), Sensemaking in Organizations , Sage Publications , Thousand Oaks, CA . OpenURL UTFPR [Google Scholar]
+
+Appendix 1. Training the CSR classifier
+Section: Previous section Next section
+
+In order to detect CSR‐related tweets automatically for the whole network, we trained an automated classifier with a machine learning algorithm based on a database of manually classified CSR tweets. In order to do so, first, one of the authors, drawing on knowledge developed as a CSR and communication scholar, manually classified 3,000 tweets according to the distinction CSR content/non‐CSR content. As a test of inter‐coder reliability, the other author and a colleague of the department working with the same database respectively and independently coded sample sections. No significant differences were identified and the initial coding was found to be internally consistent. From the pre‐classified database we extracted the 6,457 most frequent words and used those words as terms. We used this information as a base to “train” a data‐mining algorithm to classify the tweets automatically. We used the so‐called naive Bayes classifier, where the probability of a tweet being CSR‐related is expressed as the combined probabilities of each word to be CSR related in the tweet.
+
+We split the corpus of data in 75 percent for training and the rest for testing and we reached an average accuracy of 89.33 percent, i.e. percentage of correct classification of CSR/non‐CSR related tweets. Particularly, we classified correctly CSR content in 89 cases out of 100 and non‐CSR content in 92 cases out of 100.
+Appendix 2. Latent semantic analysis
+Section: Previous section Next section
+
+Latent semantic analysis is a natural language processing technique based on a singular value decomposition method that identifies relationships between set of documents by identifying their shared concepts. LSA maps all the documents and the terms within them as a whole into a “concept” space and compares them in this space. These algorithms assume that words that are close in meaning will occur close together in text. For instance, using a search engine search for “sand”, documents are returned that do not contain the search term “sand” but contain terms like “beach”. Therefore, the model trained on such a corpus has identified a latent relation: sand is semantically close to beach. These terms share the concept space and will be therefore classified under the same topic. One can view LSA as a transformation from one coordinate system (documents×terms) to another – concept space with reduced dimensions.
+
+The document term matrix X is decomposed into matrix Σ containing singular values and left ( U ) and right ( V ) singular vectors. By limiting number of dimensions (by setting singular values in Σ to 0) one can create a “concept” space. This concept space is related to both documents and terms. Therefore, one can see, for example, what terms form a concept, which can be viewed as topics. The LSA model was trained on corpus of 326,291 documents. It contained 43,151 unique terms. In total there were 2,815,282 non‐zero entries. We have identified seven dimensions, referring to six different topics and one residual component (see Table AI ). The explanation power strongly decreases over topics, which means that the topics well discriminate the information.
+Appendix 3. Sentiment analysis
+Section: Previous section Next section
+
+Sentiment analysis allows subjective perceptions to acquire an objective existence as observable and measurable forms ( Colleoni, 2012 ).
+
+The most common approach for affective text classification is using a lexicon. This approach requires “the creation of a knowledge base‐lexicon of affective words, with additional data characterizing emotional states and relations” ( Mølgaard and Szewczyk, 2010 , p. 2). The most general sentiment classification allows the polarity classification of a text by distinguishing between positive and negative sentiment. More elaborated classifications include the identification of the strength of a sentiment. The underlying assumption is that “humans can differentiate between mild and strong emotions” ( Thelwall et al. , 2011 , p. 4). Sentiment expressions are classified according to their valence – i.e. how positive or negative the expressed sentiment is – and arousal – i.e. level of the emotional excitement ( Colleoni et al. , 2011 ). In this work, we used a word list developed by Nielsen (2011) based on Twitter text that includes internet slang and obscene words. This Twitter‐based word list has 2,477 unique words and includes 15 phrases; the score ranges from −5 (very negative) to +5 (very positive). For instance, the word “adorable” is classified as a positive term with valence 3, while “aggression” is negative with valence −2. The valence of a tweet is computed as the sum of the valences of the individual words in the tweet, while the arousal the sum of the absolute value of the valences.
+About the authors
+Section: Previous section
+
+Elanor Colleoni is a Postdoctoral Researcher at the Department of Intercultural Communication and Management, Copenhagen Business School. With a background in computer science and sociology, she is currently working on the project “Responsible Business in the Blogosphere” (RBB). She is investigating the relationship between information diffusion and emotional content in social media and the impact of social relations on brand and corporate reputation in new media. Elanor Colleoni can be contacted at: elc.ikl@cbs.dk
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (67)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+Corporate Communications: An International Journal
+ISSN: 1356-3289
+Online from: 1996
+
+    Current Issue
+    Available Issues
+    Earlycite
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Emerging Sources
+Citation Index
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    Mapping and leveraging influencers in social media to shape corporate brand perceptions
+    The role of communication in organisational change
+    Internal communication during change management
+    Promoting active communication behaviours through internal communication
+    Corporate identity and corporate communications: creating a competitive advantage
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    Corporate reputation: seeking a definition
+    Rethinking internal communication: a stakeholder approach
+    An empirical study on the influence of environmental labels on consumers
+    Communication of corporate social responsibility by Portuguese banks : A legitimacy theory perspective
+    The role of communication in organisational change
+
+See more>
+Find related content
+By Keyword
+
+    Organizational legitimacy
+    Communication strategies
+    Corporate social responsibility
+    Social media
+    Topic analysis
+    Sentiment analysis
+    Social responsibility
+    Communications
+
+By Author
+
+    Elanor Colleoni
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor

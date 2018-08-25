@@ -1,0 +1,867 @@
+TY  - JOUR
+T1  - Ontology-based Sentiment Analysis Process for Social Media Content
+AU  - Thakor, Pratik
+AU  - Sasi, Sreela
+JO  - Procedia Computer Science
+VL  - 53
+SP  - 199
+EP  - 207
+PY  - 2015
+DA  - 2015/01/01/
+T2  - INNS Conference on Big Data 2015 Program San Francisco, CA, USA 8-10 August 2015
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2015.07.295
+UR  - http://www.sciencedirect.com/science/article/pii/S1877050915017986
+KW  - Ontology-based Process
+KW  - Negative Sentiment Analysis
+KW  - Subjective Analysis
+KW  - Web Mining
+KW  - Text Parsing
+AB  - Social media provides a platform where users share an abundance of information on anything and everything. The information may consist of users’ emotions, feedbacks, reviews, and personal experiences. In this research a novel Ontology-based Sentiment Analysis Process for Social Media content (OSAPS) with negative sentiments is presented. The social media content is automatically extracted from the twitter messages. An ontology-based process is designed to retrieve and analyse the customers’ tweet with negative sentiments. This idea is demonstrated with the identification of customer dissatisfaction of the delivery service issues of the United States Postal Service, Royal Mail of United Kingdom, and Canada post. The tweets related to the delivery service include delay in delivery, lost package/s or improper customer services at the office in person or at call centres. A combination of technologies for twitter extraction, data cleaning, subjective analysis, ontology model building, and sentiment analysis are used. The results from this analysis could be used by the company to take corrective measures for the problems as well as to generate an automated online reply for the issues. A rule-based classifier could be used for generating the automated online replies.
+ER  - 
+
+TY  - JOUR
+T1  - Road-based travel recommendation using geo-tagged images
+AU  - Sun, Yeran
+AU  - Fan, Hongchao
+AU  - Bakillah, Mohamed
+AU  - Zipf, Alexander
+JO  - Computers, Environment and Urban Systems
+VL  - 53
+SP  - 110
+EP  - 122
+PY  - 2015
+DA  - 2015/09/01/
+T2  - Special Issue on Volunteered Geographic Information
+SN  - 0198-9715
+DO  - https://doi.org/10.1016/j.compenvurbsys.2013.07.006
+UR  - http://www.sciencedirect.com/science/article/pii/S0198971513000677
+KW  - Volunteered geographic information
+KW  - Travel recommendation
+KW  - Routing planning
+KW  - Spatial data mining
+KW  - Semantic routing
+AB  - Geotagged photos on social media like Flickr explicitly indicate the trajectories of tourists. They can be employed to reveal the tourists’ preference on landmarks and routings of tourism. Most of existing works on routing searches are based on the trajectories of GPS-enabled devices’ users. From a distinct point of view, we attempt to propose a novel approach in which the basic unit of routing is separate road segment instead of GPS trajectory segment. In this paper, we build a recommendation system that provides users with the most popular landmarks as well as the best travel routings between the landmarks. By using Flickr geotaggged photos, the top ranking travel destinations in a city can be identified and then the best travel routes between the popular travel destinations are recommended. We apply a spatial clustering method to identify the main travel landmarks and subsequently rank these landmarks. Using machine learning method, we calculate the tourism popularity of the road in terms of relevant parameters, e.g., the number of users and the number of Point-of-Interests. These popularity assessments are integrated into the routing recommendation system. The routing recommendation system takes into consideration both the popularity assessment and the length of the road. The best route recommended to the user minimizes the distance while including maximal tourism popularity. Experiments were conducted in two different scenarios. The empirical results show that the recommendation system is able to provide the user good travel planning including both top ranking landmarks and suitable routings in a city. Besides, the system offers user-generated semantic information for the recommended routes.
+ER  - 
+
+TY  - JOUR
+T1  - Sentimental causal rule discovery from Twitter
+AU  - Dehkharghani, Rahim
+AU  - Mercan, Hanefi
+AU  - Javeed, Arsalan
+AU  - Saygin, Yucel
+JO  - Expert Systems with Applications
+VL  - 41
+IS  - 10
+SP  - 4950
+EP  - 4958
+PY  - 2014
+DA  - 2014/08/01/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2014.02.024
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417414000876
+KW  - Sentiment analysis
+KW  - Data mining
+KW  - Machine learning
+KW  - Causal rules
+KW  - Sentimental causal rules
+KW  - Twitter
+AB  - Social media, especially Twitter is now one of the most popular platforms where people can freely express their opinion. However, it is difficult to extract important summary information from many millions of tweets sent every hour. In this work we propose a new concept, sentimental causal rules, and techniques for extracting sentimental causal rules from textual data sources such as Twitter which combine sentiment analysis and causal rule discovery. Sentiment analysis refers to the task of extracting public sentiment from textual data. The value in sentiment analysis lies in its ability to reflect popularly voiced perceptions that are stated in natural language. Causal rules on the other hand indicate associations between different concepts in a context where one (or several concepts) cause(s) the other(s). We believe that sentimental causal rules are an effective summarization mechanism that combine causal relations among different aspects extracted from textual data as well as the sentiment embedded in these causal relationships. In order to show the effectiveness of sentimental causal rules, we have conducted experiments on Twitter data collected on the Kurdish political issue in Turkey which has been an ongoing heated public debate for many years. Our experiments on Twitter data show that sentimental causal rule discovery is an effective method to summarize information about important aspects of an issue in Twitter which may further be used by politicians for better policy making.
+ER  - 
+
+TY  - JOUR
+T1  - Text classification for assisting moderators in online health communities
+AU  - Huh, Jina
+AU  - Yetisgen-Yildiz, Meliha
+AU  - Pratt, Wanda
+JO  - Journal of Biomedical Informatics
+VL  - 46
+IS  - 6
+SP  - 998
+EP  - 1005
+PY  - 2013
+DA  - 2013/12/01/
+T2  - Special Section: Social Media Environments
+SN  - 1532-0464
+DO  - https://doi.org/10.1016/j.jbi.2013.08.011
+UR  - http://www.sciencedirect.com/science/article/pii/S1532046413001391
+KW  - Online health communities
+KW  - Consumer health
+KW  - Human–computer interaction
+KW  - Text mining
+KW  - Health information seeking
+AB  - Objectives
+Patients increasingly visit online health communities to get help on managing health. The large scale of these online communities makes it impossible for the moderators to engage in all conversations; yet, some conversations need their expertise. Our work explores low-cost text classification methods to this new domain of determining whether a thread in an online health forum needs moderators’ help.
+Methods
+We employed a binary classifier on WebMD’s online diabetes community data. To train the classifier, we considered three feature types: (1) word unigram, (2) sentiment analysis features, and (3) thread length. We applied feature selection methods based on χ2 statistics and under sampling to account for unbalanced data. We then performed a qualitative error analysis to investigate the appropriateness of the gold standard.
+Results
+Using sentiment analysis features, feature selection methods, and balanced training data increased the AUC value up to 0.75 and the F1-score up to 0.54 compared to the baseline of using word unigrams with no feature selection methods on unbalanced data (0.65 AUC and 0.40 F1-score). The error analysis uncovered additional reasons for why moderators respond to patients’ posts.
+Discussion
+We showed how feature selection methods and balanced training data can improve the overall classification performance. We present implications of weighing precision versus recall for assisting moderators of online health communities. Our error analysis uncovered social, legal, and ethical issues around addressing community members’ needs. We also note challenges in producing a gold standard, and discuss potential solutions for addressing these challenges.
+Conclusion
+Social media environments provide popular venues in which patients gain health-related information. Our work contributes to understanding scalable solutions for providing moderators’ expertise in these large-scale, social media environments.
+ER  - 
+
+TY  - JOUR
+T1  - Author gender identification from text
+AU  - Cheng, Na
+AU  - Chandramouli, R.
+AU  - Subbalakshmi, K.P.
+JO  - Digital Investigation
+VL  - 8
+IS  - 1
+SP  - 78
+EP  - 88
+PY  - 2011
+DA  - 2011/07/01/
+SN  - 1742-2876
+DO  - https://doi.org/10.1016/j.diin.2011.04.002
+UR  - http://www.sciencedirect.com/science/article/pii/S1742287611000247
+KW  - Gender identification
+KW  - Text mining
+KW  - Psycho-linguistic analysis
+KW  - Logistic regression
+KW  - Decision tree
+KW  - Support vector machine
+AB  - Text is still the most prevalent Internet media type. Examples of this include popular social networking applications such as Twitter, Craigslist, Facebook, etc. Other web applications such as e-mail, blog, chat rooms, etc. are also mostly text based. A question we address in this paper that deals with text based Internet forensics is the following: given a short text document, can we identify if the author is a man or a woman? This question is motivated by recent events where people faked their gender on the Internet. Note that this is different from the authorship attribution problem. In this paper we investigate author gender identification for short length, multi-genre, content-free text, such as the ones found in many Internet applications. Fundamental questions we ask are: do men and women inherently use different classes of language styles? If this is true, what are good linguistic features that indicate gender? Based on research in human psychology, we propose 545 psycho-linguistic and gender-preferential cues along with stylometric features to build the feature space for this identification problem. Note that identifying the correct set of features that indicate gender is an open research problem. Three machine learning algorithms (support vector machine, Bayesian logistic regression and AdaBoost decision tree) are then designed for gender identification based on the proposed features. Extensive experiments on large text corpora (Reuters Corpus Volume 1 newsgroup data and Enron e-mail data) indicate an accuracy up to 85.1% in identifying the gender. Experiments also indicate that function words, word-based features and structural features are significant gender discriminators.
+ER  - 
+
+TY  - JOUR
+T1  - A system for mining interesting tourist locations and travel sequences from public geo-tagged photos
+AU  - Majid, Abdul
+AU  - Chen, Ling
+AU  - Mirza, Hamid Turab
+AU  - Hussain, Ibrar
+AU  - Chen, Gencai
+JO  - Data & Knowledge Engineering
+VL  - 95
+SP  - 66
+EP  - 86
+PY  - 2015
+DA  - 2015/01/01/
+SN  - 0169-023X
+DO  - https://doi.org/10.1016/j.datak.2014.11.001
+UR  - http://www.sciencedirect.com/science/article/pii/S0169023X14000962
+KW  - Geo-referenced photographs
+KW  - Trip planning
+KW  - Context-aware query
+KW  - Travel sequence
+KW  - Spatio-temporal data mining
+AB  - Geo-tagged photos of users on social media sites (e.g., Flickr) provide plentiful location-based data. This data provide a wealth of information about user behaviours and their potential is increasing, as it becomes ever-more common for images to be associated with location information in the form of geo-tags. Recently, there is an increasing tendency to adopt the information from these geo-tagged photos for learning to recommend tourist locations. In this paper, we aim to propose a system to recommend interesting tourist locations and interesting tourist travel sequences (i.e., sequence of tourist locations) from a collection of geo-tagged photos. Proposed system is capable of understanding context (i.e., time, date, and weather), as well as taking into account the collective wisdom of people, to make tourist recommendations. We illustrate our technique on a sample of public Flickr data set. Experimental results demonstrate that the proposed approach is able to generate better recommendations as compared to other state-of-the-art landmark based recommendation methods.
+ER  - 
+
+TY  - JOUR
+T1  - Deep sentiment analysis: Mining the causality between personality-value-attitude for analyzing business ads in social media
+AU  - Jang, Haeng-Jin
+AU  - Sim, Jaemoon
+AU  - Lee, Yonnim
+AU  - Kwon, Ohbyung
+JO  - Expert Systems with Applications
+VL  - 40
+IS  - 18
+SP  - 7492
+EP  - 7503
+PY  - 2013
+DA  - 2013/12/15/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2013.06.069
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417413004685
+KW  - Sentiment analysis
+KW  - Data analytics
+KW  - Value structure
+KW  - Euler graph
+KW  - Social media
+AB  - IT vendors routinely use social media such as YouTube not only to disseminate their IT product information, but also to acquire customer input efficiently as part of their market research strategies. Customer responses that appear in social media, however, are typically unstructured; thus, a fairly large data set is needed for meaningful analysis. Although identifying customers’ value structures and attitudes may be useful for developing targeted or niche markets, the unstructured and volume-heavy nature of customer data prohibits efficient and economical extraction of such information. Automatic extraction of customer information would be valuable in determining value structure and strength. This paper proposes an intelligent method of estimating causality between user profiles, value structures, and attitudes based on the replies and published content managed by open social network systems such as YouTube. To show the feasibility of the idea proposed in this paper, information richness and agility are used as underlying concepts to create performance measures based on media/information richness theory. The resulting deep sentiment analysis proves to be superior to legacy sentiment analysis tools for estimation of causality among the focal parameters.
+ER  - 
+
+TY  - JOUR
+T1  - A framework for joint community detection across multiple related networks
+AU  - Mandayam Comar, Prakash
+AU  - Tan, Pang-Ning
+AU  - Jain, Anil K.
+JO  - Neurocomputing
+VL  - 76
+IS  - 1
+SP  - 93
+EP  - 104
+PY  - 2012
+DA  - 2012/01/15/
+T2  - Seventh International Symposium on Neural Networks (ISNN 2010)
+T2  - Advances in Web Intelligence
+SN  - 0925-2312
+DO  - https://doi.org/10.1016/j.neucom.2011.04.035
+UR  - http://www.sciencedirect.com/science/article/pii/S0925231211004012
+KW  - Social networks
+KW  - Community detection
+KW  - Link mining
+AB  - Community detection in networks is an active area of research with many practical applications. However, most of the early work in this area has focused on partitioning a single network or a bipartite graph into clusters/communities. With the rapid proliferation of online social media, it has become increasingly common for web users to have noticeable presence across multiple web sites. This raises the question whether it is possible to combine information from several networks to improve community detection. In this paper, we present a framework that identifies communities simultaneously across different networks and learns the correspondences between them. The framework is applicable to networks generated from multiple web sites as well as to those derived from heterogeneous nodes of the same web site. It also allows the incorporation of prior information about the potential relationships between the communities in different networks. Extensive experiments have been performed on both synthetic and real-life data sets to evaluate the effectiveness of our framework. Our results show superior performance of simultaneous community detection over three alternative methods, including normalized cut and matrix factorization on a single network or a bipartite graph.
+ER  - 
+
+TY  - JOUR
+T1  - Unsupervised and supervised learning to evaluate event relatedness based on content mining from social-media streams
+AU  - Lee, Chung-Hong
+JO  - Expert Systems with Applications
+VL  - 39
+IS  - 18
+SP  - 13338
+EP  - 13356
+PY  - 2012
+DA  - 2012/12/15/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2012.05.068
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417412007841
+KW  - Stream mining
+KW  - Data mining
+KW  - Event evaluation
+KW  - Social networks
+AB  - Due to the explosive growth of social-media applications, enhancing event-awareness by social mining has become extremely important. The contents of microblogs preserve valuable information associated with past disastrous events and stories. To learn the experiences from past events for tackling emerging real-world events, in this work we utilize the social-media messages to characterize real-world events through mining their contents and extracting essential features for relatedness analysis. On one hand, we established an online clustering approach on Twitter microblogs for detecting emerging events, and meanwhile we performed event relatedness evaluation using an unsupervised clustering approach. On the other hand, we developed a supervised learning model to create extensible measure metrics for offline evaluation of event relatedness. By means of supervised learning, our developed measure metrics are able to compute relatedness of various historical events, allowing the event impacts on specified domains to be quantitatively measured for event comparison. By combining the strengths of both methods, the experimental results showed that the combined framework in our system is sensible for discovering more unknown knowledge about event impacts and enhancing event awareness.
+ER  - 
+
+TY  - JOUR
+T1  - Computational approaches for mining user’s opinions on the Web 2.0
+AU  - Petz, Gerald
+AU  - Karpowicz, Michał
+AU  - Fürschuß, Harald
+AU  - Auinger, Andreas
+AU  - Stříteský, Václav
+AU  - Holzinger, Andreas
+JO  - Information Processing & Management
+VL  - 50
+IS  - 6
+SP  - 899
+EP  - 908
+PY  - 2014
+DA  - 2014/11/01/
+SN  - 0306-4573
+DO  - https://doi.org/10.1016/j.ipm.2014.07.005
+UR  - http://www.sciencedirect.com/science/article/pii/S030645731400065X
+KW  - Opinion mining
+KW  - Noisy text
+KW  - Text preprocessing
+KW  - User generated content
+KW  - Data mining
+AB  - The emerging research area of opinion mining deals with computational methods in order to find, extract and systematically analyze people’s opinions, attitudes and emotions towards certain topics. While providing interesting market research information, the user generated content existing on the Web 2.0 presents numerous challenges regarding systematic analysis, the differences and unique characteristics of the various social media channels being one of them. This article reports on the determination of such particularities, and deduces their impact on text preprocessing and opinion mining algorithms. The effectiveness of different algorithms is evaluated in order to determine their applicability to the various social media channels. Our research shows that text preprocessing algorithms are mandatory for mining opinions on the Web 2.0 and that part of these algorithms are sensitive to errors and mistakes contained in the user generated content.
+ER  - 
+
+TY  - JOUR
+T1  - Web data extraction, applications and techniques: A survey
+AU  - Ferrara, Emilio
+AU  - De Meo, Pasquale
+AU  - Fiumara, Giacomo
+AU  - Baumgartner, Robert
+JO  - Knowledge-Based Systems
+VL  - 70
+SP  - 301
+EP  - 323
+PY  - 2014
+DA  - 2014/11/01/
+SN  - 0950-7051
+DO  - https://doi.org/10.1016/j.knosys.2014.07.007
+UR  - http://www.sciencedirect.com/science/article/pii/S0950705114002640
+KW  - Web information extraction
+KW  - Web data mining
+KW  - Business intelligence
+KW  - Knowledge engineering
+KW  - Knowledge-based systems
+KW  - Information retrieval
+AB  - Web Data Extraction is an important problem that has been studied by means of different scientific tools and in a broad range of applications. Many approaches to extracting data from the Web have been designed to solve specific problems and operate in ad-hoc domains. Other approaches, instead, heavily reuse techniques and algorithms developed in the field of Information Extraction. This survey aims at providing a structured and comprehensive overview of the literature in the field of Web Data Extraction. We provided a simple classification framework in which existing Web Data Extraction applications are grouped into two main classes, namely applications at the Enterprise level and at the Social Web level. At the Enterprise level, Web Data Extraction techniques emerge as a key tool to perform data analysis in Business and Competitive Intelligence systems as well as for business process re-engineering. At the Social Web level, Web Data Extraction techniques allow to gather a large amount of structured data continuously generated and disseminated by Web 2.0, Social Media and Online Social Network users and this offers unprecedented opportunities to analyze human behavior at a very large scale. We discuss also the potential of cross-fertilization, i.e., on the possibility of re-using Web Data Extraction techniques originally designed to work in a given domain, in other domains.
+ER  - 
+
+TY  - JOUR
+T1  - Meta-level sentiment models for big social data analysis
+AU  - Bravo-Marquez, Felipe
+AU  - Mendoza, Marcelo
+AU  - Poblete, Barbara
+JO  - Knowledge-Based Systems
+VL  - 69
+SP  - 86
+EP  - 99
+PY  - 2014
+DA  - 2014/10/01/
+SN  - 0950-7051
+DO  - https://doi.org/10.1016/j.knosys.2014.05.016
+UR  - http://www.sciencedirect.com/science/article/pii/S0950705114002068
+KW  - Sentiment classification
+KW  - Twitter
+KW  - Meta-level features
+KW  - Opinion mining
+KW  - Social media
+AB  - People react to events, topics and entities by expressing their personal opinions and emotions. These reactions can correspond to a wide range of intensities, from very mild to strong. An adequate processing and understanding of these expressions has been the subject of research in several fields, such as business and politics. In this context, Twitter sentiment analysis, which is the task of automatically identifying and extracting subjective information from tweets, has received increasing attention from the Web mining community. Twitter provides an extremely valuable insight into human opinions, as well as new challenging Big Data problems. These problems include the processing of massive volumes of streaming data, as well as the automatic identification of human expressiveness within short text messages. In that area, several methods and lexical resources have been proposed in order to extract sentiment indicators from natural language texts at both syntactic and semantic levels. These approaches address different dimensions of opinions, such as subjectivity, polarity, intensity and emotion. This article is the first study of how these resources, which are focused on different sentiment scopes, complement each other. With this purpose we identify scenarios in which some of these resources are more useful than others. Furthermore, we propose a novel approach for sentiment classification based on meta-level features. This supervised approach boosts existing sentiment classification of subjectivity and polarity detection on Twitter. Our results show that the combination of meta-level features provides significant improvements in performance. However, we observe that there are important differences that rely on the type of lexical resource, the dataset used to build the model, and the learning strategy. Experimental results indicate that manually generated lexicons are focused on emotional words, being very useful for polarity prediction. On the other hand, lexicons generated with automatic methods include neutral words, introducing noise in the detection of subjectivity. Our findings indicate that polarity and subjectivity prediction are different dimensions of the same problem, but they need to be addressed using different subspace features. Lexicon-based approaches are recommendable for polarity, and stylistic part-of-speech based approaches are meaningful for subjectivity. With this research we offer a more global insight of the resource components for the complex task of classifying human emotion and opinion.
+ER  - 
+
+TY  - JOUR
+T1  - The present and future use of ‘land’ below ground
+AU  - Evans, David
+AU  - Stephenson, Mike
+AU  - Shaw, Richard
+JO  - Land Use Policy
+VL  - 26
+SP  - S302
+EP  - S316
+PY  - 2009
+DA  - 2009/12/01/
+T2  - Land Use Futures
+SN  - 0264-8377
+DO  - https://doi.org/10.1016/j.landusepol.2009.09.015
+UR  - http://www.sciencedirect.com/science/article/pii/S0264837709001409
+KW  - Mass occupancy
+KW  - Document and media storage
+KW  - Waste recovery and disposal
+KW  - Underground gas storage
+KW  - Carbon capture and storage (CCS)
+KW  - Compressed air
+KW  - Radioactive waste disposal
+AB  - The world's subsurface space, including Britain's, is already used in a variety of ways, ranging from occupancy to disposal and the bulk storage of materials and fuels. In the future it is likely that it will be put to further use in response to trends in technology, resource supply and demand, socioeconomics and geopolitics. Here the present and future uses of underground space, and the potential planning and social issues affecting its development, are reviewed. Future uses are likely to be in the area of increasing occupancy (both commercial and residential), the secure storage of documents and data, the storage of carbon dioxide for carbon abatement, natural gas, compressed air stores of energy from traditional and renewable sources, the use of underground heat in buildings and the proposed deep geological disposal of radioactive waste. The article will also explore pressure points and challenges. These will include the regulation of multiple uses of subsurface storage space and, for projects of national importance including natural gas and radioactive waste storage, legislation to lessen the effect of local opposition relative to the ‘national need’. This article does not discuss future mining, hydrocarbon extraction, or water resources.
+ER  - 
+
+TY  - JOUR
+T1  - New term weighting schemes with combination of multiple classifiers for sentiment analysis
+AU  - Abdel Fattah, Mohamed
+JO  - Neurocomputing
+VL  - 167
+SP  - 434
+EP  - 442
+PY  - 2015
+DA  - 2015/11/01/
+SN  - 0925-2312
+DO  - https://doi.org/10.1016/j.neucom.2015.04.051
+UR  - http://www.sciencedirect.com/science/article/pii/S0925231215005202
+KW  - Sentiment classification
+KW  - Openion mining
+KW  - Term weighting schemes
+AB  - The rapid growth of social media on the Web, such as forum discussions, reviews, blogs, micro-blogs, social networks and Twitter has created huge volume of opinionated data in digital forms. Therefore, last decade showed growth of sentiment analysis task to be one of the most active research areas in natural language processing. In this work, the problem of classifying documents based on overall sentiment is investigated. The main goal of this work is to present comprehensive investigation of different proposed new term weighting schemes for sentiment classification. The proposed new term weighting schemes exploit the class space density based on the class distribution in the whole documents set as well as in the class documents set. The proposed approaches provide positive discrimination on frequent and infrequent terms. We have compared our new term weighting schemes with traditional and state of art term weighting schemes. Some of our proposed terms weighting schemes outperform the traditional and state of art term weighting schemes results.
+ER  - 
+
+TY  - JOUR
+T1  - Reprint of: Computational approaches for mining user’s opinions on the Web 2.0
+AU  - Petz, Gerald
+AU  - Karpowicz, Michał
+AU  - Fürschuß, Harald
+AU  - Auinger, Andreas
+AU  - Stříteský, Václav
+AU  - Holzinger, Andreas
+JO  - Information Processing & Management
+VL  - 51
+IS  - 4
+SP  - 510
+EP  - 519
+PY  - 2015
+DA  - 2015/07/01/
+SN  - 0306-4573
+DO  - https://doi.org/10.1016/j.ipm.2014.07.011
+UR  - http://www.sciencedirect.com/science/article/pii/S0306457315000655
+KW  - Opinion mining
+KW  - Noisy text
+KW  - Text preprocessing
+KW  - User generated content
+KW  - Data mining
+AB  - The emerging research area of opinion mining deals with computational methods in order to find, extract and systematically analyze people’s opinions, attitudes and emotions towards certain topics. While providing interesting market research information, the user generated content existing on the Web 2.0 presents numerous challenges regarding systematic analysis, the differences and unique characteristics of the various social media channels being one of them. This article reports on the determination of such particularities, and deduces their impact on text preprocessing and opinion mining algorithms. The effectiveness of different algorithms is evaluated in order to determine their applicability to the various social media channels. Our research shows that text preprocessing algorithms are mandatory for mining opinions on the Web 2.0 and that part of these algorithms are sensitive to errors and mistakes contained in the user generated content.
+ER  - 
+
+TY  - JOUR
+T1  - Improving opinion retrieval in social media by combining features-based coreferencing and memory-based learning
+AU  - Atkinson, John
+AU  - Salas, Gonzalo
+AU  - Figueroa, Alejandro
+JO  - Information Sciences
+VL  - 299
+SP  - 20
+EP  - 31
+PY  - 2015
+DA  - 2015/04/01/
+SN  - 0020-0255
+DO  - https://doi.org/10.1016/j.ins.2014.12.021
+UR  - http://www.sciencedirect.com/science/article/pii/S0020025514011608
+KW  - Opinion retrieval
+KW  - Memory-based learning
+KW  - Linguistic coreferencing
+KW  - Text mining
+KW  - Natural language processing
+KW  - Opinion mining
+AB  - Social networks messaging typically contains a lot of implicit linguistic information partially due to restrictions on a message’s length (i.e., few named entities, short sentences, no discourse structure, etc.). This may significantly impact several applications including opinion mining, sentiment analysis, etc., as data collection tasks such as opinion retrieval tasks will fail to obtain all the relevant messages whenever the target topic, objects, or features are not explicit within the texts. In order to address these issues, in this paper a novel adaptive approach for opinion retrieval is proposed. It combines natural-language co-referencing techniques, features-based linguistic preprocessing and memory-based learning to resolving implicit co-referencing within informal opinion texts by using underlying hierarchies of thread messages. Experiments were conducted to assess the ability of the model to improve opinion retrieval by resolving implicit entities and features, showing the promise of our opinion retrieval approach when compared to state-of-the-art methods using text data from social networks.
+ER  - 
+
+TY  - JOUR
+T1  - A probabilistic graphical model for topic and preference discovery on social media
+AU  - Liu, Lu
+AU  - Zhu, Feida
+AU  - Zhang, Lei
+AU  - Yang, Shiqiang
+JO  - Neurocomputing
+VL  - 95
+SP  - 78
+EP  - 88
+PY  - 2012
+DA  - 2012/10/15/
+T2  - Learning from Social Media Network
+SN  - 0925-2312
+DO  - https://doi.org/10.1016/j.neucom.2011.05.039
+UR  - http://www.sciencedirect.com/science/article/pii/S0925231212001488
+KW  - Social media mining
+KW  - Topic model
+KW  - Preference discovery
+AB  - Many web applications today thrive on offering services for large-scale multimedia data, e.g., Flickr for photos and YouTube for videos. However, these data, while rich in content, are usually sparse in textual descriptive information. For example, a video clip is often associated with only a few tags. Moreover, the textual descriptions are often overly specific to the video content. Such characteristics make it very challenging to discover topics at a satisfactory granularity on this kind of data. In this paper, we propose a generative probabilistic model named Preference-Topic Model (PTM) to introduce the dimension of user preferences to enhance the insufficient textual information. PTM is a unified framework to combine the tasks of user preference discovery and document topic mining together. Through modeling user-document interactions, PTM cannot only discover topics and preferences simultaneously, but also enable them to inform and benefit each other in a unified framework. As a result, PTM can extract better topics and preferences from sparse data. The experimental results on real-life video application data show that PTM is superior to LDA in discovering informative topics and preferences in terms of clustering-based evaluations. Furthermore, the experimental results on DBLP data demonstrate that PTM is a general model which can be applied to other kinds of user–document interactions.
+ER  - 
+
+TY  - JOUR
+T1  - Filtering big data from social media – Building an early warning system for adverse drug reactions
+AU  - Yang, Ming
+AU  - Kiang, Melody
+AU  - Shang, Wei
+JO  - Journal of Biomedical Informatics
+VL  - 54
+SP  - 230
+EP  - 240
+PY  - 2015
+DA  - 2015/04/01/
+SN  - 1532-0464
+DO  - https://doi.org/10.1016/j.jbi.2015.01.011
+UR  - http://www.sciencedirect.com/science/article/pii/S1532046415000131
+KW  - Partially supervised classification
+KW  - Latent Dirichlet Allocation (LDA)
+KW  - Adverse drug reactions
+KW  - Social media filtering
+KW  - Social media mining
+AB  - Objectives
+Adverse drug reactions (ADRs) are believed to be a leading cause of death in the world. Pharmacovigilance systems are aimed at early detection of ADRs. With the popularity of social media, Web forums and discussion boards become important sources of data for consumers to share their drug use experience, as a result may provide useful information on drugs and their adverse reactions. In this study, we propose an automated ADR related posts filtering mechanism using text classification methods. In real-life settings, ADR related messages are highly distributed in social media, while non-ADR related messages are unspecific and topically diverse. It is expensive to manually label a large amount of ADR related messages (positive examples) and non-ADR related messages (negative examples) to train classification systems. To mitigate this challenge, we examine the use of a partially supervised learning classification method to automate the process.
+Methods
+We propose a novel pharmacovigilance system leveraging a Latent Dirichlet Allocation modeling module and a partially supervised classification approach. We select drugs with more than 500 threads of discussion, and collect all the original posts and comments of these drugs using an automatic Web spidering program as the text corpus. Various classifiers were trained by varying the number of positive examples and the number of topics. The trained classifiers were applied to 3000 posts published over 60days. Top-ranked posts from each classifier were pooled and the resulting set of 300 posts was reviewed by a domain expert to evaluate the classifiers.
+Results
+Compare to the alternative approaches using supervised learning methods and three general purpose partially supervised learning methods, our approach performs significantly better in terms of precision, recall, and the F measure (the harmonic mean of precision and recall), based on a computational experiment using online discussion threads from Medhelp.
+Conclusions
+Our design provides satisfactory performance in identifying ADR related posts for post-marketing drug surveillance. The overall design of our system also points out a potentially fruitful direction for building other early warning systems that need to filter big data from social media networks.
+ER  - 
+
+TY  - JOUR
+T1  - Pharmaceutical drugs chatter on Online Social Networks
+AU  - Wiley, Matthew T.
+AU  - Jin, Canghong
+AU  - Hristidis, Vagelis
+AU  - Esterling, Kevin M.
+JO  - Journal of Biomedical Informatics
+VL  - 49
+SP  - 245
+EP  - 254
+PY  - 2014
+DA  - 2014/06/01/
+SN  - 1532-0464
+DO  - https://doi.org/10.1016/j.jbi.2014.03.006
+UR  - http://www.sciencedirect.com/science/article/pii/S153204641400063X
+KW  - Social media
+KW  - Health social media
+KW  - Text mining
+KW  - Sentiment analysis
+KW  - Pharmaceutical drugs
+KW  - Frequent itemsets
+AB  - The ubiquity of Online Social Networks (OSNs) is creating new sources for healthcare information, particularly in the context of pharmaceutical drugs. We aimed to examine the impact of a given OSN’s characteristics on the content of pharmaceutical drug discussions from that OSN. We compared the effect of four distinguishing characteristics from ten different OSNs on the content of their pharmaceutical drug discussions: (1) General versus Health OSN; (2) OSN moderation; (3) OSN registration requirements; and (4) OSNs with a question and answer format. The effects of these characteristics were measured both quantitatively and qualitatively. Our results show that an OSN’s characteristics indeed affect the content of its discussions. Based on their information needs, healthcare providers may use our findings to pick the right OSNs or to advise patients regarding their needs. Our results may also guide the creation of new and more effective domain-specific health OSNs. Further, future researchers of online healthcare content in OSNs may find our results informative while choosing OSNs as data sources. We reported several findings about the impact of OSN characteristics on the content of pharmaceutical drug discussion, and synthesized these findings into actionable items for both healthcare providers and future researchers of healthcare discussions on OSNs. Future research on the impact of OSN characteristics could include user demographics, quality and safety of information, and efficacy of OSN usage.
+ER  - 
+
+TY  - JOUR
+T1  - A framework to explore innovation at SAP through bibliometric analysis of patent applications
+AU  - James, Tabitha L.
+AU  - Cook, Deborah F.
+AU  - Conlon, Sumali
+AU  - Keeling, Kellie B.
+AU  - Collignon, Stephane
+AU  - White, Trevor
+JO  - Expert Systems with Applications
+VL  - 42
+IS  - 24
+SP  - 9389
+EP  - 9401
+PY  - 2015
+DA  - 2015/12/30/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2015.08.007
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417415005461
+KW  - Software
+KW  - Innovation
+KW  - Enterprise data management
+KW  - Business intelligence and social media/data analytics
+KW  - Text analysis
+KW  - Cluster analysis
+AB  - Easily accessible patent databases and advances in technology have enabled the exploration of organizational innovation through the analysis of patent records. However, the textual content of patents presents obstacles to gleaning useful information. In this study, we develop an expert system framework that utilizes text and data mining procedures for analyzing innovation through textual patent data. Specifically, we use patent titles representing the innovation activity at one company (SAP) and perform a bibliometric analysis using our proposed framework. Enterprise software, of which SAP is a pioneering developer, must serve a wide assortment of functions for companies in many different industries. In addition, SAP's sole focus is on enterprise software and it is a market leader in the category with substantial patent activity over the last decade. Using our framework to analyze SAP's patent activity provides a demonstration of how our bibliometric analysis can summarize and identify trends in innovation in a large software company. Our results illustrate that SAP has a breadth of innovative activity spread over the three-tier software engineering architecture and a lack of topical repetition indicative of limited depth. SAP's innovation is also seen to emphasize data management and quickly integrate emerging technologies. Results of an analysis on any company following our framework could be used for a variety of purposes, including: to examine the scope and scale of innovation of an organization, to examine the influence of technological trends on businesses, or to gain insight into corporate strategy that could be used to aid planning, investment, and purchasing decisions.
+ER  - 
+
+TY  - JOUR
+T1  - Personalizing public health: Your health avatar
+AU  - Pereira, Chrystian
+AU  - McNamara, Anusha
+AU  - Sorge, Lindsay
+AU  - Arya, Vibhuti
+JO  - Journal of the American Pharmacists Association
+VL  - 53
+IS  - 2
+SP  - 145
+EP  - 151
+PY  - 2013
+DA  - 2013/03/01/
+SN  - 1544-3191
+DO  - https://doi.org/10.1331/JAPhA.2013.12207
+UR  - http://www.sciencedirect.com/science/article/pii/S1544319115303071
+KW  - avatars
+KW  - health avatars
+KW  - public health
+KW  - data mining
+KW  - social networking
+AB  - Objectives
+To describe the creation of a health avatar, with the goals of providing patients with complete health information from various sources, establishing an interactive and customizable platform, empowering users to determine how the health information best fits or speaks to their personal needs, and providing perspective by comparing the health status of the individual with that of the individual's community.
+Summary
+The Internet is rapidly becoming integrated into Americans' daily lives. According to the 2007 Health Information National Trends Study, 69% of U.S. adults had access to the Internet and 23% reported using a social networking site. The impact of social media has further grown, and an estimated 50% of adults in America have a profile on social media. The potential for using cyber communities to improve health messaging is great. Several health care organizations have implemented the use of social media in a variety of ways to varying degrees of success. We propose a platform that automatically gathers information and reflects the health status of an individual back to the user. An avatar, which is a representation of a user, could be created and assigned characteristics that allow users to appreciate their health status. The health avatar platform also would allow users to compare their personal status with that of their community. The overall goal is to engage and then motivate users to improve their overall health status.
+Conclusion
+Medicine must acknowledge the evolving relationships that the next generation of patients will have with technology. The health avatar is a platform that incorporates a connection with the health system through electronic medical records and connects individuals to the greater community.
+ER  - 
+
+TY  - JOUR
+T1  - Retail in a Multichannel World: Beyond ‘Online vs. Offline’ Usability Research
+AU  - Iouguina, Alëna
+JO  - Procedia Manufacturing
+VL  - 3
+SP  - 5611
+EP  - 5616
+PY  - 2015
+DA  - 2015/01/01/
+T2  - 6th International Conference on Applied Human Factors and Ergonomics (AHFE 2015) and the Affiliated Conferences, AHFE 2015
+SN  - 2351-9789
+DO  - https://doi.org/10.1016/j.promfg.2015.07.751
+UR  - http://www.sciencedirect.com/science/article/pii/S2351978915007520
+KW  - commerce
+KW  - ethnography
+KW  - data mining
+KW  - usability
+AB  - Merchants find themselves in an increasingly complex environment. On one hand, this complexity is shaped by the establishment of new commerce channels (brick and mortar, online, social media, mobile) and store formats (pop-up shops, pick-up and drop-off points, and most importantly – mashups). On the other hand, their customers also demonstrate multi-optional behaviour and needs structure. The aim of this paper is to demonstrate how ethnographic approach supplemented by the analysis of large data sets can help improve operational ergonomics of diverse retail environments merchants operate in. To gain access to the richness of data, the researcher engages with merchants beyond a lab setting to actively observe and participate in what people do and how they organize their workspace. The researcher continuously visits merchants’ businesses and observes what they do: how do they sell and ship their products; interact with their customers; organize their workspace. Finally, the researcher employs the analysis of large data parallel to ethnographic research to supplement her qualitative research methods. All these techniques guide the way in which the researcher constructs proper multichannel platform for occupational ergonomics in virtual and physical retail spaces.
+ER  - 
+
+TY  - JOUR
+T1  - Twitterati Identification System
+AU  - Main, Winnie
+AU  - Shekokhar, Narendra
+JO  - Procedia Computer Science
+VL  - 45
+SP  - 32
+EP  - 41
+PY  - 2015
+DA  - 2015/01/01/
+T2  - International Conference on Advanced Computing Technologies and Applications (ICACTA)
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2015.03.076
+UR  - http://www.sciencedirect.com/science/article/pii/S1877050915003129
+KW  - Bots
+KW  - Phishing
+KW  - Mining
+KW  - Tweets
+KW  - Twitter
+KW  - Spam.
+AB  - Twitter is an online service playing dual roles of social networking and micro blogging. Communication with other twitter users is carried out by publishing text and media based posts called tweets. Lately, Twitter has attracted a large number of automated programs, known as bots. Generally bots are used to generate a large amount of benign tweets delivering news and updating feeds, whereas some bots are being created to spread spam or malicious contents. To assist human users in identifying who they are communicating with, this project focuses on the classification of human and bot accounts on Twitter. We collected twitter statistics of a number of twitter users, their tweets, bot tweets, features, characteristics, etc. The data is then analyzed based on statistics to create a known training set of bots and humans. The proposed classification system uses a number of twitter attributes where every stage of the system makes a decision about the users of Twitter. Based on the statistical training data a decision tree is generated. Rules are formed using the decision tree to detect the user of twitter as a human or a bot. The various properties based on twitter features help distinguishing a human from a bot are discussed and implemented in this paper. Based on the results obtained it can be concluded that the more number of attributes, better is the detection mechanism. The statistical training data set is consistent for varying sizes of the test data.
+ER  - 
+
+TY  - JOUR
+T1  - A polarity analysis framework for Twitter messages
+AU  - Lima, Ana Carolina E.S.
+AU  - de Castro, Leandro Nunes
+AU  - Corchado, Juan M.
+JO  - Applied Mathematics and Computation
+VL  - 270
+SP  - 756
+EP  - 767
+PY  - 2015
+DA  - 2015/11/01/
+SN  - 0096-3003
+DO  - https://doi.org/10.1016/j.amc.2015.08.059
+UR  - http://www.sciencedirect.com/science/article/pii/S0096300315011145
+KW  - Social media
+KW  - Twitter
+KW  - Sentiment analysis
+KW  - Text mining
+KW  - Machine learning
+KW  - Classification task
+AB  - Social media, such as Twitter and Facebook, allow the creation, sharing and exchange of information among people, companies and brands. This information can be used for several purposes, such as to understand consumers and their preferences. In this direction, the sentiment analysis can be used as a feedback mechanism. This analysis corresponds to classifying a text according to the sentiment that the writer intended to transmit. A basic sentiment classifier determines the sentiment polarity (negative, neutral or positive) of a given text at the document, sentence, or feature/aspect level. Advanced types may consider other elements like the emotional state (e.g. angry, sad, happy), affective states (e.g. pleasure and pain), motivational states (e.g. hunger and curiosity), temperaments, among others. In general, there are two main approaches to attribute sentiment to tweets: based on knowledge; or based on machine learning algorithms. In the latter case, the learning algorithm requires a pre-classified data sample to determine the class of new data. Typically, the sample is pre-classified manually, making the process time consuming and reducing its real time applicability for big data. This paper proposes a polarity analysis framework for Twitter messages, which combines both approaches and an automatic contextual module. To assess the performance of the proposed framework, four text datasets from the literature are used. Five different types of classifiers were considered: Naïve Bayes (NB); Support Vector Machines (SVM); Decision Trees (J48); and Nearest Neighbors (KNN). The results show that the proposal is a suitable framework to automate the whole polarity analysis process, providing high accuracy levels and low false positive rates.
+ER  - 
+
+TY  - JOUR
+T1  - Subjective well-being measurement based on Chinese grassroots blog text sentiment analysis
+AU  - Qi, Jiayin
+AU  - Fu, Xiangling
+AU  - Zhu, Ge
+JO  - Information & Management
+VL  - 52
+IS  - 7
+SP  - 859
+EP  - 869
+PY  - 2015
+DA  - 2015/11/01/
+T2  - Novel applications of social media analytics
+SN  - 0378-7206
+DO  - https://doi.org/10.1016/j.im.2015.06.002
+UR  - http://www.sciencedirect.com/science/article/pii/S0378720615000609
+KW  - Subjective well-being
+KW  - Social media
+KW  - Chinese text
+KW  - Sentiment analysis
+KW  - Text mining
+AB  - In this study, we propose a new method to measure the subjective well-being (SWB) of Chinese people. Based upon the classic framework in psychology, our model constructs a system of multiple weighted emotions in positive and negative affect by applying a text-sentiment analysis. To study SWB in the Chinese context, we also establish and supplement our model with a new lexicon, Ren-CECps-SWB 2.0. Tests on the data of 7 years of grassroots blogs on Sina.com demonstrate the validity of our model. Employing the same data, we find interesting patterns of the SWB of Chinese people on weekly and monthly bases.
+ER  - 
+
+TY  - JOUR
+T1  - Cluster-discovery of Twitter messages for event detection and trending
+AU  - Kaleel, Shakira Banu
+AU  - Abhari, Abdolreza
+JO  - Journal of Computational Science
+VL  - 6
+SP  - 47
+EP  - 57
+PY  - 2015
+DA  - 2015/01/01/
+SN  - 1877-7503
+DO  - https://doi.org/10.1016/j.jocs.2014.11.004
+UR  - http://www.sciencedirect.com/science/article/pii/S1877750314001604
+KW  - Web social networking
+KW  - Data mining
+KW  - Event detection
+KW  - Event trending
+KW  - Locality sensitive hashing
+KW  - Cluster-discovery
+KW  - Term frequency–inverse document frequency
+AB  - Social media data carries abundant hidden occurrences of real-time events. In this paper, a novel methodology is proposed for detecting and trending events from tweet clusters that are discovered by using locality sensitive hashing (LSH) technique. Key challenges include: (1) construction of dictionary using incremental term frequency–inverse document frequency (TF–IDF) in high-dimensional data to create tweet feature vector, (2) leveraging LSH to find truly interesting events, (3) trending the behavior of event based on time, geo-locations and cluster size, and (4) speed-up the cluster-discovery process while retaining the cluster quality. Experiments are conducted for a specific event and the clusters discovered using LSH and K-means are compared with group average agglomerative clustering technique.
+ER  - 
+
+TY  - JOUR
+T1  - Marketing activity, blogging and sales
+AU  - Onishi, Hiroshi
+AU  - Manchanda, Puneet
+JO  - International Journal of Research in Marketing
+VL  - 29
+IS  - 3
+SP  - 221
+EP  - 234
+PY  - 2012
+DA  - 2012/09/01/
+SN  - 0167-8116
+DO  - https://doi.org/10.1016/j.ijresmar.2011.11.003
+UR  - http://www.sciencedirect.com/science/article/pii/S0167811612000419
+KW  - Consumer generated media
+KW  - Blogs
+KW  - Social media
+KW  - TV advertising
+KW  - Response models
+KW  - Text mining
+KW  - Japan
+KW  - Movies
+KW  - Cellular phone service
+AB  - The recent growth of consumer-generated media (CGM), also known as “new” media, has changed the interaction between consumers and firms from being unidirectional to being bidirectional. However, CGM are almost always accompanied by traditional media (such as TV advertising). This research addresses the critical question of whether new and traditional media reinforce or damage one another's effectiveness. This question is important because traditional media, in which a manufacturer creates and delivers content to consumers, consume a firm's resources. In contrast to these paid media, new media (in which consumers create content and this content is exchanged between other consumers and potentially between manufacturers) are primarily available for free. This question becomes even more salient when new product launches are involved, as firms typically allocate approximately half of their marketing budgets to support new products. One of the most prevalent forms of new media is blogging. Therefore, we assemble a unique data set from Japan that contains market outcomes (sales) for new products, new media (blogs) and traditional media (TV advertising) in the movie category. We specify a simultaneous equation log-linear system for market outcomes and the volume of blogs. Our results suggest that new and traditional media act synergistically, that pre-launch TV advertising spurs blogging activity but becomes less effective during the post-launch period and that market outcomes have an effect on blogging quantity. We find detailed support for some of these results via a unique and novel text-mining analysis and replicate our findings for a second product category, cellular phone service. We also discuss the managerial implications of our findings.
+ER  - 
+
+TY  - JOUR
+T1  - E3: Effective Emoticon Extractor for Behavior Analysis from Social Media
+AU  - Mahajan, Chetan
+AU  - Mulay, Preeti
+JO  - Procedia Computer Science
+VL  - 50
+SP  - 610
+EP  - 616
+PY  - 2015
+DA  - 2015/01/01/
+T2  - Big Data, Cloud and Computing Challenges
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2015.04.093
+UR  - http://www.sciencedirect.com/science/article/pii/S1877050915005943
+KW  - Emoticons,Sentiment analysis,Data mining,Clustering,Opinion Mining
+AB  - Sentiments about products of varied types are expressed using internet media. Researchers are working on capturing these sentiments to generate opinion. Such generated opinions are useful for customers to decide about product. Another arena is analyzing the behavior of people using social media based on entered text and emoticons. To generate opinion about product or people based on text and emoticons, incremental clustering, mapping of clusters is implemented in this research work. R packages, methods and functions are used to achieve required results. It is proved that emoticons need to be considered along with text to generate effectual opinions.
+ER  - 
+
+TY  - JOUR
+T1  - Mining affective text to improve social media item recommendation
+AU  - Sun, Jianshan
+AU  - Wang, Gang
+AU  - Cheng, Xusen
+AU  - Fu, Yelin
+JO  - Information Processing & Management
+VL  - 51
+IS  - 4
+SP  - 444
+EP  - 457
+PY  - 2015
+DA  - 2015/07/01/
+SN  - 0306-4573
+DO  - https://doi.org/10.1016/j.ipm.2014.09.002
+UR  - http://www.sciencedirect.com/science/article/pii/S0306457314000879
+KW  - Social media
+KW  - Recommender system
+KW  - Sentiment classification
+KW  - OCCF
+AB  - Social media websites, such as YouTube and Flicker, are currently gaining in popularity. A large volume of information is generated by online users and how to appropriately provide personalized content is becoming more challenging. Traditional recommendation models are overly dependent on preference ratings and often suffer from the problem of “data sparsity”. Recent research has attempted to integrate sentiment analysis results of online affective texts into recommendation models; however, these studies are still limited. The one class collaborative filtering (OCCF) method is more applicable in the social media scenario yet it is insufficient for item recommendation. In this study, we develop a novel sentiment-aware social media recommendation framework, referred to as SA_OCCF, in order to tackle the above challenges. We leverage inferred sentiment feedback information and OCCF models to improve recommendation performance. We conduct comprehensive experiments on a real social media web site to verify the effectiveness of the proposed framework and methods. The results show that the proposed methods are effective in improving the performance of the baseline OCCF methods.
+ER  - 
+
+TY  - JOUR
+T1  - Sentiment analysis system adaptation for multilingual processing: The case of tweets
+AU  - Balahur, Alexandra
+AU  - Perea-Ortega, José M.
+JO  - Information Processing & Management
+VL  - 51
+IS  - 4
+SP  - 547
+EP  - 556
+PY  - 2015
+DA  - 2015/07/01/
+SN  - 0306-4573
+DO  - https://doi.org/10.1016/j.ipm.2014.10.004
+UR  - http://www.sciencedirect.com/science/article/pii/S0306457314000934
+KW  - Subjectivity analysis
+KW  - Sentiment analysis
+KW  - Multilingual resources
+KW  - Social media mining
+KW  - Chat analysis
+AB  - Nowadays opinion mining systems play a strategic role in different areas such as Marketing, Decision Support Systems or Policy Support. Since the arrival of the Web 2.0, more and more textual documents containing information that express opinions or comments in different languages are available. Given the proven importance of such documents, the use of effective multilingual opinion mining systems has become of high importance to different fields. This paper presents the experiments carried out with the objective to develop a multilingual sentiment analysis system. We present initial evaluations of methods and resources performed in two international evaluation campaigns for English and for Spanish. After our participation in both competitions, additional experiments were carried out with the aim of improving the performance of both Spanish and English systems by using multilingual machine-translated data. Based on our evaluations, we show that the use of hybrid features and multilingual, machine-translated data (even from other languages) can help to better distinguish relevant features for sentiment classification and thus increase the precision of sentiment analysis systems.
+ER  - 
+
+TY  - JOUR
+T1  - Pattern Recognition in Latin America in the “Big Data” Era
+AU  - Fernández, Alicia
+AU  - Gómez, Álvaro
+AU  - Lecumberry, Federico
+AU  - Pardo, Álvaro
+AU  - Ramírez, Ignacio
+JO  - Pattern Recognition
+VL  - 48
+IS  - 4
+SP  - 1185
+EP  - 1196
+PY  - 2015
+DA  - 2015/04/01/
+SN  - 0031-3203
+DO  - https://doi.org/10.1016/j.patcog.2014.04.012
+UR  - http://www.sciencedirect.com/science/article/pii/S0031320314001575
+KW  - Pattern Recognition
+KW  - Machine learning
+KW  - Data mining
+KW  - Image analysis
+KW  - Computer vision
+KW  - Large scale
+KW  - High dimension
+KW  - Big Data
+KW  - Latin America
+AB  - The “Big Data” era has arisen, driven by the increasing availability of data from multiple sources such as social media, online transactions, network sensors or mobile devices. This is currently a focus of interest among public and private organizations, governments, research institutes and companies operating in diverse fields as health, security, commercial recommendations, detection of anomalies and future trends among others. In this problem, the main objective is to recognize and extract meaningful information (patterns, structure, underlying relationships, etc.) from huge amounts of heterogeneous data. This task is complicated by new, significant storage and processing requirements due to unprecedented volumes of data. In this scenario, new algorithms in Pattern Recognition and related fields are being devised, while well known techniques are revisited and adapted to these new challenges. Latin American research in the “Big Data” problem is still incipient, but there is a significant body of recent works in the subjects of Pattern Recognition and related fields that indirectly addresses the problem. This paper reviews Latin American contributions in Pattern Recognition and related fields in the last lustrum. The focus is set on—but not restricted to—applications in the fields of Computer Vision and Image Analysis with large scale characteristics.
+ER  - 
+
+TY  - JOUR
+T1  - Dynamic non-parametric joint sentiment topic mixture model
+AU  - Fu, Xianghua
+AU  - Yang, Kun
+AU  - Huang, Joshua Zhexue
+AU  - Cui, Laizhong
+JO  - Knowledge-Based Systems
+VL  - 82
+SP  - 102
+EP  - 114
+PY  - 2015
+DA  - 2015/07/01/
+SN  - 0950-7051
+DO  - https://doi.org/10.1016/j.knosys.2015.02.021
+UR  - http://www.sciencedirect.com/science/article/pii/S0950705115000751
+KW  - Topic sentiment analysis
+KW  - Dynamic topic analysis
+KW  - Non-parametric topic model
+KW  - Social media
+KW  - Hierarchical Dirichlet Process
+KW  - Text mining
+AB  - The reviews in social media are produced continuously by a large and uncontrolled number of users. To capture the mixture of sentiment and topics simultaneously in reviews is still a challenging task. In this paper, we present a novel probabilistic model framework based on the non-parametric hierarchical Dirichlet process (HDP) topic model, called non-parametric joint sentiment topic mixture model (NJST), which adds a sentiment level to the HDP topic model and detects sentiment and topics simultaneously from reviews. Then considered the dynamic nature of social media data, we propose dynamic NJST (dNJST) which adds time decay dependencies of historical epochs to the current epochs. Compared with the existing sentiment topic mixture models which are based on latent Dirichlet allocation (LDA), the biggest difference of NJST and dNJST is that they can determine topic number automatically. We implement NJST and dNJST with online variational inference algorithms, and incorporate the sentiment priors of words into NJST and dNJST with HowNet lexicon. The experiment results in some Chinese social media dataset show that dNJST can effectively detect and track dynamic sentiment and topics.
+ER  - 
+
+TY  - JOUR
+T1  - Personalized Music Recommendation by Mining Social Media Tags
+AU  - Su, Ja-Hwung
+AU  - Chang, Wei-Yi
+AU  - Tseng, Vincent S.
+JO  - Procedia Computer Science
+VL  - 22
+SP  - 303
+EP  - 312
+PY  - 2013
+DA  - 2013/01/01/
+T2  - 17th International Conference in Knowledge Based and Intelligent Information and Engineering Systems - KES2013
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2013.09.107
+UR  - http://www.sciencedirect.com/science/article/pii/S1877050913009009
+KW  - Social tags mining
+KW  - music recommendation
+KW  - collaborative filtering
+KW  - multimedia data mining
+AB  - Over the past few years, the recommender system has been proposed as a critical role to help users choose the preferred product from a massive amount of data. For music recommendation, most recent recommender systems made attempts to associate music with the user's preferences primarily based on user ratings. However, this kind of recommendation mechanism encounters the problem called rating diversity that makes the prediction results unreliable. To cope with this problem, in this paper, we propose a novel music recommendation approach that utilizes social media tags instead of ratings to calculate the similarity between music pieces. Through the proposed tag-based similarity, the user preferences hidden in tags can be inferred effectively. The empirical evaluations on real social media datasets reveal that our proposed approach using social tags outperforms the existing ones using only ratings in terms of predicting the user's preferences to music.
+ER  - 
+
+TY  - JOUR
+T1  - Multi-lingual opinion mining on YouTube
+AU  - Severyn, Aliaksei
+AU  - Moschitti, Alessandro
+AU  - Uryupina, Olga
+AU  - Plank, Barbara
+AU  - Filippova, Katja
+JO  - Information Processing & Management
+VL  - 52
+IS  - 1
+SP  - 46
+EP  - 60
+PY  - 2016
+DA  - 2016/01/01/
+T2  - Emotion and Sentiment in Social and Expressive Media
+SN  - 0306-4573
+DO  - https://doi.org/10.1016/j.ipm.2015.03.002
+UR  - http://www.sciencedirect.com/science/article/pii/S0306457315000400
+KW  - Natural Language Processing
+KW  - Opinion mining
+KW  - Social media
+AB  - In order to successfully apply opinion mining (OM) to the large amounts of user-generated content produced every day, we need robust models that can handle the noisy input well yet can easily be adapted to a new domain or language. We here focus on opinion mining for YouTube by (i) modeling classifiers that predict the type of a comment and its polarity, while distinguishing whether the polarity is directed towards the product or video; (ii) proposing a robust shallow syntactic structure (STRUCT) that adapts well when tested across domains; and (iii) evaluating the effectiveness on the proposed structure on two languages, English and Italian. We rely on tree kernels to automatically extract and learn features with better generalization power than traditionally used bag-of-word models. Our extensive empirical evaluation shows that (i) STRUCT outperforms the bag-of-words model both within the same domain (up to 2.6% and 3% of absolute improvement for Italian and English, respectively); (ii) it is particularly useful when tested across domains (up to more than 4% absolute improvement for both languages), especially when little training data is available (up to 10% absolute improvement) and (iii) the proposed structure is also effective in a lower-resource language scenario, where only less accurate linguistic processing tools are available.
+ER  - 
+
+TY  - JOUR
+T1  - Extracting and evaluating conversational patterns in social media: A socio-semantic analysis of customers’ reactions to the launch of new products using Twitter streams
+AU  - Lipizzi, Carlo
+AU  - Iandoli, Luca
+AU  - Ramirez Marquez, José Emmanuel
+JO  - International Journal of Information Management
+VL  - 35
+IS  - 4
+SP  - 490
+EP  - 503
+PY  - 2015
+DA  - 2015/08/01/
+SN  - 0268-4012
+DO  - https://doi.org/10.1016/j.ijinfomgt.2015.04.001
+UR  - http://www.sciencedirect.com/science/article/pii/S0268401215000377
+KW  - Social media
+KW  - Twitter Case study
+KW  - Consumer electronics industry
+KW  - Competitive analysis
+KW  - Competitive intelligence
+KW  - Competitor intelligence
+KW  - Actionable intelligence
+KW  - Text mining
+KW  - Content analysis
+AB  - In this paper we use Twitter data to assess customers early reactions to the launch of two new products by Apple and Samsung by analyzing the streams generated in a 72h window around the two events. We present a methodology based on conversational analysis to extract concept maps from Twitter streams and use semantic and topological metrics to compare the conversations. Our findings show that there are significant differences in the structural patterns of the two conversations and that the analysis of these differences can be highly informative about early customers perceptions and value judgments associated with the competing products.
+ER  - 
+
+TY  - JOUR
+T1  - What kind of #conversation is Twitter? Mining #psycholinguistic cues for emergency coordination
+AU  - Purohit, Hemant
+AU  - Hampton, Andrew
+AU  - Shalin, Valerie L.
+AU  - Sheth, Amit P.
+AU  - Flach, John
+AU  - Bhatt, Shreyansh
+JO  - Computers in Human Behavior
+VL  - 29
+IS  - 6
+SP  - 2438
+EP  - 2447
+PY  - 2013
+DA  - 2013/11/01/
+SN  - 0747-5632
+DO  - https://doi.org/10.1016/j.chb.2013.05.007
+UR  - http://www.sciencedirect.com/science/article/pii/S0747563213001581
+KW  - Coordinated behavior
+KW  - Conversation analysis
+KW  - Information filtering
+KW  - Disaster response
+KW  - Twitter
+AB  - The information overload created by social media messages in emergency situations challenges response organizations to find targeted content and users. We aim to select useful messages by detecting the presence of conversation as an indicator of coordinated citizen action. Using simple linguistic indicators drawn from conversation analysis in social science, we model the presence of coordination in the communication landscape of Twitter1Popular Microblogging Service: http://www.twitter.com.1 using a corpus of 1.5 million tweets for various disaster and non-disaster events spanning different periods, lengths of time, and varied social significance. Within replies, retweets and tweets that mention other Twitter users, we found that domain-independent, linguistic cues distinguish likely conversation from non-conversation in this online form of mediated communication. We demonstrate that these likely conversation subsets potentially contain more information than non-conversation subsets, whether or not the tweets are replies, retweets, or mention other Twitter users, as long as they reflect conversational properties. From a practical perspective, we have developed a model for trimming the candidate tweet corpus to identify a much smaller subset of data for submission to deeper, domain-dependent semantic analyses for the identification of actionable information nuggets for coordinated emergency response.
+ER  - 

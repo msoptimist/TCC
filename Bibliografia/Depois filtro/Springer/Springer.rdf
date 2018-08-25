@@ -1,0 +1,584 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s41060-016-0023-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2364-415X,%202364-4168"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenname>Huan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morstatter</foaf:surname>
+                        <foaf:givenname>Fred</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tang</foaf:surname>
+                        <foaf:givenname>Jiliang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zafarani</foaf:surname>
+                        <foaf:givenname>Reza</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_308"/>
+        <link:link rdf:resource="#item_309"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-016-0023-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>137-143</bib:pages>
+        <dc:date>2016/11/01</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:53:03</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Big data is ubiquitous and can only become bigger, which challenges traditional data mining and machine learning methods. Social media is a new source of data that is significantly different from conventional ones. Social media data are mostly user-generated, and are big, linked, and heterogeneous. We present the good, the bad and the ugly associated with the multi-faceted social media data and exemplify the importance of some original problems with real-world examples. We discuss bias in social media data, evaluation dilemma, data reduction, inferring invisible information, and big-data paradox. We illuminate new opportunities of developing novel algorithms and tools for data science. In our endeavor of employing the good to tame the bad with the help of the ugly, we deepen the understanding of ever growing and continuously evolving data and create innovative solutions with interdisciplinary and collaborative research of data science.</dcterms:abstract>
+        <dc:title>The good, the bad, and the ugly: uncovering novel research opportunities in social media mining</dc:title>
+        <z:shortTitle>The good, the bad, and the ugly</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2364-415X,%202364-4168">
+        <prism:volume>1</prism:volume>
+        <prism:number>3-4</prism:number>
+        <dc:title>International Journal of Data Science and Analytics</dc:title>
+        <dc:identifier>ISSN 2364-415X, 2364-4168</dc:identifier>
+        <dcterms:alternative>Int J Data Sci Anal</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s41060-016-0023-0</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_308">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/308/Liu et al. - 2016 - The good, the bad, and the ugly uncovering novel .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs41060-016-0023-0.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:53:49</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_309">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/309/s41060-016-0023-0.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-016-0023-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:53:53</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s10618-006-0058-2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1384-5810,%201573-756X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Piatetsky-Shapiro</foaf:surname>
+                        <foaf:givenname>Gregory</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_314"/>
+        <link:link rdf:resource="#item_315"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s10618-006-0058-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>99-105</bib:pages>
+        <dc:date>2007/08/01</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:53:03</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>I survey the transformation of the data mining and knowledge discovery field over the last 10 years from the unique vantage point of KDnuggets as a leading chronicler of the field. Analysis of the most frequent words in KDnuggets News leads to revealing observations.</dcterms:abstract>
+        <dc:title>Data mining and knowledge discovery 1996 to 2005: overcoming the hype and moving from “university” to “business” and “analytics”</dc:title>
+        <z:shortTitle>Data mining and knowledge discovery 1996 to 2005</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1384-5810,%201573-756X">
+        <prism:volume>15</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Data Mining and Knowledge Discovery</dc:title>
+        <dc:identifier>ISSN 1384-5810, 1573-756X</dc:identifier>
+        <dcterms:alternative>Data Min Knowl Disc</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s10618-006-0058-2</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_314">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/314/Piatetsky-Shapiro - 2007 - Data mining and knowledge discovery 1996 to 2005 .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs10618-006-0058-2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:54:11</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_315">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/315/s10618-006-0058-2.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s10618-006-0058-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:54:16</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s41060-016-0004-3">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>International Journal of Data Science and Analytics</dc:title>
+                <dc:identifier>ISSN 2364-415X, 2364-4168</dc:identifier>
+                <dcterms:alternative>Int J Data Sci Anal</dcterms:alternative>
+                <dc:identifier>DOI 10.1007/s41060-016-0004-3</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lijffijt</foaf:surname>
+                        <foaf:givenname>Jefrey</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spyropoulou</foaf:surname>
+                        <foaf:givenname>Eirini</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kang</foaf:surname>
+                        <foaf:givenname>Bo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bie</foaf:surname>
+                        <foaf:givenname>Tijl De</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_426"/>
+        <link:link rdf:resource="#item_428"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-016-0004-3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>61-76</bib:pages>
+        <dc:date>2016/04/01</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:57:36</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Methods for local pattern mining are fragmented along two dimensions: the pattern syntax, and the data types on which they are applicable. Pattern syntaxes include subgroups, n-sets, itemsets, and many more; common data types include binary, categorical, and real-valued. Recent research on relational pattern mining has shown how the aforementioned pattern syntaxes can be unified in a single framework. However, a unified model to deal with various data types is lacking, certainly for more complexly structured types such as real numbers, time of day—which is circular—, geographical location, terms from a taxonomy, etc. We introduce P-N-RMiner, a generic tool for mining interesting local patterns in (relational) data with structured attributes. We show how to handle the attribute structures in a generic manner, by modelling them as partial orders. We also derive an information-theoretic subjective interestingness measure for such patterns and present an algorithm to efficiently enumerate the patterns. We find that (1) P-N-RMiner finds patterns that are substantially more informative, (2) the new interestingness measure cannot be approximated using existing methods, and (3) we can leverage the partial orders to speed up enumeration.</dcterms:abstract>
+        <dc:title>P-N-RMiner: a generic framework for mining interesting structured relational patterns</dc:title>
+        <z:shortTitle>P-N-RMiner</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_426">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/426/Lijffijt et al. - 2016 - P-N-RMiner a generic framework for mining interes.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs41060-016-0004-3.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 20:00:17</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_428">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/428/s41060-016-0004-3.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-016-0004-3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 20:00:25</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s00521-013-1516-6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0941-0643,%201433-3058"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Small</foaf:surname>
+                        <foaf:givenname>Sharon Gower</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Medsker</foaf:surname>
+                        <foaf:givenname>Larry</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_401"/>
+        <link:link rdf:resource="#item_404"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s00521-013-1516-6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>533-548</bib:pages>
+        <dc:date>2014/09/01</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:58:52</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Information extraction (IE) is an important and growing field, in part because of the development of ubiquitous social media networking millions of people and producing huge collections of textual information. Mined information is being used in a wide array of application areas from targeted marketing of products to intelligence gathering for military and security needs. IE has its roots in artificial intelligence fields including machine learning, logic and search algorithms, computational linguistics, and pattern recognition. This review summarizes the history of IE, surveys the various uses of IE, identifies current technological accomplishments and challenges, and explores the role that neural and adaptive computing might play in future research. A goal for this review is also to encourage practitioners of neural and adaptive computing to look for interesting applications in the important emerging area of IE.</dcterms:abstract>
+        <dc:title>Review of information extraction technologies and applications</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0941-0643,%201433-3058">
+        <prism:volume>25</prism:volume>
+        <prism:number>3-4</prism:number>
+        <dc:title>Neural Computing and Applications</dc:title>
+        <dc:identifier>ISSN 0941-0643, 1433-3058</dc:identifier>
+        <dcterms:alternative>Neural Comput &amp; Applic</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s00521-013-1516-6</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_401">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/401/Small e Medsker - 2014 - Review of information extraction technologies and .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs00521-013-1516-6.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:58:58</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_404">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/404/s00521-013-1516-6.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s00521-013-1516-6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:59:07</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s41060-018-0141-y">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>International Journal of Data Science and Analytics</dc:title>
+                <dc:identifier>ISSN 2364-415X, 2364-4168</dc:identifier>
+                <dcterms:alternative>Int J Data Sci Anal</dcterms:alternative>
+                <dc:identifier>DOI 10.1007/s41060-018-0141-y</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Helal</foaf:surname>
+                        <foaf:givenname>Sumyea</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Jiuyong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenname>Lin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ebrahimie</foaf:surname>
+                        <foaf:givenname>Esmaeil</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dawson</foaf:surname>
+                        <foaf:givenname>Shane</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murray</foaf:surname>
+                        <foaf:givenname>Duncan J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_431"/>
+        <link:link rdf:resource="#item_433"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-018-0141-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-19</bib:pages>
+        <dc:date>2018/06/21</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:58:53</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Identifying the factors that influence student academic performance is essential to provide timely and effective support interventions. The data collected during enrolment and after commencement into a course provide an important source of information to assist with identifying potential risk indicators associated with poor academic performance and attrition. Both predictive and descriptive data mining techniques have been applied on educational data to discover the significant reasons behind student performance. These techniques have their own advantages and limitations. For example, predictive techniques tend to maximise accuracy for correctly classifying students, while the descriptive techniques simply search for interesting student features without considering their academic outcome. Subgroup discovery is a data mining method which takes the advantages of both predictive and descriptive approaches. This study uses subgroup discovery to extract significant factors of student performance for a certain outcome (Pass or Fail). In this work, we have utilised student demographic and academic data recorded at enrolment, as well as course assessment and participation data retrieved from the institution’s learning management system (Moodle) to detect the factors affecting student performance. The results have demonstrated the effectiveness of the subgroup discovery method in general in identifying the factors, and the pros and cons of some popular subgroup discovery algorithms used in this research. From the experiments, it has been found that students, who have indigent socio-economic background or been admitted based on special entry requirement, are most likely to fail. The experiments on Moodle data have revealed that students having lower level of access to the course resources and forum have higher possibility of being unsuccessful. From the combined data, we have identified some interesting subgroups which are not detected using enrolment or Moodle data separately. It has been found that those students, who study off-campus or part-time and have a low level of contributions to the course learning activities, are more likely to be the low-performing students.</dcterms:abstract>
+        <dc:title>Identifying key factors of student academic performance by subgroup discovery</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_431">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/431/Helal et al. - 2018 - Identifying key factors of student academic perfor.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs41060-018-0141-y.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 20:00:39</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_433">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/433/s41060-018-0141-y.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-018-0141-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 20:00:45</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s41019-016-0009-x">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2364-1185,%202364-1541"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Yuqing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenname>Haoran</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bertino</foaf:surname>
+                        <foaf:givenname>Elisa</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Chao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41019-016-0009-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>73-85</bib:pages>
+        <dc:date>2016/06/01</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 20:04:53</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Insiders are often legal users who are authorized to access system and data. If they misuse their privileges, it would bring great threat to system security. In practice, we could not have any knowledge about fraud pattern in advance, and most malicious behaviors are often in accordance with security rules; thus, it is difficult to predefine regulations for preventing all kinds of frauds. In this paper, we propose a data-driven evaluation model to detect malicious insiders, which audits user behaviors from both parallel and incremental aspects. Users are grouped together according to their positions and responsibilities, based on which the normal pattern is learned. For each user, a routine behavior pattern is also learned for historical assessment. Then, users are evaluated against both group patterns and routine patterns by probabilistic methods. The deviation degree is adopted as an evidence to justify an anomaly. We also recognize the abnormal activities that often make a user behavior much deviate, which can help an administrator revisit security policies or update activity weights in assessment. At last, experiments are performed on several real dataset.</dcterms:abstract>
+        <dc:title>A Data-Driven Evaluation for Insider Threats</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2364-1185,%202364-1541">
+        <prism:volume>1</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Data Science and Engineering</dc:title>
+        <dc:identifier>ISSN 2364-1185, 2364-1541</dc:identifier>
+        <dcterms:alternative>Data Sci. Eng.</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s41019-016-0009-x</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s41060-018-0121-2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>International Journal of Data Science and Analytics</dc:title>
+                <dc:identifier>ISSN 2364-415X, 2364-4168</dc:identifier>
+                <dcterms:alternative>Int J Data Sci Anal</dcterms:alternative>
+                <dc:identifier>DOI 10.1007/s41060-018-0121-2</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pramanik</foaf:surname>
+                        <foaf:givenname>Soumajit</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenname>Mohit</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Danisch</foaf:surname>
+                        <foaf:givenname>Maximilien</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>Qinna</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guillaume</foaf:surname>
+                        <foaf:givenname>Jean-Loup</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitra</foaf:surname>
+                        <foaf:givenname>Bivas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s41060-018-0121-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-17</bib:pages>
+        <dc:date>2018/04/27</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 20:06:36</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>This paper investigates the role of mentions on tweet propagation. We propose a novel tweet propagation model \(\mathrm{SIR}_{\mathrm{MF}}\) based on a multiplex network framework which allows to analyze the effects of mentioning on final retweet count. The basic bricks of this model are supported by a comprehensive study of multiple real datasets, and simulations of the model show a nice agreement with the empirically observed tweet popularity. Studies and experiments also reveal that follower count, retweet rate and profile similarity are important factors for gaining tweet popularity and allow to better understand the impact of the mention strategies on the retweet count. Interestingly, we experimentally identify a critical retweet rate regulating the role of mention on the tweet popularity. Finally, our data-driven simulations demonstrate that the proposed mention recommendation heuristic Easy-Mention outperforms the benchmark Whom-To-Mention algorithm.</dcterms:abstract>
+        <dc:title>Easy-Mention: a model-driven mention recommendation heuristic to boost your tweet popularity</dc:title>
+        <z:shortTitle>Easy-Mention</z:shortTitle>
+    </bib:Article>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s00521-017-3162-x">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Neural Computing and Applications</dc:title>
+                <dc:identifier>ISSN 0941-0643, 1433-3058</dc:identifier>
+                <dcterms:alternative>Neural Comput &amp; Applic</dcterms:alternative>
+                <dc:identifier>DOI 10.1007/s00521-017-3162-x</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenname>Yao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Lei</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yi</foaf:surname>
+                        <foaf:givenname>Zhang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_682"/>
+        <link:link rdf:resource="#item_685"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s00521-017-3162-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-11</bib:pages>
+        <dc:date>2017/08/01</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 20:06:56</dcterms:dateSubmitted>
+        <z:libraryCatalog>link.springer.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>In the film industry, the ability to predict a movie’s box-office revenues before its theatrical release can decrease its financial risk. However, accurate predictions are not easily obtained. The complex relationship between movie-related data and movie box-office revenues, plus the increasing volume of data in online movie databases, pose challenges for their effective analysis. In this paper, a multimodal deep neural network, incorporating input about movie poster features learned in a data-driven fashion, is proposed for movie box-office revenues prediction. A convolutional neural network (CNN) is built to extract features from movie posters. By pre-training the CNN, features that are relevant to movie box-office revenues can be learned. To evaluate the performance of the proposed multimodal deep neural network, comparative studies with other prediction techniques were carried out on an Internet Movie Database dataset, and visualization of movie poster features was also performed. Experimental results demonstrate the superiority of the proposed multimodal deep neural network for movie box-office revenues prediction.</dcterms:abstract>
+        <dc:title>Predicting movie box-office revenues using deep neural networks</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_682">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/682/Zhou et al. - 2017 - Predicting movie box-office revenues using deep ne.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs00521-017-3162-x.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 20:07:17</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_685">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/685/s00521-017-3162-x.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s00521-017-3162-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 20:07:23</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>

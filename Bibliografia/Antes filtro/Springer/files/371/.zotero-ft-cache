@@ -1,0 +1,229 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+July 2012 , Volume 25, Issue 1 , pp 1–33 | Cite as
+Community detection via heterogeneous interaction analysis
+
+    Authors
+    Authors and affiliations
+
+    Lei Tang Email author
+    Xufei Wang
+    Huan Liu
+
+    Lei Tang
+        1
+    Email author
+    Xufei Wang
+        2
+    Huan Liu
+        2
+
+    1. Yahoo! Labs Silicon Valley Santa Clara USA
+    2. Department of Computer Science and Engineering Arizona State University Tempe USA
+
+Article
+First Online: 21 August 2011
+Received: 07 June 2010
+Accepted: 03 August 2011
+
+    2 Shares
+    1.7k Downloads
+    67 Citations
+
+Abstract
+
+The pervasiveness of Web 2.0 and social networking sites has enabled people to interact with each other easily through various social media. For instance, popular sites like Del.icio.us, Flickr, and YouTube allow users to comment on shared content (bookmarks, photos, videos), and users can tag their favorite content. Users can also connect with one another, and subscribe to or become a fan or a follower of others. These diverse activities result in a multi-dimensional network among actors, forming group structures with group members sharing similar interests or affiliations. This work systematically addresses two challenges. First, it is challenging to effectively integrate interactions over multiple dimensions to discover hidden community structures shared by heterogeneous interactions. We show that representative community detection methods for single-dimensional networks can be presented in a unified view. Based on this unified view, we present and analyze four possible integration strategies to extend community detection from single-dimensional to multi-dimensional networks. In particular, we propose a novel integration scheme based on structural features. Another challenge is the evaluation of different methods without ground truth information about community membership. We employ a novel cross-dimension network validation (CDNV) procedure to compare the performance of different methods. We use synthetic data to deepen our understanding, and real-world data to compare integration strategies as well as baseline methods in a large scale. We study further the computational time of different methods, normalization effect during integration, sensitivity to related parameters, and alternative community detection methods for integration.
+Keywords
+Community detection  Heterogeneous interactions  Network integration  Multi-dimensional networks  Social media 
+
+Responsible editor: Eamonn Keogh.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Abou-Rjeili A, Karypis G (2006) Multilevel algorithms for partitioning power-law graphs. In: Proceedings of the 20th international conference on parallel and distributed processing (IPDPS’06). IEEE Computer Society, Washington, DC, p 124 Google Scholar
+    Airodi EM, Blei D, Fienberg SE, Xing EP (2008) Mixed membership stochastic blockmodels. J Mach Learn Res 9: 1981–2014 Google Scholar
+    Aleman-Meza B, Nagarajan M, Ramakrishnan C, Ding L, Kolari P, Sheth AP, Arpinar BI, Joshi A, Finin T (2006) Semantic analytics on social networks: experiences in addressing the problem of conflict of interest detection. In: WWW ’06: proceedings of the 15th international conference on World Wide Web. ACM Press, New York, pp 407–416 Google Scholar
+    Argyriou A, Herbster M, Pontil M (2006) Combining graph Laplacians for semi-supervised learning. Adv Neural Inf Process Syst 18: 67 Google Scholar
+    Asur S, Parthasarathy S, Ucar D (2007) An event-based framework for characterizing the evolutionary behavior of interaction graphs. In: KDD ’07: proceedings of the 13th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, pp 913–921 Google Scholar
+    Backstrom L, Huttenlocher D, Kleinberg J, Lan X (2006) Group formation in large social networks: membership, growth, and evolution. In: KDD ’06: proceedings of the 12th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, pp 44–54 Google Scholar
+    Bansal N, Chiang F, Koudas N, Tompa FW (2007) Seeking stable clusters in the blogosphere. In: VLDB ’07: proceedings of the 33rd international conference on very large data bases. Vienna, Austria, pp 806–817 Google Scholar
+    Bickel S, Scheffere T (2004) Multi-view clustering. In: ICDM ’04: proceedings of the fourth IEEE international conference on data mining. IEEE Computer Society, Washington, DC, pp 19–26 Google Scholar
+    Borg I, Groenen P (2005) Modern multidimensional scaling: theory and applications. Springer, New York MATH Google Scholar
+    Chaudhuri K, Kakade SM, Livescu K, Sridharan K (2009) Multi-view clustering via canonical correlation analysis. In: ICML ’09: proceedings of the 26th annual international conference on machine learning. ACM, New York, pp 1–8 Google Scholar
+    Clauset A, Newman M, Moore C (2004) Finding community structure in very large networks. Arxiv preprint cond-mat/0408187 Google Scholar
+    Clauset A, Shalizi CR, Newman MEJ (2007) Power-law distributions in empirical data. arXiv, 706 Google Scholar
+    de Sa VR (2005) Spectral clustering with two views. In: Proceedings of workshop of learning with multiple views. Bonn, Germany, pp 20–27 Google Scholar
+    Demmel J, Dongarra J, Ruhe A, van der Vorst H (2000) Templates for the solution of algebraic eigenvalue problems: a practical guide. Society for Industrial and Applied Mathematics, Philadelphia MATH Google Scholar
+    Fern XZ, Brodley CE (2004) Solving cluster ensemble problems by bipartite graph partitioning. In: ICML ’04: proceedings of the twenty-first international conference on machine learning. ACM, New York, p 36 Google Scholar
+    Fortunato S (2010) Community detection in graphs. Phys Rep 486(3–5): 75–174 MathSciNet CrossRef Google Scholar
+    Fortunato S, Barthelemy M (2007) Resolution limit in community detection. Proc Natl Acad Sci USA 104(1): 36–41 CrossRef Google Scholar
+    Goder A, Filkov V (2008) Consensus clustering algorithms: comparison and refinement. In: Proceedings of the workshop on algorithm engineering and experiments, ALENEX 2008, San Francisco, CA, January 19, 2008 Google Scholar
+    Good B, De Montjoye Y, Clauset A (2010) Performance of modularity maximization in practical contexts. Phys Rev E 81(4): 046106 MathSciNet CrossRef Google Scholar
+    Guimera R, Amaral LAN (2005) Functional cartography of complex metabolic networks. Nature 433:895–900 Google Scholar
+    Hopcroft J, Khan O, Kulis B, Selman B (2003) Natural communities in large linked networks. In: KDD ’03: proceedings of the ninth ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, pp 541–546 Google Scholar
+    Hotelling H (1936) Relations between two sets of variates. Biometrika 28(3/4): 321–377 MATH CrossRef Google Scholar
+    Hu T, Sung SY (2005) Consensus clustering. Intell Data Anal 9(6): 551–565 Google Scholar
+    Jung J, Euzenat J (2007) Towards semantic social networks. In: Proceedings of the European semantic Web conference (ESWC2007), volume 4519 of LNCS. Springer, Berlin, pp 267–280 Google Scholar
+    Kang H, Getoor L, Singh L (2007) Visual analysis of dynamic group membership in temporal social networks. SIGKDD Explor Spec Issue Vis Anal 9(2): 13–21 CrossRef Google Scholar
+    Kemp C, Tenenbaum J, Griffiths T, Yamada T, Ueda N (1999/2006) Learning systems of concepts with an infinite relational model. In: Proceedings of the national conference on artificial intelligence, vol 21. AAAI Press/MIT Press, Menlo Park/Cambridge, p 381 Google Scholar
+    Kettenring J (1971) Canonical analysis of several sets of variables. Biometrika 58: 433–451 MathSciNet MATH CrossRef Google Scholar
+    Kleinberg JM (1999) Authoritative sources in a hyperlinked environment. J ACM 46(5): 604–632 MathSciNet MATH CrossRef Google Scholar
+    Lancichinetti A, Fortunato S (2009) Community detection algorithms: a comparative analysis. Phys Rev E 80(5): 056117 CrossRef Google Scholar
+    Leskovec J, Lang KJ, Mahoney M (2010) Empirical comparison of algorithms for network community detection. In: WWW ’10: proceedings of the 19th international conference on World Wide Web. ACM, New York, pp 631–640 Google Scholar
+    Lin Y-R, Chi Y, Zhu S, Sundaram H, Tseng BL (2008) Facetnet: a framework for analyzing communities and their evolutions in dynamic networks. In: Proceeding of the 17th international conference on World Wide Web (WWW ’08). ACM, New York, NY, pp 685–694 Google Scholar
+    Lin Y-R, Chi Y, Zhu S, Sundaram H, Tseng BL (2009) Analyzing communities and their evolutions in dynamic social networks. ACM Trans Knowl Discov Data 3(2): 1–31 CrossRef Google Scholar
+    Lizorkin D, Medelyan O, Grineva M (2009) Analysis of community structure in Wikipedia. In: WWW ’09: proceedings of the 18th international conference on World Wide Web. ACM, New York, pp 1221–1222 Google Scholar
+    Long B, Yu PS, Zhang ZM (2008) A general model for multiple view unsupervised learning. In: Proceedings of the 2008 SIAM international conference on data mining, pp 822–833 Google Scholar
+    Luxburg Uv (2007) A tutorial on spectral clustering. Stat Comput 17(4): 395–416 MathSciNet CrossRef Google Scholar
+    McPherson M, Smith-Lovin L, Cook JM (2001) Birds of a feather: homophily in social networks. Annu Rev Sociol 27: 415–444 CrossRef Google Scholar
+    Mika P (2007) Ontologies are us: a unified model of social networks and semantics. In: Web semantics: science, services and agents on the World Wide Web, vol 5, no 1, pp 5–15. Selected papers from the international semantic Web conference (ISWC2005) Google Scholar
+    Miller K, Griffiths T, Jordan M (2009) Nonparametric latent feature models for link prediction. Adv Neural Inf Process Syst 22: 1276–1284 Google Scholar
+    Monti S, Tamayo P, Mesirov J, Golub T (2003) Consensus clustering: a resampling-based method for class discovery and visualization of gene expression microarray data. Mach Learn 52(1–2): 91–118 MATH CrossRef Google Scholar
+    Mucha P, Richardson T, Macon K, Porter M, Onnela J (2010) Community structure in time-dependent, multiscale, and multiplex networks. Science 328(5980): 876–878 MathSciNet MATH CrossRef Google Scholar
+    Newman M (2006a) Finding community structure in networks using the eigenvectors of matrices. Phys Rev E 74(3): 036104 MathSciNet CrossRef Google Scholar
+    Newman M (2006b) Modularity and community structure in networks. Proc Natl Acad Sci USA 103(23): 8577–8582 CrossRef Google Scholar
+    Nguyen N, Caruana R (2007) Consensus clusterings. In: ICDM ’07: proceedings of the 2007 seventh IEEE international conference on data mining. IEEE Computer Society, Washington, DC, pp 607–612 Google Scholar
+    Palla G, Barabasi A-L, Vicsek T (2007) Quantifying social group evolution. Nature 446(7136): 664–667 CrossRef Google Scholar
+    Richardson M, Domingos P (2002) Mining knowledge-sharing sites for viral marketing. In: KDD ’02: proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, pp 61–70 Google Scholar
+    Rosvall M, Bergstrom C (2008) Maps of random walks on complex networks reveal community structure. Proc Natl Acad Sci USA 105(4): 1118–1123 CrossRef Google Scholar
+    Sarkar P, Moore AW (2005) Dynamic social network analysis using latent space models. SIGKDD Explor Newsl 7(2): 31–40 CrossRef Google Scholar
+    Specia L, Motta E (2007) Integrating folksonomies with the semantic web. In: Proceedings of the 4th European conference on the semantic Web: research and applications. Springer, Berlin, pp 624–639 Google Scholar
+    Strehl A, Ghosh J (2003) Cluster ensembles—a knowledge reuse framework for combining multiple partitions. J Mach Learn Res 3: 583–617 MathSciNet MATH Google Scholar
+    Tang L, Liu H (2009a) Relational learning via latent social dimensions. In: KDD ’09: proceedings of the 15th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, pp 817–826 Google Scholar
+    Tang L, Liu H (2009b) Scalable learning of collective behavior based on sparse social dimensions. In: CIKM ’09: proceeding of the 18th ACM conference on information and knowledge management. ACM, New York, pp 1107–1116 Google Scholar
+    Tang L, Liu H, Zhang J, Nazeri Z (2008) Community evolution in dynamic multi-mode networks. In: KDD ’08: proceeding of the 14th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, pp 677–685 Google Scholar
+    Tang L, Wang X, Liu H (2009a) Uncovering groups via heterogeneous interaction analysis. In: Proceeding of IEEE international conference on data mining. IEEE Computer Society, Washington, DC, pp 503–512 Google Scholar
+    Tang W, Lu Z, Dhillon IS (2009b) Clustering with multiple graphs. In: ICDM ’09: proceedings of the 2009 ninth IEEE international conference on data mining. IEEE Computer Society, Washington, DC, pp 1016–1021 Google Scholar
+    Topchy A, Jain AK, Punch W (2003) Combining multiple weak clusterings. In: ICDM ’03: proceedings of the third IEEE international conference on data mining. IEEE Computer Society, Washington, DC, p 331 Google Scholar
+    Wasserman S, Faust K (1994) Social network analysis: methods and applications. Cambridge University Press, Cambridge Google Scholar
+    White S, Smyth P (2005) A spectral clustering approach to finding communities in graphs. In: Proceedings of the fifth SIAM international conference on data mining, pp 274–285 Google Scholar
+    Witten IH, Frank E (2005) Data mining: practical machine learning tools and techniques. Morgan Kaufman, San Francisco MATH Google Scholar
+    Yingzi Jin YM, Ishizuka M (2008) Ranking entities on the web using social network mining and ranking learning. In: WWW ’08: proceedings of the 17th international conference on World Wide Web. ACM Press, New York, pp 21–25 Google Scholar
+    Yu K, Yu S, Tresp V (2005) Soft clustering on graphs. In: Advances in neural information processing systems 18. MIT Press, Cambridge, pp 1553–1560 Google Scholar
+    Zhou D, Burges CJC (2007) Spectral clustering and transductive learning with multiple views. In: ICML ’07: proceedings of the 24th international conference on machine learning. ACM, New York, 1159–1166 Google Scholar
+    Zhou D, Zhu S, Yu K, Song X, Tseng BL, Zha H, Giles CL (2008) Learning multiple graphs for document recommendations. In: WWW ’08: proceeding of the 17th international conference on World Wide Web. ACM, New York, pp 141–150 Google Scholar
+
+Copyright information
+© The Author(s) 2011
+About this article
+
+Cite this article as:
+    Tang, L., Wang, X. & Liu, H. Data Min Knowl Disc (2012) 25: 1. https://doi.org/10.1007/s10618-011-0231-0
+
+    DOI https://doi.org/10.1007/s10618-011-0231-0
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Community detection via heterogeneous interaction analysis
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

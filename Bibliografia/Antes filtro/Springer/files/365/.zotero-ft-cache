@@ -1,0 +1,192 @@
+
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+October 2002 , Volume 6, Issue 4 , pp 303–360 | Cite as
+Techniques of Cluster Algorithms in Data Mining
+
+    Authors
+    Authors and affiliations
+
+    Johannes Grabmeier
+    Andreas Rudolph
+
+    Johannes Grabmeier
+        1
+    Andreas Rudolph
+        2
+
+    1. University of Applied Sciences Deggendorf Germany
+    2. Universität der Bundeswehr München Neubiberg Germany
+
+Article
+
+    1.3k Downloads
+    104 Citations
+
+Abstract
+
+An overview of cluster analysis techniques from a data mining point of view is given. This is done by a strict separation of the questions of various similarity and distance measures and related optimization criteria for clusterings from the methods to create and modify clusterings themselves. In addition to this general setting and overview, the second focus is used on discussions of the essential ingredients of the demographic cluster algorithm of IBM's Intelligent Miner, based Condorcet's criterion .
+data mining  cluster algorithm  Condorcet's criterion  demographic clustering 
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Ball, G.H. 1965. Data analysis in the social sciences-What about the details. In Proc. AFIPS Fall Joint Computer Conf. 27. 1965. London: McMillan, Vol. 1, pp. 533–559. Google Scholar
+    Ball, G.H. 1967a. A clustering technique for summarizing multivariate data. Behavioral Science, 12:153–155. Google Scholar
+    Ball, G.H. 1967b. PROMENADE-An online pattern recognition system. Stanford Res. Inst., Technical Report No. RADC-TR-67-310. Google Scholar
+    Ball, G.H. and Hall, D.J. 1965. ISODATA, a novel technique for data analysis and pattern classification. Standford Res. Inst., Menlo Park, CA. Google Scholar
+    Bigus, J.P. 1996. Data Mining with Neural Networks. New York: McGraw-Hill. Google Scholar
+    Bishop, C. 1995. Neural Networks for Pattern Recognition. Oxford, UK: Oxford University Press. Google Scholar
+    Bock, H.H. 1974. Automatische Klassifikation. Vandenhoeck & Ruprecht. Google Scholar
+    Braverman, E.M. 1996. The method of potential functions in the problem of training machines to recognize patterns without a teacher. Automation Remote Control, 27:1748–1771. Google Scholar
+    Fayyad, U.M., Piatetsky-Shapiro, G., Smyth, P., and Uthurusamy, R. (Eds.). 1996. Advances in Knowledge Discovery and Data Mining. AAAI Press/The MIT Press, Menlo Park. Google Scholar
+    Fortier, J.J. and Solomon, H. 1996. Clustering procedures. In proceedings of the Multivariate Analysis,' 66, P.R. Krishnaiah (Ed.), pp. 493–506. Google Scholar
+    Graham, R.L., Knuth, D., and Patashnik, O. 1989. Concrete Mathematics, a Foundation of Computer Science. Reading, MA: Addison-Wesley. Google Scholar
+    Hartung, H.J. and Elpelt, B. 1984. Multivariate Statistik. München Wien: Oldenbourg. Google Scholar
+    Höppner, F., Klawonn, F., Kruse, R., and Runkler, T. 1999. Fuzzy Cluster Analysis. Chichester: Wiley. Updated German version: Höppner, F., Klawonn, F., and Kruse, R.: Fuzzy-Clusteranalyse. Verfahren fur die Bilderkennung, Klassifikation und Datenanalyse, Vieweg, Braunschweig, 1997. Also available at http://fuzzy.cs.uni-magdeburg.de/clusterbook Google Scholar
+    Jain, A.K. and Dubes, R.C. 1988. Algorithms for Clustering Data. New York: Wiley. Google Scholar
+    Jobson, J.D. 1992. Applied Multivariate Data Analysis. New York: Springer Bd. I and II. Google Scholar
+    Johnson, N.L. and Kotz, S. 1990. Continuous Univariate Distributions-1. New York: Wiley. Google Scholar
+    Kaufman, L. and Rousseeuw, P.J. 1990. Finding Groups in Data. New York: Wiley. Google Scholar
+    Kohonen, T. 1997. Self-Organizing Maps, 2nd Ed. Berlin: Springer-Verlag. Google Scholar
+    Krishnaiah, P.R. Multivariate analysis. In Proceedings of the Multivariate Analysis' 66, P.R. Krishnaiah (Ed.). New York: Academic Press. Google Scholar
+    Lu, S.Y. and Fu, K.S. 1978. A sentence-to-sentence clustering procedure for pattern analysis. IEEE Transactions on Systems, Man and Cybernetics SMC, 8:381–389. Google Scholar
+    McLachlan, G.J. and Basford, K.E. Mixture Models. New York: Marcel Dekker. Google Scholar
+    Messatfa, H. and Zait, M. 1997.A comparative study of clustering methods. Future Generation Computer Systems, 13:149–159. Google Scholar
+    Michaud, P. 1982. Aggrégation á la majorité: Hommage á Condorcet. Technical Report F-051, IBM Centre Scientifique IBM France, Paris. Google Scholar
+    Michaud, P. 1985. Aggrégation á la majorité II: Analyse du Résultat d'un vote. Technical Report F-052, IBM Centre Scientifique IBM France, Paris. Google Scholar
+    Michaud, P. 1987a. Aggrégation á la majorité III: Approache statistique, géometrique ou logique. Technical Report F-084, IBM Centre Scientifique IBM France, Paris. Google Scholar
+    Michaud, P. 1987b. Condorcet-a man of the avant-garde. Applied Stochastic Models and Data Analysis, 3:173–198. Google Scholar
+    Michaud, P. 1995. Classical version non-classical clustering methods: An overview. Technical Report MAP-010, IBM ECAM. Google Scholar
+    Michaud, P. 1997. Clustering techniques. Future Generation Computer Systems, 13:135–147. Google Scholar
+    Rao, C.R. 1973. Linear Statistical Inference and Its Application. New York: Wiley. Google Scholar
+    Renyi, A. 1962. Wahrscheinlichkeitstheorie, mit einem Anhang über Informationstheorie. VEB Deutsche Verlag der Wissenschaften, Berlin. Google Scholar
+    Ripley, B.D. 1996. Pattern Recognition and Neural Network. Oxford, UK: Cambridge University Press, Oxford, 1996. Google Scholar
+    Robins, H. and Monro, S. 1951. A stochastic approximation method. Ann. Math. Stat., 22:400–407. Google Scholar
+    Rudolph, A. 1999. Data Mining in action: Statistische Verfahren der Klassifikation. Shaker Verlag. Google Scholar
+    Seber, G.A.F. 1984. Multivariate Observations. New York: Wiley. Google Scholar
+    Spaeth, H. 1984. Cluster Analysis-Algorithms. Chicester; Ellis Horwood Limited. Google Scholar
+    Steinhausen, D. and Langer, K. 1977. Clusteranalyse. Walter de Gruyter. Google Scholar
+    Tsypkin, Y.Z. and Kelmans, G.K. 1967. Recursive self-training algorithms. Enginering Cybernetics USSR, V:70–79. Google Scholar
+
+Copyright information
+© Kluwer Academic Publishers 2002
+About this article
+
+Cite this article as:
+    Grabmeier, J. & Rudolph, A. Data Mining and Knowledge Discovery (2002) 6: 303. https://doi.org/10.1023/A:1016308404627
+
+    DOI https://doi.org/10.1023/A:1016308404627
+    Publisher Name Kluwer Academic Publishers
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Techniques of Cluster Algorithms in Data Mining
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

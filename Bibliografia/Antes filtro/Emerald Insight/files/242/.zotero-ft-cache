@@ -1,0 +1,515 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    The Electronic Library
+    Volume 35, Issue 4
+    Emotion evolutions of sub-topics about popular events on microblogs
+
+
+Emotion evolutions of sub-topics about popular events on microblogs
+
+Author(s):
+    Qingqing Zhou , (Department of Information Management, Nanjing University of Science and Technology , Nanjing, China and Fujian Provincial Key Laboratory of Information Processing and Intelligent Control, Minjiang University , Fuzhou, China )
+    Chengzhi Zhang , (Department of Information Management, Nanjing University of Science and Technology , Nanjing, China , Jiangsu Key Laboratory of Data Engineering and Knowledge Service, Nanjing University , Nanjing, China and Fujian Provincial Key Laboratory of Information Processing and Intelligent Control, Minjiang University , Fuzhou, China )
+    ...Show all authors 
+
+Abstract:
+    Purpose
+
+    The development of social media has led to large numbers of internet users now producing massive amounts of user-generated content (UGC). UGC, which shows users’ opinions about events directly, is valuable for monitoring public opinion. Current researches have focused on analysing topic evolutions in UGC. However, few researches pay attention to emotion evolutions of sub-topics about popular events. Important details about users’ opinions might be missed, as users’ emotions are ignored. This paper aims to extract sub-topics about a popular event from UGC and investigate the emotion evolutions of each sub-topic.
+    Design/methodology/approach
+
+    This paper first collects UGC about a popular event as experimental data and conducts subjectivity classification on the data to get subjective corpus. Second, the subjective corpus is classified into different emotion categories using supervised emotion classification. Meanwhile, a topic model is used to extract sub-topics about the event from the subjective corpora. Finally, the authors use the results of emotion classification and sub-topic extraction to analyze emotion evolutions over time.
+    Findings
+
+    Experimental results show that specific primary emotions exist in each sub-topic and undergo evolutions differently. Moreover, the authors find that performance of emotion classifier is optimal with term frequency and relevance frequency as the feature-weighting method.
+    Originality/value
+
+    To the best of the authors’ knowledge, this is the first research to mine emotion evolutions of sub-topics about an event with UGC. It mines users’ opinions about sub-topics of event, which may offer more details that are useful for analysing users’ emotions in preparation for decision-making.
+Keywords:
+    Correlation analysis , Emotion classification , Emotion evolution , Microblog mining , Sub-topic evolution , Sub-topic extraction 
+Type:
+    Research Paper 
+Publisher:
+    Emerald Publishing Limited 
+Received:
+    21 September 2016
+Revised:
+    19 April 2017
+Accepted:
+    20 April 2017
+Acknowledgments:
+
+    This work was supported in part by Major Projects of the National Social Science Fund (13&ZD174), the Fundamental Research Funds for the Central Universities (No.30915011323), Opening Foundation of Fujian Provincial Key Laboratory of Information Processing and Intelligent Control (Minjiang University) (No. MJUKF201704).
+Copyright:
+    © Emerald Publishing Limited 2017
+    Published by Emerald Publishing Limited
+    Licensed re-use rights only 
+Citation:
+    Qingqing Zhou , Chengzhi Zhang , (2017) "Emotion evolutions of sub-topics about popular events on microblogs", The Electronic Library , Vol. 35 Issue: 4, pp.770-782, https://doi.org/10.1108/EL-09-2016-0184 
+Downloads:
+    The fulltext of this document has been downloaded 199 times since 2017
+Article
+Introduction
+Section: Next section
+
+Web 2.0 promotes the rapid development of social media. In 2015, Digital, Social & Mobile Worldwide ( http://wearesocial.net/tag/sdmw/ ) reported that the number of active social media users in China reached 629 million and that WeChat, Sina Weibo and QQ were the top three social media platforms. The exponential growth of user numbers means that user-generated content (UGC) is increasingly large in scale. Furthermore, UGC directly expresses user opinions and attitudes about events or products on the comment targets. For example, a microblog about H7N9 stated “#H7N9 bird flu # is getting more and more terrible”, while a person interested in the new iPhone7 blogged “#iPhone7# is finally coming […] I’m going crazy”. Both of these posts are from Sina. Accordingly, UGC can play an important role in public opinion monitoring and policy-making.
+
+Most existing topic-based research focuses on topic identification of an event ( Gohr et al. , 2009 ) or classifying sentiments (positive or negative) with topic models ( Lin and He, 2009 ; Mei et al. , 2007 ). There is very little literature that attempts to identify fine-grained emotions in sub-topics (happiness, anger, fear, sadness and surprise) or to determine emotion evolutions about a particular event. Ignoring emotions and their evolution may lead to the loss of dynamic details about users’ attitudes. In this paper, the authors extract sub-topics from a popular event and analyse emotion evolutions of each sub-topic to find more fine-grained or discrete information about user opinions. Specifically, the authors collect microblogs about a particular event as experimental data and then conduct subjectivity classification to identify subjective microblogs. They classify emotions in the subjective microblogs using a supervised machine learning method. Meanwhile, a topic model is used to extract sub-topics about the event. Finally, the researchers collate emotions for each sub-topic and analyse user emotion evolutions about the sub-topic. The experimental results show that each sub-topic has a specific main emotion and a particular emotion evolution process. The results also show that subjectivity classification performance is optimal using two adjectives as the threshold for the number of adjectives, and that term frequency-relevance frequency (TF-RF) is the most appropriate feature-weighting method for the emotion-classification task. In addition, the method is domain and language independent.
+Literature review
+Section: Previous section Next section
+
+There are three types of research work related to the present study: public opinion mining with UGC, emotion classification and topic extraction.
+Public opinion mining with user-generated content
+
+With the rapid development of social media, massive amounts of UGC are generated which express user opinions and attitudes. Previous research has mined political opinions in UGC. O’Connor et al. (2010a , 2010b) analysed several surveys on consumer confidence and political opinion between 2008 and 2009, and found that they correlated to sentiment word frequencies in contemporaneous Twitter messages. Soler et al. (2012) investigated the use of Twitter during Spanish elections and discovered that Twitter was used for political discussion. Some researchers have focused on mining product attitudes in UGC. Abeywardena (2014) explored public opinion and perceptions of open educational resources (OER), massive open online courses (MOOC) and their complementary roles by analysing raw Twitter data in the domains of OER and MOOC over a span of 12 months. Opinions about major events can also be analysed in UGC. Younus et al. (2011) investigated social media engagement patterns of users from the developing world through a study of Twitter’s role during the recent Tunisian uprising. Mahata and Agarwal (2012) proposed a framework to distinguish the disparate sources from social media that provided extremely significant information about various events. This framework may be of utmost importance for understanding and exploring real-life events in depth. Xu (2016) , for example, used UGC related to the haze heat index to elaborate the application of exponential smoothing to the prediction of microblogging trends in data.
+
+As evident from previous research, UGC contains direct opinions of users on different events, products and so forth. Mining users’ expressions correctly and effectively can be useful for decision-making.
+Emotion classification
+
+Currently, emotion classification on blogs or microblogs is a research topic of very high interest. Some researchers have tried to find hidden rules for identifying users’ emotions. For example, Yang et al. (2007a) proved that the emotion of the last sentence in a document played an important role in determining the overall emotion of a blog. Yang et al. (2007b) mined the relationships between words and emotions using weblog corpora. Li and Xu (2014) inferred and extracted the reasons behind user expression of emotions by importing knowledge and theories from other fields, such as sociology, to identify emotions in microblog posts.
+
+Two main methods have been used to identify emotions in microblogs: supervised learning and the rule method. Purver and Battersby (2012) described a set of experiments using automatically labelled data to train supervised classifiers for multi-class emotion detection in Twitter messages with no manual intervention. They concluded that different labelling conventions were more suitable for some emotions than others. Suttles and Ide (2013) classified emotions in tweets according to a set of eight basic bipolar emotions as defined by Plutchik’s wheel of emotions. Wen and Wan (2014) introduced an approach to classify emotion in microblog texts based on class sequential rules. Their experimental results on a Chinese benchmark data set indicated the superior performance of this approach.
+
+Emotion classification is a research topic of current interest. Researchers not only focus on improving classification performance but also try to identify the reasons that lead to different emotions and the rules hidden in content that may be useful in identifying users’ emotions.
+Topic extraction
+
+With the vast amount of text available on the internet, it is impossible for people to read all information about an event quickly. It is important, then, to succinctly present topics and their changes over time for users. Cataldi et al. (2010) proposed a topic detection technique that retrieved Twitter’s most emergent topics in real time. Chen et al. (2007) extracted hot topics from disparate sets of textual documents published in a given period. Chen et al. (2013) developed an incremental clustering framework and used a range of content and temporal features to promptly detect emerging topics. O’Connor et al. (2010a , 2010b) summarized topics for Twitter using a topic extraction system based on syntactic filtering, language modelling, near-duplicate detection and set cover heuristics.
+
+Some researchers have combined topic extraction with sentiment analysis. Lin and He (2009) simultaneously detected sentiment and topic in text using a probabilistic modelling framework based on latent Dirichlet allocation (LDA). Mei et al. (2007) captured topics and sentiments simultaneously with their topic-sentiment mixture model. Wang et al. (2011) investigated hashtag-level sentiment classification on Twitter. Zhu et al. (2014) proposed a time-aware topic modelling approach that models emotions with respect to news.
+
+According to the analysis above, UGC can be used to identify user opinions about real-life events. Most existing research use topic models to identify sentiments in UGC, while few previous research studies focus on extracting sub-topics about an event or identifying each sub-topic’s corresponding emotion evolutions. In this paper, the authors extract sub-topics about a popular event from microblog corpora and identify how emotions about sub-topics evolve over time to obtain more comprehensive information about users’ attitudes. Unlike the work of Zhu et al. (2014) , which focuses on the news corpus and uses manually tagged emotion labels, this paper extracts event sub-topics from social media platforms and identifies emotion evolutions of sub-topics automatically, using subjectivity classification and emotion classification algorithms.
+Methodology
+Section: Previous section Next section
+Framework
+
+In this paper, the authors collect microblogs about a current popular event as the experimental data set. From this data set, the authors extract sub-topics about the event and identify emotion evolutions of these sub-topics by extraction to analyse user opinions accurately. As shown in Figure 1 , the framework of the approach includes four parts: subjectivity classification, emotion classification, sub-topic extraction and emotion evolutions of sub-topics.
+
+As the follow-up analysis is based on subjective texts, the authors first conducted subjectivity classification to identify subjective microblogs by the number of adjectives present in the microblog ( Hatzivassiloglou and Wiebe, 2000 ). Then, a supervised classifier is used to identify emotions present in the subjective microblogs. At the same time, a topic model is used to extract sub-topics from the subjective microblogs. Finally, the emotion evolutions of each sub-topic were analysed according to the results of emotion classification and the sub-topic extraction steps.
+Key technologies
+Subjectivity classification.
+
+Objective documents describe objective facts without emotions, while subjective documents contain user opinions. It is necessary to conduct subjectivity classification on corpus to extract subjective microblogs. For text pre-processing, this study used Ansj ( www.ansj.org ) for word segmentation and part-of-speech tagging. Currently, subjectivity classification is mainly conducted by supervised learning methods ( Raaijmakers and Kraaij, 2008 ; Wiebe et al. , 1999 ). Without labelled data to use as a training set, this study used a rule-based method. The researchers assume that, in general, adjectives in a sentence are used to express user emotions ( Hatzivassiloglou and Wiebe, 2000 ), and then adjectives are used to identify subjective microblogs for extraction. If a microblog contains more than N adjectives (where N equals 1, 2, 3, respectively), it is identified as a subjective microblog ( Hatzivassiloglou and Wiebe, 2000 ). To achieve optimal classification results, the authors compared the classification performances of different N . Some examples are shown in Table I .
+Emotion classification.
+
+Emotion classification aims to identify the emotions users express in documents. Emotion has five classes: happiness, anger, fear, sadness and surprise. In this paper, the support vector machine ( Cortes and Vapnik, 1995 ) classifier model is used to classify emotions in microblogs. Chi-square (CHI) ( Ng et al. , 1997 ) is used as the feature selection method for microblog document representation. In addition, the authors investigate the performance of emotion classification using different feature-weighting methods, including term frequency-inverse document frequency (TF-IDF) ( Salton and Buckley, 1988 ), TF-CHI ( Deng et al. , 2004 ) and term frequency-relevance frequency (TF-RF) ( Lan et al. , 2006 ). These can be calculated as follows: T F − I D F = n t n   *   log ( M m t + 1 ) T F − C H I = n t n   *   ( A + B + C + D )   *   ( A D − B C ) 2 ( A + C ) ( B + D ) ( A + B ) ( C + D ) T F − R F = n t n   *   log ( 2 + A C )
+
+where n t means the number of times feature t occurs in the document; n denotes the total number of words in the document; M denotes the total number of documents; m t denotes the number of documents containing feature t ; A means the number of times that feature t and category L i ( here , i = 5) co-occur; B is the number of times feature t occurs without category L i ; C denotes the number of times category L i occurs without feature t ; and D is the number of times neither category L i nor feature t occurs.
+Sub-topic extraction.
+
+In this paper, a topic model is used to extract sub-topics from microblogs ( Blei et al. , 2003 ). Specifically, the researchers use LDA by Gensim ( http://radimrehurek.com/gensim/ ) to extract sub-topics. The LDA algorithm is based on the work of Hoffman et al. (2010) , which developed an online variational Bayes algorithm for LDA. The basic idea is to minimize the Kullback–Leibler divergence between the convenient parametric distribution and the true posterior. As one microblog may belong to multiple sub-topics, the investigators choose the sub-topic with the maximum probability of being the real sub-topic of the microblog.
+Emotion evolutions of sub-topics.
+
+To identify emotion evolutions in each sub-topic, change over time was analysed. Evolution analysis can work on several time spans (year, month, day, etc.). This study used one month as the time span. One of the sub-topics extracted by the topic model is selected, and the microblogs belonging to this sub-topic are extracted. Then, the emotion evolutions of the microblogs over time were obtained. The steps above are repeated until the emotion evolution results for all sub-topics are obtained.
+Experiments and results analysis
+Section: Previous section Next section
+Data
+
+The search was “H7N9”, and microblogs published between March 2013 and April 2014 on Sina Weibo via the Weibo API ( http://open.weibo.com ) were retrieved. The corpora contain the microblogs’ text contents, launch dates and users’ regions, which are identified from users’ registration information. A total of 460,018 microblogs were obtained. Samples of the data are shown in Table II .
+Evaluation metrics
+
+The following metrics were used to evaluate classification performance: macro-average precision, macro-average recall and F 1 value. These metrics can be calculated using the following equations, based on Table III ( Salton and McGill, 1986 ). Macro-average precision: MacroPre = ∑ i = 1 n   P i n , P i = a i i ∑ j = 1 n   a i j Macro-average recall: MacroRec = ∑ i = 1 n   R i n , R i = a i i ∑ j = 1 n   a j i F 1 value: F 1 = 2   *  MacroPre  *  MacroRec MacroPre  + MacroRec
+
+where P i denotes precision of class i , R i denotes recall of class i and n means number of class.
+Experimental results analysis
+Subjectivity classification.
+
+The authors used 2,482 labelled microblogs as a test corpus to evaluate subjectivity classification performance. The test corpus included 1,506 objective microblogs and 976 subjective microblogs. Results of the performance evaluation are shown in Table IV , where it can be seen that when N ≥ 2 ( N means the numbers of adjectives in a microblog), both macro accuracy and F 1 values are at their highest. Thus, two was chosen as the threshold to use in classifying the rest of the 457,536 microblogs in the data set: final classification results for the 457,536 classified and 2,482 labelled microblogs combined included 149,428 objective microblogs and 310,590 subjective microblogs.
+
+Figure 2 shows the numbers of subjective microblogs about H7N9 in each month from March 2013 to April 2014. The numbers from January to April are much higher than in other periods. Thus, the winter-spring period may have a higher incidence of H7N9.
+Emotion classification.
+
+The investigators annotated 8,826 microblogs to use as a test corpus on which to evaluate the performance of the emotion classification process. To compare the effect of different feature-weighting methods on emotion classification, a five-fold cross-validation on the tagged 8,826 microblogs was conducted. The results are represented in Table VII . The performance of TF-RF is better than that of the other feature-weighting methods. Therefore, the TF-RF feature weighting was used to conduct emotion classification on 310,590 subjective microblogs ( Tables V and VI ).
+
+Figure 3 shows the emotion distribution of subjective microblogs about H7N9. As shown in Figure 3 , the main emotion about H7N9 is anger, followed by happiness. Sadness and surprise are smaller in proportion to the entire corpus.
+Sub-topic extraction.
+
+LDA was used to extract sub-topics from the corpus of H7N9 microblogs, and the extraction results were compared for different numbers of sub-topics. Comparison results show that sub-topic extraction performance is optimal when there are five sub-topics. As Table VII shows, the hottest sub-topic is “virus infection & live poultry trade”, followed by the sub-topic “case confirmation”. The sub-topic “rumour monitoring” has the lowest frequency.
+Emotion evolutions of sub-topics.
+
+    Sub-topic evolutions over time : Figure 4 shows how the sub-topics evolve over time from March 2013 to April 2014. In Figure 4 , it can be seen that the main sub-topic for each month is sub-topic 2 (virus infection and live poultry trade). In the period with a high incidence of H7N9, the proportional frequency of sub-topic 4 (case confirmation) increases significantly.
+
+    Emotion evolutions over time : Figure 5 presents the emotional evolutions of the sub-topics over time. It can be seen from Figure 5 that the main emotion expressed in most months is anger. The emotions of anger and happiness fluctuate over time, with anger showing a downward trend and happiness showing an upward trend.
+
+Emotion evolutions of event sub-topics.
+
+The authors conducted a correlation analysis between emotions and sub-topics. To do this, the number of microblogs posted about each sub-topic in each month was obtained. Next, the investigators identified and counted instances of each emotion in those microblogs for each month. Finally, a correlation analysis between each sub-topic and each emotion was conducted to find the Pearson correlation coefficients ( Table VIII ). As shown in Table VIII , each sub-topic is significantly correlated with a particular emotion, at the level of 0.01 (bilateral). For sub-topic 1, the correlated emotion is happiness. In other words, if more microblogs about sub-topic 1 were posted, the proportion of happiness in the sample would rise. Sub-topic 4 is correlated with sadness, and Sub-topics 2, 3 and 5 are correlated with anger. From the analysis above, we can conclude that users expressed different emotions about different sub-topics.
+
+Figure 6 shows the emotion evolution of each sub-topic. For Sub-topic 1, the two main emotions are anger and happiness. As time goes on, the proportion of anger goes down, while the proportion of happiness goes up. For Sub-topic 2, anger and happiness are the main emotions, with anger in the highest proportion and the proportion of happiness rising gradually. Anger and happiness remain the primary emotions for Sub-topic 3. For Sub-topic 4, the proportion of sadness is high. For Sub-topic 5, the proportion of anger is higher than that of the other four emotions, which means that users have negative emotions about prevention, as H7N9 keeps recurring. From the analysis above, it can be concluded that each sub-topic has its special emotion evolution process.
+Discussion
+Section: Previous section Next section
+
+This paper used microblogs to analyse emotion evolutions of sub-topics about popular events. Compared with topic-based research, this paper extracts sub-topics of one event, which may provide more comprehensive and detailed information about an event. It is not simply an analysis of the number of topics but also an attempt to discover the event progress by mining topic evolutions. Compared with research studies based on sentiment classification, methods of analysing user attitudes in this paper were much more fine-grained. It analysed user emotions (anger, happiness, fear, sadness and surprise) on each sub-topic and identified corresponding emotion evolutions, which may be useful for event processing, especially during emergencies and malignant events.
+
+In this paper, experimental results on the H7N9 event show that different sub-topics are discussed by users about one event, and users express different main emotions on the sub-topics. In other words, when an event occurs, the event should be analysed based on all sub-topics, including their evolutions and corresponding emotions, instead of a general analysis without topic distinction. Regarding the H7N9 event in this paper, negative emotions are the main emotions in most of the sub-topics; however, positive emotion is the main emotion in Sub-topic 1 (vaccine development). It suggests that relevant agencies should accelerate the development of vaccines, which may be useful for guiding users’ emotions effectively and handling the event reasonably. Meanwhile, the proportion of Sub-topic 3 (rumour monitoring) is low, which means that relevant agencies can reduce funding appropriately for identifying rumours and so forth.
+
+Users always express both negative and positive emotions about an event, but pay different levels of attention to individual sub-topics. Identifying the sub-topics of an event and detecting the corresponding emotions on different sub-topics may be useful for handling events effectively, including funds allocation, personnel dissemination and similar concerns. In addition, it may even be useful for public relations during crises.
+
+The study is subject to a few limitations. First, the credibility of microblogs and the single data source may affect the generalizability of the results. The sample data came from Weibo and, thus, may lack the diversity of content available from other websites. Integration of content from different websites is a challenging question for future research. Second, the technologies for opinion mining need to be improved, including subjectivity classification, emotion classification and extraction of hot topics. In this study, the authors used a supervised method, based on the quality of a tagged corpus, to classify emotions. If the scale of data were to increase, the performance of the emotions analysis might diminish.
+Conclusion and future work
+Section: Previous section Next section
+
+In this paper, the researchers conduct sub-topic extraction and emotion classification on microblog corpora to analyse the emotion evolutions of sub-topics about a popular event. The experimental results show that each sub-topic is correlated with a specific primary emotion and has its own emotion evolution process. Empirical analysis based on microblogs about H7N9 show that in the winter-spring period, when H7N9 is most common, the hottest sub-topic about H7N9 is about virus infection and the live poultry trade. Results also show that an adjective threshold of two offers the best subjectivity classification performance. Additionally, for the corpora, TF-RF’s classification performance in the emotional classification task is better than that of other feature-weighting methods.
+
+In the future, the authors will expand the data sources to include other microblogging services, such as Twitter and WeChat, to analyse cross-language events and find the emotional differences between users from different regions on the same topics. Moreover, they will try to evaluate evolution results effectively.
+figure parent remove
+
+Figure 1. Framework of emotion evolutions of event sub-topics on microblogs
+figure parent remove
+
+Figure 2. Numbers of subjective microblogs about H7N9 from March 2013 to April 2014
+figure parent remove
+
+Figure 3. Emotion distribution for H7N9 microblogs
+figure parent remove
+
+Figure 4. Sub-topic evolutions over time for H7N9 microblogs
+figure parent remove
+
+Figure 5. Emotion evolutions of H7N9 microblogs over time
+figure parent remove
+
+Figure 6. Emotion evolution of sub-topics
+Table 	
+
+Table I. Examples of subjectivity classification
+Microblogs 	N ≥ 1 	N ≥ 2 	N ≥ 3
+目前我省已经确诊2例人感染H7N9禽流感确诊病例, 死亡一人。(Currently, 2 cases have been confirmed in our province, one of them has died) 	Objective 	Objective 	Objective
+市 卫计委昨日通报深圳确诊3例H7N9禽流感病例, 两名患者情况危重。(City Health Planning Commission informed 3 cases of H7N9 in Shenzhen yesterday. Two patients are in critical condition.) 	Subjective 	Objective 	Objective
+别恐慌, 也别掉以轻心。受损, 往往不是外因多强大, 而是内因大意了。(Do not panic. Damage is often not because of powerful external cause, but internal causes.) 	Subjective 	Subjective 	Objective
+活了二十多年什么都赶上了, 多么悲催的一代人啊, 活的多坚强、勇敢啊！(What a sad generation, and how strong and brave we are!) 	Subjective 	Subjective 	Subjective
+
+Table I. Examples of subjectivity classification
+Table 	
+
+Table II. Examples of microblog corpora
+Content 	Data 	Region
+长 江死猪的危机,说明人离危机并不遥远!!– -上海安徽发生3例人感染H7N9禽流感确诊病例 2人死亡;国内外尚无针对H7N9禽流感病毒的疫苗。(The crisis of a dead pig in the Yangtze River shows that people are not far away from the crisis!!– - Shanghai and Anhui confirmed 3 cases of H7N9 avian influenza, two of them have died. Up to now, there is no vaccine at home or abroad.) 	2013.03.31 	Beijing
+改 吃素吧∼//@乎小妞Wendy: 天津MS 也有了。。。我去！//@时差Nyx:隐隐觉得不远了。。。//@头条新闻: 北京确诊首例人感染H7N9禽流感病例 (To be a vegetarian ∼//@ @乎小妞(Wendy: Tianjin also has cases OMG!//@时差Nyx: It feels not far away //@头条新闻: Beijing confirmed the first case of human infection with H7N9 avian influenza.) 	2013.04.13 	Beijing
+肥 西大草原这么危险//@新浪安徽:安徽又一例#H7N9禽流感#患者夏某, 男, 86岁, 肥西县人！ (Feixi prairie is so dangerous//@新浪安徽: Anhui has one more case of #H7N9 avian influenza patients #Xia, male, 86 years old, at Feixi county!) 	2014.03.12 	Anhui
+
+Table II. Examples of microblog corpora
+Table 	
+
+Table III. Diagrammatic map of metric calculations
+Class labels 	True results (manual annotation results)
+	1 	2 	3 	… 	n
+Classification results 	1 	a 11 	a 12 	a 13 	… 	a 1n
+2 	a 21 	a 22 	a 23 	… 	a 2n
+… 	… 	… 	… 	… 	…
+n 	a n1 	a n2 	a n3 	… 	a nn
+
+Table III. Diagrammatic map of metric calculations
+Table 	
+
+Table IV. Evaluation results of subjectivity classification performance
+N 	MacroRec 	MacroPre 	F 1 value
+≥1 	0.5392 	0.5339 	0.5365
+≥2 	0.5364 	0.5379 	0.5371
+≥3 	0.5233 	0.5199 	0.5216
+Note:
+
+Italics data mean optimal result of each metric
+
+Table IV. Evaluation results of subjectivity classification performance
+Table 	
+
+Table V. Numbers of annotated microblogs
+Emotions type 	Anger 	Fear 	Happiness 	Sadness 	Surprise
+Numbers of microblogs 	1,981 	480 	3,248 	1,162 	1,955
+
+Table V. Numbers of annotated microblogs
+Table 	
+
+Table VI. Five-fold cross-validation classification results
+Feature-weighting methods 	MacroRec 	MacroPre 	F 1 value
+TF-CHI 	0.9403 	0.8977 	0.9185
+TF-IDF 	0.9899 	0.9867 	0.9883
+TF-RF 	0.9958 	0.9959 	0.9958
+Note:
+
+Italics data mean optimal result of each metric
+
+Table VI. Five-fold cross-validation classification results
+Table 	
+
+Table VII. Top five sub-topics in H7N9 microblogs
+No. 	Topic labels 	Top five words 	No.
+1 	Vaccine development 	疫苗 跳水 基因 完成 临床 试验 (vaccine, diving, gene, complete, clinical trial) 	36,676
+2 	Virus infection and live poultry trade 	活禽 广东 春节 市场 人 病毒 (live poultry, Guangdong, Spring Festival, market, people, viruses) 	180,247
+3 	Rumour monitoring 	医生 戳 谣言 炸鸡 虚假 警方 (doctor, stamp, rumour, fried chicken, false, police) 	11,115
+4 	Case confirmation 	病例 人 确诊 新增 患者 感染 (case, people, diagnosis, newly added, patient, infected) 	49,185
+5 	H7N9 prevention 	接触 预防 图 避免 加强 (contact, prevention, map, avoid, strengthen) 	33,367
+
+Table VII. Top five sub-topics in H7N9 microblogs
+Table 	
+
+Table VIII. Correlation analysis of sub-topics and emotions
+Emotion type 	Topic1 	Topic2 	Topic3 	Topic4 	Topic5
+Anger 	0.824 	0.912 	0.840 	0.626 	0.862
+Fear 	0.700 	0.744 	0.827 	0.589 	0.670
+Happiness 	0.890 	0.846 	0.707 	0.692 	0.751
+Sadness 	0.758 	0.846 	0.796 	0.736 	0.685
+Surprise 	0.363 	0.451 	0.464 	0.648 	0.420
+Note:
+
+Italics data mean the highest correlation coefficients between emotions and topics in each column
+
+Table VIII. Correlation analysis of sub-topics and emotions
+References
+    1.
+    Abeywardena, I.S. ( 2014 ), “ Public opinion on OER and MOOC: a sentiment analysis of Twitter data ”, Proceedings of the International Conference on Open and Flexible Education, (ICOFE 2014) , Hong Kong SAR , pp. 1 - 6 . OpenURL UTFPR [Google Scholar]
+
+    2.
+    Blei, D.M. , Ng, A.Y. and Jordan, M.I. ( 2003 ), “ Latent Dirichlet allocation ”, The Journal of Machine Learning Research, Vol. 3, pp. 993 - 1022 . OpenURL UTFPR [Google Scholar]
+
+    3.
+    Cataldi, M. , Di Caro, L. and Schifanella, C. ( 2010 ), “ Emerging topic detection on Twitter based on temporal and social terms evaluation ”, Proceedings of the 10th International Workshop on Multimedia Data Mining , Washington, DC , pp. 1 - 10 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    4.
+    Chen, K.Y. , Luesukprasert, L. and Chou, S.C.T. ( 2007 ), “ Hot topic extraction based on timeline analysis and multidimensional sentence modeling ”, Proceedings of the IEEE Transactions on Knowledge & Data Engineering, Vol. 19 No. 8, pp. 1016 - 1025 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    5.
+    Chen, Y. , Amiri, H. , Li, Z. and Chua, T.S. ( 2013 ), “ Emerging topic detection for organizations from microblogs ”, Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval, ACM , New York, NY , pp. 43 - 52 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    6.
+    Cortes, C. and Vapnik, V. ( 1995 ), “ Support-vector networks ”, Machine Learning, Vol. 20 No. 3, pp. 273 - 297 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    7.
+    Deng, Z.H. , Tang, S.W. , Yang, D.Q. , Zhang, M. , Li, L.Y. and Xie, K.Q. ( 2004 ), “ A comparative study on feature weight in text categorization ”, Asia-Pacific Web Conference, Springer , Berlin/Heidelberg , pp. 588 - 597 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    8.
+    Gohr, A. , Hinneburg, A. , Schult, R. and Spiliopoulou, M. ( 2009 ), “ Topic evolution in a stream of documents ”, Proceedings of the Siam International Conference on Data Mining , Sparks, Nevada , pp. 859 - 872 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    9.
+    Hatzivassiloglou, V. and Wiebe, J.M. ( 2000 ), “ Effects of adjective orientation and gradability on sentence subjectivity ”, Proceedings of the 18th Conference on Computational Linguistics , pp. 299 - 305 , Saarbrücken . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    10.
+    Hoffman, M. , Bach, F.R. and Blei, D.M. ( 2010 ), “ Online learning for latent Dirichlet allocation ”, Advances in Neural Information Processing Systems 23 (NIPS 2010) , Vancouver, British Columbia , pp. 856 - 864 . OpenURL UTFPR [Google Scholar]
+
+    11.
+    Lan, M. , Tan, C.L. and Low, H.B. ( 2006 ), “ Proposing a new term weighting scheme for text categorization ”, Proceedings of the 21st National Conference on Artificial Intelligence , Boston, MA , pp. 763 - 768 . OpenURL UTFPR [Google Scholar]
+
+    12.
+    Li, W. and Xu, H. ( 2014 ), “ Text-based emotion classification using emotion cause extraction ”, Expert Systems with Applications, Vol. 41 No. 4, pp. 1742 - 1749 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    13.
+    Lin, C. and He, Y. ( 2009 ), “ Joint sentiment/topic model for sentiment analysis ”, Proceedings of the 18th ACM Conference on Information and Knowledge Management, ACM , New York, NY , pp. 375 - 384 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    14.
+    Mahata, D. and Agarwal, N. ( 2012 ), “ What does everybody know? Identifying event-specific sources from social media ”, Proceedings of the 4th International Conference on Computational Aspects of Social Networks , Sao Carlos , pp. 63 - 68 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    15.
+    Mei, Q. , Ling, X. , Wondra, M. , Su, H. and Zhai, C. ( 2007 ), “ Topic sentiment mixture: modeling facets and opinions in weblogs ”, Proceedings of the 16th International Conference on the World Wide Web , Banff, Alberta , pp. 171 - 180 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    16.
+    Ng, H.T. , Goh, W.B. and Low, K.L. ( 1997 ), “ Feature selection, perceptron learning, and a usability case study for text categorization ”, Proceedings of the ACM SIGIR Forum, ACM , New York, NY , pp. 67 - 73 . OpenURL UTFPR [Google Scholar]
+
+    17.
+    O’Connor, B. , Krieger, M. and Ahn, D. ( 2010b ), “ TweetMotif: exploratory search and topic summarization for Twitter ”, Proceedings of the Fourth International AAAI Conference on Weblogs and Social Media, The AAAI Press , Stroudsburg, PA , pp. 384 - 385 . OpenURL UTFPR [Google Scholar]
+
+    18.
+    O’Connor, B. , Balasubramanyan, R. , Routledge, B.R. and Smith, N.A. ( 2010a ), “ From tweets to polls: linking text sentiment to public opinion time series ”, Proceedings of the International Conference on Weblogs and Social Media , Washington, DC , pp. 122 - 129 . OpenURL UTFPR [Google Scholar]
+
+    19.
+    Purver, M. and Battersby, S. ( 2012 ), “ Experimenting with distant supervision for emotion classification ”, Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics , EACL , pp. 482 - 491 . OpenURL UTFPR [Google Scholar]
+
+    20.
+    Raaijmakers, S. and Kraaij, W. ( 2008 ), “ A shallow approach to subjectivity classification ”, Proceedings of the 2nd International Conference on Weblogs and Social Media , Seattle, WA , pp. 216 - 217 . OpenURL UTFPR [Google Scholar]
+
+    21.
+    Salton, G. and Buckley, C. ( 1988 ), “ Term-weighting approaches in automatic text retrieval ”, Information Processing & Management, Vol. 24 No. 5, pp. 513 - 523 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    22.
+    Salton, G. and McGill, M.J. ( 1986 ), Introduction to Modern Information Retrieval, McGraw-Hill , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    23.
+    Soler, J.M. , Cuartero, F. and Roblizo, M. ( 2012 ), “ Twitter as a tool for predicting elections results ”, Proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining , Istanbul , pp. 1194 - 1200 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    24.
+    Suttles, J. and Ide, N. ( 2013 ), “ Distant supervision for emotion classification with discrete binary values ”, International Conference on Intelligent Text Processing and Computational Linguistics, Springer , Berlin/Heidelberg , pp. 121 - 136 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    25.
+    Wang, X. , Wei, F. , Liu, X. , Zhou, M. and Zhang, M. ( 2011 ), “ Topic sentiment analysis in Twitter: a graph-based hashtag sentiment classification approach ”, Proceedings of the 20th ACM International Conference on Information and Knowledge Management, ACM , New York, NY , pp. 1031 - 1040 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    26.
+    Wen, S. and Wan, X. ( 2014 ), “ Emotion classification in microblog texts using class sequential rules ”, Proceedings of the 28th AAAI Conference on Artificial Intelligence, The AAAI Press , Stroudsburg, PA , pp. 187 - 193 . OpenURL UTFPR [Google Scholar]
+
+    27.
+    Wiebe, J.M. , Bruce, R.F. and O’Hara, T.P. ( 1999 ), “ Development and use of a gold-standard data set for subjectivity classifications ”, Proceedings of the 37th Annual Meeting of the Association for Computational Linguistics on Computational Linguistics, ACL , Stroudsburg, PA , pp. 246 - 253 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    28.
+    Xu, M. ( 2016 ), “ Research on microblogging public opinion forecast model based on exponential smoothing ”, China Public Security, Vol. 42, pp. 80 - 84 . OpenURL UTFPR [Google Scholar]
+
+    29.
+    Yang, C. , Lin, K.H.Y. and Chen, H.H. ( 2007a ), “ Emotion classification using web blog corpora ”, Proceedings of the International Conference on Web Intelligence , Silicon Valley, CA , pp. 275 - 278 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    30.
+    Yang, C. , Lin, K.H.Y. and Chen, H.H. ( 2007b ), “ Building emotion lexicon from weblog corpora ”, Proceedings of the 45th Annual Meeting of the ACL on Interactive Poster and Demonstration Sessions, ACL , Stroudsburg, PA , pp. 133 - 136 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    31.
+    Younus, A. , Qureshi, M.A. , Asar, F.F. and Azam, M. ( 2011 ), “ What do the average Twitterers say: a Twitter model for public opinion analysis in the face of major political events ”, Proceedings of the International Conference on Advances in Social Networks Analysis and Mining , Kaohsiung , pp. 359 - 367 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    32.
+    Zhu, C. , Zhu, H. , Ge, Y. , Chen, E. and Liu, Q. ( 2014 ), “ Tracking the evolution of social emotions: a time-aware topic modeling perspective ”, Proceedings of the 2014 IEEE International Conference on Data Mining, IEEE , Piscataway, NJ , pp. 697 - 706 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+Corresponding Author
+Section: Previous section
+
+Chengzhi Zhang can be contacted at: zhangcz@njust.edu.cn
+
+About the author(s)
+
+Qingqing Zhou, born in 1990, is a PhD Candidate. Her research interests include nature language processing and data mining.
+
+Chengzhi Zhang, born in 1977, is a PhD’d Professor. His research interests include information retrieval, information organization, text mining and nature language processing.
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (32)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+The Electronic Library
+ISSN: 0264-0473
+Online from: 1983
+Subject Area: Information & Knowledge Management , Library Studies
+
+    Current Issue
+    Available Issues
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Social Sciences
+Citation Index (SSCI)®
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    The effects of online service quality of e-commerce Websites on user satisfaction
+    The Western Library Network
+    Buttoning down the content explosion
+    All that glitters isn’t gold : The complexities of use statistics as an assessment tool for digital libraries
+    Enhancing literary electronic books with logical structure: electronic work
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    Elucidating user behavior of mobile learning : A perspective of the extended technology acceptance model
+    Scholarly communication and possible changes in the context of social media : A Finnish case study
+    Web of Science, Scopus and Google Scholar : A content comprehensiveness comparison
+    The impact of Social Networking 2.0 on organisations
+    Use of social networks for academic purposes: a case study
+
+See more>
+Find related content
+By Keyword
+
+    Correlation analysis
+    Emotion classification
+    Emotion evolution
+    Microblog mining
+    Sub-topic evolution
+    Sub-topic extraction
+
+By Author
+
+    Zhou Qingqing
+    Zhang Chengzhi
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor

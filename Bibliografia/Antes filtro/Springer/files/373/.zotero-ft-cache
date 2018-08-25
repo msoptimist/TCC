@@ -1,0 +1,226 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+January 2013 , Volume 26, Issue 1 , pp 57–97 | Cite as
+Regularized nonnegative shared subspace learning
+
+    Authors
+    Authors and affiliations
+
+    Sunil Kumar Gupta Email author
+    Dinh Phung
+    Brett Adams
+    Svetha Venkatesh
+
+    Sunil Kumar Gupta
+        1
+    Email author
+    Dinh Phung
+        1
+    Brett Adams
+        1
+    Svetha Venkatesh
+        1
+
+    1. Department of Computing Curtin University Perth Australia
+
+Article
+First Online: 16 November 2011
+Received: 10 January 2011
+Accepted: 24 October 2011
+
+    1k Downloads
+    14 Citations
+
+Abstract
+
+Joint modeling of related data sources has the potential to improve various data mining tasks such as transfer learning, multitask clustering, information retrieval etc. However, diversity among various data sources might outweigh the advantages of the joint modeling, and thus may result in performance degradations. To this end, we propose a regularized shared subspace learning framework, which can exploit the mutual strengths of related data sources while being immune to the effects of the variabilities of each source. This is achieved by further imposing a mutual orthogonality constraint on the constituent subspaces which segregates the common patterns from the source specific patterns, and thus, avoids performance degradations. Our approach is rooted in nonnegative matrix factorization and extends it further to enable joint analysis of related data sources. Experiments performed using three real world data sets for both retrieval and clustering applications demonstrate the benefits of regularization and validate the effectiveness of the model. Our proposed solution provides a formal framework appropriate for jointly analyzing related data sources and therefore, it is applicable to a wider context in data mining.
+Keywords
+Nonnegative shared subspace learning  Transfer learning  Auxiliary sources  Multi-task clustering 
+
+Responsible editor: Kristian Kersting.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Agarwal A, Daumé H III, Gerber S (2010) Learning multiple tasks using manifold regularization. In: Advances in neural information processing systems, vol 23, pp 46–54 Google Scholar
+    Ando R, Zhang T (2005) A framework for learning predictive structures from multiple tasks and unlabeled data. J Mach Learn Res 6: 1817–1853 MathSciNet MATH Google Scholar
+    Bae E, Bailey J (2006) Coala: a novel approach for the extraction of an alternate clustering of high quality and high dissimilarity. In: IEEE international conference on data mining, pp 53–62 Google Scholar
+    Baeza-Yates R, Ribeiro-Neto B (1999) Modern information retrieval. Addison-Wesley, Reading, MA Google Scholar
+    Baxter J (2000) A model of inductive bias learning. J Artif Intell Res 12: 149–198 MathSciNet MATH Google Scholar
+    Ben-David S, Schuller R (2003) Exploiting task relatedness for multiple task learning. In: 16th annual conference on computational learning theory, vol 2777, pp 567–580 Google Scholar
+    Berry M, Browne M (2005) Email surveillance using non-negative matrix factorization. Comput Math Organ Theory 11(3): 249–264 MATH CrossRef Google Scholar
+    Berry M, Browne M, Langville A, Pauca V, Plemmons R (2007) Algorithms and applications for approximate nonnegative matrix factorization. Comput Stat Data Anal 52(1): 155–173 MathSciNet MATH CrossRef Google Scholar
+    Bickel S, Scheffer T (2004) Multi-view clustering. In: Proceedings of the IEEE international conference on data mining, pp 19–26 Google Scholar
+    Blei D, Ng A, Jordan M (2003) Latent Dirichlet allocation. J Mach Learn Res 3: 993–1022 MATH Google Scholar
+    Boutsidis C, Gallopoulos E (2008) SVD based initialization: a head start for nonnegative matrix factorization. Pattern Recogn 41(4): 1350–1362 MATH CrossRef Google Scholar
+    Bucak S, Gunsel B (2007) Video content representation by incremental non-negative matrix factorization. ICIP 2: 113–116 Google Scholar
+    Cai D, He X, Han J (2007) Semi-supervised discriminant analysis. In: International conference on computer vision, pp 1–7 Google Scholar
+    Cai D, He X, Wu X, Han J (2008) Non-negative matrix factorization on manifold. IEEE international conference on data mining, pp 63–72 Google Scholar
+    Cai D, He X, Han J, Huang T (2011) Graph regularized non-negative matrix factorization for data representation. IEEE Trans Pattern Anal Mach Intell 33(8): 1548–1560 CrossRef Google Scholar
+    Caruana R (1997) Multitask learning. Mach Learn 28(1): 41–75 MathSciNet CrossRef Google Scholar
+    Chaudhuri K, Kakade S, Livescu K, Sridharan K (2009) Multi-view clustering via canonical correlation analysis. In: Proceedings of the 26th international conference on machine learning, pp 129–136 Google Scholar
+    Choi S (2008) Algorithms for orthogonal nonnegative matrix factorization. In: Proceedings of the international joint conference on neural networks, pp 1828–1832 Google Scholar
+    Cui Y, Fern X, Dy J (2007) Non-redundant multi-view clustering via orthogonalization. In: IEEE international conference on data mining. IEEE, pp 133–142 Google Scholar
+    Dai W, Jin O, Xue G, Yang Q, Yu Y (2009) Eigentransfer: a unified framework for transfer learning. ICML, pp 193–200 Google Scholar
+    Dempster A, Laird N, Rubin D et al (1977) Maximum likelihood from incomplete data via the EM algorithm. J R Stat Soc Ser B (Methodol) 39(1): 1–38 MathSciNet MATH Google Scholar
+    Ding C, Li T, Peng W, Park H (2006) Orthogonal nonnegative matrix tri-factorizations for clustering. In: Proceedings of the 12th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, pp 126–135 Google Scholar
+    Duda R, Hart P, Stork D (2001) Pattern classification, vol 2. Wiley-Interscience, New York Google Scholar
+    Gu Q, Zhou J (2009a) Learning the shared subspace for multi-task clustering and transductive transfer classification. In: IEEE international conference on data mining, pp 159–168 Google Scholar
+    Gu Q, Zhou J (2009b) Local learning regularized nonnegative matrix factorization. In: Proceedings of the 21st international joint conference on artificial intelligence, pp 1046–1051 Google Scholar
+    Gupta S, Phung D, Adams B, Tran T, Venkatesh S (2010) Nonnegative shared subspace learning and its application to social media retrieval. In: Proceedings of the 16th ACM SIGKDD international conference on knowledge discovery and data mining, pp 1169–1178 Google Scholar
+    Gupta S, Phung D, Adams B, Venkatesh S (2011a) A Bayesian framework for learning shared and individual subspaces from multiple data sources. In: Advances in knowledge discovery and data mining, 15th Pacific-Asia conference (PAKDD), pp 136–147 Google Scholar
+    Gupta SK, Phung D, Adams B, Venkatesh S (2011b) A matrix factorization framework for jointly analyzing multiple nonnegative data sources. In: Proceedings of text mining workshop, in conjuction with SIAM international conference on data mining Google Scholar
+    Hardoon D, Szedmak S, Shawe-Taylor J (2004) Canonical correlation analysis: an overview with application to learning methods. Neural Comput 16(12): 2639–2664 MATH CrossRef Google Scholar
+    Ji S, Tang L, Yu S, Ye J (2008) Extracting shared subspace for multi-label classification. In: Proceeding of the 14th ACM SIGKDD international conference on knowledge discovery and data mining, pp 381–389 Google Scholar
+    Jolliffe I (2002) Principle component analysis. Springer, Heidelberg Google Scholar
+    Kailing K, Kriegel H, Pryakhin A, Schubert M (2004) Clustering multi-represented objects with noise. In: Advances in knowledge discovery and data mining, 8th Pacific-Asia conference (PAKDD), pp 394–403 Google Scholar
+    Kim H, Park H (2008) Non-negative matrix factorization based on alternating non-negativity constrained least squares and active set method. SIAM J Matrix Anal Appl 30(2): 713–730 MathSciNet MATH CrossRef Google Scholar
+    Langville A, Meyer C, Albright R, Cox J, Duling D (2006) Initializations for the nonnegative matrix factorization. In: Proceedings of the 12th ACM SIGKDD international conference on knowledge discovery and data mining Google Scholar
+    Lee D, Seung H (2001) Algorithms for non-negative matrix factorization. Adv Neural Inform Process Syst 13: 556–562 Google Scholar
+    Li T, Ma S, Ogihara M (2004) Document clustering via adaptive subspace iteration. In: Proceedings of the 27th international ACM SIGIR conference on research and development in information retrieval, pp 218–225 Google Scholar
+    Lin C (2007) Projected gradient methods for nonnegative matrix factorization. Neural Comput 19(10): 2756–2779 MathSciNet MATH CrossRef Google Scholar
+    Lin Y, Sundaram H, De Choudhury M, Kelliher A (2009) Temporal patterns in social media streams: theme discovery and evolution using joint analysis of content and context. In: IEEE international conference on multimedia and expo, pp 1456–1459 Google Scholar
+    Lovász L, Plummer M (1986) Matching theory. Elsevier, Amsterdam MATH Google Scholar
+    Manning C, Raghavan P, Schütze H (2008) Introduction to information retrieval. Cambridge University Press, Cambridge MATH CrossRef Google Scholar
+    Mardia KV, Bibby JM, Kent JT (1979) Multivariate analysis. Academic, New York MATH Google Scholar
+    Niu D, Dy J, Jordan M (2010) Multiple non-redundant spectral clustering views. In: Proceedings of the 27th international conference on machine learning, pp 831–838 Google Scholar
+    Pan S, Yang Q (2008) A survey on transfer learning. Technical Report HKUST-CS08-08. Department of Computer Science and Engineering, HKUST, Hong Kong Google Scholar
+    Qi Z, Davidson I (2009) A principled and flexible framework for finding alternative clusterings. In: Proceedings of the 15th ACM SIGKDD international conference on knowledge discovery and data mining, pp 717–726 Google Scholar
+    Rui Y, Huang T (2000) Optimizing learning in image retrieval. In: Proceedings of the IEEE conference on computer vision and pattern recognition. Published by the IEEE Computer Society, pp 236–243 Google Scholar
+    Salton G, Buckley C (1988) Term-weighting approaches in automatic text retrieval. Inform Process Manag 24(5): 513–523 CrossRef Google Scholar
+    Shi J, Malik J (2000) Normalized cuts and image segmentation. IEEE Trans Pattern Anal Mach Intell 22(8): 888–905 CrossRef Google Scholar
+    Si S, Tao D, Geng B (2009) Bregman divergence based regularization for transfer subspace learning. IEEE Trans Knowl Data Eng 22(7): 929–942 CrossRef Google Scholar
+    Thrun S (1996) Is learning the n-th thing any easier than learning the first? In: Advances in neural information processing systems, pp 640–646 Google Scholar
+    Wild S, Curry J, Dougherty A (2004) Improving non-negative matrix factorizations through structured initialization. Pattern Recogn 37(11): 2217–2232 CrossRef Google Scholar
+    Wiswedel B, Höppner F, Berthold M (2010) Learning in parallel universes. Data Min Knowl Disc 21(1): 130–152 CrossRef Google Scholar
+    Xu W, Liu X, Gong Y (2003) Document clustering based on non-negative matrix factorization. In: Proceedings of the 26th international ACM SIGIR conference on research and development in information retrieval. ACM, New York, NY, pp 267–273 Google Scholar
+    Yan R, Tesic J, Smith J (2007) Model-shared subspace boosting for multi-label classification. In: Proceedings of the 13th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, pp 834–843 Google Scholar
+    Yang T, Jin R, Jain A, Zhou Y, Tong W (2010) Unsupervised transfer classification: application to text categorization. In: Proceedings of the 16th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, pp 1159–1168 Google Scholar
+    Yu K, Zhu S, Lafferty J, Gong Y (2009) Fast nonparametric matrix factorization for large-scale collaborative filtering. In: Proceedings of the 32nd international ACM SIGIR conference on research and development in information retrieval, pp 211–218 Google Scholar
+    Zhang J, Zhang C (2011) Multitask Bregman clustering. Neurocomputing 74(10): 1720–1734 CrossRef Google Scholar
+    Zhou D, Bousquet O, Lal T, Weston J, Schölkopf B (2004) Learning with local and global consistency. Adv Neural Inform Process Syst 16: 595–602 Google Scholar
+    Zhuang F, Luo P, Shen Z, He Q, Xiong Y, Shi Z, Xiong H (2010) Collaborative dual-plsa: mining distinction and commonality across multiple domains for text classification. CIKM, pp 359–368 Google Scholar
+
+Copyright information
+© The Author(s) 2011
+About this article
+
+Cite this article as:
+    Gupta, S.K., Phung, D., Adams, B. et al. Data Min Knowl Disc (2013) 26: 57. https://doi.org/10.1007/s10618-011-0244-8
+
+    DOI https://doi.org/10.1007/s10618-011-0244-8
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Regularized nonnegative shared subspace learning
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

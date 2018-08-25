@@ -1,0 +1,274 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+November 2011 , Volume 23, Issue 3 , pp 447–478 | Cite as
+Leveraging social media networks for classification
+
+    Authors
+    Authors and affiliations
+
+    Lei Tang Email author
+    Huan Liu
+
+    Lei Tang
+        1
+    Email author
+    Huan Liu
+        2
+
+    1. Advertising Sciences Yahoo! Labs Santa Clara USA
+    2. Computer Science and Engineering Arizona State University Tempe USA
+
+Article
+First Online: 14 January 2011
+Received: 10 August 2009
+Accepted: 15 December 2010
+
+    2 Shares
+    1.3k Downloads
+    57 Citations
+
+Abstract
+
+Social media has reshaped the way in which people interact with each other. The rapid development of participatory web and social networking sites like YouTube, Twitter, and Facebook, also brings about many data mining opportunities and novel challenges. In particular, we focus on classification tasks with user interaction information in a social network. Networks in social media are heterogeneous, consisting of various relations. Since the relation-type information may not be available in social media, most existing approaches treat these inhomogeneous connections homogeneously, leading to an unsatisfactory classification performance. In order to handle the network heterogeneity, we propose the concept of social dimension to represent actors’ latent affiliations, and develop a classification framework based on that. The proposed framework, SocioDim, first extracts social dimensions based on the network structure to accurately capture prominent interaction patterns between actors, then learns a discriminative classifier to select relevant social dimensions. SocioDim, by differentiating different types of network connections, outperforms existing representative methods of classification in social media, and offers a simple yet effective approach to integrating two types of seemingly orthogonal information: the network of actors and their attributes.
+Keywords
+Social media  Social network analysis  Relational learning  Within-network classification  Collective inference 
+
+Responsible editor: Johannes Gehrke.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    1.
+    Airodi EM, Blei D, Fienberg SE, Xing EP (2008) Mixed membership stochastic block models. J Mach Learn Res 9: 1981–2014 Google Scholar
+    2.
+    Almack JC (1922) The influence of intelligence on the selection of associates. Sch Soc 16: 529–530 Google Scholar
+    3.
+    Bott H (1928) Observation of play activities in a nursery school. Genet Psychol Monogr 4: 44–88 Google Scholar
+    4.
+    Chakrabarti D, Faloutsos C (2006) Graph mining: laws, generators, and algorithms. ACM Comput Surv 38(1): 2 CrossRef Google Scholar
+    5.
+    Chakrabarti S, Dom B, Indyk P (1998) Enhanced hypertext categorization using hyperlinks. In: SIGMOD ’98: proceedings of the 1998 ACM SIGMOD international conference on management of data. ACM, New York, NY, USA, pp 307–318 Google Scholar
+    6.
+    Chang E, Zhu K, Wang H, Bai H, Li J, Qiu Z, Cui H (2007) Psvm: parallelizing support vector machines on distributed computers. Adv Neural Inf Process Syst 20: 1081–1088 Google Scholar
+    7.
+    Chen G, Wang F, Zhang C (2008) Semi-supervised multi-label learning by solving a sylvester equation. In: Proceedings of the SIAM international conference on data mining, Bethesda, MD, USA, pp 410–419 Google Scholar
+    8.
+    Chen W-Y, Song Y, Bai H, Lin C-J, Chang EY (2010) Parallel spectral clustering in distributed systems. IEEE Trans Pattern Anal Mach Intell 99 Google Scholar
+    9.
+    Fan R-E, Lin C-J (2007) A study on threshold selection for multi-label classication. Technical report, National Taiwan University Google Scholar
+    10.
+    Fiore AT, Donath JS (2005) Homophily in online dating: when do you like someone like yourself?. In: CHI ’05: CHI ’05 extended abstracts on human factors in computing systems. ACM, New York, NY, USA, pp 1371–1374 Google Scholar
+    11.
+    Fortunato S, Barthelemy M (2007) Resolution limit in community detection. PNAS 104(1): 36–41 CrossRef Google Scholar
+    12.
+    Gallagher B, Tong H, Eliassi-Rad T, Faloutsos C (2008) Using ghost edges for classification in sparsely labeled networks. In: KDD ’08: proceeding of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, NY, USA, pp 256–264 Google Scholar
+    13.
+    Geman S, Geman D (1990) Stochastic relaxation, gibbs distributions, and the bayesian restoration of images, San Francisco, CA, USA, pp 452–472 Google Scholar
+    14.
+    Getoor L, Taskar B (Eds) (2007) Introduction to statistical relational learning. The MIT Press, London, England Google Scholar
+    15.
+    Golub GH, Van Loan CF (1996) Matrix computations. 3. Johns Hopkins University Press, Baltimore MATH Google Scholar
+    16.
+    Graf H, Cosatto E, Bottou L, Dourdanovic I, Vapnik V (2005) Parallel support vector machines: the cascade svm. Adv Neural Inf Process Syst 17(521-528): 2 Google Scholar
+    17.
+    Handcock MS, Raftery AE, Tantrum JM. (2007) Model-based clustering for social networks. J R Stat Soc A 127(2): 301–354 MathSciNet CrossRef Google Scholar
+    18.
+    Hoff PD, Raftery AE, Handcock MS (2002) Latent space approaches to social network analysis. J A Stat Assoc 97(460): 1090–1098 MathSciNet MATH CrossRef Google Scholar
+    19.
+    Hopcroft J, Khan O, Kulis B, Selman B (2003) Natural communities in large linked networks. In: KDD ’03: proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, NY, USA, pp 541–546 Google Scholar
+    20.
+    Jensen D, Neville J, Gallagher B (2004) Why collective inference improves relational classification. In: KDD ’04: proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, NY, USA, pp 593–598 Google Scholar
+    21.
+    Kondor RI, Lafferty J (2002) Diffusion kernels on graphs and other discrete structures. In: ICML, New York, NY, USA Google Scholar
+    22.
+    Kumar R, Novak J, Tomkins A (2006) Structure and evolution of online social networks. In: KDD ’06: proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, NY, USA, pp 611–617 Google Scholar
+    23.
+    Leskovec J, Lang KJ, Dasgupta A, Mahoney MW (2008) Statistical properties of community structure in large social and information networks. In: WWW ’08: proceeding of the 17th international conference on world wide web. ACM, New York, NY, USA, pp 695–704 Google Scholar
+    24.
+    Leskovec J, Lang KJ, Mahoney M (2010) Empirical comparison of algorithms for network community detection. In: WWW ’10: proceedings of the 19th international conference on World wide web. ACM, New York, NY, USA, pp 631–640 Google Scholar
+    25.
+    Liu Y, Jin R, Yang L (2006) Semi-supervised multi-label learning by constrained non-negative matrix factorization. In: AAAI, Orlando, FL, USA Google Scholar
+    26.
+    Lu Q, Getoor L (2003) Link-based classification. In: ICML: New York, NY, USA Google Scholar
+    27.
+    Luxburg Uv (2007) A tutorial on spectral clustering. Stat Comput 17(4): 395–416 MathSciNet CrossRef Google Scholar
+    28.
+    Macskassy SA, Provost F (2003) A simple relational classifier. In: Proceedings of the multi-relational data mining workshop (MRDM) at the ninth ACM SIGKDD international conference on knowledge discovery and data mining, ACM Press, New York, NY, USA Google Scholar
+    29.
+    Macskassy SA, Provost F (2007) Classification in networked data: a toolkit and a univariate case study. J Mach Learn Res 8: 935–983 Google Scholar
+    30.
+    McPherson M, Smith-Lovin L, Cook JM (2001) Birds of a feather: homophily in social networks. Annu Rev Sociol 27: 415–444 CrossRef Google Scholar
+    31.
+    Menon AK, Elkan C (2010) Predicting labels for dyadic data. Data Min Knowl Discov 21(2): 327–343 CrossRef Google Scholar
+    32.
+    Neville J, Jensen D (2005) Leveraging relational autocorrelation with latent group models. In: MRDM ’05: proceedings of the 4th international workshop on Multi-relational mining. ACM, New York, NY, USA, pp 49–55 Google Scholar
+    33.
+    Newman M (2006) Finding community structure in networks using the eigenvectors of matrices. Phys Rev E Stat Nonlin Soft Matter Phys 74(3) Google Scholar
+    34.
+    Newman M (2006) Modularity and community structure in networks. PNAS 103(23): 8577–8582 CrossRef Google Scholar
+    35.
+    Nowicki K, Snijders TAB (2001) Estimation and prediction for stochastic blockstructures. J Am Stat Assoc 96(455): 1077–1087 MathSciNet MATH CrossRef Google Scholar
+    36.
+    Sarkar P, Moore AW (2005) Dynamic social network analysis using latent space models. SIGKDD Explor Newsl 7(2): 31–40 CrossRef Google Scholar
+    37.
+    Sen P, Namata G, Bilgic M, Getoor L, Galligher B, Eliassi-Rad T (2008) Collective classification in network data. AI Mag 29(3): 93 Google Scholar
+    38.
+    Shi J, Malik J (1997) Normalized cuts and image segmentation. In: CVPR ’97: proceedings of the 1997 conference on computer vision and pattern recognition (CVPR ’97). IEEE Computer Society, Washington, DC, USA, pp 731 Google Scholar
+    39.
+    Tang L, Liu H (2009a) Relational learning via latent social dimensions. In: KDD ’09: proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, NY, USA, pp 817–826 Google Scholar
+    40.
+    Tang L, Liu H (2009b) Scalable learning of collective behavior based on sparse social dimensions. In: CIKM ’09: proceeding of the 18th ACM conference on Information and knowledge management. ACM, New York, NY, USA, pp 1107–1116 Google Scholar
+    41.
+    Tang L, Liu H (1996) Community detection and mining in social media. Synthesis lectures on data mining and knowledge discovery. Morgan and Claypool Publishers, USA Google Scholar
+    42.
+    Tang L, Rajan S, Narayanan VK (2009) Large scale multi-label classification via metalabeler. In: WWW ’09: proceedings of the 18th international conference on world wide web. New York, NY, USA, pp 211–220 Google Scholar
+    43.
+    Taskar B, Abbeel P, Koller D (2002) Discriminative probabilistic models for relational data. In: UAI, Edmonton, Canada, pp 485–492 Google Scholar
+    44.
+    Taskar B, Segal E, Koller D (2001) Probabilistic classification and clustering in relational data. In: IJCAI’01: proceedings of the 17th international joint conference on artificial intelligence. Morgan Kaufmann Publishers Inc, San Francisco, CA, USA, pp 870–876 Google Scholar
+    45.
+    Thelwall M (2009) Homophily in myspace. J Am Soc Inf Sci Technol 60(2): 219–231 CrossRef Google Scholar
+    46.
+    Travers J, Milgram S (1969) An experimental study of the small world problem. Sociometry 32(4): 425–443 CrossRef Google Scholar
+    47.
+    Tsoumakas G, Katakis I (2007) Multi label classification: an overview. Int J Data Wareh Min 3(3): 1–13 CrossRef Google Scholar
+    48.
+    Tsuda K, Noble WS (2004) Learning kernels from biological networks by maximizing entropy. Bioinformatics 20: 326–333 CrossRef Google Scholar
+    49.
+    Wasserman S, Faust K (1994) Social network analysis: methods and applications. Cambridge University Press, Cambridge Google Scholar
+    50.
+    Wellman B (1926) The school child’s choice of companions. J Edu Res 14: 126–132 Google Scholar
+    51.
+    Xu Z, Tresp V, Yu S, Yu K (2008) Nonparametric relational learning for social network analysis. In: KDD’2008 workshop on social network mining and analysis, Las Vegas, NV, USA Google Scholar
+    52.
+    Zha H, He X, Ding CHQ, Gu M, Simon HD. (2001) Spectral relaxation for k-means clustering. In: NIPS, Vancouver, Canada, pp 1057–1064 Google Scholar
+    53.
+    Zhou D, Bousquet O, Lal T, Weston J, Scholkopf B (2004) Learning with local and global consistency. In: Advances in neural information processing systems 16: proceedings of the 2003 conference. Bradford Book, Cambridge, pp 321 Google Scholar
+    54.
+    Zhu X (2006) Semi-supervised learning literature survey. MIT Press, Cambridge, USA Google Scholar
+    55.
+    Zhu X, Ghahramani Z, Lafferty J (2003) Semi-supervised learning using gaussian fields and harmonic functions. In: ICML, New York, NY, USA Google Scholar
+
+Copyright information
+© The Author(s) 2011
+About this article
+
+Cite this article as:
+    Tang, L. & Liu, H. Data Min Knowl Disc (2011) 23: 447. https://doi.org/10.1007/s10618-010-0210-x
+
+    DOI https://doi.org/10.1007/s10618-010-0210-x
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Leveraging social media networks for classification
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

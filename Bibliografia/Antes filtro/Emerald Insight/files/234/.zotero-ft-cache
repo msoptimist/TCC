@@ -1,0 +1,502 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    Journal of Cultural Heritage Management and Sustainable Development
+    Volume 7, Issue 2
+    Spatial identity (re)constructed from web-sourced imagery
+
+
+Spatial identity (re)constructed from web-sourced imagery: Comparing expert opinion with quantitative query
+
+Author(s):
+    Matevz Juvancic , (Faculty of Architecture, University of Ljubljana , Ljubljana, Slovenia )
+    Spela Verovsek , (Faculty of Architecture, University of Ljubljana , Ljubljana, Slovenia )
+    ...Show all authors 
+
+Single Sentence Summary:
+
+    A research on the spatial identity's formulation from web-sourced imagery seeks wider relevance through the development of new methodology that combines web search services, visual data quantification, and data mining methods, and compares this with an expert opinion.
+Abstract:
+    Purpose
+
+    Spatial identity is an important constituent of general cultural identity in that it provides its share of continuity, sustainability, character and inertia. The purpose of this paper is to trace spatial identity’s formulation, reflection and perception within the mainstream media. The authors are particularly interested in spatial identity’s general aspect, consisting of architectural and other elements that give spatial character to places, making them both common and recognisable at the same time. The proposed spatial identity presence index is one of the indicators through which stakeholders in cultural heritage management could monitor, and even manage, the public perception of built heritage’s wider context.
+    Design/methodology/approach
+
+    The research seeks wider relevance through the development of new methodology that combines web search services, visual data quantification, and data mining methods, and compares this with expert opinion. The research methodology is showcased and established in terms of the connection between the fundamental work in relation to Slovenian architectural landscapes from the pre-internet era and spatial identity’s web reflection as broadcast and collectively co-shaped by the internet-permeated society more than 20 years after the internet’s inception.
+    Findings
+
+    The findings indicate that results based on expert opinion and results acquired by counting spatial character carrier elements are aligned.
+    Originality/value
+
+    The introduced index of web-sourced spatial identity presence measures web-projected spatial characteristics in selected settlements. It is applicable in similar cases where the existing body of work on local spatial identity allows it, and can be used for comparative purposes. It also has social, economic and political connotations.
+Keywords:
+    Cultural heritage , Cultural sustainability , Cultural tourism , Spatial character , Spatial identity management , Web-sourced imagery 
+Type:
+    Research paper 
+Publisher:
+    Emerald Publishing Limited 
+Received:
+    07 June 2016
+Revised:
+    24 January 2017
+Accepted:
+    23 March 2017
+Copyright:
+    © Emerald Publishing Limited 2017
+    Published by Emerald Publishing Limited
+    Licensed re-use rights only 
+Citation:
+    Matevz Juvancic , Spela Verovsek , (2017) "Spatial identity (re)constructed from web-sourced imagery: Comparing expert opinion with quantitative query", Journal of Cultural Heritage Management and Sustainable Development , Vol. 7 Issue: 2, pp.193-207, https://doi.org/10.1108/JCHMSD-06-2016-0035 
+Downloads:
+    The fulltext of this document has been downloaded 59 times since 2017
+Article
+1.Introduction
+Section: Next section
+
+The research at hand surveys the web search hits of visual material cross-references and correlates this with existing spatial, census and other collected data to establish web-sourced reflection of popular opinion in relation to the tangible, mostly architectural and urban, spatial identities of selected towns in Slovene Istria. In addition, it subdivides this into recognisable and, analytically meaningful, predominantly architectural elements that can be isolated from the surveyed images; element occurrence is then quantified, weighted and correlated to other data, such as settlement and municipality population, i.e. density, number of tourist visits, built cultural heritage inventories, etc. On this basis, we are able to make comparative studies of different settlements, comparing their web-sourced spatial identity presence and the potential discrepancies in terms of expert opinion. It is also possible to study Istrian towns comparatively in terms of spatial identity significance, and discuss its influence on marketing image, economic exploitation, spatial development, resident quality of life compared to tourist satisfaction and so on.
+
+For this purpose, a new and specific method has been developed that merges methods from big data mining, image survey and object recognition, spatial data inquiry with statistical, field-specific methods.
+
+We are particularly interested in spatial identity’s formulation, reflection and perception in the minds of the general public or, to put it another way, spatial identity’s reflection in mainstream culture [1] . Instead of conventional surveys where respondents might or might not answer truthfully [2] , we decided to poll opinion through indirect, but none-the-less relevant, means. Surveying web-based content, particularly singling out semi-structured, meta-tagged ( Csurka and Pastra, 2009 ) visual content, we collected an extensive and useful pool of data in relation to spatial identity and character, and then applied our unconventional, but no less meaningful, analytical methodology ( Plate 1 ).
+
+There are certain characteristics that act in favour of such social media-based analysis. It could be said that web content in general reflects the society the content is related to [3] , its cultural norms and values, cultural and spatial identity being no exceptions. This assumption is founded on several other assumptions, including the fact that content is mostly user created in terms of supply- and demand-driven behaviour ( van Cuilenburg, 2007 , p. 42). The same behaviour can be observed in web-based search engines where hit hierarchy and cross-linking are similarly demand and visit driven. The content provided by users in terms of quality and quantity – search enquiry, recurrence and frequency – create and reflect perception. Create in the sense that what we find shapes our knowledge of the topic searched; we additionally create the knowledge of what there is to be found in relation to said topic, and opinion as to what the searched term or phrase represents. We learn what under this term others came to find. It has been searched and refined again and again, through numerous search cycles, effectively creating a crowd-sourced definition of the term we have searched. In our case, such a definition is literally visual, because we sift through visual material. Our definition is also rooted in each particular locality’s spatial identity.
+1.1Spatial identity, streets and images
+
+Much has been written about spatial identity, and it is not our intention to delve into the topic itself beyond what is necessary for the clarification of our starting point and attitude towards the topic. Butina Watson and Bentley (2007) do not deny that spatial identity is a notoriously loose and elusive term but rather seek its value in this looseness. The identity is also often associated with diametrically opposed characteristics denoting individuality and commonality. Collective general identity is integral and unifying ( Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah, 1993 ), establishing common ground and shared values; it is oriented towards continuity, and passed on and shared through generations. The individual identity aims to discern ( Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah, 1993 ) and make something particular and different, be it a building, authorship, a work of art, etc. Both are relevant and essential to spatial identity’s constitution. However, we will deal with the first, broader, collective aspect.
+
+The recurring elements that contribute to the wider and general sense of spatial identity, or character [4] , with which we recognise and distinguish places – region, settlement, townscape, landscape character – are usually defined in terms of type and most common occurrence: shape, colour, frequency, material, etc. combinations thereof. Their perception and internalisation by non-experts is not as straightforward as it is with declared monuments ( Tweed and Sutherland, 2007 ). As they are defined by type rather than uniqueness, they are more prone to different, sometimes unfavourable, interpretations, and are often less recognisable in their numerous variations. Their recurrence also makes them, in terms of public opinion, less endangered and, pursuant to their commonality, less valuable. Why protect all if one can easily be missed? The experts disagree. Such elements are part of material culture and built heritage, and significantly contribute to the elusive notion of spatial identity ( Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah, 1993 ). It is usually the combination of these elements that creates the character of a given place and distinguishes one from another. Urban scenes in Paris can be distinguished from urban scenes in London by such particular, but also common elements without the need for famous monuments in them ( Doersch et al. , 2012 ).
+
+Mourato and Mazzanti (2002 , p. 63) found that “valuation studies have invariably uncovered large average values among the lay public for cultural assets. Cultural heritage seems to be an important part of people’s lives and, accordingly, they are willing to trade off some of their limited income to access and protect it”. Spatial character is not always listed as cultural heritage, nor is its acceptance by the general public guaranteed.
+
+Although the lay public usually cherishes spatial character, this alone does not lead to consensus between experts and non-experts on its value. Several conditions need to be met for a generic [5] , architectural element, building type, streetscape, or landscape to be identified as being meaningfully and equally valuable to experts and lay populations [6] alike. Even if value is agreed, the category in which it falls in terms of individual, hierarchical values may vary greatly. These variations are reflected in the attitudes and actions of the lay public and are at their most obvious when investors intervene in ways deemed damaging to spatial identity by experts; investors do not see their actions as such. Behind these actions lie not only ignorant, unsentimental attitudes, but also the complexity of factors which affect decision making, for example, everyday needs outweighing the sentimental value of heritage elements when juxtaposed, more urgent matters regarding functionality, energy efficiency, maintenance ease, renewal cost and contemporary, consumer-driven trends.
+
+Rather than redefining spatial identity, we would like to connect it to concrete landscape, urban, architectural and other characteristic elements occurring on urban streets.
+
+The use of the term spatial identity itself can be, at times, counterproductive, being too tightly interwoven with built cultural heritage’s aura, its specific regulations and restricted approach. Such connection drives everything associated with this term in a domain where something is as it is and must not be changed, leading away from a looser and collective interpretation of our surroundings as something that continuously and collectively evolves within certain, although unwritten, parameters. Tweed and Sutherland (2007) discuss this issue when trying to define what built cultural heritage is. Their less exclusive, less purist, more tolerant view, in terms of built elements that are not necessarily listed and protected by the law, includes elements that would traditionally be left out of the heritage debate, elements which significantly contribute to specific urban characters. We also identify with the interdisciplinary evaluation approach proposed by Vodopivec et al. (2015) [7] .
+
+Rautenberg (1998) , as quoted by Dupagne et al. (2004) , suggests two categories of how built artefacts can achieve cultural heritage status, and calls these “heritage by designation” or heritage by appropriation”. The latter emerges through use and public behaviour, that is, through the growing democratisation of culture in which citizens play a much larger part in determining what is considered cultural ( Tweed and Sutherland, 2007 ). While the listed elements of cultural heritage by designation are indisputably part of spatial identity’s framework, they celebrate an expert sanctioned perspective on values predominantly associated with conservation. In this light, historic urban landscape recommendation [8] is shifting attention beyond individual monuments towards development in terms of human and cultural resources, whilst also addressing the need to incorporate urban heritage values into city management frameworks. In the past, informal, vernacular settlement “design” and vernacular architecture managed natural ( Aves Caballero, 2016 ) and cultural resources efficiently and used them to their advantage, and through this produced the unique spatial identity and cultural landscape that we cherish today.
+
+Cultural landscape character and built environment character are more appropriate and less intimidating terms, and include all practices which make a place recognisable and distinguishable from another, the practises deemed positive and those also frowned upon by experts. We use these two terms interchangeably to foster more a frequent utilisation of the term “spatial character”.
+
+The combination of architectural landscape [9] as defined by Fister, Boh-Pecnik, Deu, and Lah (1993 , p. 229) and broader cultural and spatial identity definitions is relevant for the extraction of regional, collective and general, rather than particular, town-specific identifiers, e.g. individual monuments, significant buildings, etc. Visitors and inhabitants alike perceive the urban environment experientially, through motion, in sequence, from a personal point of view, and within limits set by their receptive apparatus (e.g. Cullen, 1971 ). While the squares, harbours, monuments, fountains, churches and other specific buildings remain popular motives for tourist photography and are strong carriers of a particular place’s identity where the monument recognition of Amato et al. (2015) can be applied, there are the anonymous streets that convey a common, wider, less place-specific, but also, for the purposes of this study, more comparable and equalizing spatial identity in terms of these localities. Streets are numerous, their length significant, their fields of view limited [10] , their space constrained, their size and height measurable, their elements visible and countable. In terms of the visual material we surveyed, street-level observation offered additional benefit: tourists flock to and around monuments, documenting them from the most popular viewpoints, creating a large number of similar images, neglecting context; whilst streets with less specific attractors, on the other hand, tend to disperse tourists and spread photographic documentation more evenly. The street thus played a central role in our comparative survey.
+1.2Visual data and web-based big data management
+
+The term big data denotes big data sets in different formats. Big data analytics is usually applied to examine such data sets to uncover patterns, correlations and trends, and is most often related to numbers and text. In 2015, between two and three trillion photographs were uploaded to the internet through social media and messaging applications ( Rutkin, 2016 ). Such a pool of visual data offers enormous potential for data mining for social research purposes. In relation to visual data sets, data mining gets complicated, because data need to be understood and recognised by the computer and translated into quantifiable forms for further analysis. There are many successful reports based on research using big visual data sets targeting space and space use-related questions. Google Street View has been used for the social observation of children’s neighbourhoods ( Odgers et al. , 2013 ), Instagram data have been mined for social behaviour and city dynamics within the urban environment ( Hochman and Manovich, 2013 ) and on a more closely related topic, Doersch et al. (2012) sifted through big visual data for cities’ visual identities. The research at hand made use of some of the principles of big data management and mining, using search engine results pertaining to visual material, but refrained from using automation when sifting and evaluating visual material. Big data analytics was reintroduced in the stages after visual material quantification to look for correlation using computer learning tools, etc.
+2.Materials and methods
+Section: Previous section Next section
+2.1Spatial identity’s specific elements in Istrian towns
+
+For research purposes, we have drawn extensively on the fundamental work of Fister, Boh-Pecnik, Deu, and Lah (1993) and Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah (1993) who inventoried cultural landscapes, the settlement and architectural characteristics constituting different, predominantly geographically bound, spatial identities [11] , in Slovenia. His team identified 74 basic architectural landscapes and additionally isolated 240 typical elements by which they are recognised and distinguished; these elements ranging from large settlements to individual, smaller parts of buildings. We have limited our survey to the Karst-coastal architectural region ( Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah, 1993 ).
+
+This region has been selected pursuant to its strong, particular and distinctive spatial character [12] that, in combination with its closeness to the coast, attracts visitors from abroad. In addition to being more discernible and familiar to a wider community, it shares and bares many of the spatial characteristics of the broader Adriatic region, which make it relevant beyond our national borders in the north-eastern part of the Mediterranean ( Figure 1 ).
+
+Pursuant to the typical elements found in our preliminary photographic survey, we have traced the following [13] : buildings form narrow streets (N.3.3.2.4); “korec” clay shingle contributes to the wavy, jutting roof lines (S.3.2.2.4); figural balconies (S.4.1.2); outdoor stone staircases (S.4.1.3); figural chimneys (S.4.1.7); stone entrance portals (S.4.2.1.2); emphasised stone door frames (S.4.2.1.3), courtyard portals (S.4.2.1.4); emphasised stone, often figural, window frames (S.4.2.2.3); wooden shutters (S.4.2.3); architectural detail in stone (S.4.3.1.2); sculptural stonecutting detail (S.4.3.3.1); and iron window grills (S.4.3.4). To these, we have added additional, observed characteristics: two-to-four-storey buildings; shallow jutting roofs; colourful and stone clad facades; stone pavements; arched passages and passage ways; creeper and potted greenery; and panier laundry drying ( Table I ).
+
+These elements were used to assess expert judgement and professional sensitivity in terms of spatial identity being read in images in contrast to it being read in quantified data. A higher element presence incidence should correspond with the image being classified as conveying spatial identity or typical character [14] .
+2.2Selection of localities
+
+The localities selected for the survey within the aforementioned regions were selected with regard to their centrality [15] . All settlements assigned level two or higher in relation to centrality ( Benkovic Krasevec, 2006 ) were included: Dutovlje; Sezana; Divaca; Hrpelje-Kozina; Ankaran; Koper; Izola; Piran and Portoroz-Lucija. These settlements vary in size, inhabitant number, and listed heritage and tourist visits [16] , and these factors are accounted for in our analysis.
+2.3Methodology, assumptions and calculations
+
+The method used a common web-based image search engine [17] and analysed the first 50 search results [18] ; hits were captured utilising ImageQuilts [19] software for the purpose of documentation. Images not depicting the external environment were eliminated (e.g. portraits, maps and interiors). At the first stage, the number of images conveying a location’s spatial identity were compared with those which did not; expert opinion quantification was carried out by an expert panel [20] and numbers recorded ( Plate 2 ).
+
+At the second stage, the same images were used, but this time-specific elements were traced on each image and marked in the table as either present or not present. The number of occurrences of the same type of element was not recorded, e.g. if figural balconies appeared three times in the same photograph, they were marked only as present and not as present three times. The sum of all typical elements present per image was calculated. The image is considered to convey typical spatial identity if ten or more of the listed elements are present. The number of expert-picked images is then compared to the above-described number of images reaching the quantified threshold. The mean of these two ensures compromise and reduces error. This mean number is then recalculated with regard to the projected number of relevant hits possessing spatial identity per 50 images and then substituted for those eliminated.
+
+The resulting statistic represents the web-reflected spatial character presence of a given town.
+
+We predicted that the web search engine itself and the amount of data available with regard to visual material would influence our results [21] . While we lacked insight into the search engine’s algorithms, the span of available data size per settlement could be estimated and checked against the factors we assumed influenced its size [22] . As these factors cannot be evaluated directly, we used their indicators:
+
+    tourist visits per administrative unit [23] ;
+
+    the number of inhabitants per settlement/municipality [24] ; and
+
+    the number of and protected area of declared cultural heritage monuments in the locality [25] .
+
+Additionally, the mean of element sums across the range of images was calculated, establishing an average occurrence of elements expected in any similar representative image of the locality. On the basis of this, we can predict the probability of specific elements occurring in the images conveying a settlement’s spatial identity. By combining these numbers, we can also predict the probability of an element, a carrier of spatial identity, occurring in any given image of a street [26] in the region (e.g. the probability of wooden shutters appearing on a photograph of a street in Piran). Comparison was made in terms of the number of times a specific element per relevant image occurred and the number of such elements per image conveying identity. When numbers matched, the element could be described as distinguishing, e.g. whenever this element was present, the reflection of typical spatial character in the photograph was assured ( Figure 2 ).
+3.Results and findings
+Section: Previous section Next section
+3.1Predicted influencing factor and indicator significance
+
+We have statistically tested the correlation between pairs of variables. In the first run, we were interested in how those predicted above influenced the data pool of photographs and, consequently, available hits for search engines to find. According to the results, tourist visits per administrative unit and number of declared cultural monuments and size of protection zone were not confirmed to be statistically correlated with the number of photographs conveying spatial character. On the other hand, there was a significant positive correlation between settlement density (population/settlement area) and number of photographs conveying spatial character ( r =0.753; n =9; p <0.001). Due to the search engine peculiarities, we did not anticipate to find it different. An additional positive correlation was established between the number of declared cultural monuments and inhabitants per settlement ( r =0.905; n =9; p <0.0005).
+3.2Threshold testing
+
+Arbitrarily set threshold of at least ten traced elements per image to express spatial identity was tested using the KNIME [27] analytics platform’s decision tree learner and predictor tool [28] : the combination amounting to a rudimentary computer learning tool. The whole set of quantified data on elements per photograph has been run against the data set of photographs declared by experts to possess spatial identity. In total, 122 of the images declared as having spatial character included at least eight elements; only four images declared so had less. Out of 122 photographs, 113 had more than ten elements present, thus confirming our expert hunch and making initially arbitrarily set threshold a valid one for this specific survey. In practical terms, should we use the predictor on a larger data set it would make better judgements when classifying photographs as showing or not showing spatial character in 96 per cent of all cases.
+3.3Expert opinion vs element present count
+
+The results gained on the basis of expert opinion and the results acquired by counting present elements were compared. The average number of photographs declared by experts to convey spatial character was slightly higher than the number of those determined by the elements’ threshold. A paired t -test confirmed that the difference between the two was insignificant ( t =2.425, df=8, p >0.001), while Pearson’s correlation showed that the expert opinion and element present count were significantly aligned at individual localities ( p <0.0005) ( Figure 3 ).
+3.4Elements and characteristics as indicators of spatial identity
+
+We can expect to find two-to-four storey buildings forming (narrow) streets, “korec” clay or stone shingle, emphasised stone door frames, emphasised, often figural, stone window frames, wooden shutters, architectural stone details, shallow jutting roofs, colourful or stone clad facades [29] in more than 49 per cent of the street images of the surveyed towns. In other words, every second image found will include at least one, but frequently more than one, potential carrier of spatial identity.
+
+By dividing the amount of times an element occurred in the relevant images with the number of times said element occurs in images estimated to convey spatial identity, we identified the distinguishing elements or characteristics that could potentially signify the presence of spatial identity on their own. When the quotient equalled one, the element occurred only in the images possessing spatial identity. We counted these cases in all towns and established that while the distinguishing elements and characteristics vary, two or more occur in each locality. Outdoor stone staircases and arched passages are distinguishing elements in five towns, iron window grills in four, and figural balconies, figural chimneys and courtyard portals in three localities. In other words, coming across an outdoor stone staircase in a photograph guarantees the presence of other elements and characteristics of spatial identity, as well as an overall expert estimate that the image conveys spatial identity of the region.
+3.5Rank of settlements according to their web-sourced spatial identity presence
+
+Piran, Izola and Koper account for the highest number of web-found photographs conveying the spatial identity of their streets, thus projecting the strongest, web-sourced spatial identity significance. Dutovlje, Sežana and Divača are placed in the middle of the ranks. The weakest web-sourced spatial character significances were found in Portorož-Lucija, Hrpelje-Kozina and Ankaran. Hits were not normalised or relativised according to demographic, economic or cultural heritage factors, instead absolutes were recorded. As can be seen when comparing Portoroz-Lucija and Dutovlje, all of the above-mentioned inputs do not place the bigger, more populous, more visited and more listed Portoroz in front of the much smaller Dutovlje in terms of web-based spatial identity reflection ( Figure 4 ).
+4.Discussion
+Section: Previous section Next section
+
+While spatial identity itself is elusive, open to interpretation and, as such, also less suitable for quantification, we have shown how results are established using two different methods, expert opinion and data quantification. It has to be re-emphasised that a locality’s web-sourced spatial identity presence is not necessarily equal to its actual spatial identity of the localities. As stated above, we looked into the reflection and mainstream projection of the spatial character of towns. One can argue their relative importance, yet popular reflection in the ubiquitous media such as internet today cannot be completely dismissed. Self-image and publicly perceived self-image, be it a person, city, landscape or region, are gaining socio-economic importance, relevance and value. The link between the two and their interdependence are yet to be investigated and substantiated.
+
+The analysis has been applied to a focussed and limited visual data set of the streets found by the search engine; the relevance of results indicating the spatial identity significance of selected towns also needs to be viewed from this perspective. The statistical regions and borders from which data have been sourced and the search engine itself can and will distort reality to some extent, e.g. size and density inequality, search algorithms transparency and so on. These results were anticipated.
+
+The results from both methods, in our particular case and for this data set, can be considered as aligned. The quantification method with respect to the threshold was even more conservative in terms of judging photographs as conveyers of spatial character, or not.
+
+More importantly, the method has proven to be useful and accurate enough for larger scale data sets and visual data mining tests for calculating the web-sourced spatial identity significance of the different localities. The discovery of distinguishing elements could prove useful in the automatic object recognition process, where identifying one element is sometimes easier than identifying several objects in a cluttered image. It has to be noted, however, that while the recognition of elements need not be carried out by experts, lay surveyors with minimal training would do, for example, computers face much more difficulty when attempting to distinguish normal balconies from figural, shaped balconies.
+
+On the other hand, the method described can be used whenever visual data are available and not only when it is used in a combination with a search engine, or in combination with computer object recognition.
+
+The method can be easily modified and applied in cases where sufficient classification, documentation and hierarchical systematisation for a particular region or country have been established; in our case by Fister, Boh-Pecnik, Deu and Lah (1993) and Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah (1993) . We have specified the elements and accounted for their appearance to accordingly reflect a particular region; even so, regions’ landscapes, buildings and architectural element types had already been formed by our predecessors.
+5.Conclusion
+Section: Previous section Next section
+
+Online experience permeates our world; our use of social media, digitally enhanced communication and digital photography not only shape our lives, but also strongly influence the socialisation of future generations. Online data are easily and instantaneously accessible, and are in our time-conscious and limited-attention-span society very appealing. It also co-shapes our beliefs, values and definitions. Spatial identity in this regard is no exception. Although the public might not go searching for it intentionally, they will subconsciously shape their idea about it, based on what they see in their surroundings and what they will be shown in different media.
+
+The introduced web-sourced spatial identity presence index takes into account the latter. It can be used for comparative purposes between localities in a region, or across regions. The index is not merely a scientific tool, it can also be viewed as a measuring tool for the planning of further action, to support decision making and manage built cultural heritage. It has social, economic and political connotations. A town, whose spatial character web projection is estimated to be low when compared to neighbouring towns, could decide to invest in improving its image by creating and uploading relevant content. This could be done for the economic reasons of attracting tourists and investors, demographic reasons, such as becoming more inviting for new inhabitants, or for boosting a sense of belonging and attachment in residents to their town, heritage and history. It is, of course, also prone to manipulation, as any media is. Here again, search engines and their earlier described principles can act as useful, crowd-shaped filters.
+figure parent remove
+
+Figure 1 Slovenia and its geographically bound statistical regions that closely correspond with regions of distinct spatial identities
+figure parent remove
+
+Figure 2 A street in Koper conveying the typical spatial identity, with identity carrier elements marked; 15/20 elements are present in the photograph
+figure parent remove
+
+Figure 3 A comparison of images declared by experts to convey spatial character and the quantified data through counted elements with numbers above the threshold, also denoting images possessing spatial character
+figure parent remove
+
+Figure 4 Web-sourced spatial identity presence representing a web-reflection of spatial character as broadcast and collectively co-shaped by settlements, their inhabitants and visitors
+figure parent remove
+
+Plate 1 A typical street in Piran with panier laundry drying, stone pavement, colourful facades, iron window grills, wooden shutters, and emphasised door and window frames; does it or does it not convey a local spatial character?
+figure parent remove
+
+Plate 2 One of the survey results listing the images found under the search “Izola Street”; as it can be observed, not all hits are relevant
+Table 	
+
+Table I A list of selected identity carrier elements for the region based on photographs, photographic occurrence probability and distinguishing element occurrence
+No. 	Element or characteristic 	Probability of appearance in an image of the street in the region (⩾ 49%) 	Occuring as a distinguishing element n times (⩾3)
+ 1 	Buildings form narrow streets 	51 	2
+ 2 	“Korec” clay shingle contributes to the wavy, jutting roof lines 	52 	0
+ 3 	Figural balconies 	14 	3
+ 4 	Outdoor stone staircases 	11 	5
+ 5 	Figural chimneys 	13 	3
+ 6 	Stone entrance portals 	18 	2
+ 7 	Emphasised, stone door frames 	49 	0
+ 8 	Courtyard portals 	7 	3
+ 9 	Emphasised stone, often figural, window frames 	57 	0
+10 	Wooden shutters 	49 	1
+11 	Architectural detail in stone 	61 	0
+12 	Sculptural stonecutting detail 	34 	1
+13 	Iron window grills 	14 	4
+14 	Two-to-four-storey buildings 	70 	0
+15 	Shallow jutting roofs 	63 	1
+16 	Colourful and stone clad facades 	50 	0
+17 	Stone pavements 	39 	2
+18 	Arched passages and passage ways 	9 	5
+19 	Creeper and potted greenery 	35 	0
+20 	Panier laundry drying 	7 	2
+
+Table I A list of selected identity carrier elements for the region based on photographs, photographic occurrence probability and distinguishing element occurrence
+Notes
+
+    1..   Sometimes referred to as popular culture, although we do not wish it to be perceived in this narrow sense.
+
+    2..   Respondents often provide politically and morally correct answers, the ones they are “supposed to ‘provide, or are’ taught to” provide, to such hypothetical questions, acting differently when faced with real situations demanding their action, see Polic (2007) , and Conor and Johannesson (1999) .
+
+    3..   In some cases, the scope of society’s involvement varies, for example, some of our beliefs concerning Stonehenge are probably shared with others in the western world and, to some extent, overlap with those in the UK, which again finds common ground with the local population whose attachment to it is both more mundane and more personal. Our argument is that should we look more deeply into the matter, we would be able to discern this from web content, be it web forums, web pages, social networking sites, or other forms of web content that different groups use to communicate and disseminate their interests.
+
+    4..   We discuss our use of the term “spatial identity” and its characteristics in later paragraphs and use it interchangeably.
+
+    5..   Sometimes also called anonymous or vernacular, e.g. “Anonymous or vernacular architecture is comprised of distinctive general characteristics which define the identity of a wider environment and converts the achievements of special architecture into general laws and creates general criteria for defining ‘environmental identity’ and the typological features of all constructions in individual ‘architectural landscapes’” ( Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah, 1993 , p. 229).
+
+    6..   We will not go further into the value-building and value-evolving process pursuant to the wealth of papers already written on the subject, e.g. de la Torre (2002) .
+
+    7..   Although they discuss the very specific topic of restoration priorities in the case of castles, they address several criteria which involve the wider aspects of spatial identity and its socio-cultural aspect.
+
+    8..   UNESCO’s General Conference adopted the Recommendation on the Historic Urban Landscape by Acclamation in 2011 ( UNESCO, 2011 ).
+
+    9..   “An ‘architectural landscape’ is an environmental unit where, due to specific geographical, cultural, historical, administrative, socio-economic and other conditions for development, criteria common to all types of construction can be recognised which have taken part in forming the identity of an environment” ( Fister, Boh-Pecnik, Deu and Lah, 1993 , p. 229).
+
+    10..   Usually a central-point perspective.
+
+    11..   Fister, Boh-Pecnik, Deu and Lah (1993) call them “architectural regions”.
+
+    12..   Other Slovenian regions, which are numerous, also have particular spatial identities, but differences are usually less dramatic and subtler; the cultural and spatial identity in other regions is also sparser and diluted in relation to anonymous building tissue.
+
+    13..   All numbers as classified by Fister, Boh-Pecnik, Debevec, Deu, Kavcic and Lah (1993) .
+
+    14..   The threshold number was set to at least 10 out of 20.
+
+    15..   Town centrality is defined in terms of the availably of central functions ( Benkovic Krasevec, 2006 ), be they local commercial, cultural, administrative, social, employment, microregional or central settlements near larger centres ( Cigale, 2002 ).
+
+    16..   Locality data are defined as follows: number of inhabitants/estimated tourist visits/listed heritage monuments/street length in km. Respective locality measurements being: Dutovlje (696/2700/4/4); Sežana (5619/17983/39/35); Divača (1458/3700/15/10); Hrpelje-Kozina (1405/5388/11/14); Ankaran (3230/52245/26/10); Koper (25775/ 32587/134/129; Izola (11209 /85840/63/50); Piran (3990/33644/72/18; Portorož-Lucija (8995/279505/86). The length of street networks closely follows the pattern of inhabitant numbers, and was thus not included into our calculations. The survey is not based on individual streets in the settlements pursuant to the search engine not distinguishing them. Correlation was checked for the above statistics, but results were not normalised or relativised according to them: our index is, in these terms, an absolute, not relative number, and was envisioned to be so.
+
+    17..   Google Image Search.
+
+    18..   The search term was: (name of locality) + (“street”)
+
+    19..   IQ ImageQuilts 4.0, http://imagequilts.com/
+
+    20..   Three experts from different, but related fields: an architect, an urbanist and a geographer. They voted on each image.
+
+    21..   Precise search algorithms are secret and we have limited knowledge in terms of how to influence search results. We used the Google Image search engine, not the “search by image” option. Amongst the known attributes generated during image indexing process, and later used for search term match and ranking, are those that are text based, such as: image file name; image web page-related context; number of links to the web page where image is located; image metadata; and clustering. Jing and Baluja (2008) state that it is common that only the text on the pages in which the image is embedded text in the body of the page, anchor-text, image name, etc. are used in the search. Depending on the search engine, some also use simple content analysis algorithms, such as facial recognition, colour analysis, and form and shape outline similarity. Search hits also vary over time as new data are constantly being added, trawled and user searched: the search for this particular survey was made on 28 February, 2016.
+
+    22..   The estimation of the relative influence of factors per settlement was good enough for comparative and correlation testing purposes.
+
+    23..   In order to account for the mass of images available, we assume that there will be more images, data and hits available for towns which are most visited. Tourist visit data from 2014 were gathered at the municipality level. We used the same municipality-bound value for settlements that happen to be located in the same municipality (SI – Stat Data Portal).
+
+    24..   We assume that the greater the population, the greater the chance there is for more specific local web content and more spatial identity-related content to be generated pursuant to day-to-day activities (Data from 2014).
+
+    25..   We assume that the greater the number of cultural heritage monuments and area of protected zones around the declared monuments, the greater the chance there is of visitors photographing them and posting them, and inhabitants using these images to promote the locality and its recognisable beacons. Additionally, the assumption goes further in that it states that the more there is to protect, the higher the level of spatial identity there is for non-protected buildings ( Register of Slovene Cultural Heritage, 2016 ).
+
+    26..   Confined to the towns selected for survey.
+
+    27..   KNIME analytics platform www.knime.org/
+
+    28..   The first of the pair took 80 per cent of data and learned from it, with the predictor later testing the learned hypothesis on the remaining 20 per cent of the data set.
+
+    29..   All of these elements or characteristics indicate the presence of spatial identity, or carry it.
+
+References
+    1.
+    Amato, G. , Falchi, F. and Gennaro, C. ( 2015 ), “ Fast image classification for monument recognition ”, Journal on Computing and Cultural Heritage, Vol. 8 No. 4, pp. 3 - 28 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    2.
+    Aves Caballero, G.V. ( 2016 ), “ The role of natural resources in the historic urban landscape approach ”, Journal of Cultural Heritage Management and Sustainable Development, Vol. 6 No. 1, pp. 2 - 13 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    3.
+    Benkovic Krasevec, M. ( 2006 ), “ Centralna naselja: na podezelju v Sloveniji ”, Geografski obzornik, Vol. 53 No. 3, pp. 10 - 18 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    4.
+    Butina Watson, G. and Bentley, I. ( 2007 ), Identity by Design, Elsevier/Butterworth-Heinemann , Burlington, NJ . OpenURL UTFPR [Google Scholar]
+
+    5.
+    Cigale, D. ( 2002 ), “ Central places in Slovenia and their spheres of influence in 1999 ”, Geografski vestnik, Vol. 74 No. 1, pp. 43 - 56 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    6.
+    Conor, R.M.O. and Johannesson, M. ( 1999 ), “ Stated preferences, real behaviour and anchoring: some empirical evidence ”, Environmental and Resource Economics, Vol. 13 No. 2, pp. 235 - 248 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    7.
+    Csurka, G. and Pastra, K. ( 2009 ), “ Introduction to the special issue on metadata mining for image understanding ”, Multimedia Tools and Applications, Vol. 42 No. 1, pp. 1 - 4 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    8.
+    Cullen, G. ( 1971 ), Concise Townscape, Routledge , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    9.
+    de la Torre, M. ( 2002 ), “ Assessing the values of cultural heritage ”, research report, Getty Conservation Institute, Los Angeles, CA. OpenURL UTFPR [Google Scholar]
+
+    10.
+    Doersch, C. , Singh, S. , Gupta, A. , Sivic, J. and Efros, A.A. ( 2012 ), “ What makes Paris look like Paris? ”, ACM Transactions on Graphics, Vol. 31 No. 4, pp. 1 - 9 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    11.
+    Dupagne, A. , Ruelle, C. , Teller, J. and Cornelius, B. ( 2004 ), “ SUIT: sustainable development of urban historical areas through integration within towns ”, Research Report No. 16, European Commission, Luxembourg City. OpenURL UTFPR [Google Scholar]
+
+    12.
+    Fister, P. , Boh-Pecnik, N. , Deu, Z. and Lah, L. ( 1993 ), “ Glossary of architectural typology (Prostor, Arhitekturna identiteta, Poselitev, 1) ”, Ministrstvo za okolje in prostor Republike Slovenije, Zavod Republike Slovenije za prostorsko planiranje, Ljubljana. OpenURL UTFPR [Google Scholar]
+
+    13.
+    Fister, P. , Boh-Pecnik, N. , Debevec, L. , Deu, Z. , Kavcic, M. and Lah, L. ( 1993 ), “ Architectural landscapes and regions of slovenia (Prostor, Arhitekturna identiteta, Poselitev, 2) ”, Ministrstvo za okolje in prostor Republike Slovenije, Zavod Republike Slovenije za prostorsko planiranje, Ljubljana. OpenURL UTFPR [Google Scholar]
+
+    14.
+    Hochman, N. and Manovich, L. ( 2013 ), “ Zooming into an instagram city: reading the local through social media ”, First Monday, Vol. 18 No. 7, pp. 1 - 38 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    15.
+    Jing, Y. and Baluja, S. ( 2008 ), “ PageRank for product image search ”, Proceeding WWW‘08 Proceedings of the 17th International Conference on World Wide Web, ACM , New York, NY , pp. 307 - 316 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    16.
+    Mourato, S. and Mazzanti, M. ( 2002 ), “ Numbness and sensitivity in the elicatation of environmental values ”, in de la Torre, M. (Ed.), Assessing the Values of Cultural Heritage, research report, Getty Conservation Institute , Los Angles, CA , pp. 77 - 100 . OpenURL UTFPR [Google Scholar]
+
+    17.
+    Odgers, C. , Caspi, A. , Bates, C. , Sampson, R. and Moffitt, T. ( 2013 ), “ Systematic social observation of children’s neighborhoods using Google street view: a reliable and cost-effective method ”, Journal of Child Psychology and Psychiatry, Vol. 53 No. 10, pp. 1009 - 1017 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    18.
+    Polic, M. ( 2007 ), “ Okoljska psihologija, Ucbenik ”, Filozofska fakulteta, Ljubljana. OpenURL UTFPR [Google Scholar]
+
+    19.
+    Rautenberg, M. ( 1998 ), “ L’emergence patrimoniale de l’ethnologie entrememoire et politiques publiques ”, in Poulot, D. (Ed.), Patrimoine et modernite, L’Harmatan , Paris , pp. 279 - 291 . OpenURL UTFPR [Google Scholar]
+
+    20.
+    Register of Slovene cultural heritage ( 2016 ), available at: http://giskd6s.situla.org (accessed 2 February 2016 ). OpenURL UTFPR [Google Scholar]
+
+    21.
+    Rutkin, A. ( 2016 ), “ Worth a thousand words ”, New Scientist , Vol. 229 No. 3060, pp. 21 - 22 . OpenURL UTFPR [Google Scholar]
+
+    22.
+    Tweed, C. and Sutherland, M. ( 2007 ), “ Built cultural heritage and sustainable urban development ”, Landscape and Urban Planning, Vol. 83 No. 1, pp. 62 - 69 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    23.
+    UNESCO ( 2011 ), “ UNESCO recommendation on the historic urban landscape ”, available at: http://whc.unesco.org/en/activities/638/ (accessed 15 May 2016 ). OpenURL UTFPR [Google Scholar]
+
+    24.
+    van Cuilenburg, J. ( 2007 ), “ Media diversity, competition and concentration: concepts and theories ”, in de Bens, E. (Ed.), Media Between Culture and Commerce: An Introduction, Intellect , Bristol and Chicago, IL , pp. 25 - 54 . OpenURL UTFPR [Google Scholar]
+
+    25.
+    Vodopivec, B. , Selih, J. and Zarnic, R. ( 2015 ), “ Interdisciplinary determination of architectural heritage restoration priorities on the case of the castles ”, Annales, Series historia et sociologia, Vol. 25 No. 1, pp. 1 - 18 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+Further reading
+    1.
+    Loureiro, M.L. , McCluskey, J.J. and Mittelhammer, R.C. ( 2003 ), “ Are stated preferences good predictors of market behavior? ”, Land Economics, Vol. 79 No. 1, pp. 44 - 45 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    2.
+    SI-Stat Data Portal, Statistical office RS ( 2016 ), available at: http://pxweb.stat.si/pxweb/Dialog/statfile1.asp (accessed 2 February 2016 ). OpenURL UTFPR [Google Scholar]
+
+Corresponding Author
+Section: Previous section
+
+Dr Matevz Juvancic is the corresponding author and can be contacted at: matevz.juvancic@fa.uni-lj.si
+
+About the author(s)
+
+Dr Matevz Juvancic (univ. dipl. inz. arh.) is a Teacher and a Researcher at the Faculty of Architecture, University of Ljubljana, whose research work is primarily focussed to architectural education of general public and public participation, specifically dealing with new means of transmitting and communicating space-related issues. His research time is distributed between visualisations and presentations of urban spaces as well as educational architectural tools for general public, their design, use and evaluation. Recently, he has been fascinated by anonymous, generic, mundane objects and elements in urban environments as well as more distinct ones, like those presented in this paper, studying their significance in space orientation, space use and spatial character.
+
+Dr Spela Verovsek (univ. dipl. geog.) graduated from Geography, at the Faculty of Arts, University of Ljubljana and gained her PhD at the Faculty of Architecture, University of Ljubljana. Currently employed as a Researcher at the same institution, her work is primarily focussed to the research and development of visualisation techniques in urban design intended for non-expert public. Her research efforts aim at developing novel approaches to better understand the complex information and logic of urban spaces. She is also discovering new ways to interpret different spatial features and qualities through users’ perception.
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (27)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+Journal of Cultural Heritage Management and Sustainable Development
+ISSN: 2044-1266
+Online from: 2011
+Subject Area: Property Management & Built Environment
+
+    Current Issue
+    Available Issues
+    Earlycite
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Emerging Sources
+Citation Index
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    Moving beyond the hard boundary : Overcoming the nature-culture divide in the Dutch Wadden Sea area
+    Heritage management and sustainable development in perspective: theory, law, and practice
+    Cultural sustainability in reference to the global reporting initiative (GRI) guidelines : Case forest bioenergy production in North Karelia, Finland
+    A bottom-up approach for cultural tourism management in the old city of As-Salt, Jordan
+    Complex properties management : Preventive and planned conservation applied to the Royal Villa and Park in Monza
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    Preserving heritage places under a new paradigm
+    Why development needs culture
+    Editorial: bridging cultural heritage and sustainable development
+    Cultural heritage in building and enhancing social capital
+    A value-based monitoring system to support heritage conservation planning
+
+See more>
+Find related content
+By Keyword
+
+    Cultural heritage
+    Cultural sustainability
+    Cultural tourism
+    Spatial character
+    Spatial identity management
+    Web-sourced imagery
+
+By Author
+
+    Juvancic Matevz
+    Verovsek Spela
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor

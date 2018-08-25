@@ -1,0 +1,200 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+April 2007 , Volume 14, Issue 2 , pp 245–304 | Cite as
+Genetic process mining: an experimental evaluation
+
+    Authors
+    Authors and affiliations
+
+    A. K. A. de Medeiros Email author
+    A. J. M. M. Weijters
+    W. M. P. van der Aalst
+
+    A. K. A. de Medeiros
+        1
+    Email author
+    A. J. M. M. Weijters
+        1
+    W. M. P. van der Aalst
+        1
+
+    1. Department of Technology Management Eindhoven University of Technology Eindhoven The Netherlands
+
+Open Access
+Article
+First Online: 31 January 2007
+Received: 13 March 2006
+Accepted: 20 November 2006
+
+    1 Shares
+    2.5k Downloads
+    145 Citations
+
+Abstract
+
+One of the aims of process mining is to retrieve a process model from an event log. The discovered models can be used as objective starting points during the deployment of process-aware information systems (Dumas et al., eds., Process-Aware Information Systems: Bridging People and Software Through Process Technology. Wiley, New York, 2005) and/or as a feedback mechanism to check prescribed models against enacted ones. However, current techniques have problems when mining processes that contain non-trivial constructs and/or when dealing with the presence of noise in the logs. Most of the problems happen because many current techniques are based on local information in the event log. To overcome these problems, we try to use genetic algorithms to mine process models. The main motivation is to benefit from the global search performed by this kind of algorithms. The non-trivial constructs are tackled by choosing an internal representation that supports them. The problem of noise is naturally tackled by the genetic algorithm because, per definition, these algorithms are robust to noise. The main challenge in a genetic approach is the definition of a good fitness measure because it guides the global search performed by the genetic algorithm. This paper explains how the genetic algorithm works. Experiments with synthetic and real-life logs show that the fitness measure indeed leads to the mining of process models that are complete (can reproduce all the behavior in the log) and precise (do not allow for extra behavior that cannot be derived from the event log). The genetic algorithm is implemented as a plug-in in the ProM framework.
+Keywords
+Process mining  Genetic mining  Genetic algorithms  Petri nets  Workflow nets 
+
+Communicated by Eamonn Keogh.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    van der Aalst WMP, Alves de Medeiros AK, Weijters AJMM (2005) Genetic process mining. In: Proceedings of the 26th international conference on applications and theory of Petri nets. Lecture notes in computer science, vol 3536. Springer, Miami Google Scholar
+    van der Aalst WMP, van Dongen BF (2002) Discovering workflow performance models from timed logs. In: Han Y, Tai S, Wikarski D (eds) International conference on engineering and deployment of cooperative information systems (EDCIS 2002). Lecture notes in computer science, vol 2480. Springer, Berlin, pp 45–63 Google Scholar
+    van der Aalst WMP, van Dongen BF, Herbst J, Maruster L, Schimm G, Weijters AJMM (2003) Workflow mining: a survey of issues and approaches. Data Knowl Eng 47(2):237–267 CrossRef Google Scholar
+    van der Aalst WMP, Song M (2004) Mining social networks: uncovering interaction patterns in business processes. In: Desel J, Pernici B, Weske M (eds) International conference on business process management (BPM 2004) Lecture notes in computer science, vol 3080. Springer, Berlin, pp 244–260 Google Scholar
+    van der Aalst WMP, Weijters AJMM (eds) (2004) Process mining. Special issue of computers in industry, vol 53. Elsevier, Amsterdam Google Scholar
+    van der Aalst WMP, Weijters AJMM, Maruster L (2004) Workflow mining: discovering process models from event logs. IEEE Trans Knowl Data Eng 16(9):1128–1142 CrossRef Google Scholar
+    Agrawal R, Gunopulos D, Leymann F (1998) Mining process models from workflow logs. In: Ramos I, Alonso G, Schek H-J, Saltor F (eds) Advances in database technology—EDBT’98: 6th international conference on extending database technology. Lecture notes in computer science, vol 1377. Springer-Verlag, London, UK, pp 469–483 (ISBN: 3-540-64264-1) Google Scholar
+    Alves de Medeiros AK, van Dongen BF, van der Aalst WMP, Weijters AJMM (2004a) Process mining: extending the α-algorithm to mine short loops. BETA working paper series, WP 113, Eindhoven University of Technology, Eindhoven Google Scholar
+    Alves de Medeiros AK, Weijters AJMM, van der Aalst WMP (2004b) Using genetic algorithms to mine process models: representation, operators and results. BETA working paper series, WP 124, Eindhoven University of Technology, Eindhoven Google Scholar
+    Alves de Medeiros AK, Weijters AJMM, van der Aalst WMP (2006) Genetic process mining: a basic approach and its challenges. In: Business process management 2005 workshops. Lecture notes in computer science, vol 3812. Springer, Berlin, pp 203–215 Google Scholar
+    Alves de Medeiros AK, van der Aalst WMP, Weijters AJMM (2003) Workflow mining: current status and future directions. In: Meersman R, Tari Z, Schmidt DC (eds) On the move to meaningful internet systems 2003: CoopIS, DOA, and ODBASE. Lecture notes in computer science, vol 2888. Springer, Berlin, pp 389–406 Google Scholar
+    Angluin D, Smith CH (1983) Inductive inference: theory and methods. Comput Surv 15(3):237–269 CrossRef MathSciNet Google Scholar
+    Bourdeaud’huy T, Yim P (2002) Petri net controller synthesis using genetic search. In: Proceedings of the 2nd IEEE international conference on systems, man and cybernetics (SMC’02), vol 1, IEEE Computer Society Press, Hammamet, Tunisia, 6–9 October 2002, pp 528–533 Google Scholar
+    Cook JE, Du Z, Liu C, Wolf AL (2004) Discovering models of behavior for concurrent workflows. Comput Ind 53(3):297–319 CrossRef Google Scholar
+    Cook JE, Wolf AL (1998b) Event-based detection of concurrency. In: Proceedings of the 6th international symposium on the foundations of software engineering (FSE-6). ACM Press, New York, NY, USA, pp 35–45 Google Scholar
+    Cook JE, Wolf AL (1999) Software process validation: quantitatively measuring the correspondence of a process to a model. ACM Trans Softw Eng Methodol 8(2):147–176 CrossRef Google Scholar
+    Cook JE, Wolf AL (1998a) Discovering models of software processes from event-based data. ACM Trans Softw Eng Methodol 7(3):215–249 CrossRef Google Scholar
+    Desel J, Esparza J (1995) Free choice Petri nets. Cambridge tracts in theoretical computer science, vol 40. Cambridge University Press, Cambridge UK Google Scholar
+    Dumas M, van der Aalst WMP, ter Hofstede AH (eds) (2005) Process-aware information systems: bridging people and software through process technology. Wiley, New York Google Scholar
+    Eder J, Olivotto GE, Gruber W (2002) A data warehouse for workflow logs. In: Han Y, Tai S, Wikarski D (eds) International conference on engineering and deployment of cooperative information systems (EDCIS 2002). Lecture notes in computer science, vol 2480. Springer, Berlin, pp 1–15 Google Scholar
+    Eiben AE, Smith JE (2003) Introduction to evolutionary computing. Natural computing. Springer, Berlin Google Scholar
+    van Glabbeek RJ, Weijland WP (1996) Branching time and abstraction in bisimulation semantics. J ACM 43(3):555–600 CrossRef MathSciNet Google Scholar
+    Gold EM (1978) Complexity of automaton identification from given data. Inform Control 37(3):302–320 MATH CrossRef MathSciNet Google Scholar
+    Greco G, Guzzo A, Pontieri L (2005) Mining hierarchies of models: from abstract views to concrete specifications. In: van der Aalst WMP, Benatallah B, Casati F, Curbera F (eds) Business process management. Lectures notes in computer science, vol 3649. Springer-Verlag, Berlin, Nancy, France, 5–8 September, 2005, pp 32–47 Google Scholar
+    Greco G, Guzzo A, Pontieri L, Saccà D (2004) Mining expressive process models by clustering workflow traces. In: Dai H, Srikant R, Zhang C (eds) PAKDD. Lecture notes in computer science, vol 3056. Springer, Berlin, pp 52–62 Google Scholar
+    Greco G, Guzzo A, Pontieri L, Sacca D (2006) Discovering expressive process models by clustering log traces. IEEE Trans Knowl Data Eng 18(8):1010–1027 CrossRef Google Scholar
+    Grigori D, Casati F, Dayal U, Shan MC (2001) Improving business process quality through exception understanding, prediction, and prevention. In: Apers P, Atzeni P, Ceri S, Paraboschi S, Ramamohanarao K, Snodgrass R (eds) Proceedings of 27th international conference on very large data Bases (VLDB’01). Morgan Kaufmann, Los Atlos, CA, pp 159–168 Google Scholar
+    Grunwald PD, Myung IJ, Pitt M (eds) (2005) Advances in minimum description length theory and applications. MIT Press, Cambridge, MA Google Scholar
+    Herbst J (2000) Dealing with concurrency in workflow induction. In: Baake U, Zobel R, Al-Akaidi M (eds) European concurrent engineering conference. SCS, Europe Google Scholar
+    Herbst J (2001) Ein induktiver Ansatz zur Akquisition und Adaption von Workflow-Modellen. Ph.D. thesis, Universität Ulm Google Scholar
+    Herbst J, Karagiannis D (2000) Integrating machine learning and workflow management to support acquisition and adaptation of workflow models. Int J Intell Syst Account Finance Manag 9:67–92 CrossRef Google Scholar
+    Herbst J, Karagiannis D (2004) Workflow mining with InWoLvE. Comput Ind 53(3):245–264 CrossRef Google Scholar
+    IDS Scheer (2002) ARIS process performance manager (ARIS PPM). http://www.ids-scheer.com Google Scholar
+    Malpathak S, Saitou K, Qvam H (2002) Robust design of flexible manufacturing systems using, colored Petri net and genetic algorithm. J Int Manufact 13(5):339–351 CrossRef Google Scholar
+    Maruster L (2003) A machine learning approach to understand business processes. Ph.D. thesis, Eindhoven University of Technology, Eindhoven, The Netherlands Google Scholar
+    Maruster L, Weijters AJMM, van der Aalst WMP, van den Bosch A (2002) Process mining: discovering direct successors in process logs. In: Proceedings of the 5th international conference on discovery science (discovery science 2002). Lecture notes in artificial intelligence, vol 2534. Springer, Berlin, pp 364–373 Google Scholar
+    Mauch H (2003) Evolving Petri nets with a genetic algorithm. In: Cantú-Paz E, Foster JA, Deb K, Davis L, Roy R, O’Reilly U, Beyer H, Standish RK, Kendall G, Wilson SW, Harman M, Wegener J, Dasgupta D, Potter MA, Schultz AC, Dowsland KA, Jonoska N, Miller JF (eds) Genetic and evolutionary computation—GECCO 2003, genetic and evolutionary computation conference, Chicago, IL, USA, 12–16 July 2003. Proceedings, Part II. Lecture notes in computer science, vol 2724. Springer, Berlin, pp 1810–1811 Google Scholar
+    Maxeiner MK, Küspert K, Leymann F (2001) Data mining von workflow-protokollen zur teilautomatisierten konstruktion von prozeßmodellen. In: Proceedings of datenbanksysteme in Büro, technik und Wissenschaft. Informatik Aktuell Springer, Berlin, Germany, pp 75–84 Google Scholar
+    Milner R, Parrow J, Walker D (1992) A calculus of mobile processes. Inform Comput 100(1):1–77 MATH CrossRef MathSciNet Google Scholar
+    Moore JH, Hahn LW (2004) An improved grammatical evolution strategy for hierarchical Petri net modeling of complex genetic systems. In: Raidl GR et al (eds) Applications of evolutionary computing, Evo Workshops 2004. Lecture notes in computer science, vol 3005. Springer, Berlin, pp 63–72 Google Scholar
+    Moore JH, Hahn LW (2003a) Grammatical evolution for the discovery of Petri net models of complex genetic systems. In: Cantú-Paz E, Foster JA, Deb K, Davis L, Roy R, O’Reilly U, Beyer H, Standish RK, Kendall G, Wilson SW, Harman M, Wegener J, Dasgupta D, Potter MA, Schultz AC, Dowsland KA, Jonoska N, Miller JF (eds) Genetic and evolutionary computation—GECCO 2003, genetic and evolutionary computation conference, Chicago, IL, USA, 12–16 July 2003. Proceedings, Part II. Lecture notes in computer science, vol 2724. Springer, Berlin, pp 2412–2413. Google Scholar
+    Moore JH, Hahn LW (2003b) Petri net modeling of high-order genetic systems using grammatical evolution. BioSystems 72(2):177–186 CrossRef Google Scholar
+    zur Mühlen M (2001) Process-driven management information systems combining data warehouses and workflow technology. In: Gavish B (ed) Proceedings of the international conference on electronic commerce research (ICECR-4). IEEE Computer Society Press, Los Alamitos, CA, pp 550–566 Google Scholar
+    zur Mühlen M, Rosemann M (2000) Workflow-based process monitoring and controlling–technical and organizational issues. In: Sprague R (ed) Proceedings of the 33rd Hawaii international conference on system science (HICSS-33). IEEE Computer Society Press, Los Alamitos, CA, pp 1–10 Google Scholar
+    Murata T (1989) Petri nets: properties, analysis and applications. Proc IEEE 77(4):541–580 CrossRef Google Scholar
+    Nummela J, Julstrom BA (2005) Evolving Petri nets to represent metabolic pathways. In: Beyer H, O’Reilly U (eds) GECCO. ACM, New York, pp 2133–2139 Google Scholar
+    Pinter SS, Golani M (2004) Discovering workflow models from activities lifespans. Comput Ind 53(3):283–296 Google Scholar
+    Pitt L (1889) Inductive inference, DFAs, and computational complexity. In: Jantke KP (ed) Proceedings of international workshop on analogical and inductive inference (AII). Lecture notes in computer science, vol 397. Springer, Berlin, pp 18–44 Google Scholar
+    Reddy JP, Kumanan S, Chetty OVK (2001) Application of Petri nets and a genetic algorithm to multi-mode multi-resource constrained project scheduling. Int J Adv Manufact Technol 17(4):305–314 CrossRef Google Scholar
+    Reisig W, Rozenberg G (ed) (1998) Lectures on Petri nets I: basic models. Lecture notes in computer science, vol 1491. Springer, Berlin Google Scholar
+    Rozinat A, van der Aalst WMP (2005) Conformance testing: measuring the fit and appropriateness of event logs and process models. In: Bussler C, Haller A (eds) Business process management workshops. Lectures notes in computer science, vol 3812. Springer-Verlag, Berlin, pp 163–176 Google Scholar
+    Schimm G. Process mining. http://www.processmining.de/ Google Scholar
+    Schimm G (2002) Process miner—a tool for mining process schemes from event-based data. In: Flesca S, Ianni G (eds) Proceedings of the 8th European conference on artificial intelligence (JELIA). Lecture notes in computer science, vol 2424. Springer, Berlin, pp 525–528 Google Scholar
+    Schimm G (2004) Mining exact models of concurrent workflows. Comput Ind 53(3):265–281 CrossRef Google Scholar
+    Staffware (2002) Staffware process monitor (SPM). http://www.staffware.com Google Scholar
+    Tohme H, Nakamura M, Hachiman E, Onaga K (1999) Evolutionary Petri net approach to periodic job-shop-scheduling. In: Proceedings of the IEEE international conference on systems, man, and cybernetics, vol 4, pp 441–446 Google Scholar
+    Weijters AJMM, van der Aalst WMP (2003) Rediscovering workflow models from event-based data using little thumb. Integr Comput Aided Eng 10(2):151–162 Google Scholar
+    Wen L, Wang J, Sun J (2006) Detecting implicit dependencies between tasks from event logs. In: Zhou X, Li J, Shen HT, Kitsuregawa M, Zhang Y (eds) APWeb. Lecture notes in computer science, vol 3841. Springer, Berlin, pp 591–603 Google Scholar
+
+Copyright information
+© Springer Science+Business Media, LLC (omit copyright symbol) 2007
+About this article
+
+Cite this article as:
+    de Medeiros, A.K.A., Weijters, A.J.M.M. & van der Aalst, W.M.P. Data Min Knowl Disc (2007) 14: 245. https://doi.org/10.1007/s10618-006-0061-7
+
+    DOI https://doi.org/10.1007/s10618-006-0061-7
+    Publisher Name Kluwer Academic Publishers-Plenum Publishers
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+
+This article is published under an open access license. Please check the 'Copyright Information' section for details of this license and what re-use is permitted. If your intended use exceeds what is permitted by the license or if you are unable to locate the licence and re-use information, please contact the Rights and Permissions team .
+Personalised recommendations
+Genetic process mining: an experimental evaluation
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45

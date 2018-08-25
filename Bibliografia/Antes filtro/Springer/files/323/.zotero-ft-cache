@@ -1,0 +1,266 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+May 2012 , Volume 24, Issue 3 , pp 478–514 | Cite as
+Survey on mining subjective data on the web
+
+    Authors
+    Authors and affiliations
+
+    Mikalai Tsytsarau Email author
+    Themis Palpanas
+
+    Mikalai Tsytsarau
+        1
+    Email author
+    Themis Palpanas
+        1
+
+    1. University of Trento Trento Italy
+
+Article
+First Online: 19 October 2011
+Received: 13 January 2010
+Accepted: 08 September 2011
+
+    2 Shares
+    3k Downloads
+    112 Citations
+
+Abstract
+
+In the past years we have witnessed Sentiment Analysis and Opinion Mining becoming increasingly popular topics in Information Retrieval and Web data analysis. With the rapid growth of the user-generated content represented in blogs, wikis and Web forums, such an analysis became a useful tool for mining the Web, since it allowed us to capture sentiments and opinions at a large scale. Opinion retrieval has established itself as an important part of search engines. Ratings, opinion trends and representative opinions enrich the search experience of users when combined with traditional document retrieval, by revealing more insights about a subject. Opinion aggregation over product reviews can be very useful for product marketing and positioning, exposing the customers’ attitude towards a product and its features along different dimensions, such as time, geographical location, and experience. Tracking how opinions or discussions evolve over time can help us identify interesting trends and patterns and better understand the ways that information is propagated in the Internet. In this study, we review the development of Sentiment Analysis and Opinion Mining during the last years, and also discuss the evolution of a relatively new research direction, namely, Contradiction Analysis. We give an overview of the proposed methods and recent advances in these areas, and we try to layout the future research directions in the field.
+Keywords
+Sentiment analysis  Opinion mining  Contradiction analysis 
+
+Responsible editor: Myra Spiliopoulou,Bamshad Mobasher, Olfa Nasraoui, Osmar Zaiane.
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Alm CO, Roth D, Sproat R (2005) Emotions from text: machine learning for text-based emotion prediction. In: Proceedings of the conference on human language technology and empirical methods in natural language processing, Association for Computational Linguistics, Morristown, NJ, USA, HLT’05, pp 579–586.   10.3115/1220575.1220648 .
+    Annett M, Kondrak G (2008) A comparison of sentiment analysis techniques: Polarizing movie blogs. In: Proceedings of the Canadian Society for Computational Studies of Intelligence, 21st Conference on advances in artificial intelligence, Canadian AI’08, pp 25–35 Google Scholar
+    Antweiler W, Frank MZ (2004) Is all that talk just noise? the information content of internet stock message boards. J Financ 59(3): 1259–1294 CrossRef Google Scholar
+    Archak N, Ghose A, Ipeirotis PG (2007) Show me the money!: deriving the pricing power of product features by mining consumer reviews. In: Proceedings of the 13th ACM SIGKDD international conference on knowledge discovery and data mining, ACM, New York, NY, USA, KDD’07, pp 56–65. doi:   10.1145/1281192.1281202 .
+    Bermingham A, Ghose A, Smeaton AF (2010) Classifying sentiment in microblogs: Is brevity an advantage? In: Huang J, Koudas N, Jones G, Wu X, Collins-Thompson K, An A (eds) CIKM, ACM, pp 1833–1836 Google Scholar
+    Bestgen Y (2008) Building affective lexicons from specific corpora for automatic sentiment analysis. In: Chair NCC, Choukri K, Maegaard B, Mariani J, Odjik J, Piperidis S, Tapias D (eds) Proceedings of the 6th international conference on language resources and evaluation. European Language Resources Association (ELRA), Marrakech, Morocco, LREC’08. http://www.lrec-conf.org/proceedings/lrec2008/
+    Bifet A, Frank E (2010) Sentiment knowledge discovery in Twitter streaming data. In: Proceedings of the 13th international conference on discovery science. Springer, Canberra, Australia, pp 1–15 Google Scholar
+    Bodendorf F, Kaiser C (2009) Detecting opinion leaders and trends in online social networks. In: Proceeding of the 2nd ACM workshop on social web search and mining. ACM, New York, NY, USA, SWSM’09, pp 65–68, doi:   10.1145/1651437.1651448 .
+    Bollen J, Mao H, Zeng XJ (2010) Twitter mood predicts the stock market. CoRR abs/1010.3003 Google Scholar
+    Carenini G, Ng RT, Zwart E (2005) Extracting knowledge from evaluative text. In: Proceedings of the 3rd international conference on Knowledge capture. ACM, New York, NY, USA, K-CAP’05, pp 11–18. doi:   10.1145/1088622.1088626 .
+    Carenini G, Ng R, Pauls A (2006) Multi-document summarization of evaluative text. In: Proceedings of the 11st conference of the European Chapter of the Association for Computational Linguistics, pp 3–7 Google Scholar
+    Chaovalit P, Zhou L (2005) Movie review mining: a comparison between supervised and unsupervised classification approaches. Hawaii international conference on system sciences, vol 4, p 112c. doi:   10.1109/HICSS.2005.445 .
+    Chen C, Ibekwe-SanJuan F, SanJuan E, Weaver C (2006) Visual analysis of conflicting opinions. In: IEEE symposium on visual analytics science and technology, pp 59–66 Google Scholar
+    Chen F, Tan PN, Jain AK (2009) A co-classification framework for detecting web spam and spammers in social media web sites. In: Proceeding of the 18th ACM conference on information and knowledge management. ACM, New York, NY, USA, CIKM’09, pp 1807–1810. doi:   10.1145/1645953.1646235 .
+    Chevalier JA, Mayzlin D (2006) The effect of word of mouth on sales: online book reviews. J Mark Res 43(3): 345–354 CrossRef Google Scholar
+    Choi Y, Kim Y, Myaeng SH (2009) Domain-specific sentiment analysis using contextual feature generation. In: Proceeding of the international CIKM workshop on topic-sentiment analysis for mass opinion measurement. ACM, New York, NY, USA, TSA’09, pp 37–44. doi:   10.1145/1651461.1651469 .
+    Choudhury MD, Sundaram H, John A, Seligmann DD (2008) Multi-scale characterization of social network dynamics in the blogosphere. In: CIKM, pp 1515–1516 Google Scholar
+    Church KW, Hanks P (1989) Word association norms, mutual information, and lexicography. In: Proceedings of the 27th annual meeting on Association for Computational Linguistics, Association for Computational Linguistics, Morristown, NJ, USA, pp 76–83. doi:   10.3115/981623.981633 .
+    Dasgupta S, Ng V (2009) Topic-wise, sentiment-wise, or otherwise?: identifying the hidden dimension for unsupervised text classification. In: Proceedings of the 2009 conference on empirical methods in natural language processing, Association for Computational Linguistics, Morristown, NJ, USA, EMNLP’09, pp 580–589 Google Scholar
+    Dave K, Lawrence S, Pennock D (2003) Mining the peanut gallery: opinion extraction and semantic classification of product reviews. In: Proceedings of the 12th international conference on World Wide Web, ACM, New York, NY, USA, WWW’03, pp 519–528. doi:   10.1145/775152.775226 .
+    de Marneffe MC, Rafferty AN, Manning CD (2008) Finding contradictions in text. In: Proceedings of ACL: HLT, Association for Computational Linguistics, Columbus, Ohio, ACL’08, pp 1039–1047 Google Scholar
+    Devitt A, Ahmad K (2007) Sentiment polarity identification in financial news: a cohesion-based approach. In: 45th Annual meeting of the Association of Computational Linguistics Google Scholar
+    Ekman P, Friesen WV, Ellsworth P (1982) What emotion categories or dimensions can observers judge from facial behavior? In: Emotion in the human face. Cambridge University Press, New York, pp 39–55 Google Scholar
+    Ennals R, Byler D, Agosta JM, Rosario B (2010a) What is disputed on the web? In: Proceedings of the 4th ACM workshop on information credibility on the web, WICOW 2010, Raleigh, USA, 27 Apr 2010 Google Scholar
+    Ennals R, Trushkowsky B, Agosta JM (2010b) Highlighting disputed claims on the web. In: Proceedings of the 19th international conference on world wide web, WWW 2010, Raleigh, USA, 26–30 Apr 2010 Google Scholar
+    Esuli A, Sebastiani F (2006) Sentiwordnet: a publicly available lexical resource for opinion mining. In: Proceedings of the 5th international conference on language resources and evaluation, LREC’06 Google Scholar
+    Fahrni A, Klenner M (2008) Old wine or warm beer: target-specific sentiment analysis of adjectives. In: Proceedings of the symposium on affective language in human and machine, AISB 2008 convention, pp 60–63 Google Scholar
+    Fellbaum, C (eds) (1998) WordNet: an electronic lexical database. MIT Press, Cambridge MATH Google Scholar
+    Feng S, Wang D, Yu G, Yang C, Yang N (2009) Sentiment clustering: a novel method to explore in the blogosphere. In: Proceedings of the joint international conferences on advances in data and web management. Springer-Verlag, Berlin, Heidelberg, APWeb/WAIM’09, pp 332–344. doi:   10.1007/978-3-642-00672-2_30 .
+    Galley M, McKeown K, Hirschberg J, Shriberg E (2004) Identifying agreement and disagreement in conversational speech: Use of Bayesian networks to model pragmatic dependencies. In: Proceedings of the 42nd annual meeting on Association for Computational Linguistics, Association for Computational Linguistics, Morristown, NJ, USA, ACL’04, pp 669–676. doi:   10.3115/1218955.1219040 .
+    Gamon M (2004) Sentiment classification on customer feedback data: noisy data, large feature vectors, and the role of linguistic analysis. In: Proceedings of the 20th international conference on computational linguistics, Association for Computational Linguistics, Morristown, NJ, USA, COLING’04, p 841. doi:   10.3115/1220355.1220476 .
+    Giampiccolo D, Dang HT, Magnini B, Dagan I, Cabrio E, Dolan B (2008) The fourth pascal recognizing textual entailment challenge. In: Proceedings of the first text analysis conference, TAC’08 Google Scholar
+    Gindl S, Liegl J (2008) Evaluation of different sentiment detection methods for polarity classification on web-based reviews. In: Proceedings of the 18th European conference on artificial intelligence, pp 35–43 Google Scholar
+    Go A, Bhayani R, Huang L (2009) Twitter sentiment classification using distant supervision. Tech. Rep., Stanford University Google Scholar
+    Godbole N, Srinivasaiah M, Skiena S (2007) Large-scale sentiment analysis for news and blogs. In: Proceedings of the international conference on weblogs and social media, ICWSM’07 Google Scholar
+    Goldberg A, Zhu X (2006) Seeing stars when there aren’t many stars: graph-based semi-supervised learning for sentiment categorization. In: TextGraphs workshop on graph based methods for natural language processing Google Scholar
+    Harabagiu S, Hickl A, Lacatusu F (2006) Negation, contrast and contradiction in text processing. In: AAAI’06: proceedings of the 21st national conference on artificial intelligence, pp 755–762 Google Scholar
+    He B, Macdonald C, He J, Ounis I (2008) An effective statistical approach to blog post opinion retrieval. In: CIKM, pp 1063–1072 Google Scholar
+    Hillard D, Ostendorf M, Shriberg E (2003) Detection of agreement vs. disagreement in meetings: training with unlabeled data. In: HLT-NAACL Google Scholar
+    Hoffman T (2008) Online reputation management is hot—but is it ethical? Computerworld Google Scholar
+    Horrigan JA (2008) Online shopping. Pew Internet and American Life Project Report Google Scholar
+    Hu M, Liu B (2004a) Mining and summarizing customer reviews. In: Proceedings of the 10th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, NY, USA, KDD’04, pp 168–177. doi:   10.1145/1014052.1014073 .
+    Hu M, Liu B (2004) Mining opinion features in customer reviews. In: Mcguinness DL, Ferguson G, Mcguinness DL, Ferguson G (eds) AAAI. AAAI Press/The MIT Press, Cambridge, pp 755–760 Google Scholar
+    Jindal N, Liu B (2008) Opinion spam and analysis. In: Proceedings of the international conference on Web search and web data mining. ACM, New York, NY, USA, WSDM’08, pp 219–230. doi:   10.1145/1341531.1341560 .
+    Kamps J, Marx M, Mokken RJ, Rijke MD (2004) Using wordnet to measure semantic orientation of adjectives. In: Proceedings of the 4th international conference on language resources and evaluation, LREC’04, vol IV, pp 1115–1118 Google Scholar
+    Kim SM, Hovy E (2004) Determining the sentiment of opinions. In: Proceedings of the 20th international conference on computational linguistics, Association for Computational Linguistics, Morristown, NJ, USA, COLING’04, p 1367. doi:   10.3115/1220355.1220555 .
+    Kim HD, Zhai C (2009) Generating comparative summaries of contradictory opinions in text. In: Proceedings of the 18th ACM conference on information and knowledge management. ACM, New York, NY, USA, CIKM’09, pp 385–394. doi:   10.1145/1645953.1646004 .
+    Koppel M, Schler J (2006) The importance of neutral examples for learning sentiment. Comput Intell 22(2): 100–109 MathSciNet CrossRef Google Scholar
+    Ku LW, Lee LY, Wu TH, Chen HH (2005) Major topic detection and its application to opinion summarization. In: Proceedings of the 28th annual international ACM SIGIR conference on research and development in information retrieval. ACM, New York, NY, USA, SIGIR’05, pp 627–628. doi:   10.1145/1076034.1076161 .
+    Ku LW, Liang YT, Chen HH (2006) Opinion extraction, summarization and tracking in news and blog corpora. In: Proceedings of AAAI-2006 spring symposium on computational approaches to analyzing weblogs Google Scholar
+    Ku LW, Lo YS, Chen HH (2007) Using polarity scores of words for sentence-level opinion extraction. In: Proceedings of NTCIR-6 workshop meeting, pp 316–322 Google Scholar
+    Lerman K, Blair-Goldensohn S, Mcdonald R (2009) Sentiment summarization: evaluating and learning user preferences. In: Proceedings of 12th conference of the European chapter of the Association for Computational Linguistics, EACL’09 Google Scholar
+    Leung CWK, Chan SCF, Chung FL (2006) Integrating collaborative filtering and sentiment analysis: a rating inference approach. In: ECAI 2006 workshop on recommender systems, pp 62–66 Google Scholar
+    Lim E, Liu B, Jindal N, Nguyen V, Lauw W (2010) Detecting product review spammers using rating behaviors. In: CIKM, Toronto, ON, Canada Google Scholar
+    Lin C, He Y (2009) Joint sentiment/topic model for sentiment analysis. In: Proceeding of the 18th ACM conference on information and knowledge management. ACM, New York, NY, USA, CIKM’09, pp 375–384. doi:   10.1145/1645953.1646003 .
+    Liu B (2010) Sentiment analysis and subjectivity. In: Indurkhya N, Damerau FJ (eds) Handbook of natural language processing, 2nd edn. CRC Press, Taylor and Francis Group, Boca Raton. ISBN 978-1420085921 Google Scholar
+    Liu H, Lieberman H, Selker T (2003) A model of textual affect sensing using real-world knowledge. In: Proceedings of the 8th international conference on intelligent user interfaces, IUI’03, pp 125–133 Google Scholar
+    Liu B, Hu M, Cheng J (2005) Opinion observer: analyzing and comparing opinions on the web. In: Proceedings of the 14th international conference on world wide web. ACM, New York, NY, USA, WWW’05, pp 342–351. doi:   10.1145/1060745.1060797 .
+    Liu J, Birnbaum L, Pardo B (2009) Spectrum: retrieving different points of view from the blogosphere. In: Proceedings of the third international conference on weblogs and social media Google Scholar
+    Lu Y, Tsaparas P, Ntoulas A, Polanyi L (2010) Exploiting social context for review quality prediction. In: Proceedings of the 19th international conference on world wide web. ACM, New York, NY, USA, WWW’10, pp 691–700. doi:   10.1145/1772690.1772761 .
+    McArthur R (2008) Uncovering deep user context from blogs. In: AND, pp 47–54 Google Scholar
+    Mei Q, Ling X, Wondra M, Su H, Zhai C (2007) Topic sentiment mixture: modeling facets and opinions in weblogs. In: WWW, ACM, New York, NY, USA, pp 171–180 Google Scholar
+    Melville P, Gryc W, Lawrence RD (2009) Sentiment analysis of blogs by combining lexical knowledge with text classification. In: Proceedings of the 15th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, New York, NY, USA, KDD’09, pp 1275–1284.   10.1145/1557019.1557156 .
+    Miao Q., Li Q., Dai R (2009) Amazing: a sentiment mining and retrieval system. Expert Syst Appl 36(3): 7192–7198. doi:   10.1016/j.eswa.2008.09.035 CrossRef Google Scholar
+    Missen MM, Boughanem M (2009) Using wordnet’s semantic relations for opinion detection in blogs. In: Proceedings of the 31th European conference on IR research on advances in information retrieval. Springer-Verlag, Berlin, ECIR’09, pp 729–733. doi:   10.1007/978-3-642-00958-7_75 .
+    Morinaga S, Yamanishi K, Tateishi K, Fukushima T (2002) Mining product reputations on the web. In: Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, New York, NY, USA, KDD’02, pp 341–349. doi:   10.1145/775047.775098 .
+    Mullen T, Malouf R (2006) A preliminary investigation into sentiment analysis of informal political discourse. In: AAAI spring symposium on computational approaches to analyzing weblogs Google Scholar
+    Nadeau D, Sabourin C, de Koninck J, Matwin S, Turney P (2006) Automatic dream sentiment analysis. In: Proceedings of the workshop on computational aesthetics at the 21st national conference on artificial intelligence, AAAI-06 Google Scholar
+    Nowson S (2009) Scary films good, scary flights bad: topic driven feature selection for classification of sentiment. In: Proceeding of the international CIKM workshop on topic-sentiment analysis for mass opinion measurement. ACM, New York, NY, USA, TSA’09, pp 17–24. doi:   10.1145/1651461.1651465 .
+    O’Hare N, Davy M, Bermingham A, Ferguson P, Sheridan P, Gurrin C, Smeaton AF (2009) Topic-dependent sentiment analysis of financial blogs. In: Proceeding of the international CIKM workshop on topic-sentiment analysis for mass opinion measurement, TSA’09 Google Scholar
+    Osherenko A, André E (2007) Lexical affect sensing: Are affect dictionaries necessary to analyze affect? In: Proceedings of the 2nd international conference on affective computing and intelligent interaction. Springer-Verlag, Berlin, ACII’07, pp 230–241. doi:   10.1007/978-3-540-74889-2_21 .
+    Pado S, de Marneffe MC, MacCartney B, Rafferty AN, Yeh E, Manning CD (2008) Deciding entailment and contradiction with stochastic and edit distance-based alignment. In: Proceedings of the first text analysis conference, TAC’08 Google Scholar
+    Pak A, Paroubek P (2010) Twitter as a corpus for sentiment analysis and opinion mining. In: Calzolari N, Choukri K, Maegaard B, Mariani J, Odijk J, Piperidis S, Rosner M, Tapias D (eds) LREC, European Language Resources Association Google Scholar
+    Pang B, Lee L (2004) A sentimental education: sentiment analysis using subjectivity summarization based on minimum cuts. In: Proceedings of the 42nd annual meeting on Association for Computational Linguistics, pp 271–278 Google Scholar
+    Pang B, Lee L (2005) Seeing stars: exploiting class relationships for sentiment categorization with respect to rating scales. In: ACL Google Scholar
+    Pang B, Lee L (2008) Opinion mining and sentiment analysis. Found Trends Inf Retr 2(1–2): 1–135 CrossRef Google Scholar
+    Pang B, Lee L, Vaithyanathan S (2002) Thumbs up? Sentiment classification using machine learning techniques. In: EMNLP 2002, pp 79–86 Google Scholar
+    Prabowo R, Thelwall M (2009) Sentiment analysis: a combined approach. J Informetr 3(2): 143–157. doi:   10.1016/j.joi.2009.01.003 CrossRef Google Scholar
+    Read J, Carroll J (2009) Weakly supervised techniques for domain-independent sentiment classification. In: Proceeding of the international CIKM workshop on topic-sentiment analysis for mass opinion measurement. ACM, New York, NY, USA, TSA’09, pp 45–52. doi:   10.1145/1651461.1651470 .
+    Riloff E, Wiebe J, Phillips W (2005) Exploiting subjectivity classification to improve information extraction. In: Veloso MM, Kambhampati S (eds) AAAI. AAAI Press/The MIT Press, pp 1106–1111 Google Scholar
+    Shimada K, Endo T (2008) Seeing several stars: a rating inference task for a document containing several evaluation criteria. In: PAKDD, pp 1006–1014 Google Scholar
+    Stoyanov V, Cardie C (2008) Topic identification for fine-grained opinion analysis. In: Proceedings of the 22nd international conference on computational linguistics, Manchester, UK, Coling’08, pp 817–824 Google Scholar
+    Taboada M, Anthony C, Voll K (2006a) Methods for creating semantic orientation dictionaries. In: Proceedings of the 5th international conference on language resources and evaluation, LREC’06, pp 427–432 Google Scholar
+    Taboada M, Gillies MA, McFetridge P (2006b) Sentiment classification techniques for tracking literary reputation. In: Proceedings of LREC workshop towards computational models of literary analysis, pp 36–43 Google Scholar
+    Tang H, Tan S, Cheng X (2009) A survey on sentiment detection of reviews. Expert Syst Appl 36(7):10760–10773. doi:   10.1016/j.eswa.2009.02.063 . Google Scholar
+    Thet TT, Na JC, Khoo CS, Shakthikumar S (2009) Sentiment analysis of movie reviews on discussion boards using a linguistic approach. In: Proceeding of the international CIKM workshop on topic-sentiment analysis for mass opinion measurement, TSA’09 Google Scholar
+    Thomas M, Pang B, Lee L (2006) Get out the vote: determining support or opposition from congressional floor-debate transcripts. In: EMNLP, pp 327–335 Google Scholar
+    Tsytsarau M, Palpanas T, Denecke K (2010) Scalable discovery of contradictions on the web. In: Proceedings of the 19th international conference on world wide web, WWW 2010, Raleigh, USA, 26–30 Apr 2010 Google Scholar
+    Tsytsarau M, Palpanas T, Denecke K (2011) Scalable detection of sentiment-based contradictions. In: First international workshop on knowledge diversity on the web, Colocated with WWW 2011, Hyderabad, India, 28–31 Mar 2011 Google Scholar
+    Tumasjan A, Sprenger TO, Sandner PG, Welpe IM (2010) Predicting elections with twitter: what 140 characters reveal about political sentiment. In: Cohen WW, Gosling S (eds) ICWSM. The AAAI Press Google Scholar
+    Turney PD (2002) Thumbs up or thumbs down?: semantic orientation applied to unsupervised classification of reviews. In: Proceedings of the 40th annual meeting on ACL, Association for Computational Linguistics, Morristown, NJ, USA, ACL’02, pp 417–424. doi:   10.3115/1073083.1073153 .
+    Turney P, Littman M (2003) Measuring praise and criticism: inference of semantic orientation from association. ACM Trans Inf Syst 21: 315–346 CrossRef Google Scholar
+    Varlamis I, Vassalos V, Palaios A (2008) Monitoring the evolution of interests in the blogosphere. In: ICDE workshops. IEEE Computer Society, pp 513–518 Google Scholar
+    Voorhees EM (2008) Contradictions and justifications: extensions to the textual entailment task. In: Proceedings of ACL: HLT, Association for Computational Linguistics, Columbus, Ohio, ACL’08, pp 63–71 Google Scholar
+    Wiebe J, Riloff E (2005) Creating subjective and objective sentence classifiers from unannotated texts. In: CICLing-2005 Google Scholar
+    Wiebe J, Wilson T, Bell M (2001) Identifying collocations for recognizing opinions. In: Proceedings of the ACL workshop on collocation: computational extraction, analysis, and exploitation, Association for Computational Linguistics, ACL’01, pp 24–31 Google Scholar
+    Wilson T, Wiebe J, Hoffmann P (2005) Recognizing contextual polarity in phrase-level sentiment analysis. In: HLT/EMNLP, The Association for Computational Linguistics Google Scholar
+    Yi J, Nasukawa T, Bunescu R, Niblack W (2003) Sentiment analyzer: extracting sentiments about a given topic using natural language processing techniques. In: Proceedings of the IEEE international conference on data mining, ICDM’03 Google Scholar
+    Yu H, Hatzivassiloglou V (2003) Towards answering opinion questions: separating facts from opinions and identifying the polarity of opinion sentences. In: Collins M, Steedman M (eds) EMNLP, Sapporo, JP, EMNLP’03, pp 129–136. http://portal.acm.org/citation.cfm?id=1119355.1119372
+    Zhang J, Yu CT, Meng W (2007) Opinion retrieval from blogs. In: Silva MJ, Laender AHF, Baeza-Yates RA, McGuinness DL, Olstad B, Olsen ØH, Falcão AO (eds) CIKM, ACM, pp 831–840 Google Scholar
+    Zhang J, Kawai Y, Kumamoto T, Tanaka K (2009) A novel visualization method for distinction of web news sentiment. In: Vossen G, Long DDE, Yu JX (eds) WISE. Lecture notes in computer science, vol 5802. Springer pp 181–194 Google Scholar
+    Zhou L., Chaovalit P (2008) Ontology-supported polarity mining. J Am Soc Inf Sci Technol 59: 98–110. doi:   10.1002/asi.v59:1 CrossRef Google Scholar
+    Zhu J, Zhu M, Wang H, Tsou BK (2009) Aspect-based sentence segmentation for sentiment summarization. In: Proceeding of the international CIKM workshop on topic-sentiment analysis for mass opinion measurement. ACM, New York, NY, USA, TSA’09, pp 65–72. doi:   10.1145/1651461.1651474 .
+
+Copyright information
+© The Author(s) 2011
+About this article
+
+Cite this article as:
+    Tsytsarau, M. & Palpanas, T. Data Min Knowl Disc (2012) 24: 478. https://doi.org/10.1007/s10618-011-0238-6
+
+    DOI https://doi.org/10.1007/s10618-011-0238-6
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Survey on mining subjective data on the web
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Academic Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Statement . You can manage your preferences in Manage Cookies.
+Close
+OK
+Manage Cookies

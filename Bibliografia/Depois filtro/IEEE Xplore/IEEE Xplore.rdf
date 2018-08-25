@@ -1,0 +1,655 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <rdf:Description rdf:about="#item_1150">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/UIC-ATC.2017.8397648</dc:identifier>
+                <dc:title>2017 IEEE SmartWorld, Ubiquitous Intelligence &amp; Computing, Advanced &amp; Trusted Computed, Scalable Computing &amp; Communications, Cloud &amp; Big Data Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>W. He</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>G. Yan</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>J. Shen</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>X. Tian</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Sentiment analysis</dc:subject>
+        <dc:subject>Text mining</dc:subject>
+        <dc:subject>Twitter</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social media</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>sentiment analysis</dc:subject>
+        <dc:subject>natural language processing</dc:subject>
+        <dc:subject>text analysis</dc:subject>
+        <dc:subject>natural language preprocessing</dc:subject>
+        <dc:subject>online movie reviews</dc:subject>
+        <dc:subject>online social media data mining</dc:subject>
+        <dc:subject>Organizations</dc:subject>
+        <dc:subject>text mining</dc:subject>
+        <dc:subject>user-generated data</dc:subject>
+        <dc:subject>workflow approach</dc:subject>
+        <bib:pages>1-6</bib:pages>
+        <dc:date>4-8 Aug. 2017</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2017 IEEE SmartWorld, Ubiquitous Intelligence &amp; Computing, Advanced &amp; Trusted Computed, Scalable Computing &amp; Communications, Cloud &amp; Big Data Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Customers' conversations on social media could shed light into their experience, opinions, feelings, and concerns. To gain valuable knowledge about customers, it becomes increasingly important for businesses to collect, monitor, analyze, summarize, and visualize user-generated data on social media. However, analyzing social media data is challenging due to the vast increase of social media data. In this paper, we present a workflow approach of using established natural language preprocessing, text mining and sentiment analysis techniques to analyze social media data. Then we conducted two experiments to verify the effectiveness of our workflow approach by mining online movie reviews. The results show that our workflow approach is effective in analyzing social media data.</dcterms:abstract>
+        <dc:title>Developing a workflow approach for mining online social media data</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_1152">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/CSNT.2015.182</dc:identifier>
+                <dc:title>2015 Fifth International Conference on Communication Systems and Network Technologies</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>R. Goyal</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>P. Dhyani</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>O. P. Rishi</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>Facebook</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social media</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>Feature extraction</dc:subject>
+        <dc:subject>Media</dc:subject>
+        <dc:subject>behavioural sciences computing</dc:subject>
+        <dc:subject>algorithm</dc:subject>
+        <dc:subject>Data Mining</dc:subject>
+        <dc:subject>Facebook data</dc:subject>
+        <dc:subject>like influence</dc:subject>
+        <dc:subject>object like mining algorithm</dc:subject>
+        <dc:subject>Social Media</dc:subject>
+        <dc:subject>social networking sites</dc:subject>
+        <dc:subject>user like</dc:subject>
+        <dc:subject>user preference</dc:subject>
+        <dc:subject>Videos</dc:subject>
+        <dc:subject>Visualization</dc:subject>
+        <bib:pages>1056-1059</bib:pages>
+        <dc:date>4-6 April 2015</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2015 Fifth International Conference on Communication Systems and Network Technologies</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Popularity and usability of Social Media in today's scenario is universal. None of us can deny to the fact it is not only the source of communication or connection between friends but also has broaden its horizons to politics, television industry, source to advertisement for companies, education and many more[11][15]. Most of the companies or personalities are maintaining pages on these social media sites to interact with the users of these sites they are even posting messages, videos on these sites so that they can get attached by more and more users. Researches have shown even in latest 2014 elections that BJP used social media as its most liked option for promotion. The same was hit and liked by masses. Seeing this we can actually see the acceptance of 'Like' on the social media. It has become a measure to actually analyze and capture user interest on social media. It enables one to actually calculate and measure the user liking over certain objects. It gives the clear cut idea of user interest in a particular object and thus calculations can be made accordingly for sharing and promoting information or objects on social media sites [12]. We are trying to seek a model to analyze and mine the influence of 'Like' in social media. To calculate the effect on the object 'Like' mining algorithm is proposed along with the network model for social media. Facebook data is being used to show the influence and effect of the approach.</dcterms:abstract>
+        <dc:title>'Like': A Unique Way to Judge User Preference in Social Networking Sites</dc:title>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_1153">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1041-4347"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>J. Tang</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>H. Liu</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>Facebook</dc:subject>
+        <dc:subject>social media</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>Feature extraction</dc:subject>
+        <dc:subject>feature selection</dc:subject>
+        <dc:subject>Media</dc:subject>
+        <dc:subject>attribute-value data</dc:subject>
+        <dc:subject>Correlation</dc:subject>
+        <dc:subject>empirical analysis</dc:subject>
+        <dc:subject>feature relevance</dc:subject>
+        <dc:subject>label information</dc:subject>
+        <dc:subject>linked data</dc:subject>
+        <dc:subject>linked social media data characteristics</dc:subject>
+        <dc:subject>LUFS</dc:subject>
+        <dc:subject>pseudo labels</dc:subject>
+        <dc:subject>real-world social media Web sites</dc:subject>
+        <dc:subject>relation extraction</dc:subject>
+        <dc:subject>social dimension regularization</dc:subject>
+        <dc:subject>Spectral analysis</dc:subject>
+        <dc:subject>unlabeled high-dimensional data</dc:subject>
+        <dc:subject>Unsupervised feature selection</dc:subject>
+        <dc:subject>unsupervised feature selection framework</dc:subject>
+        <dc:subject>unsupervised learning</dc:subject>
+        <bib:pages>2914-2927</bib:pages>
+        <dc:date>1 Dec. 2014</dc:date>
+        <dcterms:abstract>The explosive usage of social media produces massive amount of unlabeled and high-dimensional data. Feature selection has been proven to be effective in dealing with high-dimensional data for efficient learning and data mining. Unsupervised feature selection remains a challenging task due to the absence of label information based on which feature relevance is often assessed. The unique characteristics of social media data further complicate the already challenging problem of unsupervised feature selection, e.g., social media data is inherently linked, which makes invalid the independent and identically distributed assumption, bringing about new challenges to unsupervised feature selection algorithms. In this paper, we investigate a novel problem of feature selection for social media data in an unsupervised scenario. In particular, we analyze the differences between social media data and traditional attribute-value data, investigate how the relations extracted from linked data can be exploited to help select relevant features, and propose a novel unsupervised feature selection framework, LUFS, for linked social media data. We systematically design and conduct systemic experiments to evaluate the proposed framework on data sets from real-world social media Web sites. The empirical study demonstrates the effectiveness and potential of our proposed framework.</dcterms:abstract>
+        <dc:title>An Unsupervised Feature Selection Framework for Social Media Data</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1041-4347">
+        <prism:volume>26</prism:volume>
+        <prism:number>12</prism:number>
+        <dc:title>IEEE Transactions on Knowledge and Data Engineering</dc:title>
+        <dc:identifier>ISSN 1041-4347</dc:identifier>
+        <dcterms:alternative>IEEE Transactions on Knowledge and Data Engineering</dcterms:alternative>
+        <dc:identifier>DOI 10.1109/TKDE.2014.2320728</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="#item_1180">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/ICACCI.2017.8125871</dc:identifier>
+                <dc:title>2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>N. Melethadathil</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>B. Nair</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>S. Diwakar</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>S. Pazhanivelu</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>Algorithm design and analysis</dc:subject>
+        <dc:subject>Bayes methods</dc:subject>
+        <dc:subject>Classification algorithms</dc:subject>
+        <dc:subject>Social network services</dc:subject>
+        <dc:subject>Clustering algorithms</dc:subject>
+        <dc:subject>data analysis</dc:subject>
+        <dc:subject>pattern clustering</dc:subject>
+        <dc:subject>learning (artificial intelligence)</dc:subject>
+        <dc:subject>social media data analytics</dc:subject>
+        <dc:subject>health care</dc:subject>
+        <dc:subject>classification</dc:subject>
+        <dc:subject>portals</dc:subject>
+        <dc:subject>Bayesian algorithm</dc:subject>
+        <dc:subject>clustering algorithms</dc:subject>
+        <dc:subject>data mining algorithms</dc:subject>
+        <dc:subject>Decision trees</dc:subject>
+        <dc:subject>healthcare organization</dc:subject>
+        <dc:subject>machine learning methods</dc:subject>
+        <dc:subject>marketing data processing</dc:subject>
+        <dc:subject>Prediction algorithms</dc:subject>
+        <dc:subject>predictive analytics efficiency</dc:subject>
+        <dc:subject>self-enhancement goals</dc:subject>
+        <dc:subject>self-presentation goals</dc:subject>
+        <dc:subject>short-term social media marketing outreach</dc:subject>
+        <dc:subject>social media articles</dc:subject>
+        <dc:subject>social networking portals</dc:subject>
+        <dc:subject>social relevance</dc:subject>
+        <bib:pages>387-392</bib:pages>
+        <dc:date>13-16 Sept. 2017</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Social networking portals serve as an ideal platform for a person or an organization, to accomplish self-presentation and self-enhancement goals there by to understand their social relevance and hence, there have been many studies attempting to identify the relationship between different aspects of social media articles. Machine learning methods play a critical role in social media data analytics. This study evaluates the efficiency of predictive analytics with social media data of a private healthcare institution using classification and clustering algorithms. In this study, we also investigated the influence of system specific feature set and user generated features of social media articles to identify relevant data mining algorithms that are suitable for identifying knowledge-related patterns in dataset. Among the classification methods it is found that Bayesian algorithm performs better compared to other classification techniques. K-Means and Filtered cluster among the clustering techniques have better predictive analytics efficiency compared to other algorithms. Identifying the predictive analytics efficacy of these algorithms helps healthcare institution to build a model with most appropriate characteristics of social media articles.</dcterms:abstract>
+        <dc:title>Assessing short-term social media marketing outreach of a healthcare organization using machine learning</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:isbn:2161-4393">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 2161-4393</dc:identifier>
+                <dc:identifier>DOI 10.1109/IJCNN.2009.5178967</dc:identifier>
+                <dc:title>2009 International Joint Conference on Neural Networks</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>I. King</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>J. Li</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>K. T. Chan</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Facebook</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social media</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>sentiment analysis</dc:subject>
+        <dc:subject>Social network services</dc:subject>
+        <dc:subject>data collection</dc:subject>
+        <dc:subject>learning (artificial intelligence)</dc:subject>
+        <dc:subject>YouTube</dc:subject>
+        <dc:subject>Internet</dc:subject>
+        <dc:subject>social network analysis</dc:subject>
+        <dc:subject>data extraction</dc:subject>
+        <dc:subject>social computing</dc:subject>
+        <dc:subject>collaborative filtering</dc:subject>
+        <dc:subject>social networks</dc:subject>
+        <dc:subject>Tagging</dc:subject>
+        <dc:subject>social network sites</dc:subject>
+        <dc:subject>computational approaches</dc:subject>
+        <dc:subject>Computer networks</dc:subject>
+        <dc:subject>data process</dc:subject>
+        <dc:subject>data ranking</dc:subject>
+        <dc:subject>data visualisation</dc:subject>
+        <dc:subject>data visualization</dc:subject>
+        <dc:subject>Filtering</dc:subject>
+        <dc:subject>graph mining</dc:subject>
+        <dc:subject>human computing</dc:subject>
+        <dc:subject>Humans</dc:subject>
+        <dc:subject>intelligent applications</dc:subject>
+        <dc:subject>interactive applications</dc:subject>
+        <dc:subject>International collaboration</dc:subject>
+        <dc:subject>link analysis</dc:subject>
+        <dc:subject>link modeling</dc:subject>
+        <dc:subject>machine learning</dc:subject>
+        <dc:subject>multidisciplinary approach</dc:subject>
+        <dc:subject>MySpace</dc:subject>
+        <dc:subject>on-line communities</dc:subject>
+        <dc:subject>Online Communities/Technical Collaboration</dc:subject>
+        <dc:subject>ranking</dc:subject>
+        <dc:subject>social bookmarking</dc:subject>
+        <dc:subject>social games</dc:subject>
+        <dc:subject>social knowledge sites</dc:subject>
+        <dc:subject>social tagging</dc:subject>
+        <dc:subject>Web 2.0 technologies</dc:subject>
+        <bib:pages>1625-1632</bib:pages>
+        <dc:date>14-19 June 2009</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2009 International Joint Conference on Neural Networks</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Web 2.0 technologies have brought new ways of connecting people in social networks for collaboration in various on-line communities. Social Computing is a novel and emerging computing paradigm that involves a multi-disciplinary approach in analyzing and modeling social behaviors on different media and platforms to produce intelligent and interactive applications and results. In this paper, we give a brief survey of the various machine learning and computational techniques used in Social Computing by first examining the social platforms, e.g., social network sites, social media, social games, social bookmarking, and social knowledge sites, where computational methodology is required to collect, extract, process, mine, and visualize the data. We then present surveys on more specific instances of computation tasks and techniques, e.g., social network analysis, link modeling and mining, ranking, sentiment analysis, etc., that are being used on these social platforms to obtain desirable results. Lastly, we present a small subset of an extensive reference list, which contains over 140 highly relevant references relating to the recent development in the computational aspects of Social Computing.</dcterms:abstract>
+        <dc:title>A brief survey of computational approaches in Social Computing</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_1197">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/PERVASIVE.2015.7087040</dc:identifier>
+                <dc:title>2015 International Conference on Pervasive Computing (ICPC)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>S. Desai</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>S. T. Patil</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>Algorithm design and analysis</dc:subject>
+        <dc:subject>Bayes methods</dc:subject>
+        <dc:subject>Classification algorithms</dc:subject>
+        <dc:subject>Machine learning algorithms</dc:subject>
+        <dc:subject>Social network services</dc:subject>
+        <dc:subject>Media</dc:subject>
+        <dc:subject>learning (artificial intelligence)</dc:subject>
+        <dc:subject>recommender systems</dc:subject>
+        <dc:subject>social media data mining</dc:subject>
+        <dc:subject>pattern classification</dc:subject>
+        <dc:subject>Decision trees</dc:subject>
+        <dc:subject>Adaboost</dc:subject>
+        <dc:subject>business analyst</dc:subject>
+        <dc:subject>C4.5</dc:subject>
+        <dc:subject>data size</dc:subject>
+        <dc:subject>decision tree algorithm</dc:subject>
+        <dc:subject>decision trees</dc:subject>
+        <dc:subject>Decision Trees</dc:subject>
+        <dc:subject>friend recommendation</dc:subject>
+        <dc:subject>ID3</dc:subject>
+        <dc:subject>machine learning algorithms</dc:subject>
+        <dc:subject>NaiveBayes</dc:subject>
+        <dc:subject>product recommendation</dc:subject>
+        <dc:subject>random decision tree algorithm</dc:subject>
+        <dc:subject>Random Decision Trees</dc:subject>
+        <dc:subject>RDT</dc:subject>
+        <dc:subject>regression algorithms</dc:subject>
+        <dc:subject>regression analysis</dc:subject>
+        <dc:subject>service recommendation</dc:subject>
+        <dc:subject>Social Media Data</dc:subject>
+        <dc:subject>social media data classification</dc:subject>
+        <bib:pages>1-5</bib:pages>
+        <dc:date>8-10 Jan. 2015</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2015 International Conference on Pervasive Computing (ICPC)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>As data is growing rapidly day by day due to wide usage of social media, this social data will help business analyst as well as researchers to get the feedback about any service or product. Analysis of social media data can be used for many purposes like friend recommendation, product or service recommendation etc. There is need of such algorithms which will classify data accurately and will provide analysis results accurately. Also these algorithms need to scale rapidly with data sets. In this paper, Different phases of social media data mining are identified. We have studied algorithms whose training time remains same though the data size increases. We have implemented decision tree algorithm and compared it with other machine learning algorithms like NaiveBayes, Adaboost etc. It is found that decision tree algorithms gives accurate results as compared to other algorithms. In addition to that, out of different decision tree algorithms random decision tree (RDT) algorithm performs best than other decision tree algorithms like C4.5 or ID3.</dcterms:abstract>
+        <dc:title>Efficient regression algorithms for classification of social media data</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_1203">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/CSIBIG.2014.7056947</dc:identifier>
+                <dc:title>2014 Conference on IT in Business, Industry and Government (CSIBIG)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>M. Ramzan</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>M. Ahmad</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>Big Data</dc:subject>
+        <dc:subject>Media</dc:subject>
+        <dc:subject>Data Mining</dc:subject>
+        <dc:subject>Social Media</dc:subject>
+        <dc:subject>Blogs</dc:subject>
+        <dc:subject>Monitoring</dc:subject>
+        <dc:subject>TV</dc:subject>
+        <dc:subject>knowledge extraction</dc:subject>
+        <dc:subject>History</dc:subject>
+        <dc:subject>Data Mining Trends</dc:subject>
+        <dc:subject>database management systems</dc:subject>
+        <dc:subject>KDD</dc:subject>
+        <dc:subject>knowledge acquisition</dc:subject>
+        <dc:subject>knowledge discovery in database</dc:subject>
+        <dc:subject>Uniform resource locators</dc:subject>
+        <bib:pages>1-4</bib:pages>
+        <dc:date>8-9 March 2014</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 Conference on IT in Business, Industry and Government (CSIBIG)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Knowledge has played a significant role in every sphere of human life. To acquire knowledge we have to analyze the unlimited data that is available to us in various formats in the form of databases. We can analyze this data and find hidden information with the support of data mining. Data mining refers to the process or method that extracts interesting knowledge from large amounts of data. Data mining have number of applications and these applications have enhanced the various fields of human life including business, education, social media medical, scientific etc. The field of data mining has seen enormous success from the inception, in terms of wide-ranging application achievements and in terms of scientific advancement and understanding. The key objective of this paper is to provide an overview of evolution of data mining from its beginning to the present stage of development.</dcterms:abstract>
+        <dc:title>Evolution of data mining: An overview</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_1218">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/ICACCS.2015.7324059</dc:identifier>
+                <dc:title>2015 International Conference on Advanced Computing and Communication Systems</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>S. Gole</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>B. Tidke</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Big data</dc:subject>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social media</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>Algorithm design and analysis</dc:subject>
+        <dc:subject>Big Data</dc:subject>
+        <dc:subject>Clustering algorithms</dc:subject>
+        <dc:subject>Media</dc:subject>
+        <dc:subject>Data Mining</dc:subject>
+        <dc:subject>Partitioning algorithms</dc:subject>
+        <dc:subject>data mining technique</dc:subject>
+        <dc:subject>Internet</dc:subject>
+        <dc:subject>Databases</dc:subject>
+        <dc:subject>Hadoop</dc:subject>
+        <dc:subject>parallel processing</dc:subject>
+        <dc:subject>data mining algorithm</dc:subject>
+        <dc:subject>Facebook like button</dc:subject>
+        <dc:subject>Hadoop framework</dc:subject>
+        <dc:subject>Internet user</dc:subject>
+        <dc:subject>Unstructured</dc:subject>
+        <bib:pages>1-6</bib:pages>
+        <dc:date>5-7 Jan. 2015</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2015 International Conference on Advanced Computing and Communication Systems</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>World's largest community Facebook's `Like' button pressed 2.7 billion times every day across the web revealing what people care about, such an impact of social media that internet user average almost spends 2.5 hours daily on liking, chatting, poking, tweeting on social media, which has become vast source of unstructured data. While dealing with big data it's difficult for traditional databases and architecture to modify, grill and then structure this data, it can lead to many consumer insights which can help to create win-win situations. It has become necessary to find out value from large data sets to show relationships, dependencies as well as to perform predictions of outcomes and behaviors. Big Data has been characterized by 5 Vs - Volume, Velocity, Variety, Veracity and Value. This paper deals with all these 5Vs, features, challenges, future of Big Data in social media arena using data mining algorithms, tools and Hadoop framework for overcoming challenges of Big Data.</dcterms:abstract>
+        <dc:title>A survey of big data in social media using data mining techniques</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_1386">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/UCC.2014.81</dc:identifier>
+                <dc:title>2014 IEEE/ACM 7th International Conference on Utility and Cloud Computing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>S. Kohli</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>H. Singal</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Big data</dc:subject>
+        <dc:subject>Twitter</dc:subject>
+        <dc:subject>Facebook</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>data analysis</dc:subject>
+        <dc:subject>text mining</dc:subject>
+        <dc:subject>learning (artificial intelligence)</dc:subject>
+        <dc:subject>social networking sites</dc:subject>
+        <dc:subject>social media analytics</dc:subject>
+        <dc:subject>Conferences</dc:subject>
+        <dc:subject>Companies</dc:subject>
+        <dc:subject>Data analysis</dc:subject>
+        <dc:subject>decision making</dc:subject>
+        <dc:subject>statistical analysis</dc:subject>
+        <dc:subject>inference mechanisms</dc:subject>
+        <dc:subject>Cloud computing</dc:subject>
+        <dc:subject>Decision making</dc:subject>
+        <dc:subject>analytic reasoning</dc:subject>
+        <dc:subject>forecasting</dc:subject>
+        <dc:subject>learning</dc:subject>
+        <dc:subject>mathematical techniques</dc:subject>
+        <dc:subject>R</dc:subject>
+        <dc:subject>statistical techniques</dc:subject>
+        <bib:pages>537-538</bib:pages>
+        <dc:date>8-11 Dec. 2014</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 IEEE/ACM 7th International Conference on Utility and Cloud Computing</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Analytics companies develop the ability to support their decisions through analytic reasoning using a variety of statistical and mathematical techniques. Thomas Devonport in his book titled, &quot;Competing on analytics: The new science of winning&quot;, claims that a significant proportion of high-performance companies have high analytical skills among their personnel. On the other hand, a recent study has also revealed that more than 59% of the organizations do not have information required for decision-making. Learning &quot;Data Analysis with R&quot; not only adds to existing analytics knowledge and methodology, but also equips with exposure into latest analytics techniques including forecasting, social media analytics, text mining &amp;amp;amp; so on. It gives an opportunity to work on real time data from Twitter, Facebook &amp;amp;amp; other social networking sites.</dcterms:abstract>
+        <dc:title>Data Analysis with R</dc:title>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_1524">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2169-3536"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Y. Chen</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Z. Zheng</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>S. Chen</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>L. Sun</foaf:surname></foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>D. Chen</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>Internet</dc:subject>
+        <dc:subject>recommender systems</dc:subject>
+        <dc:subject>Time-frequency analysis</dc:subject>
+        <dc:subject>retail data processing</dc:subject>
+        <dc:subject>consumer behaviour</dc:subject>
+        <dc:subject>Mobile handsets</dc:subject>
+        <dc:subject>Context modeling</dc:subject>
+        <dc:subject>temporal influence</dc:subject>
+        <dc:subject>Trajectory</dc:subject>
+        <dc:subject>customer interaction behaviors</dc:subject>
+        <dc:subject>Customer preference</dc:subject>
+        <dc:subject>customer preference mining</dc:subject>
+        <dc:subject>interaction behavior</dc:subject>
+        <dc:subject>interaction behaviour</dc:subject>
+        <dc:subject>online stores</dc:subject>
+        <dc:subject>physical store</dc:subject>
+        <dc:subject>physical stores</dc:subject>
+        <dc:subject>store-type recommendation</dc:subject>
+        <dc:subject>store-type recommendation model</dc:subject>
+        <dc:subject>urban shopping malls</dc:subject>
+        <dc:subject>Wireless fidelity</dc:subject>
+        <bib:pages>17436-17449</bib:pages>
+        <dc:date>2017</dc:date>
+        <dcterms:abstract>An improved understanding of customer preference is crucial for successful business in physical stores. Online stores are capable learning customer preference from the click logs and transaction records, while retailers with physical store still lack effective methods to in-depth understand customer preference. Fortunately, user-generated data from mobile devices and social media are providing rich information to uncover customer preference. In this paper, we present a novel approach to mine customer preference in physical stores from their interaction behaviors. To demonstrate the utility of the proposed model, we conduct a store-type recommendation model for physical stores by jointly considering the learned customer preference and temporal influence. We have performed a comprehensive experiment evaluation on two real-world data sets, which are collected by more than 120 000 customers during 12 months from two urban shopping malls. Experimental results show the superiority of the proposed model not only in recommending interesting stores for customer, but also help retailers better understand customer preference.</dcterms:abstract>
+        <dc:title>Mining Customer Preference in Physical Stores From Interaction Behavior</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2169-3536">
+        <prism:volume>5</prism:volume>
+        <dc:title>IEEE Access</dc:title>
+        <dc:identifier>ISSN 2169-3536</dc:identifier>
+        <dcterms:alternative>IEEE Access</dcterms:alternative>
+        <dc:identifier>DOI 10.1109/ACCESS.2017.2744263</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="#item_1539">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1109/ASONAM.2014.6921685</dc:identifier>
+                <dc:title>2014 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2014)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>M. F. Atig</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>S. Cassel</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>L. Kaati</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>A. Shrestha</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Data mining</dc:subject>
+        <dc:subject>data mining</dc:subject>
+        <dc:subject>social networking (online)</dc:subject>
+        <dc:subject>Social network services</dc:subject>
+        <dc:subject>data analysis</dc:subject>
+        <dc:subject>Media</dc:subject>
+        <dc:subject>Vectors</dc:subject>
+        <dc:subject>Internet</dc:subject>
+        <dc:subject>Conferences</dc:subject>
+        <dc:subject>Educational institutions</dc:subject>
+        <dc:subject>online social media</dc:subject>
+        <dc:subject>marketing</dc:subject>
+        <dc:subject>activity profiles</dc:subject>
+        <dc:subject>boards</dc:subject>
+        <dc:subject>ICWSM data set</dc:subject>
+        <dc:subject>multiple aliases identification techniques</dc:subject>
+        <dc:subject>online communications</dc:subject>
+        <dc:subject>prototype tool</dc:subject>
+        <dc:subject>stylometric analysis</dc:subject>
+        <dc:subject>time analysis</dc:subject>
+        <dc:subject>user behavior analysis</dc:subject>
+        <bib:pages>850-855</bib:pages>
+        <dc:date>17-20 Aug. 2014</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2014)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dcterms:abstract>Analysis and mining of social media has become an important research area. A challenging problem in this area consists in the identification of a group of users with similar patterns. In this paper, we propose the classification of users based on their activity profiles (e.g., periods of the day when the user is most and least active in online communications). Activity profiles can be useful for many purposes, such as marketing and user behavior analysis. They can also serve as a basis for other techniques such as stylometric and time analysis in order to increase the precision and scalability of multiple aliases identification techniques. We have implemented a prototype tool and applied it on a dataset from the ICWSM data set Boards.ie, showing the usefulness of our classification.</dcterms:abstract>
+        <dc:title>Activity profiles in online social media</dc:title>
+    </rdf:Description>
+</rdf:RDF>

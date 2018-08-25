@@ -1,0 +1,175 @@
+
+Close
+Close
+Skip to main content Skip to sections
+
+This service is more advanced with JavaScript available, learn more at http://activatejavascript.org
+
+Advertisement
+Hide
+SpringerLink
+Search SpringerLink
+Search
+
+    Home
+    Contact us
+    Log in
+
+Menu
+
+    Home
+    Contact us
+    Log in
+
+Data Mining and Knowledge Discovery
+Download PDF
+
+Data Mining and Knowledge Discovery
+
+May 2012 , Volume 24, Issue 3 , pp 473–477 | Cite as
+Guest editorial: special issue on a decade of mining the Web
+
+    Authors
+    Authors and affiliations
+
+    Myra Spiliopoulou Email author
+    Bamshad Mobasher
+    Olfa Nasraoui
+    Osmar Zaiane
+
+    Myra Spiliopoulou
+        1
+    Email author
+    Bamshad Mobasher
+        2
+    Olfa Nasraoui
+        3
+    Osmar Zaiane
+        4
+
+    1. Otto-von-Guericke University Magdeburg Magdeburg Germany
+    2. DePaul University Chicago USA
+    3. University of Louisville Louisville USA
+    4. University of Alberta Edmonton Canada
+
+Article
+First Online: 03 March 2012
+Received: 25 January 2012
+Accepted: 02 February 2012
+
+    1 Shares
+    937 Downloads
+    1 Citations
+
+Abstract
+
+As editors of the Special Issue on a Decade of Mining the Web, we provide a brief overview of how Web mining evolved from the first Web mining workshop (WEBKDD’99) till today. We then introduce the papers of the special issue. Each of them is in a domain of Web mining research; it contains a survey of the past and a vision for the future.
+Keywords
+Web mining  Clickstream mining  Social Web mining  Semantic Web mining  Web mining and privacy  Web mining and recommenders 
+Download to read the full article text
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+References
+
+    Aggarwal C, Yu P (2005) On clustering techniques for change diagnosis in data streams. In: WEBKDD’05 postworkshop volume (Nasraoui et al. 2006), pp 139–157 Google Scholar
+    Agosti M, Crivellari F, Di Nunzio GM (2012) Web log analysis: a review of a decade of studies about information acquisition, inspection and interpretation of user interaction. Data Min Knowl Discov. doi:   10.1007/s10618-011-0228-8
+    Baumgarten M, Büchner AG, Anand, SS, Mulvenna MD, Hughes JG (1999) Navigation pattern discovery from internet data. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 70–87 Google Scholar
+    Berendt B (2005) Using and learning semantics in frequent subgraph mining. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 18–38 Google Scholar
+    Berendt B (2012) More than modeling and hiding: towards a comprehensive view of Web mining and privacy. Data Min Knowl Discov. doi:   10.1007/s10618-012-0254-1
+    Broder A (1999) Data mining, the Internet, and privacy. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 51–69 Google Scholar
+    Castillo C, Corsi C, Donato D, Ferragina P, Gionis A (2008) Query-log mining for detecting polysemy and spam. In: WEBKDD’08 workshop volume in ACM digital library (see Nasraoui et al. 2008), pp 29–42 Google Scholar
+    Chan PK (1999) Constructing web user profiles: a non-invasive learning approach. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 34–50 Google Scholar
+    Cooley R, Tan PN, Srivastava J (1999) Discovery of interesting usage patterns from web data. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 160–179 Google Scholar
+    DeLong C, Desikan P, Srivastava J (2005) USER: user-sensitive expert recommendations for knowledge-dense environments. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 77–95 Google Scholar
+    Fu Y, Sandhu K, Shih MY (1999) A generalization-based approach to clustering of web usage sessions. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 16–33 Google Scholar
+    Getoor L, Sahami M (1999) Using probabilistic relational models for collaborative filtering. In: WEBKDD’99 online notes volume Google Scholar
+    Grcar M, Mladenic D, Fortuna B, Grobelnik M (2005) Data sparsity issues in the collaborative filtering framework. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 58–76 Google Scholar
+    Kim HR, Chan PK (2005) Personalized search results with user interest hierarchies learnt from bookmarks. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 158–176 Google Scholar
+    Lan B, Bressan S, Ooi BC (1999) Making web servers pushier. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 108–122 Google Scholar
+    Lee J, Podlaseck M, Schonberg E, Hoch R, Gomory S (1999) Analysis and visualization of metrics for online merchandizing. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 123–138 Google Scholar
+    Lu L, Dunham M, Meng Y (2005) Mining significant usage patterns from clickstream data. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 1–17 Google Scholar
+    Masand B, Spiliopoulou M (eds) (2000) Advances in web usage mining and user profiling: proceedings of the WEBKDD’99 workshop. LNAI, vol 1836. Springer, Berlin Google Scholar
+    Mobasher B, Burke R, Williams C, Bhaumik R (2005) Analysis and detection of segment-focused attacks against collaborative recommendation. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 96–118 Google Scholar
+    Nasraoui O, Zaïane O, Spiliopoulou M, Mobasher B, Masand B, Yu PS (eds) (2006) Advances in web mining and web usage analysis—7th international workshop on knowledge discovery on the web, WebKDD 2005, revised papers. LNAI, vol 4198. Springer, Berlin Google Scholar
+    Nasraoui O, Spiliopoulou M, Zaïane O, Srivastava J, Mobasher B (eds) (2008) 10th international workshop on knowledge discovery on the web, WEBKDD’08: 10 years of knowledge discovery on the web. ACM, Las Vegas. In conjunction with the 14th ACM SIGKDD international conference on knowledge discovery and data mining (KDD 2008) Google Scholar
+    Papadimitriou A, Symeonidis P, Manolopoulos Y (2012) A generalized taxonomy of explanations styles for traditional and social recommender systems. Data Min Knowl Discov. doi:   10.1007/s10618-011-0215-0
+    Papadopoulos S, Kompatsiaris Y, Vakali A, Spyridonos P (2012) Community detection in social media: Performance and application considerations. Data Min Knowl Discov. doi:   10.1007/s10618-011-224-z
+    Rettinger A, Lösch U, Tresp V, d’Amato C, Fanizzi N (2012) Mining the Semantic Web. Statistical learning for next generation knowledge bases. Data Min Knowl Discov. doi:   10.1007/s10618-012-0253-2
+    Schickel-Zuber V, Faltings B (2005) Overcoming incomplete user models in recommendation systems via an ontology. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 39–57 Google Scholar
+    Spiliopoulou M, Pohle C, Faulstich LC (1999) Improving the effectiveness of a web site with web usage mining. In: WEBKDD’99 postworkshop volume (see Masand and Spiliopoulou 2000), pp 139–159 Google Scholar
+    Suryavanshi BS, Shiri N, Mudur SP (2005) Adaptive web usage profiling. In: WEBKDD’05 postworkshop volume (see Nasraoui et al. 2006), pp 119–138 Google Scholar
+    Tsytsarau M, Palpanas T (2012) Survey on mining subjective data on the web. Data Min Knowl Discov. doi:   10.1007/s10618-011-0238-z
+    Tuzhilin A (2012) Customer relationship management and Web mining: the next frontier. Data Min Knowl Discov. doi:   10.1007/s10618-012-0256-z
+    Zhang H, Spiliopoulou M, Mobasher B, Giles CL, McCallum A, Nasraoui O, Srivastava J, Yen J (eds) (2007) Advances in web mining and web usage analysis—9th international workshop on knowledge discovery on the web, WebKDD 2007, and 1st international workshop on social network analysis, SNA-KDD 2007, Aug 2007, San Jose, USA. Revised papers. LNAI, vol 5439. Springer, Berlin Google Scholar
+
+Copyright information
+© The Author(s) 2012
+About this article
+
+Cite this article as:
+    Spiliopoulou, M., Mobasher, B., Nasraoui, O. et al. Data Min Knowl Disc (2012) 24: 473. https://doi.org/10.1007/s10618-012-0257-y
+
+    DOI https://doi.org/10.1007/s10618-012-0257-y
+    Publisher Name Springer US
+    Print ISSN 1384-5810
+    Online ISSN 1573-756X
+
+    About this journal
+    Reprints and Permissions
+
+Personalised recommendations
+Guest editorial: special issue on a decade of mining the Web
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Download PDF
+Actions
+Download PDF
+Cite article
+
+    How to cite?
+    .RIS Papers Reference Manager RefWorks Zotero
+    .ENW EndNote
+    .BIB BibTeX JabRef Mendeley
+
+Share article
+Table of contents
+
+    Article
+    Abstract
+    References
+    Copyright information
+    About this article
+
+Advertisement
+Hide
+
+Over 10 million scientific documents at your fingertips
+Switch Edition
+
+    Academic Edition
+    Corporate Edition
+
+    Home
+    Impressum
+    Legal information
+    Privacy statement
+    How we use cookies
+    Accessibility
+    Contact us
+
+Springer Nature
+
+© 2017 Springer Nature Switzerland AG. Part of Springer Nature .
+
+Not logged in CAPES MEC (3000197460) - Universidade Tecnologica Federal do Parana (3000201946) 200.17.97.45

@@ -1,0 +1,428 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    Industrial Management & Data Systems
+    Volume 115, Issue 9
+    Gaining competitive intelligence from social media data
+
+
+Gaining competitive intelligence from social media data: Evidence from two largest retail chains in the world
+
+Author(s):
+    Wu He (Department of Information Technology & Decision Sciences, Old Dominion University, Norfolk, VA, USA)
+    Jiancheng Shen (Department of Finance, Old Dominion University, Norfolk, VA, USA)
+    Xin Tian (Department of Information Technology & Decision Sciences, Old Dominion University, Norfolk, VA, USA)
+    Yaohang Li (Department of Computer Science, Old Dominion University, Norfolk, VA, USA)
+    Vasudeva Akula (VOZIQ Company, Reston, VA, USA)
+    Gongjun Yan (Romain College of Business, University of Southern Indiana, Evansville, IN, USA)
+    Ran Tao (School of Computer Science & Technology, Donghua Univeristy, Shanghai, China)
+
+Abstract:
+    Purpose
+    – Social media analytics uses data mining platforms, tools and analytics techniques to collect, monitor and analyze massive amounts of social media data to extract useful patterns, gain insight into market requirements and enhance business intelligence. The purpose of this paper is to propose a framework for social media competitive intelligence to enhance business value and market intelligence.
+
+    Design/methodology/approach
+    – The authors conducted a case study to collect and analyze a data set with nearly half million tweets related to two largest retail chains in the world: Walmart and Costco in the past three months during December 1, 2014-February 28, 2015.
+
+    Findings
+    – The results of the case study revealed the value of analyzing social media mentions and conducting sentiment analysis and comparison on individual product level. In addition to analyzing the social media data-at-rest, the proposed framework and the case study results also indicate that there is a strong need for creating a social media data application that can conduct real-time social media competitive intelligence for social media data-in-motion.
+
+    Originality/value
+    – So far there is little research to guide businesses for social media competitive intelligence. This paper proposes a novel framework for social media competitive intelligence to illustrate how organizations can leverage social media analytics to enhance business value through a case study.
+
+Keywords:
+    Competitive intelligence , Social media analytics 
+Publisher:
+    Emerald Group Publishing Limited 
+Copyright:
+    © Emerald Group Publishing Limited 2015
+    Published by Emerald Group Publishing Limited
+Citation:
+    Wu He , Jiancheng Shen , Xin Tian , Yaohang Li , Vasudeva Akula , Gongjun Yan , Ran Tao , (2015) "Gaining competitive intelligence from social media data: Evidence from two largest retail chains in the world", Industrial Management & Data Systems , Vol. 115 Issue: 9, pp.1622-1636, https://doi.org/10.1108/IMDS-03-2015-0098 
+Downloads:
+    The fulltext of this document has been downloaded 3831 times since 2015
+Article
+Introduction
+Section: Next section
+
+According to the IBM research, about 2.5 quintillion bytes of data are generated every day ( Zikopoulos et al. , 2012 ). Many organizations are developing business analytics initiatives in order to extract new insights from the massive data sets they collected over time. These massive data sets typically contain data from many varieties of sources including internal systems and external data sources such as social media. Most early business analytics efforts are focussed on analyzing internal data, which is considered as the primary source of data within their organizations. For example, Walmart’s transactional databases are estimated to contain more than 2.5 petabytes of data about their customers, products and others ( Tan et al. , 2013 ).
+
+In addition to analyzing internal data, a recent trend is to analyze massive volume of external data such as social media data related to the organizations ( Zikopoulos et al. , 2012 ). In recent years we have observed the rapid development of social media which have greatly influenced the way in which people communicate with one another and obtain information ( Ngai et al. , 2015 ). Nowadays social media have become ubiquitous and are playing an important role in people’s daily lives. As a result, a large amount of user-generated content is available on social media sites. For example, in the business field, more and more consumers rely on user-generated reviews to evaluate products and services prior to making a purchase. Many tourists choose a restaurant based on Yelp reviews and ratings ( Kang et al. , 2013 ). In the health care field, many patients use social media to discuss medical services and their doctors in order to optimize treatments; in education, many students and parents use social media platforms to exchange opinions and discuss the pros and cons of their interested colleges. User-generated social media content is offering unprecedented opportunities as well as challenges to organizations because they contain a deluge of opinions, viewpoints and conversations by millions of users. There is a need for organizations to efficiently manipulating and analyzing user-generated social media content related to their organizations ( Barbier and Liu, 2011 ; He et al. , 2013 ). For example, CEOs may want to gain business insight or knowledge based on what customers are discussing on Facebook or Twitter about their organizations so that they can improve decision making and other aspects of business performance. A recent study by Bain & Company ( Pearson and Wegener, 2013 ), a leading management consulting firm, found that large companies who have adopted advanced data analytics capabilities outperform their competitors by wide margin. They also found that the big data analytics adopters are five times faster in making good decisions when compared to their competitors and twice as likely to be in the top quartile of financial performance within their industries due to their insight knowledge they obtained from the data analytics.
+
+The rest of the paper is organized as follows. The following section provides a brief literature review of social media analytics and its application. Penultimate section presents a case study that analyzes a massive data set composed of customer tweets about two large retailers: Walmart and Costco. Lastsection discusses the findings, implications and limitations. Finally, conclusions and suggestions for future studies are provided.
+Literature review: social media analytics and intelligence
+Section: Previous section Next section
+
+Zeng et al. (2010) define social media analytics as “using advanced informatics tools and analytics techniques to collect, monitor, and analyze social media data to extract useful patterns and intelligence.” So far a number of studies including multiple special issues related to social media analytics have been published ( Chen and Yang, 2011 ; Fan and Yan, 2015 ; Zeng et al. , 2010 ).
+
+Different from traditional transaction data, social media data have several unique characteristics. First, social media cover general users’ opinions about almost every aspect of our life. Second, there are always fresh content on social media and the content are updated consistently and timely by numerous online users. Third, social media contents are associated with metadata in various attributes such as user, location, likes, time, dislikes, etc. Fourth, social media data have quality issues and contain a lot of noise and spams, which need to be sifted through to figure out what data can be trusted. Real benefit can be obtained by analyzing massive social media data in real time and gaining trustworthy insights while social media data are continuously coming in high speed. For example, the US Geological Survey monitors Twitter messages containing the word “earthquake” to detect identify possible earthquakes events because people begin sending tweets with in tens of seconds after feeling shaking ( Earle et al. , 2012 ). The New York Stock Exchange announced to provide investors with real-time information about trade-related public sentiment in 2013 ( NYSE, 2013 ). Bollen et al. (2011) did sentiment analysis on a large corpus of tweets and found that the mood of the Twitter population can be used to predict the movement of the Dow Jones Industrial Average (DJIA) on the following day with a claimed accuracy of 87.6 percent. Risius and Beck (2015) conducted a multilevel analysis of approximately five million tweets regarding the main Twitter accounts of 28 large global companies and identified different social media activities in terms of social media management strategies, account types (broadcasting or receiving information) and communicative approaches (conversational or disseminative). Lansdall-Welfare et al. (2012) analyzed 484 million tweets posted by more than 9.8 million users over a period of three years and revealed changes in public mood and associated mood changes with important events. However, the rapid increase of social media data evolves into a problem because most organizations do not have the capability and skills to process such huge amounts of data in a timely manner, identify trustworthy data and gain values from these massive data to enhance their business such as marketing, products, sales and online commerce.
+
+Furthermore, Zeng et al. (2010) came up with a new term called social media intelligence. By leveraging technology, solution frameworks and toolsets from social media analytics, social media intelligence aims to “derive actionable information from social media in context-rich application settings, develop corresponding decision-making or decision-aiding frameworks, and provide architectural designs and solution frameworks for existing and new applications that can benefit from the ‘wisdom of crowds’ through the Web.” Compared to social media analytics, social media intelligence research is still limited and immature. More discussions and research on social media intelligence in various application settings with an aim to support decisions are needed.
+A proposed framework for social media competitive intelligence
+Section: Previous section Next section
+
+Business analytics techniques enable organizations to conduct deep analysis of their business data to identify potential issues, problems, opportunities and best practices. However, as RemitDATA (2013) questions:
+
+    How do organizations know whether or not their own best practices are actually “best”?
+
+    What if an organization’s internal best practices are still poor when compared to peers?
+
+Therefore, there is a need to benchmark comparisons against competitors. Competitive intelligence offers an approach for organizations to compare their performance against their peer organizations ( Sanderson, 2013 ; Bose, 2008 ). As a result of the comparison, organizations can focus their efforts on improving the areas that are still poor when compared to peers and also develop efforts that can have the greatest impact ( RemitDATA, 2013 ). In this paper, we propose a framework for social media data competitive intelligence ( Figure 1 ) to help interested organizations leverage big data solutions to contextually compare their social media data against peers. Competitive intelligence was frequently described as the external sourcing of information for decision making ( Ross et al. , 2012 ). Competitive intelligence offers a number of benefits such as creating new growth opportunities, minimizing the impact of surprises, enabling faster responses to changes in the market place, improving the quality of strategic planning processes, identifying potential vulnerabilities, providing early warning or alert for competitive threats ( Chen and Das, 2010 ; Bose, 2008 ; Ross et al. , 2012 ).
+
+The social comparison theory ( Festinger, 1954 ) suggests that competitions are ubiquitous and people commonly seek to achieve a superior position to others in various contexts, from daily social situations to organizational settings and market transactions ( Garcia et al. , 2013 ). From the buyer perspective, consumers today tend to compare products and read online reviews from different sources on the internet before they make the purchase decision. From the seller perspective, businesses face increasing pressure to increase income and retain clients and thus it is natural for them to compare themselves with competitors in the same market place in terms of products and services. Instead of being reactive, literature implies that all businesses should be more proactive and conduct market intelligence activities as a formal regular business process to enhance their capability and ability to respond to changing market conditions, customer requirements and competitor’s actions ( Ross et al. , 2012 ).
+
+So far there is no framework to guide businesses for social media competitive intelligence. Due to privacy and data sharing concerns, it could be difficult for organizations to compare their internal data with their competitors. However, contextually comparing their external social media data against competitors is possible because social media data are publicly available. Social media data can be divided into two main categories: social media data-at-rest and social media data-in-motion ( Gupta et al. , 2012 ). Social data competitive intelligence can be used to analyze both data-at-rest and data-in-motion ( Bifet and Frank, 2010 ; Benhardus and Kalita, 2013 ; He et al. , 2015 ), understand what is happening in real time, and identify events, problems and issues in real time, such as determining when customer sentiment in social media is becoming more negative. In today’s highly competitive business world, social media data competitive intelligence could become a key differentiator for organizations in industries such as making a difference between profit and loss in financial services markets ( Zikopoulos et al. , 2012 ).
+
+In the proposed framework, data mining technology is used as a solution to analyze the social media data including both data-in-motion and data-at-rest from the organizations and their peers, visualize and benchmark comparisons against peers across events, products, issues and any other areas that may impact the business. Existing data mining platforms from vendors like IBM, SAP, Oracle and Microsoft can be integrated to store, manage, analyze and compare data across numerous social media sources from different companies. Such comparisons are supported by advanced analytics, business intelligence and contextual data found from the data set. Social media competitive intelligence can be used to identify and assess industry trends that shape the business environment. This proposed framework is especially applicable to consumer service-oriented sectors such as financial services, health care, retail and e-business.
+Case study
+Section: Previous section Next section
+
+Implementing the proposed social media competitive intelligence framework can result in numerous business benefits such as improving decision making and operational excellence. As an initial effort to implement the proposed framework, we conducted a pilot case study by using tweets related to two largest retail chains in the world: Walmart and Costco. In 2015, Walmart is the largest and Costco is the second largest retail chain in the world in terms of retail revenue. Both Walmart and Costco have stores in multiple countries. Tweets are short and constantly generated by online users. We collaborated with VOZIP, a social media analytics company based in USA, to gather the tweets (containing the two companies’ names) that were submitted to the Twitter service during December 1, 2014 to February 28, 2015. The tweets were collected using Twitter search APIs (see Table I ). VOZIQ crawls a huge amount of Twitter data that contain specific keywords utilizing Twitter search APIs on a daily basis. In particularly, VOZIQ uses Apache Solr for text searches, used Hadoop for big data analysis, used MySQL for storing processed data and used JavaServer Pages (JSP) for web-based visualization. This tool is currently available for online access at www.voziq.com . This tool is set up on Amazon AWS cloud platform to offer cloud-based services and for on-demand scaling to process large volumes of social media data. As many social media sites have millions of users and number of tweets often grows at high speed, it is not always possible to save the data in full due to resource constraint. Thus, this case study used the captured tweets (nearly half million tweets) in the past three months during December 1, 2014 to February 28, 2015 as our data set for analysis. Table I shows our data set for this case study.
+
+A popular sentiment analysis tool called Lexalytics was used to detect sentiments of each tweet in our data set. Lexalytics offers a sentiment analysis algorithm to identify the emotive phrases within a document. After each phrase is scored (roughly −1-+1), the scores of all the emotive phrases are combined to discern the overall sentiment of the sentence. We created three pieces of information based on VOZIP raw Twitter data: the number of tweets for a day, average positive sentiment, average negative sentiment. The number of tweets for a day recorded the actual number of tweets posted on Twitter related to a specific company in a particular day. Average positive sentiment comes from adding up all the absolute value of positive sentiment, and then averaging the total out. It ranges from 0 to 1. Average negative sentiment is calculated by adding up the absolute value of negative sentiment, and then averaging the total out. It also ranges from 0 to 1. Figures 2 and 3 illustrate the overall volume and sentiment trend analysis for the two big retailers over a period of three months.
+
+In addition to the overall volume and sentiment trend analysis, we were particularly interested in volume and sentiment trend analysis on individual product level since both Walmart and Costco are direct competitors and often sell the same type of products. We decided to choose four highly popular grocery products: muffin, cookie, pizza and chicken and analyzed their tweets for comparative analytics. We used a well-known text analysis tool called NVivo 10 to query the four products from the gathered tweets, and then analyzed the content and sentiment of these products. Tables II and III show the total mentions, number of positive, neutral and negative tweets related to the four products of the two big retailers. As an example, we used Figures 4 and 5 to illustrate the volume and sentiment trend analysis for both cookie and muffin of the two big retailers, respectively. Due to the page length limitation, we did not include the figures for pizza and chicken. Based on the product-level analysis, we found that although customers mentioned Walmart more than Costco on Twitter during that period, people tend to talk about Costco’s muffin, cookie, pizza and chicken more than Walmart’s muffin and cookie on Twitter. We saw a higher number of positive comments and negative comments on Costco’s muffin, cookie, pizza and chicken than on Walmart’s muffin, cookie, pizza and chicken. However, Costco received a lower percentage of positive comments and a higher percentage of negative comments than Walmart for muffin; in contrast, Costco received a lower percentage of positive comments and a lower percentage of negative comments than Walmart for cookie and pizza. As for the chicken, Costco received a similar percentage of positive comments and a lower percentage of negative comments than Walmart. These product-level comparisons reveal potential space for improvement.
+
+Furthermore, we used a popular text mining tools called Leximancer to mine and cluster the tweets related to each of the four products in order to better understand what customers are talking about for each of the products ( Liau and Tan, 2014 ; Wang and Wang, 2014 ). As an example, Figure 6 lists the generated cluster diagrams for cookie-related Costco and Walmart tweets. After examining and analyzing the generated clusters, we had an in-depth discussion to finalize the clusters. A third researcher was invited to join in the discussion and provided additional input when there were conflicts and disagreement about certain themes and clusters. As a result of the discussion, we merged some of the clusters and sub-clusters based on our knowledge and finalized the clusters manually. As a result, we reduced the final number of the clusters to several major clusters to make the results more meaningful. Due to page length limitation, we used Table IV as an example to list the three major clusters we identified from cookie-related Costco tweets.
+
+To give readers a better idea about the tweets, we listed some sample tweets related to Costco cookie in our data set below:
+
+    Haha they are my Costco cookies that I love, but my Costco stopped carrying them. Hopefully only temporary!
+
+    So I made cookies out of the ghirardelli brownie mix Costco sells. It was a phenomenal idea. You can thank me later.
+
+    Well, time for more @TatesBakeShop chocolate chip cookies. So glad @Costco stocks the big box!
+
+    Costco cookies and a cup of tea is a match made in heaven.
+
+    Costco cookies are ridiculous.
+
+    choice cause of death: overdose on Costco chocolate chip cookies.
+
+    Costco cookies are addicting.
+
+    Costco chocolate chip cookies are dangerous items to have at home within hands reach, but worth it.
+
+Discussion
+Section: Previous section Next section
+
+The results of the case study revealed the value of analyzing social media mentions and conducting sentiment analysis and comparison on individual product level. As the number of social media mentions in our data set is very large, these tweets contain data about numerous products sold by Walmart and Costco, which provides an opportunity for comparison on the product level. As Berman (2013) points out, the most common purpose of large data set is to produce small data and there is almost always a filtering process to reduce large data into smaller data. In this case study, we queried the data set using keyword and focussed our attention to a smaller data set related to four products: muffin, cookie, pizza and chicken to get more meaningful results. For example, we found that although customers mentioned Walmart more often than Costco on Twitter during that period, people tend to talk about Costco’s muffin and cookie more than Walmart’s muffin and cookie on Twitter.
+
+Our case study shows that analyzing the overall social media mentions and sentiment trend alone is not sufficient. It is also necessary for organizations to look into individual products and identify possible opportunities and issues on individual product level to enhance their competitiveness in different areas. For example, as there is a higher number of positive comments and negative comments on Costco’s muffin and cookie than on Walmart’s muffin and cookie, Costco or Walmart could dig into these positive and negative comments and figure out what is going on using methods such as text mining or content analysis depending on the size of the data set. In particular, compared to Walmart, Costco received a higher percentage of negative comments for muffin and a lower percentage of negative comments for cookie. We examined these comments and found that tweets associated with Costco tend to be more detailed with diverse opinions on flavor, ingredient, appearance and variety of the muffin and cookie. By comparing these consumers’ opinions on flavor, ingredient, appearance and variety, Costco could discover the underlying causes or insights to address the discrepancy in customer sentiment across products and improve their competitiveness against competitors on the product level. For example, several customers mentioned in their tweets that they were allergic to the chocolate chip in their blueberry muffin and asked what Costco could do. This case study indicates that conducting big social data competitive analytics made it possible to realize new business value from massive amounts of social media data generated by millions of users. Furthermore, organizations often have weekly or monthly sales data, daily stock price data or other business metrics which can be tested to see if there are any correlations with social media mentions and sentiments on both overall and product level. Doing this will bring even more business insights to organizations.
+
+Our work also contains practical contributions by providing a framework for companies to engage in social media competitive intelligence. Managers should be more proactive to learn as much as possible and as soon as possible about customers’ opinion on their products and services in general as well as customers’ opinion on identical products and services from their competitors. In a competitive market place, up-to-date information can make a big difference between keeping pace, getting ahead or being left behind ( Helm, 2011 ). Thus, managers consider social media competitive intelligence activities as a formal regular business process to empowers themselves to anticipate and face future challenges, enhance their capability and ability to maintain a competitive edge over their competitors ( Ross et al. , 2012 ). As the result of competitive intelligence activities, businesses could develop new products and services, optimize business processes, enhance value creation and foster innovations. The increase in business knowledge and innovations will lead to an increase in economic activities which will have significant impact on today’s knowledge economy.
+
+In addition to analyzing the captured data-at-rest, the proposed framework and the case study results also indicate that there is a strong need for creating a social media data application that can conduct real-time social media comparative analytics for social media data-in-motion so that organizations can immediately respond to changing events. Figures 1-5 illustrate the dynamic nature of social media data and confirm that customer sentiment changes quite frequently over time. Thus, stream-processing and stream-analysis techniques need to be leveraged by organizations to promptly understand changing sentiments and concepts, gain time-sensitive competitive advantages, understand what is happening in real time and make more efficient decisions than their peers.
+Conclusion and future research
+Section: Previous section Next section
+
+Competitive analytics and intelligence has a great potential to produce useful information, actionable knowledge and critical insights for companies to enhance competitiveness and solve business problems. The knowledge-intensive business activities caused by technical advances in competitive analytics and intelligence will generate tangible and intangible business values and contribute to a knowledge-based economy ( Amidon et al. , 2005 ). The explosive increase of social media data creates a major opportunity for companies to leverage data analytics solutions to harness customer perceptions and better understand what people are saying on a topic, a product or about a company ( Stieglitz and Dang-Xuan, 2013 ). The proposed framework and the results of the case study suggest a business opportunity for developing a social media data application for competitive analytics and intelligence purpose because companies in general want to know how consumers feel about their products and services and those of their competitors. So far social media analytics companies such as VOZIQ has made very good progress in this area and offers tools to help companies benchmark again peers using social media data-at-rest.
+
+A lot of challenges still exist in the social media analytics field. For example, although sentiment analysis has made good progress, it still has issues with sarcastic and ironic sentences and the sentiment analysis scores may contain many errors ( Duan et al. , 2013 ; Pang and Lee, 2004 ). Many people also write spam reviews on social media to promote their own products by giving undeserving positive opinions, or defame their competitors’ products by giving false negative opinions ( Vohra and Teraiya, 2013 ). There are also various types of unwanted and malicious spam messages on social media ( Jin et al. , 2011 ) that need to be efficiently and effectively detected and filtered. More future research on sentiment analysis and machine learning methods is needed to address these challenges and improve the quality of social media data mining and analytics.
+figure parent remove
+
+Figure 1 A proposed framework for social media competitive intelligence
+figure parent remove
+
+Figure 2 Walmart volume and sentiment trend
+figure parent remove
+
+Figure 3 Costco volume and sentiment trend
+figure parent remove
+
+Figure 4 Twitter data comparision of muffin for Costco and Walmart
+figure parent remove
+
+Figure 5 Twitter data comparision of cookie for Costco and Walmart
+figure parent remove
+
+Figure 6 Generated cluster diagrams for cookie-related Costco and Walmart tweets
+figure parent remove
+
+Table I Twitter data set used in this case study
+figure parent remove
+
+Table II Costco Twitter data from December 1, 2014-February 28, 2015
+figure parent remove
+
+Table III Walmart Twitter data from December 1, 2014 to February 28, 2015
+figure parent remove
+
+Table IV Main clusters and themes on cookie-related Costco tweets
+References
+    1.
+    Amidon, D.M. , Formica, P. and Mercier-Laurent, E. ( 2005 ), Knowledge Economics: Emerging Principles, Practices and Policies , Faculty of Economics and Business Administration, University of Tartu , Tartu . OpenURL UTFPR [Google Scholar]
+
+    2.
+    Barbier, G. and Liu, H. ( 2011 ), “ Data mining in social media ”, Social Network Data Analytics , pp. 327 - 352 , available at: http://link.springer.com/chapter/10.1007/978-1-4419-8462-3_12 OpenURL UTFPR [Google Scholar]
+
+    3.
+    Benhardus, J. and Kalita, J. ( 2013 ), “ Streaming trend detection in Twitter ”, International Journal of Web Based Communities , Vol. 9 No. 1, pp. 122 - 139 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    4.
+    Berman, J.J. ( 2013 ), Principles of Big Data: Preparing , Sharing, and Analyzing Complex Information , Newnes , Boston, WA . OpenURL UTFPR [Google Scholar]
+
+    5.
+    Bifet, A. and Frank, E. ( 2010 ), “ Sentiment knowledge discovery in Twitter streaming data ”, in Pfahringer, B. , Holmes, G. and Hoffmann, A. (Eds), Discovery Science , Springer , Berlin and Heidelberg , pp. 1 - 15 . OpenURL UTFPR [Google Scholar]
+
+    6.
+    Bollen, J. , Mao, H. and Zeng, X. ( 2011 ), “ Twitter mood predicts the stock market ”, Journal of Computational Science , Vol. 2 No. 1, pp. 1 - 8 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    7.
+    Bose, R. ( 2008 ), “ Competitive intelligence process and tools for intelligence analysis ”, Industrial Management & Data Systems , Vol. 108 No. 4, pp. 510 - 528 . [Link] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    8.
+    Chen, H. and Das, S.R. ( 2010 ), “ Business and market intelligence 2.0 ”, Part 2, IEEE Intelligent Systems , Vol. 25 No. 2, pp. 74 - 78 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    9.
+    Chen, H. and Yang, C.C. ( 2011 ), “ Special issue on social media analytics: understanding the pulse of the society ”, IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans , Vol. 5 No. 41, pp. 826 - 827 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    10.
+    Duan, W. , Cao, Q. , Yu, Y. and Levy, S. ( 2013 ), “ Mining online user-generated content: using sentiment analysis technique to study hotel service quality ”, Proceedings of the 46th Hawaii International Conference on System Sciences , pp. 3119 - 3128 . OpenURL UTFPR [Google Scholar]
+
+    11.
+    Earle, P.S. , Bowden, D.C. and Guy, M. ( 2012 ), “ Twitter earthquake detection: earthquake monitoring in a social world ”, Annals of Geophysics , Vol. 54 No. 6, available at: www.annalsofgeophysics.eu/index.php/annals/article/view/5364 (accessed March 19, 2015). [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    12.
+    Fan, W. and Yan, X. ( 2015 ), “ I & M special issue on novel applications of social media analytics ”, Information & Management , Vol. 52 No. 7, pp. 761 - 763 . doi:10.1016/j.im.2015.07.007. [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    13.
+    Festinger, L. ( 1954 ), “ A theory of social comparison processes ”, Human Relations , Vol. 7 No. 2, pp. 117 - 140 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    14.
+    Garcia, S.M. , Tor, A. and Schiff, T.M. ( 2013 ), “ The psychology of competition: a social comparison perspective ”, Perspectives on Psychological Science , Vol. 8 No. 6, pp. 634 - 650 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    15.
+    Gupta, R. , Gupta, H. and Mohania, M. ( 2012 ), “ Cloud computing and big data analytics: what is new from databases perspective? ”, in Srinivasa, S. and Bhatnagar, V. (Eds), Big Data Analytics , Springer , Berlin and Heidelberg , pp. 42 - 61 . OpenURL UTFPR [Google Scholar]
+
+    16.
+    He, W. , Zha, S.H. and Li, L. ( 2013 ), “ Social media competitive analysis and text mining: a case study in the pizza industry ”, International Journal of Information Management , Vol. 33 No. 3, pp. 464 - 472 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    17.
+    He, W. , Wu, H. , Yan, G. , Akula, V. and Shen, J. ( 2015 ), “ A novel social media competitive analytics framework with sentiment benchmarks ”, Information & Management , Vol. 52 No. 7, pp. 801 - 812 . doi:10.1016/j.im.2015.04.006. [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    18.
+    Helm, B. ( 2011 ), “How to use competitive intelligence to gain an advantage”, available at: www.inc.com/magazine/20110401/how-to-use-competitive-intelligence-to-gain-an-advantage.html (accessed August 21, 2015). OpenURL UTFPR [Google Scholar]
+
+    19.
+    Jin, X. , Lin, C. , Luo, J. and Han, J. ( 2011 ), “ A data mining-based spam detection system for social media networks ”, Proceedings of the VLDB Endowment , Vol. 4 No. 12, pp. 1458 - 1461 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    20.
+    Kang, J.S. , Kuznetsova, P. , Luca, M. and Choi, Y. ( 2013 ), “ Where not to eat? Improving public policy by predicting hygiene inspections using online reviews ”, EMNLP , pp. 1443 - 1448 . OpenURL UTFPR [Google Scholar]
+
+    21.
+    Lansdall-Welfare, T. , Lampos, V. and Cristianini, N. ( 2012 ), “ Effects of the recession on public mood in the UK ”, Proceedings of the 21st International Conference Companion on World Wide Web. ACM, April , pp. 1221 - 1226 . OpenURL UTFPR [Google Scholar]
+
+    22.
+    Liau, B.Y. and Tan, P.P. ( 2014 ), “ Gaining customer knowledge in low cost airlines through text mining ”, Industrial Management & Data Systems , Vol. 114 No. 9, pp. 1344 - 1359 . [Link] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    23.
+    Ngai, E.W. , Moon, K.L.K. , Lam, S.S. , Chin, E.S. and Tao, S.S. ( 2015 ), “ Social media models, technologies, and applications: an academic review and case study ”, Industrial Management & Data Systems , Vol. 115 No. 5, pp. 769 - 802 . [Link] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    24.
+    NYSE ( 2013 ), “NYSE Technologies and SMA Announce Agreement to distribute social media analysis data via SFTI”, available at: www1.nyse.com/press/1360840642983.html (accessed March 13, 2015). OpenURL UTFPR [Google Scholar]
+
+    25.
+    Pang, B. and Lee, L. ( 2004 ), “ A sentimental education: sentiment analysis using subjectivity summarization based on minimum cuts ”, Proceedings of the 42nd Annual Meeting on Association for Computational Linguistics, Barcelona , pp. 271 - 278 . OpenURL UTFPR [Google Scholar]
+
+    26.
+    Pearson, T. and Wegener, R. ( 2013 ), “Big data: the organizational challenge”, available at: www.bain.com/publications/articles/big_data_the_organizational_challenge.aspx (accessed March 13, 2015). OpenURL UTFPR [Google Scholar]
+
+    27.
+    RemitDATA ( 2013 ), “The evolving comparative analytics market: benchmarking key business metrics against peers to reduce risk, pinpoint areas for improvement, and optimize performance”, available at: www.mgma.com/Libraries/Assets/Practice%20Resources/Vendors%20and%20Partners/IRC/The-Evolving-Comparative-by-RemitDATA.pdf (accessed March 21, 2015). OpenURL UTFPR [Google Scholar]
+
+    28.
+    Risius, M. and Beck, R. ( 2015 ), “ Effectiveness of corporate social media activities in increasing relational outcomes ”, Information & Management , doi:10.1016/j.im.2015.06.004. [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    29.
+    Ross, P. , McGowan, C. and Styger, L. ( 2012 ), “ A comparison of theory and practice in market intelligence gathering for Australian micro businesses and SMEs ”, 19th International Business Research Conference: Research for Re-thinking, Social Science Research Network, pp. 1 - 17 . OpenURL UTFPR [Google Scholar]
+
+    30.
+    Sanderson, M. ( 2013 ), “ Maximize performance with BI and big data. Comparative analytics enables organizations to benchmark performance against their peers ”, Health Management Technology , Vol. 34 No. 1 p. 18 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    31.
+    Stieglitz, S. and Dang-Xuan, L. ( 2013 ), “ Social media and political communication: a social media analytics framework ”, Social Network Analysis and Mining , Vol. 3 No. 4, pp. 1277 - 1291 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    32.
+    Tan, W. , Blake, M.B. , Saleh, I. and Dustdar, S. ( 2013 ), “ Social-network-sourced big data analytics ”, IEEE Internet Computing , Vol. 17 No. 5, pp. 62 - 69 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    33.
+    Vohra, M.S. and Teraiya, J. ( 2013 ), “ Applications and challenges for sentiment analysis: a survey ”, International Journal of Engineering Research and Technology , Vol. 2 No. 2. OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    34.
+    Wang, H. and Wang, W. ( 2014 ), “ Product weakness finder: an opinion-aware system through sentiment analysis ”, Industrial Management & Data Systems , Vol. 114 No. 8, pp. 1301 - 1320 . [Link] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    35.
+    Zeng, D. , Chen, H. , Lusch, R. and Li, S.H. ( 2010 ), “ Social media analytics and intelligence ”, IEEE Intell. Syst. , Vol. 25 No. 6, pp. 13 - 16 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    36.
+    Zikopoulos, P. , Parasuraman, K. , Deutsch, T. , Giles, J. and Corrigan, D. ( 2012 ), Harness the Power of Big Data the IBM Big Data Platform , McGraw Hill Professional , New York, NY . OpenURL UTFPR [Google Scholar]
+
+About the authors
+Section: Previous section
+
+Dr Wu He is an Assistant Professor in the Department of Information Technology and Decision Sciences at the Old Dominion University. Wu He received his PhD at the University of Missouri. His research interests include cyber security, data mining, social media, knowledge management and e-learning technologies. He has received research funding from the National Science Foundation. He has published more than 60 articles in peer-reviewed journals such as the Journal of the Association for Information Science and Technology , Information & Management , International Journal of Information Management , IEEE Transactions on Industrial Informatics , Internet Research , Information Technology and Management , and Expert Systems with Applications . Dr Wu He is the corresponding author and can be contacted at: whe@odu.edu
+
+Jiancheng Shen is currently a PhD Candidate in Finance at the Old Dominion University, USA. His research interests include neuro-finance, media and financial markets, high-frequency financial data analysis and international economics.
+
+Xin Tian is currently a PhD Candidate in Information Technology at the Old Dominion University, USA. Her research interests include cyber security, social media and database administration.
+
+Dr Yaohang Li is an Associate Professor in the Department of Computer Science at the Old Dominion University. His research interests are in computational biology and scientific computing. He received the PhD and MS Degrees in Computer Science from the Florida State University in 2003 and 2000, respectively. After graduation, he worked at the Oak Ridge National Laboratory as a Research Associate for a short period of time. Before joining ODU, he was an Associate Professor in the Computer Science Department at the North Carolina A & T State University.
+
+Dr Vasudeva Akula is the Co-founder and Principal Business Consultant at the VOZIQ where he creates and manages strategy for clients in establishing voice of customer-based business performance improvement programs. In his 20 year career spanning banking and financial services, insurance, retail, technology, telecom and wireless, utility industries, he played key roles in helping Fortune 500 companies successfully deploy and realize significant ROI out of customer intelligence solutions.
+
+Dr Gongjun Yan received his PhD in Computer Science from the Old Dominion University. He is currently an Assistant Professor in the University of Southern Indiana. His main research areas include algorithms, security, privacy, routing and health care in internet, vehicular ad-hoc networks, sensor networks and wireless communication. In years, Dr Yan applies mathematical analysis to model behavior of complex systems and integrates existing techniques to provide comprehensive solutions.
+
+Professor Ran Tao is a Faculty Member at the School of Computer Science & Technology in the Donghua University, Shanghai, China. He is a Visiting Scholar in the Department of Information Technology and Decision Sciences at the Old Dominion University from 2014 to 2015. His research interests include cloud computing, data mining and big data.
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (36)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+Industrial Management & Data Systems
+ISSN: 0263-5577
+Online from: 1980
+Subject Area: Information & Knowledge Management
+
+    Current Issue
+    Available Issues
+    Earlycite
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Science Citation
+Index Expanded (SCIE)™
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    MARKET ANALYSIS — THE HOLISTIC APPROACH TO MARKETING
+    Using PLS path modeling in new technology research: updated guidelines
+    Food supply chain management: systems, implementations, and future research
+    Modes of service innovation: a typology
+    Marketing Signals in Industrial Markets
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    Using PLS path modeling in new technology research: updated guidelines
+    Understanding the determinants of cloud computing adoption
+    Critical success factors for implementing knowledge management in small and medium enterprises
+    Initial trust and online buyer behaviour
+    Consumer trust, perceived security and privacy policy : Three basic elements of loyalty to a web site
+
+See more>
+Find related content
+By Keyword
+
+    Competitive intelligence
+    Social media analytics
+
+By Author
+
+    Wu He
+    Jiancheng Shen
+    Xin Tian
+    Yaohang Li
+    Vasudeva Akula
+    Gongjun Yan
+    Ran Tao
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor

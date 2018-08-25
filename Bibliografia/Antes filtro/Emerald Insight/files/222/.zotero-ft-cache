@@ -1,0 +1,605 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    Industrial Management & Data Systems
+    Volume 116, Issue 6
+    Insight from the horsemeat scandal
+
+
+Insight from the horsemeat scandal: Exploring the consumers’ opinion of tweets toward Tesco
+
+Author(s):
+    Ying Kei Tse (The York Management School, The University of York, York, UK)
+    Minhao Zhang (The York Management School, The University of York, York, UK)
+    Bob Doherty (The York Management School, University of York, York, UK)
+    Paul Chappell (Department of Sociology, The University of York, York, UK)
+    Philip Garnett (The York Management School, The University of York, York, UK)
+    ...Show all authors 
+
+Abstract:
+    Purpose
+    – Social media has become an important part of daily interpersonal communication in contemporary society. The purpose of this paper is to explore the attitudes of UK consumers by identifying the hidden information in tweets, and provide a framework which can assist industry practitioners in managing social media data.
+
+    Design/methodology/approach
+    – Using a large-scale dataset of tweets relating to the Horsemeat scandal of 2013, a comprehensive data analysis framework, which comprises multidimensional scaling and sentiment analysis, alongside other methods, was applied to explore customers’ opinions.
+
+    Findings
+    – Making jokes in social media was a main trend in the tweets relating to Tesco during the Horsemeat scandal. Consumer sentiments were overall negative and burgers were the most mentioned product in the week-long period after the story broke. The posting of tweets was correlated with the timing of news coverage, which indicates that the traditional media is still crucial to public opinion formation.
+
+    Practical implications
+    – This paper presents a progressive tweet-mining framework that can serve as a tool for academia and practitioners in crisis management. The proposed framework indicates the significant importance of timely categorising the topics, identifying the sentiment of tweets and understanding the changes of consumer opinions over time in a crisis.
+
+    Originality/value
+    – The research presented in this paper is one of the limited social media research to focus on a UK food fraud issue and adds to the limited body of literature investigating consumer social media use from the side of industry practitioners.
+
+Keywords:
+    Social media , Crisis management , Food fraud incident , Twitter mining 
+Publisher:
+    Emerald Group Publishing Limited 
+Acknowledgments:
+
+    This research is supported by BA/Leverhulme Small Research Grants SG141713.
+Copyright:
+    © Emerald Group Publishing Limited 2016
+    Published by Emerald Group Publishing Limited
+Citation:
+    Ying Kei Tse , Minhao Zhang , Bob Doherty , Paul Chappell , Philip Garnett , (2016) "Insight from the horsemeat scandal: Exploring the consumers’ opinion of tweets toward Tesco", Industrial Management & Data Systems , Vol. 116 Issue: 6, pp.1178-1200, https://doi.org/10.1108/IMDS-10-2015-0417 
+Downloads:
+    The fulltext of this document has been downloaded 2256 times since 2016
+Article
+Introduction
+Section: Next section
+
+Using social media to manage relationships with customers has been a focus of much attention within industry ( Agnihotri et al. , 2012 ). According to Blackshaw and Nazzaro (2004) , in the business context, “social media is a variety of new sources of online information that are created, initiated, circulated and used by consumers intent on educating each other about products, brands, services, personalities, and issues”. Practitioners strive to identify ways in which social media platforms, such as Twitter and Facebook, can be used to to increase the profitability ( Kaplan and Haenlein, 2010 ). For example, through adopting social media, companies can communicate with their consumers for the purpose of sales and customer service ( Safko, 2010 ), market promotion ( Mangold and Faulds, 2009 ), and even product innovation ( Berthon et al. , 2012 ). In the tide of big data, the use of the social media data is also of interest within academia. For example, Bollen et al. (2011) use aggregated Twitter data to predict the changes in the stock market. Other researchers have tried to explore how social media can be employed as part of an effective risk communication strategy ( Veil et al. , 2011 ). Nevertheless, relatively few pieces of social media research have focused on public relations in product recall crises, in particular food quality and safety issues, which are extremely sensitive issues for the general public.
+
+The horsemeat scandal (also known as Horsegate) began in January 2013 when the Food Safety Authority of Ireland (FSAI) announced the presence of horsemeat in burgers on the shelves of some well-known retailers, such as Tesco, Iceland, Aldi and Lidl. The suspected horsemeat was found in extensive beef products in the European Market, and the scandal severely dented consumer trust in the food industry. In order to regain the consumers’ trust, retailers guaranteed they would enhance scientific testing and change their food procurement strategies. For example, Tesco announced that it was introducing a world-class DNA testing system to respond the outbreak of Horsegate ( Tesco, 2013 ). Nevertheless, in the phase of post-crisis, communicating well with consumers should be the priority for the companies. Therefore, understanding the attitudes of consumers from social media could be the first step in establishing efficient risk communication strategy for practitioners.
+
+To fill the gaps in the literature and contribute to practitioners’ insights into the horsemeat scandal, this study focus on tweets about Tesco. Tesco is the largest supermarket chain in the UK [1] and was constantly under the spotlight during the scandal – 239 newspaper articles [2] had Tesco in their headlines during the outbreak of the horsemeat scandal. Faced with this immense negative news portrayal in both the online and print media, the reaction of consumers towards the company at this time can provide important insights for Tesco, and for companies that may face similar crises in the future. In this research, we investigate consumers’ opinions towards the horsemeat scandal on Twitter. According to data from September 2015, Twitter is the ninth most visited website in the world ( ALEXA, 2015 ) so provides a way for us to explore the opinions from customers. The body of data provided free of charge by consumers provides a valuable opportunity to improve public opinion tracking and customer relationship management ( Mostafa, 2013 ). Jansen et al. (2009) argue that microblogging (i.e. Twitter) allows people to share brand-affecting thoughts (i.e. sentiment) anytime and anywhere. As Twitter requires users to control the length of a blog in a short manner (like a title of newspaper headline), it is easy to read and create ( Jansen et al. , 2009 ). It is also open access, meaning researchers can capture the textual data for in depth analysis However, it is an impossible mission to manually analyse a large amount of text and extract useful information without text mining (TM) techniques ( Liau and Tan, 2014 ).
+
+TM is a new research method to overcome the challenges in analysing overloaded unstructured texts by complementarily adopting different techniques, such as data mining, machine learning, natural language processing, information retrieval, and knowledge management ( Feldman and Sanger, 2007 ). For example, sentiment analysis (SA) has been widely adopted to analyse microblogging using computational linguistics ( Liau and Tan, 2014 ; Mostafa, 2013 ; Ghiassi et al. , 2013 ; Kontopoulos et al. , 2013 ; Paltoglou and Thelwall, 2012 ). By applying SA, the sentiment of a large number of tweets can be automatically identified, classifying them as positive, neutral, and negative. This technique has an important industrial application in that a given company can determine customers’ opinions towards their product in a timely manner. Jansen et al. (2009) define tweets posted by customers as “electronic word of mouth” (WOM), which can play an essential role in customer’s buying decisions, because consumers tend to believe people in their own social network (i.e. family or friends) rather than those from outside sources (such as online reviews) ( Jansen et al. , 2009 ; Duan et al. , 2008 ). Moreover, according to Tse et al. (2014) , over 68 per cent of the UK respondents would like to talk to their friends and family after hearing the news of horsemeat scandal. Therefore, whether companies can understand the sentiments of customers’ opinions of their own social networks towards a particular product quality issue, such as the horsemeat scandal, in a timely manner, could determine their competitive advantage and success in public relation crisis management.
+
+The scope of this research is the UK consumers, who are the major affected persons in Horsegate. So all the tweets related to horsemeat scandal and Tesco posted in the UK during the period from the 15th to 21st January 2013 (i.e. the first week after the Horsgate story broke) are used to analyse the customers’ opinions and concerns. In this study, we aim to examine the following research questions:
+
+RQ1. What is the UK consumers’ sentiment towards Tesco in the Horsemeat Scandal?
+
+RQ2. What are the most common concerns and interests of UK consumers regarding the Horsemeat Scandal?
+
+RQ3. How can TM provide companies with better decision making in crisis management in the future?
+
+The rest of this study is organised as followed. Second section is devoted to the review of literature related to the social media and TM research. Third section presents the results of TM in our research target by using the combination of SA and Clustering techniques. Fourth section discusses the research findings and provides the managerial implications for practitioners. Fifth section is the conclusion of the paper, which also demonstrates the limitations of this study.
+Literature review
+Section: Previous section Next section
+
+In this section, this study reviews the relevant research in social media and the applications of TM. As an emerging research area, social media has attracted researchers from different disciplines, for instance, sociology (Veil et al. , 2011; Hung, 2012 ; Jin et al. , 2014 ), medicine ( Cheston et al. , 2013 ) and educational research ( Tess, 2013 ). In this research, we only focus on business and crisis management, which of both relevant to our research topic – the Horsemeat Scandal. Moreover, SA and clustering analysis (CA), as two important TM techniques, are reviewed in this section as well.
+Social media
+
+With the increasing use of social media by the public, its applications in the business context are also increasing. According to Malita (2011 , p. 748), social media are “the tools that facilitate the socialisation of content and encourage collaboration, interaction, and communication through discussion, feedback, voting, comments, and sharing of information from all interested parties”. As a form of social media, the social network sites (SNS) could be defined as “the tools that allow individuals to (1) construct a public or semi-public profile within a bounded system, (2) articulate a list of other users with whom they share a connection, and (3) view and traverse their list of connections and those made by others within the system” ( Ellison, 2007, p. 211 ). Due to the advantages of timely response and direct communication, practitioners and industrial management researchers have extensively studied consumer attitudes and consumer communication in social media, particularly in SNS (such as Tsai and Men, 2013 ; Pentina et al. , 2013 ; Hajli, 2014 ; Jin and Phua, 2014 ; Liau and Tan, 2014 ).
+Marketing research
+
+In the past decade, getting close to customers has become one of the top priorities for many companies ( Heller Baird and Parasnis, 2011 ), which have increasingly utilised social media platforms to interact with their customers. Therefore, in the field of business management, and in particular, in the marketing area, literature has started to consider social media as a new component in business strategy ( Ngai et al. , 2015 ). Mangold and Faulds (2009) argue that the content, timing, and frequency of customers’ conversations in social media should not be under the direct control of managers. The researchers recommend companies adopt a mixed marketing strategy that provides their consumers with networking platforms, handling blogs, social media tools, and promotional tools to engage customers ( Mangold and Faulds, 2009 ). Hoffman and Fodor (2010) state that customers’ investment in a social media relationship could determine a long-term profitability for the firm, rather than solely short-term interests. They introduce a new performance index – social media Return on Investment (ROI), which indicates the long-term returns of significant corporate investment in social media ( Hoffman and Fodor, 2010 ). The social media ROI should be measured in customer behaviours (such as the number of visits as the investment, and WOM increases over time as the outcome) ( Hoffman and Fodor, 2010 ). Gamboa and Gonçalves (2014) report that frequently engaging customers via SNS like Facebook could improve relations with customers. The results indicate that the Facebook fans of a particular brand perceived higher satisfaction and higher loyalty compared with the non-fans of that brand ' s Facebook. The same authors also underline the important role of customer satisfaction in brand loyalty. Therefore, frequent interaction with customers through SNS is crucial for the company, because customers perceive SNS as an excellent platform to engage directly with the brand ( Gamboa and Gonçalves, 2014 ).
+
+Social media enables people to collaborate and communicate with each other in real-time and share information amongst the community of users ( Henderson and Bowley, 2010 ). In the UK, over 95 per cent of British undergraduate students use SNS to keep in touch with their friends and family ( Mori, 2007 ). SNS has become the major tool for communicating with friends and family. Therefore, SNS has received significant attention from researchers to understand how WOM in social media impact on the performance of the firm. The WOM literature has long emphasised the value of WOM in decision making and attitude formation ( Brown et al. , 2007 ). Nevertheless, with the increasing the use of social media, the adoption of WOM strategy has been extended. According to Trusov et al. (2009) , compared with the traditional WOM communication strategy, the financial incentive outcome from social media WOM is superior. Chevalier and Mayzlin (2006) studied consumer reviews on relative sales of books at online shopping sites. Their results indicate that the impact of negative reviews (i.e. one-star reviews) is greater than positive reviews (i.e. five-star reviews). They draw a conclusion that an improvement in a books review could result in an increase in relative sales at the sites. Through adopting experimental methods, Jin and Phua (2014) suggest that WOM endorsed by celebrities in Twitter (i.e. people with many followers in Twitter) positively impact on product involvement and buying intention of flowers.
+Crisis management research
+
+Several studies have tried to study the application of social media in organisational crisis management ( Schultz et al. , 2011 ; Jin et al. , 2014 ; Panagiotopoulos et al. , 2015 ). According to a survey of the American Red Cross, which comprised 1,058 adults, 69 per cent of respondents said that the social media sites should be under control by the emergency responders to quickly send help. Moreover, 74 per cent expected the support of the organisation should be delivered less than an hour after their tweet or Facebook post ( American Red Cross, 2010 ). Jin et al. (2014) propose the social-mediated crisis communication model (SMCC) to help managers understand how to match crisis information strategically, which is based on the form and source of crisis information and depending on the crisis origin. Particularly, the authors find that if a third party disseminates the crisis information through social media, the publics ' attribution-dependent emotions (such as anger, contempt, and disgust) are likely to be intensified or aggravated ( Jin et al. , 2014 ). Schultz et al. (2011) examined the impact of different crisis communication strategies through different media platforms on organisation reputation. Their results indicate that crisis communication via Twitter could lead to less negative crisis reactions (such as making negative comments about the company and signing online petitions to boycott the company) than relying on blogs and newspaper articles.
+
+As a form of public crisis, food-related risks (e.g. the Horsemeat scandal) also draw the attention of social media researchers. Panagiotopoulos et al. (2015) have developed a social media engagement framework (SMEF) to investigate the food governance and consumer organisations in the UK and Ireland. The authors identify three core elements in the SMEF: constancy social interactions management; strategies for creating content to engage with a specific audience; and using social media as an information source to develop network alertness ( Panagiotopoulos et al. , 2015 ). Rutsaert et al. (2013) have discussed how social media embrace food risks and benefits communication. The researchers stress that practitioners should consider two major challenges in communicating food risks via social media: responding to the dissemination of inaccurate information; and active involvement with social media (Rutsaert et al. , 2013). In addition, based on a set on interviews with stakeholders and experts in food risks, Rutsaert et al. (2014) conducted a strength, weakness, opportunities and threats analysis of social media in food risk and benefit communication. The results indicate that social media would be an ideal method to communicate food risks and benefits, with the strength of speed and accessibility and the weakness of low trust ( Rutsaert et al. , 2014 ).
+TM
+
+As a form of the data mining, TM methods have been applied to many disciplines to identify hidden patterns within large amounts of text data, particularly the data from social media, such as classifying consumers’ positive and negative reviews ( Turney, 2002 ), exploring and tracking public political preference ( Ceron et al. , 2014 ), identifying customers’ satisfaction levels ( Liau and Tan, 2014 ), studying consumer attitudes towards cosmopolitan brands ( Mostafa, 2013 ), predicting stock market movement ( Wong et al. , 2008 ; Nguyen et al. , 2015 ), and conducting market ( Jiang et al. , 2014 ) and exchange rate ( Ozturk and Ciftci, 2014 ) prediction. As a form of TM, SA is widely adopted to analyse the text data.
+SA
+
+According to Feldman (2013) , the application of SA in product and service review is common. Zhang et al. (2012) introduced an expert system to apply sentence-based SA to identify product weaknesses through customer reviews. Customers’ attitudes towards product features such as quality and price could be extracted by the morpheme-based method and Hownet-based similarity measure approach. Kang and Park (2014) have developed a new framework to measure customer satisfaction for mobile services. In their framework, the system first employs SA to calculate the attributes of each mobile service, then further measures the level of customer satisfaction. In addition, Bagheri et al. (2013) have proposed a domain-independent model to detect explicit and implicit aspects in customer reviews for the aspect-based sentiment analysis (ABSA). ABSA involves an “attempt to detect the main (e.g. the most frequently discussed) aspects (features) of the entity (e.g. battery) and to estimate the average sentiment of the texts per aspect (e.g. how positive or negative the opinions are on average for each aspect)” ( Pavelopoulos, 2014 , P2). Using ABSA, Thet et al. (2010) determine both the sentiment orientation and sentiment strength of the reviewer towards various aspects of a movie. Singh et al. (2013) also study movie reviews by adopting a new kind of ABSA called feature-based heuristics. The authors apply a SentiWordNet-based scheme with two different linguistic feature selections that consist of adjectives, adverbs and verbs and n-gram feature extraction. Moreover, Fu et al. (2013) develop an unsupervised approach to explore the aspects discussed in Chinese social reviews and the sentiments of these different aspects. The authors first apply the Latent Dirichlet Allocation (LDA) model to discover multi-aspect global topics of social reviews, then extract the local topic and associated sentiments. Typically, the aspect of the local topic is identified by a trained LDA model, and the polarity of the associated sentiment is classified by HowNet Lexicon.
+Cluster analysis
+
+Clustering is an important tool to automatically organise and explore information (such as unanticipated trend or correlations) from unstructured text data ( He, 2013 ; Liau and Tan, 2014 ). CA enables companies to quickly identify different groups of customers by extracting their similarities. Although clustering is a technique that is used to group similar documents, it is not categorisation based upon predefined topics but rather groupings clustered on the fly ( Fan et al. , 2006 ). He et al. (2013) investigate the tweets from three pizza chains and identify five themes within the tweets, namely, ordering, quality, feedback or purchase decision, causal socialisation and marketing tweets. Using the approaches K-Means clustering and SK-Means clustering, Liau and Tan (2014) have identified four tweet clusters for the tweets of Malaysian low-cost airlines, which are customer service, ticket promotions, flight delay and post-booking management. Jansen et al. (2011) also applied the same clustering technique to identified the youth customers based on two dimensions – level of connectedness (i.e. the number of SNS accounts owned) and level of engagement (how active they engage in those SNS) in social networks. Based on the results of this CA, the authors provide a 3×3 framework to classify the youth social media users by connection and engagement. For instance, the highly engaged and highly connected users are those who have accounts on multiple platforms and update all frequently. To summarise, CA is helpful for practitioners who wish to explore customer segmentation through means other than traditional (such as demographic) methods.
+
+To summarise prior works in the field of social media and TM research, the data from social media, in particular SNS, hold valuable information to be explored by the researchers in the business context as well as other disciplines ( Jansen et al. , 2011 ). However, the area of food emergency crisis management is still uncovered by social media research. In the research reported here, we investigated the tweets related to the Horsemeat scandal that about Tesco. Moreover, the research reported in this study strived to provide a TM research framework (comprising SA and CA) to fill this gap in the literature base.
+Analysis
+Section: Previous section Next section
+Data preparation
+
+The dataset used in this research represents the whole set of the Twitter posts related to “Tesco and Horsemeat” from 15 January 2013 to 21 January 2013, which is the week right after the outbreak of horsemeat scandal. Typically, we used keyword searching to filter the tweets we needed, which included hashtag (#) and mention (@). It is worth noting that only the English tweets were selected in order to remove complications that might arise with analysing multilingual tweets ( Thelwall et al. , 2011 ). In addition, as our research focuses on the UK market, the tweets posted from other countries were excluded. Hence, the dataset included 3,630 qualified tweets.
+
+Although tweets contain much useful information, they are regarded as unstructured texts ( Barbier and Liu, 2011 ; He et al. , 2013 ). In order to convert the unstructured text to analysable data, it is necessary to adopt the data pre-processing (see Figure 1 ). To conduct this data preparation, tokenization is the first step. According to Liau and Tan (2014) , tokenization is the process of identifying meaningful words through breaking up the text into discrete words. Then, stopping words are removed from the data, such as prepositions (e.g. “for”, “from”, “over”, “than”), articles (e.g. “a”, “an”, “the”), personal pronouns (e.g. “I”, “me”, “you”, “him”, “it”, “they”) and demonstrative pronouns (e.g. “this”, “that”, “these”, “those”). As twitter is a kind of informal blog to post the personal daily event, misspelling in tweets is common (such as “buger” instead of “burger”). We carefully checked the misspelling issues to ensure the validity of the tweets. Moreover, the stemming approach is adopted to further process the text by deducting the prefixes and suffixes to normalised words ( Delen et al. , 2012 ). For example, we transformed “points”, “pointing” and “pointed” to “point”. For importing the data into QDA miner, all the lower cases words were converted to upper case. Finally, we adopted the QDA miner to justify those high – frequency words. According to the results generated from the frequency analysis, we exclude some high frequency but meaningless words, which were not considered as stopping words or stemming, such as HTTP; HTTPS; RT. In addition, we converted those phrases or words with duplicated meaning into single words, for instance, the “HOSE MEAT” as “HOSREMEAT”, “UKTESCO” as “TESCO”, “HAHAHA”, “HAHA” as “lol”. After the data preparation process, we generated the frequency of words (see Table I ) for the tweets that related to Tesco horsemeat scandal.
+Data analysis
+
+In order to conduct the content analysis of the tweets sample, we followed the process employed by Mostafa (2013) to apply QDA Miner software. The software is a powerful statistical tool to explore the hidden patterns in textual data ( Mostafa, 2013 ). The qualitative analysis includes four stages – word count analysis, multidimensional scaling (MDS), SA and time-series analysis.
+Words counts analysis
+
+As shown in the Table I , words such as “Beef”, “EAT”, “Primark”, “LOL”, “HUNGRY” appeared most frequently in the case of horsemeat scandal for Tesco. Although the word count analysis is simple, it provides insights into identifying the hot topics and predicting the main characteristics of the topics ( Mostafa, 2013 ; O’Leary, 2011 ).
+
+To check the relevant topics of our research focus, we used proximity plot to overview the keywords related to the Tesco tweets. The Figure 2 shows visually, on a single axis, the distance from a particular object to all other objects ( Mostafa, 2013 ). The words such as “BURGER”; “BEEF”; “Primark” “JOKES”; “LOL” mostly appeared in the Tesco tweets. Interestingly, we can see that the Tesco tweets also related to the other supermarket brands like LIDL, ALDI and ICELAND.
+MDS
+
+The MDS method is to holistically analyse the co-occurrence of keywords within a dataset. In this study, the co-occurrence is defined as happening every time two words appear in the same case ( Wordstat, 2014 ). Figures 3 and 4 present the concept map based on the MDS method. In this study, we adopt the Jaccard’s coefficient as the index of co-occurrence. According to Wordstat (2014) , the Jaccard’s coefficient refers to the formula as follow:
+
+(Equation 1)
+
+where A represents cases where both items occur, and B and C represent cases where one item is found but not the other. In this coefficient equal weight is given to matches and non matches.
+
+In the MDS analysis, there are different investigation units, for example, analysing the co-occurrence of keywords in a sentence, in a paragraph, in a case and in a document. As our research focus in about the tweets, so we determine the research unit as a tweet. The concept maps are graphic representations of the proximity values computed on all included keywords using MDS. As shown in Figure 2 , the triangle represents the key concept (its size is based on the frequency) of the dataset and the line between the concepts represents the strength of relationship. Particularly, the higher co-occurrence of the concepts the closer the triangles. From the graph we can identify different clustered case groups (based on the distance between circles and the colours) and their strength of relationship (based on the numbers of strength line). Therefore, the most influential tweets could be captured and visualised. For example, the focal group, which comprised TESCO, HORSEMEAT, appears closely related to the “beef” group.
+
+Some clustered concepts were identified.
+
+    The focal group which has highest word frequency – “HORSEMEAT” “TESCO” “BURGER” – finding HORSEMEAT in Tesco burger is really disgusting Tesco should be a shame of them self’s!
+
+    Beef Group: “BEEF” “DNA” “SOLD” – Tesco says horse DNA found in beef products it sold in UK and Irish Republic. F**K THAT!!
+
+    Company Group: “LIDI” “ICELAND” “ALDI” – disgusting: Horsemeat found in Tesco, Lidl, Aldi and Iceland beef burgers. What the hell?
+
+    HMV Group: “HMV” “VOUCHER”– HMV vouchers are being accepted at Tesco’s. tell them HMV stands for HORSEMEAT voucher.
+
+    Wheels Group: “HORESEY” “STOP” “SHOP” – Horsey, Horsey do not you stop just let your feet go clippady clop tail goes swish & amp; the wheels go round Giddy up we’re #Tesco bound…
+
+    Video Group: “MUM” “DAD” “SHOUTING”: – have you seen the horse trying to find it ' s Mum in Tesco? http://t.co/OdmnT7SP @HuffPostUKCom
+
+    Slogan Group – “Hungry” “Eat” – I’m so hungry I could eat a horse, beefburger from @TESCO anyone? ;-) #youcouldnotmakethisup
+
+Although the concept maps could identify the clustered groups, the strength of individual relationship (i.e. between two concepts) is neglected. Using the link analysis, we could identify how these concepts relate to each other within a group. As shown in Figure 5 (a), in the focal group, burger is strongly related to TESCO (0.468) and HORSEMEAT (0.431), which indicate the burger is the product of most concern with the consumers at that time. Moreover, the results of Figure 5 (b) show that in the group of company, we found that the co-occurrence between Tesco and LIDL is the strongest (0.171).
+SA (Lexicon method)
+
+Although we dug out the key tweets or hot topics through MDS, it is hard to systematically understand the meaning behind the tweets. In this case, the SA could help. According to Taboada et al. (2011) , SA is the method to use to extract subjectivity and polarity from textual data. To obtain the sentiment from text, there are two widely adopted approaches – lexicon-based approach and texts classification approach ( Taboada et al. , 2011 ). The latter research is also known as the machine learning approach which requires building classifiers from a manual identification process. In this research, we focused on the first method (i.e. Lexicon based) to annotate the tweets for determining their polarity by using the specific dictionaries of words. The dictionary used in SA generally comprised a list of words and corresponding semantic orientation (SO) value. The SO is defined as the polarity and strength of words, phrases, or texts ( Taboada et al. , 2011 ).
+
+In this research, we applied the dictionary of Hu and Liu (2004) , because of its successful adoption in a series of research projects ( Pang and Lee, 2008 ; Miner et al. , 2012 ; Mostafa, 2013 ). This lexicon contains 2006 positive words and 4,783 negative words. To conduct the Lexicon-based SA, the texts are annotated by seed adjectives of the dictionary with known orientation scores. The SO value of adjectives is scaled from +3 to −3. In this research, we used R software to conduct the annotation analysis. To clarify how the software rates the SO core to tweets, we picked some examples from our tweets sample:
+
+Tweet1: Oh dear Tesco, I have huge concerns about inability to monitor their supply chain. −3
+
+Tweet2: @domjoly lets blame tesco and leak the rumour it was a rouge HORSE fault −3
+
+Tweet3: Wtf how the hell is tesco selling beef with traces of horse in it −2
+
+In tweet 1, the word of “concern” was assigned with SO value “−3”. As presented in tweet 2, the SO values are “blame” of value −1 and “fault” of value −2. So a tweet 2 has an SO value of: −1+−2=−3. In tweet 3, only the word of “WTF” is annotated with an SO value of -2. Hence, tweet 3 was rated as −2. In the time range we investigated, the average sentiment score for Tesco is −0.129. The result indicates that under the shadow of horsemeat scandal, the public’s attitude towards Tesco is negative.
+Time-series analysis
+
+In this section, we break down the seven-days’ time range (15 to 21 January 2013) into a narrower time period (half-day manner – AM vs PM) to investigate the changes in hot topics and sentiment. According to the posting time of tweets, we divided the original dataset into 14 sub-datasets (see Table II ). We can see that the popularity of the tweets about the Tesco horsemeat scandal reached the top in the pm of the 16 January with 1,413 posts. The horsemeat scandal story broke in UK major newspaper at midday on the 15 January, so the earliest tweet samples are in the afternoon of 15 January. Interestingly, we found that people are more likely to post tweets between noon and midnight. The SO values of tweets are generally lower in PM and higher in AM. The worst sentiment scores were found on the mornings of the 21 and 17 January, respectively. Surprisingly, right after the outbreak point of the scandal (i.e. 16 January), the sentiment scores are not the worst. To identify the key topics in each time period, we made seven of word-cloud graphs for each day, respectively. Then we combine the Tesco-related actions or press in the time with our time-series tweets analysis to scrutinise the reactions of customers (see Figure 6 ).
+Discussion and managerial implication
+Section: Previous section Next section
+
+From our words frequency findings, we see that “Burger” is the term with the highest frequency ( n =1693). At the beginning of the horsemeat scandal, burgers of several supermarkets (such as Tesco, ALDI, LIDI and Iceland) were exposed to contain horse DNA ( FSAI, 2013 ). So this can explain why the term of “Burger” has attracted much of the attention at the starting point of the horsemeat scandal. Moreover, the terms of “LOL” (i.e. laughing out loud) and “Jokes”, as well as the references to Primark, HMV and the identification of the words “neigh” and “stable” reflect the fact that consumers’ response to this issue may well be to make jokes, or perhaps to taunt the affected brands with the quality issues. However, there is a small proportion of extreme negative words that should not be ignored, such as “F**k”; “S**t” and “Terrible” ( Hu and Liu, 2004 ). A possible implication of the word frequency analysis is that practitioners can quickly catch the major topic of the social media. Moreover, some characteristics of the potential topic could be predicted by the frequency analysis ( O’Leary, 2011 ). For example, terms of “Primark”, “Leggings”, “Hungry”, which are the important elements of our later CA were first identified in frequency analysis.
+
+Using MDS method, we identified nine groups amongst our sample. These clusters were due to the high co-occurrence of the elements within an individual group. Specifically, we found groups of “focal”, “beef”, “company”, “HMV”, “video”, “slang”, and “wheels”. Five of the eight groups are about the jokes that were transferred or created by the people on Twitter. For example, “I am so hungry I could eat a horse” is a hyperbolic phrase that is frequently used and transformed as a joke in these tweets about the horsemeat scandal. We argue that people not only use Twitter to search for information but also tend to communicate opinions to their community with a sense of humour. Our findings are consistent with Whiting and Williams (2013) , who found that over half of the respondents (i.e. 64 per cent) in their case studies used social media to have entertainment (for humour and comic relief). For example, their respondents reported that they use social media to “listen to jokes” and “reading comments and stuff make me laugh” ( Whiting and Williams, 2013 ). In the horsemeat scandal, our findings reveal that British consumers were likely (or have an aptitude) to use a joke to express their attitudes towards the horsemeat scandal. We suggest that managers could categorise a different customer group based on the customers’ attitudes (or behaviour) (such as making jokes on the scandal). A four-step customer exploration approach is presented. First, practitioners could use CA to identify the high co-occurrence of tweets like “Primark group” and “Focal group”. Second, according to the attitude (or behaviour) of consumers, manager could form a new group of consumers and explore the profile of consumers (such as what they posted previously based on the username). For the company, this is a new method to identify the new market segment, that not based on the demographic information (i.e. age, income), but from their attitudes. Finally, companies can make appropriate marketing messages and communications, which are in line with these customers’ expectations.
+
+This study also brings new insights to the traditional TM approach. For the “Video Group” which includes the elements of “MUM” “DAD” and “SHOUTING”, the tweets in this group mainly discussed a spoof video widely spread in YouTube. Because Twitter is a mixed contents platform ( Kietzmann et al. , 2011 ), which not just contain the text content, people also share picture and video. Researchers and practitioners should trace back what means in the original tweets. For example, by tracing back the original tweets in “Video Group”, we have identified the popular video spread over another social media platform – YouTube [3] . Moreover, according to a list of URL extracted from the database, the link of this spoof video was ranked in top 5. In this case, this study recommends a new framework of TM for managers to analyse the mixed content posts shared in social media. Initially, managers could use the clustering techniques to identify the potential groups. Then, checking the contents of individual tweet within the group should not be ignored, particularly those include the URL. Lastly, managers could explore the comments under the video and compare the tweets’ contents. According to Jansen et al. (2011), people who are more connected (i.e. the people with more SNS profiles) and more engaged (i.e. frequent updaters of their SNS statuses) would be more likely to engage in commercial information sharing practices, such as fanning a company. The users in “video group” could be regarded as the potential customer group who actively engaged in the SNS, because of their cross-platform behaviour.
+
+Although the CA could identify the potential groups in a dataset, it might ignore the interactions between the elements of the clustered groups. The findings from our link analysis indicate that researchers and practitioners should drill down to research the concepts in clustered groups. For instance, in the company group, comparing with other firms such as Iceland and ALDI, we can see that LIDI is more correlated with Tesco. The finding is interesting because although several chain markets were involved the horsemeat scandal, Tesco and ALDI seemed more likely to be mentioned together by consumers. Also, “burgers” is the term that is most correlated with “Tesco” and “Horsemeat”. This further confirms our results from frequency analysis that most of the consumers’ focus was on burger products at the beginning of the horsemeat scandal.
+
+In a crisis situation, focusing on consumer-generated sentiments could help companies to rebuild consumer confidence efficiently. The survey of American Red Cross (2010) reveals that 79 per cent people expect organisations to respond to their post in SNS within half an hour. Moreover, according to recent research of Tse et al. (2014) , more than half of the respondents (69 per cent) would talk to their friends and search information online after hearing the news of horsemeat scandal. Furthermore, consumers’ opinion-based expressed qualitatively may easily be benchmarked against financial performance (such as sales data and stock price) ( Mostafa, 2013 ; Nguyen et al. , 2015 ). Therefore, whether a company could monitor and manage the sentiments of consumers in SNS should determine their success in crisis communication. In the horsemeat scandal, the sentiment scores towards Tesco are below zero (−0.1452), which means the consumers’ sentiment is low. We argue that maintaining a constant presence on social media like Twitter in the crisis situation should be a crucial part of the emergent customer communication strategy.
+
+This study also broke down SA in a half-day manner in order to investigate the changes in customers’ attitudes during the outbreak of horsemeat scandal. Although the sentiment of consumers was varied, we can see that burger is still the focus across the week of beginning of Horsegate. This implicates that burger might be the product that most concern consumers in the horsemeat scandal. We found that the frequency of tweets is related to the frequency of news coverage (see Table III ). In other words, the more news coverage reported, the more tweets are posted by the consumers. Therefore, we can conclude that consumers are still strongly affected by the traditional media. The finding indicates that enterprise should balance their efforts on improving information dissemination in both social media and traditional media. As shown in Table II , the number of morning posts is less than the posts in the afternoon. However, the sentiment scores in the afternoon are lower than the morning during the first week of horsemeat scandal exposed. Our results are also consistent with the França et al. (2015) , who illustrate the tweets usage in New York City across 24 hours. In this case, we suggest that if a company is in the crisis situation, the social media monitoring and communication should be prioritised and enhanced in the afternoon (i.e. 12:00 – 0:00).
+Conclusion
+Section: Previous section Next section
+
+According to Elliot (2014) , practitioners should learn the lessons of the horsemeat scandal to prioritise customer needs. Particularly, after the outbreak of horsemeat scandal, over half of the consumers would choose to talk with friends about their experience ( Tse et al. , 2014 ). To explore the opinions of consumers in their social network, we analysed 3,630 tweets expressing attitudes towards Tesco at the beginning of horsemeat scandal. Using a mixed TM approach, which comprises SA and CA, we generated some insights to the practitioners. We find that the word frequency analysis could quickly identify the characteristics of the potential topic, such as “Burgers”, “Primark” and “Hungry”. Based on the MDS method, we identified eight groups and proposed a new research approach to explore the potential customer groups. The results of the SA indicated the general sentiment of UK consumers towards Tesco in horsemeat scandal is negative because the average sentiment score is below zero. Moreover, this study also investigated the changes in tweets post frequencies and sentiment scores in a half-day manner. We found that the number of tweets posted in the afternoon is more than the tweets posted in the morning. Also, sentiments of tweets are lower in the afternoon compared with in the morning.
+
+It is important to note that although we conducted CA to identify different groups of tweets, we did not explore the reasons why consumers posted those similar tweets. Future research could adopt our proposed customer groups identification approach to examine the hidden information behind the clustered group, such as exploring the profile of those people who like to make jokes. Moreover, the SA approach (i.e. lexicon-based approach) used in this research has its limitation that need to be addressed by the future research. The traditional lexicon-based approach does not have an efficient mechanism for analysing the context dependent opinion words ( Ding et al. , 2008 ). Liau and Tan (2014) indicate that the it is difficult for the lexicon-based approach to precisely annotate the sarcasm or provocative words. We suggest that future research should focus on improving the existing dictionary or using the more advanced annotation method, such as machine learning ( Ye et al. , 2009 ), to overcome the limitations of the lexicon-based approach. We recommend that future research could include an experiment by using the client-side tracking software to explore the behaviours of those users who like to make jokes and compare with a control group (i.e. no preference in making jokes). Moreover, the limitation of using single social media platform should be noticed. Although our sample size ( n =3,630) is considerable in comparison with other relevant studies (such as Mostafa, 2013 ; Liau and Tan, 2014 ), the insights of consumer cross-platform behaviours ( Jansen et al. , 2011 ) should be scrutinised in the future research. Despite the limitations of this study, we have contributed to the field of social media research in crisis management. By exploring the UK consumers’ opinions on the Tesco in the horsemeat scandal, we provide the industry with impactful strategies in marketing and crisis communication.
+figure parent remove
+
+Figure 1 Structured text pre-processing
+figure parent remove
+
+Figure 2 Proximity Plot
+figure parent remove
+
+Figure 3 The 3D MDS map
+figure parent remove
+
+Figure 4 The 2D MDS map
+figure parent remove
+
+Figure 5 Link analysis
+figure parent remove
+
+Figure 6 Time-series analysis
+figure parent remove
+
+Table I Words frequency
+figure parent remove
+
+Table II Longitudinal analysis
+figure parent remove
+
+Table III Frequency of traditional news
+figure parent remove
+
+Equation 1
+References
+    1.
+    Agnihotri, R. , Kothandaraman, P. , Kashyap, R. and Singh, R. ( 2012 ), “ Bringing ‘social’ into sales: the impact of salespeople’s social media use on service behaviors and value creation ”, Journal of Personal Selling and Sales Management , Vol. XXXII No. 3, pp. 333 - 348 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    2.
+    ALEXA ( 2015 ), “The top 500 sites on the web”, available at: www.alexa.com/topsites (accessed 29 March 2015). OpenURL UTFPR [Google Scholar]
+
+    3.
+    American Red Cross ( 2010 ), “Web users increasingly rely on social media to seek help in a disaster”, available at: http://newsroom.redcross.org/2010/08/09/press-release-web-users-increasingly-rely-on-social-media-to-seek-help-in-a-disaster / (accessed 16 September 2015). OpenURL UTFPR [Google Scholar]
+
+    4.
+    Bagheri, A. , Saraee, M. and de Jong, F. ( 2013 ), “ Care more about customers: unsupervised domain-independent aspect detection for sentiment analysis of customer reviews ”, Knowledge-Based Systems , Vol. 52, pp. 201 - 213 . doi: 10.1016/j.knosys.2013.08.011. [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    5.
+    Barbier, G. and Liu, H. ( 2011 ), “ Data mining in social media ”, in Aggarwal, C.C. (Ed.), Social Network Data Analytics , pp. 327 - 352 . OpenURL UTFPR [Google Scholar]
+
+    6.
+    Berthon, P.R. , Pitt, L.F. , Plangger, K. and Shapiro, D. ( 2012 ), “ Marketing meets web 2.0, social media, and creative consumers: implications for international marketing strategy ”, Business Horizons , Vol. 55 No. 3, pp. 261 - 271 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    7.
+    Blackshaw, P. and Nazzaro, M. ( 2004 ), “Consumer-generated media (CGM) 101: word-of-mouth in the age of the web-fortified consumer”, available at: www.nielsenbuzzmetrics.com/whitepapers (accessed 14 September 2015). OpenURL UTFPR [Google Scholar]
+
+    8.
+    Bollen, J. , Mao, H.N. and Zeng, X.J. ( 2011 ), “ Twitter mood predicts the stock market ”, Journal of Computational Science , Vol. 2 No. 1, pp. 1 - 8 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    9.
+    Brown, J. , Broderick, A.J. and Lee, N. ( 2007 ), “ Word of mouth communication within online communities: conceptualing the online social network ”, Journal of Interactive Marketing , Vol. 21 No. 3, pp. 2 - 20 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    10.
+    Ceron, A. , Luigi, C. , Iacus, S.M. and Porro, G. ( 2014 ), “ Every tweet counts? How sentiment analysis of social media can improve our knowledge of citizens’ political preferences with an application to Italy and France ”, New Media & Society , Vol. 16 No. 2, pp. 340 - 358 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    11.
+    Cheston, C.C. , Flickinger, T.E. and Chisolm, M.S. ( 2013 ), “ Social media use in medical education: a systematic review ”, Academic Medicine , Vol. 88 No. 6, pp. 893 - 901 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    12.
+    Chevalier, J.A. and Mayzlin, D. ( 2006 ), “ The effect of word of mouth on sales: online book reviews ”, Journal of Marketing Research , Vol. 43 No. 3, pp. 345 - 354 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    13.
+    Delen, D. , Fast, A. , Hill, T. , Elder, J. , Miner, G. and Nisbet, B. ( 2012 ), Practical Text Mining and Statisitical Analysis for Non-structured Text Data Applications , Elsevier , Oxford . OpenURL UTFPR [Google Scholar]
+
+    14.
+    Ding, X. , Liu, B. and Yu, P. ( 2008 ), “ A holistic lexicon-based approach to opinion mining ”, The 9th International Conference on Web Search and Web Data Mining, Stanford, CA , pp. 231 - 240 . OpenURL UTFPR [Google Scholar]
+
+    15.
+    Duan, W.J. , Gu, G. and Whinston, A.B. ( 2008 ), “ Do online reviews matter? – an empirical investigation of panel data ”, Decision Support Systems , Vol. 45 No. 4, pp. 1007 - 1016 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    16.
+    Elliot, C. ( 2014 ), “Elliott review into the integrity and assurance of food supply networks”, final report, Department for Environment, Food & Rural Affairs, UK Government. OpenURL UTFPR [Google Scholar]
+
+    17.
+    Ellison, N.B. ( 2007 ), “ Social network site: definition, history, and scholarship ”, Journal of Computer-Mediated Communication , Vol. 13 No. 1, pp. 210 - 230 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    18.
+    Fan, W. , Wallace, L. , Rich, S. and Zhang, Z. ( 2006 ), “ Tapping the power of text mining ”, Communication of the ACM , Vol. 49 No. 9, pp. 76 - 82 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    19.
+    Feldman, R. ( 2013 ), “ Techniques and applications for sentiment analysis ”, Communications of the Acm , Vol. 56 No. 4, pp. 82 - 89 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    20.
+    Feldman, R. and Sanger, J. ( 2007 ), The Text Mining Handbook Advanced Approaches in Analyzing Unstructured Data , Cambridge University Press , Cambridge and New York, NY . OpenURL UTFPR [Google Scholar]
+
+    21.
+    França, U. , Sayama, H. , McSwiggen, C. , Daneshvar, R. and Bar-Yam, Y. ( 2015 ), “Visualizing the ‘heartbeat’ of a city with tweets”, Complexity , cplx.21687/cplx.21687. OpenURL UTFPR [Google Scholar]
+
+    22.
+    FSAI ( 2013 ), “FSAI survey finds horse DNA in some beef burger products”, available at: www.fsai.ie/news_centre/press_releases/horseDNA15012013.html (accessed 2 November 2014). OpenURL UTFPR [Google Scholar]
+
+    23.
+    Fu, X.H. , Liu, G. , Guo, Y.Y. and Wang, Z.Q. ( 2013 ), “ Multi-aspect sentiment analysis for Chinese online social reviews based on topic modeling and HowNet lexicon ”, Knowledge-Based Systems , Vol. 37, pp. 186 - 195 . doi: 10.1016/j.knosys.2012.08.003. [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    24.
+    Gamboa, A.M. and Gonçalves, H.M. ( 2014 ), “ Customer loyalty through social networks: lessons from Zara on Facebook ”, Business Horizons , Vol. 57 No. 6, pp. 709 - 717 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    25.
+    Ghiassi, M. , Skinner, J. and Zimbra, D. ( 2013 ), “ Twitter brand sentiment analysis: a hybrid system using n-gram analysis and dynamic artificial neural network ”, Expert Systems with Applications , Vol. 40 No. 16, pp. 6266 - 6282 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    26.
+    Hajli, M.N. ( 2014 ), “ A study of the impact of social media on consumers ”, International Journal of Market Research , Vol. 56 No. 3, pp. 387 - 404 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    27.
+    He, W. ( 2013 ), “ Examining students’ online interaction in a live video streaming environment using data mining and text mining ”, Computers in Human Behavior , Vol. 29 No. 1, pp. 90 - 102 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    28.
+    He, W. , Zha, S.H. and Li, L. ( 2013 ), “ Social media competitive analysis and text mining: a case study in the pizza industry ”, International Journal of Information Management , Vol. 33 No. 3, pp. 464 - 472 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    29.
+    Heller Baird, C. and Parasnis, G. ( 2011 ), “ From social media to social customer relationship management ”, Strategy & Leardership , Vol. 39 No. 5, pp. 30 - 37 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    30.
+    Henderson, A. and Bowley, R. ( 2010 ), “ Authentic dialogue? The role of “friendship” in a social media recruitment campaign ”, Journal of Communication Management , Vol. 14 No. 3, pp. 237 - 257 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    31.
+    Hoffman, D.L. and Fodor, M. ( 2010 ), “ Can you measure the ROI of your social media marketing? ”, Mit Sloan Management Review , Vol. 52 No. 1, pp. 41 - 49 . [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    32.
+    Hu, M. and Liu, B. ( 2004 ), “ Mining and summarizing customer reviews ”, Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining , ACM , New York, NY , pp. 168 - 177 . OpenURL UTFPR [Google Scholar]
+
+    33.
+    Hung, J.L. ( 2012 ), “ Trends of e-learning research from 2000 to 2008: use of text mining and bibliometrics ”, British Journal of Educational Technology , Vol. 43 No. 1, pp. 5 - 16 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    34.
+    Jansen, B.J. , Sobel, K. and Cook, G. ( 2011 ), “ Classifying ecommerce information sharing behaviour by youths on social networking sites ”, Journal of Information Science , Vol. 37 No. 2, pp. 120 - 136 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    35.
+    Jansen, B.J. , Zhang, M.M. , Sobel, K. and Chowdury, A. ( 2009 ), “ Twitter power: tweets as electronic word of mouth ”, Journal of the American Society for Information Science and Technology , Vol. 60 No. 11, pp. 2169 - 2188 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    36.
+    Jiang, S. , Chen, H.C. , Nunamaker, J.F. and Zimbra, D. ( 2014 ), “ Analyzing firm-specific social media and market: a stakeholder-based event analysis framework ”, Decision Support Systems , Vol. 67, pp. 30 - 39 . doi: 10.1016/j.dss.2014.08.001. [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    37.
+    Jin, S.A.A. and Phua, J. ( 2014 ), “ Following celebrities’ tweets about brands: the impact of Twitter-based electronic word-of-mouth on consumers’ source credibility perception, buying intention, and social identification with celebrities ”, Journal of Advertising , Vol. 43 No. 2, pp. 181 - 195 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    38.
+    Jin, Y. , Liu, B.F. and Austing, L.L. ( 2014 ), “ Examining the role of social media in effective crisis management: the effects of crisis origin, information form, and source on publics ' crisis responses ”, Communication Research , Vol. 41 No. 1, pp. 74 - 94 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    39.
+    Kang, D. and Park, Y. ( 2014 ), “ Review-based measurement of customer satisfaction in mobile service: sentiment analysis and VIKOR approach ”, Expert Systems with Applications , Vol. 41 No. 4, pp. 1041 - 1050 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    40.
+    Kaplan, A.M. and Haenlein, M. ( 2010 ), “ Users of the world, unite! The challenges and opportunities of social media ”, Business Horizons , Vol. 53 No. 1, pp. 59 - 68 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    41.
+    Kietzmann, J.H. , Hermkens, K. , McCarthy, I.P. and Silvestre, B.S. ( 2011 ), “ Social media? Get serious! Understanding the functional building blocks of social media ”, Business Horizons , Vol. 54 No. 3, pp. 241 - 251 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    42.
+    Kontopoulos, E. , Berberidis, C. , Dergiades, T. and Bassiliades, N. ( 2013 ), “ Ontology-based sentiment analysis of Twitter posts ”, Expert Systems with Applications , Vol. 40 No. 10, pp. 4065 - 4074 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    43.
+    Liau, B.Y. and Tan, P.P. ( 2014 ), “ Gaining customer knowledge in low cost airlines through text mining ”, Industrial Management & Data Systems , Vol. 114 No. 9, pp. 1344 - 1359 . [Link] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    44.
+    Malita, L. ( 2011 ), “ Social media time management tools and tips ”, Procedia Computer Science , Vol. 3, pp. 747 - 753 . doi: 10.1016/j.procs.2010.12.123. [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    45.
+    Mangold, W.G. and Faulds, D.J. ( 2009 ), “ Social media: the new hybrid element of the promotion mix ”, Business Horizons , Vol. 52 No. 4, pp. 357 - 365 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    46.
+    Miner, G. , Elder, J. , Fast, A. , Hill, T. , Nisbet, R. and Delen, D. ( 2012 ), Practical Text Mining and Statistical Analysis for Non-Structured Text Data Applications , Academic Press , Waltham, MA . OpenURL UTFPR [Google Scholar]
+
+    47.
+    Mori, I. ( 2007 ), “Student expectations study. Key findings from on-line research and discussion evenings held in June 2007 for the joint information system committee”, Joint Information Systems Committee (JISC), London. OpenURL UTFPR [Google Scholar]
+
+    48.
+    Mostafa, M.M. ( 2013 ), “ More than words: social networks’ text mining for consumer brand sentiments ”, Expert Systems with Applications , Vol. 40 No. 10, pp. 4241 - 4251 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    49.
+    Ngai, E.W.T. , Moon, K.L.K. , Lam, S.S. , Chin, E.S.K. and Tao, S.S.C. ( 2015 ), “ Social media models, technologies, and applications an academic review and case study ”, Industrial Management & Data Systems , Vol. 115 No. 5, pp. 769 - 802 . [Link] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    50.
+    Nguyen, T.H. , Shirai, K. and Velcin, J. ( 2015 ), “Sentiment analysis on social media for stock movement prediction”, Expert Systems with Applications , Vol. 42 No. 24, pp. 9603 - 9611 . OpenURL UTFPR [Google Scholar]
+
+    51.
+    O’Leary, D.E. ( 2011 ), “ Blog mining-review and extensions: ‘from each according to his opinion’ ”, Decision Support Systems , Vol. 51 No. 4, pp. 821 - 830 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    52.
+    Ozturk, S.S. and Ciftci, K. ( 2014 ), “ A sentiment analysis of Twitter content as a predicotr of exchange rate movements ”, Review of Economic Analysis , Vol. 2014 No. 6, pp. 132 - 140 . OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+    53.
+    Paltoglou, G. and Thelwall, M. ( 2012 ), “ Twitter, myspace, digg: unsupervised sentiment analysis in social media ”, ACM Transactions on Intelligent Systems and Technology (TIST) , Vol. 3 No. 4, pp. 1 - 19 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    54.
+    Pang, B. and Lee, L. ( 2008 ), “ Opinion mining and sentiment analysis ”, Foundations and Trends in Information Retrieval , Vol. 2 Nos 1-2, pp. 1 - 135 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    55.
+    Panagiotopoulos, P. , Shan, L.C. , Barnett, J. , Regan, A. and McConnon, A. ( 2015 ), “ A framework of social media engagement: case studies with food and consumer organisations in the UK and Ireland ”, International Journal of Information Management , Vol. 35 No. 4, pp. 394 - 402 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    56.
+    Pavelopoulos, I. ( 2014 ), “Aspect based sentiment analysis”, doctoral dissertation, available at: www.aueb.gr/users/ion/docs/pavlopoulos_phd_thesis.pdf OpenURL UTFPR [Google Scholar]
+
+    57.
+    Pentina, I. , Zhang, L. and Basmanova, O. ( 2013 ), “ Antecedents and consequences of trust in a social media brand: a cross-cultural study of Twitter ”, Computer in Human Behavior , Vol. 29 No. 4, pp. 1546 - 1555 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    58.
+    Rutsaert, P. , Pieniak, Z. , Regan, A. , McConnon, A. , Kuttschreuter, M. , Lores, M. , Lozano, N. , Guzzon, A. , Santare, D. and Verbeke, W. ( 2014 ), “ Social media as a useful tool in food risk and benefit communication? A strategic orientation approach ”, Food Policy , Vol. 46, pp. 84 - 93 . doi: 10.1016/j.foodpol.2014.02.003. [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar]
+
+    59.
+    Rutsaert, P. , Regan, A. , Pieniak, Z. , McConnon, A. , Moss, A. , Wall, P. and Verbeke, W. ( 2013 ), “ The use of social media in food risk and benefit communication ”, Trends in Food Science & Technology , Vol. 30 No. 1, pp. 84 - 91 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    60.
+    Safko, L. ( 2010 ), The Social Media Bible: Tactics, Tools, and Stragegies for Business Success , John Wiley & Sons , Hoboken, NJ . OpenURL UTFPR [Google Scholar]
+
+    61.
+    Schultz, F. , Utz, S. and Goritz, A. ( 2011 ), “ Is the medium the message? Perceptions of and reactions to crisis communication via Twitter, blogs and traditional media ”, Public Relations Review , Vol. 37 No. 1, pp. 20 - 27 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    62.
+    Singh, V.K. , Piryani, R. , Uddin, A. and Waila, P. ( 2013 ), “ Sentiment analysis of movie reviews a new feature-based heuristic for aspect-level sentiment classification ”, 2013 IEEE International Multi Conference on Automation, Computing, Communication, Control and Compressed Sensing (Imac4s) , pp. 712 - 717 . OpenURL UTFPR [Google Scholar]
+
+    63.
+    Taboada, M. , Brooke, J. , Tofiloski, M. , Voll, K. and Stede, M. ( 2011 ), “ Lexicon-based methods for sentiment analysis ”, Computational linguistics , Vol. 37 No. 2, pp. 267 - 307 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    64.
+    Tesco ( 2013 ), “Product testing – food concerns Tesco.com ”, available at: www.tesco.com/food-concerns/product-testing/ (accessed 4 June 2015). OpenURL UTFPR [Google Scholar]
+
+    65.
+    Tess, P.A. ( 2013 ), “ The role of social media in higher education classes (real and virtual) – aliterature review ”, Computers in Human Behavior , Vol. 29 No. 5, pp. A60 - A68 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    66.
+    Thelwall, M. , Buckley, K. and Paltoglou, G. ( 2011 ), “ Sentiment in Twitter events ”, Journal of the American Society for Information Science and Technology , Vol. 62 No. 2, pp. 406 - 418 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    67.
+    Thet, T.T. , Na, J.C. and Khoo, C.S.G. ( 2010 ), “ Aspect-based sentiment analysis of movie reviews on discussion boards ”, Journal of Information Science , Vol. 36 No. 6, pp. 823 - 848 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    68.
+    Trusov, M. , Bucklin, R.E. and Pauwels, K. ( 2009 ), “ Effects of word-of-mouth versus traditional marketing: findings from an internet social networking site ”, Journal of Marketing , Vol. 73 No. 5, pp. 90 - 102 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    69.
+    Tsai, W.H.S. and Men, L.R. ( 2013 ), “ Motivations and antecedents of consumer engagement with brand pages on social networking sites ”, Journal of Interactive Advertising , Vol. 13 No. 2, pp. 76 - 87 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    70.
+    Tse, Y.K. , Tan, K.H. and Zhang, M.H. ( 2014 ), “Exploring quality risk in the food supply chain: strategic insights from horsmeat scandals”, Charter Institue of Logistics and Transport, Corby Northants. OpenURL UTFPR [Google Scholar]
+
+    71.
+    Turney, P.D. ( 2002 ), “ Thumbs up or thumbs down? Semantic orientation applied to unsupervised classification of reviews ”, 40th Annual Meeting of the Association for Computational Linguistics, Proceedings of the Conference, pp. 417 - 424 . OpenURL UTFPR [Google Scholar]
+
+    72.
+    Veil, S.R. , Buehner, T. and Palenchar, M.J. ( 2011 ), “ A work-in-process literature review: incorporating social media in risk and crisis communication ”, Journal of Contingencies and Crisis Management , Vol. 19 No. 2, pp. 110 - 122 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    73.
+    Whiting, A. and Williams, D. ( 2013 ), “ Why people use social media: a uses and gratifications approach ”, Qualitative Market Research: An International Journal , Vol. 16 No. 4, pp. 362 - 369 . [Link] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    74.
+    Wong, K.F. , Xia, Y. , Xu, R. , Wu, M. and Li, W. ( 2008 ), “ Pattern-based opinion mining for stock market trend prediction ”, International Journal of Coputer Processing of Languages , Vol. 21 No. 4, pp. 347 - 361 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    75.
+    Wordstat ( 2014 ), Wordstat 7 User’s Guide , available at: www.provalisresearch.com/Documents/WordStat7.pdf (accessed 15 February 2015). OpenURL UTFPR [Google Scholar]
+
+    76.
+    Ye, Q. , Zhang, Z. and Law, R. ( 2009 ), “ Sentiment classification of online reviews to travel destinations by supervised machine learning approaches ”, Expert Systems with Applications , Vol. 36 No. 3, pp. 6527 - 6535 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    77.
+    Zhang, W.H. , Xu, H. and Wan, W. ( 2012 ), “ Weakness finder: find product weakness from Chinese reviews by using aspects based sentiment analysis ”, Expert Systems with Applications , Vol. 39 No. 11, pp. 10283 - 10291 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+Further reading
+    1.
+    Turney, P.D. and Littman, M.L. ( 2003 ), “ Measuring praise and criticism: inference of semantic orientation from association ”, ACM Transactions on Information Systems , Vol. 21 No. 4, pp. 315 - 346 . [Crossref] , [ISI] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+Notes
+
+    By 2015 January, Tesco had market share of 29.1 per cent in the UK grocery market.
+
+    From 15 to 21 January 2013, we capture 775 articles with the headline include the keywords of “Horsemeat” and “Tesco” from the Nexis UK full text database.
+
+    Video Link insert here – the video is about someone dressed as a horse and rush into supermarket then shouting Mum and Dad.
+
+Corresponding author
+Section: Previous section
+
+Ying Kei Tse can be contacted at: mike.tse@york.ac.uk
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (78)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+Industrial Management & Data Systems
+ISSN: 0263-5577
+Online from: 1980
+Subject Area: Information & Knowledge Management
+
+    Current Issue
+    Available Issues
+    Earlycite
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Science Citation
+Index Expanded (SCIE)™
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    MARKET ANALYSIS — THE HOLISTIC APPROACH TO MARKETING
+    Using PLS path modeling in new technology research: updated guidelines
+    Food supply chain management: systems, implementations, and future research
+    Modes of service innovation: a typology
+    Marketing Signals in Industrial Markets
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    Using PLS path modeling in new technology research: updated guidelines
+    Understanding the determinants of cloud computing adoption
+    Critical success factors for implementing knowledge management in small and medium enterprises
+    Initial trust and online buyer behaviour
+    Consumer trust, perceived security and privacy policy : Three basic elements of loyalty to a web site
+
+See more>
+Find related content
+By Keyword
+
+    Social media
+    Crisis management
+    Food fraud incident
+    Twitter mining
+
+By Author
+
+    Ying Kei Tse
+    Minhao Zhang
+    Bob Doherty
+    Paul Chappell
+    Philip Garnett
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor

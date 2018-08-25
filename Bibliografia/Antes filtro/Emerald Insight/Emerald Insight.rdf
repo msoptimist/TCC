@@ -1,0 +1,2192 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/JSIT-06-2016-0039">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1328-7265"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Domdouzis</foaf:surname>
+                        <foaf:givenname>Konstantinos</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akhgar</foaf:surname>
+                        <foaf:givenname>Babak</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andrews</foaf:surname>
+                        <foaf:givenname>Simon</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gibson</foaf:surname>
+                        <foaf:givenname>Helen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hirsch</foaf:surname>
+                        <foaf:givenname>Laurence</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_195"/>
+        <link:link rdf:resource="#item_196"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JSIT-06-2016-0039</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>364-382</bib:pages>
+        <dc:date>November 14, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:26:54</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>A social media and crowdsourcing data mining system for crime prevention during and post-crisis situations</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1328-7265">
+        <prism:volume>18</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Journal of Systems and Information Technology</dc:title>
+        <dc:identifier>ISSN 1328-7265</dc:identifier>
+        <dcterms:alternative>J of Systems and Info Tech</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/JSIT-06-2016-0039</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_195">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/195/Domdouzis et al. - 2016 - A social media and crowdsourcing data mining syste.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/JSIT-06-2016-0039</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:27:55</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_196">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/196/JSIT-06-2016-0039.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JSIT-06-2016-0039</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:00</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/EL-09-2016-0188">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0264-0473"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>Yanyan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Jin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_197"/>
+        <link:link rdf:resource="#item_198"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/EL-09-2016-0188</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>667-688</bib:pages>
+        <dc:date>July 3, 2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:26:57</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Exploring topics related to data mining on Wikipedia</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0264-0473">
+        <prism:volume>35</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>The Electronic Library</dc:title>
+        <dc:identifier>ISSN 0264-0473</dc:identifier>
+        <dcterms:alternative>The Electronic Library</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/EL-09-2016-0188</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_197">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/197/Wang e Zhang - 2017 - Exploring topics related to data mining on Wikiped.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/EL-09-2016-0188</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:04</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_198">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/198/EL-09-2016-0188.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/EL-09-2016-0188</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:11</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IMDS-03-2015-0098">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0263-5577"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akula</foaf:surname>
+                        <foaf:givenname>Vasudeva</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tian</foaf:surname>
+                        <foaf:givenname>Xin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Wu</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tao</foaf:surname>
+                        <foaf:givenname>Ran</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shen</foaf:surname>
+                        <foaf:givenname>Jiancheng</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenname>Gongjun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Yaohang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_199"/>
+        <link:link rdf:resource="#item_200"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-03-2015-0098</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1622-1636</bib:pages>
+        <dc:date>October 19, 2015</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:26:58</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Gaining competitive intelligence from social media data: Evidence from two largest retail chains in the world</dc:title>
+        <z:shortTitle>Gaining competitive intelligence from social media data</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0263-5577">
+        <prism:volume>115</prism:volume>
+        <prism:number>9</prism:number>
+        <dc:title>Industrial Management &amp; Data Systems</dc:title>
+        <dc:identifier>ISSN 0263-5577</dc:identifier>
+        <dcterms:alternative>Industr Mngmnt &amp; Data Systems</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/IMDS-03-2015-0098</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_199">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/199/Akula et al. - 2015 - Gaining competitive intelligence from social media.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IMDS-03-2015-0098</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:16</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_200">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/200/IMDS-03-2015-0098.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-03-2015-0098</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:23</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/13563281311319508">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1356-3289"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Colleoni</foaf:surname>
+                        <foaf:givenname>Elanor</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_201"/>
+        <link:link rdf:resource="#item_202"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/13563281311319508</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>228-248</bib:pages>
+        <dc:date>April 24, 2013</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:00</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>CSR communication strategies for organizational legitimacy in social media</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1356-3289">
+        <prism:volume>18</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Corporate Communications: An International Journal</dc:title>
+        <dc:identifier>ISSN 1356-3289</dc:identifier>
+        <dcterms:alternative>Corp Comm: An Int Jnl</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/13563281311319508</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_201">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/201/Colleoni - 2013 - CSR communication strategies for organizational le.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/13563281311319508</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:26</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_202">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/202/13563281311319508.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/13563281311319508</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:33</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/978-1-78714-315-920161011">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>The Changing Context of Managing People</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:title>Electronic HRM in the Smart Era</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Emerald Publishing Limited</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holland</foaf:surname>
+                        <foaf:givenname>Peter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jeske</foaf:surname>
+                        <foaf:givenname>Debora</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_203"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/978-1-78714-315-920161011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>287-309</bib:pages>
+        <dc:date>August 9, 2017</dc:date>
+        <dc:description>DOI: 10.1108/978-1-78714-315-920161011</dc:description>
+        <dcterms:dateSubmitted>2018-08-17 19:27:01</dcterms:dateSubmitted>
+        <z:numberOfVolumes>0</z:numberOfVolumes>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Changing Role of Social Media at Work: Implications for Recruitment and Selection</dc:title>
+        <z:shortTitle>Changing Role of Social Media at Work</z:shortTitle>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_203">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/203/978-1-78714-315-920161011.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/978-1-78714-315-920161011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:41</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IDD-04-2017-0043">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2398-6247"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenname>Xiangbin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Yumei</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fan</foaf:surname>
+                        <foaf:givenname>Weiguo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_204"/>
+        <link:link rdf:resource="#item_205"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IDD-04-2017-0043</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>181-193</bib:pages>
+        <dc:date>October 11, 2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:02</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Identifying domain relevant user generated content through noise reduction: a test in a Chinese stock discussion forum</dc:title>
+        <z:shortTitle>Identifying domain relevant user generated content through noise reduction</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2398-6247">
+        <prism:volume>45</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Information Discovery and Delivery</dc:title>
+        <dc:identifier>ISSN 2398-6247</dc:identifier>
+        <dcterms:alternative>Information Discovery and Delivery</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/IDD-04-2017-0043</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_204">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/204/Yan et al. - 2017 - Identifying domain relevant user generated content.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IDD-04-2017-0043</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:44</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_205">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/205/IDD-04-2017-0043.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IDD-04-2017-0043</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:28:56</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/ITP-02-2017-0029">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0959-3845"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dindar</foaf:surname>
+                        <foaf:givenname>Muhterem</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dulkadir Yaman</foaf:surname>
+                        <foaf:givenname>Nihal</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_206"/>
+        <link:link rdf:resource="#item_207"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/ITP-02-2017-0029</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>256-277</bib:pages>
+        <dc:date>January 3, 2018</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:06</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>#IUseTwitterBecause: content analytic study of a trending topic in Twitter</dc:title>
+        <z:shortTitle>#IUseTwitterBecause</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0959-3845">
+        <prism:volume>31</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Information Technology &amp; People</dc:title>
+        <dc:identifier>ISSN 0959-3845</dc:identifier>
+        <dcterms:alternative>Info Technology &amp; People</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/ITP-02-2017-0029</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_206">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/206/Dindar e Dulkadir Yaman - 2018 - #IUseTwitterBecause content analytic study of a t.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/ITP-02-2017-0029</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:00</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_207">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/207/ITP-02-2017-0029.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/ITP-02-2017-0029</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:11</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IJWIS-04-2013-0011">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1744-0084"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Byun</foaf:surname>
+                        <foaf:givenname>Changhyun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ko Kim</foaf:surname>
+                        <foaf:givenname>Kwangmi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenname>Hyeoncheol</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenname>Yanggon</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_208"/>
+        <link:link rdf:resource="#item_209"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IJWIS-04-2013-0011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>184-203</bib:pages>
+        <dc:date>August 23, 2013</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:07</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Twitter data collecting tool with rule‐based filtering and analysis module</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1744-0084">
+        <prism:volume>9</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>International Journal of Web Information Systems</dc:title>
+        <dc:identifier>ISSN 1744-0084</dc:identifier>
+        <dcterms:alternative>Int J of Web Info Systems</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/IJWIS-04-2013-0011</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_208">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/208/Byun et al. - 2013 - Twitter data collecting tool with rule‐based filte.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IJWIS-04-2013-0011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:15</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_209">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/209/IJWIS-04-2013-0011.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IJWIS-04-2013-0011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:22</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/978-1-78560-313-620151004">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+               <dc:title>Advertising in New Formats and Media</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Emerald Group Publishing Limited</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenname>Guanxiong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Hairong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_210"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/978-1-78560-313-620151004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>97-113</bib:pages>
+        <dc:date>December 29, 2016</dc:date>
+        <dc:description>DOI: 10.1108/978-1-78560-313-620151004</dc:description>
+        <dcterms:dateSubmitted>2018-08-17 19:27:09</dcterms:dateSubmitted>
+        <z:numberOfVolumes>0</z:numberOfVolumes>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Understanding Media Synergy</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_210">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/210/978-1-78560-313-620151004.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/978-1-78560-313-620151004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:29</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/K-01-2018-0030">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0368-492X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khatir</foaf:surname>
+                        <foaf:givenname>Nadjia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nait-bahloul</foaf:surname>
+                        <foaf:givenname>Safia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_211"/>
+        <link:link rdf:resource="#item_212"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/K-01-2018-0030</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>July 13, 2018</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:10</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Multi-criteria-based fusion for clustering texts and images case study on Flickr</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0368-492X">
+        <dc:title>Kybernetes</dc:title>
+        <dc:identifier>ISSN 0368-492X</dc:identifier>
+        <dcterms:alternative>Kybernetes</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/K-01-2018-0030</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_211">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/211/Khatir e Nait-bahloul - 2018 - Multi-criteria-based fusion for clustering texts a.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/K-01-2018-0030</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:32</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_212">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/212/K-01-2018-0030.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/K-01-2018-0030</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:40</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/OIR-03-2015-0068">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1468-4527"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenname>Yoosin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jeong</foaf:surname>
+                        <foaf:givenname>Seung Ryul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Jie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dwivedi</foaf:surname>
+                        <foaf:givenname>Rahul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_213"/>
+        <link:link rdf:resource="#item_214"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/OIR-03-2015-0068</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>42-61</bib:pages>
+        <dc:date>February 8, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:12</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Competitive intelligence in social media Twitter: iPhone 6 vs. Galaxy S5</dc:title>
+        <z:shortTitle>Competitive intelligence in social media Twitter</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1468-4527">
+        <prism:volume>40</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Online Information Review</dc:title>
+        <dc:identifier>ISSN 1468-4527</dc:identifier>
+        <dcterms:alternative>Online Information Review</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/OIR-03-2015-0068</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_213">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/213/Kim et al. - 2016 - Competitive intelligence in social media Twitter .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/OIR-03-2015-0068</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:47</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_214">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/214/OIR-03-2015-0068.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/OIR-03-2015-0068</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:54</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IDD-05-2017-0046">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>45</prism:volume>
+                <prism:number>3</prism:number>
+                <dc:title>Information Discovery and Delivery</dc:title>
+                <dc:identifier>ISSN 2398-6247</dc:identifier>
+                <dcterms:alternative>Information Discovery and Delivery</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/IDD-05-2017-0046</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Elkin</foaf:surname>
+                        <foaf:givenname>Lauren S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Topal</foaf:surname>
+                        <foaf:givenname>Kamil</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bebek</foaf:surname>
+                        <foaf:givenname>Gurkan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_215"/>
+        <link:link rdf:resource="#item_216"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IDD-05-2017-0046</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>110-120</bib:pages>
+        <dc:date>August 21, 2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Network based model of social media big data predicts contagious disease diffusion</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_215">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/215/Elkin et al. - 2017 - Network based model of social media big data predi.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IDD-05-2017-0046</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:29:58</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_216">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/216/IDD-05-2017-0046.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IDD-05-2017-0046</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:04</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/AJIM-12-2013-0141">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2050-3806"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thanh Quan</foaf:surname>
+                        <foaf:givenname>Tho</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thi Phan</foaf:surname>
+                        <foaf:givenname>Tuoi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thanh Nguyen</foaf:surname>
+                        <foaf:givenname>Tung</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_217"/>
+        <link:link rdf:resource="#item_218"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/AJIM-12-2013-0141</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>553-580</bib:pages>
+        <dc:date>September 9, 2014</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:17</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Sentiment search: an emerging trend on social media monitoring systems</dc:title>
+        <z:shortTitle>Sentiment search</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2050-3806">
+        <prism:volume>66</prism:volume>
+        <prism:number>5</prism:number>
+        <dc:title>Aslib Journal of Information Management</dc:title>
+        <dc:identifier>ISSN 2050-3806</dc:identifier>
+        <dcterms:alternative>Aslib Journal of Info Mgmt</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/AJIM-12-2013-0141</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_217">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/217/Thanh Quan et al. - 2014 - Sentiment search an emerging trend on social medi.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/AJIM-12-2013-0141</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:09</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_218">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/218/AJIM-12-2013-0141.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/AJIM-12-2013-0141</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:16</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/FS-08-2015-0043">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1463-6689"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daim</foaf:surname>
+                        <foaf:givenname>Tugrul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cho</foaf:surname>
+                        <foaf:givenname>Yonghee</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_219"/>
+        <link:link rdf:resource="#item_220"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/FS-08-2015-0043</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>117-137</bib:pages>
+        <dc:date>April 11, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:18</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>OLED TV technology forecasting using technology mining and the Fisher-Pry diffusion model</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1463-6689">
+        <prism:volume>18</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Foresight</dc:title>
+        <dc:identifier>ISSN 1463-6689</dc:identifier>
+        <dcterms:alternative>Foresight</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/FS-08-2015-0043</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_219">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/219/Daim e Cho - 2016 - OLED TV technology forecasting using technology mi.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/FS-08-2015-0043</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:20</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_220">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/220/FS-08-2015-0043.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/FS-08-2015-0043</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:27</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IMDS-10-2015-0417">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>116</prism:volume>
+                <prism:number>6</prism:number>
+                <dc:title>Industrial Management &amp; Data Systems</dc:title>
+                <dc:identifier>ISSN 0263-5577</dc:identifier>
+                <dcterms:alternative>Industr Mngmnt &amp; Data Systems</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/IMDS-10-2015-0417</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Minhao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chappell</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garnett</foaf:surname>
+                        <foaf:givenname>Philip</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doherty</foaf:surname>
+                        <foaf:givenname>Bob</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tse</foaf:surname>
+                        <foaf:givenname>Ying Kei</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_221"/>
+        <link:link rdf:resource="#item_222"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-10-2015-0417</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1178-1200</bib:pages>
+        <dc:date>June 29, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:21</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Insight from the horsemeat scandal: Exploring the consumers’ opinion of tweets toward Tesco</dc:title>
+        <z:shortTitle>Insight from the horsemeat scandal</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_221">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/221/Zhang et al. - 2016 - Insight from the horsemeat scandal Exploring the .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IMDS-10-2015-0417</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:32</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_222">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/222/IMDS-10-2015-0417.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-10-2015-0417</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:39</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IMDS-04-2015-0145">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>115</prism:volume>
+                <prism:number>9</prism:number>
+                <dc:title>Industrial Management &amp; Data Systems</dc:title>
+                <dc:identifier>ISSN 0263-5577</dc:identifier>
+                <dcterms:alternative>Industr Mngmnt &amp; Data Systems</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/IMDS-04-2015-0145</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dasgupta</foaf:surname>
+                        <foaf:givenname>Chandan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marakarkandy</foaf:surname>
+                        <foaf:givenname>Bijith</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gaikar</foaf:surname>
+                        <foaf:givenname>Dipak Damodar</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_223"/>
+        <link:link rdf:resource="#item_224"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-04-2015-0145</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1604-1621</bib:pages>
+        <dc:date>October 19, 2015</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Using Twitter data to predict the performance of Bollywood movies</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_223">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/223/Dasgupta et al. - 2015 - Using Twitter data to predict the performance of B.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IMDS-04-2015-0145</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:43</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_224">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/224/IMDS-04-2015-0145.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-04-2015-0145</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:50</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/OIR-07-2016-0201">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>41</prism:volume>
+                <prism:number>7</prism:number>
+                <dc:title>Online Information Review</dc:title>
+                <dc:identifier>ISSN 1468-4527</dc:identifier>
+                <dcterms:alternative>Online Information Review</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/OIR-07-2016-0201</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Wu</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tian</foaf:surname>
+                        <foaf:givenname>Xin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tao</foaf:surname>
+                        <foaf:givenname>Ran</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Weidong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenname>Gongjun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akula</foaf:surname>
+                        <foaf:givenname>Vasudeva</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tian</foaf:surname>
+                        <foaf:givenname>Xin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_225"/>
+        <link:link rdf:resource="#item_226"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/OIR-07-2016-0201</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>921-935</bib:pages>
+        <dc:date>September 28, 2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:23</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Application of social media analytics: a case of analyzing online hotel reviews</dc:title>
+        <z:shortTitle>Application of social media analytics</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_225">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/225/He et al. - 2017 - Application of social media analytics a case of a.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/OIR-07-2016-0201</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:30:54</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_226">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/226/OIR-07-2016-0201.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/OIR-07-2016-0201</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:03</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/JHTT-08-2016-0042">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1757-9880"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Park</foaf:surname>
+                        <foaf:givenname>Seunghyun Brian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jang</foaf:surname>
+                        <foaf:givenname>Jichul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ok</foaf:surname>
+                        <foaf:givenname>Chihyung Michael</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_227"/>
+        <link:link rdf:resource="#item_228"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JHTT-08-2016-0042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>405-422</bib:pages>
+        <dc:date>November 14, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:25</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Analyzing Twitter to explore perceptions of Asian restaurants</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1757-9880">
+        <prism:volume>7</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Journal of Hospitality and Tourism Technology</dc:title>
+        <dc:identifier>ISSN 1757-9880</dc:identifier>
+        <dcterms:alternative>JHTT</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/JHTT-08-2016-0042</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_227">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/227/Park et al. - 2016 - Analyzing Twitter to explore perceptions of Asian .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/JHTT-08-2016-0042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:05</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_228">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/228/JHTT-08-2016-0042.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JHTT-08-2016-0042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:13</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/JFC-01-2016-0001">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1359-0790"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hao</foaf:surname>
+                        <foaf:givenname>Jianqiang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dai</foaf:surname>
+                        <foaf:givenname>Hongying</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_229"/>
+        <link:link rdf:resource="#item_230"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JFC-01-2016-0001</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>855-869</bib:pages>
+        <dc:date>October 3, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:27</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Social media content and sentiment analysis on consumer security breaches</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1359-0790">
+        <prism:volume>23</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Journal of Financial Crime</dc:title>
+        <dc:identifier>ISSN 1359-0790</dc:identifier>
+        <dcterms:alternative>Journal of Financial Crime</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/JFC-01-2016-0001</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_229">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/229/Hao e Dai - 2016 - Social media content and sentiment analysis on con.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/JFC-01-2016-0001</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:16</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_230">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/230/JFC-01-2016-0001.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JFC-01-2016-0001</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:25</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/JEIM-11-2014-0109">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1741-0398"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joorabchi</foaf:surname>
+                        <foaf:givenname>Arash</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>English</foaf:surname>
+                        <foaf:givenname>Michael</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mahdi</foaf:surname>
+                        <foaf:givenname>Abdulhussain E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_231"/>
+        <link:link rdf:resource="#item_232"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JEIM-11-2014-0109</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>255-275</bib:pages>
+        <dc:date>February 17, 2016</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:28</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Text mining stackoverflow: An insight into challenges and subject-related difficulties faced by computer science learners</dc:title>
+        <z:shortTitle>Text mining stackoverflow</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1741-0398">
+        <prism:volume>29</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Journal of Enterprise Information Management</dc:title>
+        <dc:identifier>ISSN 1741-0398</dc:identifier>
+        <dcterms:alternative>Journal of Ent Info Management</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/JEIM-11-2014-0109</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_231">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/231/Joorabchi et al. - 2016 - Text mining stackoverflow An insight into challen.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/JEIM-11-2014-0109</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:28</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_232">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/232/JEIM-11-2014-0109.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JEIM-11-2014-0109</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:35</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/JCHMSD-06-2016-0035">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2044-1266"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Juvancic</foaf:surname>
+                        <foaf:givenname>Matevz</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Verovsek</foaf:surname>
+                        <foaf:givenname>Spela</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_233"/>
+        <link:link rdf:resource="#item_234"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JCHMSD-06-2016-0035</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>193-207</bib:pages>
+        <dc:date>April 11, 2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:30</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Spatial identity (re)constructed from web-sourced imagery: Comparing expert opinion with quantitative query</dc:title>
+        <z:shortTitle>Spatial identity (re)constructed from web-sourced imagery</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2044-1266">
+        <prism:volume>7</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Journal of Cultural Heritage Management and Sustainable Development</dc:title>
+        <dc:identifier>ISSN 2044-1266</dc:identifier>
+        <dcterms:alternative>J of Cult Her Man and Sust Dev</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/JCHMSD-06-2016-0035</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_233">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/233/Juvancic e Verovsek - 2017 - Spatial identity (re)constructed from web-sourced .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/JCHMSD-06-2016-0035</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:37</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_234">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/234/JCHMSD-06-2016-0035.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/JCHMSD-06-2016-0035</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:44</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IJPHM-03-2013-0008">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1750-6123"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Changan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wei</foaf:surname>
+                        <foaf:givenname>Qizhi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haughton</foaf:surname>
+                        <foaf:givenname>Dominique</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hua</foaf:surname>
+                        <foaf:givenname>Guangying</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenname>John</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jin</foaf:surname>
+                        <foaf:givenname>Danny</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_235"/>
+        <link:link rdf:resource="#item_236"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IJPHM-03-2013-0008</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>289-305</bib:pages>
+        <dc:date>November 2, 2015</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:32</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Optimization of the promotion mix in the healthcare industry</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1750-6123">
+        <prism:volume>9</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>International Journal of Pharmaceutical and Healthcare Marketing</dc:title>
+        <dc:identifier>ISSN 1750-6123</dc:identifier>
+        <dcterms:alternative>Intl J of Pharm &amp; Health Mrkt</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/IJPHM-03-2013-0008</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_235">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/235/Zhang et al. - 2015 - Optimization of the promotion mix in the healthcar.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IJPHM-03-2013-0008</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:46</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_236">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/236/IJPHM-03-2013-0008.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IJPHM-03-2013-0008</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:53</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/IMDS-07-2014-0225">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>114</prism:volume>
+                <prism:number>9</prism:number>
+                <dc:title>Industrial Management &amp; Data Systems</dc:title>
+                <dc:identifier>ISSN 0263-5577</dc:identifier>
+                <dcterms:alternative>Industr Mngmnt &amp; Data Systems</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/IMDS-07-2014-0225</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yee Liau</foaf:surname>
+                        <foaf:givenname>Bee</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pei Tan</foaf:surname>
+                        <foaf:givenname>Pei</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_237"/>
+        <link:link rdf:resource="#item_238"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-07-2014-0225</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1344-1359</bib:pages>
+        <dc:date>October 7, 2014</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:33</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Gaining customer knowledge in low cost airlines through text mining</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_237">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/237/Yee Liau e Pei Tan - 2014 - Gaining customer knowledge in low cost airlines th.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/IMDS-07-2014-0225</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:31:56</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_238">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/238/IMDS-07-2014-0225.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/IMDS-07-2014-0225</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:02</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/OIR-10-2016-0299">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>42</prism:volume>
+                <prism:number>3</prism:number>
+                <dc:title>Online Information Review</dc:title>
+                <dc:identifier>ISSN 1468-4527</dc:identifier>
+                <dcterms:alternative>Online Information Review</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/OIR-10-2016-0299</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Chengzhi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenname>Qingqing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_239"/>
+        <link:link rdf:resource="#item_240"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/OIR-10-2016-0299</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>419-435</bib:pages>
+        <dc:date>March 28, 2018</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:36</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Online investigation of users’ attitudes using automatic question answering</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_239">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/239/Zhang e Zhou - 2018 - Online investigation of users’ attitudes using aut.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/OIR-10-2016-0299</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:11</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_240">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/240/OIR-10-2016-0299.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/OIR-10-2016-0299</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:19</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/EL-09-2016-0184">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>35</prism:volume>
+                <prism:number>4</prism:number>
+                <dc:title>The Electronic Library</dc:title>
+                <dc:identifier>ISSN 0264-0473</dc:identifier>
+                <dcterms:alternative>The Electronic Library</dcterms:alternative>
+                <dc:identifier>DOI 10.1108/EL-09-2016-0184</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenname>Qingqing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Chengzhi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_241"/>
+        <link:link rdf:resource="#item_242"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/EL-09-2016-0184</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>770-782</bib:pages>
+        <dc:date>July 3, 2017</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:38</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Emotion evolutions of sub-topics about popular events on microblogs</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_241">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/241/Zhou e Zhang - 2017 - Emotion evolutions of sub-topics about popular eve.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/EL-09-2016-0184</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:25</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_242">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/242/EL-09-2016-0184.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/EL-09-2016-0184</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:33</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/ECAM-01-2014-0010">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0969-9988"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thangaraj</foaf:surname>
+                        <foaf:givenname>Ram</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dassanayake</foaf:surname>
+                        <foaf:givenname>Dharma</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenname>Toong-Khuan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aibinu</foaf:surname>
+                        <foaf:givenname>Ajibade A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_243"/>
+        <link:link rdf:resource="#item_244"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/ECAM-01-2014-0010</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>190-213</bib:pages>
+        <dc:date>March 6, 2015</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:39</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Cost estimation for electric light and power elements during building design: A neural network approach</dc:title>
+        <z:shortTitle>Cost estimation for electric light and power elements during building design</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0969-9988">
+        <prism:volume>22</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Engineering, Construction and Architectural Management</dc:title>
+        <dc:identifier>ISSN 0969-9988</dc:identifier>
+        <dcterms:alternative>Eng, Const and Arch Man</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/ECAM-01-2014-0010</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_243">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/243/Thangaraj et al. - 2015 - Cost estimation for electric light and power eleme.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/ECAM-01-2014-0010</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:37</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_244">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/244/ECAM-01-2014-0010.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/ECAM-01-2014-0010</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:44</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/MEQ-02-2018-0042">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1477-7835"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iskandar</foaf:surname>
+                        <foaf:givenname>Zainuddin Rela</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Awang</foaf:surname>
+                        <foaf:givenname>Abd Hair</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ramli</foaf:surname>
+                        <foaf:givenname>Zaimah</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_245"/>
+        <link:link rdf:resource="#item_246"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/MEQ-02-2018-0042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>July 5, 2018</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:41</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>An analysis of the community perceptions of well-being: Special reference to nickel mining and processing industry</dc:title>
+        <z:shortTitle>An analysis of the community perceptions of well-being</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1477-7835">
+        <dc:title>Management of Environmental Quality: An International Journal</dc:title>
+        <dc:identifier>ISSN 1477-7835</dc:identifier>
+        <dcterms:alternative>Management of Env Quality</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/MEQ-02-2018-0042</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_245">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/245/Iskandar et al. - 2018 - An analysis of the community perceptions of well-b.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/MEQ-02-2018-0042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:48</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_246">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/246/MEQ-02-2018-0042.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/MEQ-02-2018-0042</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:32:56</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/BPMJ-01-2014-0004">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1463-7154"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghose</foaf:surname>
+                        <foaf:givenname>Aditya</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dam</foaf:surname>
+                        <foaf:givenname>Hoa Khanh</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polpinij</foaf:surname>
+                        <foaf:givenname>Jantima</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_247"/>
+        <link:link rdf:resource="#item_248"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/BPMJ-01-2014-0004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>820-836</bib:pages>
+        <dc:date>July 1, 2015</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:42</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Mining business rules from business process model repositories</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1463-7154">
+        <prism:volume>21</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Business Process Management Journal</dc:title>
+        <dc:identifier>ISSN 1463-7154</dc:identifier>
+        <dcterms:alternative>Business Process Mgmt Journal</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/BPMJ-01-2014-0004</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_247">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/247/Ghose et al. - 2015 - Mining business rules from business process model .pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/BPMJ-01-2014-0004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:33:01</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_248">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/248/BPMJ-01-2014-0004.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/BPMJ-01-2014-0004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:33:08</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/03068291011055441">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0306-8293"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giorgiana Bonaci</foaf:surname>
+                        <foaf:givenname>Carmen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mustata</foaf:surname>
+                        <foaf:givenname>Razvan V.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>James</foaf:surname>
+                        <foaf:givenname>Kieran</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kwai‐Sim Leung</foaf:surname>
+                        <foaf:givenname>Jenny</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_249"/>
+        <link:link rdf:resource="#item_250"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/03068291011055441</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>488-511</bib:pages>
+        <dc:date>June 8, 2010</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:44</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Trade union strategy in Sydney's construction union: a Roman Catholic perspective</dc:title>
+        <z:shortTitle>Trade union strategy in Sydney's construction union</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0306-8293">
+        <prism:volume>37</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:title>International Journal of Social Economics</dc:title>
+        <dc:identifier>ISSN 0306-8293</dc:identifier>
+        <dcterms:alternative>Int J of Social Economics</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/03068291011055441</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_249">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/249/Giorgiana Bonaci et al. - 2010 - Trade union strategy in Sydney's construction unio.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/03068291011055441</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:33:12</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_250">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/250/03068291011055441.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/03068291011055441</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:33:20</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.emeraldinsight.com/doi/full/10.1108/17471111111114576">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1747-1117"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hidayati</foaf:surname>
+                        <foaf:givenname>Nur Diana</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_251"/>
+        <link:link rdf:resource="#item_252"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/17471111111114576</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>104-117</bib:pages>
+        <dc:date>March 8, 2011</dc:date>
+        <dcterms:dateSubmitted>2018-08-17 19:27:45</dcterms:dateSubmitted>
+        <z:libraryCatalog>emeraldinsight.com (Atypon)</z:libraryCatalog>
+        <dc:title>Pattern of corporate social responsibility programs: a case study</dc:title>
+        <z:shortTitle>Pattern of corporate social responsibility programs</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1747-1117">
+        <prism:volume>7</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Social Responsibility Journal</dc:title>
+        <dc:identifier>ISSN 1747-1117</dc:identifier>
+        <dcterms:alternative>Social Responsibility Journal</dcterms:alternative>
+        <dc:identifier>DOI 10.1108/17471111111114576</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_251">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/251/Hidayati - 2011 - Pattern of corporate social responsibility program.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/pdfplus/10.1108/17471111111114576</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:33:22</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_252">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/252/17471111111114576.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.emeraldinsight.com/doi/full/10.1108/17471111111114576</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-08-17 19:33:29</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>

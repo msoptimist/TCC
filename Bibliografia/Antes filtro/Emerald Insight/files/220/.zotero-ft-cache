@@ -1,0 +1,755 @@
+
+Emeraldinsight
+
+     Home
+     Register
+     Help
+        Search
+        Downloading to a Citation Manager
+        Registration
+        Access
+        Account features
+     Cart
+     Admin
+     Blog
+
+ 
+   Advanced Search
+Jump to content
+EmeraldInsight
+Log in  |  Register
+|    Help    |  
+Cart
+  |   Mobile Pairing   |   Admin    |   Blog     
+brought to you by
+UTFPR
+Resource areas:
+Submit
+
+    Home
+    Journals & Books
+    Case Studies
+    Open Access
+
+in: Advanced Search
+
+    Home
+    Browse Journals & Books
+    Foresight
+    Volume 18, Issue 2
+    OLED TV technology forecasting using technology mining and the Fisher-Pry diffusion model
+
+
+OLED TV technology forecasting using technology mining and the Fisher-Pry diffusion model
+
+Author(s):
+    Yonghee Cho , (Department of Engineering and Technology Management, Portland State University , Portland, Oregon, USA )
+    Tugrul Daim , (Department of Engineering and Technology Management, Portland State University , Portland, Oregon, USA )
+    ...Show all authors 
+
+Abstract:
+    Purpose
+
+    Due to rapid technological evolution driven by display manufacturers, the television (TV) market of flat panel displays has been fast growing with the advancement of digital technologies in broadcasting service. Recently, organic light-emitting diode (OLED) successfully penetrated into the large-size TV market, catching up with light-emitting diode (LED)-liquid-crystal display (LCD). This paper aims to investigate the market penetration of OLED technologies by determining their technology adoption rates based on a diffusion model.
+    Design/methodology/approach
+
+    Through the rapid evolution of information and communication technology, as well as a flood of data from diverse sources such as research awards, journals, patents, business press, newspaper and Internet social media, data mining, text mining, tech mining and database tomography have become practical techniques for assisting the forecaster to identify early signs of technological change. The information extracted from a variety of sources can be used in a technology diffusion model, such as Fisher-Pry where emerging technologies supplant older ones. This paper uses a comparison-based prediction method to forecast the adoption and diffusion of next-generation OLED technologies by mining journal and patent databases.
+    Findings
+
+    In recent years, there has been a drastic reduction of patents related to LCD technologies, which suggests that next-generation OLED technology is penetrating the TV market. A strong industry adoption for OLED has been found. A high level of maturity is expected by 2026.
+    Research limitations/implications
+
+    For OLED technologies that are closely tied to industrial applications such as electronic display devices, it may be better to use more industry-oriented data mining, such as patents, market data, trade shows, number of companies or startups, etc. The Fisher-Pry model does not address the level of sales for each technology. Therefore, the comparison between the Bass model and the Fisher-Pry model would be useful to investigate the market trends of OLED TVs further. Another step for forecasting could include using industry experts and a Delphi model for forecasting (and further validation).
+    Originality/value
+
+    Fisher-Pry growth curves for journal publications and patents follow the expected sequence. Specially, journal publications and patents growth curves are close for OLED technologies, indicating a strong industry adoption.
+Keywords:
+    Forecasting , Technology-led strategy , Television , Energy consumption , Technology forecasting , Data mining , OLED , PDP , LCD , LED-LCD 
+Type:
+    Research Paper 
+Publisher:
+    Emerald Group Publishing Limited 
+Received:
+    30 August 2015
+Revised:
+    18 November 2015, 29 January 2016
+Accepted:
+    01 February 2016
+Acknowledgments:
+
+    This research is funded by Energy Trust of Oregon.
+Copyright:
+    © Emerald Group Publishing Limited 2016
+    Published by Emerald Group Publishing Limited
+    Licensed re-use rights only 
+Citation:
+    Yonghee Cho , Tugrul Daim , (2016) "OLED TV technology forecasting using technology mining and the Fisher-Pry diffusion model", Foresight , Vol. 18 Issue: 2, pp.117-137, https://doi.org/10.1108/FS-08-2015-0043 
+Downloads:
+    The fulltext of this document has been downloaded 883 times since 2016
+Article
+1.Introduction
+Section: Next section
+
+Historically, the feasibility of a flat display has been successfully demonstrated with the Aiken tube and, since 1956, with the development of electro-luminescent panels ( Feinleib, 1971 ). In recent years, the organic light-emitting diode (OLED) technology has taken off substantially and has successfully penetrated into the television (TV) market, when compared with previous years. Major drivers of this technology development are market demand for thin profiles, bigger screen sizes and the need for energy efficiency. Light-emitting diode (LED)-liquid-crystal display (LCD) technology TVs along with the trend toward larger screen sizes are well underway. Over the past 10 years, the demand for bigger screen sizes in both the residential and commercial markets, fueled through roll outs such as high definition (HD), ultra-high definition (UHD) and digital TV services via satellite has led to the development of new display technologies, such as LCD, LED-LCD, OLED and plasma display panel (PDP). This paper explores technological changes and progress associated with the TV market. Included is some comparison of the energy use of OLED TV with other TVs such as plasma TV, LED-LCD TV, LCD TV and the traditional cathode ray tube (CRT) TV.
+
+Forecasting of the next-generation technology plays an important role in research and development (R&D) planning to compete in the saturated TV market. That is because the TV industry is capital intensive and the speed of technological change for next substitutions has been increasing. The technology forecasting (TF) tool used in this study offers a relatively accurate forecast for the measurement of OLED TV adoption in the market. The conclusion drawn from this study not only assists companies involved in OLED technologies to compete strategically but also encourages the adoption of energy-saving technologies in the market. Other evidence with regard to the increasing importance of OLED technologies includes the different Technology Roadmap programs developed by the Department of Energy (DOE) and the recent increase in cooperative development by universities in areas such as materials and manufacturing equipment ( Bardsley et al. , 2014 ).
+
+The purpose of this study is in respect of the practical concern to capture the market and technology trends to determine whether any additional policy intervention would be needed or not in the energy efficiency of TVs. In particular, it is of significant interest to make a prediction on the development of OLED display technologies. With respect to the growth of market in OLED technologies, we may raise following research questions: RQ1.
+
+What phase of the whole growth process is OLED TV technology in now?
+RQ2.
+
+When will the saturation of OLED TV technology take place?
+RQ3.
+
+How long will OLED TV technology continue to grow?
+RQ4.
+
+When will the critical mass point of OLED TV technology go through?
+
+On the other hand, it is imperative for technology entrepreneurs to understand the industry life cycle stages to develop an appropriate strategy and make a decision of business plan. The greatest opportunity for technology start-ups entering a market would be between emerging stage and critical mass point (starting point of growing). Around this point, firms have active enough customers supporting their products or services. At this stage, not only risk is lower but opportunity is also higher than any other stages. For example, Yahoo and Netscape gained a first-mover advantage at each Web searching and browsing market. Nowadays, Google and Explorer, however, are dominant service providers at both markets. Consequently, this study uncovers commercialization endeavors and opportunities by investigating technology trends with data mining.
+
+This paper selects LCD technologies and builds a forecasting model to predict their market diffusion or growth curves using existing bibliometrics. This study uses multiple types of bibliometrics such as Science Citation Index (SCI) journals, conference proceedings and patents for the purpose of forecasting OLED TV technologies in the university accessible databases. Bibliometrics and patents, as R&D outputs, are analyzed not only to understand the time lag but also to investigate how much effort has been made in OLED display technology.
+
+It is crucial that the method used to forecast OLED TV technology represents the life cycle of the OLED TV and provides as accurate outcomes as possible. Research process is described in Figure 1 .
+2.Literature review
+Section: Previous section Next section
+
+In history, TF is of much interest to government and to other research institutions. Around the late 1960s, Erich Jantsch and Robert Ayres discuss that the company began to put some efforts in the integration of technological forecasting with long-range planning ( Jantsch, 1967 ; Ayres, 1969 ). As information and communication technology (ICT) has gained more attention over several decades, data mining become a practical technique to identify early signs of technological change ( Losiewicz et al. , 2000 ; Tague-sutcliffe, 1992 ; Gorn, 1988 ). Cho and Daim (2013) discussed its origin, characteristics and extensions with other TF methods in detail ( Cho, 2013 ). Through literature review in Compendex and Web of Science, this article investigates the first attempt to forecast technological change of TV, which was made by Feinleib (1971) by using morphological forecast and trend analysis. Wilmotte (1976) , as a consultant, also discusses various technological change, broadcasting service and standards associated with TV, based on the report of “technological boundaries of TV” funded by Federal Communications Commission in late 1974. Thereafter, over the past several decades, surprisingly little efforts have been made on the forecast of TV technologies in literature, even though TV, in the consumer area, is not only one of the best selling products in the world with large number of annual shipments but also one that accounts for a significant residential electricity consumption. This is not simply because TV is out of lack of interest, but partly because TV technologies have been transferred from Western countries to Asian countries, and currently, Asian countries such as Japan, South Korea, China and Taiwan produce advanced TVs available in the market. Kreng and Wang (2011) investigate the dynamic competitive relationship between PDP TVs and LCD TVs by means of their quarterly shipments using the Lotka–Volterra model, which can incorporate the competitive relationship between the LCD TV as the prey (positive impact on the growth of PDP TVs) and the PDP TV as the predator (negative effect toward LCD TVs). They discuss the possibility for dropping the price of LCD TVs is an advantage of the attractiveness of the product which can be noted in higher growth rate than PDP TVs. Tseng et al. (2009) combine different TF techniques to improve the accuracy of the forecast. They use the scenario analysis with the Delphi method and the technological substitution model to analyze the development of the OLED TV from three perspectives: consumer, demand and preference. Tsai (2013) forecasts quarterly LCD TV shipments from the first quarter to the fourth quarter in 2009 using extended Gompertz models with the absolute price change value. The result shows that the market penetration rate is high for the smaller-sized LCD TVs, while the market penetration rate is low for larger-sized LCD TV panels. Park et al. (2013) analyze the impact of the recent TV market transition from cold-cathode fluorescent lamp (CCFL)-LCD to LED-LCD in the LCD technology and estimate global electricity-saving potential in selected scenarios with the perspective of market transformation. Desroches and Ganeshalingam (2015) measure the magnitude of the decline in cost and price for 42-inch TVs and investigate the evolution of incremental costs and prices of 47-inch and 46-inch three-dimensional (3D) OLED TVs.
+3.Television market trends
+Section: Previous section Next section
+
+TV is defined as “a telecommunication system that transmits images of objects (stationary or moving) between distant points” by Webster dictionary, which means that any device such as mobile phone, laptop computer and tablet PC can be defined as TV. Given the rapidly changing market for TVs, the study discusses historical TV market trend, investigates the supply chain of manufacture in South Korea and illustrates the major trends in TV technology options in the near future with the perspective of market transformation.
+
+In history, there was a big transition from CRT TV to flat panel display (FDP) in around 1996. CRTs have been getting smaller, as they have been displaced by FDPs in the larger screen categories and the small screen categories as well. Rear projection technology has been commercially available since the 1970s, but it has a relatively low penetration in the market.
+
+On the other hand, PDP invented at the University of Illinois in 1964 was commercialized by Fujitsu in 1990 ( Weber, 2006 ). Fujitsu first succeeded in marketing a 21-inch PDP in 1993 with high price and introduced large-size full color PDP TV in 1995. PDP TV was expected to gradually replace conventional TV picture tubes and take up the market for the high-end, large-size TVs like rear projection tubes. However, due to LCD and OLED technologies, it is not projected to improve upon this significantly in the future, in regard to the worldwide market.
+
+In 1964, Heilmeier, as a pioneer, invented different method such as the guest-host mode and the dynamic-scattering mode to be able to develop LCD at RCA laboratories ( Kawamoto, 2002 ). In the early stage, LCD was limitedly applied to small-size display such as watches, calculators and handheld devices. Matsushita released a 3-inch full-color LCD TV in 1986 ( Ishii, 2007 ). Sharp introduced a full-color 14-inch LCD in 1988 ( Kawamoto, 2002 ). Thereafter, LCDs have widely been used in various electronics such as mobile phones, laptop computers, personal digital assistances and computer monitors, which are the significant driving forces behind there remarkable growth of LCDs. In recent years, LED-LCD has been emerged as a dominant design in the TV market. Flexible OLED TV has just emerged as the next generation of it.
+
+In addition, TV broadcasting service has been changed throughout the world as the transition from analog to digital era, while additional features such as digital contents storage, network function and 3D video capability are likely to increase the energy consumption of TVs. Korean, Japanese and Taiwan manufacturers are continuing to lead the TV market with intense competition. Illustrated in Figure 2 is the overview of historical TV market trends and roadmap in the near future, identified by expert panel as well as literature review.
+
+At the early stage, there has been fierce competition between LCD and PDP to take up large-size TV market. There was a fundamental problem that LCD could not be easily produced in large enough sizes to make them competitive against PDP. However, with the growth of sales in diverse applications of LCD driven by a variety of products such as laptop computer, mobile phone and LCD monitor, LCD has successfully overtaken the large-screen TV category with the aid of the rapid technology development, producing high-resolution images ( Table I ).
+
+On the other hand, since the introduction of PDP TV in 1995, many Korean and Japanese companies such as Samsung, LG, Panasonic and Toshiba began to produce PDPs. They, however, recently have ceased producing PDP panels altogether to invest in LED-LCDs and OLEDs. Finally, PDP would be expected to lose its market position in large-size TV in sooner or later ( Table II ).
+
+After the introduction of first color OLED display by Kodak in 1998, since 2007, several Korean and Japanese companies such as Sony, LG and Samsung have made large commitments to developing OLED displays, having upgraded their R&D lines to commercialize OLEDs in large-size TV category. For the large-sized OLED TV and lighting application, white organic light-emitting diode technology has been developed and constantly improved ( Gather et al. , 2011 ; Han et al. , 2012 ). OLED has great image quality, higher contrast, thinner and larger viewing angle. It consumes less energy with a thin layer of organic material which emits light, as it does not require backlight unit. Current market barriers for large-sized OLED TV are product price and performance ( Table III ).
+
+Shown in Figure 3 is how the adoption of CCFL-LCD and LED-LCD offering the improvement in energy efficiency, screen size and thin profile was expected to grow worldwide from 2010 to the predicted levels of 2016. DisplaySearch predicted that LCD TVs was expected to account for more than 85 per cent of the global TV market through 2012 (CCFL-LCD TV: approximately 29 per cent, LED-LCD TVs: approximately 60 per cent in 2012). Global shipments of rear projection TVs were 0.17m units in 2010 and were expected to decrease, and OLED TVs were expected to reach 2.7m units in 2015.
+
+As to the screen sizes, Figure 4 presents the trend for the major technologies, such as LCD and PDP. The shipment of PDP TVs has been decreasing slowly since the fourth quarter of 2012, and LCD TVs has been growing in large-sized TV category in both 42 inch and 50 inch.
+
+As to the price, Figure 5 indicates that price will ensure that LCD TVs appear compelling enough to cannibalize PDP purchases in full HD category since the second quarter of 2013. The price of LCD TVs appears to be determined when it is actually sold to retailers. CRTs just have a presence in developing economies where the TVs that can be afforded in the smaller screen size category.
+4.Market structure and research and development focus
+Section: Previous section Next section
+
+Each industry typically has its own unique market structure. This study analyzes the supply chain of TV manufacturers based on the discussion of expert panel and literature review. The ecosystem of TV industry is illustrated in Figure 6 . The market structure of TV industry appears to be vertically integrated with closed architecture and consists of specialized suppliers. TV industry calls for strong relationships with suppliers, manufacturers and distributors.
+
+This study investigates patents associated with OLED technology from PatentScope database. Figure 7 presents R&D focuses of OLED technology by country such as USA, EU, South Korea, Japan and China. It is significant to note that the comparison of five major countries to US patents in OLED TV technology also indicates the fact that different countries are putting emphasis on different component areas in research funding. In all five countries, the emphasis has been placed on the areas of OLED technologies, such as the arrangements or circuit for control, semiconductor devices and electric lighting. European countries, however, do not develop optical elements. Japanese firms do not focus on heterocyclic compounds and material applications as well.
+
+Furthermore, this paper mined patents using PatentScope at the firm level. Figure 8 illustrates the landscape of R&D focuses with respect to OLED technology by firms in USA, EU, South Korea, Japan and China. Eastman Kodak filed a number of patents in all five countries, just except China. Samsung Electronics filed patents in the USA, EU and South Korea. BASF is involved in all countries, just except Japan. Most of firms have made much investment on OLED technologies in regard to semiconductor devices, arrangements or circuit for control and electric lighting.
+5.Energy efficiency of televisions
+Section: Previous section Next section
+
+This paper briefly discusses that the shift in the market has an impact on the energy consumption. Presented in Table IV is the power consumption of TVs by screen size and technology type based on the assumption of the same per-kWh cost and usage as the Energy Guide labels. LED-LCD TV is energy efficient with fast response rate, high resolution and the brightest TV in the market. In regard to power consumption, LED-LCD consumes lesser power about 70 per cent compared to PDP and 40 per cent power as compared to traditional CCFL-LCD. This analysis is only an estimate and many other factors are associated with it.
+
+With the increased energy consumption that is associated with increased screen size, some of key features have been highlighted in energy-efficient TV market segment. Energy-efficient TVs have been developed to encourage the adoption of more energy-efficient TVs in the market, which have power-saving mode such as a trio of sensors to optimize the intensity of the LCD’s backlight by detecting the relative darkness and brightness of the room and adjusting how much light it uses to illuminate the picture. In 2008, Philips launched Eco TV 42-inch model for people who seek TV for their home that is energy-sipping and relatively environmentally friendly ( Figure 9 ).
+6.Methodology
+Section: Previous section Next section
+
+A number of growth curves have been developed and continuously gained popularity to predict technological advance due to relative simplicity, long history of use in various fields and the modality of the assumption that historical data can be a good guidance to technology trajectory ( Blackman, 1972 ). Logistic and Gompertz curves among them are most commonly used methods with the long history of their inception in demography field and later applied to TF. In 1925, Lotka introduced the model of stable age distribution of a population and of natural rate of increase of a population based on a logistic curve in ecology ( Lotka, 1925 ). Volterra (1931) independently developed the same mathematics of population growth. Thereafter, Lotka–Volterra model has been used to model population dynamics and ecological competitive diffusion and later extended to describe technological change in a competitive market ( Farrell, 1993 ; Modis, 1997 ). Since the 1960s, Fourt and Woodlock (1960) suggest mathematical model of penetration. Rogers (1962) , as a seminal work, provides a wealth of knowledge on the diffusion of innovations in a variety of disciplines. Since Mansfield, as a pioneer, proposed technology diffusion model incorporating the rate of imitation and technology adoption, a variety of growth curves such as the Mansfield-Blackman model, the Fisher-Pry model, the Extended Riccati model, the Bass model, etc., have been developed to forecast S-shaped pattern of technological advance ( Mansfield, 1961 ). Selecting an appropriate equation of growth curve depends on the data and technology characteristics and is somewhat arbitrary. That is the reason why most forecasters experiment various growth curves to find the most relevant curve fitting to predict the technological change ( Meade and Islam, 1998 ).
+
+The Bass model ( Bass, 1969 ) has been applied to investigate product diffusion and demand forecasting in the marketing literature ( Bass, 2004 ; Mahajan et al. , 1990 ). It essentially consists of two parameters that represent innovation (sales influenced by desire for novel products) by consumers and imitation (sales influenced by the interactive portion of the adoption) coefficients to model the diffusion of new product. The Mansfield and Bass models more focus on the customer’s adoption behavior based on the market data and imitation process in a social system. They, however, do not consider substitution effects. Later, Norton and Bass (1987) created a model to incorporate substitution for multi-generations of high-technology products.
+
+On the other hand, like life cycle, substitution curves (e.g. Fisher-Pry model) are a type of growth curve that project the substitution of one technology for another or the rate of penetration of some technology into a market ( Fisher and Pry, 1971 ; Martino, 1980 ). Growth curves presume that a technology will finally reach its upper limit at a certain time. It reflects that growth is initially slow until difficulties are overcome, and then, growth is more rapid until the limit is approached with growth slow down again. Therefore, it is critical to estimate the upper limit using historical analogies. At this juncture, the previous experience with respect to a similar technology is a key element to forecast technologies more accurately ( Millett and Honton, 1991 ). In this regard, this study uses Fisher-Pry’s substitution model of technological change in that it is more appropriate to investigate the similarities and differences in the rate of technological change of competing technology based on the data in place, such as literature and patents ( Table V ).
+6.1The Fisher-Pry diffusion model
+
+The pioneering work by Fisher and Pry (1971) has set the stage for the study of forecasting technologies, where “technological advances can be considered as competitive substitution of one method of satisfying the need for another.” Fisher-Pry model forecasting is similar to biological system growth. It is also referred to as the “substitution model” because of its application in forecasting the rate of the replacement technology. This model represents substitute technologies when substitution is driven by superior technology and new product presents some technological advantage over the old one. It analyzes the penetration process of new technologies. The Fisher-Pry model expresses the fractional rate of substitution of the old technology by the new in terms of what is left to be substituted. The Fisher-Pry model – with its transformation to the linear form for ease in regression analysis – can be represented by the equation below:
+Y L − Y = 10 A − B t 	
+
+L: Normalized upper growth limit (100); and
+
+t : Year.
+
+Use of data mining and bibliometrics such as patents, journal publications and research awards has been gaining popularity due to the availability of data and the emergence of ICT. The publication count is one of the most basic measure of R&D outputs quantitatively ( Halperin and Chakrabarti, 1987 ; Gambardella, 1992 ). While publication is useful to measure basic and applied research outputs, patents have a compelling advantage providing a wealth of qualitative and quantitative information on technological change and innovation ( Scherer, 1983 ; Coombs et al. , 1996 ). Illustrated in Figure 7 is one of the patterns and relationship between the different types of S-curves; either it represents the R&D awards, conferences, journals or patents ( Figure 10 ).
+
+A study of OLED TV is one of substitution of existing TV. In this case, this study regard the analogy of replacing LCD component by OLED. Consequently, this study assumes that OLED technology follow Fisher-Pry diffusion model and use analogy technique from LCD technology in existing TV market. It seems obvious to first look at trends in similar electronic technology. The study uses established databases such as Web of Science, Compendex and PatentScope as data sources. The model determines percentage of cumulative penetration for OLED technology as well as for each type of bibliometrics by fitting Fisher-Pry curves to existing data and extending to 2027 to forecast penetration rates. The mathematical formulation of the Fisher-Pry model is as follows.
+6.2Keywords and data
+
+Experts in OLED technology provide the keywords to search in the title or abstract fields in the different database sources. Summarized in Table VI is an important set of both old and emerging FPD technologies along with acronyms ( Table VII ).
+
+Data mining for issued patents globally was performed using PatentScope in World Intellectual Property Organization (WIPO), which includes the following national and international patent databases: USA (USPTO), International (PCT), Europe (EPO), Japan (JPO), Korea (KIPO) and China (CPTO). A period from 1990 to 2014 is used for the search. Due to the inconsistency and difficulty in using patent classifications (both USA and international), this method was not used for this broad patent survey ( Table VIII ).
+7.Results
+Section: Previous section Next section
+7.1Basic research
+
+Since its inception in 1968, LCD technology has matured in the past 46 years to a saturated level of technology development. The cumulative number of publications in basic research for LCD technologies has been reached at 4,336 articles in total by 2014 from Web of Science. Compound Average Growth Rate (CAGR) appears to be 20 per cent. As illustrated in Figure 11 , it may be estimated that the size of outputs in LCD technology reached peak point in 2008.
+
+For the Fisher-Pry technology diffusion model, the LCD technologies publication count from Web of Science is used. The cumulative number of publications in basic research in terms of OLED technologies has been drastically growing. In total, 2,851 articles are found from 1990 to 2014. CAGR appears to be 39.3 per cent over the past decade, which represents that OLED would be the next-generation technology ( Figure 12 ).
+7.2Applied research
+
+The cumulative number of outputs in applied research for LCD technologies has been growing since 1977 and seems to go through the critical mass point in 2006. In total, 8,250 articles are searched from Compendex from 1977 to 2014. CAGR appears to be 27.6 per cent. This trend also illustrates that LCD technology reached at the high level of maturity in technology development ( Figure 13 ).
+
+For the Fisher-Pry model, the cumulative number of publication searched in Compendex database for each year is shown in Figure 14 for OLED technologies. OLED leads the next-generation TV technologies for applied research activities. This trend also represents an aggressive growth, showing a very strong research activity in this area in recent years. CAGR appears to be 46.8 per cent since 1994, similar to basic research activities.
+7.3Patents
+
+The growth curve of patents found in USPTO for each year is presented in Figure 15(a) for LCD technologies. In addition, Figure 15(b) illustrates the patent growth curve (overall patents per year) for LCD technologies based on various patent databases, such as USPTO, EPO, JPO, KIPO and CPTO. It is interesting to note that the number of patents granted for LCD technologies has been decreasing from 2009. This may suggest that the area is moving toward saturation level of technology development. For analogy, LCD is selected because it is a similar technology and has already reached at the high level of maturity where the patent count peaked in 2007 and has been recently decreasing over time. For the Fisher-Pry model, the LCD technologies patent outputs from both cases are used.
+
+Finally, Figure 16(a) illustrates the patent growth curve searched in only USPTO for OLED technologies. Shown in Figure 16(b) is the patent growth curve (overall patents per year) for OLED technologies based on five different patent databases same as LCD case. According to the analogy from LCD technologies, OLED technologies present a clear behavior of emerging technologies in the future TV market. Figure 16 (a and b) represents a very similar growth behavior compared to journal outputs. When compared with studies in number of publications, patents are behind of the mature level of LCD technology.
+7.4Compilation of growth curves
+
+After the analysis of the different sources separately, this study attempts to put together all the growth curves to forecast OLED technologies. Presented in Figure 17 (a and b) are the compiled growth curves for OLED technologies. Figure 17 (a) just takes into account the US patents, while as Figure 17 (b) includes five different patent databases, such as USPTO, EPO, JPO, KIPO and CPTO. It is interesting to show the fitted growth curves of patents granted in the USA as well as in five major countries total to predict the level of technology development for OLED TV. It is demonstrated that basic and applied research and commercialization have an association with a time lag. Both figures represent similar pattern of diffusion of OLED TV technology with approximately one-year gap between them in patents. It is significant to note that the time lag difference between major five countries and US patent count in OLED validate the fact that different countries put an emphasis on different research areas based on various factors. According to the graphs, the basic research leads applied research journal publications and both are close to one another. Patent grants follow up next. The forecast using Fisher-Pry curve follows an expected trend – where the process of applied research and patent is preceded by the basic research. In 2026, the OLED technology would seem to reach closely 99 per cent level of maturity in technology development.
+
+The narrow gap between journals and patents indicates not only the intensive research efforts made by universities but also the high interest of the industry to develop and apply OLED technology to a variety of display products. A number of experts regard the OLED technology as the next-generation technology at the TV market. Hence, this interest from companies to develop and exploit it commercially has been continuously growing in recent years. As for OLED technology, journals and patents are published with 2-3 years of lag difference, which is estimated at the critical mass point (50 per cent) by somewhat arbitrary shape. Currently, journals lead initially, followed by patents and lead after 50 per cent growth around 2014 until the maturity level is reached.
+8.Conclusions
+Section: Previous section Next section
+
+This paper attempts to forecast the OLED TV technology by understanding the lag from initial article publication to patent grants as a measurement of the level of technology development using data mining. Fisher-Pry growth curves for journal publications and patents follow the expected sequence. Specifically, journal publications and patents growth curves are close to one another for OLED technologies, indicating strong industry adoption and development. In recent years, there has been found not only a drastic reduction of patents for LCD technologies but also a strong industry adoption for OLED in both literature and patent databases, which imply that the next-generation OLED technology would become a dominant existence in the TV market. A high level of market maturity of the OLED technology would be expected by 2025. This study captures rapidly changing market and technology trends to validate the fact that the energy efficiency of TVs appears to be likely to occur with no additional policy intervention.
+
+For OLED technologies that are closely tied to industrial applications such as electronic display devices, it may be better to use more industry-oriented data mining such as patents, market data, trade shows, the number of companies or startups and so forth. On the other hand, the Fisher-Pry model does not address the level of sales for each technology. Therefore, the comparisons between the Bass model and the Fisher-Pry model would be useful in investigating the market trends of OLED TVs further. Future work is also needed to validate the forecast by using expert decisions and a Delphi technique.
+figure parent remove
+
+Figure 1 Research process
+figure parent remove
+
+Figure 2 Television market trends
+figure parent remove
+
+Figure 3 The trends of global television shipment by technology
+figure parent remove
+
+Figure 4 The trends of global television shipment by screen sizes
+figure parent remove
+
+Figure 5 The trends of sales price by television technology
+figure parent remove
+
+Figure 6 The value chain of television industry
+figure parent remove
+
+Figure 7 Research and development focus of organic light-emitting diode by country
+figure parent remove
+
+Figure 8 Research and development focus of organic light-emitting diode by firm
+figure parent remove
+
+Figure 9 Eco TV; Philips LCD 42PFL5603D
+figure parent remove
+
+Figure 10 Patterns of different S-curves
+figure parent remove
+
+Figure 11 Growth curves for basic research in liquid-crystal display
+figure parent remove
+
+Figure 12 Growth curves for basic research
+figure parent remove
+
+Figure 13 Growth curves for applied research in liquid-crystal display
+figure parent remove
+
+Figure 14 Growth curves for applied research
+figure parent remove
+
+Figure 15 Growth curves for patents in liquid-crystal display
+figure parent remove
+
+Figure 16 Growth curves for patents
+figure parent remove
+
+Figure 17 Compilation of growth curves for OLED technology
+Table 	
+
+Table I The dominance of LCD
+Country 	Company 	Time 	Event
+Japan 	Sharp 	10/1987 	Sold first 3-inch color LCD TV
+1988 	Demonstrated 14-inch full-color LCD
+1991 	Set up LCD plant in the USA
+1996 	Demonstrated 28-inch LCD TV
+1999 	Debut 20-inch LCD TV product line
+2000 	Announced plan to build world’s largest LCD plant
+2002 	Launched 37-inch LCD TV
+2004 	Released 45-inch LCD TV
+2004 	Opened the world’s biggest LCD TV factory in Kameyama
+2005 	Developed 65-inch LCD TV
+2007 	Introduced 108-inch prototype LCD
+2008 	Shifted LCD panel focus to sales to outside companies
+2012 	Sold LCD manufacturing business to Hon Hai Precision Industry
+Toshiba 	1991 	IBM, Toshiba opened LCD plant in Japan
+1996 	Introduced a 20-inch LCD TV
+2002 	Announced joint venture with Matsushita for LCD
+2007 	Announced increase LCD tie with Sharp
+2009 	Formed China joint venture for small LCDs
+2010 	Sold Singapore LCD plant to AUO
+2011 	Agreed to joint venture to manufacture small and mid-size LCD with Sony and Hitachi
+Hitachi 	12/1987 	Sold 5-inch color LCD TV
+2004 	Initiated joint production for LCD with Matsushita and Toshiba
+2006 	Released 32-inch LCD TV
+2008 	Sold LCD unit to Canon
+2011 	Disposed TV business
+NEC Corporation 	1998 	Launched 20.1-inch LCD monitor on market
+2001 	Ceased LCD production
+Panasonic (Matsushita) 	1986 	Introduced 3-inch full-color LCD TV
+2002 	Spin off LCD unit
+Fujitsu 	1995 	Fujitsu and Samsung agreed to exchange LCD technology
+2003 	Form a capital alliance with AUO and developed 30-inch LCD
+2005 	Sold LCD unit to Sharp
+Sony 	2002 	Introduced a 23-inch LCD TV
+2003 	Launched a 30-inch LCD TV
+2003 	Announced joint venture with Samsung Electronics
+2008 	Announced joint venture with Sharp for LCD panel
+2011 	Broke up its strategic relationship with Samsung
+South Korea 	Samsung Electronics 	1995 	Started LCD production for notebook
+1995 	Fujitsu and Samsung agreed to exchange LCD technology
+1998 	Released 21-inch LCD
+2002 	Developed a 40-inch LCD TV
+2003 	Launched 57-inch LCD
+2004 	launched a 50-50 joint venture S-LCD with Sony
+2005 	Demonstrated 82-inch LCD
+2005 	Developed LED-LCD to help battle PDP
+2007 	Released 70-inch LED-LCD TV
+2010 	Started mass production of 3D LED-LCD TV
+2012 	Spin off LCD business
+2013 	Started LCD manufacturing in China
+LG Electronics 	1995 	Established 10-inch displays for its LCD plant
+1999 	Unveiled 15-inch LCD TV
+1999 	Sold 50% stake in LCD business to Philips
+LG Display (LG-Philips) 	2002 	Developed 42-inch LCD TV
+2002 	Created a 52-inch and 55-inch panel
+2003 	Took the lead in LCD production
+2006 	Developed 100-inch LCD panel
+2006 	Launched 42-inch new HD LCD TV
+2007 	Opened LCD cluster in Poland
+2010 	Launched ultra-thin LED-LCD TV
+Sources:
+
+Company; media sources
+
+Table I The dominance of LCD
+Table 	
+
+Table II The end of the era of PDP
+Country 	Company 	Time 	Event
+Japan 	Panasonic (Matsushita) 	1995 	Introduced wall PDP TV
+1998 	Released its first PDP TV
+2002 	Developed a 65-inch PDP set
+2006 	Pledged to fully focus on PDP business
+2008 	Launched 32-inch plasma to capture small size TVs
+12/2009 	Completed new PDP plant in Amagasaki
+10/2011 	Announced downsizing PDP TV plant capacity
+03/2012 	Phase-out of R&D on PDP
+01/2013 	Shut down PDP fab in Shanghai
+03/2014 	Exited PDP TV business
+Fujitsu 	1995 	Announced its strategy focusing on PDP TV
+1999 	Fujitsu and Hitachi launched a venture to make PDP
+2005 	Scaled down PDP TV business
+2007 	Disposed PDP business
+Hitachi 	2005 	Hitachi and Matsushita tied up to develop PDP
+2008 	Disposed PDP TV business
+Toshiba 	2006 	Terminated PDP production
+NEC Corp. 	1995 	Announced construction plan to make PDP
+Pioneer 	1997 	Introduced its first consumer-use 50-inch PDP TV
+2004 	Acquired NEC Corporation’s PDP business
+2009 	Disposed PDP TV business
+South Korea 	LG Electronics 	1998 	Unveiled 60-inch PDP TV
+2003 	Launched world’s biggest PDP plant
+2005 	Launched new PDP line for mass production
+2007 	Increased plasma panel production
+2008 	Switched PDP production to solar battery in A1
+2012 	Discontinued PDP production in A2
+2013 	Launched to four PDP TV models
+11/2014 	Stop producing PDP
+Samsung SDI 	2001 	Announced focusing on PDP business
+2004 	Unveiled 80-inch PDP
+2008 	Passed Matsushita in PDP business
+2012 	Lower the investment in PDP module
+12/2013 	Write-off of PDP business assets
+11/2014 	Exited PDP TV business
+Sources:
+
+Company; media sources
+
+Table II The end of the era of PDP
+Table 	
+
+Table III The emergence of OLED
+Phase 	Year 	Size 	Company 	Note
+Commercialization 	09/2007 	11 inch 	Sony 	$3600
+12/2009 	15 inch 	LG Electronics/LG Philips 	$3000
+Major product lines 	10/2004 	20.1 inch 	LG Electronics/LG display 	
+01/2007 	27.3 inch 	Sony 	
+04/2007 	21 inch 	Toshiba MD 	
+10/2007 	25 inch 	CMEL 	CMO subsidiary
+10/2007 	31 inch 	Samsung SDI 	
+10/2008 	19 inch 	LG Electronics/LG display 	
+10/2008 	40 inch 	Samsung SDI 	
+01/2009 	21 inch 	Sony 	
+10/2009 	31 inch 	SMD 	3D
+05/2010 	19 inch 	SMD 	
+08/2010 	31 inch 	LG Electronics/LG display 	3D
+01/2011 	24.5 inch 	Sony 	3D without glasses
+2012 	55 inch 	Samsung Electronics/LG Electronics 	
+06/2013 	55 inch 	LG Electronics 	Curved, UHD, 4K
+08/2014 	65 inch 	LG Electronics 	
+01/2015 	77 inch 	LG Electronics 	
+Sources:
+
+Company; media sources
+
+Table III The emergence of OLED
+Table 	
+
+Table IV The power consumption by make and model
+Make and model 	Size (inches) 	Type 	Energy cost/year 	Energy cost/month
+Samsung UN32EH4000 	32 	LED 	$9.76 	$0.81
+LG 47LM7600 	47 	LED 	$9.83 	$0.82
+Sony KDL-55W900 	55 	LED 	$13.26 	$1.11
+Toshiba 50L5200U 	50 	LED 	$15.72 	$1.31
+Sony KDL-46EX640 	46 	LED 	$15.98 	$1.33
+Vizio E601i-A3 	60 	LED 	$17.62 	$1.47
+Panasonic TC-L55DT60 	55 	LED 	$20.78 	$1.73
+Sharp LC-80LE632U 	80 	LED 	$26.39 	$2.20
+Samsung PN51E450 	51 	PDP 	$27.48 	$2.29
+Panasonic TC-P50S60 	50 	PDP 	$44.14 	$3.68
+LG 50PM9700 	50 	PDP 	$44.65 	$3.72
+Panasonic TC-P55ST60 	55 	PDP 	$54.73 	$4.56
+Panasonic TC-P65VT50 	65 	PDP 	$81.22 	$6.77
+Source: Katzmaier (2013)
+
+Table IV The power consumption by make and model
+Table 	
+
+Table V Types of growth curves
+Types 	Equations 	Inception 	Reference
+Logistic or Pearl 	Y = L 1 + a e − b t 	1923, 1957 	Robertson (1923) ; Griliches (1957)
+Lotka–Volterra 	d M d t = ( a m − b m M + c m n N ) M , d N d t = ( a n − b n N + c n m M ) N 	1925, 1931 	Lotka (1925) ; Volterra (1931) ; Farrell (1993)
+Gompertz a 	Y = L e − b − k t 	1932 	Winsor (1932)
+Mansfield-Blackman 	ln ⁡ ( Y t L − Y t ) = β 0 + β 0 t 	1961, 1972 	Mansfield (1961) ; Blackman (1972)
+BASS 	y t = [ 1 − e − ( p + q ) t ] [ 1 + e ( q p ) e − ( p + q ) t ] 	1969 	Bass (1969)
+Fisher-Pry 	Y t 1 − Y t = e 2 a ( t − t 0 ) 	1971 	Fisher and Pry (1971)
+Extended Riccati 	y t Y t − 1 = β 0 + β 1 Y t − 1 + β 2 ( 1 Y t − 1 ) + β 3   ln ⁡ ( Y t − 1 ) 	1976 	Levenbach and Reuter (1976)
+Weibull 	ln ⁡ ( ln ⁡ [ L L − Y t ] ) = β 0 + β 1 ln ⁡   t 	1980 	Sharif and Islam (1980)
+NSRL b 	ln ⁡   y t = β 0 + β 1 ln ⁡ ( Y t − 1 ) + β 2 ln ⁡ ( L − Y t − 1 ) 	1981 	Easingwood et al. (1981)
+Harvey 	ln ⁡   y t = β 0 + β 1 t+ β 2 ln ⁡ ( Y t − 1 ) 	1984 	Harvey (1984)
+Notes:
+
+a.   .   Gompertz named after Benjamin Gompertz, an English demographer, who originally proposed the model as a law governing mortality rates in 1825
+
+b.   .   NSRL: non-symmetric responding logistic
+Source: Adapted and modified from Cho and Daim (2013)
+
+Table V Types of growth curves
+Table 	
+
+Table VI Forecasting growth in technology development using the Fisher-Pry model
+L 	Upper growth limit is set by analogy of growth of LCD technology at the saturation level of technology development
+y 	Cumulative number of publications in year t
+Curve-fitting 	Compute ln(y/L − y) in year t by 2013
+B 	Slope of fitted growth curve
+A 	Intercept of fitted growth curve
+Forecasted Yt 	Fitting Fisher-Pry model; Y t = L/(1 + exp(−B × t − A))
+
+Table VI Forecasting growth in technology development using the Fisher-Pry model
+Table 	
+
+Table VII Keywords from experts
+Keywords 	Acronym
+“OLED” or “organic light-emitting diode” or “organic light emitting diode” 	OLED
+“LCD” or “liquid-crystal display” or “liquid crystal display” 	LCD
+“Television” or “TV” or “Display” 	TV
+
+Table VII Keywords from experts
+Table 	
+
+Table VIII Data source for data mining
+R&D stage 	Search query 	Typical source 	Database
+Basic research 	TOPIC: (OLED or (organic light-emitting diode) or (organic light emitting diode)) AND TOPIC: (Television or TV or Display) DOCUMENT TYPES: (REVIEW OR ARTICLE) 	Science citation index 	Web of Science
+Applied research 	(((OLED or (organic light-emitting diode) or (organic light emitting diode)) WN TI) AND ((Television or TV or Display) WN KY)) 	Engineering index 	Compendex
+Development 	EN_TI: (LCD or (liquid-crystal display) or (liquid crystal display)) AND EN_AB:(Television or TV or display) 	Patents 	USPTO, PCT, EPO, JPO, KIPO, CPTO
+
+Table VIII Data source for data mining
+References
+    1.
+    Ayres, R. ( 1969 ), Technological Forecasting and Long-range Planning, McGraw-Hill , New York, NY . OpenURL UTFPR [Google Scholar]
+
+    2.
+    Bardsley, N. , Bland, S. , Chwastyk, D. , Pattison, L. , Pattison, M. , Stober, K. and Yamada, M. ( 2014 ), “ Manufacturing roadmap: solid-state lighting research and development ”, available at: http://apps1.eere.energy.gov/buildings/publications/pdfs/ssl/ssl_mfg_roadmap_aug2014.pdf OpenURL UTFPR [Google Scholar]
+
+    3.
+    Bass, F.M. ( 1969 ), “ A new product growth for model consumer durables ”, Management Science, Vol. 15 No. 5, pp. 215 - 227 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    4.
+    Bass, F.M. ( 2004 ), “ Comments on ‘a new product growth for model consumer durables’: the bass model ”, Management Science, Vol. 50 No. 12, pp. 1833 - 1840 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    5.
+    Blackman, A.W. ( 1972 ), “ A mathematical model for trend forecasts ”, Technological Forecasting and Social Change, Vol. 3, pp. 441 - 452 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    6.
+    Cho, Y. ( 2013 ), “ Investigating the merge of exploratory and normative technology forecasting methods ”, In Technology Management in the IT-Driven Services (PICMET), Proceedings of PICMET’13, IEEE, pp. 2083 - 2092 . OpenURL UTFPR [Google Scholar]
+
+    7.
+    Cho, Y. and Daim, T.U. ( 2013 ), “ Technology forecasting methods ”, Research and Technology Management in the Electricity Industry, Springer , London , pp. 67 - 112 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    8.
+    Cho, Y. , Daim, T.U. and Sklar, P. ( 2015 ), “ Forecasting OLED TV technology using bibliometrics and Fisher-Pry diffusion model ”, in Management of Engineering and Technology (PICMET), 2015 Portland International Conference on, IEEE, pp. 2167 - 2176 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    9.
+    Coombs, R. , Narandren, P. and Richards, A. ( 1996 ), “ A literature-based innovation output indicator ”, Research Policy, Vol. 25 No. 3, pp. 403 - 413 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    10.
+    Desroches, L. and Ganeshalingam, M. ( 2015 ), “ The dynamics of incremental costs of efficient television display technologies ”, Technological Forecasting and Social Change, Vol. 90, pp. 562 - 574 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    11.
+    Easingwood, C. , Mahajan, V. and Muller, E. ( 1981 ), “ A nonsymmetric responding logistic model for forecasting technological substitution ”, Technological Forecasting and Social Change, Vol. 20 No. 3, pp. 199 - 213 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    12.
+    Farrell, C.J. ( 1993 ), “ A theory of technological progress ”, Technological Forecasting and Social Change, Vol. 44 No. 2, pp. 161 - 178 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    13.
+    Feinleib, S. ( 1971 ), “ Technological and market forecasting for a flat screen TV ”, IEEE Transactions on Electron Devices, Vol. 18 No. 9, pp. 786 - 791 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    14.
+    Fisher, J.C. and Pry, R.H. ( 1971 ), “ A simple substitution model of technological change ”, Technological Forecasting and Social Change, Vol. 88 No. 3, pp. 75 - 88 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    15.
+    Fourt, L.A. and Woodlock, J.W. ( 1960 ), “ Prediction market new grocery products ”, Journal of Marketing, Vol. 25 No. 2, pp. 31 - 38 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    16.
+    Gambardella, A. ( 1992 ), “ Competitive advantage from in-house scientific research: the US pharmaceutical industry in the 1980s ”, Research Policy, Vol. 21 No. 5, pp. 391 - 407 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    17.
+    Gather, M.C. , Köhnen, A. and Meerholz, K. ( 2011 ), “ White organic light-emitting diodes ”, Advanced Materials, Vol. 23, No. 2, pp. 233 - 248 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    18.
+    Geelhaar, T. ( 1998 ), “ Liquid crystals for display applications ”, Liquid Crystals, Vol. 24 No. 1, pp. 91 - 98 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    19.
+    Gorn, M.H. ( 1988 ), Harnessing The Genie: Science and Technology Forecasting for Air Force 1944-1986, US Government Printing Office , Washington, DC . OpenURL UTFPR [Google Scholar]
+
+    20.
+    Griliches, Z. ( 1957 ), “ Hybrid corn: an exploration in the economics of technological change ”, Econometrica, Vol. 25 No. 4, pp. 501 - 522 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    21.
+    Halperin, M.R. and Chakrabarti, A.K. ( 1987 ), “ Firm and industry characteristics influencing publications of scientists in large American companies ”, R&D Management, Vol. 17 No. 3, pp. 167 - 173 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    22.
+    Han, C.W. , Kim, K.M. , Bae, S.J. , Choi, H.S. , Lee, J.M. , Kim, T.S. , Tak, Y.H. , Cha, S.Y. and Ahn, B.C. ( 2012 ), “ 55-inch FHD OLED TV employing new tandem WOLEDs ”, SID Symposium Digest of Technical Papers, Vol. 43 No. 1, pp. 279 - 281 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    23.
+    Harvey, A.C. ( 1984 ), “ Time series forecasting based on the logistic curve ”, Journal of Operational Research Society, Vol. 35 No. 7, pp. 641 - 646 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    24.
+    Ishii, Y. ( 2007 ), “ The world of liquid-crystal display TVs: past, present, and future ”, Journal of Display Technology, Vol. 3 No. 4, pp. 351 - 360 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    25.
+    Jantsch, E. ( 1967 ), Technological Forecasting in Perspective: A Framework for Technological Forecasting, its Techniques and Organization, OECD Vol. 21, available at: http://www.datar.gouv.fr/sites/default/files/datar/prevtech-en.pdf OpenURL UTFPR [Google Scholar]
+
+    26.
+    Katzmaier, D. ( 2013 ), “ What you need to know about TV power consumption ”, CNET, available at: www.cnet.com/news/what-you-need-to-know-about-tv-power-consumption OpenURL UTFPR [Google Scholar]
+
+    27.
+    Kawamoto, H. ( 2002 ), “ The history of liquid-crystal displays ”, Proceedings of the IEEE, Vol. 90 No. 4, pp. 460 - 500 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    28.
+    Kreng, V.B. and Wang, H.T. ( 2011 ), “ The competition and equilibrium analysis of LCD TV and PDP TV ”, Technological Forecasting and Social Change, Vol. 78 No. 3, pp. 448 - 457 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    29.
+    Levenbach, H. and Reuter, B.E. ( 1976 ), “ Forecasting trending time series with relative growth rate models ”, Technometrics, Vol. 18 No. 3, pp. 261 - 272 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    30.
+    Losiewicz, P. , Oard, D.W. and Kostoff, R. ( 2000 ), “ Textual data mining to support science and technology management ”, Jounal of Intelligent Information Systems, Vol. 15 No. 2, pp. 99 - 119 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    31.
+    Lotka, A.J. ( 1925 ), Elements of Physical Biology, Williams and Wilkins , Baltimore . OpenURL UTFPR [Google Scholar]
+
+    32.
+    Mahajan, V. , Muller, E. and Bass, F.M. ( 1990 ), “ New product diffusion models in marketing: a review and directions for research ”, Journal of Marketing, Vol. 54, No. 1 (Jan., 1990), pp. 1 - 26 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    33.
+    Mansfield, E. ( 1961 ), “ Technical change and the rate of imitation ”, Econometrica, Vol. 29 No. 4, pp. 741 - 766 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    34.
+    Martino, J.P. ( 1980 ), “ Technological forecasting-an overview ”, Management Science, Vol. 26 No. 1, pp. 28 - 33 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    35.
+    Meade, N. and Islam, T. ( 1998 ), “ Technological forecasting model stability, and model selection, models combining ”, Management Science, Vol. 44 No. 8, pp. 1115 - 1130 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    36.
+    Millett, S.M. and Honton, E.J. ( 1991 ), A Manager’s Guide to Technology Forecasting and Strategy Analysis Methods, Battelle Press , Columbus, OH . OpenURL UTFPR [Google Scholar]
+
+    37.
+    Modis, T. ( 1997 ), “ Genetic re-engineering of corporations ”, Technological Forecasting and Social Change, Vol. 56 No. 2, pp. 107 - 118 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    38.
+    Norton, J.A. and Bass, F.M. ( 1987 ), “ A diffusion theory model of adoption and substitution for successive generations of high-technology products ”, Management Science, Vol. 33 No. 9, pp. 1069 - 1086 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    39.
+    Park, W.Y. , Phadke, A. , Shah, N. and Letschert, V. ( 2013 ), “ Efficiency improvements opportunities in TVs: implications for market transformation ”, Energy Policy, Vol. 59, pp. 361 - 372 . [Crossref] OpenURL UTFPR ,  [Google Scholar]
+
+    40.
+    Philips ( 2008 ), “ Brilliant design, powerful performance ”, available at: www.meijer.com/assets/product_files/pdf/1000615_42PFL5603D27_info.pdf OpenURL UTFPR [Google Scholar]
+
+    41.
+    Robertson, T.B. ( 1923 ), The Chemical Basis of Growth and Senescenc, J.B. Lippincott Company , Philadelphia, London . OpenURL UTFPR [Google Scholar]
+
+    42.
+    Rogers, E.M. ( 1962 ), Diffusion of Innovations, New York, Free Press of Glencoe, pp. 79 - 134 . OpenURL UTFPR [Google Scholar]
+
+    43.
+    Scherer, F.M. ( 1983 ), “ The propensity to patent ”, International Journal of Industrial Organization, Vol. 1 No. 1, p. 107 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    44.
+    Sharif, M.N. and Islam, M.N. ( 1980 ), “ The Weibull distribution as a general model for forecasting technological change ”, Technological Forecasting and Social Change, Vol. 18 No. 3, pp. 247 - 256 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    45.
+    Tague-sutcliffe, J. ( 1992 ), “ An introduction to informetrics ”, Information Processing and Management, Vol. 28 No. 1, pp. 1 - 3 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    46.
+    Tsai, B.H. ( 2013 ), “ Predicting the diffusion of LCD TVs by incorporating price in the extended Gompertz model ”, Technological Forecasting and Social Change, Vol. 80 No. 1, pp. 106 - 131 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    47.
+    Tseng, F.M. , Cheng, A.C. and Peng, Y.N. ( 2009 ), “ Assessing market penetration combining scenario analysis, Delphi, and the technological substitution model: the case of the OLED TV market ”, Technological Forecasting and Social Change, Vol. 76 No. 7, pp. 897 - 909 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    48.
+    Volterra, V. ( 1931 ), Leçons sur la Théorie Mathématique de la Lutte pour la Vie, Gauthier-Villars , Paris . OpenURL UTFPR [Google Scholar]
+
+    49.
+    Weber, L.F. ( 2006 ), “ History of the plasma display panel ”, IEEE Transactions Plasma Science, Vol. 34 No. 2, pp. 268 - 278 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    50.
+    Wilmotte, R. ( 1976 ), “ Technology forecasting TV look-ahead ”, IEEE Spectrum, Vol. 13 No. 2, pp. 34 - 39 . [Crossref] OpenURL UTFPR ,  [Google Scholar] [Infotrieve]
+
+    51.
+    Winsor, C.P. ( 1932 ), “ The Gompertz curve as a growth curve ”, Proceedings of the National Academy of Sciences USA, Vol. 18 No. 2. OpenURL UTFPR [Google Scholar] [Infotrieve]
+
+Corresponding Author
+Section: Previous section
+
+Tugrul Daim can be contacted at: tugrul@etm.pdx.edu
+
+About the author(s)
+
+Yonghee Cho is based at the Department of Engineering and Technology Management, Portland State University, Portland, Oregon, USA.
+
+Tugrul Daim is Professor at the Department of Engineering and Technology Management, Portland State University, Portland, Oregon, USA.
+
+Powered by Google Tradutor Tradutor
+Article Options and Tools
+
+    PDF
+    Abstract
+
+    Citation and Reference
+    More
+
+    Download Citation
+    Track Citations
+    View References (51)
+    Save to Mendeley
+
+Favourites
+Reprints & Permissions
+Journal Information
+Publication Cover
+Foresight
+ISSN: 1463-6689
+Online from: 1999
+Subject Area: Business, Management & Strategy
+
+    Current Issue
+    Available Issues
+    Earlycite
+
+RSS ToC Alert
+This journal is indexed by Clarivate.
+Emerging Sources
+Citation Index
+This journal is indexed by Scopus.
+[Publish open access in this journal.]
+
+    Most read
+    Most cited
+    Related
+
+The most popular papers from this title in the past 7 days:
+
+    The contours of the network society
+    Rebooting science? Implications of science 2.0 main trends for scientific method and research institutions
+    Challenges for science policy in Europe
+    Enlarging Europe through science and education
+    The formal economy and the real world
+
+See more >
+The most cited papers from this title published in the last 3 years. Statistics are updated weekly using participating publisher data sourced exclusively from Crossref.
+
+    More evolution than revolution: transition management in public policy
+    The current state of scenario development: an overview of techniques
+    Knowledge intensive business services: prospects and policies
+    How are foresight methods selected?
+    Six pillars: futures thinking for transforming
+
+See more>
+Find related content
+By Keyword
+
+    Forecasting
+    Technology-led strategy
+    Television
+    Energy consumption
+    Technology forecasting
+    Data mining
+    OLED
+    PDP
+    LCD
+    LED-LCD
+
+By Author
+
+    Cho Yonghee
+    Daim Tugrul
+
+Further Information
+
+    About the Journal
+    Sample Articles
+    Purchase Information
+    Editorial Team
+    Write for this journal
+
+Kudos service for authors
+About Emerald
+
+    About Us
+    Company Information
+    Working for Emerald
+    Contact Us
+    How to Find Us
+
+Policies & Information
+
+    Cookie Policy
+    Privacy Policy
+    Copyright Policy
+    Industry Standards
+    End User Terms
+    Digital Preservation
+    Accessibility
+    Text and Data Mining Licence
+    Modern Slavery Act transparency statement
+
+Emerald Websites
+
+    Emerald Publishing
+    Emerald Group
+    50th Anniversary
+    Emerald Bookstore
+    Emerald Careers
+    The Emerald Foundation
+
+Rights Link Logo Project COUNTER Logo CrossRef Logo
+
+© Copyright 2018 Emerald Publishing Limited
+Website Survey
+Google Tradutor
+Texto original
+Sugerir uma tradução melhor
