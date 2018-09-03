@@ -1,24 +1,24 @@
 @relation Facebook-metrics
 
-@attribute 'Page total likes' numeric
-@attribute Type {Photo,Status,Link,Video}
-@attribute Category numeric
-@attribute 'Post Month' numeric
-@attribute 'Post Weekday' numeric
-@attribute 'Post Hour' numeric
-@attribute Paid numeric
-@attribute 'Lifetime Post Total Reach' numeric
-@attribute 'Lifetime Post Total Impressions' numeric
-@attribute 'Lifetime Engaged Users' numeric
-@attribute 'Lifetime Post Consumers' numeric
-@attribute 'Lifetime Post Consumptions' numeric
-@attribute 'Lifetime Post Impressions by people who have liked your Page' numeric
-@attribute 'Lifetime Post reach by people who like your Page' numeric
-@attribute 'Lifetime People who have liked your Page and engaged with your post' numeric
-@attribute comment numeric
-@attribute like numeric
-@attribute share numeric
-@attribute 'Total Interactions' numeric
+@attribute 'Page total likes' 														NUMERIC
+@attribute Type 																	{Photo, Status, Link, Video}
+@attribute Category 																NUMERIC
+@attribute 'Post Month' 															NUMERIC
+@attribute 'Post Weekday' 															NUMERIC
+@attribute 'Post Hour' 																NUMERIC
+@attribute Paid 																	NUMERIC
+@attribute 'Lifetime Post Total Reach' 												NUMERIC
+@attribute 'Lifetime Post Total Impressions' 										NUMERIC
+@attribute 'Lifetime Engaged Users' 												NUMERIC
+@attribute 'Lifetime Post Consumers' 												NUMERIC
+@attribute 'Lifetime Post Consumptions' 											NUMERIC
+@attribute 'Lifetime Post Impressions by people who have liked your Page' 			NUMERIC
+@attribute 'Lifetime Post reach by people who like your Page' 						NUMERIC
+@attribute 'Lifetime People who have liked your Page and engaged with your post'	NUMERIC
+@attribute comment 																	NUMERIC
+@attribute like 																	NUMERIC
+@attribute share 																	NUMERIC
+@attribute 'Total Interactions' 													NUMERIC
 
 @data
 139441,Photo,2,12,4,3,0,2752,5091,178,109,159,3078,1640,119,4,79,17,100

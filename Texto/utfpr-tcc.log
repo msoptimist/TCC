@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.5)  16 AUG 2018 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.5)  28 AUG 2018 19:33
 entering extended mode
 **./utfpr-tcc.tex
 (utfpr-tcc.tex
@@ -1506,7 +1506,7 @@ l.63 ...ra/textuais/desenvolvimento/redes-sociais}
 
 
 (estrutura/textuais/desenvolvimento/revisao-de-literatura.tex
-(dados/quadros/base-artigos.tex) (dados/tabelas/bases-artigos.tex)) [13
+(dados/quadros/base-artigos.tex) [13
 
 
 
@@ -1515,23 +1515,31 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
+l.32 
+     ] (dados/tabelas/bases-artigos.tex)
+(dados/tabelas/bases-artigos-filtrados.tex)) [14pdfTeX warning (ext4): destinat
+ion with the same identifier (name{table.4.1}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
 l.64 ...ais/desenvolvimento/revisao-de-literatura}
                                                            % Revisão de Lit...
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.64 ...ais/desenvolvimento/revisao-de-literatura}
                                                            % Revisão de Lit...
-]
+] [15]
 \openout2 = `estrutura/textuais/desenvolvimento/metodologia.aux'.
 
- (estrutura/textuais/desenvolvimento/metodologia.tex [14
+ (estrutura/textuais/desenvolvimento/metodologia.tex [16
 
 
 
-]) [15]
+]) [17]
 \openout2 = `estrutura/pos-textuais/referencias.aux'.
 
 
@@ -1541,7 +1549,7 @@ l.64 ...ais/desenvolvimento/revisao-de-literatura}
 
 
 bibitemlist
-)) [16
+)) [18
 
 
 
@@ -1572,10 +1580,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 15970 strings out of 493305
- 245574 string characters out of 3125016
- 417613 words of memory out of 3000000
- 18578 multiletter control sequences out of 15000+200000
+ 16000 strings out of 493305
+ 246220 string characters out of 3125016
+ 418695 words of memory out of 3000000
+ 18595 multiletter control sequences out of 15000+200000
  83211 words of font info for 495 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  44i,21n,40p,1367b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1590,9 +1598,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/User
 s/Gabriel Zawalski/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmssi8.pfb><C:/Users/Gabriel Zawalski/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on utfpr-tcc.pdf (16 pages, 193831 bytes).
+Output written on utfpr-tcc.pdf (18 pages, 203318 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 49873 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 434 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 49929 words of extra memory for PDF output out of 51595 (max. 10000000)
 
