@@ -1,0 +1,101 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SelfOrganizingMap -L 1.0 -O 2000 -C 1000 -H 2 -W 2
+Relation:     Facebook-metrics
+Instances:    500
+Attributes:   8
+              Page total likes
+              Type
+              Category
+              Post Month
+              Post Weekday
+              Post Hour
+              Paid
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+Self Organized Map
+==================
+
+Number of clusters: 4
+
+
+                       Cluster
+Attribute                    0           1           2           3
+                          (95)       (139)        (64)       (202)
+===================================================================
+Page total likes
+  value             109539.6829 117480.7042  99329.0412 131484.6135
+  min                     81370       85979       81370      116091
+  max                    137059      139441      117764      139441
+  mean              114701.4947 123416.9353 101028.4688 134057.7723
+  std. dev.          16810.4511  15281.0261   9429.6091   5280.6266
+
+Type
+  value                  0.0425      0.1893      0.3147      0.2276
+  min                         0           0           0           0
+  max                         2           3           2           3
+  mean                   0.0316      0.2446      0.2969      0.2673
+  std. dev.              0.2284      0.6686      0.7055      0.5883
+
+Category
+  value                  2.9577      1.9056      1.1435      1.5981
+  min                         2           1           1           1
+  max                         3           3           2           3
+  mean                   2.9789      1.8489       1.125      1.6238
+  std. dev.              0.1443      0.8674      0.3333      0.6518
+
+Post Month
+  value                  4.2075      5.7379      2.7941      8.2025
+  min                         1           1           1           5
+  max                        11          12           5          12
+  mean                   5.0421      6.9496      2.9844      9.3218
+  std. dev.              2.5885      3.1261       1.091      2.1418
+
+Post Weekday
+  value                  3.8178      4.2193      4.2269       4.258
+  min                         1           1           1           1
+  max                         7           7           7           7
+  mean                   3.7474      4.1439      4.2031      4.3267
+  std. dev.              2.1634       1.812      1.9694      2.1142
+
+Post Hour
+  value                  8.0985      7.6254       9.618      7.7592
+  min                         1           2           2           1
+  max                        23          22          19          14
+  mean                   8.1789      7.3597      9.6875      7.4257
+  std. dev.              4.7691      4.3188      5.0075      3.8215
+
+Paid
+  value                       0           1           0           0
+  min                         0           1           0           0
+  max                         0           1           0           0
+  mean                        0           1           0           0
+  std. dev.                   0           0           0           0
+
+
+
+Time taken to build model (full training data) : 2.28 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       95 ( 19%)
+1      139 ( 28%)
+2       64 ( 13%)
+3      202 ( 40%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  <-- assigned to cluster
+
+
+Incorrectly clustered instances :	0.0	  0      %
+

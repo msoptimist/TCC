@@ -1,0 +1,16 @@
+ in rbfdot(length = 4, lambda = 0.5) : 
+  unused arguments (length = 4, lambda = 0.5)
+> filter <- ksvm(Lifetime.Post.Total.Reach~., data = train, kernel="rbfdot")
+> filter
+Support Vector Machine object of class "ksvm" 
+
+SV type: eps-svr  (regression) 
+ parameter : epsilon = 0.1  cost C = 1 
+
+Gaussian Radial Basis kernel function. 
+ Hyperparameter : sigma =  0.171963384527185 
+
+Number of Support Vectors : 228 
+
+Objective Function Value : -130.3272 
+Training error : 0.982039 
