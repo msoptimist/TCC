@@ -55,6 +55,12 @@ Dispon{\'\i}vel em:
 {GROUP, M.~M. \textbf{Internet World Stats}.
 Dispon{\'\i}vel em: \url{https://www.internetworldstats.com/stats.htm}.}
 
+\bibitem[Kolehmainen et al. 2004]{kolehmainen2004data}
+\abntrefinfo{Kolehmainen et al.}{KOLEHMAINEN et al.}{2004}
+{KOLEHMAINEN, M.~T. et al. \textbf{Data exploration with self-organizing maps
+  in environmental informatics and bioinformatics}. [S.l.]: Helsinki University
+  of Technology, 2004.}
+
 \bibitem[Kurgand e Musilek 2006]{surveyKDD}
 \abntrefinfo{Kurgand e Musilek}{KURGAND; MUSILEK}{2006}
 {KURGAND, L.~A.; MUSILEK, P. A survey of knowledge discovery and data mining
@@ -78,5 +84,24 @@ Dispon{\'\i}vel em: \url{https://www.internetworldstats.com/stats.htm}.}
 {SOCIAL, W.~A.; HOOTSUITE. \textbf{Global Digital Statshot}.
 Dispon{\'\i}vel em:
   \url{https://wearesocial.com/special-reports/digital-in-2017-global-overview}.}
+
+\bibitem[Ultsch 1990]{ultsch1990kohonen}
+\abntrefinfo{Ultsch}{ULTSCH}{1990}
+{ULTSCH, A. Kohonen's self organizing feature maps for exploratory data
+  analysis.
+\textbf{Proc. INNC90}, p. 305--308, 1990.}
+
+\bibitem[Ultsch, Vetter e Vetter 1995]{ultsch1995self}
+\abntrefinfo{Ultsch, Vetter e Vetter}{ULTSCH; VETTER; VETTER}{1995}
+{ULTSCH, A.; VETTER, C.; VETTER, C. \textbf{Self-Organizing-Feature-Maps versus
+  statistical clustering methods: a benchmark}. [S.l.]: Fachbereich Mathematik,
+  1995.}
+
+\bibitem[Wendel e Buttenfield 2010]{wendel2010formalizing}
+\abntrefinfo{Wendel e Buttenfield}{WENDEL; BUTTENFIELD}{2010}
+{WENDEL, J.; BUTTENFIELD, B.~P. Formalizing guidelines for building meaningful
+  self-organizing maps.
+\textbf{GIScience 2010 Short Paper Proceedings, Zurich, Switzerland,
+  September}, 2010.}
 
 \end{thebibliography}
