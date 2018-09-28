@@ -5,7 +5,39 @@
 
 \section{RESULTADOS DO PROCESSO DE KDD}
 \label{sec:resultadosRegressao}
-Conhecimento retirado do processo de kdd dos dados
+Diversos processos de SOM foram aplicados na base a fim de definir quais seriam bons parâmetros de geração de mapas. Foram feitos mapas com grids 16x7 e 16x16 tanto hexagonais quanto retangulares. Nesses 4 grids foram variados os valores de aprendizagem entre 0.05, 0.25 e 0.5 e números de iterações entre 100, 500 e 1000 interações. Foram gerados 36 gráficos de progressão do treinamento dos mapas para dois grupos distintos, os atributos de entrada e saída da base estudada. 
+
+INPUT
+
+Algumas características interessantes podem ser retiradas destes gráficos: Apesar de 100 iterações serem na maioria das vezes suficientes para encontrar os mesmos valores de distâncias média entre unidades da SOM mais próximos, todos em torno do 0,01, em alguns dos casos não se pode determinar com precisão se os dados chegaram em um platô onde não é mais perceptível variações, podendo indicar que mais interações poderiam resultar em distâncias melhores. Para esse propósito, os testes com 500 interações são mais confiáveis onde podemos claramente ver que alguns dos teste geraram distâncias mais estáveis a medida de mais iterações. De 500 iterações para 1000 iterações não produzem resultados visivelmente melhores para o treinamento do mapa, mas aumentam bastante o tempo de treinamento dos mesmos, então foi feito a preferência pelos testes de 500 iterações.
+
+Podemos notar também que os mapas retangulares demonstram decaimentos em degrau mais acentuados que os hexagonais na maioria dos casos, exceto naqueles com baixas iterações ou taxas de aprendizagem.
+
+padrões de destaque input:
+\begin{enumerate}
+	\item 16x7h 0.5 500 it
+	\item 16x7r 0.5 500 it muito próximo de 16x7r .25 500 it
+	\item 16x7r é sempre bem mais definida do que 16x7r 100
+	\item 16x16h .5 e .25 tanto 500 quanto 1000 it atingiram os valores mais baixos de distânica (<0.010)  porém com maior custo de treinamento
+	\item 100 it não presta, 500 e 1000 não tem muita diferença, 16x16 atingiu menores distâncias do que 16x7, r tem caimento em degrau mais acentuado que h que possui caimento mais acentuado somente nas iterações finais, 0.5 de aprendizagem se mostrou mais eficiente do que o 0.25 porém os dois são bem mais eficientes do que somente 0.05.
+\end{enumerate}
+
+mapa escolhido inputs: 16x16r 0.5 500 it
+
+OUTPUT
+
+De forma geral, provavelmente pela maior dispersão dos dados, os dados mostraram clareza de convergência somente com mais de 500 iterações e muitas vezes somente quando realizados o treinamento com 1000 iterações. Todos os resultados de outputs geraram distâncias menores do que os inputs.
+
+padrões de destaque output:
+\begin{enumerate}
+	\item Para 16x7h 0.05 não é possível perceber nenhum padrão ou convergência clara de menor distância, comente nas 16x7h com 1000 iterações podemos ver uma queda com indicação de estabilidade tanto em 0.5 quanto 0.25 de aprendizagem.
+	\item para 16x7r as 1000 iterações se provaram melhores do que somente 500 iterações com os melhores resultados em 0.5 e 0.25 de aprendizagem
+	\item 16x16h 0.5 500 it é suficiente, porém os outrs casos com 1000 it são bons também
+	\item 16x16h 0.25 1000 it único nessa faixa de aprendizagem
+	\item 16x16r 0.5 é a unica taxa de aprendizagem que mostrou alguma estabilidade das distâncias
+\end{enumerate}
+
+mapa esccolhido para outputs: 16x16r 0.5 500 it
 
 \section{ANÁLISE DOS RESULTADOS}
 \label{sec:analiseResultados}
