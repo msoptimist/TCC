@@ -50,5 +50,8 @@ output.som <- som(output.sc, grid=output.grid, rlen=500, alpha=c(0.5, 0.01))
 #clusterizacaoo hierarquica
 groups = 20
 output.hc = cutree(hclust(dist(getCodes(output.som))), groups)
-plot(output.som, type="codes", bgcol=rainbow(groups)[output.hc])
-add.cluster.boundaries(output.som, output.hc)
+#plot(output.som, type="codes", bgcol=rainbow(groups)[output.hc])
+#add.cluster.boundaries(output.som, output.hc)
+
+class.output <- output.hc[output.som$unit.classif]
+#output$Class <- class.output
